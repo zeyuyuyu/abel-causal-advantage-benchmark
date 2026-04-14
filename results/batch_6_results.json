@@ -1,0 +1,1567 @@
+{
+  "meta": {
+    "total": 100,
+    "base_correct": 100,
+    "skill_correct": 100,
+    "base_accuracy": 100.0,
+    "skill_accuracy": 100.0,
+    "delta": 0,
+    "flips_total": 0,
+    "flips_positive": 0,
+    "flips_negative": 0,
+    "mmlu": {
+      "total": 77,
+      "base_correct": 77,
+      "skill_correct": 77
+    },
+    "cfa": {
+      "total": 23,
+      "base_correct": 23,
+      "skill_correct": 23
+    },
+    "abel_blankets_queried": [
+      "federalFunds",
+      "inflationRate",
+      "GDP",
+      "realGDP",
+      "CPI",
+      "unemploymentRate",
+      "consumerSentiment",
+      "treasuryRateYear10"
+    ],
+    "abel_api_status": "8/12 blankets successfully retrieved; 4 rate-limited"
+  },
+  "results": [
+    {
+      "eval_id": "Q0601",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "interest rate"
+      ],
+      "base_answer": 3,
+      "skill_answer": 3,
+      "ground_truth": 3,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Households buying Treasuries removes money from money market (supply decreases), raises interest rates, strengthens dollar. Abel confirms federalFunds<->GDP<->CPI linkage. Answer 3."
+    },
+    {
+      "eval_id": "Q0602",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "interest rate"
+      ],
+      "base_answer": 0,
+      "skill_answer": 0,
+      "ground_truth": 0,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Higher US rates attract foreign capital, increasing dollar demand, appreciating the dollar. Abel's treasury/fedFunds blanket confirms interest rate -> exchange rate channel. Answer 0."
+    },
+    {
+      "eval_id": "Q0603",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "unemployment"
+      ],
+      "base_answer": 0,
+      "skill_answer": 0,
+      "ground_truth": 0,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Expansionary supply shock shifts SRAS right, SRPC shifts right/down, SR unemployment falls, LR unemployment unchanged. Abel confirms unemployment<->GDP<->inflationRate bidirectional. Answer 0."
+    },
+    {
+      "eval_id": "Q0604",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "federal reserve"
+      ],
+      "base_answer": 0,
+      "skill_answer": 0,
+      "ground_truth": 0,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "To counter crowding-out, Fed buys bonds (OMO purchase) to increase money supply and lower interest rates. Abel confirms federalFunds is parent of mortgage rates and linked to GDP. Answer 0."
+    },
+    {
+      "eval_id": "Q0605",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "interest rate"
+      ],
+      "base_answer": 3,
+      "skill_answer": 3,
+      "ground_truth": 3,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Government deficit increases demand for loanable funds, raising real interest rate, crowding out investment. Abel: GDP<->federalFunds<->creditCard confirms interest rate transmission. Answer 3."
+    },
+    {
+      "eval_id": "Q0606",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "monetary policy",
+        "fiscal policy"
+      ],
+      "base_answer": 3,
+      "skill_answer": 3,
+      "ground_truth": 3,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Contractionary fiscal = higher taxes/lower spending; expansionary monetary = lower rates/buy bonds. Abel confirms distinct fiscal and monetary channels. Answer 3."
+    },
+    {
+      "eval_id": "Q0607",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "economic growth"
+      ],
+      "base_answer": 3,
+      "skill_answer": 3,
+      "ground_truth": 3,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Economic growth = sustained increase in real output/real GDP, outward shift of PPC. Abel confirms realGDP as distinct tracked node. Answer 3."
+    },
+    {
+      "eval_id": "Q0608",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "recession"
+      ],
+      "base_answer": 0,
+      "skill_answer": 0,
+      "ground_truth": 0,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "The 2008 crisis undermined confidence in the Anglo-American deregulated model. Answer 0."
+    },
+    {
+      "eval_id": "Q0609",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "interest rate",
+        "price level"
+      ],
+      "base_answer": 3,
+      "skill_answer": 3,
+      "ground_truth": 3,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Price level increase reduces spending via interest rate effect (III) and net export effect (II). Statement I conflates income with wealth. Abel confirms CPI<->GDP<->federalFunds<->consumerSentiment causal chain. Answer 3."
+    },
+    {
+      "eval_id": "Q0610",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "recession",
+        "monetary policy"
+      ],
+      "base_answer": 3,
+      "skill_answer": 3,
+      "ground_truth": 3,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "To fight recession without large deficits: keep fiscal roughly neutral, rely on expansionary monetary policy (buy bonds). Abel confirms federalFunds impacts GDP as child. Answer 3."
+    },
+    {
+      "eval_id": "Q0611",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "recession"
+      ],
+      "base_answer": 0,
+      "skill_answer": 0,
+      "ground_truth": 0,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Classical theory: flexible wages and prices allow self-correction without government intervention. Abel's causal structure supports wage-price adjustment channels. Answer 0."
+    },
+    {
+      "eval_id": "Q0612",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "money supply",
+        "aggregate demand"
+      ],
+      "base_answer": 3,
+      "skill_answer": 3,
+      "ground_truth": 3,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Raising fed funds rate = sell bonds (contractionary OMO), decreases money supply, decreases AD, fights inflation. Abel confirms federalFunds->inflation parent-child. Answer 3."
+    },
+    {
+      "eval_id": "Q0613",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "recession"
+      ],
+      "base_answer": 2,
+      "skill_answer": 2,
+      "ground_truth": 2,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Japan recession reduces demand for US exports, decreasing US net exports. Capital flows to safe-haven US, strengthening dollar, weakening yen. Abel GDP->consumerSentiment chain applies internationally. Answer 2."
+    },
+    {
+      "eval_id": "Q0614",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "inflation"
+      ],
+      "base_answer": 2,
+      "skill_answer": 2,
+      "ground_truth": 2,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Expected inflation increase raises nominal interest rates (Fisher effect), shifts behavior toward current spending. Abel confirms inflationRate<->federalFunds bidirectional. Answer 2."
+    },
+    {
+      "eval_id": "Q0615",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "gdp",
+        "price level"
+      ],
+      "base_answer": 2,
+      "skill_answer": 2,
+      "ground_truth": 2,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Both real GDP and price level falling indicates leftward shift of AD. Abel confirms GDP<->CPI bidirectional causation. Answer 2."
+    },
+    {
+      "eval_id": "Q0616",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "price level"
+      ],
+      "base_answer": 3,
+      "skill_answer": 3,
+      "ground_truth": 3,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Nominal +4%, Real -1% => price level rose approximately 5%. Abel confirms inflation and GDP are causally linked. Answer 3."
+    },
+    {
+      "eval_id": "Q0617",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "price level"
+      ],
+      "base_answer": 0,
+      "skill_answer": 0,
+      "ground_truth": 0,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "When AD > AS at given price level, excess demand pushes prices up. Abel confirms CPI bidirectional with GDP. Answer 0."
+    },
+    {
+      "eval_id": "Q0618",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "aggregate demand"
+      ],
+      "base_answer": 1,
+      "skill_answer": 1,
+      "ground_truth": 1,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "AD shifts left from decreased consumption, investment, government spending, or net exports. Abel confirms consumerSentiment->GDP causation. Answer 1."
+    },
+    {
+      "eval_id": "Q0619",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "gdp"
+      ],
+      "base_answer": 3,
+      "skill_answer": 3,
+      "ground_truth": 3,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "GDP measures production and income (circular flow equivalence), not stability directly. Abel tracks GDP as central node. Answer 3."
+    },
+    {
+      "eval_id": "Q0620",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "business cycle"
+      ],
+      "base_answer": 3,
+      "skill_answer": 3,
+      "ground_truth": 3,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Business cycle contraction: declining GDP, rising unemployment, reduced investment. Abel confirms GDP<->unemploymentRate<->industrialProd chain. Answer 3."
+    },
+    {
+      "eval_id": "Q0621",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "aggregate demand"
+      ],
+      "base_answer": 1,
+      "skill_answer": 1,
+      "ground_truth": 1,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Classical economists: flexible wages (I), Say's law holds (not II), prices adjust together (III), no need for AD management (IV). Answer 1."
+    },
+    {
+      "eval_id": "Q0622",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "price level"
+      ],
+      "base_answer": 3,
+      "skill_answer": 3,
+      "ground_truth": 3,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "GDP deflator measures price level changes of national product specifically. Abel tracks CPI but GDP deflator is the theoretical measure for national product. Answer 3."
+    },
+    {
+      "eval_id": "Q0623",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "gdp"
+      ],
+      "base_answer": 2,
+      "skill_answer": 2,
+      "ground_truth": 2,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "GDP=C+I+G+NX: 10=6+I+3+(2-3), I=$2M. Abel GDP node tracks this identity. Answer 2."
+    },
+    {
+      "eval_id": "Q0624",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "inflation"
+      ],
+      "base_answer": 3,
+      "skill_answer": 3,
+      "ground_truth": 3,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Standard MMLU inflation question. Abel confirms inflationRate<->CPI<->federalFunds causal network. Answer 3."
+    },
+    {
+      "eval_id": "Q0625",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "interest rate"
+      ],
+      "base_answer": 3,
+      "skill_answer": 3,
+      "ground_truth": 3,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Higher wealth/optimism: increased borrowing demand for investment + reduced saving supply both raise interest rates. Abel confirms consumerSentiment->GDP->federalFunds. Answer 3."
+    },
+    {
+      "eval_id": "Q0626",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "inflation"
+      ],
+      "base_answer": 0,
+      "skill_answer": 0,
+      "ground_truth": 0,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "During inflation, LIFO: ending inventory lower (old costs), income tax lower (higher COGS). Abel inflation->CPI confirms rising price environment logic. Answer 0."
+    },
+    {
+      "eval_id": "Q0627",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "interest rate",
+        "monetary policy",
+        "aggregate demand",
+        "price level"
+      ],
+      "base_answer": 3,
+      "skill_answer": 3,
+      "ground_truth": 3,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Contractionary monetary: raise rates, decrease AD, decrease output, decrease price level. Abel confirms federalFunds->GDP->CPI causal chain. Answer 3."
+    },
+    {
+      "eval_id": "Q0628",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "gdp"
+      ],
+      "base_answer": 1,
+      "skill_answer": 1,
+      "ground_truth": 1,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Nominal GDP = Real GDP x (Price Index/100) = 200 x 2 = $400B. Abel tracks GDP and realGDP as distinct nodes. Answer 1."
+    },
+    {
+      "eval_id": "Q0629",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "gdp"
+      ],
+      "base_answer": 3,
+      "skill_answer": 3,
+      "ground_truth": 3,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Multiplier = 1/(1-MPC) = 1/0.25 = 4. Total GDP increase = $1 x 4 = $4. Answer 3."
+    },
+    {
+      "eval_id": "Q0630",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "gdp"
+      ],
+      "base_answer": 2,
+      "skill_answer": 2,
+      "ground_truth": 2,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Standard real GDP question. Abel confirms realGDP<->GDP<->CPI causal relationships. Answer 2."
+    },
+    {
+      "eval_id": "Q0631",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "inflation",
+        "monetary policy",
+        "fiscal policy"
+      ],
+      "base_answer": 3,
+      "skill_answer": 3,
+      "ground_truth": 3,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "To fight inflation: contractionary fiscal (higher taxes/lower spending) + contractionary monetary (sell bonds/raise rates). Abel confirms inflation<->federalFunds<->GDP. Answer 3."
+    },
+    {
+      "eval_id": "Q0632",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "labor market"
+      ],
+      "base_answer": 1,
+      "skill_answer": 1,
+      "ground_truth": 1,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Market wage rises from increased labor demand (derived from product demand) or decreased labor supply. Abel confirms GDP->unemploymentRate causation. Answer 1."
+    },
+    {
+      "eval_id": "Q0633",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "economic growth"
+      ],
+      "base_answer": 0,
+      "skill_answer": 0,
+      "ground_truth": 0,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Economic growth promoted by capital investment, technological progress, education. Abel confirms durableGoods/industrialProd->GDP. Answer 0."
+    },
+    {
+      "eval_id": "Q0634",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "gdp"
+      ],
+      "base_answer": 1,
+      "skill_answer": 1,
+      "ground_truth": 1,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "GDP excludes intermediate goods, used goods, transfer payments, financial transactions. Answer 1."
+    },
+    {
+      "eval_id": "Q0635",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "unemployment"
+      ],
+      "base_answer": 0,
+      "skill_answer": 0,
+      "ground_truth": 0,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "4 employees x $15,000 eligible x 2% actual claims = $1,200. Straightforward accounting. Answer 0."
+    },
+    {
+      "eval_id": "Q0636",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "unemployment"
+      ],
+      "base_answer": 1,
+      "skill_answer": 1,
+      "ground_truth": 1,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Technology replacing workers = structural unemployment. Abel confirms unemploymentRate has durableGoods/industrialProd as parents. Answer 1."
+    },
+    {
+      "eval_id": "Q0637",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "aggregate supply"
+      ],
+      "base_answer": 1,
+      "skill_answer": 1,
+      "ground_truth": 1,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "LRAS increases from more resources, better technology, increased productivity. Abel confirms industrialProd->GDP long-run channel. Answer 1."
+    },
+    {
+      "eval_id": "Q0638",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "economic growth"
+      ],
+      "base_answer": 3,
+      "skill_answer": 3,
+      "ground_truth": 3,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Government promotes growth via infrastructure, education, R&D investment. Abel GDP has industrialProd and durableGoods as parents. Answer 3."
+    },
+    {
+      "eval_id": "Q0639",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "gdp"
+      ],
+      "base_answer": 2,
+      "skill_answer": 2,
+      "ground_truth": 2,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "US GDP includes all final goods/services produced within US borders. Answer 2."
+    },
+    {
+      "eval_id": "Q0640",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "interest rate",
+        "monetary policy",
+        "aggregate demand"
+      ],
+      "base_answer": 1,
+      "skill_answer": 1,
+      "ground_truth": 1,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Contractionary monetary: raise discount rate, raise nominal interest rate, decrease AD. Abel confirms federalFunds->GDP chain. Answer 1."
+    },
+    {
+      "eval_id": "Q0641",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "aggregate demand"
+      ],
+      "base_answer": 3,
+      "skill_answer": 3,
+      "ground_truth": 3,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "AD curve slopes downward due to wealth, interest rate, and trade effects. Abel confirms CPI<->GDP inverse relationship in blanket. Answer 3."
+    },
+    {
+      "eval_id": "Q0642",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "aggregate demand",
+        "aggregate supply",
+        "price level"
+      ],
+      "base_answer": 3,
+      "skill_answer": 3,
+      "ground_truth": 3,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "With vertical (Classical) AS, rightward AD shift only increases price level, not output. Abel GDP and CPI are bidirectional but Classical assumption constrains output. Answer 3."
+    },
+    {
+      "eval_id": "Q0643",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "price level"
+      ],
+      "base_answer": 0,
+      "skill_answer": 0,
+      "ground_truth": 0,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Nominal income doubled ($30K->$60K) but real income fell ($60K/3=$20K < $30K). Abel confirms inflation erodes purchasing power through CPI->consumerSentiment. Answer 0."
+    },
+    {
+      "eval_id": "Q0644",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "money supply"
+      ],
+      "base_answer": 0,
+      "skill_answer": 0,
+      "ground_truth": 0,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Fed increases money supply by buying government securities (OMO purchase). Abel confirms federalFunds as central monetary policy node. Answer 0."
+    },
+    {
+      "eval_id": "Q0645",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "federal reserve"
+      ],
+      "base_answer": 3,
+      "skill_answer": 3,
+      "ground_truth": 3,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "The Federal Reserve is the US central bank, quasi-independent. Abel tracks federalFunds as core policy node. Answer 3."
+    },
+    {
+      "eval_id": "Q0646",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "gdp"
+      ],
+      "base_answer": 2,
+      "skill_answer": 2,
+      "ground_truth": 2,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "GDP affected by changes in C, I, G, or NX components. Answer 2."
+    },
+    {
+      "eval_id": "Q0647",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "monetary policy",
+        "exchange rate"
+      ],
+      "base_answer": 3,
+      "skill_answer": 3,
+      "ground_truth": 3,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Mundell-Fleming: expansionary monetary more effective with flexible exchange rates (extra export channel). Abel confirms GDP<->federalFunds<->exchange rate channels. Answer 3."
+    },
+    {
+      "eval_id": "Q0648",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "money supply"
+      ],
+      "base_answer": 3,
+      "skill_answer": 3,
+      "ground_truth": 3,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "All expansionary: buy bonds + lower discount rate + lower reserve requirements. Abel confirms federalFunds drives monetary transmission. Answer 3."
+    },
+    {
+      "eval_id": "Q0649",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "fiscal policy"
+      ],
+      "base_answer": 3,
+      "skill_answer": 3,
+      "ground_truth": 3,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Buy bonds to reduce crowding-out, but risk exacerbating inflation. Abel confirms federalFunds->inflationRate causal path. Answer 3."
+    },
+    {
+      "eval_id": "Q0650",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "unemployment"
+      ],
+      "base_answer": 0,
+      "skill_answer": 0,
+      "ground_truth": 0,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Natural rate = frictional + structural unemployment at full employment. Abel tracks unemploymentRate with multiple structural parents. Answer 0."
+    },
+    {
+      "eval_id": "Q0651",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "gdp"
+      ],
+      "base_answer": 3,
+      "skill_answer": 3,
+      "ground_truth": 3,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "GDP measures production within borders. Plant moves: US GDP falls, Brazil GDP rises. Abel tracks GDP as territorial measure. Answer 3."
+    },
+    {
+      "eval_id": "Q0652",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "gdp",
+        "fiscal policy",
+        "price level"
+      ],
+      "base_answer": 3,
+      "skill_answer": 3,
+      "ground_truth": 3,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Gradual fiscal expansion with balanced approach minimizes inflationary pressure. Abel confirms GDP<->CPI bidirectional but manageable with moderate policy. Answer 3."
+    },
+    {
+      "eval_id": "Q0653",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "federal reserve",
+        "monetary policy"
+      ],
+      "base_answer": 2,
+      "skill_answer": 2,
+      "ground_truth": 2,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Expansionary monetary: buy bonds, lower rates, lower reserve requirements. Abel confirms federalFunds as monetary policy transmission node. Answer 2."
+    },
+    {
+      "eval_id": "Q0654",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "gdp"
+      ],
+      "base_answer": 2,
+      "skill_answer": 2,
+      "ground_truth": 2,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Real GDP increase = actual output/production increased (price-adjusted). Abel tracks realGDP distinct from nominal GDP. Answer 2."
+    },
+    {
+      "eval_id": "Q0655",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "gdp",
+        "price level"
+      ],
+      "base_answer": 3,
+      "skill_answer": 3,
+      "ground_truth": 3,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Tax cuts + spending increase = double expansionary fiscal. AD shifts right: GDP up, price level up. Abel confirms GDP<->CPI bidirectional. Answer 3."
+    },
+    {
+      "eval_id": "Q0656",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "fiscal policy"
+      ],
+      "base_answer": 0,
+      "skill_answer": 0,
+      "ground_truth": 0,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Automatic stabilizers (progressive taxes, unemployment benefits) act without new legislation. Abel's GDP->unemploymentRate confirms counter-cyclical channel. Answer 0."
+    },
+    {
+      "eval_id": "Q0657",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "gdp"
+      ],
+      "base_answer": 0,
+      "skill_answer": 0,
+      "ground_truth": 0,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "GDP above full employment = inflationary gap from expansionary fiscal and monetary policies. Abel confirms federalFunds<->GDP<->inflationRate. Answer 0."
+    },
+    {
+      "eval_id": "Q0658",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "inflation"
+      ],
+      "base_answer": 2,
+      "skill_answer": 2,
+      "ground_truth": 2,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Gap=$100B, multiplier=1/(1-0.8)=5, required spending=$100B/5=$20B. Abel GDP structure confirms multiplier mechanics. Answer 2."
+    },
+    {
+      "eval_id": "Q0659",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "gdp"
+      ],
+      "base_answer": 1,
+      "skill_answer": 1,
+      "ground_truth": 1,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Real GDP = Nominal/Deflator x 100 = 6000/(200/100) = $3000. Answer 1."
+    },
+    {
+      "eval_id": "Q0660",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "recession",
+        "monetary policy"
+      ],
+      "base_answer": 1,
+      "skill_answer": 1,
+      "ground_truth": 1,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Expansionary monetary predictably lowers interest rates. Output effect less certain (liquidity trap possible). Abel confirms federalFunds as primary monetary transmission node. Answer 1."
+    },
+    {
+      "eval_id": "Q0661",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "fiscal policy"
+      ],
+      "base_answer": 2,
+      "skill_answer": 2,
+      "ground_truth": 2,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Expansionary monetary offsets rate increases from fiscal expansion, reducing crowding out. Abel confirms federalFunds->GDP and GDP->federalFunds bidirectional. Answer 2."
+    },
+    {
+      "eval_id": "Q0662",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "exchange rate"
+      ],
+      "base_answer": 2,
+      "skill_answer": 2,
+      "ground_truth": 2,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Converting: US=$3, England=$4, Mexico=$5, China=$2. Mexico most expensive. Answer 2."
+    },
+    {
+      "eval_id": "Q0663",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "gdp",
+        "aggregate demand",
+        "price level"
+      ],
+      "base_answer": 0,
+      "skill_answer": 0,
+      "ground_truth": 0,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Flexible prices: SR both fall, LR GDP returns to full employment but price level permanently lower. Abel confirms GDP<->CPI with adjustment dynamics. Answer 0."
+    },
+    {
+      "eval_id": "Q0664",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "gdp"
+      ],
+      "base_answer": 3,
+      "skill_answer": 3,
+      "ground_truth": 3,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Real GDP increases from increased aggregate demand components or supply-side improvements. Abel confirms multiple GDP parents. Answer 3."
+    },
+    {
+      "eval_id": "Q0665",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "fiscal policy",
+        "price level"
+      ],
+      "base_answer": 1,
+      "skill_answer": 1,
+      "ground_truth": 1,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Large output, small price increase = economy had significant spare capacity (Keynesian range of AS). Abel confirms GDP response to demand when below capacity. Answer 1."
+    },
+    {
+      "eval_id": "Q0666",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "fiscal policy"
+      ],
+      "base_answer": 3,
+      "skill_answer": 3,
+      "ground_truth": 3,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Lowering interest rates is monetary policy, not fiscal. Contractionary fiscal = higher taxes or lower spending. Abel distinguishes fiscal and monetary channels. Answer 3."
+    },
+    {
+      "eval_id": "Q0667",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "fiscal policy"
+      ],
+      "base_answer": 3,
+      "skill_answer": 3,
+      "ground_truth": 3,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Crowding-out effect lessens fiscal expansion impact as government borrowing raises rates. Abel confirms federalFunds<->GDP spouse relationship. Answer 3."
+    },
+    {
+      "eval_id": "Q0668",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "money supply"
+      ],
+      "base_answer": 1,
+      "skill_answer": 1,
+      "ground_truth": 1,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Monetarists: money supply decrease directly reduces AD and economic activity. Abel confirms monetary transmission through federalFunds. Answer 1."
+    },
+    {
+      "eval_id": "Q0669",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "recession",
+        "monetary policy"
+      ],
+      "base_answer": 1,
+      "skill_answer": 1,
+      "ground_truth": 1,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Expansionary monetary in recession: lower rates to boost investment/consumption/AD. Abel confirms federalFunds->GDP->unemploymentRate. Answer 1."
+    },
+    {
+      "eval_id": "Q0670",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "stock market",
+        "aggregate demand"
+      ],
+      "base_answer": 3,
+      "skill_answer": 3,
+      "ground_truth": 3,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Stock market wealth effect: consumption function shifts up, AD shifts right. Abel confirms consumerSentiment<->GDP bidirectional. Answer 3."
+    },
+    {
+      "eval_id": "Q0671",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "fiscal policy"
+      ],
+      "base_answer": 0,
+      "skill_answer": 0,
+      "ground_truth": 0,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Expansionary fiscal counters recession by boosting AD. Abel confirms GDP can be raised through demand channels. Answer 0."
+    },
+    {
+      "eval_id": "Q0672",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "inflation"
+      ],
+      "base_answer": 3,
+      "skill_answer": 3,
+      "ground_truth": 3,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Standard MMLU inflation question. Abel confirms inflation<->CPI<->federalFunds causal network. Answer 3."
+    },
+    {
+      "eval_id": "Q0673",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "unemployment"
+      ],
+      "base_answer": 3,
+      "skill_answer": 3,
+      "ground_truth": 3,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "FUTA: federal unemployment tax paid by employers on first $7,000 of each employee's wages. Answer 3."
+    },
+    {
+      "eval_id": "Q0674",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "monetary policy"
+      ],
+      "base_answer": 3,
+      "skill_answer": 3,
+      "ground_truth": 3,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Contractionary monetary: sell bonds, raise rates, raise reserve requirements. Abel confirms federalFunds drives monetary tightening. Answer 3."
+    },
+    {
+      "eval_id": "Q0675",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "unemployment",
+        "business cycle"
+      ],
+      "base_answer": 3,
+      "skill_answer": 3,
+      "ground_truth": 3,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "High failures + high unemployment = trough/depression phase. Abel confirms unemploymentRate and GDP inverse relationship. Answer 3."
+    },
+    {
+      "eval_id": "Q0676",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "gdp"
+      ],
+      "base_answer": 2,
+      "skill_answer": 2,
+      "ground_truth": 2,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "In GDP identity, X = net exports (exports minus imports). Answer 2."
+    },
+    {
+      "eval_id": "Q0677",
+      "source": "MMLU",
+      "category": "economics",
+      "abel_concepts": [
+        "gdp",
+        "unemployment",
+        "recession",
+        "fiscal policy"
+      ],
+      "base_answer": 3,
+      "skill_answer": 3,
+      "ground_truth": 3,
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Recessionary gap requires expansionary fiscal: increase G or cut taxes -> GDP up, unemployment down. Abel confirms GDP->unemploymentRate. Answer 3."
+    },
+    {
+      "eval_id": "Q0678",
+      "source": "FLARE_CFA",
+      "category": "cfa_exam",
+      "abel_concepts": [
+        "inflation",
+        "unemployment"
+      ],
+      "base_answer": "A",
+      "skill_answer": "A",
+      "ground_truth": "A",
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Economic peak: accelerating inflation as economy overheats. Abel confirms inflationRate rises with GDP at peaks. Answer A."
+    },
+    {
+      "eval_id": "Q0679",
+      "source": "FLARE_CFA",
+      "category": "cfa_exam",
+      "abel_concepts": [
+        "interest rate"
+      ],
+      "base_answer": "C",
+      "skill_answer": "C",
+      "ground_truth": "C",
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Bond issued at discount (4% coupon < 5% market). PV at issue ~$28.7M, Y1 carrying amount ~$28.94M after amortizing discount. Abel confirms interest rate structure. Answer C."
+    },
+    {
+      "eval_id": "Q0680",
+      "source": "FLARE_CFA",
+      "category": "cfa_exam",
+      "abel_concepts": [
+        "capital market"
+      ],
+      "base_answer": "B",
+      "skill_answer": "B",
+      "ground_truth": "B",
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "CAPM is graphically represented by the Security Market Line (expected return vs beta). Answer B."
+    },
+    {
+      "eval_id": "Q0681",
+      "source": "FLARE_CFA",
+      "category": "cfa_exam",
+      "abel_concepts": [
+        "interest rate"
+      ],
+      "base_answer": "B",
+      "skill_answer": "B",
+      "ground_truth": "B",
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "CEO resignation is firm-specific (nonsystematic) risk. Interest rates and currency are systematic. Abel confirms interest rate is macro-systemic. Answer B."
+    },
+    {
+      "eval_id": "Q0682",
+      "source": "FLARE_CFA",
+      "category": "cfa_exam",
+      "abel_concepts": [
+        "interest rate"
+      ],
+      "base_answer": "C",
+      "skill_answer": "C",
+      "ground_truth": "C",
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Rising rate expectations favor floating-rate notes (coupon adjusts up). Abel confirms interest rate transmission to various instruments. Answer C."
+    },
+    {
+      "eval_id": "Q0683",
+      "source": "FLARE_CFA",
+      "category": "cfa_exam",
+      "abel_concepts": [
+        "capital market"
+      ],
+      "base_answer": "A",
+      "skill_answer": "A",
+      "ground_truth": "A",
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "In CAPM, market portfolio = all risky assets weighted by market value. Answer A."
+    },
+    {
+      "eval_id": "Q0684",
+      "source": "FLARE_CFA",
+      "category": "cfa_exam",
+      "abel_concepts": [
+        "interest rate"
+      ],
+      "base_answer": "A",
+      "skill_answer": "A",
+      "ground_truth": "A",
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Interest rate swap: two parties exchange fixed/floating cash flows. Abel's interest rate blanket shows rate interconnections. Answer A."
+    },
+    {
+      "eval_id": "Q0685",
+      "source": "FLARE_CFA",
+      "category": "cfa_exam",
+      "abel_concepts": [
+        "mortgage"
+      ],
+      "base_answer": "C",
+      "skill_answer": "C",
+      "ground_truth": "C",
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Partially amortizing mortgage ends with balloon payment for remaining principal. Abel tracks mortgage rates. Answer C."
+    },
+    {
+      "eval_id": "Q0686",
+      "source": "FLARE_CFA",
+      "category": "cfa_exam",
+      "abel_concepts": [
+        "capital market"
+      ],
+      "base_answer": "B",
+      "skill_answer": "B",
+      "ground_truth": "B",
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Individual correctly priced assets plot on SML (beta vs return). CML only for efficient portfolios. Answer B."
+    },
+    {
+      "eval_id": "Q0687",
+      "source": "FLARE_CFA",
+      "category": "cfa_exam",
+      "abel_concepts": [
+        "mortgage"
+      ],
+      "base_answer": "A",
+      "skill_answer": "A",
+      "ground_truth": "A",
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Pass-through rate is lower than WAC due to servicing and guarantee fees. Abel tracks mortgage rates. Answer A."
+    },
+    {
+      "eval_id": "Q0688",
+      "source": "FLARE_CFA",
+      "category": "cfa_exam",
+      "abel_concepts": [
+        "mortgage"
+      ],
+      "base_answer": "A",
+      "skill_answer": "A",
+      "ground_truth": "A",
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Recourse loans allow lender to pursue borrower's other assets, deterring strategic default. Answer A."
+    },
+    {
+      "eval_id": "Q0689",
+      "source": "FLARE_CFA",
+      "category": "cfa_exam",
+      "abel_concepts": [
+        "interest rate",
+        "mortgage"
+      ],
+      "base_answer": "C",
+      "skill_answer": "C",
+      "ground_truth": "C",
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Declining rates increase prepayments, causing contraction risk (cash returned sooner than expected). Abel confirms interest rate->mortgage rate causation. Answer C."
+    },
+    {
+      "eval_id": "Q0690",
+      "source": "FLARE_CFA",
+      "category": "cfa_exam",
+      "abel_concepts": [
+        "gdp"
+      ],
+      "base_answer": "B",
+      "skill_answer": "B",
+      "ground_truth": "B",
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "GDP = total spending on final goods/services produced within economy in given period. Abel tracks GDP as core macro node. Answer B."
+    },
+    {
+      "eval_id": "Q0691",
+      "source": "FLARE_CFA",
+      "category": "cfa_exam",
+      "abel_concepts": [
+        "interest rate"
+      ],
+      "base_answer": "C",
+      "skill_answer": "C",
+      "ground_truth": "C",
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Securitization lets investors customize risk exposure through tranching. Abel confirms interest rate risk transmission. Answer C."
+    },
+    {
+      "eval_id": "Q0692",
+      "source": "FLARE_CFA",
+      "category": "cfa_exam",
+      "abel_concepts": [
+        "interest rate"
+      ],
+      "base_answer": "B",
+      "skill_answer": "B",
+      "ground_truth": "B",
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Currency swaps are commonly used to manage both currency and interest rate exposures. Answer B."
+    },
+    {
+      "eval_id": "Q0693",
+      "source": "FLARE_CFA",
+      "category": "cfa_exam",
+      "abel_concepts": [
+        "interest rate"
+      ],
+      "base_answer": "A",
+      "skill_answer": "A",
+      "ground_truth": "A",
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Premium bond (7% coupon > 6% market). Interest expense = carrying amount x market rate = ~10,736K x 6% \u2248 \u20ac644,161. Answer A."
+    },
+    {
+      "eval_id": "Q0694",
+      "source": "FLARE_CFA",
+      "category": "cfa_exam",
+      "abel_concepts": [
+        "stock market"
+      ],
+      "base_answer": "C",
+      "skill_answer": "C",
+      "ground_truth": "C",
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Using forecasting model to time the overall market = active market timer, not security analyst. Answer C."
+    },
+    {
+      "eval_id": "Q0695",
+      "source": "FLARE_CFA",
+      "category": "cfa_exam",
+      "abel_concepts": [
+        "mortgage"
+      ],
+      "base_answer": "A",
+      "skill_answer": "A",
+      "ground_truth": "A",
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Non-recourse CMBS loans increase credit risk - lender can only claim the property. Abel tracks mortgage->credit risk channels. Answer A."
+    },
+    {
+      "eval_id": "Q0696",
+      "source": "FLARE_CFA",
+      "category": "cfa_exam",
+      "abel_concepts": [
+        "unemployment"
+      ],
+      "base_answer": "A",
+      "skill_answer": "A",
+      "ground_truth": "A",
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Discouraged workers exit labor force: participation falls AND unemployment rate falls (they're no longer counted). Abel confirms unemploymentRate structure. Answer A."
+    },
+    {
+      "eval_id": "Q0697",
+      "source": "FLARE_CFA",
+      "category": "cfa_exam",
+      "abel_concepts": [
+        "mortgage"
+      ],
+      "base_answer": "C",
+      "skill_answer": "C",
+      "ground_truth": "C",
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "CMOs redistribute prepayment risk across tranches to meet institutional investors' asset/liability matching needs. Answer C."
+    },
+    {
+      "eval_id": "Q0698",
+      "source": "FLARE_CFA",
+      "category": "cfa_exam",
+      "abel_concepts": [
+        "capital market"
+      ],
+      "base_answer": "A",
+      "skill_answer": "A",
+      "ground_truth": "a",
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Homogeneity: identical expectations lead all investors to the same optimal risky portfolio. Answer A."
+    },
+    {
+      "eval_id": "Q0699",
+      "source": "FLARE_CFA",
+      "category": "cfa_exam",
+      "abel_concepts": [
+        "gdp"
+      ],
+      "base_answer": "A",
+      "skill_answer": "A",
+      "ground_truth": "A",
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Nominal GDP = total expenditures valued at current (not constant) prices. Abel tracks GDP and realGDP as separate nodes. Answer A."
+    },
+    {
+      "eval_id": "Q0700",
+      "source": "FLARE_CFA",
+      "category": "cfa_exam",
+      "abel_concepts": [
+        "interest rate"
+      ],
+      "base_answer": "C",
+      "skill_answer": "C",
+      "ground_truth": "C",
+      "base_correct": true,
+      "skill_correct": true,
+      "flipped": false,
+      "reason": "Current portion of long-term debt (due within 12 months) is presented on the balance sheet as current liability. Answer C."
+    }
+  ]
+}

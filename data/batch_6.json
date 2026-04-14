@@ -1,0 +1,1133 @@
+[
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "Suppose that households increase the demand for U.S. Treasury bonds as financial assets. Which of the following accurately describes changes in the money market the interest rate and the value of the dollar in foreign currency markets? MONEY MARKET     INTEREST RATE     DOLLAR",
+  "ground_truth": 3,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0601"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "If interest rates rise in the United States relative to other nations then",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0602"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "Suppose the economy is in long-run equilibrium when a temporary expansionary supply shock is felt in the economy. This changes the short-run Phillips curve the short-run unemployment rate and the long-run unemployment rate in which of the following ways? SHORT-RUN PHILLIPS CURVE     SHORT-RUN UNEMPLOYMENT     LONG-RUN UNEMPLOYMENT",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "unemployment"
+  ],
+  "eval_id": "Q0603"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "If the Federal Reserve was concerned about the \"crowding-out\" effect they could engage in",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "federal reserve"
+  ],
+  "eval_id": "Q0604"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "An increase in the federal deficit may affect the demand for loan funds and therefore the real interest rate and investment spending. Which of the following gives the correct direction of these effects? Demand for loanable funds      Real interest rate      Investment spending",
+  "ground_truth": 3,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0605"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "Which of the following represents a combination of contractionary fiscal and expansionary monetary policy? FISCAL POLICY     MONETARY POLICY",
+  "ground_truth": 3,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "monetary policy",
+   "fiscal policy"
+  ],
+  "eval_id": "Q0606"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "Economic growth is best described as",
+  "ground_truth": 3,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "economic growth"
+  ],
+  "eval_id": "Q0607"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "The Anglo-American model being considered the best model in light of the recession in the late 2000s.",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "recession"
+  ],
+  "eval_id": "Q0608"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "An increase in the price level reduces total spending in the economy because I. consumers' incomes cannot go as far now that prices have risen. II. foreigners by less. III. higher prices result in higher interest rates which lower spending.",
+  "ground_truth": 3,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate",
+   "price level"
+  ],
+  "eval_id": "Q0609"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "How would fiscal and monetary policymakers combine spending tax and monetary policy to fight a recessionary gap while avoiding large budget deficits? SPENDING POLICY     TAX POLICY     MONETARY POLICY",
+  "ground_truth": 3,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "recession",
+   "monetary policy"
+  ],
+  "eval_id": "Q0610"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "According to Classical analysis an economy in a recession can return to full employment through",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "recession"
+  ],
+  "eval_id": "Q0611"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "To move the economy closer to full employment the central bank decides that the federal funds rate must be increased. The appropriate open market operation is to ______ which ______ the money supply ______ aggregate demand and fights ______. OMO     MONEY SUPPLY     AD     TO FIGHT",
+  "ground_truth": 3,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "money supply",
+   "aggregate demand"
+  ],
+  "eval_id": "Q0612"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "If the Japanese economy suffers a deep prolonged recession in what ways would U.S. net exports and the values of the dollar and yen change? U.S. NET EXPORTS     VALUE OF DOLLAR     VALUE OF YEN",
+  "ground_truth": 2,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "recession"
+  ],
+  "eval_id": "Q0613"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "If the inflation rate is expected to increase in the immediate future then",
+  "ground_truth": 2,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation"
+  ],
+  "eval_id": "Q0614"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "If the economy experienced a decrease in real GDP and price level this could best be explained by",
+  "ground_truth": 2,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp",
+   "price level"
+  ],
+  "eval_id": "Q0615"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "If your nominal income rises 4 percent and your real income falls 1 percent by how much did the price level change?",
+  "ground_truth": 3,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "price level"
+  ],
+  "eval_id": "Q0616"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "If the economy is in disequilibrium where the price level is such that the aggregate quantity of products demanded exceeds the aggregate quantity of products supplied then",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "price level"
+  ],
+  "eval_id": "Q0617"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "Which of the following would shift the aggregate demand curve to the left?",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "aggregate demand"
+  ],
+  "eval_id": "Q0618"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "GDP measures a country's level of I. production. II. stability. III. income.",
+  "ground_truth": 3,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0619"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "Which of the following is true of a typical contraction of the business cycle?",
+  "ground_truth": 3,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "business cycle"
+  ],
+  "eval_id": "Q0620"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "Classical economists generally believe that I.   wages fluctuate quickly II.   Say's law does not hold III.   input and output prices will stay in line with each other IV.   the government should not worry about maintaining aggregate demand at an adequate level",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "aggregate demand"
+  ],
+  "eval_id": "Q0621"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "Which of the following best measures changes in the price level of national product?",
+  "ground_truth": 3,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "price level"
+  ],
+  "eval_id": "Q0622"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "GDP is $10 million consumer spending is $6 million government spending is $3 million exports are $2 million and imports are $3 million. How much is spent for investments?",
+  "ground_truth": 2,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0623"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "MMLU high_school_macroeconomics Inflation",
+  "ground_truth": 3,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation"
+  ],
+  "eval_id": "Q0624"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "Higher levels of consumer wealth and optimism would likely have which of the following changes in the market for loanable funds? MARKET FOR LOANABLE FUNDS     INTEREST RATE",
+  "ground_truth": 3,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0625"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "Mast Co. converted from the FIFO method for inventory valuation to the LIFO method for financial statement and tax purposes. During a period of inflation would Mast's ending inventory and income tax payable using LIFO be higher or lower than FIFO? Ending inventory Income tax payable",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation"
+  ],
+  "eval_id": "Q0626"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "A contractionary monetary policy will cause the nominal interest rate aggregate demand output and the price level to change in which of the following ways? NOMINAL INTEREST RATE     AGGREGATE DEMAND     OUTPUT     PRICE LEVEL",
+  "ground_truth": 3,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate",
+   "monetary policy",
+   "aggregate demand",
+   "price level"
+  ],
+  "eval_id": "Q0627"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "If Real GDP = $200 billion and the price index = 200 Nominal GDP is",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0628"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "Suppose that Tiger Woods buys a golf ball in England for $1 and the marginal propensity to consume in England is 0.75. What is the total increase in England's real GDP resulting from Mr. Woods' purchase?",
+  "ground_truth": 3,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0629"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "MMLU high_school_macroeconomics Real GDP",
+  "ground_truth": 2,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0630"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "Suppose that elected officials and the central bank agree to combine fiscal and monetary policies to lessen the threat of inflation. Which of the following combinations would likely accomplish this goal? FISCAL POLICY     MONETARY POLICY",
+  "ground_truth": 3,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation",
+   "monetary policy",
+   "fiscal policy"
+  ],
+  "eval_id": "Q0631"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "A competitive labor market is currently in equilibrium. Which of the following most likely increases the market wage?",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "labor market"
+  ],
+  "eval_id": "Q0632"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "Which of the following will promote economic growth?",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "economic growth"
+  ],
+  "eval_id": "Q0633"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "Which of the following is NOT included in GDP?",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0634"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "Under state law Boca Co. may reimburse the state directly for actual unemployment claims or it may pay 3% of eligible gross wages. Boca believes that actual unemployment claims will be 2% of eligible gross wages and has chosen to reimburse the state. Eligible gross wages are defined as the first $15000 of gross wages paid to each employee. Boca had four employees each of whom earned $20000 during ",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "unemployment"
+  ],
+  "eval_id": "Q0635"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "For years you work as a grocery checker at a supermarket and one day you are replaced by self-serve checkout stations. What type of unemployment is this?",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "unemployment"
+  ],
+  "eval_id": "Q0636"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "Long-run aggregate supply is most likely to increase as the result of",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "aggregate supply"
+  ],
+  "eval_id": "Q0637"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "The government can promote economic growth by",
+  "ground_truth": 3,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "economic growth"
+  ],
+  "eval_id": "Q0638"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "Which of the following would be included in U.S. GDP calculations?",
+  "ground_truth": 2,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0639"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "Contractionary monetary policy implies which of the following about the discount rate the nominal interest rate and aggregate demand? Discount rate      Nominal interest rate      Aggregate demand",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate",
+   "monetary policy",
+   "aggregate demand"
+  ],
+  "eval_id": "Q0640"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "The aggregate demand curve is",
+  "ground_truth": 3,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "aggregate demand"
+  ],
+  "eval_id": "Q0641"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "What will happen to the equilibrium price level and the equilibrium quantity of output if the aggregate demand curve shifts to the right? Assume a Classical aggregate supply curve.",
+  "ground_truth": 3,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "aggregate demand",
+   "aggregate supply",
+   "price level"
+  ],
+  "eval_id": "Q0642"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "In a given period the average price level in the country of Sherwood tripled and Robin's income increased from $30000 to $60000. What happened to Robin's nominal and real income? Nominal Income     Real Income",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "price level"
+  ],
+  "eval_id": "Q0643"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "Which of the following is a tool used by the Fed to increase the money supply?",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "money supply"
+  ],
+  "eval_id": "Q0644"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "The Federal Reserve is",
+  "ground_truth": 3,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "federal reserve"
+  ],
+  "eval_id": "Q0645"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "Which of the following will have an effect on GDP?",
+  "ground_truth": 2,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0646"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "Economy X is an open economy with flexible exchange rates. Economy Y is closed. Ceteris paribus expansionary monetary policy is",
+  "ground_truth": 3,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "monetary policy",
+   "exchange rate"
+  ],
+  "eval_id": "Q0647"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "Which of the following lists contains only Fed actions that will increase the money supply?",
+  "ground_truth": 3,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "money supply"
+  ],
+  "eval_id": "Q0648"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "Congress has embarked on another round of expansionary fiscal policy to boost employment and get reelected. As chair of the central bank how would you reduce the \"crowding-out\" effect and what macroeconomic problem might your policy exacerbate?",
+  "ground_truth": 3,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "fiscal policy"
+  ],
+  "eval_id": "Q0649"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "The natural rate of unemployment",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "unemployment"
+  ],
+  "eval_id": "Q0650"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "An American firm moves a manufacturing plant from the United States to Brazil. How will this affect gross domestic product (GDP) in the United States and in Brazil?",
+  "ground_truth": 3,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0651"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "Which of the following fiscal policy combinations would be most likely to slowly increase real GDP without putting tremendous upward pressure on the price level?",
+  "ground_truth": 3,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp",
+   "fiscal policy",
+   "price level"
+  ],
+  "eval_id": "Q0652"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "Which of the following is an example of expansionary monetary policy for the Federal Reserve?",
+  "ground_truth": 2,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "federal reserve",
+   "monetary policy"
+  ],
+  "eval_id": "Q0653"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "Suppose real GDP increases. We can conclude without a doubt that",
+  "ground_truth": 2,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0654"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "Suppose the President plans to cut taxes for consumers and also plans to increase spending on the military. How does this affect real GDP and the price level?",
+  "ground_truth": 3,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp",
+   "price level"
+  ],
+  "eval_id": "Q0655"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "Which of the following is true of automatic fiscal policy stabilizers?",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "fiscal policy"
+  ],
+  "eval_id": "Q0656"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "If current real GDP is $5000 and full employment real GDP is at $4000 which of the following combinations of policies is the most likely to have brought the economy to this point?",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0657"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "The full-employment gross domestic product is $1.3 trillion, and the actual gross domestic product is $1.2 trillion. The marginal propensity to consume is 0.8. When inflation is ignored, what increase in government expenditures is necessary to produce full employment?",
+  "ground_truth": 2,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation"
+  ],
+  "eval_id": "Q0658"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "If nominal GDP equals $6000 and the GDP deflator equals 200 then real GDP equals",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0659"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "Which of the following is a predictable advantage of expansionary monetary policy in a recession?",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "recession",
+   "monetary policy"
+  ],
+  "eval_id": "Q0660"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "In order to reduce or eliminate crowding out expansionary fiscal policy can be accompanied by",
+  "ground_truth": 2,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "fiscal policy"
+  ],
+  "eval_id": "Q0661"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "Suppose the exchange rates are 0.5 British Pound per dollar; 10 Mexican Pesos per dollar; and 100 Chinese Yuan per dollar. Further suppose that a Big Mac costs 3 dollars in America; 2 pounds in England; 50 pesos in Mexico; and 200 yuan in China. In which country is a Big Mac most expensive?",
+  "ground_truth": 2,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "exchange rate"
+  ],
+  "eval_id": "Q0662"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "The economy is currently operating at full employment. Assuming flexible wages and prices how would a decline in aggregate demand affect GDP and the price level in the short run and GDP and the price level in the long run? SHORT-RUN GDP     SHORT-RUN PRICE LEVEL     LONG-RUN GDP     LONG-RUN PRICE LEVEL",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp",
+   "aggregate demand",
+   "price level"
+  ],
+  "eval_id": "Q0663"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "Which of the following events most likely increases real GDP?",
+  "ground_truth": 3,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0664"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "Suppose that an expansionary fiscal policy leads to a large increase in real output and a small increase in the price level. From this it can be inferred that",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "fiscal policy",
+   "price level"
+  ],
+  "eval_id": "Q0665"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "Which of the following would not be an example of contractionary fiscal policy?",
+  "ground_truth": 3,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "fiscal policy"
+  ],
+  "eval_id": "Q0666"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "Which of the following lessens the impact of expansionary fiscal policy?",
+  "ground_truth": 3,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "fiscal policy"
+  ],
+  "eval_id": "Q0667"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "According to monetarist analysis a decrease in the money supply would",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "money supply"
+  ],
+  "eval_id": "Q0668"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "In a recession expansionary monetary policy is designed to",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "recession",
+   "monetary policy"
+  ],
+  "eval_id": "Q0669"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "A stronger stock market is likely to cause which of the following changes in the consumption function and aggregate demand? CONSUMPTION FUNCTION     AGGREGATE DEMAND",
+  "ground_truth": 3,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "stock market",
+   "aggregate demand"
+  ],
+  "eval_id": "Q0670"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "Expansionary fiscal policy would best be prescribed to",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "fiscal policy"
+  ],
+  "eval_id": "Q0671"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "MMLU high_school_macroeconomics Inflation",
+  "ground_truth": 3,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation"
+  ],
+  "eval_id": "Q0672"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "Which of the following statements is correct regarding the Federal Unemployment Tax Act?",
+  "ground_truth": 3,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "unemployment"
+  ],
+  "eval_id": "Q0673"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "Which of the following is an example of contractionary monetary policy?",
+  "ground_truth": 3,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "monetary policy"
+  ],
+  "eval_id": "Q0674"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "When there are high levels of business failures and unemployment, the business cycle is said to be in which of the following phases?",
+  "ground_truth": 3,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "unemployment",
+   "business cycle"
+  ],
+  "eval_id": "Q0675"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "In the equation GDP = C + I + G + X X stands for",
+  "ground_truth": 2,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0676"
+ },
+ {
+  "source": "MMLU",
+  "category": "economics",
+  "question": "If the economy were experiencing a recessionary gap choose the option below that would be an appropriate fiscal policy to eliminate the gap and the predicted impact of the policy on real GDP and unemployment. FISCAL POLICY     REAL GDP     UNEMPLOYMENT",
+  "ground_truth": 3,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp",
+   "unemployment",
+   "recession",
+   "fiscal policy"
+  ],
+  "eval_id": "Q0677"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:An economic peak is most closely associated with:,CHOICES: A: accelerating inflation.,B: stable unemployment.,C: declining capital spending.",
+  "ground_truth": "A",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation",
+   "unemployment"
+  ],
+  "eval_id": "Q0678"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:A company issues $30,000,000 face value of five-year bonds dated 1 January 2015 when the market interest rate on bonds of comparable risk and terms is 5%. The bonds pay 4% interest annually on 31 December. Based on the effective interest rate method, the carrying amount of the bonds on 31 December 2015 is closest to:,CHOICES: A: $28,466,099.,B: $28,800,000.,C: $28,936,215.",
+  "ground_truth": "C",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0679"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:The graph of the capital asset pricing model is the:,CHOICES: A: capital market line.,B: security market line.,C: security characteristic line.",
+  "ground_truth": "B",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "capital market"
+  ],
+  "eval_id": "Q0680"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:Which of the following events is most likely an example of nonsystematic risk?,CHOICES: A: decline in interest rates.,B: The resignation of chief executive officer.,C: An increase in the value of the US dollar.",
+  "ground_truth": "B",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0681"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:Investors who believe that interest rates will rise most likely prefer to invest in:,CHOICES: A: inverse floaters.,B: fixed-rate  bonds.,C: floating-rate  notes.",
+  "ground_truth": "C",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0682"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:Which of the following statements most accurately defines the market portfolio in capital market theory? The market portfolio consists of all:,CHOICES: A: risky assets.,B: tradable assets.,C: investable assets",
+  "ground_truth": "A",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "capital market"
+  ],
+  "eval_id": "Q0683"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:An interest rate swap is a derivative contract in which:,CHOICES: A: two parties agree to exchange a series of cash flows.,B: the credit seller provides protection to the credit buyer.,C: the buyer has the right to purchase the underlying from the seller.",
+  "ground_truth": "A",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0684"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:The last payment in a partially amortizing residential mortgage loan is best referred to as a:,CHOICES: A: waterfall.,B: principal repayment.,C: balloon payment.",
+  "ground_truth": "C",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0685"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:With respect to capital market theory, correctly priced individual assets can be \nplotted on the:,CHOICES: A: capital market line.,B: security market line.,C: capital allocation line.",
+  "ground_truth": "B",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "capital market"
+  ],
+  "eval_id": "Q0686"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:Compared with the weighted average coupon rate of its underlying pool of mortgages, the pass-through rate on a mortgage pass-through security is:,CHOICES: A: lower.,B: the same.,C: higher.",
+  "ground_truth": "A",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0687"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:Which of the following characteristics of a residential mortgage loan would best protect the lender from a strategic default by the borrower?,CHOICES: A: Recourse,B: A prepayment option,C: Interest-only payments",
+  "ground_truth": "A",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0688"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:For a mortgage pass-through security, which of the following risks most likely increases as interest rates decline?,CHOICES: A: Balloon,B: Extension,C: ontraction",
+  "ground_truth": "C",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate",
+   "mortgage"
+  ],
+  "eval_id": "Q0689"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:Which of the following statements is the most appropriate description of gross domestic product (GDP)?,CHOICES: A: The total income earned by all households, firms, and the government whose value can be verified,B: The total amount spent on all final goods and services produced within the economy during a given period,C: The total market value of resalable and final goods and services produced w",
+  "ground_truth": "B",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0690"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:Securitization benefits financial markets by:,CHOICES: A: increasing the role of intermediaries.,B: establishing a barrier between investors and originating borrowers.,C: allowing investors to tailor credit risk and interest rate risk exposures to meet their individual needs.",
+  "ground_truth": "C",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0691"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:Currency swaps are:,CHOICES: A: rarely used.,B: commonly used to manage interest rate risk.,C: executed by two parties making a series of interest rate payments in the same currency.",
+  "ground_truth": "B",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0692"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:A company issues €10,000,000 face value of 10-year bonds dated 1 January 2015 when the market interest rate on bonds of comparable risk and terms is 6%. The bonds pay 7% interest annually on 31 December. Based on the effective interest rate method, the interest expense on 31 December 2015 is closest to:,CHOICES: A: €644,161.,B: €700,000.,C: €751,521",
+  "ground_truth": "A",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0693"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:Akihiko Takabe has designed a sophisticated forecasting model, which predicts the movements in the overall stock market, in the hope of earning a return in excess of a fair return for the risk involved. He uses the predictions of the model to decide whether to buy, hold, or sell the shares of an index fund that aims to replicate the movements of the stock market. Takabe would best be characteriz",
+  "ground_truth": "C",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "stock market"
+  ],
+  "eval_id": "Q0694"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:Credit risk is an important consideration for commercial mortgage-backed securities (CMBS) if the CMBS are backed by mortgage loans that:,CHOICES: A: are  non-recourse.,B: have call protection.,C: have prepayment penalty points.",
+  "ground_truth": "A",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0695"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:A decrease in both the labor force participation ratio and the unemployment rate is most likely caused by:,CHOICES: A: an increase in discouraged workers.,B: an increase in underemployed workers.,C: a decrease in voluntarily unemployed persons.",
+  "ground_truth": "A",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "unemployment"
+  ],
+  "eval_id": "Q0696"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:Which of the following is most likely an advantage of collateralized mortgage obligations (CMOs)? CMOs can,CHOICES: A: eliminate prepayment risk.,B: be created directly from a pool of mortgage loans.,C: meet the asset/liability requirements of institutional investors.",
+  "ground_truth": "C",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0697"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:With respect to capital market theory, which of the following statements bestdescribes the effect of the homogeneity assumption? Because all investors have the same economic expectations of future cash flows for all assets, investors will invest in:,CHOICES: A: the same optimal risky portfolio.,B: the Standard and Poor’s 500 Index.,C: assets with the same amount of risk.",
+  "ground_truth": "a",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "capital market"
+  ],
+  "eval_id": "Q0698"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:The most accurate description of nominal GDP is:,CHOICES: A: a measure of total expenditures at current prices.,B: the value of goods and services at constant prices.,C: a measure to compare one nation's economy to another.",
+  "ground_truth": "A",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0699"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:Regarding a company’s debt obligations, which of the following is most likely presented on the balance sheet?,CHOICES: A: Effective interest rate,B: Maturity dates for debt obligations,C: The portion of long-term debt due in the next 12 months",
+  "ground_truth": "C",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0700"
+ }
+]

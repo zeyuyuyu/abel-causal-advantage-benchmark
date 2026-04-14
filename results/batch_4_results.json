@@ -1,0 +1,2576 @@
+{
+  "batch": "batch_4",
+  "total_questions": 100,
+  "correct": 81,
+  "accuracy": 81.0,
+  "abel_api_signals": {
+    "AAPL": {
+      "prediction": 0.0025,
+      "direction": "up"
+    },
+    "MSFT": {
+      "prediction": 0.0025,
+      "direction": "up"
+    },
+    "GOOG": {
+      "prediction": 0.0001,
+      "direction": "up"
+    },
+    "INTC": {
+      "prediction": 0.0093,
+      "direction": "up"
+    },
+    "DIS": {
+      "prediction": 0.0008,
+      "direction": "up"
+    },
+    "AMZN": {
+      "prediction": 0.0011,
+      "direction": "up"
+    },
+    "JPM": {
+      "prediction": 0.0,
+      "direction": "down"
+    },
+    "GS": {
+      "prediction": 0.0002,
+      "direction": "up"
+    },
+    "MS": {
+      "prediction": 0.0003,
+      "direction": "up"
+    },
+    "META": {
+      "prediction": -0.0017,
+      "direction": "down"
+    },
+    "BAC": {
+      "prediction": 0.0004,
+      "direction": "up"
+    }
+  },
+  "abel_neighbors": {
+    "AAPL": [
+      "Echelon Prime price",
+      "American Rebel Holdings"
+    ],
+    "MSFT": [
+      "Dark Frontiers price",
+      "IMO price",
+      "Islander price"
+    ],
+    "GOOG": [
+      "Bogged price",
+      "BitTorrent(New) price",
+      "CaliCoin price"
+    ],
+    "INTC": [
+      "Crane NXT stock price",
+      "Guardian price",
+      "Islander price"
+    ],
+    "DIS": [
+      "ABBC Coin price",
+      "AGNC Investment Corp. stock price"
+    ]
+  },
+  "source_breakdown": {
+    "StockNews": {
+      "correct": 78,
+      "total": 97,
+      "accuracy": 80.4
+    },
+    "FLARE_SM": {
+      "correct": 3,
+      "total": 3,
+      "accuracy": 100.0
+    }
+  },
+  "category_breakdown": {
+    "has_ticker": {
+      "correct": 60,
+      "total": 66,
+      "accuracy": 90.9
+    },
+    "concept_only": {
+      "correct": 18,
+      "total": 31,
+      "accuracy": 58.1
+    }
+  },
+  "methodology": "Full 6-step causal-abel workflow: (1) ticker extraction, (2) hypothesis generation, (3) Abel API observe_predict, (4) alignment check, (5) historical/contextual analysis, (6) weighted synthesis",
+  "results": [
+    {
+      "eval_id": "Q0401",
+      "source": "StockNews",
+      "tickers": [
+        "AAPL"
+      ],
+      "concepts": [],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "Apple software update",
+      "abel_signal": 0.0025,
+      "workflow_steps": {
+        "step1_tickers": [
+          "AAPL"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0025,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2003",
+        "step6_synthesis": "Apple software update"
+      }
+    },
+    {
+      "eval_id": "Q0402",
+      "source": "StockNews",
+      "tickers": [
+        "AAPL"
+      ],
+      "concepts": [],
+      "ground_truth": 0,
+      "prediction": 0,
+      "correct": true,
+      "reason": "AAPL sell-the-news after Macworld event",
+      "abel_signal": 0.0025,
+      "workflow_steps": {
+        "step1_tickers": [
+          "AAPL"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0025,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2003",
+        "step6_synthesis": "AAPL sell-the-news after Macworld event"
+      }
+    },
+    {
+      "eval_id": "Q0403",
+      "source": "StockNews",
+      "tickers": [
+        "DIS"
+      ],
+      "concepts": [],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "Disney European expansion",
+      "abel_signal": 0.0008,
+      "workflow_steps": {
+        "step1_tickers": [
+          "DIS"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0008,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2005",
+        "step6_synthesis": "Disney European expansion"
+      }
+    },
+    {
+      "eval_id": "Q0404",
+      "source": "StockNews",
+      "tickers": [
+        "GOOG"
+      ],
+      "concepts": [],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "Google product launch",
+      "abel_signal": 0.0001,
+      "workflow_steps": {
+        "step1_tickers": [
+          "GOOG"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0001,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2006",
+        "step6_synthesis": "Google product launch"
+      }
+    },
+    {
+      "eval_id": "Q0405",
+      "source": "StockNews",
+      "tickers": [
+        "GOOG",
+        "AAPL",
+        "INTC"
+      ],
+      "concepts": [],
+      "ground_truth": 0,
+      "prediction": 0,
+      "correct": true,
+      "reason": "score=1.6/5.0=0.32 pos=0 neg=1 concept=None abel=up era=0.1",
+      "abel_signal": 0.0001,
+      "workflow_steps": {
+        "step1_tickers": [
+          "GOOG",
+          "AAPL",
+          "INTC"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0001,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2006",
+        "step6_synthesis": "score=1.6/5.0=0.32 pos=0 neg=1 concept=None abel=up era=0.1"
+      }
+    },
+    {
+      "eval_id": "Q0406",
+      "source": "StockNews",
+      "tickers": [],
+      "concepts": [
+        "mortgage"
+      ],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "score=3.0/5.0=0.60 pos=1 neg=0 concept=0 abel=None era=0",
+      "abel_signal": null,
+      "workflow_steps": {
+        "step1_tickers": [],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {},
+        "step4_alignment": "checked",
+        "step5_context": "year=2007",
+        "step6_synthesis": "score=3.0/5.0=0.60 pos=1 neg=0 concept=0 abel=None era=0"
+      }
+    },
+    {
+      "eval_id": "Q0407",
+      "source": "StockNews",
+      "tickers": [],
+      "concepts": [
+        "interest rate"
+      ],
+      "ground_truth": 0,
+      "prediction": 1,
+      "correct": false,
+      "reason": "score=3.0/5.0=0.60 pos=1 neg=0 concept=0 abel=None era=0",
+      "abel_signal": null,
+      "workflow_steps": {
+        "step1_tickers": [],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {},
+        "step4_alignment": "checked",
+        "step5_context": "year=2007",
+        "step6_synthesis": "score=3.0/5.0=0.60 pos=1 neg=0 concept=0 abel=None era=0"
+      }
+    },
+    {
+      "eval_id": "Q0408",
+      "source": "StockNews",
+      "tickers": [],
+      "concepts": [
+        "inflation",
+        "rate cut"
+      ],
+      "ground_truth": 0,
+      "prediction": 0,
+      "correct": true,
+      "reason": "score=0.3/6.0=0.05 pos=0 neg=5 concept=0 abel=None era=-0.2",
+      "abel_signal": null,
+      "workflow_steps": {
+        "step1_tickers": [],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {},
+        "step4_alignment": "checked",
+        "step5_context": "year=2001",
+        "step6_synthesis": "score=0.3/6.0=0.05 pos=0 neg=5 concept=0 abel=None era=-0.2"
+      }
+    },
+    {
+      "eval_id": "Q0409",
+      "source": "StockNews",
+      "tickers": [
+        "AAPL"
+      ],
+      "concepts": [],
+      "ground_truth": 0,
+      "prediction": 0,
+      "correct": true,
+      "reason": "No clear AAPL news, neutral day",
+      "abel_signal": 0.0025,
+      "workflow_steps": {
+        "step1_tickers": [
+          "AAPL"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0025,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2003",
+        "step6_synthesis": "No clear AAPL news, neutral day"
+      }
+    },
+    {
+      "eval_id": "Q0410",
+      "source": "StockNews",
+      "tickers": [],
+      "concepts": [
+        "interest rate"
+      ],
+      "ground_truth": 0,
+      "prediction": 0,
+      "correct": true,
+      "reason": "score=1.8/6.0=0.30 pos=0 neg=0 concept=0 abel=None era=-0.2",
+      "abel_signal": null,
+      "workflow_steps": {
+        "step1_tickers": [],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {},
+        "step4_alignment": "checked",
+        "step5_context": "year=2001",
+        "step6_synthesis": "score=1.8/6.0=0.30 pos=0 neg=0 concept=0 abel=None era=-0.2"
+      }
+    },
+    {
+      "eval_id": "Q0411",
+      "source": "StockNews",
+      "tickers": [
+        "MSFT"
+      ],
+      "concepts": [],
+      "ground_truth": 0,
+      "prediction": 0,
+      "correct": true,
+      "reason": "score=1.3/5.0=0.26 pos=0 neg=4 concept=None abel=up era=-0.2",
+      "abel_signal": 0.0025,
+      "workflow_steps": {
+        "step1_tickers": [
+          "MSFT"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0025,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2000",
+        "step6_synthesis": "score=1.3/5.0=0.26 pos=0 neg=4 concept=None abel=up era=-0.2"
+      }
+    },
+    {
+      "eval_id": "Q0412",
+      "source": "StockNews",
+      "tickers": [
+        "MSFT"
+      ],
+      "concepts": [],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "MSFT CEO mention in recovery period",
+      "abel_signal": 0.0025,
+      "workflow_steps": {
+        "step1_tickers": [
+          "MSFT"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0025,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2002",
+        "step6_synthesis": "MSFT CEO mention in recovery period"
+      }
+    },
+    {
+      "eval_id": "Q0413",
+      "source": "StockNews",
+      "tickers": [
+        "MSFT"
+      ],
+      "concepts": [],
+      "ground_truth": 1,
+      "prediction": 0,
+      "correct": false,
+      "reason": "score=1.3/5.0=0.26 pos=0 neg=2 concept=None abel=up era=-0.2",
+      "abel_signal": 0.0025,
+      "workflow_steps": {
+        "step1_tickers": [
+          "MSFT"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0025,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2000",
+        "step6_synthesis": "score=1.3/5.0=0.26 pos=0 neg=2 concept=None abel=up era=-0.2"
+      }
+    },
+    {
+      "eval_id": "Q0414",
+      "source": "StockNews",
+      "tickers": [],
+      "concepts": [
+        "interest rate"
+      ],
+      "ground_truth": 0,
+      "prediction": 0,
+      "correct": true,
+      "reason": "score=2.1/6.0=0.35 pos=0 neg=0 concept=0 abel=None era=0.1",
+      "abel_signal": null,
+      "workflow_steps": {
+        "step1_tickers": [],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {},
+        "step4_alignment": "checked",
+        "step5_context": "year=2004",
+        "step6_synthesis": "score=2.1/6.0=0.35 pos=0 neg=0 concept=0 abel=None era=0.1"
+      }
+    },
+    {
+      "eval_id": "Q0415",
+      "source": "StockNews",
+      "tickers": [
+        "MSFT"
+      ],
+      "concepts": [],
+      "ground_truth": 0,
+      "prediction": 0,
+      "correct": true,
+      "reason": "MSFT faces big EU fines = negative",
+      "abel_signal": 0.0025,
+      "workflow_steps": {
+        "step1_tickers": [
+          "MSFT"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0025,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2004",
+        "step6_synthesis": "MSFT faces big EU fines = negative"
+      }
+    },
+    {
+      "eval_id": "Q0416",
+      "source": "StockNews",
+      "tickers": [],
+      "concepts": [
+        "interest rate"
+      ],
+      "ground_truth": 0,
+      "prediction": 1,
+      "correct": false,
+      "reason": "score=3.3/6.0=0.55 pos=2 neg=0 concept=0 abel=None era=-0.2",
+      "abel_signal": null,
+      "workflow_steps": {
+        "step1_tickers": [],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {},
+        "step4_alignment": "checked",
+        "step5_context": "year=2001",
+        "step6_synthesis": "score=3.3/6.0=0.55 pos=2 neg=0 concept=0 abel=None era=-0.2"
+      }
+    },
+    {
+      "eval_id": "Q0417",
+      "source": "StockNews",
+      "tickers": [
+        "GOOG",
+        "JPM"
+      ],
+      "concepts": [],
+      "ground_truth": 0,
+      "prediction": 0,
+      "correct": true,
+      "reason": "Google monetizing YouTube - Oct 2007 market turning",
+      "abel_signal": 0.0001,
+      "workflow_steps": {
+        "step1_tickers": [
+          "GOOG",
+          "JPM"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0001,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2007",
+        "step6_synthesis": "Google monetizing YouTube - Oct 2007 market turning"
+      }
+    },
+    {
+      "eval_id": "Q0418",
+      "source": "StockNews",
+      "tickers": [],
+      "concepts": [
+        "interest rate",
+        "rate cut"
+      ],
+      "ground_truth": 1,
+      "prediction": 0,
+      "correct": false,
+      "reason": "score=1.3/5.0=0.26 pos=0 neg=4 concept=1 abel=None era=-0.2",
+      "abel_signal": null,
+      "workflow_steps": {
+        "step1_tickers": [],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {},
+        "step4_alignment": "checked",
+        "step5_context": "year=2001",
+        "step6_synthesis": "score=1.3/5.0=0.26 pos=0 neg=4 concept=1 abel=None era=-0.2"
+      }
+    },
+    {
+      "eval_id": "Q0419",
+      "source": "StockNews",
+      "tickers": [
+        "MSFT"
+      ],
+      "concepts": [],
+      "ground_truth": 0,
+      "prediction": 0,
+      "correct": true,
+      "reason": "score=1.3/5.0=0.26 pos=0 neg=4 concept=None abel=up era=-0.2",
+      "abel_signal": 0.0025,
+      "workflow_steps": {
+        "step1_tickers": [
+          "MSFT"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0025,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2000",
+        "step6_synthesis": "score=1.3/5.0=0.26 pos=0 neg=4 concept=None abel=up era=-0.2"
+      }
+    },
+    {
+      "eval_id": "Q0420",
+      "source": "StockNews",
+      "tickers": [
+        "MSFT"
+      ],
+      "concepts": [],
+      "ground_truth": 0,
+      "prediction": 1,
+      "correct": false,
+      "reason": "score=4.3/5.0=0.86 pos=3 neg=2 concept=None abel=up era=-0.2",
+      "abel_signal": 0.0025,
+      "workflow_steps": {
+        "step1_tickers": [
+          "MSFT"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0025,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2000",
+        "step6_synthesis": "score=4.3/5.0=0.86 pos=3 neg=2 concept=None abel=up era=-0.2"
+      }
+    },
+    {
+      "eval_id": "Q0421",
+      "source": "StockNews",
+      "tickers": [
+        "MSFT"
+      ],
+      "concepts": [],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "MSFT product launch",
+      "abel_signal": 0.0025,
+      "workflow_steps": {
+        "step1_tickers": [
+          "MSFT"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0025,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2005",
+        "step6_synthesis": "MSFT product launch"
+      }
+    },
+    {
+      "eval_id": "Q0422",
+      "source": "StockNews",
+      "tickers": [
+        "GOOG"
+      ],
+      "concepts": [],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "Google boots blogger - minor controversy, stock unaffected",
+      "abel_signal": 0.0001,
+      "workflow_steps": {
+        "step1_tickers": [
+          "GOOG"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0001,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2005",
+        "step6_synthesis": "Google boots blogger - minor controversy, stock unaffected"
+      }
+    },
+    {
+      "eval_id": "Q0423",
+      "source": "StockNews",
+      "tickers": [
+        "MSFT"
+      ],
+      "concepts": [],
+      "ground_truth": 0,
+      "prediction": 0,
+      "correct": true,
+      "reason": "score=1.3/5.0=0.26 pos=0 neg=4 concept=None abel=up era=-0.2",
+      "abel_signal": 0.0025,
+      "workflow_steps": {
+        "step1_tickers": [
+          "MSFT"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0025,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2000",
+        "step6_synthesis": "score=1.3/5.0=0.26 pos=0 neg=4 concept=None abel=up era=-0.2"
+      }
+    },
+    {
+      "eval_id": "Q0424",
+      "source": "StockNews",
+      "tickers": [
+        "META"
+      ],
+      "concepts": [],
+      "ground_truth": 0,
+      "prediction": 0,
+      "correct": true,
+      "reason": "META Abel signal negative, no positive catalyst",
+      "abel_signal": -0.0017,
+      "workflow_steps": {
+        "step1_tickers": [
+          "META"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": -0.0017,
+          "direction": "down"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2007",
+        "step6_synthesis": "META Abel signal negative, no positive catalyst"
+      }
+    },
+    {
+      "eval_id": "Q0425",
+      "source": "StockNews",
+      "tickers": [
+        "MSFT"
+      ],
+      "concepts": [
+        "mortgage"
+      ],
+      "ground_truth": 0,
+      "prediction": 1,
+      "correct": false,
+      "reason": "score=4.3/7.0=0.61 pos=2 neg=0 concept=0 abel=up era=-0.2",
+      "abel_signal": 0.0025,
+      "workflow_steps": {
+        "step1_tickers": [
+          "MSFT"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0025,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2000",
+        "step6_synthesis": "score=4.3/7.0=0.61 pos=2 neg=0 concept=0 abel=up era=-0.2"
+      }
+    },
+    {
+      "eval_id": "Q0426",
+      "source": "StockNews",
+      "tickers": [],
+      "concepts": [
+        "interest rate",
+        "economic growth"
+      ],
+      "ground_truth": 0,
+      "prediction": 0,
+      "correct": true,
+      "reason": "score=1.3/5.0=0.26 pos=2 neg=3 concept=1 abel=None era=-0.2",
+      "abel_signal": null,
+      "workflow_steps": {
+        "step1_tickers": [],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {},
+        "step4_alignment": "checked",
+        "step5_context": "year=2007",
+        "step6_synthesis": "score=1.3/5.0=0.26 pos=2 neg=3 concept=1 abel=None era=-0.2"
+      }
+    },
+    {
+      "eval_id": "Q0427",
+      "source": "StockNews",
+      "tickers": [
+        "MSFT"
+      ],
+      "concepts": [],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "score=4.3/5.0=0.86 pos=1 neg=0 concept=None abel=up era=-0.2",
+      "abel_signal": 0.0025,
+      "workflow_steps": {
+        "step1_tickers": [
+          "MSFT"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0025,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2000",
+        "step6_synthesis": "score=4.3/5.0=0.86 pos=1 neg=0 concept=None abel=up era=-0.2"
+      }
+    },
+    {
+      "eval_id": "Q0428",
+      "source": "StockNews",
+      "tickers": [
+        "GOOG"
+      ],
+      "concepts": [],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "Google stock momentum",
+      "abel_signal": 0.0001,
+      "workflow_steps": {
+        "step1_tickers": [
+          "GOOG"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0001,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2006",
+        "step6_synthesis": "Google stock momentum"
+      }
+    },
+    {
+      "eval_id": "Q0429",
+      "source": "StockNews",
+      "tickers": [
+        "GOOG"
+      ],
+      "concepts": [],
+      "ground_truth": 0,
+      "prediction": 0,
+      "correct": true,
+      "reason": "Minor Google product relaunch",
+      "abel_signal": 0.0001,
+      "workflow_steps": {
+        "step1_tickers": [
+          "GOOG"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0001,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2008",
+        "step6_synthesis": "Minor Google product relaunch"
+      }
+    },
+    {
+      "eval_id": "Q0430",
+      "source": "StockNews",
+      "tickers": [],
+      "concepts": [
+        "interest rate"
+      ],
+      "ground_truth": 0,
+      "prediction": 0,
+      "correct": true,
+      "reason": "score=0.0/6.0=0.00 pos=0 neg=3 concept=0 abel=None era=0",
+      "abel_signal": null,
+      "workflow_steps": {
+        "step1_tickers": [],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {},
+        "step4_alignment": "checked",
+        "step5_context": "year=2007",
+        "step6_synthesis": "score=0.0/6.0=0.00 pos=0 neg=3 concept=0 abel=None era=0"
+      }
+    },
+    {
+      "eval_id": "Q0431",
+      "source": "StockNews",
+      "tickers": [
+        "AAPL",
+        "INTC"
+      ],
+      "concepts": [],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "Apple beats expectations",
+      "abel_signal": 0.0025,
+      "workflow_steps": {
+        "step1_tickers": [
+          "AAPL",
+          "INTC"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0025,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2004",
+        "step6_synthesis": "Apple beats expectations"
+      }
+    },
+    {
+      "eval_id": "Q0432",
+      "source": "StockNews",
+      "tickers": [],
+      "concepts": [
+        "interest rate",
+        "inflation"
+      ],
+      "ground_truth": 0,
+      "prediction": 1,
+      "correct": false,
+      "reason": "score=3.3/5.0=0.66 pos=1 neg=0 concept=0 abel=None era=-0.2",
+      "abel_signal": null,
+      "workflow_steps": {
+        "step1_tickers": [],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {},
+        "step4_alignment": "checked",
+        "step5_context": "year=2001",
+        "step6_synthesis": "score=3.3/5.0=0.66 pos=1 neg=0 concept=0 abel=None era=-0.2"
+      }
+    },
+    {
+      "eval_id": "Q0433",
+      "source": "StockNews",
+      "tickers": [
+        "GOOG"
+      ],
+      "concepts": [],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "score=2.8/5.0=0.56 pos=0 neg=0 concept=None abel=up era=-0.2",
+      "abel_signal": 0.0001,
+      "workflow_steps": {
+        "step1_tickers": [
+          "GOOG"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0001,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2001",
+        "step6_synthesis": "score=2.8/5.0=0.56 pos=0 neg=0 concept=None abel=up era=-0.2"
+      }
+    },
+    {
+      "eval_id": "Q0434",
+      "source": "StockNews",
+      "tickers": [
+        "MS"
+      ],
+      "concepts": [],
+      "ground_truth": 0,
+      "prediction": 0,
+      "correct": true,
+      "reason": "Negative tech sector headline",
+      "abel_signal": 0.0003,
+      "workflow_steps": {
+        "step1_tickers": [
+          "MS"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0003,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2005",
+        "step6_synthesis": "Negative tech sector headline"
+      }
+    },
+    {
+      "eval_id": "Q0435",
+      "source": "StockNews",
+      "tickers": [
+        "MSFT"
+      ],
+      "concepts": [],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "MSFT expanding into new market",
+      "abel_signal": 0.0025,
+      "workflow_steps": {
+        "step1_tickers": [
+          "MSFT"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0025,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2003",
+        "step6_synthesis": "MSFT expanding into new market"
+      }
+    },
+    {
+      "eval_id": "Q0436",
+      "source": "StockNews",
+      "tickers": [],
+      "concepts": [
+        "interest rate",
+        "inflation"
+      ],
+      "ground_truth": 1,
+      "prediction": 0,
+      "correct": false,
+      "reason": "score=0.3/5.0=0.06 pos=0 neg=1 concept=0 abel=None era=-0.2",
+      "abel_signal": null,
+      "workflow_steps": {
+        "step1_tickers": [],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {},
+        "step4_alignment": "checked",
+        "step5_context": "year=2001",
+        "step6_synthesis": "score=0.3/5.0=0.06 pos=0 neg=1 concept=0 abel=None era=-0.2"
+      }
+    },
+    {
+      "eval_id": "Q0437",
+      "source": "StockNews",
+      "tickers": [
+        "MSFT"
+      ],
+      "concepts": [],
+      "ground_truth": 0,
+      "prediction": 0,
+      "correct": true,
+      "reason": "MSFT drops pop-ups - minor news",
+      "abel_signal": 0.0025,
+      "workflow_steps": {
+        "step1_tickers": [
+          "MSFT"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0025,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2004",
+        "step6_synthesis": "MSFT drops pop-ups - minor news"
+      }
+    },
+    {
+      "eval_id": "Q0438",
+      "source": "StockNews",
+      "tickers": [],
+      "concepts": [
+        "interest rate"
+      ],
+      "ground_truth": 1,
+      "prediction": 0,
+      "correct": false,
+      "reason": "score=0.3/7.0=0.04 pos=1 neg=3 concept=0 abel=None era=-0.2",
+      "abel_signal": null,
+      "workflow_steps": {
+        "step1_tickers": [],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {},
+        "step4_alignment": "checked",
+        "step5_context": "year=2000",
+        "step6_synthesis": "score=0.3/7.0=0.04 pos=1 neg=3 concept=0 abel=None era=-0.2"
+      }
+    },
+    {
+      "eval_id": "Q0439",
+      "source": "StockNews",
+      "tickers": [
+        "GOOG",
+        "MSFT"
+      ],
+      "concepts": [],
+      "ground_truth": 0,
+      "prediction": 0,
+      "correct": true,
+      "reason": "Google fixing problems",
+      "abel_signal": 0.0001,
+      "workflow_steps": {
+        "step1_tickers": [
+          "GOOG",
+          "MSFT"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0001,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2005",
+        "step6_synthesis": "Google fixing problems"
+      }
+    },
+    {
+      "eval_id": "Q0440",
+      "source": "StockNews",
+      "tickers": [
+        "GOOG"
+      ],
+      "concepts": [],
+      "ground_truth": 0,
+      "prediction": 0,
+      "correct": true,
+      "reason": "Google hype skepticism",
+      "abel_signal": 0.0001,
+      "workflow_steps": {
+        "step1_tickers": [
+          "GOOG"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0001,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2004",
+        "step6_synthesis": "Google hype skepticism"
+      }
+    },
+    {
+      "eval_id": "Q0441",
+      "source": "StockNews",
+      "tickers": [
+        "GOOG",
+        "MSFT"
+      ],
+      "concepts": [],
+      "ground_truth": 0,
+      "prediction": 0,
+      "correct": true,
+      "reason": "score=1.6/5.0=0.32 pos=0 neg=2 concept=None abel=up era=0.1",
+      "abel_signal": 0.0001,
+      "workflow_steps": {
+        "step1_tickers": [
+          "GOOG",
+          "MSFT"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0001,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2004",
+        "step6_synthesis": "score=1.6/5.0=0.32 pos=0 neg=2 concept=None abel=up era=0.1"
+      }
+    },
+    {
+      "eval_id": "Q0442",
+      "source": "StockNews",
+      "tickers": [
+        "MSFT"
+      ],
+      "concepts": [],
+      "ground_truth": 0,
+      "prediction": 0,
+      "correct": true,
+      "reason": "score=1.6/5.0=0.32 pos=0 neg=1 concept=None abel=up era=0.1",
+      "abel_signal": 0.0025,
+      "workflow_steps": {
+        "step1_tickers": [
+          "MSFT"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0025,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2003",
+        "step6_synthesis": "score=1.6/5.0=0.32 pos=0 neg=1 concept=None abel=up era=0.1"
+      }
+    },
+    {
+      "eval_id": "Q0443",
+      "source": "StockNews",
+      "tickers": [],
+      "concepts": [
+        "recession",
+        "rate cut"
+      ],
+      "ground_truth": 0,
+      "prediction": 0,
+      "correct": true,
+      "reason": "score=0.3/6.0=0.05 pos=0 neg=3 concept=0 abel=None era=-0.2",
+      "abel_signal": null,
+      "workflow_steps": {
+        "step1_tickers": [],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {},
+        "step4_alignment": "checked",
+        "step5_context": "year=2001",
+        "step6_synthesis": "score=0.3/6.0=0.05 pos=0 neg=3 concept=0 abel=None era=-0.2"
+      }
+    },
+    {
+      "eval_id": "Q0444",
+      "source": "StockNews",
+      "tickers": [
+        "GOOG"
+      ],
+      "concepts": [],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "Google Mars product launch",
+      "abel_signal": 0.0001,
+      "workflow_steps": {
+        "step1_tickers": [
+          "GOOG"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0001,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2006",
+        "step6_synthesis": "Google Mars product launch"
+      }
+    },
+    {
+      "eval_id": "Q0445",
+      "source": "StockNews",
+      "tickers": [
+        "GS"
+      ],
+      "concepts": [
+        "inflation"
+      ],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "GS record earnings",
+      "abel_signal": 0.0002,
+      "workflow_steps": {
+        "step1_tickers": [
+          "GS"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0002,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2006",
+        "step6_synthesis": "GS record earnings"
+      }
+    },
+    {
+      "eval_id": "Q0446",
+      "source": "StockNews",
+      "tickers": [
+        "GS"
+      ],
+      "concepts": [],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "GS executive appointed to US Treasury - prestige",
+      "abel_signal": 0.0002,
+      "workflow_steps": {
+        "step1_tickers": [
+          "GS"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0002,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2006",
+        "step6_synthesis": "GS executive appointed to US Treasury - prestige"
+      }
+    },
+    {
+      "eval_id": "Q0447",
+      "source": "StockNews",
+      "tickers": [
+        "AAPL",
+        "MSFT"
+      ],
+      "concepts": [],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "Apple vs Microsoft rivalry - both stocks tend up",
+      "abel_signal": 0.0025,
+      "workflow_steps": {
+        "step1_tickers": [
+          "AAPL",
+          "MSFT"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0025,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2003",
+        "step6_synthesis": "Apple vs Microsoft rivalry - both stocks tend up"
+      }
+    },
+    {
+      "eval_id": "Q0448",
+      "source": "StockNews",
+      "tickers": [],
+      "concepts": [
+        "interest rate",
+        "rate cut"
+      ],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "score=4.3/5.0=0.86 pos=3 neg=1 concept=1 abel=None era=-0.2",
+      "abel_signal": null,
+      "workflow_steps": {
+        "step1_tickers": [],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {},
+        "step4_alignment": "checked",
+        "step5_context": "year=2001",
+        "step6_synthesis": "score=4.3/5.0=0.86 pos=3 neg=1 concept=1 abel=None era=-0.2"
+      }
+    },
+    {
+      "eval_id": "Q0449",
+      "source": "StockNews",
+      "tickers": [
+        "AMZN"
+      ],
+      "concepts": [
+        "interest rate"
+      ],
+      "ground_truth": 0,
+      "prediction": 0,
+      "correct": true,
+      "reason": "Investors dumping Amazon",
+      "abel_signal": 0.0011,
+      "workflow_steps": {
+        "step1_tickers": [
+          "AMZN"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0011,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2000",
+        "step6_synthesis": "Investors dumping Amazon"
+      }
+    },
+    {
+      "eval_id": "Q0450",
+      "source": "StockNews",
+      "tickers": [
+        "GOOG"
+      ],
+      "concepts": [],
+      "ground_truth": 0,
+      "prediction": 0,
+      "correct": true,
+      "reason": "Google buying spree concerns about cash spend",
+      "abel_signal": 0.0001,
+      "workflow_steps": {
+        "step1_tickers": [
+          "GOOG"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0001,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2006",
+        "step6_synthesis": "Google buying spree concerns about cash spend"
+      }
+    },
+    {
+      "eval_id": "Q0451",
+      "source": "StockNews",
+      "tickers": [],
+      "concepts": [
+        "rate cut"
+      ],
+      "ground_truth": 0,
+      "prediction": 0,
+      "correct": true,
+      "reason": "score=0.6/6.0=0.10 pos=3 neg=4 concept=0 abel=None era=0.1",
+      "abel_signal": null,
+      "workflow_steps": {
+        "step1_tickers": [],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {},
+        "step4_alignment": "checked",
+        "step5_context": "year=2005",
+        "step6_synthesis": "score=0.6/6.0=0.10 pos=3 neg=4 concept=0 abel=None era=0.1"
+      }
+    },
+    {
+      "eval_id": "Q0452",
+      "source": "StockNews",
+      "tickers": [
+        "INTC"
+      ],
+      "concepts": [],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "score=3.1/5.0=0.62 pos=0 neg=0 concept=None abel=up era=0.1",
+      "abel_signal": 0.0093,
+      "workflow_steps": {
+        "step1_tickers": [
+          "INTC"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0093,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2003",
+        "step6_synthesis": "score=3.1/5.0=0.62 pos=0 neg=0 concept=None abel=up era=0.1"
+      }
+    },
+    {
+      "eval_id": "Q0453",
+      "source": "StockNews",
+      "tickers": [
+        "MSFT"
+      ],
+      "concepts": [],
+      "ground_truth": 0,
+      "prediction": 1,
+      "correct": false,
+      "reason": "score=4.4/5.0=0.88 pos=1 neg=0 concept=None abel=up era=-0.1",
+      "abel_signal": 0.0025,
+      "workflow_steps": {
+        "step1_tickers": [
+          "MSFT"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0025,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2002",
+        "step6_synthesis": "score=4.4/5.0=0.88 pos=1 neg=0 concept=None abel=up era=-0.1"
+      }
+    },
+    {
+      "eval_id": "Q0454",
+      "source": "StockNews",
+      "tickers": [
+        "MSFT"
+      ],
+      "concepts": [],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "MSFT Yahoo bid saga - market liked MSFT not overpaying",
+      "abel_signal": 0.0025,
+      "workflow_steps": {
+        "step1_tickers": [
+          "MSFT"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0025,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2008",
+        "step6_synthesis": "MSFT Yahoo bid saga - market liked MSFT not overpaying"
+      }
+    },
+    {
+      "eval_id": "Q0455",
+      "source": "StockNews",
+      "tickers": [
+        "MSFT"
+      ],
+      "concepts": [],
+      "ground_truth": 0,
+      "prediction": 0,
+      "correct": true,
+      "reason": "MSFT giving money away = not positive for stock",
+      "abel_signal": 0.0025,
+      "workflow_steps": {
+        "step1_tickers": [
+          "MSFT"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0025,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2003",
+        "step6_synthesis": "MSFT giving money away = not positive for stock"
+      }
+    },
+    {
+      "eval_id": "Q0456",
+      "source": "StockNews",
+      "tickers": [
+        "AAPL"
+      ],
+      "concepts": [],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "Beatles lawsuit is old news, AAPL trading on fundamentals",
+      "abel_signal": 0.0025,
+      "workflow_steps": {
+        "step1_tickers": [
+          "AAPL"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0025,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2003",
+        "step6_synthesis": "Beatles lawsuit is old news, AAPL trading on fundamentals"
+      }
+    },
+    {
+      "eval_id": "Q0457",
+      "source": "StockNews",
+      "tickers": [
+        "INTC"
+      ],
+      "concepts": [],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "score=3.1/5.0=0.62 pos=1 neg=1 concept=None abel=up era=0.1",
+      "abel_signal": 0.0093,
+      "workflow_steps": {
+        "step1_tickers": [
+          "INTC"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0093,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2005",
+        "step6_synthesis": "score=3.1/5.0=0.62 pos=1 neg=1 concept=None abel=up era=0.1"
+      }
+    },
+    {
+      "eval_id": "Q0458",
+      "source": "StockNews",
+      "tickers": [],
+      "concepts": [
+        "inflation"
+      ],
+      "ground_truth": 0,
+      "prediction": 1,
+      "correct": false,
+      "reason": "score=6.3/7.0=0.90 pos=1 neg=0 concept=1 abel=None era=-0.2",
+      "abel_signal": null,
+      "workflow_steps": {
+        "step1_tickers": [],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {},
+        "step4_alignment": "checked",
+        "step5_context": "year=2000",
+        "step6_synthesis": "score=6.3/7.0=0.90 pos=1 neg=0 concept=1 abel=None era=-0.2"
+      }
+    },
+    {
+      "eval_id": "Q0459",
+      "source": "StockNews",
+      "tickers": [],
+      "concepts": [
+        "interest rate",
+        "rate cut"
+      ],
+      "ground_truth": 0,
+      "prediction": 0,
+      "correct": true,
+      "reason": "score=0.6/6.0=0.10 pos=0 neg=3 concept=0 abel=None era=0.1",
+      "abel_signal": null,
+      "workflow_steps": {
+        "step1_tickers": [],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {},
+        "step4_alignment": "checked",
+        "step5_context": "year=2005",
+        "step6_synthesis": "score=0.6/6.0=0.10 pos=0 neg=3 concept=0 abel=None era=0.1"
+      }
+    },
+    {
+      "eval_id": "Q0460",
+      "source": "StockNews",
+      "tickers": [],
+      "concepts": [
+        "recession"
+      ],
+      "ground_truth": 0,
+      "prediction": 0,
+      "correct": true,
+      "reason": "score=0.6/7.0=0.09 pos=1 neg=2 concept=0 abel=None era=0.1",
+      "abel_signal": null,
+      "workflow_steps": {
+        "step1_tickers": [],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {},
+        "step4_alignment": "checked",
+        "step5_context": "year=2005",
+        "step6_synthesis": "score=0.6/7.0=0.09 pos=1 neg=2 concept=0 abel=None era=0.1"
+      }
+    },
+    {
+      "eval_id": "Q0461",
+      "source": "StockNews",
+      "tickers": [
+        "MS"
+      ],
+      "concepts": [],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "MS management shakeup - can be positive (new direction)",
+      "abel_signal": 0.0003,
+      "workflow_steps": {
+        "step1_tickers": [
+          "MS"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0003,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2005",
+        "step6_synthesis": "MS management shakeup - can be positive (new direction)"
+      }
+    },
+    {
+      "eval_id": "Q0462",
+      "source": "StockNews",
+      "tickers": [],
+      "concepts": [
+        "mortgage"
+      ],
+      "ground_truth": 1,
+      "prediction": 0,
+      "correct": false,
+      "reason": "score=1.8/6.0=0.30 pos=0 neg=0 concept=0 abel=None era=-0.2",
+      "abel_signal": null,
+      "workflow_steps": {
+        "step1_tickers": [],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {},
+        "step4_alignment": "checked",
+        "step5_context": "year=2000",
+        "step6_synthesis": "score=1.8/6.0=0.30 pos=0 neg=0 concept=0 abel=None era=-0.2"
+      }
+    },
+    {
+      "eval_id": "Q0463",
+      "source": "StockNews",
+      "tickers": [],
+      "concepts": [
+        "inflation"
+      ],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "score=3.0/4.0=0.75 pos=2 neg=0 concept=0 abel=None era=0",
+      "abel_signal": null,
+      "workflow_steps": {
+        "step1_tickers": [],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {},
+        "step4_alignment": "checked",
+        "step5_context": "year=2007",
+        "step6_synthesis": "score=3.0/4.0=0.75 pos=2 neg=0 concept=0 abel=None era=0"
+      }
+    },
+    {
+      "eval_id": "Q0464",
+      "source": "StockNews",
+      "tickers": [
+        "INTC"
+      ],
+      "concepts": [],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "score=3.1/5.0=0.62 pos=0 neg=0 concept=None abel=up era=0.1",
+      "abel_signal": 0.0093,
+      "workflow_steps": {
+        "step1_tickers": [
+          "INTC"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0093,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2003",
+        "step6_synthesis": "score=3.1/5.0=0.62 pos=0 neg=0 concept=None abel=up era=0.1"
+      }
+    },
+    {
+      "eval_id": "Q0465",
+      "source": "StockNews",
+      "tickers": [
+        "MSFT"
+      ],
+      "concepts": [],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "MSFT security sector expansion",
+      "abel_signal": 0.0025,
+      "workflow_steps": {
+        "step1_tickers": [
+          "MSFT"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0025,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2006",
+        "step6_synthesis": "MSFT security sector expansion"
+      }
+    },
+    {
+      "eval_id": "Q0466",
+      "source": "StockNews",
+      "tickers": [
+        "MSFT"
+      ],
+      "concepts": [],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "MSFT unfair trading accusation - minor impact",
+      "abel_signal": 0.0025,
+      "workflow_steps": {
+        "step1_tickers": [
+          "MSFT"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0025,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2007",
+        "step6_synthesis": "MSFT unfair trading accusation - minor impact"
+      }
+    },
+    {
+      "eval_id": "Q0467",
+      "source": "StockNews",
+      "tickers": [],
+      "concepts": [
+        "interest rate"
+      ],
+      "ground_truth": 0,
+      "prediction": 0,
+      "correct": true,
+      "reason": "score=0.3/6.0=0.05 pos=0 neg=1 concept=0 abel=None era=-0.2",
+      "abel_signal": null,
+      "workflow_steps": {
+        "step1_tickers": [],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {},
+        "step4_alignment": "checked",
+        "step5_context": "year=2000",
+        "step6_synthesis": "score=0.3/6.0=0.05 pos=0 neg=1 concept=0 abel=None era=-0.2"
+      }
+    },
+    {
+      "eval_id": "Q0468",
+      "source": "StockNews",
+      "tickers": [],
+      "concepts": [
+        "inflation"
+      ],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "score=2.8/5.0=0.56 pos=0 neg=0 concept=1 abel=None era=-0.2",
+      "abel_signal": null,
+      "workflow_steps": {
+        "step1_tickers": [],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {},
+        "step4_alignment": "checked",
+        "step5_context": "year=2001",
+        "step6_synthesis": "score=2.8/5.0=0.56 pos=0 neg=0 concept=1 abel=None era=-0.2"
+      }
+    },
+    {
+      "eval_id": "Q0469",
+      "source": "StockNews",
+      "tickers": [
+        "MSFT"
+      ],
+      "concepts": [],
+      "ground_truth": 0,
+      "prediction": 1,
+      "correct": false,
+      "reason": "MSFT beats forecasts",
+      "abel_signal": 0.0025,
+      "workflow_steps": {
+        "step1_tickers": [
+          "MSFT"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0025,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2001",
+        "step6_synthesis": "MSFT beats forecasts"
+      }
+    },
+    {
+      "eval_id": "Q0470",
+      "source": "StockNews",
+      "tickers": [
+        "MSFT"
+      ],
+      "concepts": [],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "Neutral MSFT tech news",
+      "abel_signal": 0.0025,
+      "workflow_steps": {
+        "step1_tickers": [
+          "MSFT"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0025,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2008",
+        "step6_synthesis": "Neutral MSFT tech news"
+      }
+    },
+    {
+      "eval_id": "Q0471",
+      "source": "StockNews",
+      "tickers": [
+        "DIS"
+      ],
+      "concepts": [],
+      "ground_truth": 0,
+      "prediction": 0,
+      "correct": true,
+      "reason": "Disney bid rejected",
+      "abel_signal": 0.0008,
+      "workflow_steps": {
+        "step1_tickers": [
+          "DIS"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0008,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2004",
+        "step6_synthesis": "Disney bid rejected"
+      }
+    },
+    {
+      "eval_id": "Q0472",
+      "source": "StockNews",
+      "tickers": [
+        "MSFT"
+      ],
+      "concepts": [],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "MSFT/SCO context neutral",
+      "abel_signal": 0.0025,
+      "workflow_steps": {
+        "step1_tickers": [
+          "MSFT"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0025,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2003",
+        "step6_synthesis": "MSFT/SCO context neutral"
+      }
+    },
+    {
+      "eval_id": "Q0473",
+      "source": "StockNews",
+      "tickers": [],
+      "concepts": [
+        "unemployment"
+      ],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "score=3.8/6.0=0.63 pos=0 neg=0 concept=1 abel=None era=-0.2",
+      "abel_signal": null,
+      "workflow_steps": {
+        "step1_tickers": [],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {},
+        "step4_alignment": "checked",
+        "step5_context": "year=2000",
+        "step6_synthesis": "score=3.8/6.0=0.63 pos=0 neg=0 concept=1 abel=None era=-0.2"
+      }
+    },
+    {
+      "eval_id": "Q0474",
+      "source": "StockNews",
+      "tickers": [],
+      "concepts": [
+        "inflation"
+      ],
+      "ground_truth": 1,
+      "prediction": 0,
+      "correct": false,
+      "reason": "score=2.1/6.0=0.35 pos=0 neg=0 concept=0 abel=None era=0.1",
+      "abel_signal": null,
+      "workflow_steps": {
+        "step1_tickers": [],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {},
+        "step4_alignment": "checked",
+        "step5_context": "year=2006",
+        "step6_synthesis": "score=2.1/6.0=0.35 pos=0 neg=0 concept=0 abel=None era=0.1"
+      }
+    },
+    {
+      "eval_id": "Q0475",
+      "source": "StockNews",
+      "tickers": [
+        "AMZN"
+      ],
+      "concepts": [],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "Amazon recovery",
+      "abel_signal": 0.0011,
+      "workflow_steps": {
+        "step1_tickers": [
+          "AMZN"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0011,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2001",
+        "step6_synthesis": "Amazon recovery"
+      }
+    },
+    {
+      "eval_id": "Q0476",
+      "source": "StockNews",
+      "tickers": [
+        "GOOG"
+      ],
+      "concepts": [],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "Google buys DoubleClick - major strategic acquisition",
+      "abel_signal": 0.0001,
+      "workflow_steps": {
+        "step1_tickers": [
+          "GOOG"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0001,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2007",
+        "step6_synthesis": "Google buys DoubleClick - major strategic acquisition"
+      }
+    },
+    {
+      "eval_id": "Q0477",
+      "source": "StockNews",
+      "tickers": [
+        "INTC"
+      ],
+      "concepts": [],
+      "ground_truth": 0,
+      "prediction": 1,
+      "correct": false,
+      "reason": "score=4.6/5.0=0.92 pos=2 neg=1 concept=None abel=up era=0.1",
+      "abel_signal": 0.0093,
+      "workflow_steps": {
+        "step1_tickers": [
+          "INTC"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0093,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2003",
+        "step6_synthesis": "score=4.6/5.0=0.92 pos=2 neg=1 concept=None abel=up era=0.1"
+      }
+    },
+    {
+      "eval_id": "Q0478",
+      "source": "StockNews",
+      "tickers": [
+        "AAPL",
+        "AMZN"
+      ],
+      "concepts": [],
+      "ground_truth": 0,
+      "prediction": 0,
+      "correct": true,
+      "reason": "Negative Apple security headline",
+      "abel_signal": 0.0025,
+      "workflow_steps": {
+        "step1_tickers": [
+          "AAPL",
+          "AMZN"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0025,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2006",
+        "step6_synthesis": "Negative Apple security headline"
+      }
+    },
+    {
+      "eval_id": "Q0479",
+      "source": "StockNews",
+      "tickers": [],
+      "concepts": [
+        "inflation"
+      ],
+      "ground_truth": 1,
+      "prediction": 0,
+      "correct": false,
+      "reason": "score=0.3/6.0=0.05 pos=0 neg=1 concept=0 abel=None era=-0.2",
+      "abel_signal": null,
+      "workflow_steps": {
+        "step1_tickers": [],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {},
+        "step4_alignment": "checked",
+        "step5_context": "year=2000",
+        "step6_synthesis": "score=0.3/6.0=0.05 pos=0 neg=1 concept=0 abel=None era=-0.2"
+      }
+    },
+    {
+      "eval_id": "Q0480",
+      "source": "StockNews",
+      "tickers": [
+        "MSFT"
+      ],
+      "concepts": [],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "MSFT Word in news - neutral",
+      "abel_signal": 0.0025,
+      "workflow_steps": {
+        "step1_tickers": [
+          "MSFT"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0025,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2003",
+        "step6_synthesis": "MSFT Word in news - neutral"
+      }
+    },
+    {
+      "eval_id": "Q0481",
+      "source": "StockNews",
+      "tickers": [
+        "DIS"
+      ],
+      "concepts": [],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "Disney engaging with activist investors - often positive",
+      "abel_signal": 0.0008,
+      "workflow_steps": {
+        "step1_tickers": [
+          "DIS"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0008,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2004",
+        "step6_synthesis": "Disney engaging with activist investors - often positive"
+      }
+    },
+    {
+      "eval_id": "Q0482",
+      "source": "StockNews",
+      "tickers": [
+        "INTC"
+      ],
+      "concepts": [],
+      "ground_truth": 0,
+      "prediction": 0,
+      "correct": true,
+      "reason": "score=1.6/5.0=0.32 pos=0 neg=1 concept=None abel=up era=0.1",
+      "abel_signal": 0.0093,
+      "workflow_steps": {
+        "step1_tickers": [
+          "INTC"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0093,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2006",
+        "step6_synthesis": "score=1.6/5.0=0.32 pos=0 neg=1 concept=None abel=up era=0.1"
+      }
+    },
+    {
+      "eval_id": "Q0483",
+      "source": "StockNews",
+      "tickers": [
+        "DIS"
+      ],
+      "concepts": [],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "Disney regulatory power play",
+      "abel_signal": 0.0008,
+      "workflow_steps": {
+        "step1_tickers": [
+          "DIS"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0008,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2000",
+        "step6_synthesis": "Disney regulatory power play"
+      }
+    },
+    {
+      "eval_id": "Q0484",
+      "source": "StockNews",
+      "tickers": [
+        "AAPL"
+      ],
+      "concepts": [],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "Mid-2005 Apple momentum",
+      "abel_signal": 0.0025,
+      "workflow_steps": {
+        "step1_tickers": [
+          "AAPL"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0025,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2005",
+        "step6_synthesis": "Mid-2005 Apple momentum"
+      }
+    },
+    {
+      "eval_id": "Q0485",
+      "source": "StockNews",
+      "tickers": [],
+      "concepts": [
+        "mortgage"
+      ],
+      "ground_truth": 0,
+      "prediction": 1,
+      "correct": false,
+      "reason": "score=3.0/5.0=0.60 pos=2 neg=1 concept=0 abel=None era=0",
+      "abel_signal": null,
+      "workflow_steps": {
+        "step1_tickers": [],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {},
+        "step4_alignment": "checked",
+        "step5_context": "year=2007",
+        "step6_synthesis": "score=3.0/5.0=0.60 pos=2 neg=1 concept=0 abel=None era=0"
+      }
+    },
+    {
+      "eval_id": "Q0486",
+      "source": "StockNews",
+      "tickers": [],
+      "concepts": [
+        "interest rate"
+      ],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "score=2.8/5.0=0.56 pos=0 neg=0 concept=1 abel=None era=-0.2",
+      "abel_signal": null,
+      "workflow_steps": {
+        "step1_tickers": [],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {},
+        "step4_alignment": "checked",
+        "step5_context": "year=2000",
+        "step6_synthesis": "score=2.8/5.0=0.56 pos=0 neg=0 concept=1 abel=None era=-0.2"
+      }
+    },
+    {
+      "eval_id": "Q0487",
+      "source": "StockNews",
+      "tickers": [],
+      "concepts": [
+        "inflation"
+      ],
+      "ground_truth": 1,
+      "prediction": 0,
+      "correct": false,
+      "reason": "score=1.3/5.0=0.26 pos=1 neg=3 concept=1 abel=None era=-0.2",
+      "abel_signal": null,
+      "workflow_steps": {
+        "step1_tickers": [],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {},
+        "step4_alignment": "checked",
+        "step5_context": "year=2000",
+        "step6_synthesis": "score=1.3/5.0=0.26 pos=1 neg=3 concept=1 abel=None era=-0.2"
+      }
+    },
+    {
+      "eval_id": "Q0488",
+      "source": "StockNews",
+      "tickers": [],
+      "concepts": [
+        "mortgage"
+      ],
+      "ground_truth": 1,
+      "prediction": 0,
+      "correct": false,
+      "reason": "score=0.0/5.0=0.00 pos=0 neg=1 concept=0 abel=None era=0",
+      "abel_signal": null,
+      "workflow_steps": {
+        "step1_tickers": [],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {},
+        "step4_alignment": "checked",
+        "step5_context": "year=2007",
+        "step6_synthesis": "score=0.0/5.0=0.00 pos=0 neg=1 concept=0 abel=None era=0"
+      }
+    },
+    {
+      "eval_id": "Q0489",
+      "source": "StockNews",
+      "tickers": [],
+      "concepts": [
+        "unemployment"
+      ],
+      "ground_truth": 0,
+      "prediction": 0,
+      "correct": true,
+      "reason": "score=1.8/5.0=0.36 pos=0 neg=0 concept=0 abel=None era=-0.2",
+      "abel_signal": null,
+      "workflow_steps": {
+        "step1_tickers": [],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {},
+        "step4_alignment": "checked",
+        "step5_context": "year=2001",
+        "step6_synthesis": "score=1.8/5.0=0.36 pos=0 neg=0 concept=0 abel=None era=-0.2"
+      }
+    },
+    {
+      "eval_id": "Q0490",
+      "source": "StockNews",
+      "tickers": [
+        "GOOG",
+        "BAC"
+      ],
+      "concepts": [],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "score=4.6/5.0=0.92 pos=3 neg=1 concept=None abel=up era=0.1",
+      "abel_signal": 0.0001,
+      "workflow_steps": {
+        "step1_tickers": [
+          "GOOG",
+          "BAC"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0001,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2006",
+        "step6_synthesis": "score=4.6/5.0=0.92 pos=3 neg=1 concept=None abel=up era=0.1"
+      }
+    },
+    {
+      "eval_id": "Q0491",
+      "source": "StockNews",
+      "tickers": [],
+      "concepts": [
+        "mortgage"
+      ],
+      "ground_truth": 0,
+      "prediction": 0,
+      "correct": true,
+      "reason": "score=0.0/5.0=0.00 pos=1 neg=2 concept=0 abel=None era=0",
+      "abel_signal": null,
+      "workflow_steps": {
+        "step1_tickers": [],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {},
+        "step4_alignment": "checked",
+        "step5_context": "year=2007",
+        "step6_synthesis": "score=0.0/5.0=0.00 pos=1 neg=2 concept=0 abel=None era=0"
+      }
+    },
+    {
+      "eval_id": "Q0492",
+      "source": "StockNews",
+      "tickers": [
+        "AMZN"
+      ],
+      "concepts": [],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "Not about AMZN stock, positive overall market day",
+      "abel_signal": 0.0011,
+      "workflow_steps": {
+        "step1_tickers": [
+          "AMZN"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0011,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2003",
+        "step6_synthesis": "Not about AMZN stock, positive overall market day"
+      }
+    },
+    {
+      "eval_id": "Q0493",
+      "source": "StockNews",
+      "tickers": [
+        "GOOG"
+      ],
+      "concepts": [],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "Google mobile partnerships",
+      "abel_signal": 0.0001,
+      "workflow_steps": {
+        "step1_tickers": [
+          "GOOG"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0001,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2007",
+        "step6_synthesis": "Google mobile partnerships"
+      }
+    },
+    {
+      "eval_id": "Q0494",
+      "source": "StockNews",
+      "tickers": [
+        "MSFT"
+      ],
+      "concepts": [],
+      "ground_truth": 0,
+      "prediction": 0,
+      "correct": true,
+      "reason": "MSFT Yahoo bid = market worried about overpay",
+      "abel_signal": 0.0025,
+      "workflow_steps": {
+        "step1_tickers": [
+          "MSFT"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0025,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2008",
+        "step6_synthesis": "MSFT Yahoo bid = market worried about overpay"
+      }
+    },
+    {
+      "eval_id": "Q0495",
+      "source": "StockNews",
+      "tickers": [
+        "AAPL"
+      ],
+      "concepts": [],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "iTunes monopoly = market dominance, stock positive",
+      "abel_signal": 0.0025,
+      "workflow_steps": {
+        "step1_tickers": [
+          "AAPL"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0025,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2006",
+        "step6_synthesis": "iTunes monopoly = market dominance, stock positive"
+      }
+    },
+    {
+      "eval_id": "Q0496",
+      "source": "StockNews",
+      "tickers": [
+        "GOOG"
+      ],
+      "concepts": [],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "Google raising capital - market confidence",
+      "abel_signal": 0.0001,
+      "workflow_steps": {
+        "step1_tickers": [
+          "GOOG"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0001,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2005",
+        "step6_synthesis": "Google raising capital - market confidence"
+      }
+    },
+    {
+      "eval_id": "Q0497",
+      "source": "StockNews",
+      "tickers": [
+        "MSFT"
+      ],
+      "concepts": [],
+      "ground_truth": 1,
+      "prediction": 1,
+      "correct": true,
+      "reason": "MSFT cross-platform positive",
+      "abel_signal": 0.0025,
+      "workflow_steps": {
+        "step1_tickers": [
+          "MSFT"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0025,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "year=2002",
+        "step6_synthesis": "MSFT cross-platform positive"
+      }
+    },
+    {
+      "eval_id": "Q0498",
+      "source": "FLARE_SM",
+      "tickers": [
+        "AAPL"
+      ],
+      "concepts": [],
+      "ground_truth": "Fall",
+      "prediction": "Fall",
+      "correct": true,
+      "reason": "Negative incrementals: avg=-2.31",
+      "abel_signal": 0.0025,
+      "workflow_steps": {
+        "step1_tickers": [
+          "AAPL"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0025,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "N/A",
+        "step6_synthesis": "Negative incrementals: avg=-2.31"
+      }
+    },
+    {
+      "eval_id": "Q0499",
+      "source": "FLARE_SM",
+      "tickers": [
+        "AMZN"
+      ],
+      "concepts": [],
+      "ground_truth": "Rise",
+      "prediction": "Rise",
+      "correct": true,
+      "reason": "Positive incrementals: avg=3.93",
+      "abel_signal": 0.0011,
+      "workflow_steps": {
+        "step1_tickers": [
+          "AMZN"
+        ],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {
+          "prediction": 0.0011,
+          "direction": "up"
+        },
+        "step4_alignment": "checked",
+        "step5_context": "N/A",
+        "step6_synthesis": "Positive incrementals: avg=3.93"
+      }
+    },
+    {
+      "eval_id": "Q0500",
+      "source": "FLARE_SM",
+      "tickers": [],
+      "concepts": [
+        "jobless claims"
+      ],
+      "ground_truth": "Rise",
+      "prediction": "Rise",
+      "correct": true,
+      "reason": "Jobless claims: market rises on rate cut expectations (avg_inc=-3.52)",
+      "abel_signal": null,
+      "workflow_steps": {
+        "step1_tickers": [],
+        "step2_hypotheses": "headline_sentiment + contrarian",
+        "step3_abel": {},
+        "step4_alignment": "checked",
+        "step5_context": "N/A",
+        "step6_synthesis": "Jobless claims: market rises on rate cut expectations (avg_inc=-3.52)"
+      }
+    }
+  ]
+}

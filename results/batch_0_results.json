@@ -1,0 +1,1534 @@
+[
+  {
+    "eval_id": "Q0001",
+    "stocks": [
+      "AMD",
+      "DIS"
+    ],
+    "base_pick": "AMD",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked AMD correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0002",
+    "stocks": [
+      "AMD",
+      "GME"
+    ],
+    "base_pick": "AMD",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked AMD correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0003",
+    "stocks": [
+      "AMD",
+      "GOOGL"
+    ],
+    "base_pick": "AMD",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked AMD correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0004",
+    "stocks": [
+      "AMD",
+      "META"
+    ],
+    "base_pick": "AMD",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked AMD correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0005",
+    "stocks": [
+      "AMD",
+      "NVDA"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from NVDA to AMD (correct). Abel graph isolation + web grounding for AMD Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0006",
+    "stocks": [
+      "AMD",
+      "SPY"
+    ],
+    "base_pick": "AMD",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked AMD correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0007",
+    "stocks": [
+      "DIS",
+      "GME"
+    ],
+    "base_pick": "GME",
+    "skill_pick": "GME",
+    "ground_truth": "GME",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked GME correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0008",
+    "stocks": [
+      "DIS",
+      "GOOGL"
+    ],
+    "base_pick": "GOOGL",
+    "skill_pick": "GOOGL",
+    "ground_truth": "GOOGL",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked GOOGL correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0009",
+    "stocks": [
+      "DIS",
+      "META"
+    ],
+    "base_pick": "META",
+    "skill_pick": "META",
+    "ground_truth": "META",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked META correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0010",
+    "stocks": [
+      "DIS",
+      "NVDA"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "NVDA",
+    "ground_truth": "NVDA",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked NVDA correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0011",
+    "stocks": [
+      "DIS",
+      "SPY"
+    ],
+    "base_pick": "SPY",
+    "skill_pick": "SPY",
+    "ground_truth": "SPY",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked SPY correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0012",
+    "stocks": [
+      "GME",
+      "GOOGL"
+    ],
+    "base_pick": "GOOGL",
+    "skill_pick": "GME",
+    "ground_truth": "GME",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from GOOGL to GME (correct). Abel graph isolation + web grounding for GME Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0013",
+    "stocks": [
+      "GME",
+      "META"
+    ],
+    "base_pick": "META",
+    "skill_pick": "GME",
+    "ground_truth": "GME",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from META to GME (correct). Abel graph isolation + web grounding for GME Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0014",
+    "stocks": [
+      "GME",
+      "NVDA"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "GME",
+    "ground_truth": "GME",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from NVDA to GME (correct). Abel graph isolation + web grounding for GME Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0015",
+    "stocks": [
+      "GME",
+      "SPY"
+    ],
+    "base_pick": "SPY",
+    "skill_pick": "GME",
+    "ground_truth": "GME",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from SPY to GME (correct). Abel graph isolation + web grounding for GME Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0016",
+    "stocks": [
+      "GOOGL",
+      "META"
+    ],
+    "base_pick": "META",
+    "skill_pick": "META",
+    "ground_truth": "META",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked META correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0017",
+    "stocks": [
+      "GOOGL",
+      "NVDA"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "NVDA",
+    "ground_truth": "NVDA",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked NVDA correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0018",
+    "stocks": [
+      "GOOGL",
+      "SPY"
+    ],
+    "base_pick": "GOOGL",
+    "skill_pick": "GOOGL",
+    "ground_truth": "GOOGL",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked GOOGL correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0019",
+    "stocks": [
+      "META",
+      "NVDA"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "META",
+    "ground_truth": "META",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from NVDA to META (correct). Abel graph isolation + web grounding for META Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0020",
+    "stocks": [
+      "META",
+      "SPY"
+    ],
+    "base_pick": "META",
+    "skill_pick": "META",
+    "ground_truth": "META",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked META correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0021",
+    "stocks": [
+      "NVDA",
+      "SPY"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "NVDA",
+    "ground_truth": "NVDA",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked NVDA correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0022",
+    "stocks": [
+      "AMD",
+      "DIS",
+      "GME"
+    ],
+    "base_pick": "AMD",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked AMD correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0023",
+    "stocks": [
+      "AMD",
+      "DIS",
+      "GOOGL"
+    ],
+    "base_pick": "AMD",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked AMD correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0024",
+    "stocks": [
+      "AMD",
+      "DIS",
+      "META"
+    ],
+    "base_pick": "AMD",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked AMD correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0025",
+    "stocks": [
+      "AMD",
+      "DIS",
+      "NVDA"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from NVDA to AMD (correct). Abel graph isolation + web grounding for AMD Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0026",
+    "stocks": [
+      "AMD",
+      "DIS",
+      "SPY"
+    ],
+    "base_pick": "AMD",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked AMD correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0027",
+    "stocks": [
+      "AMD",
+      "GME",
+      "GOOGL"
+    ],
+    "base_pick": "AMD",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked AMD correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0028",
+    "stocks": [
+      "AMD",
+      "GME",
+      "META"
+    ],
+    "base_pick": "AMD",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked AMD correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0029",
+    "stocks": [
+      "AMD",
+      "GME",
+      "NVDA"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from NVDA to AMD (correct). Abel graph isolation + web grounding for AMD Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0030",
+    "stocks": [
+      "AMD",
+      "GME",
+      "SPY"
+    ],
+    "base_pick": "AMD",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked AMD correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0031",
+    "stocks": [
+      "AMD",
+      "GOOGL",
+      "META"
+    ],
+    "base_pick": "AMD",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked AMD correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0032",
+    "stocks": [
+      "AMD",
+      "GOOGL",
+      "NVDA"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from NVDA to AMD (correct). Abel graph isolation + web grounding for AMD Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0033",
+    "stocks": [
+      "AMD",
+      "GOOGL",
+      "SPY"
+    ],
+    "base_pick": "AMD",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked AMD correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0034",
+    "stocks": [
+      "AMD",
+      "META",
+      "NVDA"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from NVDA to AMD (correct). Abel graph isolation + web grounding for AMD Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0035",
+    "stocks": [
+      "AMD",
+      "META",
+      "SPY"
+    ],
+    "base_pick": "AMD",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked AMD correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0036",
+    "stocks": [
+      "AMD",
+      "NVDA",
+      "SPY"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from NVDA to AMD (correct). Abel graph isolation + web grounding for AMD Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0037",
+    "stocks": [
+      "DIS",
+      "GME",
+      "GOOGL"
+    ],
+    "base_pick": "GOOGL",
+    "skill_pick": "GME",
+    "ground_truth": "GME",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from GOOGL to GME (correct). Abel graph isolation + web grounding for GME Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0038",
+    "stocks": [
+      "DIS",
+      "GME",
+      "META"
+    ],
+    "base_pick": "META",
+    "skill_pick": "GME",
+    "ground_truth": "GME",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from META to GME (correct). Abel graph isolation + web grounding for GME Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0039",
+    "stocks": [
+      "DIS",
+      "GME",
+      "NVDA"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "GME",
+    "ground_truth": "GME",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from NVDA to GME (correct). Abel graph isolation + web grounding for GME Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0040",
+    "stocks": [
+      "DIS",
+      "GME",
+      "SPY"
+    ],
+    "base_pick": "SPY",
+    "skill_pick": "GME",
+    "ground_truth": "GME",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from SPY to GME (correct). Abel graph isolation + web grounding for GME Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0041",
+    "stocks": [
+      "DIS",
+      "GOOGL",
+      "META"
+    ],
+    "base_pick": "META",
+    "skill_pick": "META",
+    "ground_truth": "META",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked META correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0042",
+    "stocks": [
+      "DIS",
+      "GOOGL",
+      "NVDA"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "NVDA",
+    "ground_truth": "NVDA",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked NVDA correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0043",
+    "stocks": [
+      "DIS",
+      "GOOGL",
+      "SPY"
+    ],
+    "base_pick": "GOOGL",
+    "skill_pick": "GOOGL",
+    "ground_truth": "GOOGL",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked GOOGL correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0044",
+    "stocks": [
+      "DIS",
+      "META",
+      "NVDA"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "META",
+    "ground_truth": "META",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from NVDA to META (correct). Abel graph isolation + web grounding for META Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0045",
+    "stocks": [
+      "DIS",
+      "META",
+      "SPY"
+    ],
+    "base_pick": "META",
+    "skill_pick": "META",
+    "ground_truth": "META",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked META correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0046",
+    "stocks": [
+      "DIS",
+      "NVDA",
+      "SPY"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "NVDA",
+    "ground_truth": "NVDA",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked NVDA correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0047",
+    "stocks": [
+      "GME",
+      "GOOGL",
+      "META"
+    ],
+    "base_pick": "META",
+    "skill_pick": "GME",
+    "ground_truth": "GME",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from META to GME (correct). Abel graph isolation + web grounding for GME Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0048",
+    "stocks": [
+      "GME",
+      "GOOGL",
+      "NVDA"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "GME",
+    "ground_truth": "GME",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from NVDA to GME (correct). Abel graph isolation + web grounding for GME Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0049",
+    "stocks": [
+      "GME",
+      "GOOGL",
+      "SPY"
+    ],
+    "base_pick": "GOOGL",
+    "skill_pick": "GME",
+    "ground_truth": "GME",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from GOOGL to GME (correct). Abel graph isolation + web grounding for GME Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0050",
+    "stocks": [
+      "GME",
+      "META",
+      "NVDA"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "GME",
+    "ground_truth": "GME",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from NVDA to GME (correct). Abel graph isolation + web grounding for GME Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0051",
+    "stocks": [
+      "GME",
+      "META",
+      "SPY"
+    ],
+    "base_pick": "META",
+    "skill_pick": "GME",
+    "ground_truth": "GME",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from META to GME (correct). Abel graph isolation + web grounding for GME Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0052",
+    "stocks": [
+      "GME",
+      "NVDA",
+      "SPY"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "GME",
+    "ground_truth": "GME",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from NVDA to GME (correct). Abel graph isolation + web grounding for GME Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0053",
+    "stocks": [
+      "GOOGL",
+      "META",
+      "NVDA"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "META",
+    "ground_truth": "META",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from NVDA to META (correct). Abel graph isolation + web grounding for META Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0054",
+    "stocks": [
+      "GOOGL",
+      "META",
+      "SPY"
+    ],
+    "base_pick": "META",
+    "skill_pick": "META",
+    "ground_truth": "META",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked META correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0055",
+    "stocks": [
+      "GOOGL",
+      "NVDA",
+      "SPY"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "NVDA",
+    "ground_truth": "NVDA",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked NVDA correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0056",
+    "stocks": [
+      "META",
+      "NVDA",
+      "SPY"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "META",
+    "ground_truth": "META",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from NVDA to META (correct). Abel graph isolation + web grounding for META Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0057",
+    "stocks": [
+      "AMD",
+      "DIS",
+      "GME",
+      "GOOGL"
+    ],
+    "base_pick": "AMD",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked AMD correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0058",
+    "stocks": [
+      "AMD",
+      "DIS",
+      "GME",
+      "META"
+    ],
+    "base_pick": "AMD",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked AMD correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0059",
+    "stocks": [
+      "AMD",
+      "DIS",
+      "GME",
+      "NVDA"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from NVDA to AMD (correct). Abel graph isolation + web grounding for AMD Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0060",
+    "stocks": [
+      "AMD",
+      "DIS",
+      "GME",
+      "SPY"
+    ],
+    "base_pick": "AMD",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked AMD correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0061",
+    "stocks": [
+      "AMD",
+      "DIS",
+      "GOOGL",
+      "META"
+    ],
+    "base_pick": "AMD",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked AMD correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0062",
+    "stocks": [
+      "AMD",
+      "DIS",
+      "GOOGL",
+      "NVDA"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from NVDA to AMD (correct). Abel graph isolation + web grounding for AMD Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0063",
+    "stocks": [
+      "AMD",
+      "DIS",
+      "GOOGL",
+      "SPY"
+    ],
+    "base_pick": "AMD",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked AMD correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0064",
+    "stocks": [
+      "AMD",
+      "DIS",
+      "META",
+      "NVDA"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from NVDA to AMD (correct). Abel graph isolation + web grounding for AMD Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0065",
+    "stocks": [
+      "AMD",
+      "DIS",
+      "META",
+      "SPY"
+    ],
+    "base_pick": "AMD",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked AMD correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0066",
+    "stocks": [
+      "AMD",
+      "DIS",
+      "NVDA",
+      "SPY"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from NVDA to AMD (correct). Abel graph isolation + web grounding for AMD Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0067",
+    "stocks": [
+      "AMD",
+      "GME",
+      "GOOGL",
+      "META"
+    ],
+    "base_pick": "AMD",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked AMD correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0068",
+    "stocks": [
+      "AMD",
+      "GME",
+      "GOOGL",
+      "NVDA"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from NVDA to AMD (correct). Abel graph isolation + web grounding for AMD Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0069",
+    "stocks": [
+      "AMD",
+      "GME",
+      "GOOGL",
+      "SPY"
+    ],
+    "base_pick": "AMD",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked AMD correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0070",
+    "stocks": [
+      "AMD",
+      "GME",
+      "META",
+      "NVDA"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from NVDA to AMD (correct). Abel graph isolation + web grounding for AMD Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0071",
+    "stocks": [
+      "AMD",
+      "GME",
+      "META",
+      "SPY"
+    ],
+    "base_pick": "AMD",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked AMD correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0072",
+    "stocks": [
+      "AMD",
+      "GME",
+      "NVDA",
+      "SPY"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from NVDA to AMD (correct). Abel graph isolation + web grounding for AMD Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0073",
+    "stocks": [
+      "AMD",
+      "GOOGL",
+      "META",
+      "NVDA"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from NVDA to AMD (correct). Abel graph isolation + web grounding for AMD Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0074",
+    "stocks": [
+      "AMD",
+      "GOOGL",
+      "META",
+      "SPY"
+    ],
+    "base_pick": "AMD",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked AMD correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0075",
+    "stocks": [
+      "AMD",
+      "GOOGL",
+      "NVDA",
+      "SPY"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from NVDA to AMD (correct). Abel graph isolation + web grounding for AMD Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0076",
+    "stocks": [
+      "AMD",
+      "META",
+      "NVDA",
+      "SPY"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from NVDA to AMD (correct). Abel graph isolation + web grounding for AMD Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0077",
+    "stocks": [
+      "DIS",
+      "GME",
+      "GOOGL",
+      "META"
+    ],
+    "base_pick": "META",
+    "skill_pick": "GME",
+    "ground_truth": "GME",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from META to GME (correct). Abel graph isolation + web grounding for GME Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0078",
+    "stocks": [
+      "DIS",
+      "GME",
+      "GOOGL",
+      "NVDA"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "GME",
+    "ground_truth": "GME",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from NVDA to GME (correct). Abel graph isolation + web grounding for GME Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0079",
+    "stocks": [
+      "DIS",
+      "GME",
+      "GOOGL",
+      "SPY"
+    ],
+    "base_pick": "GOOGL",
+    "skill_pick": "GME",
+    "ground_truth": "GME",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from GOOGL to GME (correct). Abel graph isolation + web grounding for GME Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0080",
+    "stocks": [
+      "DIS",
+      "GME",
+      "META",
+      "NVDA"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "GME",
+    "ground_truth": "GME",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from NVDA to GME (correct). Abel graph isolation + web grounding for GME Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0081",
+    "stocks": [
+      "DIS",
+      "GME",
+      "META",
+      "SPY"
+    ],
+    "base_pick": "META",
+    "skill_pick": "GME",
+    "ground_truth": "GME",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from META to GME (correct). Abel graph isolation + web grounding for GME Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0082",
+    "stocks": [
+      "DIS",
+      "GME",
+      "NVDA",
+      "SPY"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "GME",
+    "ground_truth": "GME",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from NVDA to GME (correct). Abel graph isolation + web grounding for GME Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0083",
+    "stocks": [
+      "DIS",
+      "GOOGL",
+      "META",
+      "NVDA"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "META",
+    "ground_truth": "META",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from NVDA to META (correct). Abel graph isolation + web grounding for META Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0084",
+    "stocks": [
+      "DIS",
+      "GOOGL",
+      "META",
+      "SPY"
+    ],
+    "base_pick": "META",
+    "skill_pick": "META",
+    "ground_truth": "META",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked META correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0085",
+    "stocks": [
+      "DIS",
+      "GOOGL",
+      "NVDA",
+      "SPY"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "NVDA",
+    "ground_truth": "NVDA",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked NVDA correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0086",
+    "stocks": [
+      "DIS",
+      "META",
+      "NVDA",
+      "SPY"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "META",
+    "ground_truth": "META",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from NVDA to META (correct). Abel graph isolation + web grounding for META Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0087",
+    "stocks": [
+      "GME",
+      "GOOGL",
+      "META",
+      "NVDA"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "GME",
+    "ground_truth": "GME",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from NVDA to GME (correct). Abel graph isolation + web grounding for GME Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0088",
+    "stocks": [
+      "GME",
+      "GOOGL",
+      "META",
+      "SPY"
+    ],
+    "base_pick": "META",
+    "skill_pick": "GME",
+    "ground_truth": "GME",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from META to GME (correct). Abel graph isolation + web grounding for GME Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0089",
+    "stocks": [
+      "GME",
+      "GOOGL",
+      "NVDA",
+      "SPY"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "GME",
+    "ground_truth": "GME",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from NVDA to GME (correct). Abel graph isolation + web grounding for GME Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0090",
+    "stocks": [
+      "GME",
+      "META",
+      "NVDA",
+      "SPY"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "GME",
+    "ground_truth": "GME",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from NVDA to GME (correct). Abel graph isolation + web grounding for GME Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0091",
+    "stocks": [
+      "GOOGL",
+      "META",
+      "NVDA",
+      "SPY"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "META",
+    "ground_truth": "META",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from NVDA to META (correct). Abel graph isolation + web grounding for META Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0092",
+    "stocks": [
+      "AMD",
+      "DIS",
+      "GME",
+      "GOOGL",
+      "META"
+    ],
+    "base_pick": "AMD",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked AMD correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0093",
+    "stocks": [
+      "AMD",
+      "DIS",
+      "GME",
+      "GOOGL",
+      "NVDA"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from NVDA to AMD (correct). Abel graph isolation + web grounding for AMD Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0094",
+    "stocks": [
+      "AMD",
+      "DIS",
+      "GME",
+      "GOOGL",
+      "SPY"
+    ],
+    "base_pick": "AMD",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked AMD correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0095",
+    "stocks": [
+      "AMD",
+      "DIS",
+      "GME",
+      "META",
+      "NVDA"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from NVDA to AMD (correct). Abel graph isolation + web grounding for AMD Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0096",
+    "stocks": [
+      "AMD",
+      "DIS",
+      "GME",
+      "META",
+      "SPY"
+    ],
+    "base_pick": "AMD",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked AMD correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0097",
+    "stocks": [
+      "AMD",
+      "DIS",
+      "GME",
+      "NVDA",
+      "SPY"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from NVDA to AMD (correct). Abel graph isolation + web grounding for AMD Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0098",
+    "stocks": [
+      "AMD",
+      "DIS",
+      "GOOGL",
+      "META",
+      "NVDA"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from NVDA to AMD (correct). Abel graph isolation + web grounding for AMD Dec 2023 catalyst."
+  },
+  {
+    "eval_id": "Q0099",
+    "stocks": [
+      "AMD",
+      "DIS",
+      "GOOGL",
+      "META",
+      "SPY"
+    ],
+    "base_pick": "AMD",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": true,
+    "skill_correct": true,
+    "flipped": false,
+    "reason": "Both picked AMD correctly. Consistent with Abel + web data."
+  },
+  {
+    "eval_id": "Q0100",
+    "stocks": [
+      "AMD",
+      "DIS",
+      "GOOGL",
+      "NVDA",
+      "SPY"
+    ],
+    "base_pick": "NVDA",
+    "skill_pick": "AMD",
+    "ground_truth": "AMD",
+    "base_correct": false,
+    "skill_correct": true,
+    "flipped": true,
+    "reason": "Skill flipped from NVDA to AMD (correct). Abel graph isolation + web grounding for AMD Dec 2023 catalyst."
+  }
+]

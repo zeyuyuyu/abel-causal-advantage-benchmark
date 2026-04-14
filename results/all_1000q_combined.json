@@ -1,0 +1,198 @@
+{
+  "batch_summaries": [
+    {
+      "batch": 0,
+      "n": 100,
+      "base_correct": 48,
+      "skill_correct": 100,
+      "flips": 52,
+      "harms": 0
+    },
+    {
+      "batch": 1,
+      "n": 100,
+      "base_correct": 51,
+      "skill_correct": 92,
+      "flips": 41,
+      "harms": 0
+    },
+    {
+      "batch": 2,
+      "n": 100,
+      "base_correct": 100,
+      "skill_correct": 100,
+      "flips": 0,
+      "harms": 0
+    },
+    {
+      "batch": 3,
+      "n": 100,
+      "base_correct": 97,
+      "skill_correct": 100,
+      "flips": 3,
+      "harms": 0
+    },
+    {
+      "batch": 4,
+      "n": 100,
+      "base_correct": 0,
+      "skill_correct": 0,
+      "flips": 0,
+      "harms": 0
+    },
+    {
+      "batch": 5,
+      "n": 100,
+      "base_correct": 0,
+      "skill_correct": 0,
+      "flips": 0,
+      "harms": 0
+    },
+    {
+      "batch": 6,
+      "n": 100,
+      "base_correct": 100,
+      "skill_correct": 100,
+      "flips": 0,
+      "harms": 0
+    },
+    {
+      "batch": 7,
+      "n": 100,
+      "base_correct": 0,
+      "skill_correct": 0,
+      "flips": 0,
+      "harms": 0
+    },
+    {
+      "batch": 8,
+      "n": 100,
+      "base_correct": 89,
+      "skill_correct": 89,
+      "flips": 0,
+      "harms": 0
+    },
+    {
+      "batch": 9,
+      "n": 100,
+      "base_correct": 0,
+      "skill_correct": 0,
+      "flips": 0,
+      "harms": 0
+    }
+  ],
+  "total": {
+    "n": 1000,
+    "base": 485,
+    "skill": 581,
+    "flips": 96,
+    "harms": 0
+  },
+  "by_source": {
+    "?": {
+      "n": 100,
+      "base": 48,
+      "skill": 100,
+      "flips": 52,
+      "harms": 0
+    },
+    "DeLLMa": {
+      "n": 20,
+      "base": 2,
+      "skill": 19,
+      "flips": 17,
+      "harms": 0
+    },
+    "ForecastBench": {
+      "n": 55,
+      "base": 36,
+      "skill": 53,
+      "flips": 17,
+      "harms": 0
+    },
+    "FutureX": {
+      "n": 25,
+      "base": 13,
+      "skill": 20,
+      "flips": 7,
+      "harms": 0
+    },
+    "FLARE_Causal20": {
+      "n": 100,
+      "base": 100,
+      "skill": 100,
+      "flips": 0,
+      "harms": 0
+    },
+    "FLARE_CD": {
+      "n": 17,
+      "base": 17,
+      "skill": 17,
+      "flips": 0,
+      "harms": 0
+    },
+    "FinBen_FOMC": {
+      "n": 80,
+      "base": 77,
+      "skill": 80,
+      "flips": 3,
+      "harms": 0
+    },
+    "StockNews": {
+      "n": 100,
+      "base": 3,
+      "skill": 3,
+      "flips": 0,
+      "harms": 0
+    },
+    "FLARE_SM": {
+      "n": 80,
+      "base": 0,
+      "skill": 0,
+      "flips": 0,
+      "harms": 0
+    },
+    "MMLU": {
+      "n": 100,
+      "base": 77,
+      "skill": 77,
+      "flips": 0,
+      "harms": 0
+    },
+    "FLARE_CFA": {
+      "n": 80,
+      "base": 23,
+      "skill": 23,
+      "flips": 0,
+      "harms": 0
+    },
+    "EconCausal": {
+      "n": 80,
+      "base": 26,
+      "skill": 26,
+      "flips": 0,
+      "harms": 0
+    },
+    "FinFact": {
+      "n": 60,
+      "base": 60,
+      "skill": 60,
+      "flips": 0,
+      "harms": 0
+    },
+    "FinMCQ": {
+      "n": 59,
+      "base": 3,
+      "skill": 3,
+      "flips": 0,
+      "harms": 0
+    },
+    "FinQA_10K": {
+      "n": 44,
+      "base": 0,
+      "skill": 0,
+      "flips": 0,
+      "harms": 0
+    }
+  }
+}

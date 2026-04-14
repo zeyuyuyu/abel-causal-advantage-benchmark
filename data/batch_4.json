@@ -1,0 +1,1125 @@
+[
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2003-03-06 In brief: Brittany Murphy looks into Little Black Book Apple releases iMovie patch 'Disaster survivors and bereaved are being listened to better' Sweet valley highs Straw: keep up pressure on Saddam Laying down the Law 31 songs by Nick Hornby Henry V, Viaduct, Halifax Vivendi reveals talks with Viacom Fifa postpone Youth cup Controversy over Gaza raid deaths Andre Mantegna's The Holy Fa",
+  "ground_truth": 1,
+  "abel_tickers": [
+   "AAPL"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0401"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2003-01-07 Villa reject Blackburn's £2m offer for Alpay Sign a wrong 'un and risk paying the price of the sack City tempt Reiziger Bellion set for United as Dawson awaits call Bargain Bowyer heads for basement Jansen heads for full recovery Magical draw for minnows Apple unveils new software and new Macs Bright ideas for 2003 Wearing apologises over cover furore Police question terror suspects as ",
+  "ground_truth": 0,
+  "abel_tickers": [
+   "AAPL"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0402"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2005-01-14 Sharon cuts ties with Abbas 'Freedom is a conquering ideal' Sunni rebels admit killing Shia aide UK to relieve Tanzania debt burden Milburn to challenge 'apathetic heartland' Titan probe signals Earth Five more years Not old enough to know better? UK marketing men to head up Disney European unit Slugs. This time it's personal Creative's CEO disses the iPod shuffle They were thinking... ",
+  "ground_truth": 1,
+  "abel_tickers": [
+   "DIS"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0403"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2006-04-19 Charge stag-nighters for bail-out, say MPs Charles Arthur: Living on the street with no name Jack Schofield: Can a Windows update actually be a downgrade? Victor Keegan: This tablet could be worth taking for now Charles Arthur: You've got (paid-for) mail Jack Schofield: NewsBytes Greg Howson: Simple pleasures hold key to the console's future Jack Schofield: Google's new calendar could e",
+  "ground_truth": 1,
+  "abel_tickers": [
+   "GOOG"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0404"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2006-01-11 Google Earth arrives for the Mac Tom Yager calls foul on Apple's use of benchmarks for new Intel Macs Earning his stripes Hamza kept terrorism manual, court told Reporters face bird flu quarantine The Who enter BBC2's Arena Hurricane aftermath hits BP production 500 detainees at Guantánamo four years on The Mile-wide home page Terrorist amnesty bill dropped Not in my name TV ratings: Ja",
+  "ground_truth": 0,
+  "abel_tickers": [
+   "GOOG",
+   "AAPL",
+   "INTC"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0405"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2007-01-03 Rolls-Royce man takes front-seat role at HSBC Personal insolvencies likely to set new record as Britons spend, spend, spend Fraudsters net record £1.4bn from business rip-offs Will anyone lend me 11 times my income? Should we pay a penalty or keep our mortgage? My tip is don't take tipping seriously Market forces: Silver and gold make the Footsie shine Vodafone's ambitions in India thre",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0406"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2007-03-06 Can Virgin raise my credit card interest rate? Help - a collection agency is demanding payment! Credit worthies Red alert: the noses are back Critics' choice Diary: Jon Henley Education jet-set might try the train Setting apart Fresh start The screenwriting tutor Feeling good Moving on Letters The use of technology in the exam system Fairtrade schemes in schools College days Struggling ",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0407"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2001-06-18 Brown seeks to create a new USA High-profile women lawyers in government Do ministers need specialist knowledge? Riise prefers the Anfield prospect Bankruptcy laws to be overhauled Inflation fears hit rate cut hopes Pop review: Destiny's Child Vermeer matchless when it comes to brass tacks SFO on Independent case Online prices are on the up Three office makeovers Independent Insurance g",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation",
+   "rate cut"
+  ],
+  "eval_id": "Q0408"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2003-11-07 Big scorers should never worry about goal block Euro 2004 put on holidaymaker alert Greek drama threatens coach Uefa Cup round-up The EU's Chechnya challenge Lawyers unfazed by stars' low damages St John may step down from BSkyB board Soham girls 'likely to have been asphyxiated' Portillo to quit as MP The pupil's revenge Tabloid launch boosts Independent sales A right royal PR mess Wee",
+  "ground_truth": 0,
+  "abel_tickers": [
+   "AAPL"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0409"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2001-05-24 Mortimer milestone as new manager of Wolves Women No substitute for England class Constituency profile:  Liverpool Walton Angry Uefa puts Blatter on the spot Why I'm abstaining Why Brown may favour a long game on the euro Francis future in doubt as board refuses new deal Shake-up likely to give Blunkett anti-drug role England build on strength Keegan the new City man Art Car insurance c",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0410"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2000-05-25 Scoreboard Youhana restores Pakistan pride Exchange turns on the charm SFO chief hits at new regime Boos from the crowd Whitbread calls last orders for beer Microsoft falls on analyst's warning Dot.com chill cuts Egg share for executives McManaman the matador toys with Valencia Red faces as Kinnear keeps Wednesday waiting O'Neill can claim pot o' gold if he does not get vertigo Hull loc",
+  "ground_truth": 0,
+  "abel_tickers": [
+   "MSFT"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0411"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2002-02-08 RSPCA acts in Newmarket neglect case Preview: Henman v Bjorkman in Davis Cup Fletcher turns on Gavaskar over 'whingers' jibe The job ahead for Wales' new coach Steve Hansen temporary Wales coach It's the taking part that counts Jonathan Lomas leads the ANZ Championship in Sydney Sun boss dons Tux: McNealy Border lines It's all Greek SWT rail strikes suspended Microsoft chief executive S",
+  "ground_truth": 1,
+  "abel_tickers": [
+   "MSFT"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0412"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2000-04-24 Ups and downs Mixing with the best One2One faces £2.2bn hurdle Börse struggles to meet deadline Banks don't answer in cyberspace Funds seek windfall boost A dream of Donegal Microsoft leads new slide in US tech stocks Computer sales slow as mobiles and TV email erode market share Saved by bluegrass Shimmering spirituality How to survive a new boss 'Realistic' Durlacher begins to retreat",
+  "ground_truth": 1,
+  "abel_tickers": [
+   "MSFT"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0413"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2004-06-30 Portugal 2 - 1 Holland Cashing in on the Czechs Deco favours Barcelona move Bradford on the brink of closing Real candidate moots Makalele return Greeks threaten strike in dispute over bonuses Butt to join Milner at Newcastle Greeks in thrall to King Otto Cyber cinema: July's cool pics Cech worth his weight in gold Thanks be to Gerrard for refusing the Roman coin Holland 1 - 2 Portugal ",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0414"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2004-03-19 West Indies v England - third session, live! Second most wanted West Indies v England - live! Press review: Housing Madrid tremors reach Italy Microsoft faces big EU fines as talks fail EU to appoint anti-terror 'tsar' Voices on Iraq: your reaction Friday's rumours Dyke questioned by BBC inquiry Leeds United statement in full Murdoch brings in Bush adviser More turn to the contraceptive",
+  "ground_truth": 0,
+  "abel_tickers": [
+   "MSFT"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0415"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2001-06-05 UK interest rates on hold Insurer seeks rescue Retailers begin to push up prices Interest rates unchanged Pop: John Martyn Theatre: Blood Wedding Napster wins over record companies Finance key issue for voters Halifax says house prices up for fifth month John Campbell's top 10 political biographies Classical: Gilbert and George's trite images Good news for savers Friends Provident to fl",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0416"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2007-10-09 JP Morgan consortium buys Southern Water The fresh five Stephen Bates: People Art lovers fall victim to Doris's crack Clubs asked agents to play both sides as FA turned a blind eye Google moves to turn YouTube clips into advertising cash Gary Player hits Mandela golf tournament bunker over business ties to Burma Brummies get dose of 'hyperreal' art The question: What is the postal strik",
+  "ground_truth": 0,
+  "abel_tickers": [
+   "GOOG",
+   "JPM"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0417"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2001-05-23 Call-up for newly Irish Morrison Mexico fear they will not wave but sink Royle riled by rumours of Maine Road 'drink culture' McClaren says yes to Boro Rate crusader risks all Classical: Philharmonia/Ashkenazy Theatre: King Lear Currency falls to new low New interest rate cut Theatre: Odyssey Joan Smith's top 10 books for a more moral society Pop: Gloss Art: Manga Theatre: Herons City d",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate",
+   "rate cut"
+  ],
+  "eval_id": "Q0418"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2000-04-03 Real Madrid 0 - 0 Man Utd Radio review Reuters foul-up adds to hi-tech stock jitters My boss told me to leave when I spurned her advances Byers takes more Rover flak Minister calls for boycott of Barclays Microsoft faces break-up Somerfield attracts Budgens' top executive Dark heat untouched The best of the 90s Bumbling rock god T-Online float price alarms investors Langer onslaught com",
+  "ground_truth": 0,
+  "abel_tickers": [
+   "MSFT"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0419"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2000-06-08 Ron's in the dugout! Mutual message fails to hit home, building societies told Magical bleakness engages 800 jobs go as mail order merges with Argos stores FSA raises hackles at Standard Life Fowl behaviour Milking the profits Ever evolving Victor offers Microsoft an olive branch US cash fuels talk of Liffe flotation Technique and colour The 9,307% company Euro bank ratchets up rates Ke",
+  "ground_truth": 0,
+  "abel_tickers": [
+   "MSFT"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0420"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2005-11-01 Microsoft Live goes live Concern grows over FA's drugs policy García admits to misplaced tricks in Liverpool's passage Defiant McLeish tells players to put Artmedia before other worries Portsmouth slap fine on apologetic Robert Sullivan counts out spending to save Birmingham Mourinho attacks defence and lists recent errors King aims for new deal at Spurs Hearts in turmoil as chief execu",
+  "ground_truth": 1,
+  "abel_tickers": [
+   "MSFT"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0421"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2005-02-10 Eriksson defensive about new shape United protesters rage at Glazer Richard Williams on Shaun Wright-Phillips How England rated School RFID Plan Gets an F Cole rift with Arsenal over contract Charles and Camilla to marry Google boots blogger Not coming to a screen near you BT to double broadband speeds Challenging year ahead for Liberty Survivor demands apology from mayor Sun fined £70k",
+  "ground_truth": 1,
+  "abel_tickers": [
+   "GOOG"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0422"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2000-05-22 Tories led by rabble rouser says Kennedy Kingston breaks out of Hull Trail of night wonders Boo liquidators make 220 staff redundant Net Imperative joins dot.com casualty list Bank that's just you and the web Should you be paid for travelling time? xx Microsoft revives old ruling in effort to foil break-up Strengths to strengths Putting the dot.com plunge in perspective High hopes for h",
+  "ground_truth": 0,
+  "abel_tickers": [
+   "MSFT"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0423"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2007-08-24 Mark Ravenhill for breakfast: The Odyssey BBCSSO/Malkki, Usher Hall, Edinburgh Exhibitions preview: Aug 25-31 Comedy preview: Aug 25-31 Theatre preview: Aug 25 - 31 William Dalrymple explores the rich legacy of Hindu art and culture Fiona Shaw on performing Samuel Beckett at Epidaurus Dance preview: Aug 25-31 Clearing: internship ideas Letters: We must learn to speak the language of suc",
+  "ground_truth": 0,
+  "abel_tickers": [
+   "META"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0424"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2000-06-07 Human face of musicals Carphone king worth £1bn Manufacturing breathes sigh of relief over rates Building societies still offer mortgages facing ban Branson lays into BA again Vodafone in £500m tax row A toast to the wasted Breathless bewitcher MPC proves itself for third year running Focus:  Dairy Crest Calling time Politics taken out of statistics Berlioz with words Abbey looks deeper",
+  "ground_truth": 0,
+  "abel_tickers": [
+   "MSFT"
+  ],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0425"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2007-12-18 Care homes criticised for restraints on residents Trial boosts hopes for new cholesterol busting drug Migrant workers curb wages and keep interest rates low to boost economic growth Leighton to stay for an extra year Banks told not to hide effects of credit crunch Market forces: Banks, retailers and miners add to jittery mood Strong euro nears the pain barrier Le Concert d'Astrée/Haïm, ",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate",
+   "economic growth"
+  ],
+  "eval_id": "Q0426"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2000-04-28 Getting that loan is a steep learning curve Click around to save on insurance Time to take stock of tech holdings ICI faces 'pollution' protest How to avoid an audience Stakeholder plan looks increasingly  shaky for lower earners Protect yourself from the cyber-pirates A friendly banker in the living room corner Internet bank gets Egg on its face again Barbed farewell for SmithKline chi",
+  "ground_truth": 1,
+  "abel_tickers": [
+   "MSFT"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0427"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2006-11-21 Reforms leave women still short of pensions Champions League: Celtic v Man Utd - live! There for the taking Google shares bubble above 500 bucks Champions League: Arsenal v Hamburg - live! PlayStation 3 shortages Awful truth of the loss-making Press Gazette US and them: Friends indeed So much for so little PS3 under fire Youths broke taxi driver's skull in racist attack, court told Voic",
+  "ground_truth": 1,
+  "abel_tickers": [
+   "GOOG"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0428"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2008-02-28 An Ivy League saint Hillary Clinton announces she has raised $35m in February but Obama camp says they have raised more The army learns its lesson Let's listen to the quiet man Several injured after explosion at US shopping mall Natural born confusion Bloomberg decides against presidential run Taking evidence seriously Google relaunches Jotspot as Google Sites PDA's Newsbucket Watch wit",
+  "ground_truth": 0,
+  "abel_tickers": [
+   "GOOG"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0429"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2007-06-04 Russian ban on body parts exports hits drug testing firm Market drops further in China BA boss who quit over scandal in line for £1.6m Football coach charged with date murder PartyGaming in talks on US ban Higher interest rates squeeze shop sales Corrections and clarifications Paris begins prison sentence Estonia coach walks McClaren's tightrope Gerrard expects minnows to provide Englan",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0430"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2004-01-15 UK finds hole in videoconferencing protocol HP wins Christmas PC battle Apple and Intel beat the street with tech recovery Nature calls Jamaican chart topper hurt in car accident School pupils grill Tory leader GE Capital Bank told to change its ways Blair fails to charm opponents Independent drops Saturday broadsheet Baby, and  Innocence Five questions for Lord Hutton Appointments are ",
+  "ground_truth": 1,
+  "abel_tickers": [
+   "AAPL",
+   "INTC"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0431"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2001-06-12 Analysis Restore the House to its former glory Leader: The poet Row over profiteering holds up banks inquiry Women's enjoyment of careers plummets Pop review: Roxy Music Friends Provident stock goes cheap Brits upbeat about financial future Inflation rise may end fall in interest rates Theatre review: Little Malcolm . . . Classical Review: Krystian Zimerman Classical review: Britten Sin",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate",
+   "inflation"
+  ],
+  "eval_id": "Q0432"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2001-08-31 What's hot on the UK markets? What's hot in Japan? The European market Edinburgh theatre: An Alphabet Prom 53: LGO/ Blomstedt New survey on pocket money Energy suppliers say prices are too low Growing enigma of insurer's endgame What's hot on the market? Pop: Heather Nova Pop: Tori Amos Investing in Isas What's hot in the US? National Savings trims its returns Repka rejects Hammers agai",
+  "ground_truth": 1,
+  "abel_tickers": [
+   "GOOG"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0433"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2005-07-28 Vital marine species under threat Israelis quit Gaza for mobile village What they said about ... the Duchy of Cornwall Rising passenger numbers bring big returns for franchises Sony losses mount as iPods and cheaper prices from rivals take toll Notebook: Mixed emotions in the departure lounge Rolls-Royce pays out first dividend increase since 9/11 terror attacks BAT to close more Europe",
+  "ground_truth": 0,
+  "abel_tickers": [
+   "MS"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0434"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2003-10-27 Derby County 1 - 3 Coventry FA will know punishment on Thursday Students rally over tuition fee increases Microsoft moves towards portable video player market Oxford professor suspended for discrimination California wildfires kill 13 Elvis is still King Honours even in Dutch heavyweight clash Home Office: no attempt to block BBC exposé Berlin's Jewish memorial halted Obituary: Tony Caps",
+  "ground_truth": 1,
+  "abel_tickers": [
+   "MSFT"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0435"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2001-05-15 Wenger, the last of the small spenders Electoral roll to offer ex-directory option when it goes online Uefa Cup final: Alaves aim to settle 24-year itch Cut-price fashion trims inflation World music: Mercedes Sosa Jazz: Nikki Iles Quintet Jazz: Gruntz Concert Band Why the US is setting our interest rate agenda Pop: Nelly Furtado Pop: Oasis/Black Crowes Theatre: The Beauty Queen of Leena",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate",
+   "inflation"
+  ],
+  "eval_id": "Q0436"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2004-02-17 Obituary: Molly Izzard Nuts about Cocoa Brits success for The Darkness Bristol plants a reading seed Shore thing Dutch MPs approve asylum expulsions Staff cut in BBC learning shake-up New EU states join veterans in pact push Microsoft drops pop-up ads Kerry 'dirty tricks' claim over doctored photo US school cuts down on toilet trips Dead body found in suitcase Unworthy Invensys Muslim '",
+  "ground_truth": 0,
+  "abel_tickers": [
+   "MSFT"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0437"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2000-10-03 More about England v Germany Ranieri sets sights on ageing Jonk Romeo and Juliet Review: On The Town An employment tribunal lawyer writes Making the worst of a good job Tricks of the trade Surge in house prices fuels interest rate fears Dodgy logic on endowments Review: Delgados Review:  The Blue Room Online banks fight for their share Review: Orphée et Eurydice Review: Lewis Taylor And",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0438"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2005-11-25 Ronaldo in the clear Ministers retreat on scrapping juries Sob: this blog fails the Web 2.0 test Make an ultimate paper plane Microsoft says: Bring your own domain Google fixes glitch that unleashed flood of porn The week that was 500 trapped on snow-hit road Syria agrees to UN interviews Football pays tribute to Best Briton killed in Amsterdam knife attack George Best dies, aged 59 Gra",
+  "ground_truth": 0,
+  "abel_tickers": [
+   "GOOG",
+   "MSFT"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0439"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2004-04-28 Toby Green's top 10 utopias and dystopias Blair to serve full third term Murdered tourist's father criticises detective Corrections and clarifications iTunes 4.5 adds iMix, videos, trailers, more Two new Zires from PalmOne Hendry storms through to semis Linux seller licenses Windows Media technology Can this man deliver decent homes? Schools rebuff Blunkett's ID scheme Google hype has v",
+  "ground_truth": 0,
+  "abel_tickers": [
+   "GOOG"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0440"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2004-04-29 NGOs express fears over funding Cowboy proves O'Neill hot-shot Johnson ready for a big step up Equestrianism: Jones out in front as Aussies take charge Conference play-offs: Aldershot 1 - 1 Hereford United Frank Keating: So what do you do all day, Sven? Leeds call the haulier back Conference play-offs: Barnet 2 -1 Shrewsbury Town Jackson pleads not guilty to abuse charges The X-Philes: ",
+  "ground_truth": 0,
+  "abel_tickers": [
+   "GOOG",
+   "MSFT"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0441"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2003-09-25 If I were Arsenal's manager I'd have read them the riot act American builds stake in United Arsenal find stadium cash Wenger blames media excess Clubs in administration to be docked points England fans face Turkey detention Hughes calls off Welsh hunt for top spot Secret world of the bung-buster The siege mentality over Highbury The X-Philes: No.11 World-renowned scholar Edward Said die",
+  "ground_truth": 0,
+  "abel_tickers": [
+   "MSFT"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0442"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2001-07-03 'White heat' Hewitt's DTI vision Flooding sparks rise in premiums Dance: Ballets of Balanchine Art: OOOH! World music review: Sam Mangwana Theatre review: Pinter the actor's muscular authority Industry pleads for rate cut to head off recession Low-income drivers hardest hit Consumers may not insure homes as prices soar after flood damage claims Theatre: The Fall Guy Jazz review: Sheila ",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "recession",
+   "rate cut"
+  ],
+  "eval_id": "Q0443"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2006-03-13 Google lands on Mars Sony launches video recorder for PSP 10 years on, Dunblane remembers The Dawn of A New Age of Discovery: Media 2006 Murdoch looks into the crystal ball Da Vinci Code claims 'completely fanciful' Ministers widen gangmaster licensing scheme Output prices offer consolation as costs rise Airports 'exceeding noxious gas levels' Christmas appeal update: Kenya Met chief ap",
+  "ground_truth": 1,
+  "abel_tickers": [
+   "GOOG"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0444"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2006-12-13 Nick Fletcher: FTSE slips into the red on inflation fears Management win the keys to Countrywide Goldman Sachs unveils record earnings as the bonus season starts Stock exchange future lies in hands of 21%  of shareholders FSA's £700,000 payment to Plumber could end dispute Getty returns disputed works to Greece Obituary letter: Nina Milkina Campaign for Bart's still has a bite Ernesto B",
+  "ground_truth": 1,
+  "abel_tickers": [
+   "GS"
+  ],
+  "abel_concepts": [
+   "inflation"
+  ],
+  "eval_id": "Q0445"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2006-05-30 Rupert Smith: Last night's TV Margaret Atwood's Hay journal Between the lines Professor Frank Blackler,   Lancaster University Management School British nuclear renaissance faces threat of skills meltdown Village water cut off by lord of manor Tory plan for water recycling systems in all new homes Anti-corruption prosecutors in Spain target Berlusconi Goldman Sachs boss becomes US treas",
+  "ground_truth": 1,
+  "abel_tickers": [
+   "GS"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0446"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2003-01-13 The next Silicon Valley? Apple v Microsoft (continued page 1,000,094) Home news from abroad Open-minded in Costa Rica? David Yelland's greatest hits Driving with care Ms Dynamite and The Streets top Brits shortlist Brits 2003: the nominees Welcome to Sarajevo Letters: Jenkins' view of Gaitskell Nice return to La Championnat summit Airey raids BBC Murdoch praises 'great talent' Yelland N",
+  "ground_truth": 1,
+  "abel_tickers": [
+   "AAPL",
+   "MSFT"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0447"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2001-04-18 Liverpool v Barcelona preview One lost night and a thousand glittering memories Corporate America takes a turn for the worse VTR boosts profits Hewlett-Packard warns on profits and fires 3,000 Online fraud Oil and motor groups all look beyond petroleum Art: Tracy Moffatt Classical: Philharmonia/ Salonen Comedy:Baddiel and Skinner Unplanned Nationwide rejects conversion move Share surge ",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate",
+   "rate cut"
+  ],
+  "eval_id": "Q0448"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2000-07-27 Brown's spree will force up interest rates, says Niesr Theatre review: A jagged journey Pop review: A beguiling cat's cradle Expansion and price cuts cause slump in BT profits Pru wins TUC pension scheme Proms review: Charismatic debut RAC plans cradle to grave service MFI plans 1,500 new jobs in expansion programme Halifax fights for business customers Investors dump Amazon shares The ",
+  "ground_truth": 0,
+  "abel_tickers": [
+   "AMZN"
+  ],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0449"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2006-10-31 The Way Home, Everyman, Liverpool Liverpool 3 - 0 Bordeaux Barcelona 2 -  2 Chelsea Audio diary: the Bush factor Re-spun Google buying spree continues -- now add JotSpot No such thing as bad press? The black history mystery FairGame cracks iTunes using iMovie Nobody knows nuthin' ... MPs reject call for Iraq war inquiry Hubble telescope gets new lease of life Midterms: Here come the Def",
+  "ground_truth": 0,
+  "abel_tickers": [
+   "GOOG"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0450"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2005-06-29 Should I wait to invest in buy-to-let? Retailers plead for rate cut Endowment claims hit record Does previous drug use make me uninsurable? Michael Cross: Putting e-government to the test Security fears over medical database Independent owner optimistic over profits The Heat is on ITV gets windfall to face the future C4 to make Guantánamo drama Mail's £20m cuts mean regional jobs will g",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "rate cut"
+  ],
+  "eval_id": "Q0451"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2003-04-03 Matrix sequel to debut at Cannes Film Festival Return to Titanic Eriksson hits back with bold fury England prepare to face the music Most managers would have gone with the tried and trusted Intelligence hailed as key to foiling violence Vogts seeks positives amid the gloom Moyes issues protection order Owen doubtful for Old Trafford Burley restores nephew frozen out at Derby Reid looks ",
+  "ground_truth": 1,
+  "abel_tickers": [
+   "INTC"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0452"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2002-03-15 Warm Water Under a Red Bridge Fatma Life as a House The Royal Tenenbaums Fit-again Strudwick off to a flying start Galwey left in cold as Ireland recall Wood Obituary: Sir Peter Holmes Baxter facing uphill battle to clear his name Rusedski's big chance blown away Audley Harrison faces fresh embarrassment Roma brawl turns political Knight's Best Mate crowned Schumacher stays cool Pop CD ",
+  "ground_truth": 0,
+  "abel_tickers": [
+   "MSFT"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0453"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2008-02-11 Yacrosoft news update PDA's Newsbucket Microsoft fails to increase its offer for Yahoo Football - Arsenal v Blackburn - live minute-by-minute! Remembering Tom Lantos Help for the homeless EA chief admits, 'oh my god, we killed Bullfrog' A tough pill to swallow Obama receives backing of Obama Hollywood ending Four held in US for 'passing' secrets to China Archbishop defends his comments ",
+  "ground_truth": 1,
+  "abel_tickers": [
+   "MSFT"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0454"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2003-01-16 Microsoft to give money away Rebrov for Fulham Barcelona back in for Hasselbaink Cottage to go in £50m deal Coventry City 3 - 0 Cardiff City Women: Stepping out of your husband's shadow What's new: International Consumer Electronics Show Feedback, Jan 16 UN inspectors find empty warheads in Iraq Chatroom of the week Kelly released on bail Upfront fees 'out' in funding plan TV bosses to ",
+  "ground_truth": 0,
+  "abel_tickers": [
+   "MSFT"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0455"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2003-09-11 The X-Philes: No. 9 Beatles finally sue Apple again (updated) Uefa to talk Turkey at peace summit Germany 2 - 1 Scotland England 2 - 0 Liechtenstein Northern Ireland 0 - 1 Armenia Perez has parting shot at Makelele Connolly shows Swiss timing Phillips regret over not joining Boro Uefa investigates bribe claims Crespo on the mark as Argentina restore pride Reading say no to Pardew resign",
+  "ground_truth": 1,
+  "abel_tickers": [
+   "AAPL"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0456"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2005-12-08 Jobs wanted Intel chips five years ago Biography of homeless man wins Guardian First Book Award Education in olive branches How Miami is reinventing itself as the US's capital of art Mirror nationals cut 20 staff Radio groups make a play for the north-east McLeish to stay at Rangers The Birth of Yahoo Answers McLeish to stay at Rangers Willetts gets Tory education brief Hopes rise for I",
+  "ground_truth": 1,
+  "abel_tickers": [
+   "INTC"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0457"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2000-05-16 Wenger's legion equipped to win in style Danish police go on charm offensive Player-by-player guide to Galatasaray v Arsenal Henry the red-hot marksman Second best not an option for Wenger Off the rails Inflation at lowest since records began The eternal immobility Tech stocks pound Perpetual Brief encounters: an employment tribunal lawyer writes How I recruit great staff Brown carpets ",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation"
+  ],
+  "eval_id": "Q0458"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2005-08-04 Day of mindless fun for A-level washouts Costly admissions River tests expose cocaine use Interest rate cut is first in two years Do I wait for my car or cut my losses? Woman shot dead in arson attack £77m winner cleaves to the quiet life Walker suspects in custody after flight Pick hedge funds; don't stack shelves Unichem's low-key Ornella Barra French warm to takeovers as St Gobain bi",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate",
+   "rate cut"
+  ],
+  "eval_id": "Q0459"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2005-06-23 35 years on, IRA admits killing teenage girl Press review: Spain's gay marriage bill Call to halt Mugabe's demolitions Country diary: Finistère 80 killed in Chinese flood disaster He told his victims he was a spy - and for 10 years took their money and abused them Bango to raise £7m on flotation Factory orders point to recession Notebook: BT runs out of wheezes BHP to fight biggest tax ",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "recession"
+  ],
+  "eval_id": "Q0460"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2005-04-20 Chelsea clear to pursue Mutu for compensation United always a target - Kenyon More departures at Morgan Stanley Judge calls time on Railtrack action China offers Rover suppliers hope Barroso defends link to shipping tycoon Market forces RBS admits to an interest in China Country diary: Weardale Blow for Eurofighter as Singapore dashes Typhoon hopes Elephants stampede in Seoul Wisdom's f",
+  "ground_truth": 1,
+  "abel_tickers": [
+   "MS"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0461"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2000-08-03 Isa mortgage Jon Temple: Why the Windsors should take DNA tests Cocu wants to stay at Barca Fifa to rotate World Cup Diary: Matthew Norman Gough reigns between showers Leader: Gordon Brown and Sarah Macaulay managed to marry in private. Help and contacts Ladies night Isas Blues review: Mighty Mo Rodgers. Help and contacts Banks lead the way lower FSa puts the Cat among the pigeons Writi",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0462"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2007-05-02 My wife and I haven't had sex for 5 years | Pamela Stephenson Gareth McLean: Watch this Minister loses fight to save hospital unit Phil Daoust: Radio pick of the day PC asked to erase query against strangled woman, court told Blair rejects fresh calls for inquiry into 7/7 attacks Paul Howlett: Film picks Bank's inflation controllers leave the NICE decade to enter the not-so-nice Top jud",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation"
+  ],
+  "eval_id": "Q0463"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2003-01-10 Intel boss talks consumer freedom Joseph Harker: Labour can't trade gender for race 'Mad dog' Adair back behind bars 'Carers should always work in pairs' Confident Kennedy determined to overtake Tories North Korea withdraws from nuclear treaty The bionic man meets Gollum Skinner Why are great musicians heard but rarely seen? Pretend you know all about... Jackie Ashley: Ministers, speak ",
+  "ground_truth": 1,
+  "abel_tickers": [
+   "INTC"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0464"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2006-06-28 Will Microsoft corrupt the security sector? Michael Cross: Thinking small could be beautiful for Britain's IT Why WinFS had to vanish Ask Jack How much does it cost to display an OS map on a website? Time to tell this travel site where to go Victor Keegan: The revolution will be online - virtually Girls charged with robbing man they met on internet Surfing with a safety net Who is winni",
+  "ground_truth": 1,
+  "abel_tickers": [
+   "MSFT"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0465"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2007-11-01 The realpolitik of selling hard drives to store films A better way to digitise prints Interview: Mike Masnick, Techdirt's founder Ask Jack Virtual China looks for real benefits Letters and blogs PM embraces the notion of easier access to government data A handy guide to the confusing consoles Why VoIP is the next target for spammers Why has Becta accused Microsoft of unfair trading? New",
+  "ground_truth": 1,
+  "abel_tickers": [
+   "MSFT"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0466"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2000-09-06 Cricket scoreboard Round-up Somerset slump hands treble to Gloucestershire Granada set to take stake in Arsenal Silvinho strike stuns Chelsea Shearer's 200th goal puts Magpies on top Robson fumes after Derby's latest escape Owen hat-trick hits Voller and Villa Johansson limits Hoddle to what he came for Collymore the Leicester catalyst Music review Sensible simplicity Life in the dinosa",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0467"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2001-07-16 Inflation steady despite rising food prices Classical: Matthias Pintscher Jazz: Remember Shakti The way we work Paul Burston's top 10  gay fiction books Pop: Essential festival A City bank's 'lifestyle managers' Opera: The Nose Classical: Turnage premiere Pop: George Clinton Lord's Test crucial for Fletcher The life and times of Juan Antonio Samaranch Lions tour facts and figures Healey",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation"
+  ],
+  "eval_id": "Q0468"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2001-04-19 Ooh-aah, Fat Neck's a star... James finds Villa too cheap to rise Microsoft and Sun beat forecasts Independent Insurance chief quits CGNU profits in stakeholder style CMG results dampen day of euphoria Flood costs put up premiums Savings Insurance Pop review: Soft Boys Pop review:  The Bush, the Tree and Me McCartney wealth put at £713m Ericsson axes 12,000 jobs Ericsson and Sony discus",
+  "ground_truth": 0,
+  "abel_tickers": [
+   "MSFT"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0469"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2008-02-19 Jakob on Application design mistakes Historic opportunity Football: Olympiakos v Chelsea - live minute-by-minute Terror police feared gun battle with Israeli general Benitez: Veni, vidi, vindicated Joel on Microsoft Office binary file formats Pakistan's leap of faith Football: Liverpool v Internazionale - live minute-by-minute! Get out your tin-foil hats Capello's men to light up Europe",
+  "ground_truth": 1,
+  "abel_tickers": [
+   "MSFT"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0470"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2004-02-11 Football: Sanchez says squad of 24 to be cut to 18 Firebird becomes Firefox Sound archive draws on century of northern voices New model army IDS continues media onslaught Reading difficulties Murdoch shrugs off Disney bid Relatives demand prosecutions for hospital abuse Dummies and  Manchester United Telegraph staff back strike Government defends new poverty measures News Corp reports 5",
+  "ground_truth": 0,
+  "abel_tickers": [
+   "DIS"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0471"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2003-07-10 Teams no longer afraid of the dark Kent 362 & 418-3dec Nottinghamshire 156 & 29-2 letters NEC shows TV-phone prototype Sun ahead of Microsoft in signing with SCO ATP confesses to dispensing drugs Holland has nod for Suggestive Macadamia brings joy to Spencer Choisir on course for flying show Mickelson banks on Loch Lomond New coach for Montgomery and Jones Ranieri gets green light to st",
+  "ground_truth": 1,
+  "abel_tickers": [
+   "MSFT"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0472"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2000-10-18 Fulham 3 - 1 Crystal Palace Wimbledon 0 - 2 Blackburn Rovers Champions League: Man Utd 3 - 1 PSV Eindhoven 'He's a scorer and he wanted his first goal' Round-up Markets escape meltdown IFAs seek judicial review over windfall ruling jhkjh ygkyhgkjhgv Theatre: Napoleon Review: Regular Fries Review: Pop Review: Eileen Rose Review: Wilt Review: Philharmonia Orchestra/Schiff Falling unemploy",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "unemployment"
+  ],
+  "eval_id": "Q0473"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2006-08-09 Demands for recall of parliament growing Cheap goods lighten the burden on inflation of rising energy costs Anti-terror critics just don't get it, says Reid Now the giant is gobbling up the non-food sector too Face morphing software offers digital retouch Thames Water deal in Jakarta to be investigated Women repeat anti-apartheid march Letters: Prisoner exchanges, diplomacy and aid Lett",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation"
+  ],
+  "eval_id": "Q0474"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2001-04-09 Port Vale 1 - 0 Bristol Rovers MPs call for commission to speed Whitehall reform Tonga's ten at the back lucky to get nil Saints set to report Spurs to league Amazon bounces back on better sales Classical Review: BBCSO/Davis Art Review: Brown Field Pop Review: All Tomorrow's Parties Dance Review: Akram Khan Theatre Review: Tragedy: a Tragedy Greenspan blamed for bubble Financial sector ",
+  "ground_truth": 1,
+  "abel_tickers": [
+   "AMZN"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0475"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2007-04-13 Google buys DoubleClick ad service for $3.1 billion (updated) Police probe exile's claims about Russian 'revolution' Sniffing books to save them Hibs have eyes on the prize Teymourian settling in at the Reebok Brazil all alone in race for 2014 World Cup Saturday interview: Michael Carrick Coca-Cola Championship: West Brom 0 - 1 Sheff Wed If I had the time: Write your own Da Vinci code |",
+  "ground_truth": 1,
+  "abel_tickers": [
+   "GOOG"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0476"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2003-09-08 Gerrard pledges to learn from his sins Reading block new move for Pardew Lambert looks for a happy return FA reiterate warning to fans Turkey see Irish as England warm-up Two tickets? It takes £50 and five minutes Eriksson should call in Adams as defence doctor Intel launches two cheaper 64-bit Itanium chips Rooney eases a growing burden and gets a striking vote Beckham fans the flames ",
+  "ground_truth": 0,
+  "abel_tickers": [
+   "INTC"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0477"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2006-02-23 Why are studios cutting back on films for the PSP? Have Apple Macs become breeding grounds for viruses? Games: Black; Animal Crossing: Wild World; Star Wars: Empire at War Shocking news for power users Victor Keegan: Operators' greed puts creativity at risk Ten years on, should Lara be entombed? Aleks Krotoski: Gamesblog Ask Jack, February 23 Letters, February 23 Will Amazon really laun",
+  "ground_truth": 0,
+  "abel_tickers": [
+   "AAPL",
+   "AMZN"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0478"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2000-06-13 Beat the clock Sugar, spice and aliens Inflation creeps upward Tricks of the trade Staff work for free to save news site Leicester duo back Taylor Spanish hopes are riding on 'perfect' Raul Political football Odds fellow Home thoughts from abroad Euro 2000 shorts Euro 2000 diary Balkan reunion of outsiders and outcasts Are squabbling Deutsch the new Dutch? Yugoslavia 3 - 3 Slovenia Mini",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation"
+  ],
+  "eval_id": "Q0479"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2003-07-02 Microsoft Word bytes Tony Blair in the butt Williamses face Belgian force Top junior goes the senior way to early defeat Federer fights back injury Philippoussis fine after going stair crazy Henin goes through in serener style Wide wingspan of Venus has Davenport clutching at thin air Sculthorpe brothers gang up against Yorkshire Trainers face non-trier bans under Gunn law Hamilton pois",
+  "ground_truth": 1,
+  "abel_tickers": [
+   "MSFT"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0480"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2004-03-02 N-Gage is a dog, says Electronic Arts Xbox2 dev kit is ... a G5 Mac PocketPC makes like an iPod Bootylicious Warner Music slashes jobs Phillipe declares himself Haiti's military leader At least 143 killed in Iraq explosions Fun in a cold climate Disney plea to dissident investors Chapter eight: From fetes to the fates Shortcuts Sex and the City: the thesis A league of their own Butcher ",
+  "ground_truth": 1,
+  "abel_tickers": [
+   "DIS"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0481"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2006-03-24 Developer sparks anger down on the farm Scientists forecast metre rise in sea levels this century FBI informer 'met Britons on Afghan jihad' Obituary: Dawn Braude Return of the old guard feared as orange revolutionaries fall out Letter: Scrap voucher plan Dazed but free, like winning the lottery, only better View from a broad Intelligence, surveillance, and then the raid 41% of Israel's",
+  "ground_truth": 0,
+  "abel_tickers": [
+   "INTC"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0482"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2000-05-12 Get a share of the Wap action Tessa turkeys will ruffle your feathers Pearson steps up internet play Share Centre to float with a free offer Why the feeling is far from mutual Dealer to become the loan arranger Fame, the hard way Orbiting the outer limits Disney demands curb on AOL deal Is your salary safe in cyberspace? Germans vie for Thomson Bank bid A pig and a poke Motorists given ",
+  "ground_truth": 1,
+  "abel_tickers": [
+   "DIS"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0483"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2005-06-06 TV pick of the day Brussels wrestle ends in submission Mugabe police will be 'ruthless' with strikers Siemens mobile arm goes to Taiwan Woman jailed for false rape claim Tiananmen review rejected Ukraine pipeline trouble hits Regal Merrill Lynch faces new claim of victimisation Diageo pours itself a Bushmills to toast rivals' merger Neil Hume: market forces Premier buys Quorn for £172m ",
+  "ground_truth": 1,
+  "abel_tickers": [
+   "AAPL"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0484"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2007-02-07 Can I force a sale on a co-owned property? Will a new job affect my mortgage application? Something wiki this way comes Video podcasts from Teachers' TV Business news in brief Unions fear 450 Pru and Lloyds  jobs will be lost to India Foreign firms spend record amount buying UK plc Market forces: Talk of cable bid rings dealers' bells Kodak completes shift from film by launching printer",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0485"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2000-04-19 6-3 split in vote to hold interest rates Tesco takes aim at Barclays ATMs Angelica Wall Street net trading chief takes $45m bath SmithKline acts to ease EC competition worries Judge lifts lid on work tribunals Cybershopping Keep it in the family Now it's the great wireless internet auction Derivatives descend to the common man A be-bop ceilidh Poise and subtlety Differing approaches I'd",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0486"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2000-07-11 Hoey lambasts 'ill-conceived' World Cup bid Granada Media hits £7.5bn A battle for brilliance Tricks of the trade Rich pickings Summer of smut BT's investors tire of being kept on hold Willful abrasiveness No, not the opera Letsbuyit considers cut-price flotation Costly petrol pumps up inflation rate Seeing the wooed for the trees Contrasts and climaxes Barclays heightens home loans war",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation"
+  ],
+  "eval_id": "Q0487"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2007-03-07 Can I get a mortgage for my parents? Should I make early repayments on my mortgage? SCO/Gardner, City Halls, Glasgow EU enlargement hits charities' pockets Villagers' fell swoop to save local shop Public inquiry: Jim Adamson It's productivity, stupid Interview: Sir Simon Milton Could have been a lot worse ... Ins and outs: this week's career movements Leading questions Fraud 'costs UK £",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0488"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2001-02-15 Burton the new centre of England Bates faces no-confidence vote at FA meeting FA Cup countdown: Leicester v Bristol City Roma 0 - 2 Liverpool Heat circulation up 138% The best way to see Canada House swapping holidays Where to stay and what to do in Amsterdam Esquire sheds readers Where the hospitals will be built Charity shops take steps to recover lost ground Simplify conduct rules, s",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "unemployment"
+  ],
+  "eval_id": "Q0489"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2006-11-03 Viewpoint: A match made in heaven's anteroom Market forces: Investors shun downbeat view of BSkyB ICI quarterly profits up 10% but costs are rising Unilever to pay out special dividend Something Fishy, BAC, London Weekly Roundup Whose fault is it anyway? News Xchange: Google 'comes in peace' News of the World 'hacked Sun tip-off line' Pricing the midterms News Xchange: CNN focus on jour",
+  "ground_truth": 1,
+  "abel_tickers": [
+   "GOOG",
+   "BAC"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0490"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2007-02-23 Nick Fletcher: market forces Fears over light-touch regulation of foreign firms Interview: multimillionaire investor Richard Farleigh Viewpoint: The great Centrica gas escape Business news in brief EU commissioner praises private equity firms as economic saviours Barnyard Should my son stretch himself with a £225,000 mortgage? A meeting of minds Erwin James: Nature's role in rehabilitat",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0491"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2003-10-24 Wheels: Track stars Sports fear big losses outside top 10 When the ads don't add up Oil giant in dock over Amazon waste Trying out Panther Princes accuse Burrell of betrayal Governments pledge billions for Iraq Tory whips deny plotting against IDS Goodbye?, Hello? and OK. Joint operation The next next big thing for the 22-20s Millions strike in Italy over pensions Two US soldiers killed",
+  "ground_truth": 1,
+  "abel_tickers": [
+   "AMZN"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0492"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2007-02-12 Small firms report record growth Business news in brief 'The most revelatory, breakthrough experiences.. since Myst'. It's the Wii (but read on) Well done Bad Dave! 3GSM diary: Vodafone and Google 3GSM diary: Nokia, iPhone and mobile TV Springtime for Ahmadinejad UK 'underestimating' bird flu danger Home front over front line Woodward tape played at Libby trial Times Online's 'rumpy pum",
+  "ground_truth": 1,
+  "abel_tickers": [
+   "GOOG"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0493"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2008-02-01 RAF forced to abandon rescue of stricken skipper Court takes control of estate away from troubled Spears Whistleblowing that pays Actor Snipes found not guilty of tax fraud Latest poll shows Obama closing in on Clinton's lead Microsoft/Yahoo news round-up PDA's Newsbucket Kennedy connects with Latino Obama supporters in California Golden state compass An offer Yahoo couldn't refuse Musi",
+  "ground_truth": 0,
+  "abel_tickers": [
+   "MSFT"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0494"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2006-03-21 Factions back new national security council Letters: Open and shut case David Ward: People Country diary: Staffordshire Moorlands Corrections and clarifications The blame game France tries to bust Apple's iTunes monopoly UK seven 'were ready to start bombing' The great unknown Sudan Watch: a plug 30m bags leave owners waiting at the carousel King Gordon? No chance A weekly for the world",
+  "ground_truth": 1,
+  "abel_tickers": [
+   "AAPL"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0495"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2005-08-18 Leader: Christianity Irish police question Colombia Three Settlers' tactics win them few friends Friday quiz August 19 Country diary: Tetbury Russia and China rattle sabres with joint war games Google to raise $4bn in new share sale Qantas warns on fuel costs Private lives Just 70: Joan Bakewell Israeli troops storm synagogues Great mountaineer banishes anguish that plagued his career S",
+  "ground_truth": 1,
+  "abel_tickers": [
+   "GOOG"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0496"
+ },
+ {
+  "source": "StockNews",
+  "category": "stock_prediction",
+  "question": "2002-10-10 Faldo finds annoying key to success Millar only fair to middling Hollywood reporter: The time machine Saints ready to put bite on Wigan Dravid joins elite list with fourth century Digital Arts is a Windows world Microsoft promotes Macfriendly view Mullah lite Feedback, Oct 10 Ex-editor tells Statesman 'sue Major till it hurts' Why I'll give Howard a chance Adams urges Blair to maintain ",
+  "ground_truth": 1,
+  "abel_tickers": [
+   "MSFT"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0497"
+ },
+ {
+  "source": "FLARE_SM",
+  "category": "stock_movement",
+  "question": "date,open,high,low,close,adj-close,inc-5,inc-10,inc-15,inc-20,inc-25,inc-30\n2013-12-17,-1.0,0.4,-1.1,0.9,0.9,-0.8,-0.7,-1.7,-1.5,-1.4,-1.5\n2013-12-18,-1.7,0.2,-2.5,2.0,2.0,-2.2,-2.1,-3.2,-3.4,-3.2,-3.3\n2013-12-19,-0.1,0.4,-1.0,-0.0,-0.0,-1.6,-1.7,-2.9,-3.2,-3.0,-3.1\n2013-12-20,0.2,1.2,-0.1,-0.3,-0.3,-0.7,-1.3,-2.2,-2.9,-2.6,-2.7\n2013-12-23,-0.2,0.4,-0.6,1.0,1.0,-1.0,-2.1,-2.8,-3.6,-3.5,-3.5\n2013-1",
+  "ground_truth": "Fall",
+  "abel_tickers": [
+   "AAPL"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0498"
+ },
+ {
+  "source": "FLARE_SM",
+  "category": "stock_movement",
+  "question": "date,open,high,low,close,adj-close,inc-5,inc-10,inc-15,inc-20,inc-25,inc-30\n2014-01-28,-0.5,0.0,-0.7,0.7,0.7,1.1,2.8,4.0,5.0,5.8,5.9\n2014-01-29,0.2,0.7,-0.4,-0.5,-0.5,0.8,2.8,4.0,5.0,6.0,6.3\n2014-01-30,1.0,1.3,-0.1,0.5,0.5,-0.1,1.7,3.1,4.1,5.1,5.5\n2014-01-31,-0.8,0.8,-1.3,-0.6,-0.6,0.2,1.8,3.2,4.2,5.3,5.9\n2014-02-03,1.6,2.5,-0.1,-1.7,-1.7,1.6,2.8,4.3,5.5,6.7,7.4\n2014-02-04,0.3,0.4,-0.7,0.3,0.3,0.9",
+  "ground_truth": "Rise",
+  "abel_tickers": [
+   "AMZN"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0499"
+ },
+ {
+  "source": "FLARE_SM",
+  "category": "stock_movement",
+  "question": "date,open,high,low,close,adj-close,inc-5,inc-10,inc-15,inc-20,inc-25,inc-30\n2014-01-15,-1.4,0.5,-1.6,1.4,1.4,-1.8,-2.9,-3.2,-4.0,-5.1,-6.0\n2014-01-16,-0.3,0.0,-0.6,-0.0,-0.0,-1.1,-2.4,-2.9,-3.6,-4.8,-5.7\n2014-01-17,-0.1,0.1,-0.5,0.2,0.2,-0.8,-2.2,-2.8,-3.5,-4.6,-5.5\n2014-01-21,-0.1,1.6,-0.2,0.2,0.2,-0.5,-1.8,-2.8,-3.3,-4.3,-5.3\n2014-01-22,-1.1,0.3,-1.5,1.7,1.7,-1.5,-2.9,-3.9,-4.5,-5.4,-6.4\n2014-01",
+  "ground_truth": "Rise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "jobless claims"
+  ],
+  "eval_id": "Q0500"
+ }
+]

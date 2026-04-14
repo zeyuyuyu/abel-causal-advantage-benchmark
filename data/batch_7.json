@@ -1,0 +1,1162 @@
+[
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:A portfolio on the capital market line with returns greater than the returns on the market portfolio represents a(n):,CHOICES: A: lending portfolio.,B: borrowing portfolio.,C: unachievable portfolio",
+  "ground_truth": "B",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "capital market"
+  ],
+  "eval_id": "Q0701"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:To the holder of a long position, it is more desirable to own a forward contract than a futures contract when interest rates and futures prices are:,CHOICES: A: negatively correlated.,B: uncorrelated.,C: positively correlated.",
+  "ground_truth": "A",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0702"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:Which of the following statements related to securitization is correct?,CHOICES: A: Time tranching addresses the uncertainty of a decline in interest rates.,B: Securitizations are rarely structured to include both credit tranching and time tranching.,C: Junior and senior bond classes differ in that junior classes can be paid off only at the bond’s set maturity.",
+  "ground_truth": "A",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0703"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:If relative to prior values of their respective indicators, the inventory–sales ratio has risen, unit labor cost is stable, and real personal income has decreased, it is most likely that a peak in the business cycle:,CHOICES: A: has occurred.,B: is just about to occur.,C: will occur sometime in the future.",
+  "ground_truth": "A",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "business cycle"
+  ],
+  "eval_id": "Q0704"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:The Austrian economic school attributes the primary cause of the business cycle to:,CHOICES: A: misguided government intervention.,B: the creative destruction of technological progress.,C: sticky price and wage expectations that exaggerate trends",
+  "ground_truth": "A",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "business cycle"
+  ],
+  "eval_id": "Q0705"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:The nominal risk-free rate is best described as the sum of the real risk-free rate and a premium for:,CHOICES: A: maturity.,B: liquidity.,C: expected inflation.",
+  "ground_truth": "C",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation"
+  ],
+  "eval_id": "Q0706"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:Which of the following can be measured directly?,CHOICES: A: Potential GDP,B: Labor productivity,C: Total factor productivity",
+  "ground_truth": "B",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0707"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:When issuing debt, a company may use a sinking fund arrangement as a means of reducing:,CHOICES: A: credit risk.,B: inflation risk.,C: interest rate risk.",
+  "ground_truth": "A",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate",
+   "inflation"
+  ],
+  "eval_id": "Q0708"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:The Standard & Poor’s Depositary Receipts (SPDRs) is an investment that tracks the S&P 500 stock market index. Purchases and sales of SPDRs during an average trading day are best described as:,CHOICES: A: primary market transactions in a pooled investment.,B: secondary market transactions in a pooled investment.,C: secondary market transactions in an actively managed investment.",
+  "ground_truth": "B",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "stock market"
+  ],
+  "eval_id": "Q0709"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:A commercial mortgage-backed security does not meet the debt-to-service coverage at the loan level necessary to achieve a desired credit rating. Which of the following features would most likely improve the credit rating of the CMBS?,CHOICES: A: Subordination,B: Call protection,C: Balloon payments",
+  "ground_truth": "A",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0710"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:With respect to capital market theory, an investor’s optimal portfolio is the combination of a risk-free asset and a risky asset with the highest:,CHOICES: A: expected return.,B: indifference curve.,C: capital allocation line slope.",
+  "ground_truth": "B",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "capital market"
+  ],
+  "eval_id": "Q0711"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:With respect to capital market theory, the optimal risky portfolio:,CHOICES: A: is the market portfolio.,B: has the highest expected return.,C: has the lowest expected variance.",
+  "ground_truth": "A",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "capital market"
+  ],
+  "eval_id": "Q0712"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:With respect to capital market theory, the average beta of all assets in the market is:,CHOICES: A: less than 1.0.,B: equal to 1.0.,C: greater than 1.0.",
+  "ground_truth": "B",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "capital market"
+  ],
+  "eval_id": "Q0713"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:Which of the following indicators is most appropriate in predicting a turning point in the economy?,CHOICES: A: The Industrial Production Index,B: The average bank prime lending rate,C: Average weekly hours, manufacturing",
+  "ground_truth": "C",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "industrial production"
+  ],
+  "eval_id": "Q0714"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:The interest rate risk of a fixed-rate bond with an embedded call option is bestmeasured by:,CHOICES: A: effective duration.,B: modified duration.,C: Macaulay duration.",
+  "ground_truth": "A",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0715"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:If a default occurs in a non-recourse commercial mortgage-backed security, the lender will most likely:,CHOICES: A: recover prepayment penalty points paid by the borrower to offset losses.,B: use only the proceeds received from the sale of the property to recover losses.,C: initiate a claim against the borrower for any shortfall resulting from the sale of the property.",
+  "ground_truth": "B",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0716"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:A GDP deflator less than 1 indicates that an economy has experienced:,CHOICES: A: inflation.,B: deflation.,C: stagflation.",
+  "ground_truth": "B",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation",
+   "gdp"
+  ],
+  "eval_id": "Q0717"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:Based on typical labor utilization patterns across the business cycle, productivity (output per hours worked) is most likely to be highest:,CHOICES: A: at the peak of a boom.,B: into a maturing expansion,C: at the bottom of a recession.",
+  "ground_truth": "C",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "recession",
+   "business cycle"
+  ],
+  "eval_id": "Q0718"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:The Standard & Poor’s Depositary Receipts (SPDRs) is an exchange-traded fund in the United States that is designed to track the S&P 500 stock market index. The latest price of a share of SPDRs is $290. A trader has just bought call options on shares of SPDRs for a premium of $3 per share. The call options expire in six months and have an exercise price of $305 per share. On the expiration date, ",
+  "ground_truth": "B",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "stock market"
+  ],
+  "eval_id": "Q0719"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:Forward commitments subject to default are:,CHOICES: A: forwards and futures.,B: futures and interest rate swaps.,C: interest rate swaps and forwards",
+  "ground_truth": "C",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0720"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:When the investor’s investment horizon is less than the Macaulay duration of the bond she owns:,CHOICES: A: the investor is hedged against interest rate risk.,B: reinvestment risk dominates, and the investor is at risk of lower rates.,C: market price risk dominates, and the investor is at risk of higher rates.",
+  "ground_truth": "C",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0721"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:Fairmont Golf issued fixed rate debt when interest rates were 6 percent. Rates have since risen to 7 percent. Using only the carrying amount (based on historical cost) reported on the balance sheet to analyze the company’s financial position would most likely cause an analyst to:,CHOICES: A: overestimate Fairmont’s economic liabilities.,B: underestimate Fairmont’s economic liabilities.,C: undere",
+  "ground_truth": "A",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0722"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:A central bank will most likely allow the economy to self-correct in periods of:,CHOICES: A: high inflation, fast economic growth, and low unemployment.,B: low inflation, slow economic growth, and high unemployment.,C: high inflation, slow economic growth, and high unemployment.",
+  "ground_truth": "C",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation",
+   "unemployment",
+   "economic growth"
+  ],
+  "eval_id": "Q0723"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:At the time of issue of 4.50% coupon bonds, the effective interest rate was 5.00%. The bonds were most likely issued at:,CHOICES: A: p a r.,B: a discount.,C: a premium.",
+  "ground_truth": "B",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0724"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:Which of the following is most likely to cause the long-run aggregate supply curve to shift to the left?,CHOICES: A: Higher nominal wages,B: A decline in productivity,C: An increase in corporate taxes",
+  "ground_truth": "B",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "aggregate supply"
+  ],
+  "eval_id": "Q0725"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:The component least likely to be included in a measurement of gross domestic product (GDP) is:,CHOICES: A: the value of owner occupied rent.,B: the annual salary of a local police officer.,C: environmental damage caused by production.",
+  "ground_truth": "C",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0726"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:With respect to the pricing of risk in capital market theory, which of the following statements is most accurate?,CHOICES: A: ll risk is priced.,B: Systematic risk is priced.,C: Nonsystematic risk is priced.",
+  "ground_truth": "B",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "capital market"
+  ],
+  "eval_id": "Q0727"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:With respect to the capital market line, a portfolio on the CML with returns less than the returns on the market portfolio represents a(n):,CHOICES: A: lending portfolio.,B: borrowing portfolio.,C: unachievable portfolio",
+  "ground_truth": "A",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "capital market"
+  ],
+  "eval_id": "Q0728"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:William Marolf obtains a EUR5 million mortgage loan from Bank Nederlandse. A year later, the principal on the loan is EUR4 million and Marolf defaults on the loan. Bank Nederlandse forecloses, sells the property for EUR2.5 million, and is entitled to collect the EUR1.5 million shortfall from Marolf. Marolf mostlikely had a:,CHOICES: A: bullet loan.,B: recourse loan.,C: non-recourse  loan.",
+  "ground_truth": "B",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0729"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:A company issues $1,000,000 face value of 10-year bonds on 1 January 2015when the market interest rate on bonds of comparable risk and terms is 5%. The bonds pay 6% interest annually on 31 December. At the time of issue, the bonds payable reflected on the balance sheet is closest to:,CHOICES: A: $926,399.,B: $1,000,000.,C: $1,077,217",
+  "ground_truth": "C",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0730"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:If interest rates are expected to increase, the coupon payment structure most likely to benefit the issuer is a:,CHOICES: A: step-up coupon.,B: inflation-linked  coupon.,C: cap in a floating-rate note.",
+  "ground_truth": "C",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate",
+   "inflation"
+  ],
+  "eval_id": "Q0731"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:During an economic recovery, a lagging unemployment rate is most likely attributable to:,CHOICES: A: businesses quickly rehiring workers.,B: new job seekers entering the labor force.,C: underemployed workers transitioning to higher-paying jobs",
+  "ground_truth": "B",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "unemployment"
+  ],
+  "eval_id": "Q0732"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:The Gordon growth model can be used to value dividend-paying companies that are:,CHOICES: A: expected to grow very fast.,B: in a mature phase of growth.,C: very sensitive to the business cycle.",
+  "ground_truth": "B",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "business cycle"
+  ],
+  "eval_id": "Q0733"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:A hedge fund holds its excess cash in 90-day commercial paper and negotiable certificates of deposit. The cash management policy of the hedge fund is best described as using:,CHOICES: A: capital market instruments.,B: money market instruments.,C: intermediate-term debt instruments.",
+  "ground_truth": "B",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "capital market"
+  ],
+  "eval_id": "Q0734"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:Lesp Industries issues five-year bonds dated 1 January 2015 with a face value of $2,000, 000 and 3% coupon rate paid annually on 31 December. The market interest rate on bonds of comparable risk and term is 4%. The sales proceeds of the bonds are $1,910,964. Under the effective interest rate method, the interest expense in 2017 is closest to:,CHOICES: A: $77,096.,B: $77,780.,C: $77,807.",
+  "ground_truth": "B",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0735"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:The value in six years of $75,000 invested today at a stated annual interest rate of 7% compounded quarterly is closest to:,CHOICES: A: $112,555.,B: $113,330.,C: $113,733",
+  "ground_truth": "C",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0736"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:At a 5% interest rate per year compounded annually, the present value (PV) of a 10-year ordinary annuity with annual payments of $2,000 is $15,443.47. The PV of a 10-year annuity due with the same interest rate and payments is closest to:,CHOICES: A: $14,708.,B: $16,216.,C: $17,443",
+  "ground_truth": "B",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0737"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:Deflation is most likely to be associated with,CHOICES: A: a shortage of government revenue.,B: substantial macroeconomic contraction.,C: explicit monetary policy to combat inflation.",
+  "ground_truth": "B",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation",
+   "monetary policy"
+  ],
+  "eval_id": "Q0738"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:Current economic statistics indicating little change in services inflation, rising residential building permits, and increasing average duration of unemployment are best interpreted as:,CHOICES: A: conflicting evidence about the direction of the economy.,B: evidence that a cyclical upturn is expected to occur in the future.,C: evidence that a cyclical downturn is expected to occur in the future",
+  "ground_truth": "B",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation",
+   "unemployment"
+  ],
+  "eval_id": "Q0739"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:What does the P/E ratio measure?,CHOICES: A: The “multiple” that the stock market places on a company’s EPS.,B: The relationship between dividends and market prices.,C: The earnings for one common share of stock.",
+  "ground_truth": "A",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "stock market"
+  ],
+  "eval_id": "Q0740"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:Which of the following sources of return is most likely exposed to interest rate \nrisk for an investor of a fixed-rate bond who holds the bond until maturity?,CHOICES: A: Capital gain or loss,B: Redemption of principal,C: Reinvestment of coupon payments",
+  "ground_truth": "C",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0741"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:A decrease in a country’s total imports is most likely caused by:,CHOICES: A: an increase in the pace of domestic GDP growth.,B: a cyclical downturn in the economies of primary trading partners.,C: persistent currency depreciation relative to primary trading partners.",
+  "ground_truth": "C",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0742"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:A national government responds to a severe recession by funding numerous infrastructure projects using deficit spending. Which school of economic thought is most consistent with such action?,CHOICES: A: Keynesian,B: Monetarist,C: Neoclassical",
+  "ground_truth": "A",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "recession"
+  ],
+  "eval_id": "Q0743"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:The tranches in a collateralized mortgage obligation that are most likely to provide protection for investors against both extension and contraction risk are:,CHOICES: A: planned amortization class (PAC) tranches.,B: support tranches.,C: sequential-pay  tranches.",
+  "ground_truth": "A",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0744"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:Which of the following derivatives is classified as a contingent claim?,CHOICES: A: Futures contracts,B: Interest rate swaps,C: redit default swaps",
+  "ground_truth": "C",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0745"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:Among developed economies, which of the following sources of economic growth is most likely to explain superior growth performance?,CHOICES: A: Technology,B: Capital stock,C: Labor supply",
+  "ground_truth": "A",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "economic growth"
+  ],
+  "eval_id": "Q0746"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:The characteristic business cycle patterns of trough, expansion, peak, and contraction are:,CHOICES: A: periodic.,B: recurrent.,C: of similar duration.",
+  "ground_truth": "B",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "business cycle"
+  ],
+  "eval_id": "Q0747"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:Following a sharp increase in the price of energy, the overall price level is most likely to rise in the short run:,CHOICES: A: and remain elevated indefinitely unless the central bank tightens.,B: but remain unchanged in the long run unless the money supply is increased.,C: and continue to rise until all prices have increased by the same proportion.",
+  "ground_truth": "B",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "money supply",
+   "price level"
+  ],
+  "eval_id": "Q0748"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:If the GDP deflator values for Year 1 and Year 3 were 190 and 212.8, respectively, which of the following best describes the annual growth rate of the overall price level?,CHOICES: A: 5.8%.,B: 6%.,C: 12%.",
+  "ground_truth": "A",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp",
+   "price level"
+  ],
+  "eval_id": "Q0749"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:A balloon payment equal to a mortgage’s original loan amount is a characteristic of a:,CHOICES: A: bullet mortgage.,B: fully amortizing mortgage.,C: partially amortizing mortgage.",
+  "ground_truth": "A",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0750"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:Which of the following is least likely to be caused by a shift in aggregate demand?,CHOICES: A: Stagflation,B: A recessionary gap,C: An inflationary gap",
+  "ground_truth": "A",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation",
+   "recession",
+   "aggregate demand"
+  ],
+  "eval_id": "Q0751"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:Collateralized mortgage obligations are designed to:,CHOICES: A: eliminate contraction risk in support tranches.,B: distribute prepayment risk to various tranches.,C: eliminate extension risk in planned amortization tranches.",
+  "ground_truth": "B",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0752"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:As the expansion phase of the business cycle advances from early stage to late stage, businesses most likely experience a decrease in:,CHOICES: A: labor costs.,B: capital investment.,C: availability of qualified workers",
+  "ground_truth": "C",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "business cycle"
+  ],
+  "eval_id": "Q0753"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:If wages were automatically adjusted for changes in the price level, the short\u0002run aggregate supply curve would most likely be:,CHOICES: A: flatter.,B: steeper.,C: unchanged.",
+  "ground_truth": "B",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "aggregate supply",
+   "price level"
+  ],
+  "eval_id": "Q0754"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:A plain vanilla interest rate swap is also known as:,CHOICES: A: a basis swap.,B: a fixed-for-floating swap.,C: an overnight indexed swap.",
+  "ground_truth": "B",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0755"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:Given a stated annual interest rate of 6% compounded quarterly, the level amount that, deposited quarterly, will grow to £25,000 at the end of 10 years is closest to:,CHOICES: A: £461.,B: £474.,C: £836.",
+  "ground_truth": "A",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0756"
+ },
+ {
+  "source": "FLARE_CFA",
+  "category": "cfa_exam",
+  "question": "Q:Suppose a painting is produced and sold in 2018 for £5,000. The expenses involved in producing the painting amounted to £2,000. According to the sum-of-value-added method of calculating GDP, the value added by the final step of creating the painting was:,CHOICES: A: £2,000.,B: £3,000.,C: £5,000.",
+  "ground_truth": "B",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0757"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment–outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-': The treatment decreases the outcome (negative and statistically significant effect).\n- 'None': No statistically significant effect.\n- 'mixed",
+  "ground_truth": "+",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "recession"
+  ],
+  "eval_id": "Q0758"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment–outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-': The treatment decreases the outcome (negative and statistically significant effect).\n- 'None': No statistically significant effect.\n- 'mixed",
+  "ground_truth": "+",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "labor market"
+  ],
+  "eval_id": "Q0759"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment–outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-': The treatment decreases the outcome (negative and statistically significant effect).\n- 'None': No statistically significant effect.\n- 'mixed",
+  "ground_truth": "+",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "exchange rate"
+  ],
+  "eval_id": "Q0760"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "-",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0761"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "+",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0762"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "-",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate",
+   "fiscal policy",
+   "industrial production",
+   "stock market"
+  ],
+  "eval_id": "Q0763"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "+",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation",
+   "gdp",
+   "fiscal policy"
+  ],
+  "eval_id": "Q0764"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "+",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp",
+   "economic growth"
+  ],
+  "eval_id": "Q0765"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment–outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-': The treatment decreases the outcome (negative and statistically significant effect).\n- 'None': No statistically significant effect.\n- 'mixed",
+  "ground_truth": "+",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0766"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "+",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "unemployment",
+   "labor market"
+  ],
+  "eval_id": "Q0767"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment–outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-': The treatment decreases the outcome (negative and statistically significant effect).\n- 'None': No statistically significant effect.\n- 'mixed",
+  "ground_truth": "+",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "capital market"
+  ],
+  "eval_id": "Q0768"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "+",
+  "abel_tickers": [
+   "JPM"
+  ],
+  "abel_concepts": [
+   "unemployment"
+  ],
+  "eval_id": "Q0769"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "+",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate",
+   "mortgage"
+  ],
+  "eval_id": "Q0770"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment–outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-': The treatment decreases the outcome (negative and statistically significant effect).\n- 'None': No statistically significant effect.\n- 'mixed",
+  "ground_truth": "+",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "labor market"
+  ],
+  "eval_id": "Q0771"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "-",
+  "abel_tickers": [
+   "BAC"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0772"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment–outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-': The treatment decreases the outcome (negative and statistically significant effect).\n- 'None': No statistically significant effect.\n- 'mixed",
+  "ground_truth": "-",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0773"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "+",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "labor market"
+  ],
+  "eval_id": "Q0774"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "+",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation"
+  ],
+  "eval_id": "Q0775"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "-",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate",
+   "fiscal policy",
+   "industrial production",
+   "stock market"
+  ],
+  "eval_id": "Q0776"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "+",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate",
+   "inflation",
+   "gdp",
+   "recession",
+   "federal reserve"
+  ],
+  "eval_id": "Q0777"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "-",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage",
+   "recession"
+  ],
+  "eval_id": "Q0778"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "+",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "labor market"
+  ],
+  "eval_id": "Q0779"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment–outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-': The treatment decreases the outcome (negative and statistically significant effect).\n- 'None': No statistically significant effect.\n- 'mixed",
+  "ground_truth": null,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp",
+   "economic growth"
+  ],
+  "eval_id": "Q0780"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "-",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation",
+   "gdp",
+   "federal reserve",
+   "monetary policy"
+  ],
+  "eval_id": "Q0781"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "+",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "industrial production"
+  ],
+  "eval_id": "Q0782"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "+",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation",
+   "gdp",
+   "unemployment",
+   "recession",
+   "monetary policy"
+  ],
+  "eval_id": "Q0783"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "+",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "labor market"
+  ],
+  "eval_id": "Q0784"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "-",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "monetary policy",
+   "price level"
+  ],
+  "eval_id": "Q0785"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "+",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation",
+   "gdp",
+   "fiscal policy"
+  ],
+  "eval_id": "Q0786"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "+",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0787"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "+",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation",
+   "gdp",
+   "unemployment",
+   "recession",
+   "monetary policy"
+  ],
+  "eval_id": "Q0788"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "+",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation",
+   "recession",
+   "monetary policy",
+   "business cycle"
+  ],
+  "eval_id": "Q0789"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment–outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-': The treatment decreases the outcome (negative and statistically significant effect).\n- 'None': No statistically significant effect.\n- 'mixed",
+  "ground_truth": "-",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "treasury yield"
+  ],
+  "eval_id": "Q0790"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "+",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "exchange rate"
+  ],
+  "eval_id": "Q0791"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "+",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation"
+  ],
+  "eval_id": "Q0792"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "+",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation"
+  ],
+  "eval_id": "Q0793"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "+",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation",
+   "gdp",
+   "fiscal policy"
+  ],
+  "eval_id": "Q0794"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "+",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation",
+   "gdp",
+   "unemployment",
+   "recession",
+   "monetary policy"
+  ],
+  "eval_id": "Q0795"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment–outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-': The treatment decreases the outcome (negative and statistically significant effect).\n- 'None': No statistically significant effect.\n- 'mixed",
+  "ground_truth": "+",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0796"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "-",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate",
+   "fiscal policy"
+  ],
+  "eval_id": "Q0797"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": null,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp",
+   "industrial production",
+   "stock market"
+  ],
+  "eval_id": "Q0798"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "-",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp",
+   "economic growth"
+  ],
+  "eval_id": "Q0799"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "-",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp",
+   "stock market"
+  ],
+  "eval_id": "Q0800"
+ }
+]

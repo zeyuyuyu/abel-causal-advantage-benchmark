@@ -1,0 +1,1102 @@
+[
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "in millions for 2016 , was the average daily var by risk category for impact of interest rates greater than equity prices?",
+  "ground_truth": "yes",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0901"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "what is the estimated variation between the percentual decrease observed in the s&p 500 index and in the jpmorgan chase during the years 2017 and 2018?",
+  "ground_truth": "0.02258",
+  "abel_tickers": [
+   "JPM"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0902"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "what is the growth rate in the risk-free interest rate from 2004 to 2005?",
+  "ground_truth": "0.38742",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0903"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "what was the cumulative percentage return for the five years ended september 30 , 2011 for apple inc.?",
+  "ground_truth": "3.95",
+  "abel_tickers": [
+   "AAPL"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0904"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "by what percent did the risk free interest rate increase between 2004 and 2006?",
+  "ground_truth": "0.52318",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0905"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "did apple outperform ( earn a greater return ) than the s&p information technology index in september 2018?",
+  "ground_truth": "yes",
+  "abel_tickers": [
+   "AAPL"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0906"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "what was the cumulative total return on apple stock between september 30 2007 and september 30 2012?",
+  "ground_truth": "337.0",
+  "abel_tickers": [
+   "AAPL"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0907"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "what was the average balance in millions for commercial mortgage recourse obligations as of december 31 2014 and 2013?",
+  "ground_truth": "34.0",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0908"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "for 2012 quarterly residential mortgage repurchase claims , what was the change in millions between originations from first and second quarter of 2007?",
+  "ground_truth": "10.0",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0909"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "in 2018 what was the ratio of the impact to the fair market value of the 10% ( 10 % ) increase in interest rates to the 10% ( 10 % ) decrease in interest rates 3 2018",
+  "ground_truth": "-1.10667",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0910"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "did apple outperform ( earn a greater return ) than the s&p information technology index in september 2014?",
+  "ground_truth": "yes",
+  "abel_tickers": [
+   "AAPL"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0911"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "did jpmorgan chase outperform the s&p 500 index?\\\\n",
+  "ground_truth": "yes",
+  "abel_tickers": [
+   "JPM"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0912"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "in 2012 what was the percent of the notional amounts of the company 2019s derivative instruments for interest rate contracts",
+  "ground_truth": "0.7528",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0913"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "based on the review of the simultaneous investments of the jpmorgan chase common stock in various indices what was the ratio of the performance of the kbw bank index to the s&p financial index",
+  "ground_truth": "0.98484",
+  "abel_tickers": [
+   "JPM"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0914"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "what was the percentage change in the weighted average risk-free interest rate from 2007 to 2008",
+  "ground_truth": "-0.48606",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0915"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "what was the cumulative change in value for apple inc . between 2008 and 2013?",
+  "ground_truth": "331.0",
+  "abel_tickers": [
+   "AAPL"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0916"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "what is the variation observed in the risk-free interest rate during 2015 and 2016?",
+  "ground_truth": "0.0008",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0917"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "what was the net foreign exchange rate in 2015 in millions",
+  "ground_truth": "19.0",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "exchange rate"
+  ],
+  "eval_id": "Q0918"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "what was the percentage cumulative total return for apple inc . for the five year period ended september 2018?",
+  "ground_truth": "2.59",
+  "abel_tickers": [
+   "AAPL"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0919"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "in 2011 what was the percent of residential mortgages to the total liabilities at december 31",
+  "ground_truth": "0.63846",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0920"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "on the citigroup 2019s consolidated balance sheet what was the ratio of the mortgage servicing rights ( msrs ) fro 2008 compared to 2007",
+  "ground_truth": "0.67857",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0921"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "did jpmorgan chase outperform the kbw bank index?",
+  "ground_truth": "yes",
+  "abel_tickers": [
+   "JPM"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0922"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "based on the black-scholes option pricing model what was the percent of the change in approximate risk-free interest rate from 2003 to 2004",
+  "ground_truth": "0.0575",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0923"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "what is the net change in interest rate instruments from 2017 to 2018?",
+  "ground_truth": "8.1",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0924"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "in millions for 2013 , 2012 , and 2011 , what was total commercial mortgages?",
+  "ground_truth": "8400.0",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0925"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "what was the percentage change in the one basis-point increase in jpmorgan chase 2019s credit spread from 2011 to 2012",
+  "ground_truth": "0.02941",
+  "abel_tickers": [
+   "JPM"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0926"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "what was the ratio of the allowance for loan losses that was recorded for the prime mortgage to the net aggregate carrying amount of the pools",
+  "ground_truth": "0.0339",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0927"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "what was the average uncompounded annual return for jpmorgan chase for the five year period?",
+  "ground_truth": "37.914",
+  "abel_tickers": [
+   "JPM"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0928"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "considering the year 2008 , what is the variation between the high of foreign exchange contracts and the high of the interest rate contracts?",
+  "ground_truth": "5.9",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0929"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "what was the change in millions of alt-a mortgages pretax revenue from 2008 to 2009?",
+  "ground_truth": "1058.0",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0930"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "hat was total amount of cash held by the federal reserve bank of chicago on behalf of the cme , including cash accounts and ief programs on december 31st , 2017?",
+  "ground_truth": "35.3",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "federal reserve"
+  ],
+  "eval_id": "Q0931"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "what was the change in the unrealized losses related to interest rate swap agreements net of tax from 2007 to 2008",
+  "ground_truth": "-15863.0",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0932"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "what is the annual interest expense related to the series first mortgage bonds due august 2008 , in millions?",
+  "ground_truth": "1.1625",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0933"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "how much more money would jp morgan need to meet management 2019s plan to reach an estimated basel iii tier i common ratio of 9.5%?",
+  "ground_truth": "12584.785",
+  "abel_tickers": [
+   "JPM"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0934"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "assuming an average interest rate of 7% ( 7 % ) , what is the implied composite debt level for 2014 , in millions?",
+  "ground_truth": "8014.28571",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0935"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "as of december 312011 what was the percentage increase in the unrealized foreign currency exchange rate gains ( losses )",
+  "ground_truth": "2.14609",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "exchange rate"
+  ],
+  "eval_id": "Q0936"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "what was the 1 year return of apple inc . from 2013 to 2014?",
+  "ground_truth": "0.4878",
+  "abel_tickers": [
+   "AAPL"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0937"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "did jpmorgan chase outperform the kbw bank index 100.00?\\\\n",
+  "ground_truth": "yes",
+  "abel_tickers": [
+   "JPM"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0938"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "do residential mortgage products have a longer past due period than other consumer products ? .",
+  "ground_truth": "yes",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0939"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "based on the review of the simultaneous investments in pmorgan chase common stock in various indices what was the ratio of the performance in the jpmorgan chase to kbw bank index in 2015",
+  "ground_truth": "1.14666",
+  "abel_tickers": [
+   "JPM"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0940"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "what was the cumulative change in apple inc . stock between 2016 and 2011?",
+  "ground_truth": "113.0",
+  "abel_tickers": [
+   "AAPL"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0941"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "what was the three year average interest rate for 2007-2009?",
+  "ground_truth": "3.13333",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0942"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "based on the selected financial statement data what was the variance between the mortgage loans average and period-end balance",
+  "ground_truth": "1366.0",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0943"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "what was total amount of cash held by the federal reserve bank of chicago on behalf of the cme , including cash accounts and ief programs on december 31st , 2016?",
+  "ground_truth": "13.0",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "federal reserve"
+  ],
+  "eval_id": "Q0944"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "what was the change in the apple stock return between 2016 and 2017?",
+  "ground_truth": "50.0",
+  "abel_tickers": [
+   "AAPL"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0945"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "in millions for 2013 , 2012 , and 2011 , what was the maximum interest rate hedge?",
+  "ground_truth": "4679.0",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0946"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "what is the annual interest expense related to the series first mortgage bonds due august 2013 , in millions?",
+  "ground_truth": "16.2",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0947"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "what percentage of one- to four-family residential mortgages as of december 31 , 2009 are outside the u.s.?",
+  "ground_truth": "0.26355",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0948"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "what percent of financial assets securitized in 2013 were residential mortgages?",
+  "ground_truth": "0.83027",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0949"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "was the weighted average interest rate on awcc short-term borrowings greater for the year ended december 31 , 2018 then 2017?",
+  "ground_truth": "yes",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0950"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "in 2006 what was the approximate tax rate on unrecognized tax gain the in fair value of interest rate swaps designated as cash flow hedges",
+  "ground_truth": "0.35",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0951"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "what was the percent of the change in the weighted average risk-free interest rate",
+  "ground_truth": "0.37427",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0952"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "what percent of financial assets securitized in 2012 were residential mortgages?",
+  "ground_truth": "0.99119",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0953"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "what is the difference in percentage cumulative total return between apple inc . and the s&p 500 index for the five year period ended september 2018?",
+  "ground_truth": "1.67",
+  "abel_tickers": [
+   "AAPL"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0954"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "as of december 2012 , what percentage of available- for-sale securities was comprised of mortgage and other asset-backed loans and securities?",
+  "ground_truth": "0.41274",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0955"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "in 2011 what was the percent of the total contractual obligations associated with property mortgages",
+  "ground_truth": "0.29538",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0956"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "What does the Google app 'Google Assistant' do?",
+  "ground_truth": "Google Assistant helps users get things done seamlessly across different devices by providing intelligent help throughout a person's day.",
+  "abel_tickers": [
+   "GOOG"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0957"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "How will the Inflation Reduction Act of 2022 impact Medicare Part D and Part B drug pricing?",
+  "ground_truth": "The Inflation Reduction Act requires government-set prices for select drugs more than nine years from FDA approval and mandates rebates when drug prices increase faster than inflation.",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation"
+  ],
+  "eval_id": "Q0958"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "What factors affect fluctuations in advertising revenues for Google's Google Search & other properties and Google Network properties?",
+  "ground_truth": "Factors affecting advertising revenue fluctuations include advertiser competition for keywords, changes in advertising quality, formats, delivery or policy, changes in device mix, seasonal fluctuations in internet usage and advertising expenditures, and traffic growth in emerging markets versus mature markets.",
+  "abel_tickers": [
+   "GOOG"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0959"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "What are the main responsibilities of the 'Microsoft Security' group within the company?",
+  "ground_truth": "The 'Microsoft Security' group is responsible for delivering a comprehensive portfolio of services that protect customers' digital infrastructure. This includes cloud platform and application security, data protection and governance, identity and network access, and device management.",
+  "abel_tickers": [
+   "MSFT"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0960"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "What is the purpose of Tesla's used vehicle business with regards to new vehicle sales?",
+  "ground_truth": "Tesla's used vehicle business supports new vehicle sales by integrating the trade-in of a customer's existing Tesla or non-Tesla vehicle with the sale of a new or used Tesla vehicle.",
+  "abel_tickers": [
+   "TSLA"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0961"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "What is included in the cost of revenues for Google?",
+  "ground_truth": "The cost of revenues includes Traffic Acquisition Costs (TAC) paid to distribution partners and Google Network partners primarily for ads displayed on their properties, and other costs like compensation expense related to data centers, content acquisition costs, depreciation expense of technical infrastructure, and costs related to the sale of devices.",
+  "abel_tickers": [
+   "GOOG"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0962"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "What new governmental requirements were announced by the U.S. government during the third quarter of fiscal year 2023 that affected NVIDIA?",
+  "ground_truth": "During the third quarter of fiscal year 2023, the U.S. government announced new license requirements that impact certain exports to China (including Hong Kong and Macau) and Russia of some NVIDIA data center products.",
+  "abel_tickers": [
+   "NVDA"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0963"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "What was the effective tax rate for Microsoft in fiscal year 2023?",
+  "ground_truth": "The effective tax rate for Microsoft in fiscal year 2023 was 19%.",
+  "abel_tickers": [
+   "MSFT"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0964"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "What does NVIDIA's CUDA programming model enable?",
+  "ground_truth": "NVIDIA's CUDA programming model opened the parallel processing capabilities of GPUs for general purpose computing.",
+  "abel_tickers": [
+   "NVDA"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0965"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "What was a significant AI achievement by Google's DeepMind in 2020?",
+  "ground_truth": "In 2020, Google DeepMind's AlphaFold system solved a 50-year-old protein folding challenge.",
+  "abel_tickers": [
+   "GOOG"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0966"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "What is the PCAOB ID number for the Independent Registered Public Accounting Firm that audited Meta Platforms, Inc.'s financial statements?",
+  "ground_truth": "The PCAOB ID number is 42.",
+  "abel_tickers": [
+   "META"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0967"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "What is the primary role of NVIDIA's partner network in system design?",
+  "ground_truth": "NVIDIA's partner network is primarily involved in designing, testing, and qualifying system designs that incorporate NVIDIA's platforms.",
+  "abel_tickers": [
+   "NVDA"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0968"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "What was the impact of the changes in foreign exchange rates on cash and cash equivalents in 2022?",
+  "ground_truth": "Changes in foreign exchange rates impacted cash and cash equivalents negatively by $249 in 2022.",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "exchange rate"
+  ],
+  "eval_id": "Q0969"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "When did the Circuit Court deny the petitions filed by Apple and Epic for further review of the decision?",
+  "ground_truth": "The Circuit Court denied both petitions on June 30, 2023.",
+  "abel_tickers": [
+   "AAPL"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0970"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "How does Amazon fulfill customer orders?",
+  "ground_truth": "Amazon fulfills customer orders through a combination of North America and International fulfillment networks operated by the company, co-sourced and outsourced arrangements in some countries, digital delivery, and through its physical stores.",
+  "abel_tickers": [
+   "AMZN"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0971"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "Who are NVIDIA's primary suppliers for semiconductor wafer production?",
+  "ground_truth": "NVIDIA's primary suppliers for semiconductor wafer production are Taiwan Semiconductor Manufacturing Company Limited and Samsung Electronics Co. Ltd.",
+  "abel_tickers": [
+   "NVDA"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0972"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "What technological advancements has Google introduced to improve search functionality?",
+  "ground_truth": "Google has introduced advancements such as multisearch, large language models like BERT and MUMs, and various types of unified and intuitive search modalities that enhance user experience.",
+  "abel_tickers": [
+   "GOOG"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0973"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "What factors drove the increase in operating income for Google Cloud in 2023?",
+  "ground_truth": "Increased revenues and a reduction in costs due to the change in the estimated useful lives of servers and network equipment.",
+  "abel_tickers": [
+   "GOOG"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0974"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "What services does NVIDIA offer to enterprise customers?",
+  "ground_truth": "NVIDIA offers enterprise customers NVIDIA AI cloud services directly and through a network of partners, which include NVIDIA DGX Cloud for training AI models and customizable pretrained AI models.",
+  "abel_tickers": [
+   "NVDA"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0975"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "What role does Google envision for AI in society?",
+  "ground_truth": "Google believes AI can solve some of the hardest societal, scientific, and engineering challenges of our time.",
+  "abel_tickers": [
+   "GOOG"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0976"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "What amount did NVIDIA record as an acquisition termination cost in fiscal year 2023?",
+  "ground_truth": "NVIDIA recorded an acquisition termination cost of $1.35 billion in fiscal year 2023.",
+  "abel_tickers": [
+   "NVDA"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0977"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "How does the company integrate advancements in artificial intelligence into its products?",
+  "ground_truth": "The company uses its advancements in artificial intelligence primarily for developing self-driving vehicle technologies and has incorporated AI into its FSD Computer and neural networks for real-world performance improvements. Additionally, it is developing robotic technologies like the 'Optimus' humanoid robot using the same AI systems.",
+  "abel_tickers": [
+   "INTC"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0978"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "What is Apple's vision regarding inclusion and diversity within its workforce?",
+  "ground_truth": "Apple's vision is to build and sustain a more inclusive workforce that is representative of the communities it serves and to increase diverse representation at every level.",
+  "abel_tickers": [
+   "AAPL"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0979"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "How are paid clicks and cost-per-click defined and calculated by Google?",
+  "ground_truth": "Paid clicks represent user engagement with advertisements on Google search properties and other Google properties like Gmail, Google Maps, and Google Play. Cost-per-click is calculated as the revenue obtained from click-driven advertisements divided by the total number of paid clicks, representing the average amount charged to advertisers per engagement.",
+  "abel_tickers": [
+   "GOOG"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0980"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "What industries use NVIDIA's GPUs and software for automation?",
+  "ground_truth": "NVIDIA's GPUs and software are used for automation in various industries including transportation, healthcare, financial services, professional design, movies, and building products design.",
+  "abel_tickers": [
+   "NVDA"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0981"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "What types of businesses and services does Amazon compete against?",
+  "ground_truth": "Amazon competes against physical, e-commerce, and omnichannel retailers, publishers, vendors, distributors, manufacturers, and producers of various products, as well as companies providing e-commerce services, fulfillment and logistics, information technology services, and advertising services.",
+  "abel_tickers": [
+   "AMZN"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0982"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "In which product categories is Apple focused on expanding its market opportunities?",
+  "ground_truth": "Apple is focused on expanding its market opportunities related to smartphones, personal computers, tablets, wearables and accessories, and services.",
+  "abel_tickers": [
+   "AAPL"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0983"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "What is the Company’s plan following the ITC's order regarding Apple Watch models?",
+  "ground_truth": "The Company intends to appeal the ITC Order and seek a stay pending the appeal.",
+  "abel_tickers": [
+   "AAPL"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0984"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "What document contains details about NVIDIA's equity compensation plans?",
+  "ground_truth": "Details about NVIDIA's equity compensation plans are contained in the 2023 Proxy Statement under the caption \"Equity Compensation Plan Information.\"",
+  "abel_tickers": [
+   "NVDA"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0985"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "What financial instruments does the company invest in that are sensitive to interest rates?",
+  "ground_truth": "The company invests in bonds, loans, and other interest rate sensitive instruments.",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0986"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "When was Douglas J. Herrington the Senior Vice President for North America Consumer at Amazon?",
+  "ground_truth": "From January 2015 to July 2022",
+  "abel_tickers": [
+   "AMZN"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0987"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "What was the main reason for the termination of NVIDIA's Share Purchase Agreement with SoftBank?",
+  "ground_truth": "The main reason for the termination of NVIDIA's Share Purchase Agreement with SoftBank was significant regulatory challenges that prevented the completion of the transaction.",
+  "abel_tickers": [
+   "NVDA"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0988"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "What are the interest rates applicable to the Consenting and Non-Consenting Commitments under the Second Amended and Restated Credit Agreement?",
+  "ground_truth": "The Consenting Commitments under the Second Amended and Restated Credit Agreement have an interest rate option of either the defined Rate plus 2.25% per annum or the Alternate Base Rate plus 1.25% per annum. For the Non-Consenting Commitments, the interest rate is either at the Adjusted Term SOFR Rate plus 2.75% per annum or the Alternate Base Rate plus 1.75% per annum.",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0989"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "Which company filed a lawsuit against Apple alleging violations of federal and state antitrust laws and California's unfair competition law?",
+  "ground_truth": "Epic Games, Inc. filed the lawsuit against Apple.",
+  "abel_tickers": [
+   "AAPL"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0990"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "What was the primary driver for the increase in server products and cloud services revenue in the Intelligent Cloud segment?",
+  "ground_truth": "The increase in server products and cloud services revenue was primarily driven by Azure and other cloud services.",
+  "abel_tickers": [
+   "INTC"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0991"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "What are the components of Amazon.com, Inc.'s consolidated financial statements for the years ending on December 31, 2023?",
+  "ground_truth": "The components of Amazon.com, Inc.'s consolidated financial statements for the years ending on December 31, 2023, include consolidated balance sheets, consolidated statements of operations, consolidated statements of comprehensive income (loss), consolidated statements of stockholders' equity, and consolidated statements of cash flows.",
+  "abel_tickers": [
+   "AMZN"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0992"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "How does Tesla reduce costs and promote renewable power at their Supercharger stations?",
+  "ground_truth": "Tesla co-locates Superchargers with solar and energy storage systems to reduce costs and promote renewable power.",
+  "abel_tickers": [
+   "TSLA"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0993"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "What are the key segments under Google for reporting purposes?",
+  "ground_truth": "Google comprises two segments for reporting purposes: Google Services and Google Cloud.",
+  "abel_tickers": [
+   "GOOG"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0994"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "What are the core principles guiding Microsoft's AI endeavors as mentioned in the text?",
+  "ground_truth": "Microsoft's AI endeavors are guided by principles of fairness, reliability and safety, privacy and security, inclusiveness, transparency, and accountability.",
+  "abel_tickers": [
+   "MSFT"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0995"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "What challenges does Apple face regarding the availability of components?",
+  "ground_truth": "Apple faces challenges such as industry-wide shortages, significant commodity pricing fluctuations, and initial capacity constraints for components using new technologies.",
+  "abel_tickers": [
+   "AAPL"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0996"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "How did foreign exchange rate fluctuations impact the company's consolidated revenues and income before income taxes for the fiscal years ended May 31, 2023, 2022, and 2021?",
+  "ground_truth": "Foreign exchange rate fluctuations had a negative impact on the company's consolidated revenues by approximately $2,859 million in 2023, $295 million in 2022, and positively by $893 million in 2021. Similarly, for income before income taxes, the impact was a detriment of approximately $824 million in 2023, $87 million in 2022, and a benefit of $260 million in 2021.",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "exchange rate"
+  ],
+  "eval_id": "Q0997"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "What long-term trends have contributed to Alphabet's financial results?",
+  "ground_truth": "Long-term trends contributing to Alphabet's financial results include the shift of users' behaviors and advertising online, increased competition for user engagement and advertisers, diverse devices and modalities used to access Alphabet's products, and evolving online advertising affecting monetization.",
+  "abel_tickers": [
+   "GOOG"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0998"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "What was the total carrying value of Alphabet Inc.'s non-marketable equity securities as of December 31, 2023?",
+  "ground_truth": "$28.8 billion",
+  "abel_tickers": [
+   "GOOG"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0999"
+ },
+ {
+  "source": "FinQA_10K",
+  "category": "financial_qa",
+  "question": "What was the total stockholders' equity at Amazon.com, Inc. as of December 31, 2021?",
+  "ground_truth": "The total stockholders' equity at Amazon.com, Inc. as of December 31, 2021, was $138,245.",
+  "abel_tickers": [
+   "AMZN"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q1000"
+ }
+]

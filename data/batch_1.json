@@ -1,0 +1,1186 @@
+[
+ {
+  "source": "DeLLMa",
+  "category": "stock_decision",
+  "question": "Invest $10K for one month: AMD vs DIS vs META vs NVDA vs SPY",
+  "ground_truth": "AMD",
+  "abel_tickers": [
+   "AMD",
+   "DIS",
+   "META",
+   "NVDA"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0101"
+ },
+ {
+  "source": "DeLLMa",
+  "category": "stock_decision",
+  "question": "Invest $10K for one month: AMD vs GME vs GOOGL vs META vs NVDA",
+  "ground_truth": "AMD",
+  "abel_tickers": [
+   "AMD",
+   "GME",
+   "GOOG",
+   "META",
+   "NVDA"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0102"
+ },
+ {
+  "source": "DeLLMa",
+  "category": "stock_decision",
+  "question": "Invest $10K for one month: AMD vs GME vs GOOGL vs META vs SPY",
+  "ground_truth": "AMD",
+  "abel_tickers": [
+   "AMD",
+   "GME",
+   "GOOG",
+   "META"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0103"
+ },
+ {
+  "source": "DeLLMa",
+  "category": "stock_decision",
+  "question": "Invest $10K for one month: AMD vs GME vs GOOGL vs NVDA vs SPY",
+  "ground_truth": "AMD",
+  "abel_tickers": [
+   "AMD",
+   "GME",
+   "GOOG",
+   "NVDA"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0104"
+ },
+ {
+  "source": "DeLLMa",
+  "category": "stock_decision",
+  "question": "Invest $10K for one month: AMD vs GME vs META vs NVDA vs SPY",
+  "ground_truth": "AMD",
+  "abel_tickers": [
+   "AMD",
+   "GME",
+   "META",
+   "NVDA"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0105"
+ },
+ {
+  "source": "DeLLMa",
+  "category": "stock_decision",
+  "question": "Invest $10K for one month: AMD vs GOOGL vs META vs NVDA vs SPY",
+  "ground_truth": "AMD",
+  "abel_tickers": [
+   "AMD",
+   "GOOG",
+   "META",
+   "NVDA"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0106"
+ },
+ {
+  "source": "DeLLMa",
+  "category": "stock_decision",
+  "question": "Invest $10K for one month: DIS vs GME vs GOOGL vs META vs NVDA",
+  "ground_truth": "GME",
+  "abel_tickers": [
+   "DIS",
+   "GME",
+   "GOOG",
+   "META",
+   "NVDA"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0107"
+ },
+ {
+  "source": "DeLLMa",
+  "category": "stock_decision",
+  "question": "Invest $10K for one month: DIS vs GME vs GOOGL vs META vs SPY",
+  "ground_truth": "GME",
+  "abel_tickers": [
+   "DIS",
+   "GME",
+   "GOOG",
+   "META"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0108"
+ },
+ {
+  "source": "DeLLMa",
+  "category": "stock_decision",
+  "question": "Invest $10K for one month: DIS vs GME vs GOOGL vs NVDA vs SPY",
+  "ground_truth": "GME",
+  "abel_tickers": [
+   "DIS",
+   "GME",
+   "GOOG",
+   "NVDA"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0109"
+ },
+ {
+  "source": "DeLLMa",
+  "category": "stock_decision",
+  "question": "Invest $10K for one month: DIS vs GME vs META vs NVDA vs SPY",
+  "ground_truth": "GME",
+  "abel_tickers": [
+   "DIS",
+   "GME",
+   "META",
+   "NVDA"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0110"
+ },
+ {
+  "source": "DeLLMa",
+  "category": "stock_decision",
+  "question": "Invest $10K for one month: DIS vs GOOGL vs META vs NVDA vs SPY",
+  "ground_truth": "META",
+  "abel_tickers": [
+   "DIS",
+   "GOOG",
+   "META",
+   "NVDA"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0111"
+ },
+ {
+  "source": "DeLLMa",
+  "category": "stock_decision",
+  "question": "Invest $10K for one month: GME vs GOOGL vs META vs NVDA vs SPY",
+  "ground_truth": "GME",
+  "abel_tickers": [
+   "GME",
+   "GOOG",
+   "META",
+   "NVDA"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0112"
+ },
+ {
+  "source": "DeLLMa",
+  "category": "stock_decision",
+  "question": "Invest $10K for one month: AMD vs DIS vs GME vs GOOGL vs META vs NVDA",
+  "ground_truth": "AMD",
+  "abel_tickers": [
+   "AMD",
+   "DIS",
+   "GME",
+   "GOOG",
+   "META",
+   "NVDA"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0113"
+ },
+ {
+  "source": "DeLLMa",
+  "category": "stock_decision",
+  "question": "Invest $10K for one month: AMD vs DIS vs GME vs GOOGL vs META vs SPY",
+  "ground_truth": "AMD",
+  "abel_tickers": [
+   "AMD",
+   "DIS",
+   "GME",
+   "GOOG",
+   "META"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0114"
+ },
+ {
+  "source": "DeLLMa",
+  "category": "stock_decision",
+  "question": "Invest $10K for one month: AMD vs DIS vs GME vs GOOGL vs NVDA vs SPY",
+  "ground_truth": "AMD",
+  "abel_tickers": [
+   "AMD",
+   "DIS",
+   "GME",
+   "GOOG",
+   "NVDA"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0115"
+ },
+ {
+  "source": "DeLLMa",
+  "category": "stock_decision",
+  "question": "Invest $10K for one month: AMD vs DIS vs GME vs META vs NVDA vs SPY",
+  "ground_truth": "AMD",
+  "abel_tickers": [
+   "AMD",
+   "DIS",
+   "GME",
+   "META",
+   "NVDA"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0116"
+ },
+ {
+  "source": "DeLLMa",
+  "category": "stock_decision",
+  "question": "Invest $10K for one month: AMD vs DIS vs GOOGL vs META vs NVDA vs SPY",
+  "ground_truth": "AMD",
+  "abel_tickers": [
+   "AMD",
+   "DIS",
+   "GOOG",
+   "META",
+   "NVDA"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0117"
+ },
+ {
+  "source": "DeLLMa",
+  "category": "stock_decision",
+  "question": "Invest $10K for one month: AMD vs GME vs GOOGL vs META vs NVDA vs SPY",
+  "ground_truth": "AMD",
+  "abel_tickers": [
+   "AMD",
+   "GME",
+   "GOOG",
+   "META",
+   "NVDA"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0118"
+ },
+ {
+  "source": "DeLLMa",
+  "category": "stock_decision",
+  "question": "Invest $10K for one month: DIS vs GME vs GOOGL vs META vs NVDA vs SPY",
+  "ground_truth": "GME",
+  "abel_tickers": [
+   "DIS",
+   "GME",
+   "GOOG",
+   "META",
+   "NVDA"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0119"
+ },
+ {
+  "source": "DeLLMa",
+  "category": "stock_decision",
+  "question": "Invest $10K for one month: AMD vs DIS vs GME vs GOOGL vs META vs NVDA vs SPY",
+  "ground_truth": "AMD",
+  "abel_tickers": [
+   "AMD",
+   "DIS",
+   "GME",
+   "GOOG",
+   "META",
+   "NVDA"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0120"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will AMERIBOR, an interest rate based on overnight loans made between banks on the American Financial Exchange, have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0121"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will Moody's Seasoned Baa Corporate Bond Yield compared to the 10-year Treasury yield have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "treasury yield",
+   "bond yield"
+  ],
+  "eval_id": "Q0122"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the number of insured unemployment claims have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "unemployment"
+  ],
+  "eval_id": "Q0123"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will Moody's Seasoned Aaa Corporate Bond Yield have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "bond yield"
+  ],
+  "eval_id": "Q0124"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will Moody's Seasoned Baa Corporate Bond Yield have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "bond yield"
+  ],
+  "eval_id": "Q0125"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the spot exchange rate of South Korean won to US dollars have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "exchange rate"
+  ],
+  "eval_id": "Q0126"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the spot exchange rate of Mexican pesos to US dollars have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "exchange rate"
+  ],
+  "eval_id": "Q0127"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the spot exchange rate of US dollars to euros have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "exchange rate"
+  ],
+  "eval_id": "Q0128"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the spot exchange rate of US dollars to UK pound sterling have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "exchange rate"
+  ],
+  "eval_id": "Q0129"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the lower limit of the target range of the federal funds rate (interest rate) set by the Federal Open Market Committee have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0130"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the market yield on US treasury securities at 10-year constant maturity, quoted on an investment basis and inflation-indexed, have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation"
+  ],
+  "eval_id": "Q0131"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the market yield on US treasury securities at 20-year constant maturity, quoted on an investment basis and inflation-indexed, have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation"
+  ],
+  "eval_id": "Q0132"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the market yield on US treasury securities at 30-year constant maturity, quoted on an investment basis and inflation-indexed, have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation"
+  ],
+  "eval_id": "Q0133"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the discount rate for the Federal Reserve's primary credit discount window program have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "federal reserve"
+  ],
+  "eval_id": "Q0134"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the Federal Reserve's Bank Prime Loan Rate, the rate posted by a majority of top US commercial banks have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "federal reserve"
+  ],
+  "eval_id": "Q0135"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the Federal Reserve's 1-year secondary market treasury bill rate have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "federal reserve"
+  ],
+  "eval_id": "Q0136"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the Federal Reserve's 3-month secondary market treasury bill rate have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "federal reserve"
+  ],
+  "eval_id": "Q0137"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the Federal Reserve's 4-week secondary market treasury bill rate have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "federal reserve"
+  ],
+  "eval_id": "Q0138"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the Federal Reserve Bank of Cleveland's 2-year expected inflation rate have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation",
+   "federal reserve"
+  ],
+  "eval_id": "Q0139"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the Federal Reserve Bank of Cleveland's 30-year expected inflation rate have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation",
+   "federal reserve"
+  ],
+  "eval_id": "Q0140"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the 4-week moving average of initial unemployment claims have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "unemployment"
+  ],
+  "eval_id": "Q0141"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the weekly number of initial unemployment claims have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "unemployment"
+  ],
+  "eval_id": "Q0142"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the Federal Reserve's interest rate on reserve balances have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate",
+   "federal reserve"
+  ],
+  "eval_id": "Q0143"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the daily Sterling Overnight Index Average, the interest rate applied to bank transactions in the British Sterling Market during off hours, have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0144"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the 15-year fixed rate mortgage average in the US have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0145"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the 30-year fixed rate mortgage average in the US have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0146"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the 30-year fixed rate FHA mortgage index have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0147"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the 30-year fixed rate jumbo mortgage index have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0148"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the 30-year fixed rate Veterans Affairs mortgage index have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0149"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the Federal Reserve Bank of Cleveland's estimate for the 10-year real interest rate have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate",
+   "federal reserve"
+  ],
+  "eval_id": "Q0150"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the total dollar amount of assets held by all US Federal Reserve banks have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "federal reserve"
+  ],
+  "eval_id": "Q0151"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the aggregated daily value of US Treasury securities repurchased overnight by the Federal Reserve in temporary open market operations  have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "federal reserve"
+  ],
+  "eval_id": "Q0152"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the award rate of US Treasury securities sold by the Federal Reserve in overnight temporary open market operations have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "federal reserve"
+  ],
+  "eval_id": "Q0153"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the aggregated daily value of US Treasury securities sold by the Federal Reserve in temporary open market operations have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "federal reserve"
+  ],
+  "eval_id": "Q0154"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the aggregated daily value of securities sold by the Federal Reserve in temporary open market operations have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "federal reserve"
+  ],
+  "eval_id": "Q0155"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the 30-day average of the Federal Reserve's Secured Overnight Financing Rate have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "federal reserve"
+  ],
+  "eval_id": "Q0156"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the 90-day average of the Federal Reserve's Secured Overnight Financing Rate have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "federal reserve"
+  ],
+  "eval_id": "Q0157"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the Federal Reserve's SOFR (Secured Overnight Financing Rate) Index have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "federal reserve"
+  ],
+  "eval_id": "Q0158"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the yield spread between the 10-year US Treasury bond and the Effective Federal Funds Rate (interest rate) have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0159"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the US' 10-year breakeven inflation rate have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation"
+  ],
+  "eval_id": "Q0160"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the US' 5-year breakeven inflation rate have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation"
+  ],
+  "eval_id": "Q0161"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the US' 5-year forward inflation expectation rate have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation"
+  ],
+  "eval_id": "Q0162"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the total dollar amount of mortgage-backed securities held by all US commercial banks have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0163"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the weekly dollar amount of loans made by the Federal Reserve under its liquidity and credit facilities have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "federal reserve"
+  ],
+  "eval_id": "Q0164"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the weekly dollar amount of loans made under the primary credit lending program by the Federal Reserve have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "federal reserve"
+  ],
+  "eval_id": "Q0165"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the weekly dollar amount associated with Federal Reserve reverse repurchase agreements have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "federal reserve"
+  ],
+  "eval_id": "Q0166"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will USD money supply as measured by M1 have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "money supply"
+  ],
+  "eval_id": "Q0167"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will Retail Money Market Funds, a component of M2, a measure of USD money supply, have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "money supply"
+  ],
+  "eval_id": "Q0168"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the total dollar amount of securities held by US Federal Reserve Banks have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 1,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "federal reserve"
+  ],
+  "eval_id": "Q0169"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will the weekly average of deposits other than reserve balances held in the US treasury's general accounts with Federal Reserve Banks have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+  "ground_truth": 0,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "federal reserve"
+  ],
+  "eval_id": "Q0170"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will AMD's market close price on {resolution_date} be higher than its market close price on {forecast_due_date}?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "ground_truth": 0,
+  "abel_tickers": [
+   "AMD"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0171"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will INTC's market close price on {resolution_date} be higher than its market close price on {forecast_due_date}?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "ground_truth": 0,
+  "abel_tickers": [
+   "INTC"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0172"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will JPM's market close price on {resolution_date} be higher than its market close price on {forecast_due_date}?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "ground_truth": 0,
+  "abel_tickers": [
+   "JPM"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0173"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will MS's market close price on {resolution_date} be higher than its market close price on {forecast_due_date}?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "ground_truth": 0,
+  "abel_tickers": [
+   "MS"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0174"
+ },
+ {
+  "source": "ForecastBench",
+  "category": "prediction",
+  "question": "Will TSLA's market close price on {resolution_date} be higher than its market close price on {forecast_due_date}?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+  "ground_truth": 1,
+  "abel_tickers": [
+   "TSLA"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0175"
+ },
+ {
+  "source": "FutureX",
+  "category": "prediction",
+  "question": "You are an agent that can predict future events. The event to be predicted: \"Sept-Nov Unemployment Rate - U.K. (resolved around 2026-01-20 (GMT+8)). \nA. the U.K.'s September–November 2025 unemployment rate be ≤4.9%\nB. the U.K.'s September–November 2025 unemployment rate be 5.0%\nC. the U.K.'s September–November 2025 unemployment rate be 5.1%\nD. the U.K.'s September–November 2025 unemployment rate b",
+  "ground_truth": "['C']",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "unemployment"
+  ],
+  "eval_id": "Q0176"
+ },
+ {
+  "source": "FutureX",
+  "category": "prediction",
+  "question": "You are an agent that can predict future events. The event to be predicted: \"December Inflation Canada - Annual (resolved around 2026-01-19 (GMT+8)). \nA. Canada's annual inflation increase by 2.1% in December\nB. Canada's annual inflation increase by 2.3% in December\nC. Canada's annual inflation increase by ≤2.0% in December\nD. Canada's annual inflation increase by 2.2% in December\nE. Canada's annu",
+  "ground_truth": "['E']",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation"
+  ],
+  "eval_id": "Q0177"
+ },
+ {
+  "source": "FutureX",
+  "category": "prediction",
+  "question": "You are an agent that can predict future events. The event to be predicted: \"December Inflation Eurozone - Annual (resolved around 2026-01-19 (GMT+8)). \nA. the Eurozone's annual inflation increase by 2.3% in December\nB. the Eurozone's annual inflation increase by 2.2% in December\nC. the Eurozone's annual inflation increase by ≤2.0% in December\nD. the Eurozone's annual inflation increase by ≥2.4% i",
+  "ground_truth": "['C']",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation"
+  ],
+  "eval_id": "Q0178"
+ },
+ {
+  "source": "FutureX",
+  "category": "prediction",
+  "question": "You are an agent that can predict future events. The event to be predicted: \"2026-01-19, what will be the books from rank 4 to 6 on the latest Amazon Charts of Most Read Fiction list? (Give the book titles only)\"\nIMPORTANT: Your final answer MUST end with this exact format:\n\\boxed{YOUR_PREDICTION}\nDo not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the fut",
+  "ground_truth": "[\"The Housemaid\", \"Brimstone\", \"The Correspondent\"]",
+  "abel_tickers": [
+   "AMZN"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0179"
+ },
+ {
+  "source": "FutureX",
+  "category": "prediction",
+  "question": "You are an agent that can predict future events. The event to be predicted: \"2026-01-26, what will be the books from rank 13 to 15 on the latest Amazon Charts of Most Read Fiction list? (Give the book titles only)\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \\boxed{YOUR_PREDICTION}\n        Do not use any other format. Do not refuse to make a prediction. Do not say",
+  "ground_truth": "['Heated Rivalry', 'Fourth Wing', 'Quicksilver']",
+  "abel_tickers": [
+   "AMZN"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0180"
+ },
+ {
+  "source": "FutureX",
+  "category": "prediction",
+  "question": "You are an agent that can predict future events. The event to be predicted: \"2026-01-23, what will the high of Apple stock (AAPL) be for the day (in US$)?\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \\boxed{YOUR_PREDICTION}\n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear predi",
+  "ground_truth": "[249.41]",
+  "abel_tickers": [
+   "AAPL"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0181"
+ },
+ {
+  "source": "FutureX",
+  "category": "prediction",
+  "question": "You are an agent that can predict future events. The event to be predicted: \"Tesla hits $400 or $500 first before end of January 2026? (resolved around 2026-02-01 (GMT+8)). \nA. the outcome be Tesla hits or trades below $400.00 first\nB. the outcome be Tesla hits or trades above $500.00 first\nC. the outcome be Tesla hits neither $400 nor $500 before market close on Jan 30\"\nIMPORTANT: Your final answ",
+  "ground_truth": "['A']",
+  "abel_tickers": [
+   "TSLA"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0182"
+ },
+ {
+  "source": "FutureX",
+  "category": "prediction",
+  "question": "You are an agent that can predict future events. The event to be predicted: \"Nvidia hits 170, 200 or neither first by end of January 2026? (resolved around 2026-02-01 (GMT+8)). \nA. the outcome be Hits or goes below $170.00 first\nB. the outcome be Hits or goes above $200.00 first\nC. the outcome be Hits neither before end of trading January 30\"\nIMPORTANT: Your final answer MUST end with this exact f",
+  "ground_truth": "['A']",
+  "abel_tickers": [
+   "NVDA"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0183"
+ },
+ {
+  "source": "FutureX",
+  "category": "prediction",
+  "question": "You are an agent that can predict future events. The event to be predicted: \"Which companies will run ads during Super Bowl LX? (resolved around 2026-02-09 (GMT+8)). \nA.  the outcome be Robinhood\nB.  the outcome be Google\nC.  the outcome be Amazon\nD.  the outcome be Hyundai\nE.  the outcome be Toyota\nF.  the outcome be Salesforce\nG.  the outcome be Verizon/Visible\nH.  the outcome be Progressive\nI. ",
+  "ground_truth": "['A', 'B', 'C', 'D']",
+  "abel_tickers": [
+   "GOOG",
+   "AAPL",
+   "AMZN"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0184"
+ },
+ {
+  "source": "FutureX",
+  "category": "prediction",
+  "question": "You are an agent that can predict future events. The event to be predicted: \"At close of business on 5 February 2026, will the most recently announced European Central Bank (ECB) \"Deposit facility\" interest rate be lower, the same, or higher than it was at close of business on 18 December 2025? (resolved around 2026-02-06 (GMT+8)). \nA.  the outcome be Lower\nB.  the outcome be Same\nC.  the outcome ",
+  "ground_truth": "['B']",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0185"
+ },
+ {
+  "source": "FutureX",
+  "category": "prediction",
+  "question": "You are an agent that can predict future events. The event to be predicted: \"China's monthly consumer inflation (CPI) greater than 0.2% in February? (resolved around 2026-03-08 (GMT+8)). \"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \\boxed{Yes} or \\boxed{No}\n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the f",
+  "ground_truth": "['Yes']",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation"
+  ],
+  "eval_id": "Q0186"
+ },
+ {
+  "source": "FutureX",
+  "category": "prediction",
+  "question": "You are an agent that can predict future events. The event to be predicted: \"Brazil's monthly inflation rate in February (resolved around 2026-03-12 (GMT+8)). \nA.  the outcome be 0.45 or more\nB.  the outcome be Between 0.25 and 0.45\nC.  the outcome be More than zero, less than 0.25\nD.  the outcome be Zero or less\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \n     ",
+  "ground_truth": "['A']",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation"
+  ],
+  "eval_id": "Q0187"
+ },
+ {
+  "source": "FutureX",
+  "category": "prediction",
+  "question": "You are an agent that can predict future events. The event to be predicted: \"Stock prices on March 13: higher than on March 6? (resolved around 2026-03-13 (GMT+8)). \nA.  the outcome be Apple Inc. (AAPL)\nB.  the outcome be Oracle Corp (ORCL)\nC.  the outcome be Tesla, Inc. (TSLA)\nD.  the outcome be Nvidia Corporation (NVDA)\nE.  the outcome be Amazon.com, Inc. (AMZN)\nF.  the outcome be Alphabet Inc. ",
+  "ground_truth": "['Yes']",
+  "abel_tickers": [
+   "GOOG",
+   "MSFT",
+   "NVDA",
+   "AAPL",
+   "TSLA",
+   "AMZN"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0188"
+ },
+ {
+  "source": "FutureX",
+  "category": "prediction",
+  "question": "You are an agent that can predict future events. The event to be predicted: \"Will the US PCE annual inflation be greater than 2.9% in January? (resolved around 2026-03-13 (GMT+8)). \"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \\boxed{Yes} or \\boxed{No}\n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.",
+  "ground_truth": "['No']",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation"
+  ],
+  "eval_id": "Q0189"
+ },
+ {
+  "source": "FutureX",
+  "category": "prediction",
+  "question": "You are an agent that can predict future events. The event to be predicted: \"Will NVIDIA stock be higher on March 16, 2026 than on March 09, 2026? (resolved around 2026-03-17 (GMT+8)). \"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \\boxed{Yes} or \\boxed{No}\n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the fut",
+  "ground_truth": "['No']",
+  "abel_tickers": [
+   "NVDA"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0190"
+ },
+ {
+  "source": "FutureX",
+  "category": "prediction",
+  "question": "You are an agent that can predict future events. The event to be predicted: \"Next target for Brazil's SELIC interest rate (resolved around 2026-03-19 (GMT+8)). \nA.  the outcome be Lower by 0.5% or more\nB.  the outcome be Lower by 0.25%\nC.  the outcome be Maintain the same rate\nD.  the outcome be Rise by 0.25% or more\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \n ",
+  "ground_truth": "['B']",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0191"
+ },
+ {
+  "source": "FutureX",
+  "category": "prediction",
+  "question": "You are an agent that can predict future events. The event to be predicted: \"At close of business on 19 March 2026, will the most recently announced European Central Bank (ECB) \"Deposit facility\" interest rate be lower, the same, or higher than it was at close of business on 5 February 2026? (resolved around 2026-03-19 (GMT+8)). \nA.  the outcome be Lower\nB.  the outcome be Same\nC.  the outcome be ",
+  "ground_truth": "['B']",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0192"
+ },
+ {
+  "source": "FutureX",
+  "category": "prediction",
+  "question": "You are an agent that can predict future events. The event to be predicted: \"2026-03-23, what will be the stock market capitalization (市价总值) of Agricultural Bank of China (601288) on the Shanghai Stock Exchange in ten thousand yuan (two decimal places)?\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \\boxed{YOUR_PREDICTION}\n        Do not use any other format. Do not",
+  "ground_truth": "[206551004.37]",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "stock market"
+  ],
+  "eval_id": "Q0193"
+ },
+ {
+  "source": "FutureX",
+  "category": "prediction",
+  "question": "You are an agent that can predict future events. The event to be predicted: \"2026-03-22, which movies will be ranked from 3 to 5 in the TOP 10 on Apple TV Store in the World chart issued by FlixPatrol? (give the movies only)\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \\boxed{YOUR_PREDICTION}\n        Do not use any other format. Do not refuse to make a prediction.",
+  "ground_truth": "['One Battle After Another', 'Sinners', 'The Housemaid']",
+  "abel_tickers": [
+   "AAPL"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0194"
+ },
+ {
+  "source": "FutureX",
+  "category": "prediction",
+  "question": "You are an agent that can predict future events. The event to be predicted: \"Mamdani removes Jessica Tisch as NYC Police Commissioner by March 31? (resolved around 2026-03-31 (GMT+8)). \"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \\boxed{Yes} or \\boxed{No}\n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the fut",
+  "ground_truth": "['No']",
+  "abel_tickers": [
+   "AMD"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0195"
+ },
+ {
+  "source": "FutureX",
+  "category": "prediction",
+  "question": "You are an agent that can predict future events. The event to be predicted: \"Will Apple release a new version of the Apple TV by March 31? (resolved around 2026-03-31 (GMT+8)). \"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \\boxed{Yes} or \\boxed{No}\n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" Yo",
+  "ground_truth": "['No']",
+  "abel_tickers": [
+   "AAPL"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0196"
+ },
+ {
+  "source": "FutureX",
+  "category": "prediction",
+  "question": "You are an agent that can predict future events. The event to be predicted: \"Banxico interest rate decision in March (resolved around 2026-03-26 (GMT+8)). \nA.  the outcome be Lower the rate\nB.  the outcome be Maintain the same rate\nC.  the outcome be Increase the rate\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \n        Your task is to identify all the correct op",
+  "ground_truth": "['B']",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0197"
+ },
+ {
+  "source": "FutureX",
+  "category": "prediction",
+  "question": "You are an agent that can predict future events. The event to be predicted: \"2026-03-31, what will be the stock market capitalization (市价总值) of Agricultural Bank of China (601288) on the Shanghai Stock Exchange in ten thousand yuan (two decimal places)?\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \\boxed{YOUR_PREDICTION}\n        Do not use any other format. Do not",
+  "ground_truth": "[213893621.22]",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "stock market"
+  ],
+  "eval_id": "Q0198"
+ },
+ {
+  "source": "FutureX",
+  "category": "prediction",
+  "question": "You are an agent that can predict future events. The event to be predicted: \"2026-03-26, which movies will be ranked from 6 to 8 in the TOP 10 on Apple TV Store in the World chart issued by FlixPatrol? (give the movies only)\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \\boxed{YOUR_PREDICTION}\n        Do not use any other format. Do not refuse to make a prediction.",
+  "ground_truth": "['Anaconda', 'Spider-Man: No Way Home', 'Sinners']",
+  "abel_tickers": [
+   "AAPL"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0199"
+ },
+ {
+  "source": "FutureX",
+  "category": "prediction",
+  "question": "You are an agent that can predict future events. The event to be predicted: \"2026-04-06, what will be the stock market capitalization (市价总值) of Bank of China (601988) on the Shanghai Stock Exchange in ten thousand yuan (two decimal places)?\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \\boxed{YOUR_PREDICTION}\n        Do not use any other format. Do not refuse to ma",
+  "ground_truth": "[66180371.66]",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "stock market"
+  ],
+  "eval_id": "Q0200"
+ }
+]

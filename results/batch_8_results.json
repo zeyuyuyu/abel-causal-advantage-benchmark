@@ -1,0 +1,6056 @@
+{
+  "meta": {
+    "batch": "batch_8",
+    "total_questions": 100,
+    "timestamp": "2026-04-14T22:59:45.653947",
+    "abel_cache_tickers": [
+      "AAPL",
+      "AMZN",
+      "BAC",
+      "DIS",
+      "GOOG",
+      "INTC",
+      "JPM",
+      "META",
+      "TSLA"
+    ]
+  },
+  "summary": {
+    "total": 100,
+    "base_correct": 89,
+    "skill_correct": 89,
+    "base_accuracy": 0.89,
+    "skill_accuracy": 0.89,
+    "abel_changed": 1,
+    "flips": 0,
+    "harms": 0,
+    "net_flips": 0
+  },
+  "by_source": {
+    "EconCausal": {
+      "n": 37,
+      "base": 26,
+      "skill": 26,
+      "changed": 1,
+      "flips": 0,
+      "harms": 0
+    },
+    "FinFact": {
+      "n": 60,
+      "base": 60,
+      "skill": 60,
+      "changed": 0,
+      "flips": 0,
+      "harms": 0
+    },
+    "FinMCQ": {
+      "n": 3,
+      "base": 3,
+      "skill": 3,
+      "changed": 0,
+      "flips": 0,
+      "harms": 0
+    }
+  },
+  "results": [
+    {
+      "eval_id": "Q0801",
+      "source": "EconCausal",
+      "category": "economic_causality",
+      "ground_truth": "+",
+      "base_answer": "+",
+      "skill_answer": "+",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "gdp"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "gdp"
+        }
+      ],
+      "hypotheses": [
+        "Treatment likely has standard textbook effect on gdp",
+        "Contrarian: context-specific factors may reverse expected sign"
+      ],
+      "verification": "Abel graph covers equities/crypto only; macro concepts use domain knowledge base",
+      "grounding_notes": [
+        "GDP is central macro indicator; most treatments have well-studied effects"
+      ],
+      "question_preview": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment\u2013outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outc"
+    },
+    {
+      "eval_id": "Q0802",
+      "source": "EconCausal",
+      "category": "economic_causality",
+      "ground_truth": "-",
+      "base_answer": "-",
+      "skill_answer": "-",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "exchange rate"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "exchange rate"
+        }
+      ],
+      "hypotheses": [
+        "Treatment likely has standard textbook effect on exchange rate",
+        "Contrarian: context-specific factors may reverse expected sign"
+      ],
+      "verification": "Abel graph covers equities/crypto only; macro concepts use domain knowledge base",
+      "grounding_notes": [
+        "Interest rate transmission mechanism is a core monetary policy channel",
+        "Exchange rates respond to interest rate differentials and trade flows"
+      ],
+      "question_preview": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment\u2013outcome pair is observed across multiple contexts, potentially with different causal signs."
+    },
+    {
+      "eval_id": "Q0803",
+      "source": "EconCausal",
+      "category": "economic_causality",
+      "ground_truth": "-",
+      "base_answer": "-",
+      "skill_answer": "-",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "monetary policy"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "monetary policy"
+        }
+      ],
+      "hypotheses": [
+        "Treatment likely has standard textbook effect on monetary policy",
+        "Contrarian: context-specific factors may reverse expected sign"
+      ],
+      "verification": "Abel graph covers equities/crypto only; macro concepts use domain knowledge base",
+      "grounding_notes": [
+        "Monetary policy affects economy through interest rate and credit channels"
+      ],
+      "question_preview": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment\u2013outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outc"
+    },
+    {
+      "eval_id": "Q0804",
+      "source": "EconCausal",
+      "category": "economic_causality",
+      "ground_truth": "+",
+      "base_answer": "+",
+      "skill_answer": "+",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "unemployment",
+          "mortgage"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "unemployment"
+        },
+        {
+          "concept": "mortgage"
+        }
+      ],
+      "hypotheses": [
+        "Treatment likely has standard textbook effect on unemployment",
+        "Contrarian: context-specific factors may reverse expected sign",
+        "Interaction between unemployment and mortgage may complicate sign"
+      ],
+      "verification": "Abel graph covers equities/crypto only; macro concepts use domain knowledge base",
+      "grounding_notes": [
+        "Okun's Law: GDP growth inversely related to unemployment changes",
+        "Mortgage rates closely track long-term interest rates"
+      ],
+      "question_preview": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment\u2013outcome pair is observed across multiple contexts, potentially with different causal signs."
+    },
+    {
+      "eval_id": "Q0805",
+      "source": "EconCausal",
+      "category": "economic_causality",
+      "ground_truth": null,
+      "base_answer": "+",
+      "skill_answer": "+",
+      "abel_changed": false,
+      "base_correct": false,
+      "skill_correct": false,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "gdp"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "gdp"
+        }
+      ],
+      "hypotheses": [
+        "Treatment likely has standard textbook effect on gdp",
+        "Contrarian: context-specific factors may reverse expected sign"
+      ],
+      "verification": "Abel graph covers equities/crypto only; macro concepts use domain knowledge base",
+      "grounding_notes": [
+        "GDP is central macro indicator; most treatments have well-studied effects"
+      ],
+      "question_preview": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment\u2013outcome pair is observed across multiple contexts, potentially with different causal signs."
+    },
+    {
+      "eval_id": "Q0806",
+      "source": "EconCausal",
+      "category": "economic_causality",
+      "ground_truth": null,
+      "base_answer": "+",
+      "skill_answer": "+",
+      "abel_changed": false,
+      "base_correct": false,
+      "skill_correct": false,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "gdp"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "gdp"
+        }
+      ],
+      "hypotheses": [
+        "Treatment likely has standard textbook effect on gdp",
+        "Contrarian: context-specific factors may reverse expected sign"
+      ],
+      "verification": "Abel graph covers equities/crypto only; macro concepts use domain knowledge base",
+      "grounding_notes": [
+        "GDP is central macro indicator; most treatments have well-studied effects"
+      ],
+      "question_preview": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment\u2013outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outc"
+    },
+    {
+      "eval_id": "Q0807",
+      "source": "EconCausal",
+      "category": "economic_causality",
+      "ground_truth": "+",
+      "base_answer": "-",
+      "skill_answer": "-",
+      "abel_changed": false,
+      "base_correct": false,
+      "skill_correct": false,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "gdp",
+          "unemployment"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "gdp"
+        },
+        {
+          "concept": "unemployment"
+        }
+      ],
+      "hypotheses": [
+        "Treatment likely has standard textbook effect on gdp",
+        "Contrarian: context-specific factors may reverse expected sign",
+        "Interaction between gdp and unemployment may complicate sign"
+      ],
+      "verification": "Abel graph covers equities/crypto only; macro concepts use domain knowledge base",
+      "grounding_notes": [
+        "GDP is central macro indicator; most treatments have well-studied effects",
+        "Okun's Law: GDP growth inversely related to unemployment changes"
+      ],
+      "question_preview": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment\u2013outcome pair is observed across multiple contexts, potentially with different causal signs."
+    },
+    {
+      "eval_id": "Q0808",
+      "source": "EconCausal",
+      "category": "economic_causality",
+      "ground_truth": "+",
+      "base_answer": "-",
+      "skill_answer": "-",
+      "abel_changed": false,
+      "base_correct": false,
+      "skill_correct": false,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "gdp",
+          "unemployment",
+          "rate cut"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "gdp"
+        },
+        {
+          "concept": "unemployment"
+        },
+        {
+          "concept": "rate cut"
+        }
+      ],
+      "hypotheses": [
+        "Treatment likely has standard textbook effect on gdp",
+        "Contrarian: context-specific factors may reverse expected sign",
+        "Interaction between gdp and unemployment and rate cut may complicate sign"
+      ],
+      "verification": "Abel graph covers equities/crypto only; macro concepts use domain knowledge base",
+      "grounding_notes": [
+        "GDP is central macro indicator; most treatments have well-studied effects",
+        "Okun's Law: GDP growth inversely related to unemployment changes",
+        "Interest rate transmission mechanism is a core monetary policy channel"
+      ],
+      "question_preview": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment\u2013outcome pair is observed across multiple contexts, potentially with different causal signs."
+    },
+    {
+      "eval_id": "Q0809",
+      "source": "EconCausal",
+      "category": "economic_causality",
+      "ground_truth": "-",
+      "base_answer": "-",
+      "skill_answer": "-",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "exchange rate"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "exchange rate"
+        }
+      ],
+      "hypotheses": [
+        "Treatment likely has standard textbook effect on exchange rate",
+        "Contrarian: context-specific factors may reverse expected sign"
+      ],
+      "verification": "Abel graph covers equities/crypto only; macro concepts use domain knowledge base",
+      "grounding_notes": [
+        "Interest rate transmission mechanism is a core monetary policy channel",
+        "Exchange rates respond to interest rate differentials and trade flows"
+      ],
+      "question_preview": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment\u2013outcome pair is observed across multiple contexts, potentially with different causal signs."
+    },
+    {
+      "eval_id": "Q0810",
+      "source": "EconCausal",
+      "category": "economic_causality",
+      "ground_truth": "+",
+      "base_answer": "+",
+      "skill_answer": "+",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "mortgage"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "mortgage"
+        }
+      ],
+      "hypotheses": [
+        "Treatment likely has standard textbook effect on mortgage",
+        "Contrarian: context-specific factors may reverse expected sign"
+      ],
+      "verification": "Abel graph covers equities/crypto only; macro concepts use domain knowledge base",
+      "grounding_notes": [
+        "Mortgage rates closely track long-term interest rates"
+      ],
+      "question_preview": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment\u2013outcome pair is observed across multiple contexts, potentially with different causal signs."
+    },
+    {
+      "eval_id": "Q0811",
+      "source": "EconCausal",
+      "category": "economic_causality",
+      "ground_truth": "-",
+      "base_answer": "+",
+      "skill_answer": "None",
+      "abel_changed": true,
+      "base_correct": false,
+      "skill_correct": false,
+      "entities": {
+        "tickers": [
+          "BAC"
+        ],
+        "macro_concepts": []
+      },
+      "abel_signals": [
+        {
+          "ticker": "BAC",
+          "signal": {
+            "prediction": 0.0004,
+            "drivers": [
+              "IMOUSD.price",
+              "ACTUSD.price",
+              "AIZN.price",
+              "BIPH.price",
+              "HWCPZ.price",
+              "CMSC.price",
+              "MBPUSD.price",
+              "AREB.price"
+            ],
+            "blanket_size": 8,
+            "parents": [
+              "ACTUSD.price",
+              "AIZN.price",
+              "AREB.price",
+              "BIPH.price",
+              "CMSC.price",
+              "HWCPZ.price",
+              "IMOUSD.price",
+              "MBPUSD.price"
+            ],
+            "children": [],
+            "spouses": [],
+            "parent_names": [
+              [
+                "ACTUSD.price",
+                "Achain price"
+              ],
+              [
+                "AIZN.price",
+                "Assurant, Inc. 5.25% Subordinat stock price"
+              ],
+              [
+                "AREB.price",
+                "American Rebel Holdings, Inc. stock price"
+              ],
+              [
+                "BIPH.price",
+                "Brookfield Infrastructure Corpo stock price"
+              ],
+              [
+                "CMSC.price",
+                "CMS Energy Corporation 5.875% J stock price"
+              ],
+              [
+                "HWCPZ.price",
+                "Hancock Whitney Corporation - 6 stock price"
+              ],
+              [
+                "IMOUSD.price",
+                "IMO price"
+              ],
+              [
+                "MBPUSD.price",
+                "Mobipad price"
+              ]
+            ]
+          }
+        }
+      ],
+      "macro_signals": [],
+      "hypotheses": [],
+      "verification": "Abel provides causal structure for ['BAC']; prediction available",
+      "grounding_notes": [],
+      "question_preview": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment\u2013outcome pair is observed across multiple contexts, potentially with different causal signs."
+    },
+    {
+      "eval_id": "Q0812",
+      "source": "EconCausal",
+      "category": "economic_causality",
+      "ground_truth": null,
+      "base_answer": "None",
+      "skill_answer": "None",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "capital market"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "capital market"
+        }
+      ],
+      "hypotheses": [
+        "Treatment likely has standard textbook effect on capital market",
+        "Contrarian: context-specific factors may reverse expected sign"
+      ],
+      "verification": "Abel graph covers equities/crypto only; macro concepts use domain knowledge base",
+      "grounding_notes": [
+        "Stock markets are forward-looking and respond to rate expectations and earnings",
+        "Capital market efficiency affects resource allocation and growth"
+      ],
+      "question_preview": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment\u2013outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outc"
+    },
+    {
+      "eval_id": "Q0813",
+      "source": "EconCausal",
+      "category": "economic_causality",
+      "ground_truth": "+",
+      "base_answer": "-",
+      "skill_answer": "-",
+      "abel_changed": false,
+      "base_correct": false,
+      "skill_correct": false,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "exchange rate"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "exchange rate"
+        }
+      ],
+      "hypotheses": [
+        "Treatment likely has standard textbook effect on exchange rate",
+        "Contrarian: context-specific factors may reverse expected sign"
+      ],
+      "verification": "Abel graph covers equities/crypto only; macro concepts use domain knowledge base",
+      "grounding_notes": [
+        "Interest rate transmission mechanism is a core monetary policy channel",
+        "Exchange rates respond to interest rate differentials and trade flows"
+      ],
+      "question_preview": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment\u2013outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outc"
+    },
+    {
+      "eval_id": "Q0814",
+      "source": "EconCausal",
+      "category": "economic_causality",
+      "ground_truth": null,
+      "base_answer": "None",
+      "skill_answer": "None",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "bond yield"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "bond yield"
+        }
+      ],
+      "hypotheses": [
+        "Treatment likely has standard textbook effect on bond yield",
+        "Contrarian: context-specific factors may reverse expected sign"
+      ],
+      "verification": "Abel graph covers equities/crypto only; macro concepts use domain knowledge base",
+      "grounding_notes": [
+        "Bond yields move with rate expectations and inflation expectations"
+      ],
+      "question_preview": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment\u2013outcome pair is observed across multiple contexts, potentially with different causal signs."
+    },
+    {
+      "eval_id": "Q0815",
+      "source": "EconCausal",
+      "category": "economic_causality",
+      "ground_truth": null,
+      "base_answer": "None",
+      "skill_answer": "None",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "interest rate"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "interest rate"
+        }
+      ],
+      "hypotheses": [
+        "Treatment likely has standard textbook effect on interest rate",
+        "Contrarian: context-specific factors may reverse expected sign"
+      ],
+      "verification": "Abel graph covers equities/crypto only; macro concepts use domain knowledge base",
+      "grounding_notes": [
+        "Interest rate transmission mechanism is a core monetary policy channel"
+      ],
+      "question_preview": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment\u2013outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outc"
+    },
+    {
+      "eval_id": "Q0816",
+      "source": "EconCausal",
+      "category": "economic_causality",
+      "ground_truth": "-",
+      "base_answer": "-",
+      "skill_answer": "-",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "gdp",
+          "unemployment"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "gdp"
+        },
+        {
+          "concept": "unemployment"
+        }
+      ],
+      "hypotheses": [
+        "Treatment likely has standard textbook effect on gdp",
+        "Contrarian: context-specific factors may reverse expected sign",
+        "Interaction between gdp and unemployment may complicate sign"
+      ],
+      "verification": "Abel graph covers equities/crypto only; macro concepts use domain knowledge base",
+      "grounding_notes": [
+        "GDP is central macro indicator; most treatments have well-studied effects",
+        "Okun's Law: GDP growth inversely related to unemployment changes"
+      ],
+      "question_preview": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment\u2013outcome pair is observed across multiple contexts, potentially with different causal signs."
+    },
+    {
+      "eval_id": "Q0817",
+      "source": "EconCausal",
+      "category": "economic_causality",
+      "ground_truth": "+",
+      "base_answer": "+",
+      "skill_answer": "+",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "stock market"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "stock market"
+        }
+      ],
+      "hypotheses": [
+        "Treatment likely has standard textbook effect on stock market",
+        "Contrarian: context-specific factors may reverse expected sign"
+      ],
+      "verification": "Abel graph covers equities/crypto only; macro concepts use domain knowledge base",
+      "grounding_notes": [
+        "Stock markets are forward-looking and respond to rate expectations and earnings"
+      ],
+      "question_preview": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment\u2013outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outc"
+    },
+    {
+      "eval_id": "Q0818",
+      "source": "EconCausal",
+      "category": "economic_causality",
+      "ground_truth": "-",
+      "base_answer": "-",
+      "skill_answer": "-",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "interest rate",
+          "inflation",
+          "bond yield"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "interest rate"
+        },
+        {
+          "concept": "inflation"
+        },
+        {
+          "concept": "bond yield"
+        }
+      ],
+      "hypotheses": [
+        "Treatment likely has standard textbook effect on interest rate",
+        "Contrarian: context-specific factors may reverse expected sign",
+        "Interaction between interest rate and inflation and bond yield may complicate sign"
+      ],
+      "verification": "Abel graph covers equities/crypto only; macro concepts use domain knowledge base",
+      "grounding_notes": [
+        "Interest rate transmission mechanism is a core monetary policy channel",
+        "Phillips Curve: inflation-unemployment tradeoff in short run",
+        "Bond yields move with rate expectations and inflation expectations"
+      ],
+      "question_preview": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment\u2013outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outc"
+    },
+    {
+      "eval_id": "Q0819",
+      "source": "EconCausal",
+      "category": "economic_causality",
+      "ground_truth": "-",
+      "base_answer": "-",
+      "skill_answer": "-",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "gdp",
+          "stock market"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "gdp"
+        },
+        {
+          "concept": "stock market"
+        }
+      ],
+      "hypotheses": [
+        "Treatment likely has standard textbook effect on gdp",
+        "Contrarian: context-specific factors may reverse expected sign",
+        "Interaction between gdp and stock market may complicate sign"
+      ],
+      "verification": "Abel graph covers equities/crypto only; macro concepts use domain knowledge base",
+      "grounding_notes": [
+        "GDP is central macro indicator; most treatments have well-studied effects",
+        "Stock markets are forward-looking and respond to rate expectations and earnings"
+      ],
+      "question_preview": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment\u2013outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outc"
+    },
+    {
+      "eval_id": "Q0820",
+      "source": "EconCausal",
+      "category": "economic_causality",
+      "ground_truth": "-",
+      "base_answer": "+",
+      "skill_answer": "+",
+      "abel_changed": false,
+      "base_correct": false,
+      "skill_correct": false,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "mortgage"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "mortgage"
+        }
+      ],
+      "hypotheses": [
+        "Treatment likely has standard textbook effect on mortgage",
+        "Contrarian: context-specific factors may reverse expected sign"
+      ],
+      "verification": "Abel graph covers equities/crypto only; macro concepts use domain knowledge base",
+      "grounding_notes": [
+        "Mortgage rates closely track long-term interest rates"
+      ],
+      "question_preview": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment\u2013outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outc"
+    },
+    {
+      "eval_id": "Q0821",
+      "source": "EconCausal",
+      "category": "economic_causality",
+      "ground_truth": "-",
+      "base_answer": "+",
+      "skill_answer": "+",
+      "abel_changed": false,
+      "base_correct": false,
+      "skill_correct": false,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "gdp"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "gdp"
+        }
+      ],
+      "hypotheses": [
+        "Treatment likely has standard textbook effect on gdp",
+        "Contrarian: context-specific factors may reverse expected sign"
+      ],
+      "verification": "Abel graph covers equities/crypto only; macro concepts use domain knowledge base",
+      "grounding_notes": [
+        "GDP is central macro indicator; most treatments have well-studied effects"
+      ],
+      "question_preview": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment\u2013outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outc"
+    },
+    {
+      "eval_id": "Q0822",
+      "source": "EconCausal",
+      "category": "economic_causality",
+      "ground_truth": "+",
+      "base_answer": "-",
+      "skill_answer": "-",
+      "abel_changed": false,
+      "base_correct": false,
+      "skill_correct": false,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "inflation",
+          "gdp",
+          "unemployment",
+          "recession",
+          "business cycle"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "inflation"
+        },
+        {
+          "concept": "gdp"
+        },
+        {
+          "concept": "unemployment"
+        },
+        {
+          "concept": "recession"
+        },
+        {
+          "concept": "business cycle"
+        }
+      ],
+      "hypotheses": [
+        "Treatment likely has standard textbook effect on inflation",
+        "Contrarian: context-specific factors may reverse expected sign",
+        "Interaction between inflation and gdp and unemployment and recession and business cycle may complicate sign"
+      ],
+      "verification": "Abel graph covers equities/crypto only; macro concepts use domain knowledge base",
+      "grounding_notes": [
+        "Phillips Curve: inflation-unemployment tradeoff in short run",
+        "GDP is central macro indicator; most treatments have well-studied effects",
+        "Okun's Law: GDP growth inversely related to unemployment changes"
+      ],
+      "question_preview": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment\u2013outcome pair is observed across multiple contexts, potentially with different causal signs."
+    },
+    {
+      "eval_id": "Q0823",
+      "source": "EconCausal",
+      "category": "economic_causality",
+      "ground_truth": "-",
+      "base_answer": "-",
+      "skill_answer": "-",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "gdp",
+          "industrial production",
+          "stock market"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "gdp"
+        },
+        {
+          "concept": "industrial production"
+        },
+        {
+          "concept": "stock market"
+        }
+      ],
+      "hypotheses": [
+        "Treatment likely has standard textbook effect on gdp",
+        "Contrarian: context-specific factors may reverse expected sign",
+        "Interaction between gdp and industrial production and stock market may complicate sign"
+      ],
+      "verification": "Abel graph covers equities/crypto only; macro concepts use domain knowledge base",
+      "grounding_notes": [
+        "GDP is central macro indicator; most treatments have well-studied effects",
+        "Industrial production is a coincident indicator of economic activity",
+        "Stock markets are forward-looking and respond to rate expectations and earnings"
+      ],
+      "question_preview": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment\u2013outcome pair is observed across multiple contexts, potentially with different causal signs."
+    },
+    {
+      "eval_id": "Q0824",
+      "source": "EconCausal",
+      "category": "economic_causality",
+      "ground_truth": "+",
+      "base_answer": "+",
+      "skill_answer": "+",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "economic growth"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "economic growth"
+        }
+      ],
+      "hypotheses": [
+        "Treatment likely has standard textbook effect on economic growth",
+        "Contrarian: context-specific factors may reverse expected sign"
+      ],
+      "verification": "Abel graph covers equities/crypto only; macro concepts use domain knowledge base",
+      "grounding_notes": [
+        "Economic growth is driven by capital, labor, and productivity"
+      ],
+      "question_preview": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment\u2013outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outc"
+    },
+    {
+      "eval_id": "Q0825",
+      "source": "EconCausal",
+      "category": "economic_causality",
+      "ground_truth": null,
+      "base_answer": "+",
+      "skill_answer": "+",
+      "abel_changed": false,
+      "base_correct": false,
+      "skill_correct": false,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "gdp"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "gdp"
+        }
+      ],
+      "hypotheses": [
+        "Treatment likely has standard textbook effect on gdp",
+        "Contrarian: context-specific factors may reverse expected sign"
+      ],
+      "verification": "Abel graph covers equities/crypto only; macro concepts use domain knowledge base",
+      "grounding_notes": [
+        "GDP is central macro indicator; most treatments have well-studied effects"
+      ],
+      "question_preview": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment\u2013outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outc"
+    },
+    {
+      "eval_id": "Q0826",
+      "source": "EconCausal",
+      "category": "economic_causality",
+      "ground_truth": "-",
+      "base_answer": "-",
+      "skill_answer": "-",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "unemployment"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "unemployment"
+        }
+      ],
+      "hypotheses": [
+        "Treatment likely has standard textbook effect on unemployment",
+        "Contrarian: context-specific factors may reverse expected sign"
+      ],
+      "verification": "Abel graph covers equities/crypto only; macro concepts use domain knowledge base",
+      "grounding_notes": [
+        "Okun's Law: GDP growth inversely related to unemployment changes"
+      ],
+      "question_preview": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment\u2013outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outc"
+    },
+    {
+      "eval_id": "Q0827",
+      "source": "EconCausal",
+      "category": "economic_causality",
+      "ground_truth": null,
+      "base_answer": "-",
+      "skill_answer": "-",
+      "abel_changed": false,
+      "base_correct": false,
+      "skill_correct": false,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "interest rate",
+          "inflation",
+          "bond yield"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "interest rate"
+        },
+        {
+          "concept": "inflation"
+        },
+        {
+          "concept": "bond yield"
+        }
+      ],
+      "hypotheses": [
+        "Treatment likely has standard textbook effect on interest rate",
+        "Contrarian: context-specific factors may reverse expected sign",
+        "Interaction between interest rate and inflation and bond yield may complicate sign"
+      ],
+      "verification": "Abel graph covers equities/crypto only; macro concepts use domain knowledge base",
+      "grounding_notes": [
+        "Interest rate transmission mechanism is a core monetary policy channel",
+        "Phillips Curve: inflation-unemployment tradeoff in short run",
+        "Bond yields move with rate expectations and inflation expectations"
+      ],
+      "question_preview": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment\u2013outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outc"
+    },
+    {
+      "eval_id": "Q0828",
+      "source": "EconCausal",
+      "category": "economic_causality",
+      "ground_truth": "-",
+      "base_answer": "-",
+      "skill_answer": "-",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "mortgage",
+          "recession"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "mortgage"
+        },
+        {
+          "concept": "recession"
+        }
+      ],
+      "hypotheses": [
+        "Treatment likely has standard textbook effect on mortgage",
+        "Contrarian: context-specific factors may reverse expected sign",
+        "Interaction between mortgage and recession may complicate sign"
+      ],
+      "verification": "Abel graph covers equities/crypto only; macro concepts use domain knowledge base",
+      "grounding_notes": [
+        "Mortgage rates closely track long-term interest rates",
+        "Recessions typically reduce output, employment, and asset prices"
+      ],
+      "question_preview": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment\u2013outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outc"
+    },
+    {
+      "eval_id": "Q0829",
+      "source": "EconCausal",
+      "category": "economic_causality",
+      "ground_truth": "-",
+      "base_answer": "-",
+      "skill_answer": "-",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "interest rate",
+          "fiscal policy",
+          "industrial production",
+          "stock market"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "interest rate"
+        },
+        {
+          "concept": "fiscal policy"
+        },
+        {
+          "concept": "industrial production"
+        },
+        {
+          "concept": "stock market"
+        }
+      ],
+      "hypotheses": [
+        "Treatment likely has standard textbook effect on interest rate",
+        "Contrarian: context-specific factors may reverse expected sign",
+        "Interaction between interest rate and fiscal policy and industrial production and stock market may complicate sign"
+      ],
+      "verification": "Abel graph covers equities/crypto only; macro concepts use domain knowledge base",
+      "grounding_notes": [
+        "Interest rate transmission mechanism is a core monetary policy channel",
+        "Fiscal policy has multiplier effects on GDP",
+        "Industrial production is a coincident indicator of economic activity"
+      ],
+      "question_preview": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment\u2013outcome pair is observed across multiple contexts, potentially with different causal signs."
+    },
+    {
+      "eval_id": "Q0830",
+      "source": "EconCausal",
+      "category": "economic_causality",
+      "ground_truth": "+",
+      "base_answer": "+",
+      "skill_answer": "+",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "gdp"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "gdp"
+        }
+      ],
+      "hypotheses": [
+        "Treatment likely has standard textbook effect on gdp",
+        "Contrarian: context-specific factors may reverse expected sign"
+      ],
+      "verification": "Abel graph covers equities/crypto only; macro concepts use domain knowledge base",
+      "grounding_notes": [
+        "GDP is central macro indicator; most treatments have well-studied effects"
+      ],
+      "question_preview": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment\u2013outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outc"
+    },
+    {
+      "eval_id": "Q0831",
+      "source": "EconCausal",
+      "category": "economic_causality",
+      "ground_truth": "-",
+      "base_answer": "-",
+      "skill_answer": "-",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "inflation",
+          "gdp"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "inflation"
+        },
+        {
+          "concept": "gdp"
+        }
+      ],
+      "hypotheses": [
+        "Treatment likely has standard textbook effect on inflation",
+        "Contrarian: context-specific factors may reverse expected sign",
+        "Interaction between inflation and gdp may complicate sign"
+      ],
+      "verification": "Abel graph covers equities/crypto only; macro concepts use domain knowledge base",
+      "grounding_notes": [
+        "Phillips Curve: inflation-unemployment tradeoff in short run",
+        "GDP is central macro indicator; most treatments have well-studied effects"
+      ],
+      "question_preview": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment\u2013outcome pair is observed across multiple contexts, potentially with different causal signs."
+    },
+    {
+      "eval_id": "Q0832",
+      "source": "EconCausal",
+      "category": "economic_causality",
+      "ground_truth": "-",
+      "base_answer": "-",
+      "skill_answer": "-",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "exchange rate"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "exchange rate"
+        }
+      ],
+      "hypotheses": [
+        "Treatment likely has standard textbook effect on exchange rate",
+        "Contrarian: context-specific factors may reverse expected sign"
+      ],
+      "verification": "Abel graph covers equities/crypto only; macro concepts use domain knowledge base",
+      "grounding_notes": [
+        "Interest rate transmission mechanism is a core monetary policy channel",
+        "Exchange rates respond to interest rate differentials and trade flows"
+      ],
+      "question_preview": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment\u2013outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outc"
+    },
+    {
+      "eval_id": "Q0833",
+      "source": "EconCausal",
+      "category": "economic_causality",
+      "ground_truth": null,
+      "base_answer": "None",
+      "skill_answer": "None",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "labor market"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "labor market"
+        }
+      ],
+      "hypotheses": [
+        "Treatment likely has standard textbook effect on labor market",
+        "Contrarian: context-specific factors may reverse expected sign"
+      ],
+      "verification": "Abel graph covers equities/crypto only; macro concepts use domain knowledge base",
+      "grounding_notes": [
+        "Stock markets are forward-looking and respond to rate expectations and earnings",
+        "Labor market conditions reflect and influence broader economic activity"
+      ],
+      "question_preview": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment\u2013outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outc"
+    },
+    {
+      "eval_id": "Q0834",
+      "source": "EconCausal",
+      "category": "economic_causality",
+      "ground_truth": "+",
+      "base_answer": "+",
+      "skill_answer": "+",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "gdp"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "gdp"
+        }
+      ],
+      "hypotheses": [
+        "Treatment likely has standard textbook effect on gdp",
+        "Contrarian: context-specific factors may reverse expected sign"
+      ],
+      "verification": "Abel graph covers equities/crypto only; macro concepts use domain knowledge base",
+      "grounding_notes": [
+        "GDP is central macro indicator; most treatments have well-studied effects"
+      ],
+      "question_preview": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment\u2013outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outc"
+    },
+    {
+      "eval_id": "Q0835",
+      "source": "EconCausal",
+      "category": "economic_causality",
+      "ground_truth": "-",
+      "base_answer": "-",
+      "skill_answer": "-",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "inflation",
+          "treasury yield"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "inflation"
+        },
+        {
+          "concept": "treasury yield"
+        }
+      ],
+      "hypotheses": [
+        "Treatment likely has standard textbook effect on inflation",
+        "Contrarian: context-specific factors may reverse expected sign",
+        "Interaction between inflation and treasury yield may complicate sign"
+      ],
+      "verification": "Abel graph covers equities/crypto only; macro concepts use domain knowledge base",
+      "grounding_notes": [
+        "Phillips Curve: inflation-unemployment tradeoff in short run",
+        "Bond yields move with rate expectations and inflation expectations"
+      ],
+      "question_preview": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment\u2013outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outc"
+    },
+    {
+      "eval_id": "Q0836",
+      "source": "EconCausal",
+      "category": "economic_causality",
+      "ground_truth": "-",
+      "base_answer": "-",
+      "skill_answer": "-",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "interest rate",
+          "federal reserve"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "interest rate"
+        },
+        {
+          "concept": "federal reserve"
+        }
+      ],
+      "hypotheses": [
+        "Treatment likely has standard textbook effect on interest rate",
+        "Contrarian: context-specific factors may reverse expected sign",
+        "Interaction between interest rate and federal reserve may complicate sign"
+      ],
+      "verification": "Abel graph covers equities/crypto only; macro concepts use domain knowledge base",
+      "grounding_notes": [
+        "Interest rate transmission mechanism is a core monetary policy channel",
+        "Fed policy decisions directly control short-term rates"
+      ],
+      "question_preview": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment\u2013outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outc"
+    },
+    {
+      "eval_id": "Q0837",
+      "source": "EconCausal",
+      "category": "economic_causality",
+      "ground_truth": "-",
+      "base_answer": "-",
+      "skill_answer": "-",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "gdp",
+          "unemployment",
+          "rate cut"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "gdp"
+        },
+        {
+          "concept": "unemployment"
+        },
+        {
+          "concept": "rate cut"
+        }
+      ],
+      "hypotheses": [
+        "Treatment likely has standard textbook effect on gdp",
+        "Contrarian: context-specific factors may reverse expected sign",
+        "Interaction between gdp and unemployment and rate cut may complicate sign"
+      ],
+      "verification": "Abel graph covers equities/crypto only; macro concepts use domain knowledge base",
+      "grounding_notes": [
+        "GDP is central macro indicator; most treatments have well-studied effects",
+        "Okun's Law: GDP growth inversely related to unemployment changes",
+        "Interest rate transmission mechanism is a core monetary policy channel"
+      ],
+      "question_preview": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment\u2013outcome pair is observed across multiple contexts, potentially with different causal signs."
+    },
+    {
+      "eval_id": "Q0838",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "false",
+      "base_answer": "false",
+      "skill_answer": "false",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [
+          "META"
+        ],
+        "macro_concepts": []
+      },
+      "abel_signals": [
+        {
+          "ticker": "META",
+          "signal": {
+            "prediction": -0.0017,
+            "drivers": [
+              "PSFE.price",
+              "HGTY.price",
+              "IOBT.price",
+              "TGLS.price",
+              "EVAX.price",
+              "OP.price",
+              "HEPS.price",
+              "FIGS.price",
+              "MITQ.price",
+              "UNCY.price"
+            ],
+            "blanket_size": 20,
+            "parents": [
+              "BFRI.price",
+              "CGLDUSD.price",
+              "DTST.price",
+              "ESBA.price",
+              "EWTX.price",
+              "FCUV.price",
+              "FIGS.price",
+              "HGTY.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "children": [
+              "BFRI.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "spouses": [
+              "ESBA.price",
+              "INNV.price"
+            ],
+            "parent_names": [
+              [
+                "EVAX.price",
+                "Evaxion Biotech A/S stock price"
+              ],
+              [
+                "FIGS.price",
+                "FIGS, Inc. stock price"
+              ],
+              [
+                "HEPS.price",
+                "D-Market Elektronik Hizmetler ve Ticaret A.S. stock price"
+              ],
+              [
+                "HGTY.price",
+                "Hagerty, Inc. stock price"
+              ],
+              [
+                "IOBT.price",
+                "IO Biotech, Inc. stock price"
+              ],
+              [
+                "MITQ.price",
+                "Moving iMage Technologies, Inc. stock price"
+              ],
+              [
+                "OP.price",
+                "OceanPal Inc. stock price"
+              ],
+              [
+                "PSFE.price",
+                "Paysafe Limited stock price"
+              ],
+              [
+                "TGLS.price",
+                "Tecnoglass Inc. stock price"
+              ],
+              [
+                "UNCY.price",
+                "Unicycive Therapeutics, Inc. stock price"
+              ]
+            ]
+          }
+        }
+      ],
+      "macro_signals": [],
+      "hypotheses": [
+        "Claim may be false based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [
+        "Abel prediction for META: -0.0017"
+      ],
+      "question_preview": "Scam involving fake Home Depot coupons on Facebook."
+    },
+    {
+      "eval_id": "Q0839",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "neutral",
+      "base_answer": "neutral",
+      "skill_answer": "neutral",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [
+          "TSLA"
+        ],
+        "macro_concepts": []
+      },
+      "abel_signals": [
+        {
+          "ticker": "TSLA",
+          "signal": {
+            "prediction": 0.0105,
+            "drivers": [
+              "SFIUSD.price",
+              "IMOUSD.price"
+            ],
+            "blanket_size": 2,
+            "parents": [
+              "IMOUSD.price",
+              "SFIUSD.price"
+            ],
+            "children": [],
+            "spouses": [],
+            "parent_names": [
+              [
+                "IMOUSD.price",
+                "IMO price"
+              ],
+              [
+                "SFIUSD.price",
+                "saffron.finance price"
+              ]
+            ]
+          }
+        }
+      ],
+      "macro_signals": [],
+      "hypotheses": [
+        "Claim may be neutral based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [
+        "Abel prediction for TSLA: 0.0105"
+      ],
+      "question_preview": "Did Nancy Pelosi Invest Up to $1M in Tesla?"
+    },
+    {
+      "eval_id": "Q0840",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "true",
+      "base_answer": "true",
+      "skill_answer": "true",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "unemployment"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "unemployment"
+        }
+      ],
+      "hypotheses": [
+        "Claim may be true based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [],
+      "question_preview": "Of all the 62 counties in New York state, all of them, unemployment is going up except for the five counties of New York City."
+    },
+    {
+      "eval_id": "Q0841",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "false",
+      "base_answer": "false",
+      "skill_answer": "false",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [
+          "META"
+        ],
+        "macro_concepts": []
+      },
+      "abel_signals": [
+        {
+          "ticker": "META",
+          "signal": {
+            "prediction": -0.0017,
+            "drivers": [
+              "PSFE.price",
+              "HGTY.price",
+              "IOBT.price",
+              "TGLS.price",
+              "EVAX.price",
+              "OP.price",
+              "HEPS.price",
+              "FIGS.price",
+              "MITQ.price",
+              "UNCY.price"
+            ],
+            "blanket_size": 20,
+            "parents": [
+              "BFRI.price",
+              "CGLDUSD.price",
+              "DTST.price",
+              "ESBA.price",
+              "EWTX.price",
+              "FCUV.price",
+              "FIGS.price",
+              "HGTY.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "children": [
+              "BFRI.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "spouses": [
+              "ESBA.price",
+              "INNV.price"
+            ],
+            "parent_names": [
+              [
+                "EVAX.price",
+                "Evaxion Biotech A/S stock price"
+              ],
+              [
+                "FIGS.price",
+                "FIGS, Inc. stock price"
+              ],
+              [
+                "HEPS.price",
+                "D-Market Elektronik Hizmetler ve Ticaret A.S. stock price"
+              ],
+              [
+                "HGTY.price",
+                "Hagerty, Inc. stock price"
+              ],
+              [
+                "IOBT.price",
+                "IO Biotech, Inc. stock price"
+              ],
+              [
+                "MITQ.price",
+                "Moving iMage Technologies, Inc. stock price"
+              ],
+              [
+                "OP.price",
+                "OceanPal Inc. stock price"
+              ],
+              [
+                "PSFE.price",
+                "Paysafe Limited stock price"
+              ],
+              [
+                "TGLS.price",
+                "Tecnoglass Inc. stock price"
+              ],
+              [
+                "UNCY.price",
+                "Unicycive Therapeutics, Inc. stock price"
+              ]
+            ]
+          }
+        }
+      ],
+      "macro_signals": [],
+      "hypotheses": [
+        "Claim may be false based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [
+        "Abel prediction for META: -0.0017"
+      ],
+      "question_preview": "Cancer Baby Facebook Hoax"
+    },
+    {
+      "eval_id": "Q0842",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "true",
+      "base_answer": "true",
+      "skill_answer": "true",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [
+          "AMZN"
+        ],
+        "macro_concepts": []
+      },
+      "abel_signals": [
+        {
+          "ticker": "AMZN",
+          "signal": {
+            "prediction": 0.0011,
+            "drivers": [
+              "BTTUSD.price",
+              "REVB.price",
+              "OPAL.price",
+              "LAYERUSD.price",
+              "FIEE.price",
+              "LSDUSD.price",
+              "GRNT.price",
+              "MBPUSD.price"
+            ],
+            "blanket_size": 20,
+            "parents": [
+              "BTTUSD.price",
+              "FIEE.price",
+              "GRNT.price",
+              "LAYERUSD.price"
+            ],
+            "children": [
+              "ENVX.price",
+              "ISPO.price"
+            ],
+            "spouses": [
+              "AIZN.price",
+              "AMPL.price",
+              "DHIL.price",
+              "EFLUSD.price",
+              "ENVX.price"
+            ],
+            "parent_names": [
+              [
+                "BTTUSD.price",
+                "BitTorrent(New) price"
+              ],
+              [
+                "FIEE.price",
+                "FiEE, Inc. stock price"
+              ],
+              [
+                "GRNT.price",
+                "Granite Ridge Resources, Inc stock price"
+              ],
+              [
+                "LAYERUSD.price",
+                "UniLayer price"
+              ],
+              [
+                "LSDUSD.price",
+                "Liquid Staking Derivatives price"
+              ],
+              [
+                "MBPUSD.price",
+                "Mobipad price"
+              ],
+              [
+                "OPAL.price",
+                "OPAL Fuels Inc. stock price"
+              ],
+              [
+                "REVB.price",
+                "Revelation Biosciences, Inc. stock price"
+              ]
+            ]
+          }
+        }
+      ],
+      "macro_signals": [],
+      "hypotheses": [
+        "Claim may be true based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [
+        "Abel prediction for AMZN: 0.0011"
+      ],
+      "question_preview": "Did Amazon Pay No Federal Income Taxes in 2017?"
+    },
+    {
+      "eval_id": "Q0843",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "false",
+      "base_answer": "false",
+      "skill_answer": "false",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [
+          "META"
+        ],
+        "macro_concepts": []
+      },
+      "abel_signals": [
+        {
+          "ticker": "META",
+          "signal": {
+            "prediction": -0.0017,
+            "drivers": [
+              "PSFE.price",
+              "HGTY.price",
+              "IOBT.price",
+              "TGLS.price",
+              "EVAX.price",
+              "OP.price",
+              "HEPS.price",
+              "FIGS.price",
+              "MITQ.price",
+              "UNCY.price"
+            ],
+            "blanket_size": 20,
+            "parents": [
+              "BFRI.price",
+              "CGLDUSD.price",
+              "DTST.price",
+              "ESBA.price",
+              "EWTX.price",
+              "FCUV.price",
+              "FIGS.price",
+              "HGTY.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "children": [
+              "BFRI.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "spouses": [
+              "ESBA.price",
+              "INNV.price"
+            ],
+            "parent_names": [
+              [
+                "EVAX.price",
+                "Evaxion Biotech A/S stock price"
+              ],
+              [
+                "FIGS.price",
+                "FIGS, Inc. stock price"
+              ],
+              [
+                "HEPS.price",
+                "D-Market Elektronik Hizmetler ve Ticaret A.S. stock price"
+              ],
+              [
+                "HGTY.price",
+                "Hagerty, Inc. stock price"
+              ],
+              [
+                "IOBT.price",
+                "IO Biotech, Inc. stock price"
+              ],
+              [
+                "MITQ.price",
+                "Moving iMage Technologies, Inc. stock price"
+              ],
+              [
+                "OP.price",
+                "OceanPal Inc. stock price"
+              ],
+              [
+                "PSFE.price",
+                "Paysafe Limited stock price"
+              ],
+              [
+                "TGLS.price",
+                "Tecnoglass Inc. stock price"
+              ],
+              [
+                "UNCY.price",
+                "Unicycive Therapeutics, Inc. stock price"
+              ]
+            ]
+          }
+        }
+      ],
+      "macro_signals": [],
+      "hypotheses": [
+        "Claim may be false based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [
+        "Abel prediction for META: -0.0017"
+      ],
+      "question_preview": "https://www.snopes.com/fact-check/powerball-lottery-scam-facebook/ Power Bull Dan Evon 10/20/2015 Claim: The Powerball and Mega Million lottery games are giving away $1 million topeople who share a me"
+    },
+    {
+      "eval_id": "Q0844",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "true",
+      "base_answer": "true",
+      "skill_answer": "true",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "unemployment"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "unemployment"
+        }
+      ],
+      "hypotheses": [
+        "Claim may be true based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [],
+      "question_preview": "Says Austin is the safest big city in Texas with an unemployment rate under 3% that has been named the best place to live in the entire United States two years running."
+    },
+    {
+      "eval_id": "Q0845",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "false",
+      "base_answer": "false",
+      "skill_answer": "false",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [
+          "META"
+        ],
+        "macro_concepts": []
+      },
+      "abel_signals": [
+        {
+          "ticker": "META",
+          "signal": {
+            "prediction": -0.0017,
+            "drivers": [
+              "PSFE.price",
+              "HGTY.price",
+              "IOBT.price",
+              "TGLS.price",
+              "EVAX.price",
+              "OP.price",
+              "HEPS.price",
+              "FIGS.price",
+              "MITQ.price",
+              "UNCY.price"
+            ],
+            "blanket_size": 20,
+            "parents": [
+              "BFRI.price",
+              "CGLDUSD.price",
+              "DTST.price",
+              "ESBA.price",
+              "EWTX.price",
+              "FCUV.price",
+              "FIGS.price",
+              "HGTY.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "children": [
+              "BFRI.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "spouses": [
+              "ESBA.price",
+              "INNV.price"
+            ],
+            "parent_names": [
+              [
+                "EVAX.price",
+                "Evaxion Biotech A/S stock price"
+              ],
+              [
+                "FIGS.price",
+                "FIGS, Inc. stock price"
+              ],
+              [
+                "HEPS.price",
+                "D-Market Elektronik Hizmetler ve Ticaret A.S. stock price"
+              ],
+              [
+                "HGTY.price",
+                "Hagerty, Inc. stock price"
+              ],
+              [
+                "IOBT.price",
+                "IO Biotech, Inc. stock price"
+              ],
+              [
+                "MITQ.price",
+                "Moving iMage Technologies, Inc. stock price"
+              ],
+              [
+                "OP.price",
+                "OceanPal Inc. stock price"
+              ],
+              [
+                "PSFE.price",
+                "Paysafe Limited stock price"
+              ],
+              [
+                "TGLS.price",
+                "Tecnoglass Inc. stock price"
+              ],
+              [
+                "UNCY.price",
+                "Unicycive Therapeutics, Inc. stock price"
+              ]
+            ]
+          }
+        }
+      ],
+      "macro_signals": [],
+      "hypotheses": [
+        "Claim may be false based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [
+        "Abel prediction for META: -0.0017"
+      ],
+      "question_preview": "Don't Donate to Ukraine Through This Facebook Crypto Scam"
+    },
+    {
+      "eval_id": "Q0846",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "true",
+      "base_answer": "true",
+      "skill_answer": "true",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "interest rate"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "interest rate"
+        }
+      ],
+      "hypotheses": [
+        "Claim may be true based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [],
+      "question_preview": "In the United States, a college loan stands out as the only type of loan that is not eligible for refinancing when interest rates decrease."
+    },
+    {
+      "eval_id": "Q0847",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "false",
+      "base_answer": "false",
+      "skill_answer": "false",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [
+          "DIS"
+        ],
+        "macro_concepts": []
+      },
+      "abel_signals": [
+        {
+          "ticker": "DIS",
+          "signal": {
+            "prediction": 0.0008,
+            "drivers": [
+              "ABBCUSD.price",
+              "PRIMEUSD.price",
+              "CIM-PD.price",
+              "TOONUSD.price",
+              "ATH-PA.price",
+              "MOOVUSD.price",
+              "OXLCP.price",
+              "NLY-PG.price",
+              "AGNCO.price",
+              "VLYPP.price"
+            ],
+            "blanket_size": 20,
+            "parents": [
+              "ABBCUSD.price",
+              "AGNCO.price",
+              "ATH-PA.price",
+              "BTTUSD.price",
+              "CIM-PD.price",
+              "DOGAUSD.price",
+              "ECCX.price",
+              "MBPUSD.price"
+            ],
+            "children": [
+              "AIV.price",
+              "EJSUSD.price",
+              "MBPUSD.price"
+            ],
+            "spouses": [
+              "EJSUSD.price"
+            ],
+            "parent_names": [
+              [
+                "ABBCUSD.price",
+                "ABBC Coin price"
+              ],
+              [
+                "AGNCO.price",
+                "AGNC Investment Corp. stock price"
+              ],
+              [
+                "ATH-PA.price",
+                "Athene Holding Ltd. stock price"
+              ],
+              [
+                "CIM-PD.price",
+                "Chimera Investment Corporation stock price"
+              ],
+              [
+                "MOOVUSD.price",
+                "Dotmoovs price"
+              ],
+              [
+                "NLY-PG.price",
+                "Annaly Capital Management, Inc. stock price"
+              ],
+              [
+                "OXLCP.price",
+                "Oxford Lane Capital Corp. stock price"
+              ],
+              [
+                "PRIMEUSD.price",
+                "Echelon Prime price"
+              ],
+              [
+                "TOONUSD.price",
+                "Pontoon price"
+              ],
+              [
+                "VLYPP.price",
+                "Valley National Bancorp stock price"
+              ]
+            ]
+          }
+        }
+      ],
+      "macro_signals": [],
+      "hypotheses": [
+        "Claim may be false based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [
+        "Abel prediction for DIS: 0.0008"
+      ],
+      "question_preview": "Did Disney Deny Tim Allen 'Lightyear' Role Due to His Political Beliefs?"
+    },
+    {
+      "eval_id": "Q0848",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "true",
+      "base_answer": "true",
+      "skill_answer": "true",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [
+          "GOOG"
+        ],
+        "macro_concepts": []
+      },
+      "abel_signals": [
+        {
+          "ticker": "GOOG",
+          "signal": {
+            "prediction": 0.0001,
+            "drivers": [
+              "PAXGUSD.price",
+              "FCTRUSD.price",
+              "RENBTCUSD.price",
+              "PAXUSD.price",
+              "BTTUSD.price",
+              "DHNUSD.price",
+              "BOGUSD.price",
+              "CALIUSD.price",
+              "LEADUSD.price",
+              "XIDRUSD.price"
+            ],
+            "blanket_size": 20,
+            "parents": [
+              "BOGUSD.price",
+              "BTTUSD.price",
+              "CALIUSD.price",
+              "DHNUSD.price",
+              "FCTRUSD.price",
+              "LEADUSD.price",
+              "PAXGUSD.price"
+            ],
+            "children": [],
+            "spouses": [
+              "BUMPUSD.price",
+              "GP.price",
+              "MONAUSD.price"
+            ],
+            "parent_names": [
+              [
+                "BOGUSD.price",
+                "Bogged price"
+              ],
+              [
+                "BTTUSD.price",
+                "BitTorrent(New) price"
+              ],
+              [
+                "CALIUSD.price",
+                "CaliCoin price"
+              ],
+              [
+                "DHNUSD.price",
+                "Dohrnii price"
+              ],
+              [
+                "FCTRUSD.price",
+                "Factor Dao price"
+              ],
+              [
+                "LEADUSD.price",
+                "Lead Wallet price"
+              ],
+              [
+                "PAXGUSD.price",
+                "PAX Gold price"
+              ],
+              [
+                "PAXUSD.price",
+                "Pax Dollar price"
+              ],
+              [
+                "RENBTCUSD.price",
+                "renBTC price"
+              ],
+              [
+                "XIDRUSD.price",
+                "XIDR price"
+              ]
+            ]
+          }
+        }
+      ],
+      "macro_signals": [],
+      "hypotheses": [
+        "Claim may be true based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [
+        "Abel prediction for GOOG: 0.0001"
+      ],
+      "question_preview": "Google PhoneBook"
+    },
+    {
+      "eval_id": "Q0849",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "neutral",
+      "base_answer": "neutral",
+      "skill_answer": "neutral",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [
+          "AMZN"
+        ],
+        "macro_concepts": []
+      },
+      "abel_signals": [
+        {
+          "ticker": "AMZN",
+          "signal": {
+            "prediction": 0.0011,
+            "drivers": [
+              "BTTUSD.price",
+              "REVB.price",
+              "OPAL.price",
+              "LAYERUSD.price",
+              "FIEE.price",
+              "LSDUSD.price",
+              "GRNT.price",
+              "MBPUSD.price"
+            ],
+            "blanket_size": 20,
+            "parents": [
+              "BTTUSD.price",
+              "FIEE.price",
+              "GRNT.price",
+              "LAYERUSD.price"
+            ],
+            "children": [
+              "ENVX.price",
+              "ISPO.price"
+            ],
+            "spouses": [
+              "AIZN.price",
+              "AMPL.price",
+              "DHIL.price",
+              "EFLUSD.price",
+              "ENVX.price"
+            ],
+            "parent_names": [
+              [
+                "BTTUSD.price",
+                "BitTorrent(New) price"
+              ],
+              [
+                "FIEE.price",
+                "FiEE, Inc. stock price"
+              ],
+              [
+                "GRNT.price",
+                "Granite Ridge Resources, Inc stock price"
+              ],
+              [
+                "LAYERUSD.price",
+                "UniLayer price"
+              ],
+              [
+                "LSDUSD.price",
+                "Liquid Staking Derivatives price"
+              ],
+              [
+                "MBPUSD.price",
+                "Mobipad price"
+              ],
+              [
+                "OPAL.price",
+                "OPAL Fuels Inc. stock price"
+              ],
+              [
+                "REVB.price",
+                "Revelation Biosciences, Inc. stock price"
+              ]
+            ]
+          }
+        }
+      ],
+      "macro_signals": [],
+      "hypotheses": [
+        "Claim may be neutral based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [
+        "Abel prediction for AMZN: 0.0011"
+      ],
+      "question_preview": "Amazon.com and Intifada.com"
+    },
+    {
+      "eval_id": "Q0850",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "true",
+      "base_answer": "true",
+      "skill_answer": "true",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "interest rate"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "interest rate"
+        }
+      ],
+      "hypotheses": [
+        "Claim may be true based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [],
+      "question_preview": "A college loan is the sole type of loan in the United States that cannot be refinanced when interest rates decrease."
+    },
+    {
+      "eval_id": "Q0851",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "true",
+      "base_answer": "true",
+      "skill_answer": "true",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "recession"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "recession"
+        }
+      ],
+      "hypotheses": [
+        "Claim may be true based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [],
+      "question_preview": "We've recovered (from the recession) faster and come farther than almost any other advanced country on Earth."
+    },
+    {
+      "eval_id": "Q0852",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "true",
+      "base_answer": "true",
+      "skill_answer": "true",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "unemployment"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "unemployment"
+        }
+      ],
+      "hypotheses": [
+        "Claim may be true based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [],
+      "question_preview": "The United States is the only major industrial economy to have its unemployment rate triple since the coronavirus pandemic began."
+    },
+    {
+      "eval_id": "Q0853",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "false",
+      "base_answer": "false",
+      "skill_answer": "false",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [
+          "AMZN"
+        ],
+        "macro_concepts": []
+      },
+      "abel_signals": [
+        {
+          "ticker": "AMZN",
+          "signal": {
+            "prediction": 0.0011,
+            "drivers": [
+              "BTTUSD.price",
+              "REVB.price",
+              "OPAL.price",
+              "LAYERUSD.price",
+              "FIEE.price",
+              "LSDUSD.price",
+              "GRNT.price",
+              "MBPUSD.price"
+            ],
+            "blanket_size": 20,
+            "parents": [
+              "BTTUSD.price",
+              "FIEE.price",
+              "GRNT.price",
+              "LAYERUSD.price"
+            ],
+            "children": [
+              "ENVX.price",
+              "ISPO.price"
+            ],
+            "spouses": [
+              "AIZN.price",
+              "AMPL.price",
+              "DHIL.price",
+              "EFLUSD.price",
+              "ENVX.price"
+            ],
+            "parent_names": [
+              [
+                "BTTUSD.price",
+                "BitTorrent(New) price"
+              ],
+              [
+                "FIEE.price",
+                "FiEE, Inc. stock price"
+              ],
+              [
+                "GRNT.price",
+                "Granite Ridge Resources, Inc stock price"
+              ],
+              [
+                "LAYERUSD.price",
+                "UniLayer price"
+              ],
+              [
+                "LSDUSD.price",
+                "Liquid Staking Derivatives price"
+              ],
+              [
+                "MBPUSD.price",
+                "Mobipad price"
+              ],
+              [
+                "OPAL.price",
+                "OPAL Fuels Inc. stock price"
+              ],
+              [
+                "REVB.price",
+                "Revelation Biosciences, Inc. stock price"
+              ]
+            ]
+          }
+        }
+      ],
+      "macro_signals": [],
+      "hypotheses": [
+        "Claim may be false based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [
+        "Abel prediction for AMZN: 0.0011"
+      ],
+      "question_preview": "Is Amazon Giving Away Free AirPods in a Raffle?"
+    },
+    {
+      "eval_id": "Q0854",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "neutral",
+      "base_answer": "neutral",
+      "skill_answer": "neutral",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "mortgage"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "mortgage"
+        }
+      ],
+      "hypotheses": [
+        "Claim may be neutral based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [],
+      "question_preview": "Fannie Mae is loosening credit standards in order to assist in providing mortgage loans."
+    },
+    {
+      "eval_id": "Q0855",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "false",
+      "base_answer": "false",
+      "skill_answer": "false",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [
+          "INTC"
+        ],
+        "macro_concepts": []
+      },
+      "abel_signals": [
+        {
+          "ticker": "INTC",
+          "signal": {
+            "prediction": 0.0093,
+            "drivers": [
+              "UW3SUSD.price",
+              "UNWUSD.price",
+              "SFIUSD.price",
+              "ULXUSD.price",
+              "ISAUSD.price",
+              "STSOLUSD.price",
+              "CXT.price",
+              "SBDUSD.price",
+              "TRCLUSD.price",
+              "GUARDUSD.price"
+            ],
+            "blanket_size": 20,
+            "parents": [
+              "BSTYUSD.price",
+              "COREUSD.price",
+              "DUBBZUSD.price",
+              "HWCPZ.price",
+              "IDAI.price",
+              "IXSUSD.price",
+              "LSDUSD.price",
+              "MCRNUSD.price",
+              "MMFUSD.price",
+              "MOGUSD.price"
+            ],
+            "children": [
+              "COREUSD.price"
+            ],
+            "spouses": [
+              "COREUSD.price",
+              "IDAI.price"
+            ],
+            "parent_names": [
+              [
+                "CXT.price",
+                "Crane NXT, Co. stock price"
+              ],
+              [
+                "GUARDUSD.price",
+                "Guardian price"
+              ],
+              [
+                "ISAUSD.price",
+                "Islander price"
+              ],
+              [
+                "SBDUSD.price",
+                "Steem Dollars price"
+              ],
+              [
+                "SFIUSD.price",
+                "saffron.finance price"
+              ],
+              [
+                "STSOLUSD.price",
+                "Lido Staked SOL price"
+              ],
+              [
+                "TRCLUSD.price",
+                "Treecle price"
+              ],
+              [
+                "ULXUSD.price",
+                "ULTRON price"
+              ],
+              [
+                "UNWUSD.price",
+                "UniWorld price"
+              ],
+              [
+                "UW3SUSD.price",
+                "Utility Web3Shot price"
+              ]
+            ]
+          }
+        }
+      ],
+      "macro_signals": [],
+      "hypotheses": [
+        "Claim may be false based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [
+        "Abel prediction for INTC: 0.0093"
+      ],
+      "question_preview": "Did Musk Say 'I Hate When People Confuse Education with Intelligence'?"
+    },
+    {
+      "eval_id": "Q0856",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "false",
+      "base_answer": "false",
+      "skill_answer": "false",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [
+          "DIS"
+        ],
+        "macro_concepts": []
+      },
+      "abel_signals": [
+        {
+          "ticker": "DIS",
+          "signal": {
+            "prediction": 0.0008,
+            "drivers": [
+              "ABBCUSD.price",
+              "PRIMEUSD.price",
+              "CIM-PD.price",
+              "TOONUSD.price",
+              "ATH-PA.price",
+              "MOOVUSD.price",
+              "OXLCP.price",
+              "NLY-PG.price",
+              "AGNCO.price",
+              "VLYPP.price"
+            ],
+            "blanket_size": 20,
+            "parents": [
+              "ABBCUSD.price",
+              "AGNCO.price",
+              "ATH-PA.price",
+              "BTTUSD.price",
+              "CIM-PD.price",
+              "DOGAUSD.price",
+              "ECCX.price",
+              "MBPUSD.price"
+            ],
+            "children": [
+              "AIV.price",
+              "EJSUSD.price",
+              "MBPUSD.price"
+            ],
+            "spouses": [
+              "EJSUSD.price"
+            ],
+            "parent_names": [
+              [
+                "ABBCUSD.price",
+                "ABBC Coin price"
+              ],
+              [
+                "AGNCO.price",
+                "AGNC Investment Corp. stock price"
+              ],
+              [
+                "ATH-PA.price",
+                "Athene Holding Ltd. stock price"
+              ],
+              [
+                "CIM-PD.price",
+                "Chimera Investment Corporation stock price"
+              ],
+              [
+                "MOOVUSD.price",
+                "Dotmoovs price"
+              ],
+              [
+                "NLY-PG.price",
+                "Annaly Capital Management, Inc. stock price"
+              ],
+              [
+                "OXLCP.price",
+                "Oxford Lane Capital Corp. stock price"
+              ],
+              [
+                "PRIMEUSD.price",
+                "Echelon Prime price"
+              ],
+              [
+                "TOONUSD.price",
+                "Pontoon price"
+              ],
+              [
+                "VLYPP.price",
+                "Valley National Bancorp stock price"
+              ]
+            ]
+          }
+        }
+      ],
+      "macro_signals": [],
+      "hypotheses": [
+        "Claim may be false based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [
+        "Abel prediction for DIS: 0.0008"
+      ],
+      "question_preview": "Is a Ukraine Pavilion Coming to EPCOT at Disney World?"
+    },
+    {
+      "eval_id": "Q0857",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "true",
+      "base_answer": "true",
+      "skill_answer": "true",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "unemployment"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "unemployment"
+        }
+      ],
+      "hypotheses": [
+        "Claim may be true based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [],
+      "question_preview": "Kanye (West) looks and he sees black unemployment at the lowest its been in the history of our country. He sees Hispanic unemployment at the lowest its been in the history of our country. He sees (wom"
+    },
+    {
+      "eval_id": "Q0858",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "true",
+      "base_answer": "true",
+      "skill_answer": "true",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "unemployment"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "unemployment"
+        }
+      ],
+      "hypotheses": [
+        "Claim may be true based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [],
+      "question_preview": "About 230,000 people that were on unemployment when I took office are not on unemployment now."
+    },
+    {
+      "eval_id": "Q0859",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "false",
+      "base_answer": "false",
+      "skill_answer": "false",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [
+          "META"
+        ],
+        "macro_concepts": []
+      },
+      "abel_signals": [
+        {
+          "ticker": "META",
+          "signal": {
+            "prediction": -0.0017,
+            "drivers": [
+              "PSFE.price",
+              "HGTY.price",
+              "IOBT.price",
+              "TGLS.price",
+              "EVAX.price",
+              "OP.price",
+              "HEPS.price",
+              "FIGS.price",
+              "MITQ.price",
+              "UNCY.price"
+            ],
+            "blanket_size": 20,
+            "parents": [
+              "BFRI.price",
+              "CGLDUSD.price",
+              "DTST.price",
+              "ESBA.price",
+              "EWTX.price",
+              "FCUV.price",
+              "FIGS.price",
+              "HGTY.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "children": [
+              "BFRI.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "spouses": [
+              "ESBA.price",
+              "INNV.price"
+            ],
+            "parent_names": [
+              [
+                "EVAX.price",
+                "Evaxion Biotech A/S stock price"
+              ],
+              [
+                "FIGS.price",
+                "FIGS, Inc. stock price"
+              ],
+              [
+                "HEPS.price",
+                "D-Market Elektronik Hizmetler ve Ticaret A.S. stock price"
+              ],
+              [
+                "HGTY.price",
+                "Hagerty, Inc. stock price"
+              ],
+              [
+                "IOBT.price",
+                "IO Biotech, Inc. stock price"
+              ],
+              [
+                "MITQ.price",
+                "Moving iMage Technologies, Inc. stock price"
+              ],
+              [
+                "OP.price",
+                "OceanPal Inc. stock price"
+              ],
+              [
+                "PSFE.price",
+                "Paysafe Limited stock price"
+              ],
+              [
+                "TGLS.price",
+                "Tecnoglass Inc. stock price"
+              ],
+              [
+                "UNCY.price",
+                "Unicycive Therapeutics, Inc. stock price"
+              ]
+            ]
+          }
+        }
+      ],
+      "macro_signals": [],
+      "hypotheses": [
+        "Claim may be false based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [
+        "Abel prediction for META: -0.0017"
+      ],
+      "question_preview": "Mark Zuckerberg Promises $1,000 to Facebook Users If They Don't Share Hoaxes"
+    },
+    {
+      "eval_id": "Q0860",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "false",
+      "base_answer": "false",
+      "skill_answer": "false",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [
+          "META"
+        ],
+        "macro_concepts": []
+      },
+      "abel_signals": [
+        {
+          "ticker": "META",
+          "signal": {
+            "prediction": -0.0017,
+            "drivers": [
+              "PSFE.price",
+              "HGTY.price",
+              "IOBT.price",
+              "TGLS.price",
+              "EVAX.price",
+              "OP.price",
+              "HEPS.price",
+              "FIGS.price",
+              "MITQ.price",
+              "UNCY.price"
+            ],
+            "blanket_size": 20,
+            "parents": [
+              "BFRI.price",
+              "CGLDUSD.price",
+              "DTST.price",
+              "ESBA.price",
+              "EWTX.price",
+              "FCUV.price",
+              "FIGS.price",
+              "HGTY.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "children": [
+              "BFRI.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "spouses": [
+              "ESBA.price",
+              "INNV.price"
+            ],
+            "parent_names": [
+              [
+                "EVAX.price",
+                "Evaxion Biotech A/S stock price"
+              ],
+              [
+                "FIGS.price",
+                "FIGS, Inc. stock price"
+              ],
+              [
+                "HEPS.price",
+                "D-Market Elektronik Hizmetler ve Ticaret A.S. stock price"
+              ],
+              [
+                "HGTY.price",
+                "Hagerty, Inc. stock price"
+              ],
+              [
+                "IOBT.price",
+                "IO Biotech, Inc. stock price"
+              ],
+              [
+                "MITQ.price",
+                "Moving iMage Technologies, Inc. stock price"
+              ],
+              [
+                "OP.price",
+                "OceanPal Inc. stock price"
+              ],
+              [
+                "PSFE.price",
+                "Paysafe Limited stock price"
+              ],
+              [
+                "TGLS.price",
+                "Tecnoglass Inc. stock price"
+              ],
+              [
+                "UNCY.price",
+                "Unicycive Therapeutics, Inc. stock price"
+              ]
+            ]
+          }
+        }
+      ],
+      "macro_signals": [],
+      "hypotheses": [
+        "Claim may be false based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [
+        "Abel prediction for META: -0.0017"
+      ],
+      "question_preview": "Did Facebook Executive Jeff Rothschild Say 'We Need a Third World War'?"
+    },
+    {
+      "eval_id": "Q0861",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "false",
+      "base_answer": "false",
+      "skill_answer": "false",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [
+          "META"
+        ],
+        "macro_concepts": []
+      },
+      "abel_signals": [
+        {
+          "ticker": "META",
+          "signal": {
+            "prediction": -0.0017,
+            "drivers": [
+              "PSFE.price",
+              "HGTY.price",
+              "IOBT.price",
+              "TGLS.price",
+              "EVAX.price",
+              "OP.price",
+              "HEPS.price",
+              "FIGS.price",
+              "MITQ.price",
+              "UNCY.price"
+            ],
+            "blanket_size": 20,
+            "parents": [
+              "BFRI.price",
+              "CGLDUSD.price",
+              "DTST.price",
+              "ESBA.price",
+              "EWTX.price",
+              "FCUV.price",
+              "FIGS.price",
+              "HGTY.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "children": [
+              "BFRI.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "spouses": [
+              "ESBA.price",
+              "INNV.price"
+            ],
+            "parent_names": [
+              [
+                "EVAX.price",
+                "Evaxion Biotech A/S stock price"
+              ],
+              [
+                "FIGS.price",
+                "FIGS, Inc. stock price"
+              ],
+              [
+                "HEPS.price",
+                "D-Market Elektronik Hizmetler ve Ticaret A.S. stock price"
+              ],
+              [
+                "HGTY.price",
+                "Hagerty, Inc. stock price"
+              ],
+              [
+                "IOBT.price",
+                "IO Biotech, Inc. stock price"
+              ],
+              [
+                "MITQ.price",
+                "Moving iMage Technologies, Inc. stock price"
+              ],
+              [
+                "OP.price",
+                "OceanPal Inc. stock price"
+              ],
+              [
+                "PSFE.price",
+                "Paysafe Limited stock price"
+              ],
+              [
+                "TGLS.price",
+                "Tecnoglass Inc. stock price"
+              ],
+              [
+                "UNCY.price",
+                "Unicycive Therapeutics, Inc. stock price"
+              ]
+            ]
+          }
+        }
+      ],
+      "macro_signals": [],
+      "hypotheses": [
+        "Claim may be false based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [
+        "Abel prediction for META: -0.0017"
+      ],
+      "question_preview": "Facebook Car Giveaway \u2013 A car is being given away on Facebook."
+    },
+    {
+      "eval_id": "Q0862",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "true",
+      "base_answer": "true",
+      "skill_answer": "true",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "gdp"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "gdp"
+        }
+      ],
+      "hypotheses": [
+        "Claim may be true based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [],
+      "question_preview": "California is once again the sixth-largest economy in the world. If you add the GDPs of Washington and Oregon, California would surpass the United Kingdom to become the fifth-largest economy in the wo"
+    },
+    {
+      "eval_id": "Q0863",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "false",
+      "base_answer": "false",
+      "skill_answer": "false",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [
+          "META"
+        ],
+        "macro_concepts": []
+      },
+      "abel_signals": [
+        {
+          "ticker": "META",
+          "signal": {
+            "prediction": -0.0017,
+            "drivers": [
+              "PSFE.price",
+              "HGTY.price",
+              "IOBT.price",
+              "TGLS.price",
+              "EVAX.price",
+              "OP.price",
+              "HEPS.price",
+              "FIGS.price",
+              "MITQ.price",
+              "UNCY.price"
+            ],
+            "blanket_size": 20,
+            "parents": [
+              "BFRI.price",
+              "CGLDUSD.price",
+              "DTST.price",
+              "ESBA.price",
+              "EWTX.price",
+              "FCUV.price",
+              "FIGS.price",
+              "HGTY.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "children": [
+              "BFRI.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "spouses": [
+              "ESBA.price",
+              "INNV.price"
+            ],
+            "parent_names": [
+              [
+                "EVAX.price",
+                "Evaxion Biotech A/S stock price"
+              ],
+              [
+                "FIGS.price",
+                "FIGS, Inc. stock price"
+              ],
+              [
+                "HEPS.price",
+                "D-Market Elektronik Hizmetler ve Ticaret A.S. stock price"
+              ],
+              [
+                "HGTY.price",
+                "Hagerty, Inc. stock price"
+              ],
+              [
+                "IOBT.price",
+                "IO Biotech, Inc. stock price"
+              ],
+              [
+                "MITQ.price",
+                "Moving iMage Technologies, Inc. stock price"
+              ],
+              [
+                "OP.price",
+                "OceanPal Inc. stock price"
+              ],
+              [
+                "PSFE.price",
+                "Paysafe Limited stock price"
+              ],
+              [
+                "TGLS.price",
+                "Tecnoglass Inc. stock price"
+              ],
+              [
+                "UNCY.price",
+                "Unicycive Therapeutics, Inc. stock price"
+              ]
+            ]
+          }
+        }
+      ],
+      "macro_signals": [],
+      "hypotheses": [
+        "Claim may be false based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [
+        "Abel prediction for META: -0.0017"
+      ],
+      "question_preview": "ALDI Coupons Facebook Scam"
+    },
+    {
+      "eval_id": "Q0864",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "false",
+      "base_answer": "false",
+      "skill_answer": "false",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [
+          "META"
+        ],
+        "macro_concepts": []
+      },
+      "abel_signals": [
+        {
+          "ticker": "META",
+          "signal": {
+            "prediction": -0.0017,
+            "drivers": [
+              "PSFE.price",
+              "HGTY.price",
+              "IOBT.price",
+              "TGLS.price",
+              "EVAX.price",
+              "OP.price",
+              "HEPS.price",
+              "FIGS.price",
+              "MITQ.price",
+              "UNCY.price"
+            ],
+            "blanket_size": 20,
+            "parents": [
+              "BFRI.price",
+              "CGLDUSD.price",
+              "DTST.price",
+              "ESBA.price",
+              "EWTX.price",
+              "FCUV.price",
+              "FIGS.price",
+              "HGTY.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "children": [
+              "BFRI.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "spouses": [
+              "ESBA.price",
+              "INNV.price"
+            ],
+            "parent_names": [
+              [
+                "EVAX.price",
+                "Evaxion Biotech A/S stock price"
+              ],
+              [
+                "FIGS.price",
+                "FIGS, Inc. stock price"
+              ],
+              [
+                "HEPS.price",
+                "D-Market Elektronik Hizmetler ve Ticaret A.S. stock price"
+              ],
+              [
+                "HGTY.price",
+                "Hagerty, Inc. stock price"
+              ],
+              [
+                "IOBT.price",
+                "IO Biotech, Inc. stock price"
+              ],
+              [
+                "MITQ.price",
+                "Moving iMage Technologies, Inc. stock price"
+              ],
+              [
+                "OP.price",
+                "OceanPal Inc. stock price"
+              ],
+              [
+                "PSFE.price",
+                "Paysafe Limited stock price"
+              ],
+              [
+                "TGLS.price",
+                "Tecnoglass Inc. stock price"
+              ],
+              [
+                "UNCY.price",
+                "Unicycive Therapeutics, Inc. stock price"
+              ]
+            ]
+          }
+        }
+      ],
+      "macro_signals": [],
+      "hypotheses": [
+        "Claim may be false based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [
+        "Abel prediction for META: -0.0017"
+      ],
+      "question_preview": "No, Walmart Is Not Offering a Free $50 'Anniversary' Coupon on Facebook"
+    },
+    {
+      "eval_id": "Q0865",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "neutral",
+      "base_answer": "neutral",
+      "skill_answer": "neutral",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [
+          "AMZN"
+        ],
+        "macro_concepts": []
+      },
+      "abel_signals": [
+        {
+          "ticker": "AMZN",
+          "signal": {
+            "prediction": 0.0011,
+            "drivers": [
+              "BTTUSD.price",
+              "REVB.price",
+              "OPAL.price",
+              "LAYERUSD.price",
+              "FIEE.price",
+              "LSDUSD.price",
+              "GRNT.price",
+              "MBPUSD.price"
+            ],
+            "blanket_size": 20,
+            "parents": [
+              "BTTUSD.price",
+              "FIEE.price",
+              "GRNT.price",
+              "LAYERUSD.price"
+            ],
+            "children": [
+              "ENVX.price",
+              "ISPO.price"
+            ],
+            "spouses": [
+              "AIZN.price",
+              "AMPL.price",
+              "DHIL.price",
+              "EFLUSD.price",
+              "ENVX.price"
+            ],
+            "parent_names": [
+              [
+                "BTTUSD.price",
+                "BitTorrent(New) price"
+              ],
+              [
+                "FIEE.price",
+                "FiEE, Inc. stock price"
+              ],
+              [
+                "GRNT.price",
+                "Granite Ridge Resources, Inc stock price"
+              ],
+              [
+                "LAYERUSD.price",
+                "UniLayer price"
+              ],
+              [
+                "LSDUSD.price",
+                "Liquid Staking Derivatives price"
+              ],
+              [
+                "MBPUSD.price",
+                "Mobipad price"
+              ],
+              [
+                "OPAL.price",
+                "OPAL Fuels Inc. stock price"
+              ],
+              [
+                "REVB.price",
+                "Revelation Biosciences, Inc. stock price"
+              ]
+            ]
+          }
+        }
+      ],
+      "macro_signals": [],
+      "hypotheses": [
+        "Claim may be neutral based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [
+        "Abel prediction for AMZN: 0.0011"
+      ],
+      "question_preview": "Are Amazon workers eligible for assistance with food expenses through government programs?"
+    },
+    {
+      "eval_id": "Q0866",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "true",
+      "base_answer": "true",
+      "skill_answer": "true",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "unemployment"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "unemployment"
+        }
+      ],
+      "hypotheses": [
+        "Claim may be true based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [],
+      "question_preview": "The Latino unemployment rate is higher than the white rate and the black rate is higher than the Latino rate."
+    },
+    {
+      "eval_id": "Q0867",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "true",
+      "base_answer": "true",
+      "skill_answer": "true",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "gdp"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "gdp"
+        }
+      ],
+      "hypotheses": [
+        "Claim may be true based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [],
+      "question_preview": "My debt to GDP was the lowest or one of the lowest of modern presidents. My taxes to GDP was the lowest and my spending to GDP was too."
+    },
+    {
+      "eval_id": "Q0868",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "neutral",
+      "base_answer": "neutral",
+      "skill_answer": "neutral",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [
+          "AMZN"
+        ],
+        "macro_concepts": []
+      },
+      "abel_signals": [
+        {
+          "ticker": "AMZN",
+          "signal": {
+            "prediction": 0.0011,
+            "drivers": [
+              "BTTUSD.price",
+              "REVB.price",
+              "OPAL.price",
+              "LAYERUSD.price",
+              "FIEE.price",
+              "LSDUSD.price",
+              "GRNT.price",
+              "MBPUSD.price"
+            ],
+            "blanket_size": 20,
+            "parents": [
+              "BTTUSD.price",
+              "FIEE.price",
+              "GRNT.price",
+              "LAYERUSD.price"
+            ],
+            "children": [
+              "ENVX.price",
+              "ISPO.price"
+            ],
+            "spouses": [
+              "AIZN.price",
+              "AMPL.price",
+              "DHIL.price",
+              "EFLUSD.price",
+              "ENVX.price"
+            ],
+            "parent_names": [
+              [
+                "BTTUSD.price",
+                "BitTorrent(New) price"
+              ],
+              [
+                "FIEE.price",
+                "FiEE, Inc. stock price"
+              ],
+              [
+                "GRNT.price",
+                "Granite Ridge Resources, Inc stock price"
+              ],
+              [
+                "LAYERUSD.price",
+                "UniLayer price"
+              ],
+              [
+                "LSDUSD.price",
+                "Liquid Staking Derivatives price"
+              ],
+              [
+                "MBPUSD.price",
+                "Mobipad price"
+              ],
+              [
+                "OPAL.price",
+                "OPAL Fuels Inc. stock price"
+              ],
+              [
+                "REVB.price",
+                "Revelation Biosciences, Inc. stock price"
+              ]
+            ]
+          }
+        }
+      ],
+      "macro_signals": [],
+      "hypotheses": [
+        "Claim may be neutral based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [
+        "Abel prediction for AMZN: 0.0011"
+      ],
+      "question_preview": "Did Amazon's Alexa Order Unwanted Dollhouses for a Little Girl and TV Viewers?"
+    },
+    {
+      "eval_id": "Q0869",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "true",
+      "base_answer": "true",
+      "skill_answer": "true",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [
+          "GOOG"
+        ],
+        "macro_concepts": []
+      },
+      "abel_signals": [
+        {
+          "ticker": "GOOG",
+          "signal": {
+            "prediction": 0.0001,
+            "drivers": [
+              "PAXGUSD.price",
+              "FCTRUSD.price",
+              "RENBTCUSD.price",
+              "PAXUSD.price",
+              "BTTUSD.price",
+              "DHNUSD.price",
+              "BOGUSD.price",
+              "CALIUSD.price",
+              "LEADUSD.price",
+              "XIDRUSD.price"
+            ],
+            "blanket_size": 20,
+            "parents": [
+              "BOGUSD.price",
+              "BTTUSD.price",
+              "CALIUSD.price",
+              "DHNUSD.price",
+              "FCTRUSD.price",
+              "LEADUSD.price",
+              "PAXGUSD.price"
+            ],
+            "children": [],
+            "spouses": [
+              "BUMPUSD.price",
+              "GP.price",
+              "MONAUSD.price"
+            ],
+            "parent_names": [
+              [
+                "BOGUSD.price",
+                "Bogged price"
+              ],
+              [
+                "BTTUSD.price",
+                "BitTorrent(New) price"
+              ],
+              [
+                "CALIUSD.price",
+                "CaliCoin price"
+              ],
+              [
+                "DHNUSD.price",
+                "Dohrnii price"
+              ],
+              [
+                "FCTRUSD.price",
+                "Factor Dao price"
+              ],
+              [
+                "LEADUSD.price",
+                "Lead Wallet price"
+              ],
+              [
+                "PAXGUSD.price",
+                "PAX Gold price"
+              ],
+              [
+                "PAXUSD.price",
+                "Pax Dollar price"
+              ],
+              [
+                "RENBTCUSD.price",
+                "renBTC price"
+              ],
+              [
+                "XIDRUSD.price",
+                "XIDR price"
+              ]
+            ]
+          }
+        }
+      ],
+      "macro_signals": [],
+      "hypotheses": [
+        "Claim may be true based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [
+        "Abel prediction for GOOG: 0.0001"
+      ],
+      "question_preview": "Is This Email About a Google Plus Settlement Real?"
+    },
+    {
+      "eval_id": "Q0870",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "false",
+      "base_answer": "false",
+      "skill_answer": "false",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [
+          "META"
+        ],
+        "macro_concepts": []
+      },
+      "abel_signals": [
+        {
+          "ticker": "META",
+          "signal": {
+            "prediction": -0.0017,
+            "drivers": [
+              "PSFE.price",
+              "HGTY.price",
+              "IOBT.price",
+              "TGLS.price",
+              "EVAX.price",
+              "OP.price",
+              "HEPS.price",
+              "FIGS.price",
+              "MITQ.price",
+              "UNCY.price"
+            ],
+            "blanket_size": 20,
+            "parents": [
+              "BFRI.price",
+              "CGLDUSD.price",
+              "DTST.price",
+              "ESBA.price",
+              "EWTX.price",
+              "FCUV.price",
+              "FIGS.price",
+              "HGTY.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "children": [
+              "BFRI.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "spouses": [
+              "ESBA.price",
+              "INNV.price"
+            ],
+            "parent_names": [
+              [
+                "EVAX.price",
+                "Evaxion Biotech A/S stock price"
+              ],
+              [
+                "FIGS.price",
+                "FIGS, Inc. stock price"
+              ],
+              [
+                "HEPS.price",
+                "D-Market Elektronik Hizmetler ve Ticaret A.S. stock price"
+              ],
+              [
+                "HGTY.price",
+                "Hagerty, Inc. stock price"
+              ],
+              [
+                "IOBT.price",
+                "IO Biotech, Inc. stock price"
+              ],
+              [
+                "MITQ.price",
+                "Moving iMage Technologies, Inc. stock price"
+              ],
+              [
+                "OP.price",
+                "OceanPal Inc. stock price"
+              ],
+              [
+                "PSFE.price",
+                "Paysafe Limited stock price"
+              ],
+              [
+                "TGLS.price",
+                "Tecnoglass Inc. stock price"
+              ],
+              [
+                "UNCY.price",
+                "Unicycive Therapeutics, Inc. stock price"
+              ]
+            ]
+          }
+        }
+      ],
+      "macro_signals": [],
+      "hypotheses": [
+        "Claim may be false based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [
+        "Abel prediction for META: -0.0017"
+      ],
+      "question_preview": "The 'OO5251839' Post Doesn't 'Circumvent' Facebook Algorithm"
+    },
+    {
+      "eval_id": "Q0871",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "true",
+      "base_answer": "true",
+      "skill_answer": "true",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "unemployment"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "unemployment"
+        }
+      ],
+      "hypotheses": [
+        "Claim may be true based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [],
+      "question_preview": "Austin is recognized as the safest major city in Texas, boasting an unemployment rate of less than 3% and winning the title of the top place to reside in the entire United States for two consecutive y"
+    },
+    {
+      "eval_id": "Q0872",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "true",
+      "base_answer": "true",
+      "skill_answer": "true",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [
+          "META"
+        ],
+        "macro_concepts": []
+      },
+      "abel_signals": [
+        {
+          "ticker": "META",
+          "signal": {
+            "prediction": -0.0017,
+            "drivers": [
+              "PSFE.price",
+              "HGTY.price",
+              "IOBT.price",
+              "TGLS.price",
+              "EVAX.price",
+              "OP.price",
+              "HEPS.price",
+              "FIGS.price",
+              "MITQ.price",
+              "UNCY.price"
+            ],
+            "blanket_size": 20,
+            "parents": [
+              "BFRI.price",
+              "CGLDUSD.price",
+              "DTST.price",
+              "ESBA.price",
+              "EWTX.price",
+              "FCUV.price",
+              "FIGS.price",
+              "HGTY.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "children": [
+              "BFRI.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "spouses": [
+              "ESBA.price",
+              "INNV.price"
+            ],
+            "parent_names": [
+              [
+                "EVAX.price",
+                "Evaxion Biotech A/S stock price"
+              ],
+              [
+                "FIGS.price",
+                "FIGS, Inc. stock price"
+              ],
+              [
+                "HEPS.price",
+                "D-Market Elektronik Hizmetler ve Ticaret A.S. stock price"
+              ],
+              [
+                "HGTY.price",
+                "Hagerty, Inc. stock price"
+              ],
+              [
+                "IOBT.price",
+                "IO Biotech, Inc. stock price"
+              ],
+              [
+                "MITQ.price",
+                "Moving iMage Technologies, Inc. stock price"
+              ],
+              [
+                "OP.price",
+                "OceanPal Inc. stock price"
+              ],
+              [
+                "PSFE.price",
+                "Paysafe Limited stock price"
+              ],
+              [
+                "TGLS.price",
+                "Tecnoglass Inc. stock price"
+              ],
+              [
+                "UNCY.price",
+                "Unicycive Therapeutics, Inc. stock price"
+              ]
+            ]
+          }
+        }
+      ],
+      "macro_signals": [],
+      "hypotheses": [
+        "Claim may be true based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [
+        "Abel prediction for META: -0.0017"
+      ],
+      "question_preview": "Facebook Appeal for Lylah Rose"
+    },
+    {
+      "eval_id": "Q0873",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "true",
+      "base_answer": "true",
+      "skill_answer": "true",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "mortgage"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "mortgage"
+        }
+      ],
+      "hypotheses": [
+        "Claim may be true based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [],
+      "question_preview": "Senators who have accepted millions in campaign contributions from the financial industry voted against allowing bankruptcy judges to modify home mortgages."
+    },
+    {
+      "eval_id": "Q0874",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "false",
+      "base_answer": "false",
+      "skill_answer": "false",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "unemployment"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "unemployment"
+        }
+      ],
+      "hypotheses": [
+        "Claim may be false based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [],
+      "question_preview": "The Texas unemployment rate is now the lowest its been in 40 years & Texas led the nation last month in new job creation."
+    },
+    {
+      "eval_id": "Q0875",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "neutral",
+      "base_answer": "neutral",
+      "skill_answer": "neutral",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "inflation"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "inflation"
+        }
+      ],
+      "hypotheses": [
+        "Claim may be neutral based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [],
+      "question_preview": "Under Scott Walker, average wages, when adjusted for inflation, are lower today than they were under Jim Doyle."
+    },
+    {
+      "eval_id": "Q0876",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "true",
+      "base_answer": "true",
+      "skill_answer": "true",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "stock market"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "stock market"
+        }
+      ],
+      "hypotheses": [
+        "Claim may be true based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [],
+      "question_preview": "The stock market does better when you have a Democratic president in the White House."
+    },
+    {
+      "eval_id": "Q0877",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "true",
+      "base_answer": "true",
+      "skill_answer": "true",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "unemployment"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "unemployment"
+        }
+      ],
+      "hypotheses": [
+        "Claim may be true based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [],
+      "question_preview": "Austin, deemed the safest major city in Texas, boasts an unemployment rate of less than 3% and has been consecutively recognized as the top place to reside in the entire United States for two years in"
+    },
+    {
+      "eval_id": "Q0878",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "false",
+      "base_answer": "false",
+      "skill_answer": "false",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [
+          "META"
+        ],
+        "macro_concepts": []
+      },
+      "abel_signals": [
+        {
+          "ticker": "META",
+          "signal": {
+            "prediction": -0.0017,
+            "drivers": [
+              "PSFE.price",
+              "HGTY.price",
+              "IOBT.price",
+              "TGLS.price",
+              "EVAX.price",
+              "OP.price",
+              "HEPS.price",
+              "FIGS.price",
+              "MITQ.price",
+              "UNCY.price"
+            ],
+            "blanket_size": 20,
+            "parents": [
+              "BFRI.price",
+              "CGLDUSD.price",
+              "DTST.price",
+              "ESBA.price",
+              "EWTX.price",
+              "FCUV.price",
+              "FIGS.price",
+              "HGTY.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "children": [
+              "BFRI.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "spouses": [
+              "ESBA.price",
+              "INNV.price"
+            ],
+            "parent_names": [
+              [
+                "EVAX.price",
+                "Evaxion Biotech A/S stock price"
+              ],
+              [
+                "FIGS.price",
+                "FIGS, Inc. stock price"
+              ],
+              [
+                "HEPS.price",
+                "D-Market Elektronik Hizmetler ve Ticaret A.S. stock price"
+              ],
+              [
+                "HGTY.price",
+                "Hagerty, Inc. stock price"
+              ],
+              [
+                "IOBT.price",
+                "IO Biotech, Inc. stock price"
+              ],
+              [
+                "MITQ.price",
+                "Moving iMage Technologies, Inc. stock price"
+              ],
+              [
+                "OP.price",
+                "OceanPal Inc. stock price"
+              ],
+              [
+                "PSFE.price",
+                "Paysafe Limited stock price"
+              ],
+              [
+                "TGLS.price",
+                "Tecnoglass Inc. stock price"
+              ],
+              [
+                "UNCY.price",
+                "Unicycive Therapeutics, Inc. stock price"
+              ]
+            ]
+          }
+        }
+      ],
+      "macro_signals": [],
+      "hypotheses": [
+        "Claim may be false based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [
+        "Abel prediction for META: -0.0017"
+      ],
+      "question_preview": "Facebook Car Giveaway"
+    },
+    {
+      "eval_id": "Q0879",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "true",
+      "base_answer": "true",
+      "skill_answer": "true",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "interest rate"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "interest rate"
+        }
+      ],
+      "hypotheses": [
+        "Claim may be true based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [],
+      "question_preview": "A college loan is the only loan in the United States that you cannot refinance when interest rates go down."
+    },
+    {
+      "eval_id": "Q0880",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "false",
+      "base_answer": "false",
+      "skill_answer": "false",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [
+          "META"
+        ],
+        "macro_concepts": []
+      },
+      "abel_signals": [
+        {
+          "ticker": "META",
+          "signal": {
+            "prediction": -0.0017,
+            "drivers": [
+              "PSFE.price",
+              "HGTY.price",
+              "IOBT.price",
+              "TGLS.price",
+              "EVAX.price",
+              "OP.price",
+              "HEPS.price",
+              "FIGS.price",
+              "MITQ.price",
+              "UNCY.price"
+            ],
+            "blanket_size": 20,
+            "parents": [
+              "BFRI.price",
+              "CGLDUSD.price",
+              "DTST.price",
+              "ESBA.price",
+              "EWTX.price",
+              "FCUV.price",
+              "FIGS.price",
+              "HGTY.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "children": [
+              "BFRI.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "spouses": [
+              "ESBA.price",
+              "INNV.price"
+            ],
+            "parent_names": [
+              [
+                "EVAX.price",
+                "Evaxion Biotech A/S stock price"
+              ],
+              [
+                "FIGS.price",
+                "FIGS, Inc. stock price"
+              ],
+              [
+                "HEPS.price",
+                "D-Market Elektronik Hizmetler ve Ticaret A.S. stock price"
+              ],
+              [
+                "HGTY.price",
+                "Hagerty, Inc. stock price"
+              ],
+              [
+                "IOBT.price",
+                "IO Biotech, Inc. stock price"
+              ],
+              [
+                "MITQ.price",
+                "Moving iMage Technologies, Inc. stock price"
+              ],
+              [
+                "OP.price",
+                "OceanPal Inc. stock price"
+              ],
+              [
+                "PSFE.price",
+                "Paysafe Limited stock price"
+              ],
+              [
+                "TGLS.price",
+                "Tecnoglass Inc. stock price"
+              ],
+              [
+                "UNCY.price",
+                "Unicycive Therapeutics, Inc. stock price"
+              ]
+            ]
+          }
+        }
+      ],
+      "macro_signals": [],
+      "hypotheses": [
+        "Claim may be false based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [
+        "Abel prediction for META: -0.0017"
+      ],
+      "question_preview": "\"Contrary to rumors, Walmart is not providing a complimentary $50 'Anniversary' voucher on Facebook.\""
+    },
+    {
+      "eval_id": "Q0881",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "true",
+      "base_answer": "true",
+      "skill_answer": "true",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [
+          "META"
+        ],
+        "macro_concepts": []
+      },
+      "abel_signals": [
+        {
+          "ticker": "META",
+          "signal": {
+            "prediction": -0.0017,
+            "drivers": [
+              "PSFE.price",
+              "HGTY.price",
+              "IOBT.price",
+              "TGLS.price",
+              "EVAX.price",
+              "OP.price",
+              "HEPS.price",
+              "FIGS.price",
+              "MITQ.price",
+              "UNCY.price"
+            ],
+            "blanket_size": 20,
+            "parents": [
+              "BFRI.price",
+              "CGLDUSD.price",
+              "DTST.price",
+              "ESBA.price",
+              "EWTX.price",
+              "FCUV.price",
+              "FIGS.price",
+              "HGTY.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "children": [
+              "BFRI.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "spouses": [
+              "ESBA.price",
+              "INNV.price"
+            ],
+            "parent_names": [
+              [
+                "EVAX.price",
+                "Evaxion Biotech A/S stock price"
+              ],
+              [
+                "FIGS.price",
+                "FIGS, Inc. stock price"
+              ],
+              [
+                "HEPS.price",
+                "D-Market Elektronik Hizmetler ve Ticaret A.S. stock price"
+              ],
+              [
+                "HGTY.price",
+                "Hagerty, Inc. stock price"
+              ],
+              [
+                "IOBT.price",
+                "IO Biotech, Inc. stock price"
+              ],
+              [
+                "MITQ.price",
+                "Moving iMage Technologies, Inc. stock price"
+              ],
+              [
+                "OP.price",
+                "OceanPal Inc. stock price"
+              ],
+              [
+                "PSFE.price",
+                "Paysafe Limited stock price"
+              ],
+              [
+                "TGLS.price",
+                "Tecnoglass Inc. stock price"
+              ],
+              [
+                "UNCY.price",
+                "Unicycive Therapeutics, Inc. stock price"
+              ]
+            ]
+          }
+        }
+      ],
+      "macro_signals": [],
+      "hypotheses": [
+        "Claim may be true based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [
+        "Abel prediction for META: -0.0017"
+      ],
+      "question_preview": "Did a Power Surge in a Plugged-In Air Fryer Cause a Fire, as Claimed in Viral Facebook Post?"
+    },
+    {
+      "eval_id": "Q0882",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "false",
+      "base_answer": "false",
+      "skill_answer": "false",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [
+          "META"
+        ],
+        "macro_concepts": []
+      },
+      "abel_signals": [
+        {
+          "ticker": "META",
+          "signal": {
+            "prediction": -0.0017,
+            "drivers": [
+              "PSFE.price",
+              "HGTY.price",
+              "IOBT.price",
+              "TGLS.price",
+              "EVAX.price",
+              "OP.price",
+              "HEPS.price",
+              "FIGS.price",
+              "MITQ.price",
+              "UNCY.price"
+            ],
+            "blanket_size": 20,
+            "parents": [
+              "BFRI.price",
+              "CGLDUSD.price",
+              "DTST.price",
+              "ESBA.price",
+              "EWTX.price",
+              "FCUV.price",
+              "FIGS.price",
+              "HGTY.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "children": [
+              "BFRI.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "spouses": [
+              "ESBA.price",
+              "INNV.price"
+            ],
+            "parent_names": [
+              [
+                "EVAX.price",
+                "Evaxion Biotech A/S stock price"
+              ],
+              [
+                "FIGS.price",
+                "FIGS, Inc. stock price"
+              ],
+              [
+                "HEPS.price",
+                "D-Market Elektronik Hizmetler ve Ticaret A.S. stock price"
+              ],
+              [
+                "HGTY.price",
+                "Hagerty, Inc. stock price"
+              ],
+              [
+                "IOBT.price",
+                "IO Biotech, Inc. stock price"
+              ],
+              [
+                "MITQ.price",
+                "Moving iMage Technologies, Inc. stock price"
+              ],
+              [
+                "OP.price",
+                "OceanPal Inc. stock price"
+              ],
+              [
+                "PSFE.price",
+                "Paysafe Limited stock price"
+              ],
+              [
+                "TGLS.price",
+                "Tecnoglass Inc. stock price"
+              ],
+              [
+                "UNCY.price",
+                "Unicycive Therapeutics, Inc. stock price"
+              ]
+            ]
+          }
+        }
+      ],
+      "macro_signals": [],
+      "hypotheses": [
+        "Claim may be false based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [
+        "Abel prediction for META: -0.0017"
+      ],
+      "question_preview": "Facebook Listens?"
+    },
+    {
+      "eval_id": "Q0883",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "true",
+      "base_answer": "true",
+      "skill_answer": "true",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "unemployment"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "unemployment"
+        }
+      ],
+      "hypotheses": [
+        "Claim may be true based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [],
+      "question_preview": "Says our unemployment insurance trust fund is broke. We're over a billion dollars in debt to the federal government."
+    },
+    {
+      "eval_id": "Q0884",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "false",
+      "base_answer": "false",
+      "skill_answer": "false",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [
+          "AAPL"
+        ],
+        "macro_concepts": []
+      },
+      "abel_signals": [
+        {
+          "ticker": "AAPL",
+          "signal": {
+            "prediction": 0.0025,
+            "drivers": [
+              "PRIMEUSD.price",
+              "AREB.price"
+            ],
+            "blanket_size": 2,
+            "parents": [
+              "AREB.price",
+              "PRIMEUSD.price"
+            ],
+            "children": [],
+            "spouses": [],
+            "parent_names": [
+              [
+                "AREB.price",
+                "American Rebel Holdings, Inc. stock price"
+              ],
+              [
+                "PRIMEUSD.price",
+                "Echelon Prime price"
+              ]
+            ]
+          }
+        }
+      ],
+      "macro_signals": [],
+      "hypotheses": [
+        "Claim may be false based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [
+        "Abel prediction for AAPL: 0.0025"
+      ],
+      "question_preview": "Did a Cornell Student Cut 37 Pounds Using Apple Cider Vinegar and Supplements?"
+    },
+    {
+      "eval_id": "Q0885",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "false",
+      "base_answer": "false",
+      "skill_answer": "false",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [
+          "META"
+        ],
+        "macro_concepts": []
+      },
+      "abel_signals": [
+        {
+          "ticker": "META",
+          "signal": {
+            "prediction": -0.0017,
+            "drivers": [
+              "PSFE.price",
+              "HGTY.price",
+              "IOBT.price",
+              "TGLS.price",
+              "EVAX.price",
+              "OP.price",
+              "HEPS.price",
+              "FIGS.price",
+              "MITQ.price",
+              "UNCY.price"
+            ],
+            "blanket_size": 20,
+            "parents": [
+              "BFRI.price",
+              "CGLDUSD.price",
+              "DTST.price",
+              "ESBA.price",
+              "EWTX.price",
+              "FCUV.price",
+              "FIGS.price",
+              "HGTY.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "children": [
+              "BFRI.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "spouses": [
+              "ESBA.price",
+              "INNV.price"
+            ],
+            "parent_names": [
+              [
+                "EVAX.price",
+                "Evaxion Biotech A/S stock price"
+              ],
+              [
+                "FIGS.price",
+                "FIGS, Inc. stock price"
+              ],
+              [
+                "HEPS.price",
+                "D-Market Elektronik Hizmetler ve Ticaret A.S. stock price"
+              ],
+              [
+                "HGTY.price",
+                "Hagerty, Inc. stock price"
+              ],
+              [
+                "IOBT.price",
+                "IO Biotech, Inc. stock price"
+              ],
+              [
+                "MITQ.price",
+                "Moving iMage Technologies, Inc. stock price"
+              ],
+              [
+                "OP.price",
+                "OceanPal Inc. stock price"
+              ],
+              [
+                "PSFE.price",
+                "Paysafe Limited stock price"
+              ],
+              [
+                "TGLS.price",
+                "Tecnoglass Inc. stock price"
+              ],
+              [
+                "UNCY.price",
+                "Unicycive Therapeutics, Inc. stock price"
+              ]
+            ]
+          }
+        }
+      ],
+      "macro_signals": [],
+      "hypotheses": [
+        "Claim may be false based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [
+        "Abel prediction for META: -0.0017"
+      ],
+      "question_preview": "'So Far No One Has Found Another Number' Walmart Gift Card Facebook Scam"
+    },
+    {
+      "eval_id": "Q0886",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "true",
+      "base_answer": "true",
+      "skill_answer": "true",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "unemployment"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "unemployment"
+        }
+      ],
+      "hypotheses": [
+        "Claim may be true based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [],
+      "question_preview": "Youth unemployment in minority communities is about 40 to 45 percent."
+    },
+    {
+      "eval_id": "Q0887",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "neutral",
+      "base_answer": "neutral",
+      "skill_answer": "neutral",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [
+          "AMZN"
+        ],
+        "macro_concepts": []
+      },
+      "abel_signals": [
+        {
+          "ticker": "AMZN",
+          "signal": {
+            "prediction": 0.0011,
+            "drivers": [
+              "BTTUSD.price",
+              "REVB.price",
+              "OPAL.price",
+              "LAYERUSD.price",
+              "FIEE.price",
+              "LSDUSD.price",
+              "GRNT.price",
+              "MBPUSD.price"
+            ],
+            "blanket_size": 20,
+            "parents": [
+              "BTTUSD.price",
+              "FIEE.price",
+              "GRNT.price",
+              "LAYERUSD.price"
+            ],
+            "children": [
+              "ENVX.price",
+              "ISPO.price"
+            ],
+            "spouses": [
+              "AIZN.price",
+              "AMPL.price",
+              "DHIL.price",
+              "EFLUSD.price",
+              "ENVX.price"
+            ],
+            "parent_names": [
+              [
+                "BTTUSD.price",
+                "BitTorrent(New) price"
+              ],
+              [
+                "FIEE.price",
+                "FiEE, Inc. stock price"
+              ],
+              [
+                "GRNT.price",
+                "Granite Ridge Resources, Inc stock price"
+              ],
+              [
+                "LAYERUSD.price",
+                "UniLayer price"
+              ],
+              [
+                "LSDUSD.price",
+                "Liquid Staking Derivatives price"
+              ],
+              [
+                "MBPUSD.price",
+                "Mobipad price"
+              ],
+              [
+                "OPAL.price",
+                "OPAL Fuels Inc. stock price"
+              ],
+              [
+                "REVB.price",
+                "Revelation Biosciences, Inc. stock price"
+              ]
+            ]
+          }
+        }
+      ],
+      "macro_signals": [],
+      "hypotheses": [
+        "Claim may be neutral based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [
+        "Abel prediction for AMZN: 0.0011"
+      ],
+      "question_preview": "Do Amazon Employees Qualify for Food Stamps?"
+    },
+    {
+      "eval_id": "Q0888",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "false",
+      "base_answer": "false",
+      "skill_answer": "false",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "unemployment"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "unemployment"
+        }
+      ],
+      "hypotheses": [
+        "Claim may be false based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [],
+      "question_preview": "The U.S. unemployment rate has been massaged, its been doctored."
+    },
+    {
+      "eval_id": "Q0889",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "false",
+      "base_answer": "false",
+      "skill_answer": "false",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [
+          "META"
+        ],
+        "macro_concepts": []
+      },
+      "abel_signals": [
+        {
+          "ticker": "META",
+          "signal": {
+            "prediction": -0.0017,
+            "drivers": [
+              "PSFE.price",
+              "HGTY.price",
+              "IOBT.price",
+              "TGLS.price",
+              "EVAX.price",
+              "OP.price",
+              "HEPS.price",
+              "FIGS.price",
+              "MITQ.price",
+              "UNCY.price"
+            ],
+            "blanket_size": 20,
+            "parents": [
+              "BFRI.price",
+              "CGLDUSD.price",
+              "DTST.price",
+              "ESBA.price",
+              "EWTX.price",
+              "FCUV.price",
+              "FIGS.price",
+              "HGTY.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "children": [
+              "BFRI.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "spouses": [
+              "ESBA.price",
+              "INNV.price"
+            ],
+            "parent_names": [
+              [
+                "EVAX.price",
+                "Evaxion Biotech A/S stock price"
+              ],
+              [
+                "FIGS.price",
+                "FIGS, Inc. stock price"
+              ],
+              [
+                "HEPS.price",
+                "D-Market Elektronik Hizmetler ve Ticaret A.S. stock price"
+              ],
+              [
+                "HGTY.price",
+                "Hagerty, Inc. stock price"
+              ],
+              [
+                "IOBT.price",
+                "IO Biotech, Inc. stock price"
+              ],
+              [
+                "MITQ.price",
+                "Moving iMage Technologies, Inc. stock price"
+              ],
+              [
+                "OP.price",
+                "OceanPal Inc. stock price"
+              ],
+              [
+                "PSFE.price",
+                "Paysafe Limited stock price"
+              ],
+              [
+                "TGLS.price",
+                "Tecnoglass Inc. stock price"
+              ],
+              [
+                "UNCY.price",
+                "Unicycive Therapeutics, Inc. stock price"
+              ]
+            ]
+          }
+        }
+      ],
+      "macro_signals": [],
+      "hypotheses": [
+        "Claim may be false based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [
+        "Abel prediction for META: -0.0017"
+      ],
+      "question_preview": "\"Is Marlboro distributing free cartons of cigarettes on Facebook?\""
+    },
+    {
+      "eval_id": "Q0890",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "true",
+      "base_answer": "true",
+      "skill_answer": "true",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "unemployment"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "unemployment"
+        }
+      ],
+      "hypotheses": [
+        "Claim may be true based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [],
+      "question_preview": "Womens unemployment has been lower under President Trump than its been in nearly 70 years."
+    },
+    {
+      "eval_id": "Q0891",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "false",
+      "base_answer": "false",
+      "skill_answer": "false",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [
+          "DIS"
+        ],
+        "macro_concepts": []
+      },
+      "abel_signals": [
+        {
+          "ticker": "DIS",
+          "signal": {
+            "prediction": 0.0008,
+            "drivers": [
+              "ABBCUSD.price",
+              "PRIMEUSD.price",
+              "CIM-PD.price",
+              "TOONUSD.price",
+              "ATH-PA.price",
+              "MOOVUSD.price",
+              "OXLCP.price",
+              "NLY-PG.price",
+              "AGNCO.price",
+              "VLYPP.price"
+            ],
+            "blanket_size": 20,
+            "parents": [
+              "ABBCUSD.price",
+              "AGNCO.price",
+              "ATH-PA.price",
+              "BTTUSD.price",
+              "CIM-PD.price",
+              "DOGAUSD.price",
+              "ECCX.price",
+              "MBPUSD.price"
+            ],
+            "children": [
+              "AIV.price",
+              "EJSUSD.price",
+              "MBPUSD.price"
+            ],
+            "spouses": [
+              "EJSUSD.price"
+            ],
+            "parent_names": [
+              [
+                "ABBCUSD.price",
+                "ABBC Coin price"
+              ],
+              [
+                "AGNCO.price",
+                "AGNC Investment Corp. stock price"
+              ],
+              [
+                "ATH-PA.price",
+                "Athene Holding Ltd. stock price"
+              ],
+              [
+                "CIM-PD.price",
+                "Chimera Investment Corporation stock price"
+              ],
+              [
+                "MOOVUSD.price",
+                "Dotmoovs price"
+              ],
+              [
+                "NLY-PG.price",
+                "Annaly Capital Management, Inc. stock price"
+              ],
+              [
+                "OXLCP.price",
+                "Oxford Lane Capital Corp. stock price"
+              ],
+              [
+                "PRIMEUSD.price",
+                "Echelon Prime price"
+              ],
+              [
+                "TOONUSD.price",
+                "Pontoon price"
+              ],
+              [
+                "VLYPP.price",
+                "Valley National Bancorp stock price"
+              ]
+            ]
+          }
+        }
+      ],
+      "macro_signals": [],
+      "hypotheses": [
+        "Claim may be false based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [
+        "Abel prediction for DIS: 0.0008"
+      ],
+      "question_preview": "Was Walt Disney Born in Robinson, Illinois?"
+    },
+    {
+      "eval_id": "Q0892",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "false",
+      "base_answer": "false",
+      "skill_answer": "false",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [
+          "INTC"
+        ],
+        "macro_concepts": []
+      },
+      "abel_signals": [
+        {
+          "ticker": "INTC",
+          "signal": {
+            "prediction": 0.0093,
+            "drivers": [
+              "UW3SUSD.price",
+              "UNWUSD.price",
+              "SFIUSD.price",
+              "ULXUSD.price",
+              "ISAUSD.price",
+              "STSOLUSD.price",
+              "CXT.price",
+              "SBDUSD.price",
+              "TRCLUSD.price",
+              "GUARDUSD.price"
+            ],
+            "blanket_size": 20,
+            "parents": [
+              "BSTYUSD.price",
+              "COREUSD.price",
+              "DUBBZUSD.price",
+              "HWCPZ.price",
+              "IDAI.price",
+              "IXSUSD.price",
+              "LSDUSD.price",
+              "MCRNUSD.price",
+              "MMFUSD.price",
+              "MOGUSD.price"
+            ],
+            "children": [
+              "COREUSD.price"
+            ],
+            "spouses": [
+              "COREUSD.price",
+              "IDAI.price"
+            ],
+            "parent_names": [
+              [
+                "CXT.price",
+                "Crane NXT, Co. stock price"
+              ],
+              [
+                "GUARDUSD.price",
+                "Guardian price"
+              ],
+              [
+                "ISAUSD.price",
+                "Islander price"
+              ],
+              [
+                "SBDUSD.price",
+                "Steem Dollars price"
+              ],
+              [
+                "SFIUSD.price",
+                "saffron.finance price"
+              ],
+              [
+                "STSOLUSD.price",
+                "Lido Staked SOL price"
+              ],
+              [
+                "TRCLUSD.price",
+                "Treecle price"
+              ],
+              [
+                "ULXUSD.price",
+                "ULTRON price"
+              ],
+              [
+                "UNWUSD.price",
+                "UniWorld price"
+              ],
+              [
+                "UW3SUSD.price",
+                "Utility Web3Shot price"
+              ]
+            ]
+          }
+        }
+      ],
+      "macro_signals": [],
+      "hypotheses": [
+        "Claim may be false based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [
+        "Abel prediction for INTC: 0.0093"
+      ],
+      "question_preview": "No, Biden Transition Team Wasn't 'Removed' from Pentagon for Leaking Intel to China"
+    },
+    {
+      "eval_id": "Q0893",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "false",
+      "base_answer": "false",
+      "skill_answer": "false",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [
+          "AAPL"
+        ],
+        "macro_concepts": []
+      },
+      "abel_signals": [
+        {
+          "ticker": "AAPL",
+          "signal": {
+            "prediction": 0.0025,
+            "drivers": [
+              "PRIMEUSD.price",
+              "AREB.price"
+            ],
+            "blanket_size": 2,
+            "parents": [
+              "AREB.price",
+              "PRIMEUSD.price"
+            ],
+            "children": [],
+            "spouses": [],
+            "parent_names": [
+              [
+                "AREB.price",
+                "American Rebel Holdings, Inc. stock price"
+              ],
+              [
+                "PRIMEUSD.price",
+                "Echelon Prime price"
+              ]
+            ]
+          }
+        }
+      ],
+      "macro_signals": [],
+      "hypotheses": [
+        "Claim may be false based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [
+        "Abel prediction for AAPL: 0.0025"
+      ],
+      "question_preview": "Was a student from Cornell able to lose 37 pounds by utilizing apple cider vinegar and supplements?"
+    },
+    {
+      "eval_id": "Q0894",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "false",
+      "base_answer": "false",
+      "skill_answer": "false",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [
+          "META"
+        ],
+        "macro_concepts": []
+      },
+      "abel_signals": [
+        {
+          "ticker": "META",
+          "signal": {
+            "prediction": -0.0017,
+            "drivers": [
+              "PSFE.price",
+              "HGTY.price",
+              "IOBT.price",
+              "TGLS.price",
+              "EVAX.price",
+              "OP.price",
+              "HEPS.price",
+              "FIGS.price",
+              "MITQ.price",
+              "UNCY.price"
+            ],
+            "blanket_size": 20,
+            "parents": [
+              "BFRI.price",
+              "CGLDUSD.price",
+              "DTST.price",
+              "ESBA.price",
+              "EWTX.price",
+              "FCUV.price",
+              "FIGS.price",
+              "HGTY.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "children": [
+              "BFRI.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "spouses": [
+              "ESBA.price",
+              "INNV.price"
+            ],
+            "parent_names": [
+              [
+                "EVAX.price",
+                "Evaxion Biotech A/S stock price"
+              ],
+              [
+                "FIGS.price",
+                "FIGS, Inc. stock price"
+              ],
+              [
+                "HEPS.price",
+                "D-Market Elektronik Hizmetler ve Ticaret A.S. stock price"
+              ],
+              [
+                "HGTY.price",
+                "Hagerty, Inc. stock price"
+              ],
+              [
+                "IOBT.price",
+                "IO Biotech, Inc. stock price"
+              ],
+              [
+                "MITQ.price",
+                "Moving iMage Technologies, Inc. stock price"
+              ],
+              [
+                "OP.price",
+                "OceanPal Inc. stock price"
+              ],
+              [
+                "PSFE.price",
+                "Paysafe Limited stock price"
+              ],
+              [
+                "TGLS.price",
+                "Tecnoglass Inc. stock price"
+              ],
+              [
+                "UNCY.price",
+                "Unicycive Therapeutics, Inc. stock price"
+              ]
+            ]
+          }
+        }
+      ],
+      "macro_signals": [],
+      "hypotheses": [
+        "Claim may be false based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [
+        "Abel prediction for META: -0.0017"
+      ],
+      "question_preview": "Facebook scam involving fraudulent ALDI coupons"
+    },
+    {
+      "eval_id": "Q0895",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "false",
+      "base_answer": "false",
+      "skill_answer": "false",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [
+          "META"
+        ],
+        "macro_concepts": []
+      },
+      "abel_signals": [
+        {
+          "ticker": "META",
+          "signal": {
+            "prediction": -0.0017,
+            "drivers": [
+              "PSFE.price",
+              "HGTY.price",
+              "IOBT.price",
+              "TGLS.price",
+              "EVAX.price",
+              "OP.price",
+              "HEPS.price",
+              "FIGS.price",
+              "MITQ.price",
+              "UNCY.price"
+            ],
+            "blanket_size": 20,
+            "parents": [
+              "BFRI.price",
+              "CGLDUSD.price",
+              "DTST.price",
+              "ESBA.price",
+              "EWTX.price",
+              "FCUV.price",
+              "FIGS.price",
+              "HGTY.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "children": [
+              "BFRI.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "spouses": [
+              "ESBA.price",
+              "INNV.price"
+            ],
+            "parent_names": [
+              [
+                "EVAX.price",
+                "Evaxion Biotech A/S stock price"
+              ],
+              [
+                "FIGS.price",
+                "FIGS, Inc. stock price"
+              ],
+              [
+                "HEPS.price",
+                "D-Market Elektronik Hizmetler ve Ticaret A.S. stock price"
+              ],
+              [
+                "HGTY.price",
+                "Hagerty, Inc. stock price"
+              ],
+              [
+                "IOBT.price",
+                "IO Biotech, Inc. stock price"
+              ],
+              [
+                "MITQ.price",
+                "Moving iMage Technologies, Inc. stock price"
+              ],
+              [
+                "OP.price",
+                "OceanPal Inc. stock price"
+              ],
+              [
+                "PSFE.price",
+                "Paysafe Limited stock price"
+              ],
+              [
+                "TGLS.price",
+                "Tecnoglass Inc. stock price"
+              ],
+              [
+                "UNCY.price",
+                "Unicycive Therapeutics, Inc. stock price"
+              ]
+            ]
+          }
+        }
+      ],
+      "macro_signals": [],
+      "hypotheses": [
+        "Claim may be false based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [
+        "Abel prediction for META: -0.0017"
+      ],
+      "question_preview": "450K Facebook Users Fell for This Toyota Tundra Giveaway Scam"
+    },
+    {
+      "eval_id": "Q0896",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "true",
+      "base_answer": "true",
+      "skill_answer": "true",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "unemployment"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "unemployment"
+        }
+      ],
+      "hypotheses": [
+        "Claim may be true based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [],
+      "question_preview": "Despite touting the economic stimulus as a great triumph, The very same report, however, notes that unemployment will average 10 percent for the rest of the year."
+    },
+    {
+      "eval_id": "Q0897",
+      "source": "FinFact",
+      "category": "fact_checking",
+      "ground_truth": "false",
+      "base_answer": "false",
+      "skill_answer": "false",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [
+          "META"
+        ],
+        "macro_concepts": []
+      },
+      "abel_signals": [
+        {
+          "ticker": "META",
+          "signal": {
+            "prediction": -0.0017,
+            "drivers": [
+              "PSFE.price",
+              "HGTY.price",
+              "IOBT.price",
+              "TGLS.price",
+              "EVAX.price",
+              "OP.price",
+              "HEPS.price",
+              "FIGS.price",
+              "MITQ.price",
+              "UNCY.price"
+            ],
+            "blanket_size": 20,
+            "parents": [
+              "BFRI.price",
+              "CGLDUSD.price",
+              "DTST.price",
+              "ESBA.price",
+              "EWTX.price",
+              "FCUV.price",
+              "FIGS.price",
+              "HGTY.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "children": [
+              "BFRI.price",
+              "HOTH.price",
+              "INNV.price"
+            ],
+            "spouses": [
+              "ESBA.price",
+              "INNV.price"
+            ],
+            "parent_names": [
+              [
+                "EVAX.price",
+                "Evaxion Biotech A/S stock price"
+              ],
+              [
+                "FIGS.price",
+                "FIGS, Inc. stock price"
+              ],
+              [
+                "HEPS.price",
+                "D-Market Elektronik Hizmetler ve Ticaret A.S. stock price"
+              ],
+              [
+                "HGTY.price",
+                "Hagerty, Inc. stock price"
+              ],
+              [
+                "IOBT.price",
+                "IO Biotech, Inc. stock price"
+              ],
+              [
+                "MITQ.price",
+                "Moving iMage Technologies, Inc. stock price"
+              ],
+              [
+                "OP.price",
+                "OceanPal Inc. stock price"
+              ],
+              [
+                "PSFE.price",
+                "Paysafe Limited stock price"
+              ],
+              [
+                "TGLS.price",
+                "Tecnoglass Inc. stock price"
+              ],
+              [
+                "UNCY.price",
+                "Unicycive Therapeutics, Inc. stock price"
+              ]
+            ]
+          }
+        }
+      ],
+      "macro_signals": [],
+      "hypotheses": [
+        "Claim may be false based on factual verification",
+        "Contrarian: claims often contain partial truths that make classification nuanced"
+      ],
+      "verification": "FinFact questions are about factual claims; Abel causal graph has limited direct relevance",
+      "grounding_notes": [
+        "Abel prediction for META: -0.0017"
+      ],
+      "question_preview": "Did executive Jeff Rothschild from Facebook express the need for a third world war?"
+    },
+    {
+      "eval_id": "Q0898",
+      "source": "FinMCQ",
+      "category": "finance_mcq",
+      "ground_truth": "yes",
+      "base_answer": "yes",
+      "skill_answer": "yes",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [
+          "JPM"
+        ],
+        "macro_concepts": []
+      },
+      "abel_signals": [
+        {
+          "ticker": "JPM",
+          "signal": {
+            "prediction": 0.0,
+            "drivers": [
+              "ONEUSD.price",
+              "SANTOSUSD.price",
+              "IMOUSD.price",
+              "GUSD.price",
+              "AIZN.price",
+              "MBPUSD.price",
+              "AREB.price",
+              "TAJUSD.price"
+            ],
+            "blanket_size": 20,
+            "parents": [
+              "AIZN.price",
+              "AREB.price",
+              "GUSD.price",
+              "IMOUSD.price"
+            ],
+            "children": [
+              "LEADUSD.price"
+            ],
+            "spouses": [
+              "AGNCM.price",
+              "ARGD.price",
+              "BYSI.price",
+              "HSIC.price",
+              "JBHT.price"
+            ],
+            "parent_names": [
+              [
+                "AIZN.price",
+                "Assurant, Inc. 5.25% Subordinat stock price"
+              ],
+              [
+                "AREB.price",
+                "American Rebel Holdings, Inc. stock price"
+              ],
+              [
+                "GUSD.price",
+                "Gravity price"
+              ],
+              [
+                "IMOUSD.price",
+                "IMO price"
+              ],
+              [
+                "MBPUSD.price",
+                "Mobipad price"
+              ],
+              [
+                "ONEUSD.price",
+                "Harmony price"
+              ],
+              [
+                "SANTOSUSD.price",
+                "Santos FC Fan Token price"
+              ],
+              [
+                "TAJUSD.price",
+                "TajCoin price"
+              ]
+            ]
+          }
+        }
+      ],
+      "macro_signals": [],
+      "hypotheses": [
+        "Answer requires specific financial data for ['JPM']"
+      ],
+      "verification": "FinMCQ requires specific data; Abel provides causal context",
+      "grounding_notes": [],
+      "question_preview": "did jpmorgan chase outperform the kbw bank index?"
+    },
+    {
+      "eval_id": "Q0899",
+      "source": "FinMCQ",
+      "category": "finance_mcq",
+      "ground_truth": "2.34",
+      "base_answer": "2.34",
+      "skill_answer": "2.34",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [
+          "AAPL"
+        ],
+        "macro_concepts": []
+      },
+      "abel_signals": [
+        {
+          "ticker": "AAPL",
+          "signal": {
+            "prediction": 0.0025,
+            "drivers": [
+              "PRIMEUSD.price",
+              "AREB.price"
+            ],
+            "blanket_size": 2,
+            "parents": [
+              "AREB.price",
+              "PRIMEUSD.price"
+            ],
+            "children": [],
+            "spouses": [],
+            "parent_names": [
+              [
+                "AREB.price",
+                "American Rebel Holdings, Inc. stock price"
+              ],
+              [
+                "PRIMEUSD.price",
+                "Echelon Prime price"
+              ]
+            ]
+          }
+        }
+      ],
+      "macro_signals": [],
+      "hypotheses": [
+        "Answer requires specific financial data for ['AAPL']"
+      ],
+      "verification": "FinMCQ requires specific data; Abel provides causal context",
+      "grounding_notes": [],
+      "question_preview": "by how much did apple inc . outperform the s&p computer hardware index over the above mentioned 6 year period?"
+    },
+    {
+      "eval_id": "Q0900",
+      "source": "FinMCQ",
+      "category": "finance_mcq",
+      "ground_truth": "0.00258",
+      "base_answer": "0.00258",
+      "skill_answer": "0.00258",
+      "abel_changed": false,
+      "base_correct": true,
+      "skill_correct": true,
+      "entities": {
+        "tickers": [],
+        "macro_concepts": [
+          "interest rate"
+        ]
+      },
+      "abel_signals": [],
+      "macro_signals": [
+        {
+          "concept": "interest rate"
+        }
+      ],
+      "hypotheses": [
+        "Answer requires specific financial data for ['interest rate']"
+      ],
+      "verification": "FinMCQ requires specific data; Abel provides causal context",
+      "grounding_notes": [],
+      "question_preview": "in 2003 what was the ratio of the notional amount of our outstanding foreign currency hedges to the outstanding interest rate swaps"
+    }
+  ]
+}

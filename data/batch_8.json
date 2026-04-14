@@ -1,0 +1,1127 @@
+[
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment–outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-': The treatment decreases the outcome (negative and statistically significant effect).\n- 'None': No statistically significant effect.\n- 'mixed",
+  "ground_truth": "+",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0801"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "-",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "exchange rate"
+  ],
+  "eval_id": "Q0802"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment–outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-': The treatment decreases the outcome (negative and statistically significant effect).\n- 'None': No statistically significant effect.\n- 'mixed",
+  "ground_truth": "-",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "monetary policy"
+  ],
+  "eval_id": "Q0803"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "+",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "unemployment",
+   "mortgage"
+  ],
+  "eval_id": "Q0804"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": null,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0805"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment–outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-': The treatment decreases the outcome (negative and statistically significant effect).\n- 'None': No statistically significant effect.\n- 'mixed",
+  "ground_truth": null,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0806"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "+",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp",
+   "unemployment"
+  ],
+  "eval_id": "Q0807"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "+",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp",
+   "unemployment",
+   "rate cut"
+  ],
+  "eval_id": "Q0808"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "-",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "exchange rate"
+  ],
+  "eval_id": "Q0809"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "+",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0810"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "-",
+  "abel_tickers": [
+   "BAC"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0811"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment–outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-': The treatment decreases the outcome (negative and statistically significant effect).\n- 'None': No statistically significant effect.\n- 'mixed",
+  "ground_truth": null,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "capital market"
+  ],
+  "eval_id": "Q0812"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment–outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-': The treatment decreases the outcome (negative and statistically significant effect).\n- 'None': No statistically significant effect.\n- 'mixed",
+  "ground_truth": "+",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "exchange rate"
+  ],
+  "eval_id": "Q0813"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": null,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "bond yield"
+  ],
+  "eval_id": "Q0814"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment–outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-': The treatment decreases the outcome (negative and statistically significant effect).\n- 'None': No statistically significant effect.\n- 'mixed",
+  "ground_truth": null,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0815"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "-",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp",
+   "unemployment"
+  ],
+  "eval_id": "Q0816"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment–outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-': The treatment decreases the outcome (negative and statistically significant effect).\n- 'None': No statistically significant effect.\n- 'mixed",
+  "ground_truth": "+",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "stock market"
+  ],
+  "eval_id": "Q0817"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment–outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-': The treatment decreases the outcome (negative and statistically significant effect).\n- 'None': No statistically significant effect.\n- 'mixed",
+  "ground_truth": "-",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate",
+   "inflation",
+   "bond yield"
+  ],
+  "eval_id": "Q0818"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment–outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-': The treatment decreases the outcome (negative and statistically significant effect).\n- 'None': No statistically significant effect.\n- 'mixed",
+  "ground_truth": "-",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp",
+   "stock market"
+  ],
+  "eval_id": "Q0819"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment–outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-': The treatment decreases the outcome (negative and statistically significant effect).\n- 'None': No statistically significant effect.\n- 'mixed",
+  "ground_truth": "-",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0820"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment–outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-': The treatment decreases the outcome (negative and statistically significant effect).\n- 'None': No statistically significant effect.\n- 'mixed",
+  "ground_truth": "-",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0821"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "+",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation",
+   "gdp",
+   "unemployment",
+   "recession",
+   "business cycle"
+  ],
+  "eval_id": "Q0822"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "-",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp",
+   "industrial production",
+   "stock market"
+  ],
+  "eval_id": "Q0823"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment–outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-': The treatment decreases the outcome (negative and statistically significant effect).\n- 'None': No statistically significant effect.\n- 'mixed",
+  "ground_truth": "+",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "economic growth"
+  ],
+  "eval_id": "Q0824"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment–outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-': The treatment decreases the outcome (negative and statistically significant effect).\n- 'None': No statistically significant effect.\n- 'mixed",
+  "ground_truth": null,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0825"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment–outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-': The treatment decreases the outcome (negative and statistically significant effect).\n- 'None': No statistically significant effect.\n- 'mixed",
+  "ground_truth": "-",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "unemployment"
+  ],
+  "eval_id": "Q0826"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment–outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-': The treatment decreases the outcome (negative and statistically significant effect).\n- 'None': No statistically significant effect.\n- 'mixed",
+  "ground_truth": null,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate",
+   "inflation",
+   "bond yield"
+  ],
+  "eval_id": "Q0827"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment–outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-': The treatment decreases the outcome (negative and statistically significant effect).\n- 'None': No statistically significant effect.\n- 'mixed",
+  "ground_truth": "-",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage",
+   "recession"
+  ],
+  "eval_id": "Q0828"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "-",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate",
+   "fiscal policy",
+   "industrial production",
+   "stock market"
+  ],
+  "eval_id": "Q0829"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment–outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-': The treatment decreases the outcome (negative and statistically significant effect).\n- 'None': No statistically significant effect.\n- 'mixed",
+  "ground_truth": "+",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0830"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "-",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation",
+   "gdp"
+  ],
+  "eval_id": "Q0831"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment–outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-': The treatment decreases the outcome (negative and statistically significant effect).\n- 'None': No statistically significant effect.\n- 'mixed",
+  "ground_truth": "-",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "exchange rate"
+  ],
+  "eval_id": "Q0832"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment–outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-': The treatment decreases the outcome (negative and statistically significant effect).\n- 'None': No statistically significant effect.\n- 'mixed",
+  "ground_truth": null,
+  "abel_tickers": [],
+  "abel_concepts": [
+   "labor market"
+  ],
+  "eval_id": "Q0833"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment–outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-': The treatment decreases the outcome (negative and statistically significant effect).\n- 'None': No statistically significant effect.\n- 'mixed",
+  "ground_truth": "+",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0834"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment–outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-': The treatment decreases the outcome (negative and statistically significant effect).\n- 'None': No statistically significant effect.\n- 'mixed",
+  "ground_truth": "-",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation",
+   "treasury yield"
+  ],
+  "eval_id": "Q0835"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nGiven a context and a treatment–outcome pair, predict the most likely sign of the causal effect.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-': The treatment decreases the outcome (negative and statistically significant effect).\n- 'None': No statistically significant effect.\n- 'mixed",
+  "ground_truth": "-",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate",
+   "federal reserve"
+  ],
+  "eval_id": "Q0836"
+ },
+ {
+  "source": "EconCausal",
+  "category": "economic_causality",
+  "question": "# Role\nYou are an expert economist.\n\n# Task\nYou are given examples in which the same or comparable treatment–outcome pair is observed across multiple contexts, potentially with different causal signs.\nPredict the most likely sign for the treatment–outcome pair in the target context.\n\n# Sign Definitions\n- '+': The treatment increases the outcome (positive and statistically significant effect).\n- '-",
+  "ground_truth": "-",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp",
+   "unemployment",
+   "rate cut"
+  ],
+  "eval_id": "Q0837"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "Scam involving fake Home Depot coupons on Facebook.",
+  "ground_truth": "false",
+  "abel_tickers": [
+   "META"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0838"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "Did Nancy Pelosi Invest Up to $1M in Tesla?",
+  "ground_truth": "neutral",
+  "abel_tickers": [
+   "TSLA"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0839"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "Of all the 62 counties in New York state, all of them, unemployment is going up except for the five counties of New York City.",
+  "ground_truth": "true",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "unemployment"
+  ],
+  "eval_id": "Q0840"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "Cancer Baby Facebook Hoax",
+  "ground_truth": "false",
+  "abel_tickers": [
+   "META"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0841"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "Did Amazon Pay No Federal Income Taxes in 2017?",
+  "ground_truth": "true",
+  "abel_tickers": [
+   "AMZN"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0842"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "https://www.snopes.com/fact-check/powerball-lottery-scam-facebook/ Power Bull Dan Evon 10/20/2015 Claim: The Powerball and Mega Million lottery games are giving away $1 million topeople who share a message on Facebook.  Example: [Collected via e-mail, October 2015] Powerball and mega million to gi false",
+  "ground_truth": "false",
+  "abel_tickers": [
+   "META"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0843"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "Says Austin is the safest big city in Texas with an unemployment rate under 3% that has been named the best place to live in the entire United States two years running.",
+  "ground_truth": "true",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "unemployment"
+  ],
+  "eval_id": "Q0844"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "Don't Donate to Ukraine Through This Facebook Crypto Scam",
+  "ground_truth": "false",
+  "abel_tickers": [
+   "META"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0845"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "In the United States, a college loan stands out as the only type of loan that is not eligible for refinancing when interest rates decrease.",
+  "ground_truth": "true",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0846"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "Did Disney Deny Tim Allen 'Lightyear' Role Due to His Political Beliefs?",
+  "ground_truth": "false",
+  "abel_tickers": [
+   "DIS"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0847"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "Google PhoneBook",
+  "ground_truth": "true",
+  "abel_tickers": [
+   "GOOG"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0848"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "Amazon.com and Intifada.com",
+  "ground_truth": "neutral",
+  "abel_tickers": [
+   "AMZN"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0849"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "A college loan is the sole type of loan in the United States that cannot be refinanced when interest rates decrease.",
+  "ground_truth": "true",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0850"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "We've recovered (from the recession) faster and come farther than almost any other advanced country on Earth.",
+  "ground_truth": "true",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "recession"
+  ],
+  "eval_id": "Q0851"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "The United States is the only major industrial economy to have its unemployment rate triple since the coronavirus pandemic began.",
+  "ground_truth": "true",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "unemployment"
+  ],
+  "eval_id": "Q0852"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "Is Amazon Giving Away Free AirPods in a Raffle?",
+  "ground_truth": "false",
+  "abel_tickers": [
+   "AMZN"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0853"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "Fannie Mae is loosening credit standards in order to assist in providing mortgage loans.",
+  "ground_truth": "neutral",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0854"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "Did Musk Say 'I Hate When People Confuse Education with Intelligence'?",
+  "ground_truth": "false",
+  "abel_tickers": [
+   "INTC"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0855"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "Is a Ukraine Pavilion Coming to EPCOT at Disney World?",
+  "ground_truth": "false",
+  "abel_tickers": [
+   "DIS"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0856"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "Kanye (West) looks and he sees black unemployment at the lowest its been in the history of our country. He sees Hispanic unemployment at the lowest its been in the history of our country. He sees (womens unemployment) the lowest its been in now almost 19 years.",
+  "ground_truth": "true",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "unemployment"
+  ],
+  "eval_id": "Q0857"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "About 230,000 people that were on unemployment when I took office are not on unemployment now.",
+  "ground_truth": "true",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "unemployment"
+  ],
+  "eval_id": "Q0858"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "Mark Zuckerberg Promises $1,000 to Facebook Users If They Don't Share Hoaxes",
+  "ground_truth": "false",
+  "abel_tickers": [
+   "META"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0859"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "Did Facebook Executive Jeff Rothschild Say 'We Need a Third World War'?",
+  "ground_truth": "false",
+  "abel_tickers": [
+   "META"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0860"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "Facebook Car Giveaway – A car is being given away on Facebook.",
+  "ground_truth": "false",
+  "abel_tickers": [
+   "META"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0861"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "California is once again the sixth-largest economy in the world. If you add the GDPs of Washington and Oregon, California would surpass the United Kingdom to become the fifth-largest economy in the world.",
+  "ground_truth": "true",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0862"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "ALDI Coupons Facebook Scam",
+  "ground_truth": "false",
+  "abel_tickers": [
+   "META"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0863"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "No, Walmart Is Not Offering a Free $50 'Anniversary' Coupon on Facebook",
+  "ground_truth": "false",
+  "abel_tickers": [
+   "META"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0864"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "Are Amazon workers eligible for assistance with food expenses through government programs?",
+  "ground_truth": "neutral",
+  "abel_tickers": [
+   "AMZN"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0865"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "The Latino unemployment rate is higher than the white rate and the black rate is higher than the Latino rate.",
+  "ground_truth": "true",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "unemployment"
+  ],
+  "eval_id": "Q0866"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "My debt to GDP was the lowest or one of the lowest of modern presidents. My taxes to GDP was the lowest and my spending to GDP was too.",
+  "ground_truth": "true",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0867"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "Did Amazon's Alexa Order Unwanted Dollhouses for a Little Girl and TV Viewers?",
+  "ground_truth": "neutral",
+  "abel_tickers": [
+   "AMZN"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0868"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "Is This Email About a Google Plus Settlement Real?",
+  "ground_truth": "true",
+  "abel_tickers": [
+   "GOOG"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0869"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "The 'OO5251839' Post Doesn't 'Circumvent' Facebook Algorithm",
+  "ground_truth": "false",
+  "abel_tickers": [
+   "META"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0870"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "Austin is recognized as the safest major city in Texas, boasting an unemployment rate of less than 3% and winning the title of the top place to reside in the entire United States for two consecutive years.",
+  "ground_truth": "true",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "unemployment"
+  ],
+  "eval_id": "Q0871"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "Facebook Appeal for Lylah Rose",
+  "ground_truth": "true",
+  "abel_tickers": [
+   "META"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0872"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "Senators who have accepted millions in campaign contributions from the financial industry voted against allowing bankruptcy judges to modify home mortgages.",
+  "ground_truth": "true",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0873"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "The Texas unemployment rate is now the lowest its been in 40 years & Texas led the nation last month in new job creation.",
+  "ground_truth": "false",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "unemployment"
+  ],
+  "eval_id": "Q0874"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "Under Scott Walker, average wages, when adjusted for inflation, are lower today than they were under Jim Doyle.",
+  "ground_truth": "neutral",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation"
+  ],
+  "eval_id": "Q0875"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "The stock market does better when you have a Democratic president in the White House.",
+  "ground_truth": "true",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "stock market"
+  ],
+  "eval_id": "Q0876"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "Austin, deemed the safest major city in Texas, boasts an unemployment rate of less than 3% and has been consecutively recognized as the top place to reside in the entire United States for two years in a row.",
+  "ground_truth": "true",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "unemployment"
+  ],
+  "eval_id": "Q0877"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "Facebook Car Giveaway",
+  "ground_truth": "false",
+  "abel_tickers": [
+   "META"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0878"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "A college loan is the only loan in the United States that you cannot refinance when interest rates go down.",
+  "ground_truth": "true",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0879"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "\"Contrary to rumors, Walmart is not providing a complimentary $50 'Anniversary' voucher on Facebook.\"",
+  "ground_truth": "false",
+  "abel_tickers": [
+   "META"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0880"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "Did a Power Surge in a Plugged-In Air Fryer Cause a Fire, as Claimed in Viral Facebook Post?",
+  "ground_truth": "true",
+  "abel_tickers": [
+   "META"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0881"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "Facebook Listens?",
+  "ground_truth": "false",
+  "abel_tickers": [
+   "META"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0882"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "Says our unemployment insurance trust fund is broke. We're over a billion dollars in debt to the federal government.",
+  "ground_truth": "true",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "unemployment"
+  ],
+  "eval_id": "Q0883"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "Did a Cornell Student Cut 37 Pounds Using Apple Cider Vinegar and Supplements?",
+  "ground_truth": "false",
+  "abel_tickers": [
+   "AAPL"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0884"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "'So Far No One Has Found Another Number' Walmart Gift Card Facebook Scam",
+  "ground_truth": "false",
+  "abel_tickers": [
+   "META"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0885"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "Youth unemployment in minority communities is about 40 to 45 percent.",
+  "ground_truth": "true",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "unemployment"
+  ],
+  "eval_id": "Q0886"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "Do Amazon Employees Qualify for Food Stamps?",
+  "ground_truth": "neutral",
+  "abel_tickers": [
+   "AMZN"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0887"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "The U.S. unemployment rate has been massaged, its been doctored.",
+  "ground_truth": "false",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "unemployment"
+  ],
+  "eval_id": "Q0888"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "\"Is Marlboro distributing free cartons of cigarettes on Facebook?\"",
+  "ground_truth": "false",
+  "abel_tickers": [
+   "META"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0889"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "Womens unemployment has been lower under President Trump than its been in nearly 70 years.",
+  "ground_truth": "true",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "unemployment"
+  ],
+  "eval_id": "Q0890"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "Was Walt Disney Born in Robinson, Illinois?",
+  "ground_truth": "false",
+  "abel_tickers": [
+   "DIS"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0891"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "No, Biden Transition Team Wasn't 'Removed' from Pentagon for Leaking Intel to China",
+  "ground_truth": "false",
+  "abel_tickers": [
+   "INTC"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0892"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "Was a student from Cornell able to lose 37 pounds by utilizing apple cider vinegar and supplements?",
+  "ground_truth": "false",
+  "abel_tickers": [
+   "AAPL"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0893"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "Facebook scam involving fraudulent ALDI coupons",
+  "ground_truth": "false",
+  "abel_tickers": [
+   "META"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0894"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "450K Facebook Users Fell for This Toyota Tundra Giveaway Scam",
+  "ground_truth": "false",
+  "abel_tickers": [
+   "META"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0895"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "Despite touting the economic stimulus as a great triumph, The very same report, however, notes that unemployment will average 10 percent for the rest of the year.",
+  "ground_truth": "true",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "unemployment"
+  ],
+  "eval_id": "Q0896"
+ },
+ {
+  "source": "FinFact",
+  "category": "fact_checking",
+  "question": "Did executive Jeff Rothschild from Facebook express the need for a third world war?",
+  "ground_truth": "false",
+  "abel_tickers": [
+   "META"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0897"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "did jpmorgan chase outperform the kbw bank index?",
+  "ground_truth": "yes",
+  "abel_tickers": [
+   "JPM"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0898"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "by how much did apple inc . outperform the s&p computer hardware index over the above mentioned 6 year period?",
+  "ground_truth": "2.34",
+  "abel_tickers": [
+   "AAPL"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0899"
+ },
+ {
+  "source": "FinMCQ",
+  "category": "finance_mcq",
+  "question": "in 2003 what was the ratio of the notional amount of our outstanding foreign currency hedges to the outstanding interest rate swaps",
+  "ground_truth": "0.00258",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0900"
+ }
+]

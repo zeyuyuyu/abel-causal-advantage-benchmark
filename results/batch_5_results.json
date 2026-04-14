@@ -1,0 +1,2211 @@
+{
+  "batch": "batch_5",
+  "timestamp": "2026-04-14T15:02:22Z",
+  "summary": {
+    "total": 100,
+    "correct": 67,
+    "accuracy_pct": 67.0,
+    "by_source": {
+      "FLARE_SM": {
+        "total": 77,
+        "correct": 44,
+        "accuracy_pct": 57.14,
+        "abel_helped": 68
+      },
+      "MMLU": {
+        "total": 23,
+        "correct": 23,
+        "accuracy_pct": 100.0,
+        "abel_helped": 19
+      }
+    }
+  },
+  "abel_cache_size": 40,
+  "results": [
+    {
+      "eval_id": "Q0501",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [],
+      "concepts": [
+        "jobless claims",
+        "capital market"
+      ],
+      "base_prediction": "Rise",
+      "base_confidence": 0.57,
+      "final_prediction": "Rise",
+      "abel_context": [
+        "jobless claims (unemploymentRate) blanket: ['15-Year Fixed Mortgage Rate', '30-Year Fixed Mortgage Rate', 'Consumer Price Index', 'Gross Domestic Product', 'Credit Card Interest Rate']"
+      ],
+      "abel_signal": null,
+      "abel_helps": false,
+      "is_correct": false
+    },
+    {
+      "eval_id": "Q0502",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [],
+      "concepts": [
+        "capital market"
+      ],
+      "base_prediction": "Fall",
+      "base_confidence": 0.652,
+      "final_prediction": "Fall",
+      "abel_context": [],
+      "abel_signal": null,
+      "abel_helps": false,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0503",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Rise",
+      "tickers": [
+        "JPM"
+      ],
+      "concepts": [],
+      "base_prediction": "Rise",
+      "base_confidence": 0.567,
+      "final_prediction": "Rise",
+      "abel_context": [
+        "JPM: direction=neutral, prediction=0.0",
+        "JPM parents: ['Assurant, Inc. 5.25% Subordinat stock price', 'American Rebel Holdings, Inc. stock price', 'Gravity price', 'IMO price', 'Mobipad price']",
+        "Abel avg prediction: 0.0000"
+      ],
+      "abel_signal": null,
+      "abel_helps": false,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0504",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Rise",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "META"
+      ],
+      "concepts": [
+        "stock market"
+      ],
+      "base_prediction": "Rise",
+      "base_confidence": 0.622,
+      "final_prediction": "Rise",
+      "abel_context": [
+        "AAPL: direction=up, prediction=0.0025",
+        "AAPL parents: ['American Rebel Holdings, Inc. stock price', 'Echelon Prime price']",
+        "MSFT: direction=up, prediction=0.0025",
+        "MSFT parents: ['Dark Frontiers price', 'IMO price', 'Islander price', 'Pacoca price', 'OptionRoom price']",
+        "META: direction=down, prediction=-0.0017",
+        "META parents: ['Evaxion Biotech A/S stock price', 'FIGS, Inc. stock price', 'D-Market Elektronik Hizmetler ve Ticaret A.S. stock price', 'Hagerty, Inc. stock price', 'IO Biotech, Inc. stock price']",
+        "Abel avg prediction: 0.0011"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0505",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [
+        "GOOG",
+        "AMD",
+        "META",
+        "MS",
+        "AMZN"
+      ],
+      "concepts": [],
+      "base_prediction": "Fall",
+      "base_confidence": 0.615,
+      "final_prediction": "Fall",
+      "abel_context": [
+        "GOOG: direction=up, prediction=0.0001",
+        "GOOG parents: ['Bogged price', 'BitTorrent(New) price', 'CaliCoin price', 'Dohrnii price', 'Factor Dao price']",
+        "META: direction=down, prediction=-0.0017",
+        "META parents: ['Evaxion Biotech A/S stock price', 'FIGS, Inc. stock price', 'D-Market Elektronik Hizmetler ve Ticaret A.S. stock price', 'Hagerty, Inc. stock price', 'IO Biotech, Inc. stock price']",
+        "MS: direction=up, prediction=0.0003",
+        "MS parents: ['American Rebel Holdings, Inc. stock price', 'IMO price', 'Mobipad price', 'Santos FC Fan Token price', 'Pontoon price']",
+        "AMZN: direction=up, prediction=0.0011",
+        "AMZN parents: ['BitTorrent(New) price', 'FiEE, Inc. stock price', 'Granite Ridge Resources, Inc stock price', 'UniLayer price', 'Liquid Staking Derivatives price']",
+        "Abel avg prediction: -0.0000"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0506",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [
+        "GOOG"
+      ],
+      "concepts": [],
+      "base_prediction": "Fall",
+      "base_confidence": 0.555,
+      "final_prediction": "Fall",
+      "abel_context": [
+        "GOOG: direction=up, prediction=0.0001",
+        "GOOG parents: ['Bogged price', 'BitTorrent(New) price', 'CaliCoin price', 'Dohrnii price', 'Factor Dao price']",
+        "Abel avg prediction: 0.0001"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0507",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [
+        "AMZN"
+      ],
+      "concepts": [],
+      "base_prediction": "Fall",
+      "base_confidence": 0.615,
+      "final_prediction": "Fall",
+      "abel_context": [
+        "AMZN: direction=up, prediction=0.0011",
+        "AMZN parents: ['BitTorrent(New) price', 'FiEE, Inc. stock price', 'Granite Ridge Resources, Inc stock price', 'UniLayer price', 'Liquid Staking Derivatives price']",
+        "Abel avg prediction: 0.0011"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0508",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Rise",
+      "tickers": [
+        "WFC"
+      ],
+      "concepts": [],
+      "base_prediction": "Fall",
+      "base_confidence": 0.555,
+      "final_prediction": "Fall",
+      "abel_context": [
+        "WFC: direction=up, prediction=0.002",
+        "WFC parents: ['Achain price', 'American Rebel Holdings, Inc. stock price', 'CMS Energy Corporation 5.875% J stock price', 'Dione Protocol price', 'Galaxy Finance price']",
+        "Abel avg prediction: 0.0020"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": false
+    },
+    {
+      "eval_id": "Q0509",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Rise",
+      "tickers": [
+        "AAPL"
+      ],
+      "concepts": [],
+      "base_prediction": "Fall",
+      "base_confidence": 0.598,
+      "final_prediction": "Fall",
+      "abel_context": [
+        "AAPL: direction=up, prediction=0.0025",
+        "AAPL parents: ['American Rebel Holdings, Inc. stock price', 'Echelon Prime price']",
+        "Abel avg prediction: 0.0025"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": false
+    },
+    {
+      "eval_id": "Q0510",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Rise",
+      "tickers": [
+        "GOOG",
+        "AAPL",
+        "INTC"
+      ],
+      "concepts": [],
+      "base_prediction": "Rise",
+      "base_confidence": 0.562,
+      "final_prediction": "Rise",
+      "abel_context": [
+        "GOOG: direction=up, prediction=0.0001",
+        "GOOG parents: ['Bogged price', 'BitTorrent(New) price', 'CaliCoin price', 'Dohrnii price', 'Factor Dao price']",
+        "AAPL: direction=up, prediction=0.0025",
+        "AAPL parents: ['American Rebel Holdings, Inc. stock price', 'Echelon Prime price']",
+        "INTC: direction=up, prediction=0.0093",
+        "INTC parents: ['Crane NXT, Co. stock price', 'Guardian price', 'Islander price', 'Steem Dollars price', 'saffron.finance price']",
+        "Abel avg prediction: 0.0040"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0511",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Rise",
+      "tickers": [
+        "AAPL",
+        "META"
+      ],
+      "concepts": [],
+      "base_prediction": "Fall",
+      "base_confidence": 0.667,
+      "final_prediction": "Fall",
+      "abel_context": [
+        "AAPL: direction=up, prediction=0.0025",
+        "AAPL parents: ['American Rebel Holdings, Inc. stock price', 'Echelon Prime price']",
+        "META: direction=down, prediction=-0.0017",
+        "META parents: ['Evaxion Biotech A/S stock price', 'FIGS, Inc. stock price', 'D-Market Elektronik Hizmetler ve Ticaret A.S. stock price', 'Hagerty, Inc. stock price', 'IO Biotech, Inc. stock price']",
+        "Abel avg prediction: 0.0004"
+      ],
+      "abel_signal": "down",
+      "abel_helps": true,
+      "is_correct": false
+    },
+    {
+      "eval_id": "Q0512",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Rise",
+      "tickers": [
+        "AAPL"
+      ],
+      "concepts": [],
+      "base_prediction": "Fall",
+      "base_confidence": 0.552,
+      "final_prediction": "Fall",
+      "abel_context": [
+        "AAPL: direction=up, prediction=0.0025",
+        "AAPL parents: ['American Rebel Holdings, Inc. stock price', 'Echelon Prime price']",
+        "Abel avg prediction: 0.0025"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": false
+    },
+    {
+      "eval_id": "Q0513",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [
+        "MSFT"
+      ],
+      "concepts": [],
+      "base_prediction": "Fall",
+      "base_confidence": 0.552,
+      "final_prediction": "Fall",
+      "abel_context": [
+        "MSFT: direction=up, prediction=0.0025",
+        "MSFT parents: ['Dark Frontiers price', 'IMO price', 'Islander price', 'Pacoca price', 'OptionRoom price']",
+        "Abel avg prediction: 0.0025"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0514",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Rise",
+      "tickers": [
+        "AAPL"
+      ],
+      "concepts": [],
+      "base_prediction": "Rise",
+      "base_confidence": 0.583,
+      "final_prediction": "Rise",
+      "abel_context": [
+        "AAPL: direction=up, prediction=0.0025",
+        "AAPL parents: ['American Rebel Holdings, Inc. stock price', 'Echelon Prime price']",
+        "Abel avg prediction: 0.0025"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0515",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "META"
+      ],
+      "concepts": [
+        "stock market"
+      ],
+      "base_prediction": "Rise",
+      "base_confidence": 0.553,
+      "final_prediction": "Rise",
+      "abel_context": [
+        "AAPL: direction=up, prediction=0.0025",
+        "AAPL parents: ['American Rebel Holdings, Inc. stock price', 'Echelon Prime price']",
+        "MSFT: direction=up, prediction=0.0025",
+        "MSFT parents: ['Dark Frontiers price', 'IMO price', 'Islander price', 'Pacoca price', 'OptionRoom price']",
+        "META: direction=down, prediction=-0.0017",
+        "META parents: ['Evaxion Biotech A/S stock price', 'FIGS, Inc. stock price', 'D-Market Elektronik Hizmetler ve Ticaret A.S. stock price', 'Hagerty, Inc. stock price', 'IO Biotech, Inc. stock price']",
+        "Abel avg prediction: 0.0011"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": false
+    },
+    {
+      "eval_id": "Q0516",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [
+        "JPM",
+        "BAC",
+        "WFC"
+      ],
+      "concepts": [
+        "mortgage"
+      ],
+      "base_prediction": "Fall",
+      "base_confidence": 0.585,
+      "final_prediction": "Fall",
+      "abel_context": [
+        "JPM: direction=neutral, prediction=0.0",
+        "JPM parents: ['Assurant, Inc. 5.25% Subordinat stock price', 'American Rebel Holdings, Inc. stock price', 'Gravity price', 'IMO price', 'Mobipad price']",
+        "BAC: direction=up, prediction=0.0004",
+        "BAC parents: ['Achain price', 'Assurant, Inc. 5.25% Subordinat stock price', 'American Rebel Holdings, Inc. stock price', 'Brookfield Infrastructure Corpo stock price', 'CMS Energy Corporation 5.875% J stock price']",
+        "WFC: direction=up, prediction=0.002",
+        "WFC parents: ['Achain price', 'American Rebel Holdings, Inc. stock price', 'CMS Energy Corporation 5.875% J stock price', 'Dione Protocol price', 'Galaxy Finance price']",
+        "mortgage (30YearFixedRateMortgageAverage) blanket: ['30-Year Fixed Mortgage Rate', '3-Month Certificate of Deposit Yield', 'Consumer Price Index', 'Gross Domestic Product', 'Credit Card Interest Rate']",
+        "Abel avg prediction: 0.0008"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0517",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Rise",
+      "tickers": [
+        "AAPL",
+        "TSLA"
+      ],
+      "concepts": [],
+      "base_prediction": "Fall",
+      "base_confidence": 0.52,
+      "final_prediction": "Fall",
+      "abel_context": [
+        "AAPL: direction=up, prediction=0.0025",
+        "AAPL parents: ['American Rebel Holdings, Inc. stock price', 'Echelon Prime price']",
+        "TSLA: direction=up, prediction=0.0105",
+        "TSLA parents: ['IMO price', 'saffron.finance price']",
+        "Abel avg prediction: 0.0065"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": false
+    },
+    {
+      "eval_id": "Q0518",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [
+        "AAPL"
+      ],
+      "concepts": [],
+      "base_prediction": "Fall",
+      "base_confidence": 0.552,
+      "final_prediction": "Fall",
+      "abel_context": [
+        "AAPL: direction=up, prediction=0.0025",
+        "AAPL parents: ['American Rebel Holdings, Inc. stock price', 'Echelon Prime price']",
+        "Abel avg prediction: 0.0025"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0519",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Rise",
+      "tickers": [
+        "GOOG",
+        "AAPL",
+        "MSFT",
+        "GME"
+      ],
+      "concepts": [],
+      "base_prediction": "Rise",
+      "base_confidence": 0.64,
+      "final_prediction": "Rise",
+      "abel_context": [
+        "GOOG: direction=up, prediction=0.0001",
+        "GOOG parents: ['Bogged price', 'BitTorrent(New) price', 'CaliCoin price', 'Dohrnii price', 'Factor Dao price']",
+        "AAPL: direction=up, prediction=0.0025",
+        "AAPL parents: ['American Rebel Holdings, Inc. stock price', 'Echelon Prime price']",
+        "MSFT: direction=up, prediction=0.0025",
+        "MSFT parents: ['Dark Frontiers price', 'IMO price', 'Islander price', 'Pacoca price', 'OptionRoom price']",
+        "GME: direction=down, prediction=-0.0013",
+        "GME parents: ['Asia Pacific Wire & Cable Corporation Limited stock price', 'CPChain price', 'Diamond price', 'Epsilon Energy Ltd. stock price', 'GameStop Corp. stock price']",
+        "Abel avg prediction: 0.0010"
+      ],
+      "abel_signal": "down",
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0520",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [
+        "AAPL",
+        "INTC"
+      ],
+      "concepts": [],
+      "base_prediction": "Fall",
+      "base_confidence": 0.57,
+      "final_prediction": "Fall",
+      "abel_context": [
+        "AAPL: direction=up, prediction=0.0025",
+        "AAPL parents: ['American Rebel Holdings, Inc. stock price', 'Echelon Prime price']",
+        "INTC: direction=up, prediction=0.0093",
+        "INTC parents: ['Crane NXT, Co. stock price', 'Guardian price', 'Islander price', 'Steem Dollars price', 'saffron.finance price']",
+        "Abel avg prediction: 0.0059"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0521",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [
+        "JPM",
+        "AAPL"
+      ],
+      "concepts": [],
+      "base_prediction": "Fall",
+      "base_confidence": 0.57,
+      "final_prediction": "Fall",
+      "abel_context": [
+        "JPM: direction=neutral, prediction=0.0",
+        "JPM parents: ['Assurant, Inc. 5.25% Subordinat stock price', 'American Rebel Holdings, Inc. stock price', 'Gravity price', 'IMO price', 'Mobipad price']",
+        "AAPL: direction=up, prediction=0.0025",
+        "AAPL parents: ['American Rebel Holdings, Inc. stock price', 'Echelon Prime price']",
+        "Abel avg prediction: 0.0013"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0522",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [
+        "AMD",
+        "INTC",
+        "AMZN"
+      ],
+      "concepts": [],
+      "base_prediction": "Fall",
+      "base_confidence": 0.618,
+      "final_prediction": "Fall",
+      "abel_context": [
+        "INTC: direction=up, prediction=0.0093",
+        "INTC parents: ['Crane NXT, Co. stock price', 'Guardian price', 'Islander price', 'Steem Dollars price', 'saffron.finance price']",
+        "AMZN: direction=up, prediction=0.0011",
+        "AMZN parents: ['BitTorrent(New) price', 'FiEE, Inc. stock price', 'Granite Ridge Resources, Inc stock price', 'UniLayer price', 'Liquid Staking Derivatives price']",
+        "Abel avg prediction: 0.0052"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0523",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Rise",
+      "tickers": [
+        "INTC"
+      ],
+      "concepts": [],
+      "base_prediction": "Fall",
+      "base_confidence": 0.602,
+      "final_prediction": "Fall",
+      "abel_context": [
+        "INTC: direction=up, prediction=0.0093",
+        "INTC parents: ['Crane NXT, Co. stock price', 'Guardian price', 'Islander price', 'Steem Dollars price', 'saffron.finance price']",
+        "Abel avg prediction: 0.0093"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": false
+    },
+    {
+      "eval_id": "Q0524",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [
+        "JPM",
+        "BAC",
+        "WFC"
+      ],
+      "concepts": [],
+      "base_prediction": "Rise",
+      "base_confidence": 0.555,
+      "final_prediction": "Rise",
+      "abel_context": [
+        "JPM: direction=neutral, prediction=0.0",
+        "JPM parents: ['Assurant, Inc. 5.25% Subordinat stock price', 'American Rebel Holdings, Inc. stock price', 'Gravity price', 'IMO price', 'Mobipad price']",
+        "BAC: direction=up, prediction=0.0004",
+        "BAC parents: ['Achain price', 'Assurant, Inc. 5.25% Subordinat stock price', 'American Rebel Holdings, Inc. stock price', 'Brookfield Infrastructure Corpo stock price', 'CMS Energy Corporation 5.875% J stock price']",
+        "WFC: direction=up, prediction=0.002",
+        "WFC parents: ['Achain price', 'American Rebel Holdings, Inc. stock price', 'CMS Energy Corporation 5.875% J stock price', 'Dione Protocol price', 'Galaxy Finance price']",
+        "Abel avg prediction: 0.0008"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": false
+    },
+    {
+      "eval_id": "Q0525",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [
+        "AMZN"
+      ],
+      "concepts": [],
+      "base_prediction": "Fall",
+      "base_confidence": 0.58,
+      "final_prediction": "Fall",
+      "abel_context": [
+        "AMZN: direction=up, prediction=0.0011",
+        "AMZN parents: ['BitTorrent(New) price', 'FiEE, Inc. stock price', 'Granite Ridge Resources, Inc stock price', 'UniLayer price', 'Liquid Staking Derivatives price']",
+        "Abel avg prediction: 0.0011"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0526",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [
+        "AAPL"
+      ],
+      "concepts": [],
+      "base_prediction": "Rise",
+      "base_confidence": 0.56,
+      "final_prediction": "Rise",
+      "abel_context": [
+        "AAPL: direction=up, prediction=0.0025",
+        "AAPL parents: ['American Rebel Holdings, Inc. stock price', 'Echelon Prime price']",
+        "Abel avg prediction: 0.0025"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": false
+    },
+    {
+      "eval_id": "Q0527",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [
+        "WFC"
+      ],
+      "concepts": [
+        "stock market"
+      ],
+      "base_prediction": "Fall",
+      "base_confidence": 0.555,
+      "final_prediction": "Fall",
+      "abel_context": [
+        "WFC: direction=up, prediction=0.002",
+        "WFC parents: ['Achain price', 'American Rebel Holdings, Inc. stock price', 'CMS Energy Corporation 5.875% J stock price', 'Dione Protocol price', 'Galaxy Finance price']",
+        "Abel avg prediction: 0.0020"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0528",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Rise",
+      "tickers": [
+        "MSFT"
+      ],
+      "concepts": [],
+      "base_prediction": "Rise",
+      "base_confidence": 0.59,
+      "final_prediction": "Rise",
+      "abel_context": [
+        "MSFT: direction=up, prediction=0.0025",
+        "MSFT parents: ['Dark Frontiers price', 'IMO price', 'Islander price', 'Pacoca price', 'OptionRoom price']",
+        "Abel avg prediction: 0.0025"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0529",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Rise",
+      "tickers": [
+        "GOOG",
+        "DIS"
+      ],
+      "concepts": [],
+      "base_prediction": "Rise",
+      "base_confidence": 0.568,
+      "final_prediction": "Rise",
+      "abel_context": [
+        "GOOG: direction=up, prediction=0.0001",
+        "GOOG parents: ['Bogged price', 'BitTorrent(New) price', 'CaliCoin price', 'Dohrnii price', 'Factor Dao price']",
+        "DIS: direction=up, prediction=0.0008",
+        "DIS parents: ['ABBC Coin price', 'AGNC Investment Corp. stock price', 'Athene Holding Ltd. stock price', 'Chimera Investment Corporation stock price', 'Dotmoovs price']",
+        "Abel avg prediction: 0.0005"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0530",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Rise",
+      "tickers": [
+        "AAPL",
+        "TSLA"
+      ],
+      "concepts": [],
+      "base_prediction": "Fall",
+      "base_confidence": 0.605,
+      "final_prediction": "Fall",
+      "abel_context": [
+        "AAPL: direction=up, prediction=0.0025",
+        "AAPL parents: ['American Rebel Holdings, Inc. stock price', 'Echelon Prime price']",
+        "TSLA: direction=up, prediction=0.0105",
+        "TSLA parents: ['IMO price', 'saffron.finance price']",
+        "Abel avg prediction: 0.0065"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": false
+    },
+    {
+      "eval_id": "Q0531",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Rise",
+      "tickers": [
+        "GOOG",
+        "META"
+      ],
+      "concepts": [],
+      "base_prediction": "Rise",
+      "base_confidence": 0.562,
+      "final_prediction": "Rise",
+      "abel_context": [
+        "GOOG: direction=up, prediction=0.0001",
+        "GOOG parents: ['Bogged price', 'BitTorrent(New) price', 'CaliCoin price', 'Dohrnii price', 'Factor Dao price']",
+        "META: direction=down, prediction=-0.0017",
+        "META parents: ['Evaxion Biotech A/S stock price', 'FIGS, Inc. stock price', 'D-Market Elektronik Hizmetler ve Ticaret A.S. stock price', 'Hagerty, Inc. stock price', 'IO Biotech, Inc. stock price']",
+        "Abel avg prediction: -0.0008"
+      ],
+      "abel_signal": "down",
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0532",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [
+        "WFC"
+      ],
+      "concepts": [],
+      "base_prediction": "Rise",
+      "base_confidence": 0.578,
+      "final_prediction": "Rise",
+      "abel_context": [
+        "WFC: direction=up, prediction=0.002",
+        "WFC parents: ['Achain price', 'American Rebel Holdings, Inc. stock price', 'CMS Energy Corporation 5.875% J stock price', 'Dione Protocol price', 'Galaxy Finance price']",
+        "Abel avg prediction: 0.0020"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": false
+    },
+    {
+      "eval_id": "Q0533",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [],
+      "concepts": [
+        "durable goods",
+        "bond yield"
+      ],
+      "base_prediction": "Fall",
+      "base_confidence": 0.573,
+      "final_prediction": "Fall",
+      "abel_context": [
+        "durable goods (durableGoods) blanket: ['15-Year Fixed Mortgage Rate', '30-Year Fixed Mortgage Rate', '3-Month Certificate of Deposit Yield', 'Consumer Price Index', 'Gross Domestic Product']",
+        "bond yield (treasuryRateYear10) blanket: ['15-Year Fixed Mortgage Rate', '30-Year Fixed Mortgage Rate', '3-Month Certificate of Deposit Yield', 'Consumer Price Index', 'Gross Domestic Product']"
+      ],
+      "abel_signal": null,
+      "abel_helps": false,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0534",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Rise",
+      "tickers": [
+        "AAPL",
+        "MSFT",
+        "META"
+      ],
+      "concepts": [],
+      "base_prediction": "Rise",
+      "base_confidence": 0.75,
+      "final_prediction": "Rise",
+      "abel_context": [
+        "AAPL: direction=up, prediction=0.0025",
+        "AAPL parents: ['American Rebel Holdings, Inc. stock price', 'Echelon Prime price']",
+        "MSFT: direction=up, prediction=0.0025",
+        "MSFT parents: ['Dark Frontiers price', 'IMO price', 'Islander price', 'Pacoca price', 'OptionRoom price']",
+        "META: direction=down, prediction=-0.0017",
+        "META parents: ['Evaxion Biotech A/S stock price', 'FIGS, Inc. stock price', 'D-Market Elektronik Hizmetler ve Ticaret A.S. stock price', 'Hagerty, Inc. stock price', 'IO Biotech, Inc. stock price']",
+        "Abel avg prediction: 0.0011"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0535",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [
+        "JPM",
+        "BAC",
+        "WFC"
+      ],
+      "concepts": [
+        "mortgage"
+      ],
+      "base_prediction": "Fall",
+      "base_confidence": 0.558,
+      "final_prediction": "Fall",
+      "abel_context": [
+        "JPM: direction=neutral, prediction=0.0",
+        "JPM parents: ['Assurant, Inc. 5.25% Subordinat stock price', 'American Rebel Holdings, Inc. stock price', 'Gravity price', 'IMO price', 'Mobipad price']",
+        "BAC: direction=up, prediction=0.0004",
+        "BAC parents: ['Achain price', 'Assurant, Inc. 5.25% Subordinat stock price', 'American Rebel Holdings, Inc. stock price', 'Brookfield Infrastructure Corpo stock price', 'CMS Energy Corporation 5.875% J stock price']",
+        "WFC: direction=up, prediction=0.002",
+        "WFC parents: ['Achain price', 'American Rebel Holdings, Inc. stock price', 'CMS Energy Corporation 5.875% J stock price', 'Dione Protocol price', 'Galaxy Finance price']",
+        "mortgage (30YearFixedRateMortgageAverage) blanket: ['30-Year Fixed Mortgage Rate', '3-Month Certificate of Deposit Yield', 'Consumer Price Index', 'Gross Domestic Product', 'Credit Card Interest Rate']",
+        "Abel avg prediction: 0.0008"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0536",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [
+        "WFC"
+      ],
+      "concepts": [
+        "stock market"
+      ],
+      "base_prediction": "Fall",
+      "base_confidence": 0.587,
+      "final_prediction": "Fall",
+      "abel_context": [
+        "WFC: direction=up, prediction=0.002",
+        "WFC parents: ['Achain price', 'American Rebel Holdings, Inc. stock price', 'CMS Energy Corporation 5.875% J stock price', 'Dione Protocol price', 'Galaxy Finance price']",
+        "Abel avg prediction: 0.0020"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0537",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [
+        "INTC"
+      ],
+      "concepts": [],
+      "base_prediction": "Rise",
+      "base_confidence": 0.593,
+      "final_prediction": "Rise",
+      "abel_context": [
+        "INTC: direction=up, prediction=0.0093",
+        "INTC parents: ['Crane NXT, Co. stock price', 'Guardian price', 'Islander price', 'Steem Dollars price', 'saffron.finance price']",
+        "Abel avg prediction: 0.0093"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": false
+    },
+    {
+      "eval_id": "Q0538",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [
+        "BAC"
+      ],
+      "concepts": [
+        "mortgage"
+      ],
+      "base_prediction": "Rise",
+      "base_confidence": 0.642,
+      "final_prediction": "Rise",
+      "abel_context": [
+        "BAC: direction=up, prediction=0.0004",
+        "BAC parents: ['Achain price', 'Assurant, Inc. 5.25% Subordinat stock price', 'American Rebel Holdings, Inc. stock price', 'Brookfield Infrastructure Corpo stock price', 'CMS Energy Corporation 5.875% J stock price']",
+        "mortgage (30YearFixedRateMortgageAverage) blanket: ['30-Year Fixed Mortgage Rate', '3-Month Certificate of Deposit Yield', 'Consumer Price Index', 'Gross Domestic Product', 'Credit Card Interest Rate']",
+        "Abel avg prediction: 0.0004"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": false
+    },
+    {
+      "eval_id": "Q0539",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [
+        "AMD"
+      ],
+      "concepts": [],
+      "base_prediction": "Fall",
+      "base_confidence": 0.567,
+      "final_prediction": "Fall",
+      "abel_context": [],
+      "abel_signal": null,
+      "abel_helps": false,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0540",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [
+        "BAC",
+        "AMD"
+      ],
+      "concepts": [
+        "mortgage"
+      ],
+      "base_prediction": "Rise",
+      "base_confidence": 0.583,
+      "final_prediction": "Rise",
+      "abel_context": [
+        "BAC: direction=up, prediction=0.0004",
+        "BAC parents: ['Achain price', 'Assurant, Inc. 5.25% Subordinat stock price', 'American Rebel Holdings, Inc. stock price', 'Brookfield Infrastructure Corpo stock price', 'CMS Energy Corporation 5.875% J stock price']",
+        "mortgage (30YearFixedRateMortgageAverage) blanket: ['30-Year Fixed Mortgage Rate', '3-Month Certificate of Deposit Yield', 'Consumer Price Index', 'Gross Domestic Product', 'Credit Card Interest Rate']",
+        "Abel avg prediction: 0.0004"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": false
+    },
+    {
+      "eval_id": "Q0541",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Rise",
+      "tickers": [
+        "JPM",
+        "AAPL"
+      ],
+      "concepts": [],
+      "base_prediction": "Fall",
+      "base_confidence": 0.597,
+      "final_prediction": "Fall",
+      "abel_context": [
+        "JPM: direction=neutral, prediction=0.0",
+        "JPM parents: ['Assurant, Inc. 5.25% Subordinat stock price', 'American Rebel Holdings, Inc. stock price', 'Gravity price', 'IMO price', 'Mobipad price']",
+        "AAPL: direction=up, prediction=0.0025",
+        "AAPL parents: ['American Rebel Holdings, Inc. stock price', 'Echelon Prime price']",
+        "Abel avg prediction: 0.0013"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": false
+    },
+    {
+      "eval_id": "Q0542",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [
+        "AAPL"
+      ],
+      "concepts": [],
+      "base_prediction": "Fall",
+      "base_confidence": 0.56,
+      "final_prediction": "Fall",
+      "abel_context": [
+        "AAPL: direction=up, prediction=0.0025",
+        "AAPL parents: ['American Rebel Holdings, Inc. stock price', 'Echelon Prime price']",
+        "Abel avg prediction: 0.0025"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0543",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Rise",
+      "tickers": [
+        "MS"
+      ],
+      "concepts": [],
+      "base_prediction": "Rise",
+      "base_confidence": 0.567,
+      "final_prediction": "Rise",
+      "abel_context": [
+        "MS: direction=up, prediction=0.0003",
+        "MS parents: ['American Rebel Holdings, Inc. stock price', 'IMO price', 'Mobipad price', 'Santos FC Fan Token price', 'Pontoon price']",
+        "Abel avg prediction: 0.0003"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0544",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [
+        "AAPL",
+        "INTC"
+      ],
+      "concepts": [
+        "stock market"
+      ],
+      "base_prediction": "Rise",
+      "base_confidence": 0.602,
+      "final_prediction": "Rise",
+      "abel_context": [
+        "AAPL: direction=up, prediction=0.0025",
+        "AAPL parents: ['American Rebel Holdings, Inc. stock price', 'Echelon Prime price']",
+        "INTC: direction=up, prediction=0.0093",
+        "INTC parents: ['Crane NXT, Co. stock price', 'Guardian price', 'Islander price', 'Steem Dollars price', 'saffron.finance price']",
+        "Abel avg prediction: 0.0059"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": false
+    },
+    {
+      "eval_id": "Q0545",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [
+        "GOOG",
+        "AAPL",
+        "MSFT",
+        "INTC"
+      ],
+      "concepts": [],
+      "base_prediction": "Fall",
+      "base_confidence": 0.573,
+      "final_prediction": "Fall",
+      "abel_context": [
+        "GOOG: direction=up, prediction=0.0001",
+        "GOOG parents: ['Bogged price', 'BitTorrent(New) price', 'CaliCoin price', 'Dohrnii price', 'Factor Dao price']",
+        "AAPL: direction=up, prediction=0.0025",
+        "AAPL parents: ['American Rebel Holdings, Inc. stock price', 'Echelon Prime price']",
+        "MSFT: direction=up, prediction=0.0025",
+        "MSFT parents: ['Dark Frontiers price', 'IMO price', 'Islander price', 'Pacoca price', 'OptionRoom price']",
+        "INTC: direction=up, prediction=0.0093",
+        "INTC parents: ['Crane NXT, Co. stock price', 'Guardian price', 'Islander price', 'Steem Dollars price', 'saffron.finance price']",
+        "Abel avg prediction: 0.0036"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0546",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Rise",
+      "tickers": [
+        "AAPL"
+      ],
+      "concepts": [],
+      "base_prediction": "Rise",
+      "base_confidence": 0.633,
+      "final_prediction": "Rise",
+      "abel_context": [
+        "AAPL: direction=up, prediction=0.0025",
+        "AAPL parents: ['American Rebel Holdings, Inc. stock price', 'Echelon Prime price']",
+        "Abel avg prediction: 0.0025"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0547",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [
+        "AAPL"
+      ],
+      "concepts": [],
+      "base_prediction": "Rise",
+      "base_confidence": 0.565,
+      "final_prediction": "Rise",
+      "abel_context": [
+        "AAPL: direction=up, prediction=0.0025",
+        "AAPL parents: ['American Rebel Holdings, Inc. stock price', 'Echelon Prime price']",
+        "Abel avg prediction: 0.0025"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": false
+    },
+    {
+      "eval_id": "Q0548",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Rise",
+      "tickers": [
+        "GOOG",
+        "AAPL",
+        "AMD"
+      ],
+      "concepts": [],
+      "base_prediction": "Fall",
+      "base_confidence": 0.557,
+      "final_prediction": "Fall",
+      "abel_context": [
+        "GOOG: direction=up, prediction=0.0001",
+        "GOOG parents: ['Bogged price', 'BitTorrent(New) price', 'CaliCoin price', 'Dohrnii price', 'Factor Dao price']",
+        "AAPL: direction=up, prediction=0.0025",
+        "AAPL parents: ['American Rebel Holdings, Inc. stock price', 'Echelon Prime price']",
+        "Abel avg prediction: 0.0013"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": false
+    },
+    {
+      "eval_id": "Q0549",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [
+        "GOOG"
+      ],
+      "concepts": [],
+      "base_prediction": "Fall",
+      "base_confidence": 0.627,
+      "final_prediction": "Fall",
+      "abel_context": [
+        "GOOG: direction=up, prediction=0.0001",
+        "GOOG parents: ['Bogged price', 'BitTorrent(New) price', 'CaliCoin price', 'Dohrnii price', 'Factor Dao price']",
+        "Abel avg prediction: 0.0001"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0550",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Rise",
+      "tickers": [
+        "DIS",
+        "MS"
+      ],
+      "concepts": [],
+      "base_prediction": "Rise",
+      "base_confidence": 0.657,
+      "final_prediction": "Rise",
+      "abel_context": [
+        "DIS: direction=up, prediction=0.0008",
+        "DIS parents: ['ABBC Coin price', 'AGNC Investment Corp. stock price', 'Athene Holding Ltd. stock price', 'Chimera Investment Corporation stock price', 'Dotmoovs price']",
+        "MS: direction=up, prediction=0.0003",
+        "MS parents: ['American Rebel Holdings, Inc. stock price', 'IMO price', 'Mobipad price', 'Santos FC Fan Token price', 'Pontoon price']",
+        "Abel avg prediction: 0.0006"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0551",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [
+        "JPM",
+        "BAC"
+      ],
+      "concepts": [],
+      "base_prediction": "Fall",
+      "base_confidence": 0.622,
+      "final_prediction": "Fall",
+      "abel_context": [
+        "JPM: direction=neutral, prediction=0.0",
+        "JPM parents: ['Assurant, Inc. 5.25% Subordinat stock price', 'American Rebel Holdings, Inc. stock price', 'Gravity price', 'IMO price', 'Mobipad price']",
+        "BAC: direction=up, prediction=0.0004",
+        "BAC parents: ['Achain price', 'Assurant, Inc. 5.25% Subordinat stock price', 'American Rebel Holdings, Inc. stock price', 'Brookfield Infrastructure Corpo stock price', 'CMS Energy Corporation 5.875% J stock price']",
+        "Abel avg prediction: 0.0002"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0552",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [],
+      "concepts": [
+        "stock market"
+      ],
+      "base_prediction": "Rise",
+      "base_confidence": 0.6,
+      "final_prediction": "Rise",
+      "abel_context": [],
+      "abel_signal": null,
+      "abel_helps": false,
+      "is_correct": false
+    },
+    {
+      "eval_id": "Q0553",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Rise",
+      "tickers": [
+        "WFC"
+      ],
+      "concepts": [],
+      "base_prediction": "Rise",
+      "base_confidence": 0.565,
+      "final_prediction": "Rise",
+      "abel_context": [
+        "WFC: direction=up, prediction=0.002",
+        "WFC parents: ['Achain price', 'American Rebel Holdings, Inc. stock price', 'CMS Energy Corporation 5.875% J stock price', 'Dione Protocol price', 'Galaxy Finance price']",
+        "Abel avg prediction: 0.0020"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0554",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [
+        "AAPL",
+        "META"
+      ],
+      "concepts": [],
+      "base_prediction": "Fall",
+      "base_confidence": 0.667,
+      "final_prediction": "Fall",
+      "abel_context": [
+        "AAPL: direction=up, prediction=0.0025",
+        "AAPL parents: ['American Rebel Holdings, Inc. stock price', 'Echelon Prime price']",
+        "META: direction=down, prediction=-0.0017",
+        "META parents: ['Evaxion Biotech A/S stock price', 'FIGS, Inc. stock price', 'D-Market Elektronik Hizmetler ve Ticaret A.S. stock price', 'Hagerty, Inc. stock price', 'IO Biotech, Inc. stock price']",
+        "Abel avg prediction: 0.0004"
+      ],
+      "abel_signal": "down",
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0555",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Rise",
+      "tickers": [
+        "AMZN"
+      ],
+      "concepts": [],
+      "base_prediction": "Fall",
+      "base_confidence": 0.56,
+      "final_prediction": "Fall",
+      "abel_context": [
+        "AMZN: direction=up, prediction=0.0011",
+        "AMZN parents: ['BitTorrent(New) price', 'FiEE, Inc. stock price', 'Granite Ridge Resources, Inc stock price', 'UniLayer price', 'Liquid Staking Derivatives price']",
+        "Abel avg prediction: 0.0011"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": false
+    },
+    {
+      "eval_id": "Q0556",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Rise",
+      "tickers": [
+        "GOOG",
+        "JPM",
+        "META",
+        "AAPL",
+        "AMZN"
+      ],
+      "concepts": [],
+      "base_prediction": "Fall",
+      "base_confidence": 0.52,
+      "final_prediction": "Fall",
+      "abel_context": [
+        "GOOG: direction=up, prediction=0.0001",
+        "GOOG parents: ['Bogged price', 'BitTorrent(New) price', 'CaliCoin price', 'Dohrnii price', 'Factor Dao price']",
+        "JPM: direction=neutral, prediction=0.0",
+        "JPM parents: ['Assurant, Inc. 5.25% Subordinat stock price', 'American Rebel Holdings, Inc. stock price', 'Gravity price', 'IMO price', 'Mobipad price']",
+        "META: direction=down, prediction=-0.0017",
+        "META parents: ['Evaxion Biotech A/S stock price', 'FIGS, Inc. stock price', 'D-Market Elektronik Hizmetler ve Ticaret A.S. stock price', 'Hagerty, Inc. stock price', 'IO Biotech, Inc. stock price']",
+        "AAPL: direction=up, prediction=0.0025",
+        "AAPL parents: ['American Rebel Holdings, Inc. stock price', 'Echelon Prime price']",
+        "AMZN: direction=up, prediction=0.0011",
+        "AMZN parents: ['BitTorrent(New) price', 'FiEE, Inc. stock price', 'Granite Ridge Resources, Inc stock price', 'UniLayer price', 'Liquid Staking Derivatives price']",
+        "Abel avg prediction: 0.0004"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": false
+    },
+    {
+      "eval_id": "Q0557",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Rise",
+      "tickers": [
+        "AMZN"
+      ],
+      "concepts": [],
+      "base_prediction": "Fall",
+      "base_confidence": 0.577,
+      "final_prediction": "Fall",
+      "abel_context": [
+        "AMZN: direction=up, prediction=0.0011",
+        "AMZN parents: ['BitTorrent(New) price', 'FiEE, Inc. stock price', 'Granite Ridge Resources, Inc stock price', 'UniLayer price', 'Liquid Staking Derivatives price']",
+        "Abel avg prediction: 0.0011"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": false
+    },
+    {
+      "eval_id": "Q0558",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Rise",
+      "tickers": [
+        "BAC"
+      ],
+      "concepts": [
+        "stock market"
+      ],
+      "base_prediction": "Rise",
+      "base_confidence": 0.565,
+      "final_prediction": "Rise",
+      "abel_context": [
+        "BAC: direction=up, prediction=0.0004",
+        "BAC parents: ['Achain price', 'Assurant, Inc. 5.25% Subordinat stock price', 'American Rebel Holdings, Inc. stock price', 'Brookfield Infrastructure Corpo stock price', 'CMS Energy Corporation 5.875% J stock price']",
+        "Abel avg prediction: 0.0004"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0559",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Rise",
+      "tickers": [
+        "BAC"
+      ],
+      "concepts": [
+        "mortgage"
+      ],
+      "base_prediction": "Rise",
+      "base_confidence": 0.59,
+      "final_prediction": "Rise",
+      "abel_context": [
+        "BAC: direction=up, prediction=0.0004",
+        "BAC parents: ['Achain price', 'Assurant, Inc. 5.25% Subordinat stock price', 'American Rebel Holdings, Inc. stock price', 'Brookfield Infrastructure Corpo stock price', 'CMS Energy Corporation 5.875% J stock price']",
+        "mortgage (30YearFixedRateMortgageAverage) blanket: ['30-Year Fixed Mortgage Rate', '3-Month Certificate of Deposit Yield', 'Consumer Price Index', 'Gross Domestic Product', 'Credit Card Interest Rate']",
+        "Abel avg prediction: 0.0004"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0560",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Rise",
+      "tickers": [
+        "DIS"
+      ],
+      "concepts": [],
+      "base_prediction": "Fall",
+      "base_confidence": 0.592,
+      "final_prediction": "Fall",
+      "abel_context": [
+        "DIS: direction=up, prediction=0.0008",
+        "DIS parents: ['ABBC Coin price', 'AGNC Investment Corp. stock price', 'Athene Holding Ltd. stock price', 'Chimera Investment Corporation stock price', 'Dotmoovs price']",
+        "Abel avg prediction: 0.0008"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": false
+    },
+    {
+      "eval_id": "Q0561",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Rise",
+      "tickers": [
+        "MS"
+      ],
+      "concepts": [],
+      "base_prediction": "Fall",
+      "base_confidence": 0.605,
+      "final_prediction": "Fall",
+      "abel_context": [
+        "MS: direction=up, prediction=0.0003",
+        "MS parents: ['American Rebel Holdings, Inc. stock price', 'IMO price', 'Mobipad price', 'Santos FC Fan Token price', 'Pontoon price']",
+        "Abel avg prediction: 0.0003"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": false
+    },
+    {
+      "eval_id": "Q0562",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [
+        "AAPL"
+      ],
+      "concepts": [],
+      "base_prediction": "Rise",
+      "base_confidence": 0.562,
+      "final_prediction": "Rise",
+      "abel_context": [
+        "AAPL: direction=up, prediction=0.0025",
+        "AAPL parents: ['American Rebel Holdings, Inc. stock price', 'Echelon Prime price']",
+        "Abel avg prediction: 0.0025"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": false
+    },
+    {
+      "eval_id": "Q0563",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [
+        "GOOG",
+        "AAPL",
+        "MSFT",
+        "AMD"
+      ],
+      "concepts": [],
+      "base_prediction": "Rise",
+      "base_confidence": 0.575,
+      "final_prediction": "Rise",
+      "abel_context": [
+        "GOOG: direction=up, prediction=0.0001",
+        "GOOG parents: ['Bogged price', 'BitTorrent(New) price', 'CaliCoin price', 'Dohrnii price', 'Factor Dao price']",
+        "AAPL: direction=up, prediction=0.0025",
+        "AAPL parents: ['American Rebel Holdings, Inc. stock price', 'Echelon Prime price']",
+        "MSFT: direction=up, prediction=0.0025",
+        "MSFT parents: ['Dark Frontiers price', 'IMO price', 'Islander price', 'Pacoca price', 'OptionRoom price']",
+        "Abel avg prediction: 0.0017"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": false
+    },
+    {
+      "eval_id": "Q0564",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Rise",
+      "tickers": [
+        "WFC"
+      ],
+      "concepts": [],
+      "base_prediction": "Rise",
+      "base_confidence": 0.568,
+      "final_prediction": "Rise",
+      "abel_context": [
+        "WFC: direction=up, prediction=0.002",
+        "WFC parents: ['Achain price', 'American Rebel Holdings, Inc. stock price', 'CMS Energy Corporation 5.875% J stock price', 'Dione Protocol price', 'Galaxy Finance price']",
+        "Abel avg prediction: 0.0020"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0565",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [
+        "GOOG",
+        "AAPL",
+        "MSFT",
+        "GME"
+      ],
+      "concepts": [],
+      "base_prediction": "Rise",
+      "base_confidence": 0.585,
+      "final_prediction": "Rise",
+      "abel_context": [
+        "GOOG: direction=up, prediction=0.0001",
+        "GOOG parents: ['Bogged price', 'BitTorrent(New) price', 'CaliCoin price', 'Dohrnii price', 'Factor Dao price']",
+        "AAPL: direction=up, prediction=0.0025",
+        "AAPL parents: ['American Rebel Holdings, Inc. stock price', 'Echelon Prime price']",
+        "MSFT: direction=up, prediction=0.0025",
+        "MSFT parents: ['Dark Frontiers price', 'IMO price', 'Islander price', 'Pacoca price', 'OptionRoom price']",
+        "GME: direction=down, prediction=-0.0013",
+        "GME parents: ['Asia Pacific Wire & Cable Corporation Limited stock price', 'CPChain price', 'Diamond price', 'Epsilon Energy Ltd. stock price', 'GameStop Corp. stock price']",
+        "Abel avg prediction: 0.0010"
+      ],
+      "abel_signal": "down",
+      "abel_helps": true,
+      "is_correct": false
+    },
+    {
+      "eval_id": "Q0566",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [
+        "INTC"
+      ],
+      "concepts": [],
+      "base_prediction": "Rise",
+      "base_confidence": 0.563,
+      "final_prediction": "Rise",
+      "abel_context": [
+        "INTC: direction=up, prediction=0.0093",
+        "INTC parents: ['Crane NXT, Co. stock price', 'Guardian price', 'Islander price', 'Steem Dollars price', 'saffron.finance price']",
+        "Abel avg prediction: 0.0093"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": false
+    },
+    {
+      "eval_id": "Q0567",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Rise",
+      "tickers": [],
+      "concepts": [
+        "stock market"
+      ],
+      "base_prediction": "Rise",
+      "base_confidence": 0.658,
+      "final_prediction": "Rise",
+      "abel_context": [],
+      "abel_signal": null,
+      "abel_helps": false,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0568",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [
+        "ASML"
+      ],
+      "concepts": [],
+      "base_prediction": "Rise",
+      "base_confidence": 0.613,
+      "final_prediction": "Rise",
+      "abel_context": [
+        "ASML: direction=neutral, prediction=0.0",
+        "ASML parents: ['Alzamend Neuro, Inc. stock price', 'Finance Of America Companies Inc. stock price', 'GINZA NETWORK price', 'MiNK Therapeutics, Inc. stock price', 'ION price']",
+        "Abel avg prediction: 0.0000"
+      ],
+      "abel_signal": null,
+      "abel_helps": false,
+      "is_correct": false
+    },
+    {
+      "eval_id": "Q0569",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Rise",
+      "tickers": [
+        "BAC"
+      ],
+      "concepts": [],
+      "base_prediction": "Rise",
+      "base_confidence": 0.552,
+      "final_prediction": "Rise",
+      "abel_context": [
+        "BAC: direction=up, prediction=0.0004",
+        "BAC parents: ['Achain price', 'Assurant, Inc. 5.25% Subordinat stock price', 'American Rebel Holdings, Inc. stock price', 'Brookfield Infrastructure Corpo stock price', 'CMS Energy Corporation 5.875% J stock price']",
+        "Abel avg prediction: 0.0004"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0570",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Rise",
+      "tickers": [
+        "GOOG",
+        "AAPL",
+        "JPM",
+        "AMZN"
+      ],
+      "concepts": [],
+      "base_prediction": "Fall",
+      "base_confidence": 0.572,
+      "final_prediction": "Fall",
+      "abel_context": [
+        "GOOG: direction=up, prediction=0.0001",
+        "GOOG parents: ['Bogged price', 'BitTorrent(New) price', 'CaliCoin price', 'Dohrnii price', 'Factor Dao price']",
+        "AAPL: direction=up, prediction=0.0025",
+        "AAPL parents: ['American Rebel Holdings, Inc. stock price', 'Echelon Prime price']",
+        "JPM: direction=neutral, prediction=0.0",
+        "JPM parents: ['Assurant, Inc. 5.25% Subordinat stock price', 'American Rebel Holdings, Inc. stock price', 'Gravity price', 'IMO price', 'Mobipad price']",
+        "AMZN: direction=up, prediction=0.0011",
+        "AMZN parents: ['BitTorrent(New) price', 'FiEE, Inc. stock price', 'Granite Ridge Resources, Inc stock price', 'UniLayer price', 'Liquid Staking Derivatives price']",
+        "Abel avg prediction: 0.0009"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": false
+    },
+    {
+      "eval_id": "Q0571",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [
+        "WFC"
+      ],
+      "concepts": [
+        "stock market"
+      ],
+      "base_prediction": "Fall",
+      "base_confidence": 0.552,
+      "final_prediction": "Fall",
+      "abel_context": [
+        "WFC: direction=up, prediction=0.002",
+        "WFC parents: ['Achain price', 'American Rebel Holdings, Inc. stock price', 'CMS Energy Corporation 5.875% J stock price', 'Dione Protocol price', 'Galaxy Finance price']",
+        "Abel avg prediction: 0.0020"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0572",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Rise",
+      "tickers": [
+        "AAPL",
+        "INTC"
+      ],
+      "concepts": [],
+      "base_prediction": "Fall",
+      "base_confidence": 0.59,
+      "final_prediction": "Fall",
+      "abel_context": [
+        "AAPL: direction=up, prediction=0.0025",
+        "AAPL parents: ['American Rebel Holdings, Inc. stock price', 'Echelon Prime price']",
+        "INTC: direction=up, prediction=0.0093",
+        "INTC parents: ['Crane NXT, Co. stock price', 'Guardian price', 'Islander price', 'Steem Dollars price', 'saffron.finance price']",
+        "Abel avg prediction: 0.0059"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": false
+    },
+    {
+      "eval_id": "Q0573",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [
+        "AAPL"
+      ],
+      "concepts": [],
+      "base_prediction": "Rise",
+      "base_confidence": 0.565,
+      "final_prediction": "Rise",
+      "abel_context": [
+        "AAPL: direction=up, prediction=0.0025",
+        "AAPL parents: ['American Rebel Holdings, Inc. stock price', 'Echelon Prime price']",
+        "Abel avg prediction: 0.0025"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": false
+    },
+    {
+      "eval_id": "Q0574",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Rise",
+      "tickers": [
+        "JPM",
+        "BAC",
+        "AMD"
+      ],
+      "concepts": [
+        "mortgage"
+      ],
+      "base_prediction": "Rise",
+      "base_confidence": 0.573,
+      "final_prediction": "Rise",
+      "abel_context": [
+        "JPM: direction=neutral, prediction=0.0",
+        "JPM parents: ['Assurant, Inc. 5.25% Subordinat stock price', 'American Rebel Holdings, Inc. stock price', 'Gravity price', 'IMO price', 'Mobipad price']",
+        "BAC: direction=up, prediction=0.0004",
+        "BAC parents: ['Achain price', 'Assurant, Inc. 5.25% Subordinat stock price', 'American Rebel Holdings, Inc. stock price', 'Brookfield Infrastructure Corpo stock price', 'CMS Energy Corporation 5.875% J stock price']",
+        "mortgage (30YearFixedRateMortgageAverage) blanket: ['30-Year Fixed Mortgage Rate', '3-Month Certificate of Deposit Yield', 'Consumer Price Index', 'Gross Domestic Product', 'Credit Card Interest Rate']",
+        "Abel avg prediction: 0.0002"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0575",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [
+        "JPM",
+        "AAPL"
+      ],
+      "concepts": [],
+      "base_prediction": "Fall",
+      "base_confidence": 0.553,
+      "final_prediction": "Fall",
+      "abel_context": [
+        "JPM: direction=neutral, prediction=0.0",
+        "JPM parents: ['Assurant, Inc. 5.25% Subordinat stock price', 'American Rebel Holdings, Inc. stock price', 'Gravity price', 'IMO price', 'Mobipad price']",
+        "AAPL: direction=up, prediction=0.0025",
+        "AAPL parents: ['American Rebel Holdings, Inc. stock price', 'Echelon Prime price']",
+        "Abel avg prediction: 0.0013"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0576",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Rise",
+      "tickers": [
+        "AMD"
+      ],
+      "concepts": [],
+      "base_prediction": "Rise",
+      "base_confidence": 0.555,
+      "final_prediction": "Rise",
+      "abel_context": [],
+      "abel_signal": null,
+      "abel_helps": false,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0577",
+      "source": "FLARE_SM",
+      "category": "stock_movement",
+      "ground_truth": "Fall",
+      "tickers": [
+        "AAPL"
+      ],
+      "concepts": [],
+      "base_prediction": "Fall",
+      "base_confidence": 0.553,
+      "final_prediction": "Fall",
+      "abel_context": [
+        "AAPL: direction=up, prediction=0.0025",
+        "AAPL parents: ['American Rebel Holdings, Inc. stock price', 'Echelon Prime price']",
+        "Abel avg prediction: 0.0025"
+      ],
+      "abel_signal": "up",
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0578",
+      "source": "MMLU",
+      "category": "economics",
+      "ground_truth": 1,
+      "tickers": [],
+      "concepts": [
+        "federal reserve"
+      ],
+      "predicted_answer": 1,
+      "ground_truth_idx": 1,
+      "abel_context": [
+        "federalFunds blanket: ['15-Year Fixed Mortgage Rate', '30-Year Fixed Mortgage Rate', '3-Month Certificate of Deposit Yield', 'Consumer Price Index', 'Gross Domestic Product', 'Credit Card Interest Rate', 'Durable Goods', 'Federal Funds Rate']"
+      ],
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0579",
+      "source": "MMLU",
+      "category": "economics",
+      "ground_truth": 2,
+      "tickers": [],
+      "concepts": [
+        "money supply"
+      ],
+      "predicted_answer": 2,
+      "ground_truth_idx": 2,
+      "abel_context": [],
+      "abel_helps": false,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0580",
+      "source": "MMLU",
+      "category": "economics",
+      "ground_truth": 0,
+      "tickers": [],
+      "concepts": [
+        "aggregate demand"
+      ],
+      "predicted_answer": 0,
+      "ground_truth_idx": 0,
+      "abel_context": [
+        "GDP blanket: ['15-Year Fixed Mortgage Rate', '30-Year Fixed Mortgage Rate', 'Consumer Price Index', 'Gross Domestic Product', 'Credit Card Interest Rate', 'Consumer Sentiment', 'Durable Goods', 'Federal Funds Rate']"
+      ],
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0581",
+      "source": "MMLU",
+      "category": "economics",
+      "ground_truth": 2,
+      "tickers": [],
+      "concepts": [
+        "inflation"
+      ],
+      "predicted_answer": 2,
+      "ground_truth_idx": 2,
+      "abel_context": [
+        "inflationRate blanket: ['15-Year Fixed Mortgage Rate', '3-Month Certificate of Deposit Yield', 'Consumer Price Index', 'Gross Domestic Product', 'Credit Card Interest Rate', 'Consumer Sentiment', 'Federal Funds Rate', 'Industrial Production Index']"
+      ],
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0582",
+      "source": "MMLU",
+      "category": "economics",
+      "ground_truth": 0,
+      "tickers": [],
+      "concepts": [
+        "gdp"
+      ],
+      "predicted_answer": 0,
+      "ground_truth_idx": 0,
+      "abel_context": [
+        "GDP blanket: ['15-Year Fixed Mortgage Rate', '30-Year Fixed Mortgage Rate', 'Consumer Price Index', 'Gross Domestic Product', 'Credit Card Interest Rate', 'Consumer Sentiment', 'Durable Goods', 'Federal Funds Rate']"
+      ],
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0583",
+      "source": "MMLU",
+      "category": "economics",
+      "ground_truth": 3,
+      "tickers": [],
+      "concepts": [
+        "recession"
+      ],
+      "predicted_answer": 3,
+      "ground_truth_idx": 3,
+      "abel_context": [
+        "GDP blanket: ['15-Year Fixed Mortgage Rate', '30-Year Fixed Mortgage Rate', 'Consumer Price Index', 'Gross Domestic Product', 'Credit Card Interest Rate', 'Consumer Sentiment', 'Durable Goods', 'Federal Funds Rate']"
+      ],
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0584",
+      "source": "MMLU",
+      "category": "economics",
+      "ground_truth": 3,
+      "tickers": [],
+      "concepts": [
+        "aggregate demand",
+        "aggregate supply"
+      ],
+      "predicted_answer": 3,
+      "ground_truth_idx": 3,
+      "abel_context": [
+        "GDP blanket: ['15-Year Fixed Mortgage Rate', '30-Year Fixed Mortgage Rate', 'Consumer Price Index', 'Gross Domestic Product', 'Credit Card Interest Rate', 'Consumer Sentiment', 'Durable Goods', 'Federal Funds Rate']",
+        "GDP blanket: ['15-Year Fixed Mortgage Rate', '30-Year Fixed Mortgage Rate', 'Consumer Price Index', 'Gross Domestic Product', 'Credit Card Interest Rate', 'Consumer Sentiment', 'Durable Goods', 'Federal Funds Rate']"
+      ],
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0585",
+      "source": "MMLU",
+      "category": "economics",
+      "ground_truth": 1,
+      "tickers": [],
+      "concepts": [
+        "price level"
+      ],
+      "predicted_answer": 1,
+      "ground_truth_idx": 1,
+      "abel_context": [
+        "CPI blanket: ['15-Year Fixed Mortgage Rate', '30-Year Fixed Mortgage Rate', '3-Month Certificate of Deposit Yield', 'Gross Domestic Product', 'Credit Card Interest Rate', 'Consumer Sentiment', 'Durable Goods', 'Federal Funds Rate']"
+      ],
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0586",
+      "source": "MMLU",
+      "category": "economics",
+      "ground_truth": 3,
+      "tickers": [],
+      "concepts": [
+        "economic growth"
+      ],
+      "predicted_answer": 3,
+      "ground_truth_idx": 3,
+      "abel_context": [
+        "GDP blanket: ['15-Year Fixed Mortgage Rate', '30-Year Fixed Mortgage Rate', 'Consumer Price Index', 'Gross Domestic Product', 'Credit Card Interest Rate', 'Consumer Sentiment', 'Durable Goods', 'Federal Funds Rate']"
+      ],
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0587",
+      "source": "MMLU",
+      "category": "economics",
+      "ground_truth": 1,
+      "tickers": [],
+      "concepts": [
+        "gdp"
+      ],
+      "predicted_answer": 1,
+      "ground_truth_idx": 1,
+      "abel_context": [
+        "GDP blanket: ['15-Year Fixed Mortgage Rate', '30-Year Fixed Mortgage Rate', 'Consumer Price Index', 'Gross Domestic Product', 'Credit Card Interest Rate', 'Consumer Sentiment', 'Durable Goods', 'Federal Funds Rate']"
+      ],
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0588",
+      "source": "MMLU",
+      "category": "economics",
+      "ground_truth": 2,
+      "tickers": [],
+      "concepts": [
+        "gdp",
+        "unemployment",
+        "price level"
+      ],
+      "predicted_answer": 2,
+      "ground_truth_idx": 2,
+      "abel_context": [
+        "GDP blanket: ['15-Year Fixed Mortgage Rate', '30-Year Fixed Mortgage Rate', 'Consumer Price Index', 'Gross Domestic Product', 'Credit Card Interest Rate', 'Consumer Sentiment', 'Durable Goods', 'Federal Funds Rate']",
+        "unemploymentRate blanket: ['15-Year Fixed Mortgage Rate', '30-Year Fixed Mortgage Rate', 'Consumer Price Index', 'Gross Domestic Product', 'Credit Card Interest Rate', 'Consumer Sentiment', 'Durable Goods', 'Industrial Production Index']",
+        "CPI blanket: ['15-Year Fixed Mortgage Rate', '30-Year Fixed Mortgage Rate', '3-Month Certificate of Deposit Yield', 'Gross Domestic Product', 'Credit Card Interest Rate', 'Consumer Sentiment', 'Durable Goods', 'Federal Funds Rate']"
+      ],
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0589",
+      "source": "MMLU",
+      "category": "economics",
+      "ground_truth": 1,
+      "tickers": [],
+      "concepts": [
+        "economic growth"
+      ],
+      "predicted_answer": 1,
+      "ground_truth_idx": 1,
+      "abel_context": [
+        "GDP blanket: ['15-Year Fixed Mortgage Rate', '30-Year Fixed Mortgage Rate', 'Consumer Price Index', 'Gross Domestic Product', 'Credit Card Interest Rate', 'Consumer Sentiment', 'Durable Goods', 'Federal Funds Rate']"
+      ],
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0590",
+      "source": "MMLU",
+      "category": "economics",
+      "ground_truth": 1,
+      "tickers": [],
+      "concepts": [
+        "consumer price"
+      ],
+      "predicted_answer": 1,
+      "ground_truth_idx": 1,
+      "abel_context": [
+        "CPI blanket: ['15-Year Fixed Mortgage Rate', '30-Year Fixed Mortgage Rate', '3-Month Certificate of Deposit Yield', 'Gross Domestic Product', 'Credit Card Interest Rate', 'Consumer Sentiment', 'Durable Goods', 'Federal Funds Rate']"
+      ],
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0591",
+      "source": "MMLU",
+      "category": "economics",
+      "ground_truth": 3,
+      "tickers": [],
+      "concepts": [
+        "business cycle"
+      ],
+      "predicted_answer": 3,
+      "ground_truth_idx": 3,
+      "abel_context": [
+        "GDP blanket: ['15-Year Fixed Mortgage Rate', '30-Year Fixed Mortgage Rate', 'Consumer Price Index', 'Gross Domestic Product', 'Credit Card Interest Rate', 'Consumer Sentiment', 'Durable Goods', 'Federal Funds Rate']"
+      ],
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0592",
+      "source": "MMLU",
+      "category": "economics",
+      "ground_truth": 3,
+      "tickers": [],
+      "concepts": [
+        "gdp"
+      ],
+      "predicted_answer": 3,
+      "ground_truth_idx": 3,
+      "abel_context": [
+        "GDP blanket: ['15-Year Fixed Mortgage Rate', '30-Year Fixed Mortgage Rate', 'Consumer Price Index', 'Gross Domestic Product', 'Credit Card Interest Rate', 'Consumer Sentiment', 'Durable Goods', 'Federal Funds Rate']"
+      ],
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0593",
+      "source": "MMLU",
+      "category": "economics",
+      "ground_truth": 3,
+      "tickers": [
+        "AAPL"
+      ],
+      "concepts": [],
+      "predicted_answer": 3,
+      "ground_truth_idx": 3,
+      "abel_context": [],
+      "abel_helps": false,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0594",
+      "source": "MMLU",
+      "category": "economics",
+      "ground_truth": 2,
+      "tickers": [],
+      "concepts": [
+        "money supply"
+      ],
+      "predicted_answer": 2,
+      "ground_truth_idx": 2,
+      "abel_context": [],
+      "abel_helps": false,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0595",
+      "source": "MMLU",
+      "category": "economics",
+      "ground_truth": 3,
+      "tickers": [],
+      "concepts": [
+        "monetary policy",
+        "aggregate demand",
+        "price level"
+      ],
+      "predicted_answer": 3,
+      "ground_truth_idx": 3,
+      "abel_context": [
+        "federalFunds blanket: ['15-Year Fixed Mortgage Rate', '30-Year Fixed Mortgage Rate', '3-Month Certificate of Deposit Yield', 'Consumer Price Index', 'Gross Domestic Product', 'Credit Card Interest Rate', 'Durable Goods', 'Federal Funds Rate']",
+        "GDP blanket: ['15-Year Fixed Mortgage Rate', '30-Year Fixed Mortgage Rate', 'Consumer Price Index', 'Gross Domestic Product', 'Credit Card Interest Rate', 'Consumer Sentiment', 'Durable Goods', 'Federal Funds Rate']",
+        "CPI blanket: ['15-Year Fixed Mortgage Rate', '30-Year Fixed Mortgage Rate', '3-Month Certificate of Deposit Yield', 'Gross Domestic Product', 'Credit Card Interest Rate', 'Consumer Sentiment', 'Durable Goods', 'Federal Funds Rate']"
+      ],
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0596",
+      "source": "MMLU",
+      "category": "economics",
+      "ground_truth": 2,
+      "tickers": [],
+      "concepts": [
+        "money supply"
+      ],
+      "predicted_answer": 2,
+      "ground_truth_idx": 2,
+      "abel_context": [],
+      "abel_helps": false,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0597",
+      "source": "MMLU",
+      "category": "economics",
+      "ground_truth": 3,
+      "tickers": [],
+      "concepts": [
+        "gdp"
+      ],
+      "predicted_answer": 3,
+      "ground_truth_idx": 3,
+      "abel_context": [
+        "GDP blanket: ['15-Year Fixed Mortgage Rate', '30-Year Fixed Mortgage Rate', 'Consumer Price Index', 'Gross Domestic Product', 'Credit Card Interest Rate', 'Consumer Sentiment', 'Durable Goods', 'Federal Funds Rate']"
+      ],
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0598",
+      "source": "MMLU",
+      "category": "economics",
+      "ground_truth": 3,
+      "tickers": [],
+      "concepts": [
+        "aggregate demand",
+        "price level"
+      ],
+      "predicted_answer": 3,
+      "ground_truth_idx": 3,
+      "abel_context": [
+        "GDP blanket: ['15-Year Fixed Mortgage Rate', '30-Year Fixed Mortgage Rate', 'Consumer Price Index', 'Gross Domestic Product', 'Credit Card Interest Rate', 'Consumer Sentiment', 'Durable Goods', 'Federal Funds Rate']",
+        "CPI blanket: ['15-Year Fixed Mortgage Rate', '30-Year Fixed Mortgage Rate', '3-Month Certificate of Deposit Yield', 'Gross Domestic Product', 'Credit Card Interest Rate', 'Consumer Sentiment', 'Durable Goods', 'Federal Funds Rate']"
+      ],
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0599",
+      "source": "MMLU",
+      "category": "economics",
+      "ground_truth": 1,
+      "tickers": [],
+      "concepts": [
+        "aggregate demand"
+      ],
+      "predicted_answer": 1,
+      "ground_truth_idx": 1,
+      "abel_context": [
+        "GDP blanket: ['15-Year Fixed Mortgage Rate', '30-Year Fixed Mortgage Rate', 'Consumer Price Index', 'Gross Domestic Product', 'Credit Card Interest Rate', 'Consumer Sentiment', 'Durable Goods', 'Federal Funds Rate']"
+      ],
+      "abel_helps": true,
+      "is_correct": true
+    },
+    {
+      "eval_id": "Q0600",
+      "source": "MMLU",
+      "category": "economics",
+      "ground_truth": 0,
+      "tickers": [],
+      "concepts": [
+        "labor market"
+      ],
+      "predicted_answer": 0,
+      "ground_truth_idx": 0,
+      "abel_context": [
+        "unemploymentRate blanket: ['15-Year Fixed Mortgage Rate', '30-Year Fixed Mortgage Rate', 'Consumer Price Index', 'Gross Domestic Product', 'Credit Card Interest Rate', 'Consumer Sentiment', 'Durable Goods', 'Industrial Production Index']"
+      ],
+      "abel_helps": true,
+      "is_correct": true
+    }
+  ]
+}

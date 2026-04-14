@@ -1,0 +1,1125 @@
+[
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " A quarterly revision process is used to remove companies that comprise less than 0.05% of the weight of the index, and add companies whose weight, when included, will be greater than 0.05% of the index. Gross domestic product (GDP) is the monetary value of all the finished goods and services produced within a country's borders in a specific time period, though GDP is usually calculated on an annu",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0201"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " Post 2008 financial crisis, lending policies were tightened with interest-only mortgages no longer able to be insured, a reduction of maximum insurable amortization terms from 40 to 35 years, and the minimum down payment raised from 0% to 5%.",
+  "ground_truth": "causal",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0202"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " The Cross SMA 50/200, also known as the Golden Cross is the fifty day moving average divided by the two hundred day moving average. The SMA 50/200 for Intelsat S.A. (NYSE:I) is currently 0.98999. If the Golden Cross is greater than 1, then the 50 day moving average is above the 200 day moving average  -  indicating a positive share price momentum.",
+  "ground_truth": "noise",
+  "abel_tickers": [
+   "INTC"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0203"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " Two grandparents, Joanie and Bill Miller from Buffalo, New York, decided to make Apple their Single-Stock Retirement Plan back in 1997. They put $16,000 into Apple stock. And since then, they've made $2 million.",
+  "ground_truth": "causal",
+  "abel_tickers": [
+   "AAPL"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0204"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " Steve Jobs did it with Apple.",
+  "ground_truth": "noise",
+  "abel_tickers": [
+   "AAPL"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0205"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " It also provides collateralized loan obligations mortgage-related and non-mortgage-related derivatives equity investments in mortgage-related entities and other strategic investments, as well as invests in corporate debt and equity securities.",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0206"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " Things got worse when the Wall came down. GDP fell 20% between 1988 and 1993. There were suddenly hundreds of thousands of unemployed in a country that, under Communism, had had full employment.",
+  "ground_truth": "causal",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0207"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " Source: Google Public Data  Source: Rate Hub  Since mortgage rates hit their peak of 8.5% in May of 2000, mortgage rates have declined to trough levels of 5.3% in July 2005 and 3.7% in July 2015. Credit became more widely available with the introduction of the Canada Mortgage Bond (CMB) in 2001.",
+  "ground_truth": "causal",
+  "abel_tickers": [
+   "GOOG"
+  ],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0208"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " One thing that investors have the ability to do is create an overall plan and stick to it. This may be one of the single most important factors in achieving success in the stock market. Of course, if something doesn't seem to be working over an extended period of time, then maybe some action may need to be taken and the plan should be adjusted.",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "stock market"
+  ],
+  "eval_id": "Q0209"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " The new iPhones retain their same prices as last year's designs, but Apple made some significant improvements to each of its top-of-the-line phones.",
+  "ground_truth": "noise",
+  "abel_tickers": [
+   "AAPL"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0210"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " Title to the mortgage and all other security will be in the name of a nominee that will hold title on behalf of both the company and the other lender as beneficial owners of the mortgage.",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0211"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " Turkey was the best performing country this week, gaining 4.1 percent. The central bank cut its main interest rate by another 325 basis points, after a 425 basis point cut back in July.",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0212"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " 5 By comparison, industrial production data are published in many cases five to seven weeks after the end of a reference month, which can be problematic for assessments of conjunctural developments and decision-making in real time. Another advantage is the breadth of PMIs' coverage.",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "industrial production"
+  ],
+  "eval_id": "Q0213"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " Investors look at the Volatility 12m to determine if a company has a low volatility percentage or not over the course of a year. The Volatility 12m of Intelsat S.A. (NYSE:I) is 65.044900. This is calculated by taking weekly log normal returns and standard deviation of the share price over one year annualized.",
+  "ground_truth": "noise",
+  "abel_tickers": [
+   "INTC"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0214"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " The MF Rank of Intelsat S.A. (NYSE:I) is 6391.",
+  "ground_truth": "noise",
+  "abel_tickers": [
+   "INTC"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0215"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " If there is an event of default under the mortgage, the senior participant is entitled to direct the lender to enforce the mortgage on behalf of both participants, with all costs to be borne by the borrower. TII's second charge mortgages are secured by a standalone charge against the underlying real estate and are subordinate to the first charge and therefore have a lower priority for repayment.",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0216"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " 3 REITs Yielding Up To 11% (With Upside) by doctor 0 Comments  News  Share on Facebook  Share on Twitter  Share on Google+  Share on Pinterest  Share on LinkedIn  In a second, I'm going to reveal three real estate stocks that are much better than buying rental property of your own.",
+  "ground_truth": "noise",
+  "abel_tickers": [
+   "GOOG",
+   "META"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0217"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " It would probably be a leader in cutting-edge technology that changes the way we live... just like Apple, Amazon, Google, Facebook and Netflix did. It would be recession proof, be the leader in its sector having disruptive technology and have breakthrough products with customers pounding down their doors.",
+  "ground_truth": "noise",
+  "abel_tickers": [
+   "GOOG",
+   "AAPL",
+   "META",
+   "AMZN"
+  ],
+  "abel_concepts": [
+   "recession"
+  ],
+  "eval_id": "Q0218"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " The Tech segment provides temporary staffing and permanent placement services to its clients primarily in the areas of information technology, such as systems/applications architecture and development, project management, enterprise data management, business intelligence, artificial intelligence, machine learning, network architecture, and security.",
+  "ground_truth": "noise",
+  "abel_tickers": [
+   "INTC"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0219"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " However, most analysts predict that Greek GDP will reach 3 percent in 2020.",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0220"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " In the case of the world's best performing major stock market over the past decade, this is well and truly the case:  Here we see the S&P 500 index (in black) and the SPDR S&P 500 ETF (SPY US) in orange over the past 5 years. Without too much analysis, we see the textbook outcome  -  SPX index performance over the past 5 years was +50.02%, and the ETF produced +49.68% in performance.",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "stock market"
+  ],
+  "eval_id": "Q0221"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " Jobless claims dropped by 15,000 to 204,000 in the week ended September 7, according to Labor Department figures. Treasuries extended their September tumble, sending the benchmark 10-year yield to its highest level since early August, amid stronger-than-expected U.S. economic data. The 10-year yield ended the week at 1.90 percent, up from 1.46 percent at the end of August.",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "jobless claims"
+  ],
+  "eval_id": "Q0222"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " It operates through five segments: Franchising, Manufacturing, Retail Stores, U-Swirl Operations, and Other. The company produces approximately 700 chocolate candies and other confectionery products, including clusters, caramels, creams, toffees, mints, and truffles and offers 15 varieties of caramel apples and other products that are prepared in individual stores, as well as provides ice cream, ",
+  "ground_truth": "noise",
+  "abel_tickers": [
+   "AAPL"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0223"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " It's impossible to ignore Facebook, the social media platform used by some 97% of Business-to-Consumer (B2C) marketers. Using Facebook as part of any wine program promotion by placing ads will also allow you to target followers in your area, as well as 'user types'  -  those people who match the clientele profile of your target audience.",
+  "ground_truth": "noise",
+  "abel_tickers": [
+   "META"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0224"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " The company also provides Cloudera DataFlow, a data platform that collects, curates and analyzes data Hortonworks Data Platform, a data management platform that helps organizations to securely store, process, and analyze various data assets Cloudera Data Science Workbench that enables self-service data science for the enterprise Cloudera Altus, a platform-as-a-service offering and Cloudera Fast F",
+  "ground_truth": "noise",
+  "abel_tickers": [
+   "INTC"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0225"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " 4 The sample is stratified by size (small, medium and large firms) and sector (15 manufacturing and 12 service sectors in the composite index), with country PMIs aggregated into regional and global ones. Further reading As business activity indicators, PMIs have several advantages over traditional statistical data such as industrial production, retail sales, or exports and imports. One is their t",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "industrial production"
+  ],
+  "eval_id": "Q0226"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " The company acquires and manages mortgage-related assets, including residential mortgage-backed securities (RMBS) backed by prime jumbo, Alt-A, manufactured housing, and subprime residential mortgage loans RMBS for which the principal and interest payments are guaranteed by the U.S. government agency or the U.S. government-sponsored entity residential mortgage loans commercial mortgage-backed sec",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0227"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " 11 In terms of economic significance, gains in forecast accuracy from adding financial variables range up to 15% for equity indices, 14% for corporate bond spreads, and 8% for dollar indices ( Graph 4 ). 12 Country-level regressions indicate that financial variables are particularly well suited to nowcast PMIs in more open economies. For regressions on China, Germany, Italy and small open economi",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "stock market"
+  ],
+  "eval_id": "Q0228"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " The odds of a U.S. recession before the election are 75%, said Gundlach, reiterating a prediction he made in August. Fuel shortages, bankrupted businesses, and riots: those are the official UK government forecasts during a no-deal Brexit chaos, reports Business Insider.",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "recession"
+  ],
+  "eval_id": "Q0229"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " Morgan Stanley reaffirmed an equal weight rating on shares of Renishaw in a research note on Thursday, July 11th.",
+  "ground_truth": "noise",
+  "abel_tickers": [
+   "MS"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0230"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " Market conditions can change quickly, and being prepared for the worst may help ease the burden if the tide turns unexpectedly. Intelsat S.A. (NYSE:I) presently has a current ratio of 1.86.",
+  "ground_truth": "noise",
+  "abel_tickers": [
+   "INTC"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0231"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " Such countries, he told a group of Christian intellectuals in 2017, run the risk of having their culture wiped out:  They will become countries with mixed populations, with a Christian element and a non-Christian element which has a strong religious identity.",
+  "ground_truth": "noise",
+  "abel_tickers": [
+   "INTC"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0232"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " Huawei laptops return to Microsoft's online store after mysteriously disappearing  Anthoine Hubert death: F2 driver killed in Belgium GP feature race crash, aged 22  While WeWork Struggles to Sell its IPO, Competitors like Knotel are Gaining Ground  On September 22, a product designed to remake Bitcoin as a mainstream investment for the world's investment managers will go live. When ICE Futures U",
+  "ground_truth": "noise",
+  "abel_tickers": [
+   "MSFT"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0233"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " READ MORE: Recession fears as Scotland's economy falls into downturn  For unlimited access to Scotland's best news, sport and expert analysis, SUBSCRIBE to The Scotsman website here  Unfortunately not. The problem with any new taxes is that Scotland already has a considerable income tax gap with the rest of the UK, and is also considering plans for parking taxes and a tourist tax.",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "recession"
+  ],
+  "eval_id": "Q0234"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " China has encouraged governments to include its currency in their reserve holdings, but Virginia Democratic Senator Mark Warner has asked Facebook to commit to excluding it from the Libra basket.",
+  "ground_truth": "noise",
+  "abel_tickers": [
+   "META"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0235"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " But all in all, Orbán's program, universally denounced as a gamble, was a staggering success. Hungary had repaid its IMF loans in full by 2013. The country now has 4% growth and an unemployment rate of about 3%. Debt has fallen from 85% to 71% of GDP, and labor force participation risen from 55% to around 70%.",
+  "ground_truth": "causal",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp",
+   "unemployment"
+  ],
+  "eval_id": "Q0236"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " It serves corporate enterprises and public sector organizations primarily through its direct sales force. The company has strategic partnerships with Intel Corporation.",
+  "ground_truth": "noise",
+  "abel_tickers": [
+   "INTC"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0237"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " Why it's precisely the wrong time for Scottish Government to think about £800m tax rise  -  leader comment Taxation is a complicated business (Photo: Shutterstock)  Share this article  Sign Up To Our Daily Newsletter  0  Have your say  Higher taxes may seem like a good way to solve Scotland's problems, but could just make them worse by depressing economic growth.",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "economic growth"
+  ],
+  "eval_id": "Q0238"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " Sep 14, 2019-Saturday business Updated: Sep 14, 2019 17:40 IST HT Correspondent Hindustan Times, New Delhi           Finance ministe Nirmala Sitharaman brought good news for government employees with an announcement to lower the interest rate on house building advance available to them.",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0239"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " The shares of Common Stock are being offered solely by entities affiliated with Blackstone (the Selling Stockholders) and the Company will not receive any of the proceeds of the offering. Goldman Sachs & Co. LLC and Wells Fargo Securities are acting as underwriters for the offering.",
+  "ground_truth": "noise",
+  "abel_tickers": [
+   "GS",
+   "WFC"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0240"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " The compensation price does not include any salary or cash bonus for the Silicon Valley billionaire Musk, but sets rewards based on Tesla's market value, which will rise to $ 650 billion over the next decade. On Friday, Vice Chancellor Joseph Slights of the Delaware Court of Chancery ruled against Tesla's request to dismiss the lawsuit from shareholder Richard Tornetta at an initial stage in the ",
+  "ground_truth": "noise",
+  "abel_tickers": [
+   "TSLA"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0241"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " September 2019 Corporate Presentation  Aside from the 2008/2009 recession, Toronto's housing prices have seen a steady upward trend since 2000. This is in part due to the scarcity of housing stock and in part due to a downward trend in mortgage rates that help with affordability.",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage",
+   "recession"
+  ],
+  "eval_id": "Q0242"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " A number of equities analysts have recently weighed in on MRVL shares. Goldman Sachs Group cut Marvell Technology Group from a buy rating to a neutral rating and boosted their price target for the stock from $24.00 to $25.00 in a report on Sunday, July 21st.",
+  "ground_truth": "noise",
+  "abel_tickers": [
+   "GS"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0243"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " It must be deeply frustrating to be in power but lack the means to make life better for those struggling in hard times. However, time and again, past experiences have shown that the best way to raise revenue is through economic growth, not higher taxes.",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "economic growth"
+  ],
+  "eval_id": "Q0244"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " Amazon employees alone collect $1.5 BILLION in new wealth each year just because they own company stock.",
+  "ground_truth": "causal",
+  "abel_tickers": [
+   "AMZN"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0245"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " Some traders may be using technical analysis to try and beat the stock market.",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "stock market"
+  ],
+  "eval_id": "Q0246"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " The aim of this exercise is to understand what part of the observed dynamics in PMIs and GDP can be ascribed to the news that was already (and correctly) reflected in financial prices. We do so by resorting to a simple vector autoregression (VAR) model featuring, in order, equity returns, the dollar index, PMI and GDP. 14 This ordering choice can be rationalised with the help of the timeline in G",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0247"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " The Hang Seng Composite gained 2.32 percent this week while Taiwan was up 0.44 percent and the KOSPI rose 1.99 percent. The 10-year Treasury bond yield rose 34 basis points to 1.90 percent. click to enlarge  Financials was the best performing sector of the week, increasing by 3.89 percent versus an overall increase of 0.99 percent for the S&P 500.",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "bond yield"
+  ],
+  "eval_id": "Q0248"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " The credit facility has since been expanded to $35 Million U.S. TII has also raised over $420M in third party capital from HNW individuals, which should aid in managements goal of deploying $135 Million Canadian in capital in 2019.  Data by YCharts  As we can see the stock hasn't traded at a premium to BV that often since its IPO in 2007, only really between about 2014 FYE to about 2016 FYE. Sinc",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0249"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " REUTERS / Aly Song / File Photo  Tesla Estimates the 2018 Compensation Package to a Value of 2.6 billion when it received shareholder approval in March 2018, although stock analysts at the time said it could be worth up to $ 70 billion if the company  -  which has yet to make an annual profit  -  grew rapidly.",
+  "ground_truth": "noise",
+  "abel_tickers": [
+   "TSLA"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0250"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " In cases where TII sells an A tranche to institutional lenders, the lender is entitled to priority for payment via its senior position on the mortgage.",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0251"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " Commonality of language three centuries and more of shared history the creation of the welfare state the bond of standing together to defeat fascism: all were drowned out by a message of economic and even geopolitical doom. Media playback is unsupported on your device  Media captionGordon Brown: Stand up and be counted tomorrow  Media playback is unsupported on your device  Media captionYes Scotl",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0252"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " Finally, BMO Capital Markets set a $28.00 price target on Marvell Technology Group and gave the stock a buy rating in a report on Monday, August 26th. One research analyst has rated the stock with a sell rating, five have given a hold rating and twenty-two have assigned a buy rating to the stock. The company presently has a consensus rating of Buy and a consensus price target of $26.96.",
+  "ground_truth": "causal",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "capital market"
+  ],
+  "eval_id": "Q0253"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " Cash rates are low, inflation is low, and discount rates are compressed.",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation"
+  ],
+  "eval_id": "Q0254"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " The investment criteria is as follows:  1. Investments are limited primarily to loans and mortgage investments but in certain instances the company may provide an equity investment in a real estate development property  2. No loan may exceed a LTV of 85% and LTV of the loan portfolio in total cannot exceed 80%.  3.",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0255"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " A measure of underlying U.S. inflation accelerated by more than forecast to a one-year high in August, writes Bloomberg, signaling inflation was already firming ahead of fresh tariffs on Chinese goods this month that may push prices higher for Americans.",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation"
+  ],
+  "eval_id": "Q0256"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " Saturday, September 14, 2019 Someone's sitting in the shade today because someone planted a tree a long time ago Today I'm going to show you how a modest investment in a single stock that is currently trading around 5 cents a share could generate a multimillion-dollar dream retirement in the coming years. The Healthcare stock I'm targeting will likely have percentage gains GREATER than IBM, Faceb",
+  "ground_truth": "noise",
+  "abel_tickers": [
+   "GOOG",
+   "META"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0257"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " Before 1975, increasing benefits required an act of Congress now increases happen automatically, based on the Consumer Price Index.",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "consumer price"
+  ],
+  "eval_id": "Q0258"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " Share on Facebook Share on Google Share on LinkedIn Share on Pinterest  04/02/2019 Guest satisfaction has to be your overriding commercial objective: no promotion will work unless it strikes a chord and delivers. There was a time when word of mouth played one of the most important roles in getting your bar, restaurant, club, and hotel (better) known, helping build your reputation, grow your clien",
+  "ground_truth": "noise",
+  "abel_tickers": [
+   "GOOG",
+   "META"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0259"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " The Gross Margin score lands on a scale from 1 to 100 where a score of 1 would be considered positive, and a score of 100 would be seen as negative. The low score of 13.00000 for Core-Mark Holding Company, Inc. indicates a top score for stability and growth. Even though the stock market can seem erratic and unpredictable, investors may be able to take some steps to help combat the chaos.",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "stock market"
+  ],
+  "eval_id": "Q0260"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " Looking at Google Public Data below, population in the Toronto metropolitan area increased from 4.4M persons in 1996 to 6.1M persons in 2016, representing an average per-year growth of 87,000 or 1.5% per year.",
+  "ground_truth": "noise",
+  "abel_tickers": [
+   "GOOG"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0261"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " As Bloomberg reports, the likelihood of U.S. recession before the 2020 election has grown, based on changes in the Treasury yield curve, according to Jeffrey Gundlach, the chief executive officer of DoubleLine Capital. We should be on recession watch before the 2020 election, Gundlach said Thursday in London. We're getting closer but we're not there yet.",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "recession",
+   "treasury yield"
+  ],
+  "eval_id": "Q0262"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " More stimulus should help the eurozone economy to recover and move inflation to a higher level.",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation"
+  ],
+  "eval_id": "Q0263"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " Bloomberg reports that a measure of 60-day volatility in gold futures climbed to the highest since February 2017. On Monday bullion futures fell as much as 1.1 percent, but then rose slightly on Thursday after the ECB announced cuts to eurozone interest rates.",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0264"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " I have knowledge of major WPP clients which tried to bring Google, in particular, in, and Google said 'no,' Sorrell said.",
+  "ground_truth": "noise",
+  "abel_tickers": [
+   "GOOG"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0265"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " Perhaps more surprisingly, we find that PMIs also correlate with the strength of the US dollar, as reflected in broad indices of the dollar exchange rate ( Graph 1 , right-hand panel).",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "exchange rate"
+  ],
+  "eval_id": "Q0266"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " In fact, it's worth mentioning that, for purposes of insolvency proceedings, not one but two types of secured creditors were created: (i) the secured creditor and (ii) the mortgagee who has the benefits of a secured creditor.",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0267"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " Citigroup: Gold Could Hit $2,000 in the Next Year or Two Speaking of support, perceived risks of a global recession and the likelihood that the Federal Reserve will lower rates to 0 percent could be enough to push gold up to a record $2,000 an ounce, according to Citigroup. We expect spot gold prices to trade stronger for longer, possibly breaching $2,000 an ounce and posting new cyclical highs a",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "recession",
+   "federal reserve"
+  ],
+  "eval_id": "Q0268"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " Articles 50, 51 and 52 of the above-mentioned law states that the scope of the rights of the creditor includes real property guarantees. The creditor favored with this type of collateral, from a technical viewpoint, and on the basis of the legal definition, is not a secured creditor, but a new type of creditor entitled to rights that the usual mortgagee is not entitled to − as the mortgage holder",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0269"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " As Nvidia Com (NVDA) Stock Value Declined, Shareholder Assetmark Has Cut Stake by $15.67 … Sep 14, 2019 | News Stories  Some Historical NVDA News: 27/03/2018  -  NVIDIA Boosts World's Leading Deep Learning Computing Platform, Bringing 10x Performance Gain in …  Link to Full Article: Read Here  Welcome to the home of information resources for AI and ML.",
+  "ground_truth": "causal",
+  "abel_tickers": [
+   "NVDA"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0270"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " That group included Microsoft's venture capital arm M12, hedge funds Fortress Capital and Pantera Capital, billionaire money manager Alan Howard, and [ignore=true hotlink]Starbucks[/hotlink]. (Read The NYSE's Owner Wants to Bring Bitcoin to Your 401(k).",
+  "ground_truth": "noise",
+  "abel_tickers": [
+   "MSFT"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0271"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " The agency that wins the Disney review will make pricing guarantees they probably shouldn't [and] that they will find great difficulty achieving, he said.",
+  "ground_truth": "noise",
+  "abel_tickers": [
+   "DIS"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0272"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " It soon had lots of debt, too. By the time the Berlin Wall fell the country's debt-to-GDP ratio hovered around 75%, a figure then considered beyond reckless but today about average for Western economies.",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0273"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " If taxes go up, economic growth has a tendency to suffer. Brexit is turning Scottish independence supporters into unionists  -  Pamela Nash Given the news that the Scottish economy contracted by 0.3 per cent in the second quarter of the year, this is precisely the wrong time to be even thinking about increasing the tax burden.",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "economic growth"
+  ],
+  "eval_id": "Q0274"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " Adjusted for local price levels, minimum wages are already near those in Spain and the U.S., surpassing those in Hungary and Greece. click to enlarge  Ukraine and Russia completed a large prisoner exchange this week, which is a potential step that could ease tensions between Moscow and Kiev.",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "price level"
+  ],
+  "eval_id": "Q0275"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " They don't want to provide the service that is provided by agencies. He added that his teams (including MightyHive and MediaMonks) have created 1.5 million different creative executions for client Netflix using Facebook, Google and Amazon, and if he were in Wahl's position, I would be seeking to engage with these platforms.",
+  "ground_truth": "noise",
+  "abel_tickers": [
+   "GOOG",
+   "META",
+   "AMZN"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0276"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " The Volatility 3m of Intelsat S.A. (NYSE:I) is 44.110600.",
+  "ground_truth": "noise",
+  "abel_tickers": [
+   "INTC"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0277"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " But right now the starting point for such an ambitious project looks tough. The latest official figures for borrowing as a share of economic output - a sensible measure of how much debt a country can sustain - show that Scotland was performing considerably worse than the UK average in 2013/14, with a deficit of 8.1% of GDP compared to the UK's 5.6%.",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0278"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " The index showed that Singaporeans earning minimum wage need to work 8.4 days in order to afford the iPhone 11 Pro, Apple's newest top of the line device. The iPhone 11 Pro (64 GB) is priced at S$1,649 upon release. -  Advertisement  -   According to the Ministry of Manpower, the average monthly earning in Singapore is S$5,410 before deducting Central Provident Fund (CPF) contributions and person",
+  "ground_truth": "causal",
+  "abel_tickers": [
+   "AAPL"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0279"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " The servicing of the mortgage is governed by a contract between TII and the other lender that permits the lender to control the administration of the entire mortgage, under certain conditions. Typically, both the senior and junior positions of the mortgage receive their shares of the interest payments according to the contracts.",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0280"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " Facebook is another single stock you could have retired on.",
+  "ground_truth": "noise",
+  "abel_tickers": [
+   "META"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0281"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " At current stock price levels, I'd prefer to see share buybacks. This week has been challenging for the steel-related stocks after Nucor (NUE) and U.S. Steel (X) issued downside guidance. In this light, I've been getting questions on how this will impact shares of Cleveland-Cliffs (CLF), which has been in a rebound mode after the dip that followed the declaration of a special dividend.",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "price level"
+  ],
+  "eval_id": "Q0282"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " The world's largest brewer, Anheuser-Busch InBev , which shelved a Hong Kong IPO of its Asia Pacific unit in July, is planning to raise about $5 billion from a revived float, people with knowledge of the matter said. It is tentatively looking to price the deal on September 23 and list the unit on September 30, one source said. Fifty state attorneys general have launched an investigation into whet",
+  "ground_truth": "noise",
+  "abel_tickers": [
+   "GOOG"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0283"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " As noted above, purchasing managers are likely to internalise these shifts when making input and output decisions at the firm level, which then aggregate into GDP outcomes.",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0284"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " Estimated fiscal 2020 TNT Express integration expenses are excluded from our fiscal 2020 EPS forecast for the same reasons described above for historical non-GAAP measures. We are unable to predict the amount of the year-end MTM retirement plan accounting adjustment, as it is significantly impacted by changes in interest rates and the financial markets, so such adjustment is not included in our f",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate"
+  ],
+  "eval_id": "Q0285"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " That was precisely the most evident disadvantage of the Colombian guarantees system: the lack of predictability. Therefore, the mortgagee, as set forth in the rules we are now examining and which are only applicable in the context of insolvency proceedings, is not the usual mortgagee as per the terms of Article 2499 of the Civil Code of Colombia, just as the secured creditor is not a pledge.",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0286"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " The transit credit would be a 15 per cent tax credit for the purchase of public transit passes.Ernest Doroszuk/Toronto Sun/Postmedia  Jamie Golombek  Filed under  Comment  Facebook  Twitter  Reddit  Email  More  Share this story  Child in hockey, travel on public transit? Boutique tax credits are back on the election radar  Tumblr  Pinterest  Google+  LinkedIn  Is your daughter enrolled in hockey",
+  "ground_truth": "noise",
+  "abel_tickers": [
+   "GOOG",
+   "META"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0287"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " This is especially visible for manufacturing PMIs, which declined on average 0.22 points over a month whenever the trade-weighted exchange rate of the US dollar (broad dollar index) appreciated by 1% (right-hand panel).",
+  "ground_truth": "causal",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "exchange rate"
+  ],
+  "eval_id": "Q0288"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " U.S. consumer sentiment rebounded in September after a steep drop, reports Bloomberg, signaling that consumers may be poised to keep powering the economic expansion despite gathering uncertainties.",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "consumer sentiment"
+  ],
+  "eval_id": "Q0289"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " Picodi calculated the iPhone Index 2019 using iPhone 11 Pro prices on local Apple or authorised seller websites. The average salaries, taken from the countries' official ministry or statistical office pages, were then divided by 21 work days in a month./TISG  What you need to know about the new iPhone 11, including its lower price   -  Advertisement  -   Credit: Source link  Share197Tweet123",
+  "ground_truth": "noise",
+  "abel_tickers": [
+   "AAPL"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0290"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " No doubt that long SPY was a winning trade, especially without big fees. Yet, the US stock market is arguably singular in its size, depth and scale. Based on Bloomberg ETF data, out of US$3.9tn of total ETF assets as of June 2019, more than 62.6% were allocated to North America.",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "stock market"
+  ],
+  "eval_id": "Q0291"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " This finding is not surprising, as financial variables move strongly during periods of turmoil it is also in line with findings on the role of financial variables in predicting GDP (Bańbura and Rünstler (2011), Espinoza et al (2012)).",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0292"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " [W]e want a Hungarian Hungary and a European Europe, he said. So he sought alternatives to Muslim migration that would allow him to keep Hungary's full-employment economy from stoking inflation. He has stepped up efforts at reintegrating into the economy the backward but considerably more fecund Roma minority.",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "inflation"
+  ],
+  "eval_id": "Q0293"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " It needed a new design that went beyond transaction automation and rethought how the company engaged with its technology partners. Within 60 days, the Apple app rating for Synovus improved 50%. Wolverton also provided oversight for the launch of a new online mortgage lending application that piloted and launched in 2019, which now handles half of the $32.7 billion-asset company's mortgage applica",
+  "ground_truth": "causal",
+  "abel_tickers": [
+   "AAPL"
+  ],
+  "abel_concepts": [
+   "mortgage"
+  ],
+  "eval_id": "Q0294"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " Credit tightening continued later in 2012, when the amortization period was further reduced to 25 years, and more recently in 2016, when home buyers are required to put a 10% down payment on homes above $500,000. Despite the mortgage rules tightening, the actual mortgage rates have continued to decrease along with bond yields, offsetting the negative effects on affordability from tighter credit, ",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage",
+   "bond yield"
+  ],
+  "eval_id": "Q0295"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " The ERP5 of Intelsat S.A. (NYSE:I) is 9418. The lower the ERP5 rank, the more undervalued a company is thought to be.",
+  "ground_truth": "noise",
+  "abel_tickers": [
+   "INTC"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0296"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " The finance minister of France has said the nation will block Facebook's Libra cryptocurrency in the European Union, reports CoinDesk, over concerns that it poses a threat to the sovereignty of national currencies. I want to be absolutely clear: In these conditions, we cannot authorize the development of Libra on European soil, Bruno Le Maire, Economy and Finance Minister of France said.",
+  "ground_truth": "noise",
+  "abel_tickers": [
+   "META"
+  ],
+  "abel_concepts": [],
+  "eval_id": "Q0297"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " Now, anyone with a little disposable income can take advantage of valuable financial advice to optimize their portfolio - at a price point that makes sense for the average investor. But the average consumer also carries a lot of debt - a fact that today's robo advisors do not take into account when making recommendations and is a much better indicator of financial health. Consider that US househo",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "mortgage",
+   "federal reserve"
+  ],
+  "eval_id": "Q0298"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " BIS Quarterly Review  |  September 2019  |  22 September 2019  |  15 pages Purchasing managers' indices (PMIs) have found a place in global conjunctural analysis and quarterly GDP nowcasting, serving as reliable concurrent indicators of real economic activity.",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "gdp"
+  ],
+  "eval_id": "Q0299"
+ },
+ {
+  "source": "FLARE_Causal20",
+  "category": "causal_classification",
+  "question": " Fed Intervenes to Curb Soaring Short-Term Borrowing Costs By  Nick Timiraos and  Nick Timiraos  The Wall Street Journal  Daniel Kruger  Daniel Kruger  The Wall Street Journal  For the first time in more than a decade, the Federal Reserve injected cash into money markets Tuesday to pull down interest rates and said it would do so again Wednesday after technical factors led to a sudden shortfall of",
+  "ground_truth": "noise",
+  "abel_tickers": [],
+  "abel_concepts": [
+   "interest rate",
+   "federal reserve"
+  ],
+  "eval_id": "Q0300"
+ }
+]
