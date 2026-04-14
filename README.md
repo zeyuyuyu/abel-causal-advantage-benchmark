@@ -1,81 +1,88 @@
-# Abel Causal Advantage Benchmark (ACAB) v1.0
+# Abel Causal Advantage Benchmark (ACAB) v2.0
 
-A 100-question benchmark where **Claude Code + [causal-abel](https://github.com/Abel-ai-causality/Abel-skills) skill** significantly outperforms **Claude Code alone** on causal economic reasoning tasks.
+100 real questions from existing benchmarks where **Claude Code + [causal-abel](https://github.com/Abel-ai-causality/Abel-skills) skill** provides causal graph signal unavailable to **Claude Code alone**.
 
-## Key Results
+**Every question is taken directly from its source benchmark — no custom-designed questions.**
 
-| Condition | Score | Accuracy |
-|-----------|-------|----------|
-| Claude Code (base) | 100/300 | 33.3% |
-| Claude Code + Abel | 250/300 | **83.3%** |
-| **Net improvement** | **+150** | **+50.0pp** |
+## Question Sources
 
-## Question Categories
+| Source Benchmark | Category | Questions | Paper |
+|-----------------|----------|-----------|-------|
+| [DeLLMa](https://github.com/DeLLMa/DeLLMa) | Stock investment decision | 50 | ICLR 2025 |
+| [ForecastBench](https://forecastbench.org) | Macro indicator prediction | 35 | ICLR 2025 |
+| [FutureX-Past](https://huggingface.co/datasets/futurex-ai/Futurex-Past) | Market/macro prediction | 11 | arXiv:2508.11987 |
+| [ForecastBench](https://forecastbench.org) | Stock direction prediction | 4 | ICLR 2025 |
+| **Total** | | **100** | |
 
-| Category | Questions | Base | Abel | Delta |
-|----------|-----------|------|------|-------|
-| Macro Markov Blanket | 12 | 33% | 100% | +24 |
-| Causation vs Correlation | 12 | 33% | 100% | +24 |
-| Consensus Discovery | 10 | 33% | 100% | +20 |
-| Equity Structural Drivers | 18 | 33% | 67% | +18 |
-| Deconsensus Discovery | 8 | 33% | 100% | +16 |
-| Fragility Analysis | 8 | 33% | 100% | +16 |
-| DeLLMa Stock Decisions | 12 | 33% | 67% | +12 |
-| Equity Downstream Effects | 10 | 33% | 67% | +10 |
-| Forecast Direction | 10 | 33% | 67% | +10 |
+## How Questions Were Selected
 
-## Methodology
+```
+5 benchmarks downloaded (~10K questions total)
+    → 412 economics/finance questions identified
+        → 154 matched to Abel graph nodes (equities + macro indicators)
+            → 144 confirmed with live Abel API signal (1s rate-limited)
+                → 100 selected (maximize source diversity)
+```
 
-1. Downloaded 3 open-source benchmarks: **FutureX-Past** (388q), **EconCausal** (2943q), **CLadder** (6952q)
-2. Ran A/B evaluation: same LLM (Claude Opus 4.6) with vs without Abel skill
-3. Identified question types where Abel provides clear advantage
-4. Expanded to 100 questions using **DeLLMa** (ICLR 2025) and **ForecastBench** as additional sources
-5. Validated all 100 questions against live Abel API (18/18 sampled passed)
+Also tested but excluded:
+- **EconCausal** (2943 questions): 0/15 sampled had Abel coverage — micro-academic causal relationships not in Abel's market graph
+- **CLadder** (6952 questions): Abstract formal causal logic, not Abel's empirical domain
 
-## Scoring Rubric (causal_rubric, 0-3)
+## What Abel Provides Per Category
 
-| Score | Description |
-|-------|-------------|
-| 0 | No causal insight — wrong direction or irrelevant |
-| 1 | Directionally correct but shallow — generic reasoning only |
-| 2 | Correct mechanism with structural evidence — graph-backed |
-| 3 | Complete causal chain with graph-backed evidence — specific, testable, non-obvious |
+| Category | Abel Signal | Example |
+|----------|-----------|---------|
+| Stock decision (DeLLMa) | `observe` prediction + `neighbors` (structural drivers) for each Abel-covered stock | META observe: -0.0017, parents: Evaxion Biotech, FIGS, D-Market |
+| Macro prediction (ForecastBench FRED) | `graph.markov_blanket` — complete informational neighborhood of macro indicator | CPI blanket: GDP, Fed Funds, Mortgage Rates, Consumer Sentiment, ... (20 nodes) |
+| Stock direction (ForecastBench yfinance) | `observe` directional prediction + structural parents | INTC observe: +0.0013, 10 parents identified |
+| Market prediction (FutureX) | `observe` + `neighbors` for equities; `markov_blanket` for macro nodes | AAPL observe: +0.0025 (slightly bullish) |
 
 ## Files
 
 ```
-abel_advantage_benchmark_v1.json   # The 100-question benchmark (main file)
-abel_advantage_benchmark.json      # Initial 8-question prototype from A/B testing
-data/                              # Raw downloaded benchmark data
-results/                           # A/B test results and validation logs
-scripts/                           # Evaluation and generation scripts
+abel_advantage_benchmark_v2.json   # ← THE BENCHMARK (100 real questions, main file)
+abel_advantage_benchmark_v1.json   # v1 prototype (custom-designed questions)
+abel_advantage_benchmark.json      # Initial 8-question A/B test prototype
+data/
+  dellma_stock_questions.json      # 120 DeLLMa stock decision prompts
+  forecastbench_financial.json     # 214 ForecastBench financial questions
+  futurex_past.json                # 388 FutureX-Past questions
+  econcausal.json                  # 2943 EconCausal entries
+  cladder_rung23.json              # 6952 CLadder rung 2-3 questions
+results/
+  v3_with_signal.json              # 144 questions with confirmed Abel signal
+  v3_all_tested.json               # All 154 tested questions
+  ab_test_scored.json              # Original A/B test scores (22 questions)
+  econcausal_ab.json               # EconCausal A/B results (0 coverage)
+  graph_exploration.json           # Abel graph coverage exploration
+  benchmark_validation.json        # API validation results
+scripts/                           # All evaluation and generation scripts
 ```
 
 ## How to Evaluate
 
-```bash
-# Control condition: Claude Code answers without Abel skill
-# Treatment condition: Claude Code answers with Abel skill enabled
-
-# Score each answer 0-3 on causal_rubric
-# Report per-category and total scores
-# Statistical test: paired t-test on per-question score deltas
-```
-
-## Source Benchmarks
-
-- [FutureX-Past](https://huggingface.co/datasets/futurex-ai/Futurex-Past) (Apache 2.0)
-- [EconCausal](https://huggingface.co/datasets/qwqw3535/econcausal-benchmark) (CC-BY-NC-4.0)
-- [CLadder](https://huggingface.co/datasets/causal-nlp/CLadder) (MIT)
-- [DeLLMa](https://github.com/DeLLMa/DeLLMa) (ICLR 2025)
-- [ForecastBench](https://www.forecastbench.org/) (ICLR 2025)
-- [Abel Skills](https://github.com/Abel-ai-causality/Abel-skills)
+1. **Control**: Claude Code answers each question using only base reasoning + web search (no Abel)
+2. **Treatment**: Claude Code answers using full `causal-abel` skill (observe, neighbors, markov_blanket, etc.)
+3. **Score**: Compare both answers against ground truth
+   - Binary/choice questions: exact match (1=correct, 0=wrong)
+   - Numeric questions: `1 - min(1, |pred - actual| / actual)`
+4. **Report**: Per-source and per-category accuracy, paired significance test
 
 ## Abel Graph Coverage
 
-- **16 macro nodes**: Treasury rates, Fed Funds, CPI, GDP, unemployment, mortgage rates, consumer sentiment, etc.
-- **18 structured equities**: AAPL, MSFT, GOOG, AMZN, META, INTC, QCOM, AVGO, TSM, ASML, TXN, JPM, BAC, GS, MS, WFC, C, TSLA
-- **Key capabilities**: Markov blanket, consensus/deconsensus discovery, fragility analysis, structural path testing, observe predictions
+- **17 equities with structure**: AAPL, AMZN, ASML, AVGO, BAC, GS, GOOG, INTC, JPM, META, MS, MSFT, QCOM, TSM, TSLA, TXN, WFC
+- **13 macro nodes with Markov blankets**: Treasury 10Y, Fed Funds, CPI, Inflation, GDP, Real GDP, Unemployment, 30Y Mortgage, 15Y Mortgage, Consumer Sentiment, Durable Goods, Initial Claims, Industrial Production
+- **Abel operations**: observe_predict, neighbors (parents/children), graph.markov_blanket, discover_consensus, discover_deconsensus, discover_fragility, paths, intervene_time_lag
+
+## Benchmarks Tested
+
+| Benchmark | Questions | Abel Coverage | Included |
+|-----------|-----------|--------------|----------|
+| DeLLMa (stocks) | 120 | 94 (78%) | 50 |
+| ForecastBench (financial) | 214 | 39 (18%) | 39 |
+| FutureX-Past (financial) | 78 | 21 (27%) | 11 |
+| EconCausal | 2943 | 0 (0%) | 0 |
+| CLadder | 6952 | 0 (0%) | 0 |
 
 ## License
 

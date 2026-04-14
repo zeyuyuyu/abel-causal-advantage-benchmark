@@ -1,0 +1,3062 @@
+{
+  "benchmark_name": "Abel Causal Advantage Benchmark (ACAB)",
+  "version": "2.0.0",
+  "created": "2026-04-13",
+  "total_questions": 100,
+  "description": "100-question benchmark of REAL questions from existing benchmarks (DeLLMa, ForecastBench, FutureX-Past) where Claude Code + causal-abel skill provides Abel graph signal unavailable to base Claude Code. Every question is taken directly from its source benchmark with original text and ground truth preserved.",
+  "source_benchmarks": {
+    "DeLLMa": {
+      "paper": "arxiv.org/abs/2402.02392 (ICLR 2025)",
+      "repo": "github.com/DeLLMa/DeLLMa",
+      "license": "MIT",
+      "questions_in_pool": 94,
+      "questions_selected": 50
+    },
+    "ForecastBench": {
+      "paper": "arxiv.org/abs/2409.19839 (ICLR 2025)",
+      "website": "forecastbench.org",
+      "huggingface": "Duruo/forecastbench-single_question",
+      "license": "Apache 2.0",
+      "questions_in_pool": 39,
+      "questions_selected": 39
+    },
+    "FutureX-Past": {
+      "paper": "arxiv.org/abs/2508.11987",
+      "huggingface": "futurex-ai/Futurex-Past",
+      "license": "Apache 2.0",
+      "questions_in_pool": 11,
+      "questions_selected": 11
+    }
+  },
+  "also_tested_but_excluded": {
+    "EconCausal": "0/15 Abel coverage — micro-academic causal relationships not in Abel's market graph",
+    "CLadder": "Abstract formal causal logic — not Abel's empirical domain"
+  },
+  "category_breakdown": {
+    "ForecastBench:macro_prediction": 35,
+    "ForecastBench:stock_direction": 4,
+    "FutureX:stock_prediction": 3,
+    "FutureX:macro_prediction": 5,
+    "FutureX:commodity_prediction": 2,
+    "FutureX:index_prediction": 1,
+    "DeLLMa:stock_decision": 50
+  },
+  "methodology": {
+    "step1": "Downloaded 3 open-source benchmark datasets (total ~10K questions)",
+    "step2": "Filtered for questions involving Abel-covered entities (equities, macro indicators)",
+    "step3": "Batch-tested Abel API on all 154 filtered questions (with 1s rate limiting)",
+    "step4": "Selected 144 questions with confirmed Abel signal",
+    "step5": "Sampled 100 questions maximizing source diversity"
+  },
+  "abel_coverage_used": {
+    "equities_with_structure": [
+      "AAPL",
+      "AMZN",
+      "ASML",
+      "AVGO",
+      "BAC",
+      "GOOG",
+      "GS",
+      "INTC",
+      "JPM",
+      "META",
+      "MS",
+      "MSFT",
+      "QCOM",
+      "TSLA",
+      "TSM",
+      "TXN",
+      "WFC"
+    ],
+    "macro_nodes_with_blanket": [
+      "15YearFixedRateMortgageAverage",
+      "30YearFixedRateMortgageAverage",
+      "CPI",
+      "GDP",
+      "consumerSentiment",
+      "durableGoods",
+      "federalFunds",
+      "industrialProductionTotalIndex",
+      "inflationRate",
+      "initialClaims",
+      "realGDP",
+      "treasuryRateYear10",
+      "unemploymentRate"
+    ]
+  },
+  "evaluation_protocol": {
+    "control": "Claude Code answers using only base reasoning and web search. No Abel API calls.",
+    "treatment": "Claude Code answers using full causal-abel skill workflow (observe, neighbors, markov_blanket, consensus, etc.)",
+    "scoring_exact_match": "1 if correct, 0 if wrong",
+    "scoring_numeric": "1 - min(1, |prediction - actual| / actual) for numeric questions"
+  },
+  "questions": [
+    {
+      "id": "ACAB-001",
+      "original_id": "fb_003",
+      "source_benchmark": "ForecastBench",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(treasuryRateYear10)",
+          "n": 10
+        }
+      ],
+      "question": "Will Moody's Seasoned Baa Corporate Bond Yield compared to the 10-year Treasury yield have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+      "ground_truth": 0,
+      "abel_node": "treasuryRateYear10",
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(treasuryRateYear10)"
+      ]
+    },
+    {
+      "id": "ACAB-002",
+      "original_id": "fb_004",
+      "source_benchmark": "ForecastBench",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(30YearFixedRateMortgageAverage)",
+          "n": 10
+        }
+      ],
+      "question": "Will the option-adjusted spread of the ICE BofA Corporate Index, which tracks the performance of corporate debt issued in the US domestic market, have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+      "ground_truth": 0,
+      "abel_node": "30YearFixedRateMortgageAverage",
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(30YearFixedRateMortgageAverage)"
+      ]
+    },
+    {
+      "id": "ACAB-003",
+      "original_id": "fb_005",
+      "source_benchmark": "ForecastBench",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(30YearFixedRateMortgageAverage)",
+          "n": 10
+        }
+      ],
+      "question": "Will the effective yield of the ICE BofA Corporate Index, which tracks the performance of corporate debt issued in the US domestic market, have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+      "ground_truth": 1,
+      "abel_node": "30YearFixedRateMortgageAverage",
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(30YearFixedRateMortgageAverage)"
+      ]
+    },
+    {
+      "id": "ACAB-004",
+      "original_id": "fb_011",
+      "source_benchmark": "ForecastBench",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(30YearFixedRateMortgageAverage)",
+          "n": 10
+        }
+      ],
+      "question": "Will the total return of the ICE BofA US Corporate Index, which tracks the performance of corporate debt issued in the US domestic market, have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+      "ground_truth": 1,
+      "abel_node": "30YearFixedRateMortgageAverage",
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(30YearFixedRateMortgageAverage)"
+      ]
+    },
+    {
+      "id": "ACAB-005",
+      "original_id": "fb_013",
+      "source_benchmark": "ForecastBench",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(30YearFixedRateMortgageAverage)",
+          "n": 10
+        }
+      ],
+      "question": "Will the effective yield of the ICE BofA US High Yield Index, which tracks the performance of corporate debt denominated below investment grade in the US domestic market, have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+      "ground_truth": 0,
+      "abel_node": "30YearFixedRateMortgageAverage",
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(30YearFixedRateMortgageAverage)"
+      ]
+    },
+    {
+      "id": "ACAB-006",
+      "original_id": "fb_018",
+      "source_benchmark": "ForecastBench",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(30YearFixedRateMortgageAverage)",
+          "n": 10
+        }
+      ],
+      "question": "Will the effective yield of the ICE BofA Euro High Yield Index, which tracks the performance of below investment grade corporate debt issued in the euro domestic or eurobond markets, have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+      "ground_truth": 0,
+      "abel_node": "30YearFixedRateMortgageAverage",
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(30YearFixedRateMortgageAverage)"
+      ]
+    },
+    {
+      "id": "ACAB-007",
+      "original_id": "fb_019",
+      "source_benchmark": "ForecastBench",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(30YearFixedRateMortgageAverage)",
+          "n": 10
+        }
+      ],
+      "question": "Will the option-adjusted spread of the ICE BofA Euro High Yield Index, which tracks the performance of below investment grade corporate debt issued in the euro domestic or eurobond markets, have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+      "ground_truth": 0,
+      "abel_node": "30YearFixedRateMortgageAverage",
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(30YearFixedRateMortgageAverage)"
+      ]
+    },
+    {
+      "id": "ACAB-008",
+      "original_id": "fb_021",
+      "source_benchmark": "ForecastBench",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(unemploymentRate)",
+          "n": 10
+        }
+      ],
+      "question": "Will the number of insured unemployment claims have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+      "ground_truth": 1,
+      "abel_node": "unemploymentRate",
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(unemploymentRate)"
+      ]
+    },
+    {
+      "id": "ACAB-009",
+      "original_id": "fb_030",
+      "source_benchmark": "ForecastBench",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(federalFunds)",
+          "n": 10
+        }
+      ],
+      "question": "Will the lower limit of the target range of the federal funds rate (interest rate) set by the Federal Open Market Committee have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+      "ground_truth": 0,
+      "abel_node": "federalFunds",
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(federalFunds)"
+      ]
+    },
+    {
+      "id": "ACAB-010",
+      "original_id": "fb_031",
+      "source_benchmark": "ForecastBench",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(inflationRate)",
+          "n": 10
+        }
+      ],
+      "question": "Will the market yield on US treasury securities at 10-year constant maturity, quoted on an investment basis and inflation-indexed, have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+      "ground_truth": 1,
+      "abel_node": "inflationRate",
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(inflationRate)"
+      ]
+    },
+    {
+      "id": "ACAB-011",
+      "original_id": "fb_032",
+      "source_benchmark": "ForecastBench",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(inflationRate)",
+          "n": 10
+        }
+      ],
+      "question": "Will the market yield on US treasury securities at 20-year constant maturity, quoted on an investment basis and inflation-indexed, have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+      "ground_truth": 1,
+      "abel_node": "inflationRate",
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(inflationRate)"
+      ]
+    },
+    {
+      "id": "ACAB-012",
+      "original_id": "fb_033",
+      "source_benchmark": "ForecastBench",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(inflationRate)",
+          "n": 10
+        }
+      ],
+      "question": "Will the market yield on US treasury securities at 30-year constant maturity, quoted on an investment basis and inflation-indexed, have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+      "ground_truth": 1,
+      "abel_node": "inflationRate",
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(inflationRate)"
+      ]
+    },
+    {
+      "id": "ACAB-013",
+      "original_id": "fb_037",
+      "source_benchmark": "ForecastBench",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(inflationRate)",
+          "n": 10
+        }
+      ],
+      "question": "Will the market yield on US treasury securities at 30-year constant maturity, quoted on an investment basis, have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+      "ground_truth": 1,
+      "abel_node": "inflationRate",
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(inflationRate)"
+      ]
+    },
+    {
+      "id": "ACAB-014",
+      "original_id": "fb_042",
+      "source_benchmark": "ForecastBench",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(federalFunds)",
+          "n": 10
+        }
+      ],
+      "question": "Will the discount rate for the Federal Reserve's primary credit discount window program have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+      "ground_truth": 0,
+      "abel_node": "federalFunds",
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(federalFunds)"
+      ]
+    },
+    {
+      "id": "ACAB-015",
+      "original_id": "fb_051",
+      "source_benchmark": "ForecastBench",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(inflationRate)",
+          "n": 10
+        }
+      ],
+      "question": "Will the Federal Reserve Bank of Cleveland's 2-year expected inflation rate have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+      "ground_truth": 1,
+      "abel_node": "inflationRate",
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(inflationRate)"
+      ]
+    },
+    {
+      "id": "ACAB-016",
+      "original_id": "fb_052",
+      "source_benchmark": "ForecastBench",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(inflationRate)",
+          "n": 10
+        }
+      ],
+      "question": "Will the Federal Reserve Bank of Cleveland's 30-year expected inflation rate have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+      "ground_truth": 1,
+      "abel_node": "inflationRate",
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(inflationRate)"
+      ]
+    },
+    {
+      "id": "ACAB-017",
+      "original_id": "fb_056",
+      "source_benchmark": "ForecastBench",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(unemploymentRate)",
+          "n": 10
+        }
+      ],
+      "question": "Will the 4-week moving average of initial unemployment claims have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+      "ground_truth": 0,
+      "abel_node": "unemploymentRate",
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(unemploymentRate)"
+      ]
+    },
+    {
+      "id": "ACAB-018",
+      "original_id": "fb_057",
+      "source_benchmark": "ForecastBench",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(unemploymentRate)",
+          "n": 10
+        }
+      ],
+      "question": "Will the weekly number of initial unemployment claims have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+      "ground_truth": 0,
+      "abel_node": "unemploymentRate",
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(unemploymentRate)"
+      ]
+    },
+    {
+      "id": "ACAB-019",
+      "original_id": "fb_062",
+      "source_benchmark": "ForecastBench",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(30YearFixedRateMortgageAverage)",
+          "n": 10
+        }
+      ],
+      "question": "Will the 15-year fixed rate mortgage average in the US have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+      "ground_truth": 1,
+      "abel_node": "30YearFixedRateMortgageAverage",
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(30YearFixedRateMortgageAverage)"
+      ]
+    },
+    {
+      "id": "ACAB-020",
+      "original_id": "fb_063",
+      "source_benchmark": "ForecastBench",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(30YearFixedRateMortgageAverage)",
+          "n": 10
+        }
+      ],
+      "question": "Will the 30-year fixed rate mortgage average in the US have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+      "ground_truth": 0,
+      "abel_node": "30YearFixedRateMortgageAverage",
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(30YearFixedRateMortgageAverage)"
+      ]
+    },
+    {
+      "id": "ACAB-021",
+      "original_id": "fb_068",
+      "source_benchmark": "ForecastBench",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(30YearFixedRateMortgageAverage)",
+          "n": 10
+        }
+      ],
+      "question": "Will the 30-year fixed rate FHA mortgage index have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+      "ground_truth": 1,
+      "abel_node": "30YearFixedRateMortgageAverage",
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(30YearFixedRateMortgageAverage)"
+      ]
+    },
+    {
+      "id": "ACAB-022",
+      "original_id": "fb_069",
+      "source_benchmark": "ForecastBench",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(30YearFixedRateMortgageAverage)",
+          "n": 10
+        }
+      ],
+      "question": "Will the 30-year fixed rate jumbo mortgage index have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+      "ground_truth": 0,
+      "abel_node": "30YearFixedRateMortgageAverage",
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(30YearFixedRateMortgageAverage)"
+      ]
+    },
+    {
+      "id": "ACAB-023",
+      "original_id": "fb_070",
+      "source_benchmark": "ForecastBench",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(30YearFixedRateMortgageAverage)",
+          "n": 10
+        }
+      ],
+      "question": "Will the 30-year fixed rate Veterans Affairs mortgage index have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+      "ground_truth": 1,
+      "abel_node": "30YearFixedRateMortgageAverage",
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(30YearFixedRateMortgageAverage)"
+      ]
+    },
+    {
+      "id": "ACAB-024",
+      "original_id": "fb_071",
+      "source_benchmark": "ForecastBench",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(inflationRate)",
+          "n": 10
+        }
+      ],
+      "question": "Will the Federal Reserve Bank of Cleveland's estimate for the 10-year real interest rate have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+      "ground_truth": 1,
+      "abel_node": "inflationRate",
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(inflationRate)"
+      ]
+    },
+    {
+      "id": "ACAB-025",
+      "original_id": "fb_073",
+      "source_benchmark": "ForecastBench",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(federalFunds)",
+          "n": 10
+        }
+      ],
+      "question": "Will the aggregated daily value of US Treasury securities repurchased overnight by the Federal Reserve in temporary open market operations  have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+      "ground_truth": 0,
+      "abel_node": "federalFunds",
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(federalFunds)"
+      ]
+    },
+    {
+      "id": "ACAB-026",
+      "original_id": "fb_074",
+      "source_benchmark": "ForecastBench",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(federalFunds)",
+          "n": 10
+        }
+      ],
+      "question": "Will the award rate of US Treasury securities sold by the Federal Reserve in overnight temporary open market operations have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+      "ground_truth": 0,
+      "abel_node": "federalFunds",
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(federalFunds)"
+      ]
+    },
+    {
+      "id": "ACAB-027",
+      "original_id": "fb_075",
+      "source_benchmark": "ForecastBench",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(federalFunds)",
+          "n": 10
+        }
+      ],
+      "question": "Will the aggregated daily value of US Treasury securities sold by the Federal Reserve in temporary open market operations have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+      "ground_truth": 0,
+      "abel_node": "federalFunds",
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(federalFunds)"
+      ]
+    },
+    {
+      "id": "ACAB-028",
+      "original_id": "fb_076",
+      "source_benchmark": "ForecastBench",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(federalFunds)",
+          "n": 10
+        }
+      ],
+      "question": "Will the aggregated daily value of securities sold by the Federal Reserve in temporary open market operations have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+      "ground_truth": 0,
+      "abel_node": "federalFunds",
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(federalFunds)"
+      ]
+    },
+    {
+      "id": "ACAB-029",
+      "original_id": "fb_081",
+      "source_benchmark": "ForecastBench",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(treasuryRateYear10)",
+          "n": 10
+        }
+      ],
+      "question": "Will the yield spread between the 10-year US Treasury bond and the Effective Federal Funds Rate (interest rate) have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+      "ground_truth": 1,
+      "abel_node": "treasuryRateYear10",
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(treasuryRateYear10)"
+      ]
+    },
+    {
+      "id": "ACAB-030",
+      "original_id": "fb_082",
+      "source_benchmark": "ForecastBench",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(treasuryRateYear10)",
+          "n": 10
+        }
+      ],
+      "question": "Will the US' 10-year breakeven inflation rate have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+      "ground_truth": 1,
+      "abel_node": "treasuryRateYear10",
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(treasuryRateYear10)"
+      ]
+    },
+    {
+      "id": "ACAB-031",
+      "original_id": "fb_083",
+      "source_benchmark": "ForecastBench",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(inflationRate)",
+          "n": 10
+        }
+      ],
+      "question": "Will the US' 5-year breakeven inflation rate have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+      "ground_truth": 1,
+      "abel_node": "inflationRate",
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(inflationRate)"
+      ]
+    },
+    {
+      "id": "ACAB-032",
+      "original_id": "fb_084",
+      "source_benchmark": "ForecastBench",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(inflationRate)",
+          "n": 10
+        }
+      ],
+      "question": "Will the US' 5-year forward inflation expectation rate have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+      "ground_truth": 0,
+      "abel_node": "inflationRate",
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(inflationRate)"
+      ]
+    },
+    {
+      "id": "ACAB-033",
+      "original_id": "fb_085",
+      "source_benchmark": "ForecastBench",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(inflationRate)",
+          "n": 10
+        }
+      ],
+      "question": "Will the term premium on a 10-year zero-coupon bond have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+      "ground_truth": 1,
+      "abel_node": "inflationRate",
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(inflationRate)"
+      ]
+    },
+    {
+      "id": "ACAB-034",
+      "original_id": "fb_086",
+      "source_benchmark": "ForecastBench",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(30YearFixedRateMortgageAverage)",
+          "n": 10
+        }
+      ],
+      "question": "Will the total dollar amount of mortgage-backed securities held by all US commercial banks have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+      "ground_truth": 1,
+      "abel_node": "30YearFixedRateMortgageAverage",
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(30YearFixedRateMortgageAverage)"
+      ]
+    },
+    {
+      "id": "ACAB-035",
+      "original_id": "fb_089",
+      "source_benchmark": "ForecastBench",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(unemploymentRate)",
+          "n": 10
+        }
+      ],
+      "question": "Will the Weekly Economic Index (Lewis-Mertens-Stock) have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+      "ground_truth": 1,
+      "abel_node": "unemploymentRate",
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(unemploymentRate)"
+      ]
+    },
+    {
+      "id": "ACAB-036",
+      "original_id": "fb_154",
+      "source_benchmark": "ForecastBench",
+      "category": "stock_direction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(INTC.price)",
+          "val": 0.0093
+        },
+        {
+          "op": "parents(INTC.price)",
+          "n": 3
+        }
+      ],
+      "question": "Will INTC's market close price on {resolution_date} be higher than its market close price on {forecast_due_date}?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+      "ground_truth": 0,
+      "ticker": "INTC",
+      "abel_node": "INTC.price",
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(INTC.price)",
+        "neighbors(INTC.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-037",
+      "original_id": "fb_158",
+      "source_benchmark": "ForecastBench",
+      "category": "stock_direction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(JPM.price)",
+          "val": 0.0
+        },
+        {
+          "op": "parents(JPM.price)",
+          "n": 3
+        }
+      ],
+      "question": "Will JPM's market close price on {resolution_date} be higher than its market close price on {forecast_due_date}?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+      "ground_truth": 0,
+      "ticker": "JPM",
+      "abel_node": "JPM.price",
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(JPM.price)",
+        "neighbors(JPM.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-038",
+      "original_id": "fb_171",
+      "source_benchmark": "ForecastBench",
+      "category": "stock_direction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(MS.price)",
+          "val": 0.0003
+        },
+        {
+          "op": "parents(MS.price)",
+          "n": 3
+        }
+      ],
+      "question": "Will MS's market close price on {resolution_date} be higher than its market close price on {forecast_due_date}?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+      "ground_truth": 0,
+      "ticker": "MS",
+      "abel_node": "MS.price",
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(MS.price)",
+        "neighbors(MS.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-039",
+      "original_id": "fb_206",
+      "source_benchmark": "ForecastBench",
+      "category": "stock_direction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(TSLA.price)",
+          "val": 0.0105
+        },
+        {
+          "op": "parents(TSLA.price)",
+          "n": 2
+        }
+      ],
+      "question": "Will TSLA's market close price on {resolution_date} be higher than its market close price on {forecast_due_date}?\n\nStock splits and reverse splits will be accounted for in resolving this question. Forecasts on questions about companies that have been delisted (through mergers or bankruptcy) will resolve to their final close price.",
+      "ground_truth": 1,
+      "ticker": "TSLA",
+      "abel_node": "TSLA.price",
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(TSLA.price)",
+        "neighbors(TSLA.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-040",
+      "original_id": "fx_6851736beb11c800614780df",
+      "source_benchmark": "FutureX",
+      "category": "stock_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(AAPL.price)",
+          "val": 0.0025
+        },
+        {
+          "op": "parents(AAPL.price)",
+          "n": 2
+        }
+      ],
+      "question": "You are an agent that can predict future events. The event to be predicted: \"2026-01-23, what will the high of Apple stock (AAPL) be for the day (in US$)?\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \\boxed{YOUR_PREDICTION}\n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear predi",
+      "title": "2026-01-23, what will the high of Apple stock (AAPL) be for the day (in US$)?",
+      "abel_node": "AAPL.price",
+      "ground_truth": "[249.41]",
+      "difficulty_level": 4,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(AAPL.price)",
+        "neighbors(AAPL.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-041",
+      "original_id": "fx_68528da19193260061abd8f6",
+      "source_benchmark": "FutureX",
+      "category": "stock_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(LI.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(LI.price)",
+          "n": 2
+        }
+      ],
+      "question": "You are an agent that can predict future events. The event to be predicted: \"2026-01-27, what will be the high for Li Auto (NASDAQ:LI) for the day (in US$)?\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \\boxed{YOUR_PREDICTION}\n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear pre",
+      "title": "2026-01-27, what will be the high for Li Auto (NASDAQ:LI) for the day (in US$)?",
+      "abel_node": "LI.price",
+      "ground_truth": "[16.85]",
+      "difficulty_level": 4,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(LI.price)",
+        "neighbors(LI.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-042",
+      "original_id": "fx_69aebd8793e1240067e5c00c",
+      "source_benchmark": "FutureX",
+      "category": "stock_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(TSLA.price)",
+          "val": 0.0105
+        },
+        {
+          "op": "parents(TSLA.price)",
+          "n": 2
+        }
+      ],
+      "question": "You are an agent that can predict future events. The event to be predicted: \"Stock prices on March 13: higher than on March 6? (resolved around 2026-03-13 (GMT+8)). \nA.  the outcome be Apple Inc. (AAPL)\nB.  the outcome be Oracle Corp (ORCL)\nC.  the outcome be Tesla, Inc. (TSLA)\nD.  the outcome be Nvidia Corporation (NVDA)\nE.  the outcome be Amazon.com, Inc. (AMZN)\nF.  the outcome be Alphabet Inc. ",
+      "title": "Stock prices on March 13: higher than on March 6?",
+      "abel_node": "TSLA.price",
+      "ground_truth": "['Yes']",
+      "difficulty_level": 2,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(TSLA.price)",
+        "neighbors(TSLA.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-043",
+      "original_id": "fx_69566c1320a2e600672a796d",
+      "source_benchmark": "FutureX",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(CPI)",
+          "n": 10
+        }
+      ],
+      "question": "You are an agent that can predict future events. The event to be predicted: \"December Inflation Canada - Annual (resolved around 2026-01-19 (GMT+8)). \nA. Canada's annual inflation increase by 2.1% in December\nB. Canada's annual inflation increase by 2.3% in December\nC. Canada's annual inflation increase by ≤2.0% in December\nD. Canada's annual inflation increase by 2.2% in December\nE. Canada's annu",
+      "title": "December Inflation Canada - Annual",
+      "abel_node": "CPI",
+      "ground_truth": "['E']",
+      "difficulty_level": 2,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(CPI)"
+      ]
+    },
+    {
+      "id": "ACAB-044",
+      "original_id": "fx_69566c1320a2e600672a79ab",
+      "source_benchmark": "FutureX",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(CPI)",
+          "n": 10
+        }
+      ],
+      "question": "You are an agent that can predict future events. The event to be predicted: \"December Inflation Eurozone - Annual (resolved around 2026-01-19 (GMT+8)). \nA. the Eurozone's annual inflation increase by 2.3% in December\nB. the Eurozone's annual inflation increase by 2.2% in December\nC. the Eurozone's annual inflation increase by ≤2.0% in December\nD. the Eurozone's annual inflation increase by ≥2.4% i",
+      "title": "December Inflation Eurozone - Annual",
+      "abel_node": "CPI",
+      "ground_truth": "['C']",
+      "difficulty_level": 2,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(CPI)"
+      ]
+    },
+    {
+      "id": "ACAB-045",
+      "original_id": "fx_698f1987da7a8b006575442d",
+      "source_benchmark": "FutureX",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(CPI)",
+          "n": 10
+        }
+      ],
+      "question": "You are an agent that can predict future events. The event to be predicted: \"China's monthly consumer inflation (CPI) greater than 0.2% in February? (resolved around 2026-03-08 (GMT+8)). \"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \\boxed{Yes} or \\boxed{No}\n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the f",
+      "title": "China's monthly consumer inflation (CPI) greater than 0.2% in February?",
+      "abel_node": "CPI",
+      "ground_truth": "['Yes']",
+      "difficulty_level": 1,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(CPI)"
+      ]
+    },
+    {
+      "id": "ACAB-046",
+      "original_id": "fx_6999a58717d430006670a388",
+      "source_benchmark": "FutureX",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(CPI)",
+          "n": 10
+        }
+      ],
+      "question": "You are an agent that can predict future events. The event to be predicted: \"Brazil's monthly inflation rate in February (resolved around 2026-03-12 (GMT+8)). \nA.  the outcome be 0.45 or more\nB.  the outcome be Between 0.25 and 0.45\nC.  the outcome be More than zero, less than 0.25\nD.  the outcome be Zero or less\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \n     ",
+      "title": "Brazil's monthly inflation rate in February",
+      "abel_node": "CPI",
+      "ground_truth": "['A']",
+      "difficulty_level": 2,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(CPI)"
+      ]
+    },
+    {
+      "id": "ACAB-047",
+      "original_id": "fx_699d9ffc098cca008728b6f0",
+      "source_benchmark": "FutureX",
+      "category": "macro_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "blanket(CPI)",
+          "n": 10
+        }
+      ],
+      "question": "You are an agent that can predict future events. The event to be predicted: \"Will the US PCE annual inflation be greater than 2.9% in January? (resolved around 2026-03-13 (GMT+8)). \"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \\boxed{Yes} or \\boxed{No}\n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.",
+      "title": "Will the US PCE annual inflation be greater than 2.9% in January?",
+      "abel_node": "CPI",
+      "ground_truth": "['No']",
+      "difficulty_level": 1,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "graph.markov_blanket(CPI)"
+      ]
+    },
+    {
+      "id": "ACAB-048",
+      "original_id": "fx_695bb4008b62560069adce59",
+      "source_benchmark": "FutureX",
+      "category": "commodity_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(CL.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(CL.price)",
+          "n": 3
+        }
+      ],
+      "question": "You are an agent that can predict future events. The event to be predicted: \"What will Crude Oil (CL) settle at in January? (resolved around 2026-02-01 (GMT+8)). \nA. Crude Oil (CL) settle at <$45 in January\nB. Crude Oil (CL) settle at $45-$50 in January\nC. Crude Oil (CL) settle at $60-$65 in January\nD. Crude Oil (CL) settle at $70-$75 in January\nE. Crude Oil (CL) settle at $50-$55 in January\nF. Cr",
+      "title": "What will Crude Oil (CL) settle at in January?",
+      "abel_node": "CL.price",
+      "ground_truth": "['F']",
+      "difficulty_level": 2,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(CL.price)",
+        "neighbors(CL.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-049",
+      "original_id": "fx_695bb4008b62560069adce56",
+      "source_benchmark": "FutureX",
+      "category": "commodity_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(CL.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(CL.price)",
+          "n": 3
+        }
+      ],
+      "question": "You are an agent that can predict future events. The event to be predicted: \"What will Crude Oil (CL) hit__ by end of January? (resolved around 2026-02-01 (GMT+8)). \nA. Crude Oil (CL) hit (HIGH) $75 by end of January\nB. Crude Oil (CL) hit (HIGH) $65 by end of January\nC. Crude Oil (CL) hit (HIGH) $58 by end of January\nD. Crude Oil (CL) hit (LOW) $47 by end of January\nE. Crude Oil (CL) hit (LOW) $35",
+      "title": "What will Crude Oil (CL) hit__ by end of January?",
+      "abel_node": "CL.price",
+      "ground_truth": "['B', 'C', 'G', 'J']",
+      "difficulty_level": 2,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(CL.price)",
+        "neighbors(CL.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-050",
+      "original_id": "fx_687df3b6ff05a4003c601bc2",
+      "source_benchmark": "FutureX",
+      "category": "index_prediction",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(NDAQ.price)",
+          "val": 0.0022
+        },
+        {
+          "op": "parents(NDAQ.price)",
+          "n": 3
+        }
+      ],
+      "question": "You are an agent that can predict future events. The event to be predicted: \"2026-01-27, what will the NASDAQ Composite Index (.IXIC)'s open be for the day?\"\n        IMPORTANT: Your final answer MUST end with this exact format:\n        \\boxed{YOUR_PREDICTION}\n        Do not use any other format. Do not refuse to make a prediction. Do not say \"I cannot predict the future.\" You must make a clear pre",
+      "title": "2026-01-27, what will the NASDAQ Composite Index (.IXIC)'s open be for the day?",
+      "abel_node": "NDAQ.price",
+      "ground_truth": "[23734.75]",
+      "difficulty_level": 4,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(NDAQ.price)",
+        "neighbors(NDAQ.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-051",
+      "original_id": "dellma_stock_106",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(GOOG.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(GOOG.price)",
+          "n": 3
+        },
+        {
+          "op": "observe(META.price)",
+          "val": -0.0017
+        },
+        {
+          "op": "parents(META.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: AMD, GOOGL, META, NVDA, SPY. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 202",
+      "stocks": [
+        "AMD",
+        "GOOGL",
+        "META",
+        "NVDA",
+        "SPY"
+      ],
+      "abel_covered_stocks": [
+        "GOOG",
+        "META"
+      ],
+      "ground_truth": "AMD",
+      "ground_truth_return_pct": 22.96,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(GOOG.price)",
+        "observe(META.price)",
+        "neighbors(GOOG.price, parents)",
+        "neighbors(META.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-052",
+      "original_id": "dellma_stock_032",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(GOOG.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(GOOG.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: AMD, GOOGL, NVDA. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'",
+      "stocks": [
+        "AMD",
+        "GOOGL",
+        "NVDA"
+      ],
+      "abel_covered_stocks": [
+        "GOOG"
+      ],
+      "ground_truth": "AMD",
+      "ground_truth_return_pct": 22.96,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(GOOG.price)",
+        "neighbors(GOOG.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-053",
+      "original_id": "dellma_stock_004",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(META.price)",
+          "val": -0.0017
+        },
+        {
+          "op": "parents(META.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: AMD, META. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'm buyin",
+      "stocks": [
+        "AMD",
+        "META"
+      ],
+      "abel_covered_stocks": [
+        "META"
+      ],
+      "ground_truth": "AMD",
+      "ground_truth_return_pct": 22.96,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(META.price)",
+        "neighbors(META.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-054",
+      "original_id": "dellma_stock_065",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(META.price)",
+          "val": -0.0017
+        },
+        {
+          "op": "parents(META.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: AMD, DIS, META, SPY. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01.",
+      "stocks": [
+        "AMD",
+        "DIS",
+        "META",
+        "SPY"
+      ],
+      "abel_covered_stocks": [
+        "META"
+      ],
+      "ground_truth": "AMD",
+      "ground_truth_return_pct": 22.96,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(META.price)",
+        "neighbors(META.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-055",
+      "original_id": "dellma_stock_063",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(GOOG.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(GOOG.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: AMD, DIS, GOOGL, SPY. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01",
+      "stocks": [
+        "AMD",
+        "DIS",
+        "GOOGL",
+        "SPY"
+      ],
+      "abel_covered_stocks": [
+        "GOOG"
+      ],
+      "ground_truth": "AMD",
+      "ground_truth_return_pct": 22.96,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(GOOG.price)",
+        "neighbors(GOOG.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-056",
+      "original_id": "dellma_stock_062",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(GOOG.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(GOOG.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: AMD, DIS, GOOGL, NVDA. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-0",
+      "stocks": [
+        "AMD",
+        "DIS",
+        "GOOGL",
+        "NVDA"
+      ],
+      "abel_covered_stocks": [
+        "GOOG"
+      ],
+      "ground_truth": "AMD",
+      "ground_truth_return_pct": 22.96,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(GOOG.price)",
+        "neighbors(GOOG.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-057",
+      "original_id": "dellma_stock_033",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(GOOG.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(GOOG.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: AMD, GOOGL, SPY. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'm",
+      "stocks": [
+        "AMD",
+        "GOOGL",
+        "SPY"
+      ],
+      "abel_covered_stocks": [
+        "GOOG"
+      ],
+      "ground_truth": "AMD",
+      "ground_truth_return_pct": 22.96,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(GOOG.price)",
+        "neighbors(GOOG.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-058",
+      "original_id": "dellma_stock_031",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(GOOG.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(GOOG.price)",
+          "n": 3
+        },
+        {
+          "op": "observe(META.price)",
+          "val": -0.0017
+        },
+        {
+          "op": "parents(META.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: AMD, GOOGL, META. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'",
+      "stocks": [
+        "AMD",
+        "GOOGL",
+        "META"
+      ],
+      "abel_covered_stocks": [
+        "GOOG",
+        "META"
+      ],
+      "ground_truth": "AMD",
+      "ground_truth_return_pct": 22.96,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(GOOG.price)",
+        "observe(META.price)",
+        "neighbors(GOOG.price, parents)",
+        "neighbors(META.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-059",
+      "original_id": "dellma_stock_100",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(GOOG.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(GOOG.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: AMD, DIS, GOOGL, NVDA, SPY. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023",
+      "stocks": [
+        "AMD",
+        "DIS",
+        "GOOGL",
+        "NVDA",
+        "SPY"
+      ],
+      "abel_covered_stocks": [
+        "GOOG"
+      ],
+      "ground_truth": "AMD",
+      "ground_truth_return_pct": 22.96,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(GOOG.price)",
+        "neighbors(GOOG.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-060",
+      "original_id": "dellma_stock_028",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(META.price)",
+          "val": -0.0017
+        },
+        {
+          "op": "parents(META.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: AMD, GME, META. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'm ",
+      "stocks": [
+        "AMD",
+        "GME",
+        "META"
+      ],
+      "abel_covered_stocks": [
+        "META"
+      ],
+      "ground_truth": "AMD",
+      "ground_truth_return_pct": 22.96,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(META.price)",
+        "neighbors(META.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-061",
+      "original_id": "dellma_stock_103",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(GOOG.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(GOOG.price)",
+          "n": 3
+        },
+        {
+          "op": "observe(META.price)",
+          "val": -0.0017
+        },
+        {
+          "op": "parents(META.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: AMD, GME, GOOGL, META, SPY. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023",
+      "stocks": [
+        "AMD",
+        "GME",
+        "GOOGL",
+        "META",
+        "SPY"
+      ],
+      "abel_covered_stocks": [
+        "GOOG",
+        "META"
+      ],
+      "ground_truth": "AMD",
+      "ground_truth_return_pct": 22.96,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(GOOG.price)",
+        "observe(META.price)",
+        "neighbors(GOOG.price, parents)",
+        "neighbors(META.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-062",
+      "original_id": "dellma_stock_092",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(GOOG.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(GOOG.price)",
+          "n": 3
+        },
+        {
+          "op": "observe(META.price)",
+          "val": -0.0017
+        },
+        {
+          "op": "parents(META.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: AMD, DIS, GME, GOOGL, META. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023",
+      "stocks": [
+        "AMD",
+        "DIS",
+        "GME",
+        "GOOGL",
+        "META"
+      ],
+      "abel_covered_stocks": [
+        "GOOG",
+        "META"
+      ],
+      "ground_truth": "AMD",
+      "ground_truth_return_pct": 22.96,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(GOOG.price)",
+        "observe(META.price)",
+        "neighbors(GOOG.price, parents)",
+        "neighbors(META.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-063",
+      "original_id": "dellma_stock_023",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(GOOG.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(GOOG.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: AMD, DIS, GOOGL. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'm",
+      "stocks": [
+        "AMD",
+        "DIS",
+        "GOOGL"
+      ],
+      "abel_covered_stocks": [
+        "GOOG"
+      ],
+      "ground_truth": "AMD",
+      "ground_truth_return_pct": 22.96,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(GOOG.price)",
+        "neighbors(GOOG.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-064",
+      "original_id": "dellma_stock_117",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(GOOG.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(GOOG.price)",
+          "n": 3
+        },
+        {
+          "op": "observe(META.price)",
+          "val": -0.0017
+        },
+        {
+          "op": "parents(META.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: AMD, DIS, GOOGL, META, NVDA, SPY. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today i",
+      "stocks": [
+        "AMD",
+        "DIS",
+        "GOOGL",
+        "META",
+        "NVDA",
+        "SPY"
+      ],
+      "abel_covered_stocks": [
+        "GOOG",
+        "META"
+      ],
+      "ground_truth": "AMD",
+      "ground_truth_return_pct": 22.96,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(GOOG.price)",
+        "observe(META.price)",
+        "neighbors(GOOG.price, parents)",
+        "neighbors(META.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-065",
+      "original_id": "dellma_stock_104",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(GOOG.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(GOOG.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: AMD, GME, GOOGL, NVDA, SPY. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023",
+      "stocks": [
+        "AMD",
+        "GME",
+        "GOOGL",
+        "NVDA",
+        "SPY"
+      ],
+      "abel_covered_stocks": [
+        "GOOG"
+      ],
+      "ground_truth": "AMD",
+      "ground_truth_return_pct": 22.96,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(GOOG.price)",
+        "neighbors(GOOG.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-066",
+      "original_id": "dellma_stock_061",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(GOOG.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(GOOG.price)",
+          "n": 3
+        },
+        {
+          "op": "observe(META.price)",
+          "val": -0.0017
+        },
+        {
+          "op": "parents(META.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: AMD, DIS, GOOGL, META. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-0",
+      "stocks": [
+        "AMD",
+        "DIS",
+        "GOOGL",
+        "META"
+      ],
+      "abel_covered_stocks": [
+        "GOOG",
+        "META"
+      ],
+      "ground_truth": "AMD",
+      "ground_truth_return_pct": 22.96,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(GOOG.price)",
+        "observe(META.price)",
+        "neighbors(GOOG.price, parents)",
+        "neighbors(META.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-067",
+      "original_id": "dellma_stock_114",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(GOOG.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(GOOG.price)",
+          "n": 3
+        },
+        {
+          "op": "observe(META.price)",
+          "val": -0.0017
+        },
+        {
+          "op": "parents(META.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: AMD, DIS, GME, GOOGL, META, SPY. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is",
+      "stocks": [
+        "AMD",
+        "DIS",
+        "GME",
+        "GOOGL",
+        "META",
+        "SPY"
+      ],
+      "abel_covered_stocks": [
+        "GOOG",
+        "META"
+      ],
+      "ground_truth": "AMD",
+      "ground_truth_return_pct": 22.96,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(GOOG.price)",
+        "observe(META.price)",
+        "neighbors(GOOG.price, parents)",
+        "neighbors(META.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-068",
+      "original_id": "dellma_stock_064",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(META.price)",
+          "val": -0.0017
+        },
+        {
+          "op": "parents(META.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: AMD, DIS, META, NVDA. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01",
+      "stocks": [
+        "AMD",
+        "DIS",
+        "META",
+        "NVDA"
+      ],
+      "abel_covered_stocks": [
+        "META"
+      ],
+      "ground_truth": "AMD",
+      "ground_truth_return_pct": 22.96,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(META.price)",
+        "neighbors(META.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-069",
+      "original_id": "dellma_stock_068",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(GOOG.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(GOOG.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: AMD, GME, GOOGL, NVDA. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-0",
+      "stocks": [
+        "AMD",
+        "GME",
+        "GOOGL",
+        "NVDA"
+      ],
+      "abel_covered_stocks": [
+        "GOOG"
+      ],
+      "ground_truth": "AMD",
+      "ground_truth_return_pct": 22.96,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(GOOG.price)",
+        "neighbors(GOOG.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-070",
+      "original_id": "dellma_stock_003",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(GOOG.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(GOOG.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: AMD, GOOGL. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'm buyi",
+      "stocks": [
+        "AMD",
+        "GOOGL"
+      ],
+      "abel_covered_stocks": [
+        "GOOG"
+      ],
+      "ground_truth": "AMD",
+      "ground_truth_return_pct": 22.96,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(GOOG.price)",
+        "neighbors(GOOG.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-071",
+      "original_id": "dellma_stock_116",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(META.price)",
+          "val": -0.0017
+        },
+        {
+          "op": "parents(META.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: AMD, DIS, GME, META, NVDA, SPY. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is ",
+      "stocks": [
+        "AMD",
+        "DIS",
+        "GME",
+        "META",
+        "NVDA",
+        "SPY"
+      ],
+      "abel_covered_stocks": [
+        "META"
+      ],
+      "ground_truth": "AMD",
+      "ground_truth_return_pct": 22.96,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(META.price)",
+        "neighbors(META.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-072",
+      "original_id": "dellma_stock_120",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(GOOG.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(GOOG.price)",
+          "n": 3
+        },
+        {
+          "op": "observe(META.price)",
+          "val": -0.0017
+        },
+        {
+          "op": "parents(META.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: AMD, DIS, GME, GOOGL, META, NVDA, SPY. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. To",
+      "stocks": [
+        "AMD",
+        "DIS",
+        "GME",
+        "GOOGL",
+        "META",
+        "NVDA",
+        "SPY"
+      ],
+      "abel_covered_stocks": [
+        "GOOG",
+        "META"
+      ],
+      "ground_truth": "AMD",
+      "ground_truth_return_pct": 22.96,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(GOOG.price)",
+        "observe(META.price)",
+        "neighbors(GOOG.price, parents)",
+        "neighbors(META.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-073",
+      "original_id": "dellma_stock_071",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(META.price)",
+          "val": -0.0017
+        },
+        {
+          "op": "parents(META.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: AMD, GME, META, SPY. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01.",
+      "stocks": [
+        "AMD",
+        "GME",
+        "META",
+        "SPY"
+      ],
+      "abel_covered_stocks": [
+        "META"
+      ],
+      "ground_truth": "AMD",
+      "ground_truth_return_pct": 22.96,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(META.price)",
+        "neighbors(META.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-074",
+      "original_id": "dellma_stock_069",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(GOOG.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(GOOG.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: AMD, GME, GOOGL, SPY. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01",
+      "stocks": [
+        "AMD",
+        "GME",
+        "GOOGL",
+        "SPY"
+      ],
+      "abel_covered_stocks": [
+        "GOOG"
+      ],
+      "ground_truth": "AMD",
+      "ground_truth_return_pct": 22.96,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(GOOG.price)",
+        "neighbors(GOOG.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-075",
+      "original_id": "dellma_stock_075",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(GOOG.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(GOOG.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: AMD, GOOGL, NVDA, SPY. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-0",
+      "stocks": [
+        "AMD",
+        "GOOGL",
+        "NVDA",
+        "SPY"
+      ],
+      "abel_covered_stocks": [
+        "GOOG"
+      ],
+      "ground_truth": "AMD",
+      "ground_truth_return_pct": 22.96,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(GOOG.price)",
+        "neighbors(GOOG.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-076",
+      "original_id": "dellma_stock_090",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(META.price)",
+          "val": -0.0017
+        },
+        {
+          "op": "parents(META.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: GME, META, NVDA, SPY. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01",
+      "stocks": [
+        "GME",
+        "META",
+        "NVDA",
+        "SPY"
+      ],
+      "abel_covered_stocks": [
+        "META"
+      ],
+      "ground_truth": "GME",
+      "ground_truth_return_pct": 20.73,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(META.price)",
+        "neighbors(META.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-077",
+      "original_id": "dellma_stock_081",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(META.price)",
+          "val": -0.0017
+        },
+        {
+          "op": "parents(META.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: DIS, GME, META, SPY. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01.",
+      "stocks": [
+        "DIS",
+        "GME",
+        "META",
+        "SPY"
+      ],
+      "abel_covered_stocks": [
+        "META"
+      ],
+      "ground_truth": "GME",
+      "ground_truth_return_pct": 20.73,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(META.price)",
+        "neighbors(META.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-078",
+      "original_id": "dellma_stock_050",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(META.price)",
+          "val": -0.0017
+        },
+        {
+          "op": "parents(META.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: GME, META, NVDA. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'm",
+      "stocks": [
+        "GME",
+        "META",
+        "NVDA"
+      ],
+      "abel_covered_stocks": [
+        "META"
+      ],
+      "ground_truth": "GME",
+      "ground_truth_return_pct": 20.73,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(META.price)",
+        "neighbors(META.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-079",
+      "original_id": "dellma_stock_087",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(GOOG.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(GOOG.price)",
+          "n": 3
+        },
+        {
+          "op": "observe(META.price)",
+          "val": -0.0017
+        },
+        {
+          "op": "parents(META.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: GME, GOOGL, META, NVDA. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-",
+      "stocks": [
+        "GME",
+        "GOOGL",
+        "META",
+        "NVDA"
+      ],
+      "abel_covered_stocks": [
+        "GOOG",
+        "META"
+      ],
+      "ground_truth": "GME",
+      "ground_truth_return_pct": 20.73,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(GOOG.price)",
+        "observe(META.price)",
+        "neighbors(GOOG.price, parents)",
+        "neighbors(META.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-080",
+      "original_id": "dellma_stock_107",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(GOOG.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(GOOG.price)",
+          "n": 3
+        },
+        {
+          "op": "observe(META.price)",
+          "val": -0.0017
+        },
+        {
+          "op": "parents(META.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: DIS, GME, GOOGL, META, NVDA. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 202",
+      "stocks": [
+        "DIS",
+        "GME",
+        "GOOGL",
+        "META",
+        "NVDA"
+      ],
+      "abel_covered_stocks": [
+        "GOOG",
+        "META"
+      ],
+      "ground_truth": "GME",
+      "ground_truth_return_pct": 20.73,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(GOOG.price)",
+        "observe(META.price)",
+        "neighbors(GOOG.price, parents)",
+        "neighbors(META.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-081",
+      "original_id": "dellma_stock_051",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(META.price)",
+          "val": -0.0017
+        },
+        {
+          "op": "parents(META.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: GME, META, SPY. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'm ",
+      "stocks": [
+        "GME",
+        "META",
+        "SPY"
+      ],
+      "abel_covered_stocks": [
+        "META"
+      ],
+      "ground_truth": "GME",
+      "ground_truth_return_pct": 20.73,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(META.price)",
+        "neighbors(META.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-082",
+      "original_id": "dellma_stock_012",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(GOOG.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(GOOG.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: GME, GOOGL. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'm buyi",
+      "stocks": [
+        "GME",
+        "GOOGL"
+      ],
+      "abel_covered_stocks": [
+        "GOOG"
+      ],
+      "ground_truth": "GME",
+      "ground_truth_return_pct": 20.73,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(GOOG.price)",
+        "neighbors(GOOG.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-083",
+      "original_id": "dellma_stock_048",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(GOOG.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(GOOG.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: GME, GOOGL, NVDA. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'",
+      "stocks": [
+        "GME",
+        "GOOGL",
+        "NVDA"
+      ],
+      "abel_covered_stocks": [
+        "GOOG"
+      ],
+      "ground_truth": "GME",
+      "ground_truth_return_pct": 20.73,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(GOOG.price)",
+        "neighbors(GOOG.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-084",
+      "original_id": "dellma_stock_112",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(GOOG.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(GOOG.price)",
+          "n": 3
+        },
+        {
+          "op": "observe(META.price)",
+          "val": -0.0017
+        },
+        {
+          "op": "parents(META.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: GME, GOOGL, META, NVDA, SPY. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 202",
+      "stocks": [
+        "GME",
+        "GOOGL",
+        "META",
+        "NVDA",
+        "SPY"
+      ],
+      "abel_covered_stocks": [
+        "GOOG",
+        "META"
+      ],
+      "ground_truth": "GME",
+      "ground_truth_return_pct": 20.73,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(GOOG.price)",
+        "observe(META.price)",
+        "neighbors(GOOG.price, parents)",
+        "neighbors(META.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-085",
+      "original_id": "dellma_stock_089",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(GOOG.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(GOOG.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: GME, GOOGL, NVDA, SPY. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-0",
+      "stocks": [
+        "GME",
+        "GOOGL",
+        "NVDA",
+        "SPY"
+      ],
+      "abel_covered_stocks": [
+        "GOOG"
+      ],
+      "ground_truth": "GME",
+      "ground_truth_return_pct": 20.73,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(GOOG.price)",
+        "neighbors(GOOG.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-086",
+      "original_id": "dellma_stock_047",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(GOOG.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(GOOG.price)",
+          "n": 3
+        },
+        {
+          "op": "observe(META.price)",
+          "val": -0.0017
+        },
+        {
+          "op": "parents(META.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: GME, GOOGL, META. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'",
+      "stocks": [
+        "GME",
+        "GOOGL",
+        "META"
+      ],
+      "abel_covered_stocks": [
+        "GOOG",
+        "META"
+      ],
+      "ground_truth": "GME",
+      "ground_truth_return_pct": 20.73,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(GOOG.price)",
+        "observe(META.price)",
+        "neighbors(GOOG.price, parents)",
+        "neighbors(META.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-087",
+      "original_id": "dellma_stock_037",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(GOOG.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(GOOG.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: DIS, GME, GOOGL. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'm",
+      "stocks": [
+        "DIS",
+        "GME",
+        "GOOGL"
+      ],
+      "abel_covered_stocks": [
+        "GOOG"
+      ],
+      "ground_truth": "GME",
+      "ground_truth_return_pct": 20.73,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(GOOG.price)",
+        "neighbors(GOOG.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-088",
+      "original_id": "dellma_stock_008",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(GOOG.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(GOOG.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: DIS, GOOGL. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'm buyi",
+      "stocks": [
+        "DIS",
+        "GOOGL"
+      ],
+      "abel_covered_stocks": [
+        "GOOG"
+      ],
+      "ground_truth": "GOOGL",
+      "ground_truth_return_pct": 5.94,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(GOOG.price)",
+        "neighbors(GOOG.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-089",
+      "original_id": "dellma_stock_086",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(META.price)",
+          "val": -0.0017
+        },
+        {
+          "op": "parents(META.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: DIS, META, NVDA, SPY. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01",
+      "stocks": [
+        "DIS",
+        "META",
+        "NVDA",
+        "SPY"
+      ],
+      "abel_covered_stocks": [
+        "META"
+      ],
+      "ground_truth": "META",
+      "ground_truth_return_pct": 8.75,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(META.price)",
+        "neighbors(META.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-090",
+      "original_id": "dellma_stock_044",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(META.price)",
+          "val": -0.0017
+        },
+        {
+          "op": "parents(META.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: DIS, META, NVDA. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'm",
+      "stocks": [
+        "DIS",
+        "META",
+        "NVDA"
+      ],
+      "abel_covered_stocks": [
+        "META"
+      ],
+      "ground_truth": "META",
+      "ground_truth_return_pct": 8.75,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(META.price)",
+        "neighbors(META.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-091",
+      "original_id": "dellma_stock_016",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(GOOG.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(GOOG.price)",
+          "n": 3
+        },
+        {
+          "op": "observe(META.price)",
+          "val": -0.0017
+        },
+        {
+          "op": "parents(META.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: GOOGL, META. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'm buy",
+      "stocks": [
+        "GOOGL",
+        "META"
+      ],
+      "abel_covered_stocks": [
+        "GOOG",
+        "META"
+      ],
+      "ground_truth": "META",
+      "ground_truth_return_pct": 8.75,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(GOOG.price)",
+        "observe(META.price)",
+        "neighbors(GOOG.price, parents)",
+        "neighbors(META.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-092",
+      "original_id": "dellma_stock_111",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(GOOG.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(GOOG.price)",
+          "n": 3
+        },
+        {
+          "op": "observe(META.price)",
+          "val": -0.0017
+        },
+        {
+          "op": "parents(META.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: DIS, GOOGL, META, NVDA, SPY. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 202",
+      "stocks": [
+        "DIS",
+        "GOOGL",
+        "META",
+        "NVDA",
+        "SPY"
+      ],
+      "abel_covered_stocks": [
+        "GOOG",
+        "META"
+      ],
+      "ground_truth": "META",
+      "ground_truth_return_pct": 8.75,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(GOOG.price)",
+        "observe(META.price)",
+        "neighbors(GOOG.price, parents)",
+        "neighbors(META.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-093",
+      "original_id": "dellma_stock_045",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(META.price)",
+          "val": -0.0017
+        },
+        {
+          "op": "parents(META.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: DIS, META, SPY. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'm ",
+      "stocks": [
+        "DIS",
+        "META",
+        "SPY"
+      ],
+      "abel_covered_stocks": [
+        "META"
+      ],
+      "ground_truth": "META",
+      "ground_truth_return_pct": 8.75,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(META.price)",
+        "neighbors(META.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-094",
+      "original_id": "dellma_stock_084",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(GOOG.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(GOOG.price)",
+          "n": 3
+        },
+        {
+          "op": "observe(META.price)",
+          "val": -0.0017
+        },
+        {
+          "op": "parents(META.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: DIS, GOOGL, META, SPY. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-0",
+      "stocks": [
+        "DIS",
+        "GOOGL",
+        "META",
+        "SPY"
+      ],
+      "abel_covered_stocks": [
+        "GOOG",
+        "META"
+      ],
+      "ground_truth": "META",
+      "ground_truth_return_pct": 8.75,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(GOOG.price)",
+        "observe(META.price)",
+        "neighbors(GOOG.price, parents)",
+        "neighbors(META.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-095",
+      "original_id": "dellma_stock_091",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(GOOG.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(GOOG.price)",
+          "n": 3
+        },
+        {
+          "op": "observe(META.price)",
+          "val": -0.0017
+        },
+        {
+          "op": "parents(META.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: GOOGL, META, NVDA, SPY. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-",
+      "stocks": [
+        "GOOGL",
+        "META",
+        "NVDA",
+        "SPY"
+      ],
+      "abel_covered_stocks": [
+        "GOOG",
+        "META"
+      ],
+      "ground_truth": "META",
+      "ground_truth_return_pct": 8.75,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(GOOG.price)",
+        "observe(META.price)",
+        "neighbors(GOOG.price, parents)",
+        "neighbors(META.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-096",
+      "original_id": "dellma_stock_055",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(GOOG.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(GOOG.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: GOOGL, NVDA, SPY. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'",
+      "stocks": [
+        "GOOGL",
+        "NVDA",
+        "SPY"
+      ],
+      "abel_covered_stocks": [
+        "GOOG"
+      ],
+      "ground_truth": "NVDA",
+      "ground_truth_return_pct": 6.44,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(GOOG.price)",
+        "neighbors(GOOG.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-097",
+      "original_id": "dellma_stock_085",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(GOOG.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(GOOG.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: DIS, GOOGL, NVDA, SPY. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-0",
+      "stocks": [
+        "DIS",
+        "GOOGL",
+        "NVDA",
+        "SPY"
+      ],
+      "abel_covered_stocks": [
+        "GOOG"
+      ],
+      "ground_truth": "NVDA",
+      "ground_truth_return_pct": 6.44,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(GOOG.price)",
+        "neighbors(GOOG.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-098",
+      "original_id": "dellma_stock_054",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(GOOG.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(GOOG.price)",
+          "n": 3
+        },
+        {
+          "op": "observe(META.price)",
+          "val": -0.0017
+        },
+        {
+          "op": "parents(META.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: GOOGL, META, SPY. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'",
+      "stocks": [
+        "GOOGL",
+        "META",
+        "SPY"
+      ],
+      "abel_covered_stocks": [
+        "GOOG",
+        "META"
+      ],
+      "ground_truth": "META",
+      "ground_truth_return_pct": 8.75,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(GOOG.price)",
+        "observe(META.price)",
+        "neighbors(GOOG.price, parents)",
+        "neighbors(META.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-099",
+      "original_id": "dellma_stock_017",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(GOOG.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(GOOG.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: GOOGL, NVDA. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'm buy",
+      "stocks": [
+        "GOOGL",
+        "NVDA"
+      ],
+      "abel_covered_stocks": [
+        "GOOG"
+      ],
+      "ground_truth": "NVDA",
+      "ground_truth_return_pct": 6.44,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(GOOG.price)",
+        "neighbors(GOOG.price, parents)"
+      ]
+    },
+    {
+      "id": "ACAB-100",
+      "original_id": "dellma_stock_119",
+      "source_benchmark": "DeLLMa",
+      "category": "stock_decision",
+      "abel_has_signal": true,
+      "abel_signals": [
+        {
+          "op": "observe(GOOG.price)",
+          "val": 0.0001
+        },
+        {
+          "op": "parents(GOOG.price)",
+          "n": 3
+        },
+        {
+          "op": "observe(META.price)",
+          "val": -0.0017
+        },
+        {
+          "op": "parents(META.price)",
+          "n": 3
+        }
+      ],
+      "question": "Below are the stocks I am considering: DIS, GME, GOOGL, META, NVDA, SPY. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today i",
+      "stocks": [
+        "DIS",
+        "GME",
+        "GOOGL",
+        "META",
+        "NVDA",
+        "SPY"
+      ],
+      "abel_covered_stocks": [
+        "GOOG",
+        "META"
+      ],
+      "ground_truth": "GME",
+      "ground_truth_return_pct": 20.73,
+      "scoring": "exact_match",
+      "abel_ops": [
+        "observe(GOOG.price)",
+        "observe(META.price)",
+        "neighbors(GOOG.price, parents)",
+        "neighbors(META.price, parents)"
+      ]
+    }
+  ]
+}

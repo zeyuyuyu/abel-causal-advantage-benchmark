@@ -1,0 +1,747 @@
+[
+  {
+    "id": "dellma_stock_003",
+    "source": "DeLLMa",
+    "category": "stock_decision",
+    "question": "Below are the stocks I am considering: AMD, GOOGL. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'm buyi",
+    "stocks": [
+      "AMD",
+      "GOOGL"
+    ],
+    "abel_stocks": [
+      "GOOG"
+    ],
+    "ground_truth": "AMD",
+    "gt_return": 22.96,
+    "abel_signals": [
+      {
+        "op": "observe(GOOG.price)",
+        "val": 0.0001
+      },
+      {
+        "op": "parents(GOOG.price)",
+        "n": 5
+      }
+    ],
+    "abel_has_signal": true
+  },
+  {
+    "id": "dellma_stock_004",
+    "source": "DeLLMa",
+    "category": "stock_decision",
+    "question": "Below are the stocks I am considering: AMD, META. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'm buyin",
+    "stocks": [
+      "AMD",
+      "META"
+    ],
+    "abel_stocks": [
+      "META"
+    ],
+    "ground_truth": "AMD",
+    "gt_return": 22.96,
+    "abel_signals": [
+      {
+        "op": "observe(META.price)",
+        "val": -0.0017
+      },
+      {
+        "op": "parents(META.price)",
+        "n": 5
+      }
+    ],
+    "abel_has_signal": true
+  },
+  {
+    "id": "dellma_stock_008",
+    "source": "DeLLMa",
+    "category": "stock_decision",
+    "question": "Below are the stocks I am considering: DIS, GOOGL. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'm buyi",
+    "stocks": [
+      "DIS",
+      "GOOGL"
+    ],
+    "abel_stocks": [
+      "GOOG"
+    ],
+    "ground_truth": "GOOGL",
+    "gt_return": 5.94,
+    "abel_signals": [
+      {
+        "op": "observe(GOOG.price)",
+        "val": 0.0001
+      },
+      {
+        "op": "parents(GOOG.price)",
+        "n": 5
+      }
+    ],
+    "abel_has_signal": true
+  },
+  {
+    "id": "dellma_stock_009",
+    "source": "DeLLMa",
+    "category": "stock_decision",
+    "question": "Below are the stocks I am considering: DIS, META. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'm buyin",
+    "stocks": [
+      "DIS",
+      "META"
+    ],
+    "abel_stocks": [
+      "META"
+    ],
+    "ground_truth": "META",
+    "gt_return": 8.75,
+    "abel_signals": [
+      {
+        "op": "observe(META.price)",
+        "val": -0.0017
+      },
+      {
+        "op": "parents(META.price)",
+        "n": 5
+      }
+    ],
+    "abel_has_signal": true
+  },
+  {
+    "id": "dellma_stock_012",
+    "source": "DeLLMa",
+    "category": "stock_decision",
+    "question": "Below are the stocks I am considering: GME, GOOGL. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'm buyi",
+    "stocks": [
+      "GME",
+      "GOOGL"
+    ],
+    "abel_stocks": [
+      "GOOG"
+    ],
+    "ground_truth": "GME",
+    "gt_return": 20.73,
+    "abel_signals": [
+      {
+        "op": "observe(GOOG.price)",
+        "val": 0.0001
+      },
+      {
+        "op": "parents(GOOG.price)",
+        "n": 5
+      }
+    ],
+    "abel_has_signal": true
+  },
+  {
+    "id": "dellma_stock_013",
+    "source": "DeLLMa",
+    "category": "stock_decision",
+    "question": "Below are the stocks I am considering: GME, META. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'm buyin",
+    "stocks": [
+      "GME",
+      "META"
+    ],
+    "abel_stocks": [
+      "META"
+    ],
+    "ground_truth": "GME",
+    "gt_return": 20.73,
+    "abel_signals": [
+      {
+        "op": "observe(META.price)",
+        "val": -0.0017
+      },
+      {
+        "op": "parents(META.price)",
+        "n": 5
+      }
+    ],
+    "abel_has_signal": true
+  },
+  {
+    "id": "dellma_stock_016",
+    "source": "DeLLMa",
+    "category": "stock_decision",
+    "question": "Below are the stocks I am considering: GOOGL, META. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'm buy",
+    "stocks": [
+      "GOOGL",
+      "META"
+    ],
+    "abel_stocks": [
+      "GOOG",
+      "META"
+    ],
+    "ground_truth": "META",
+    "gt_return": 8.75,
+    "abel_signals": [
+      {
+        "op": "observe(GOOG.price)",
+        "val": 0.0001
+      },
+      {
+        "op": "parents(GOOG.price)",
+        "n": 5
+      },
+      {
+        "op": "observe(META.price)",
+        "val": -0.0017
+      },
+      {
+        "op": "parents(META.price)",
+        "n": 5
+      }
+    ],
+    "abel_has_signal": true
+  },
+  {
+    "id": "dellma_stock_017",
+    "source": "DeLLMa",
+    "category": "stock_decision",
+    "question": "Below are the stocks I am considering: GOOGL, NVDA. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'm buy",
+    "stocks": [
+      "GOOGL",
+      "NVDA"
+    ],
+    "abel_stocks": [
+      "GOOG"
+    ],
+    "ground_truth": "NVDA",
+    "gt_return": 6.44,
+    "abel_signals": [
+      {
+        "op": "observe(GOOG.price)",
+        "val": 0.0001
+      },
+      {
+        "op": "parents(GOOG.price)",
+        "n": 5
+      }
+    ],
+    "abel_has_signal": true
+  },
+  {
+    "id": "dellma_stock_018",
+    "source": "DeLLMa",
+    "category": "stock_decision",
+    "question": "Below are the stocks I am considering: GOOGL, SPY. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'm buyi",
+    "stocks": [
+      "GOOGL",
+      "SPY"
+    ],
+    "abel_stocks": [
+      "GOOG"
+    ],
+    "ground_truth": "GOOGL",
+    "gt_return": 5.94,
+    "abel_signals": [
+      {
+        "op": "observe(GOOG.price)",
+        "val": 0.0001
+      },
+      {
+        "op": "parents(GOOG.price)",
+        "n": 5
+      }
+    ],
+    "abel_has_signal": true
+  },
+  {
+    "id": "dellma_stock_019",
+    "source": "DeLLMa",
+    "category": "stock_decision",
+    "question": "Below are the stocks I am considering: META, NVDA. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'm buyi",
+    "stocks": [
+      "META",
+      "NVDA"
+    ],
+    "abel_stocks": [
+      "META"
+    ],
+    "ground_truth": "META",
+    "gt_return": 8.75,
+    "abel_signals": [
+      {
+        "op": "observe(META.price)",
+        "val": -0.0017
+      },
+      {
+        "op": "parents(META.price)",
+        "n": 5
+      }
+    ],
+    "abel_has_signal": true
+  },
+  {
+    "id": "dellma_stock_020",
+    "source": "DeLLMa",
+    "category": "stock_decision",
+    "question": "Below are the stocks I am considering: META, SPY. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'm buyin",
+    "stocks": [
+      "META",
+      "SPY"
+    ],
+    "abel_stocks": [
+      "META"
+    ],
+    "ground_truth": "META",
+    "gt_return": 8.75,
+    "abel_signals": [
+      {
+        "op": "observe(META.price)",
+        "val": -0.0017
+      },
+      {
+        "op": "parents(META.price)",
+        "n": 5
+      }
+    ],
+    "abel_has_signal": true
+  },
+  {
+    "id": "dellma_stock_023",
+    "source": "DeLLMa",
+    "category": "stock_decision",
+    "question": "Below are the stocks I am considering: AMD, DIS, GOOGL. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'm",
+    "stocks": [
+      "AMD",
+      "DIS",
+      "GOOGL"
+    ],
+    "abel_stocks": [
+      "GOOG"
+    ],
+    "ground_truth": "AMD",
+    "gt_return": 22.96,
+    "abel_signals": [
+      {
+        "op": "observe(GOOG.price)",
+        "val": 0.0001
+      },
+      {
+        "op": "parents(GOOG.price)",
+        "n": 5
+      }
+    ],
+    "abel_has_signal": true
+  },
+  {
+    "id": "dellma_stock_024",
+    "source": "DeLLMa",
+    "category": "stock_decision",
+    "question": "Below are the stocks I am considering: AMD, DIS, META. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'm ",
+    "stocks": [
+      "AMD",
+      "DIS",
+      "META"
+    ],
+    "abel_stocks": [
+      "META"
+    ],
+    "ground_truth": "AMD",
+    "gt_return": 22.96,
+    "abel_signals": [
+      {
+        "op": "observe(META.price)",
+        "val": -0.0017
+      },
+      {
+        "op": "parents(META.price)",
+        "n": 5
+      }
+    ],
+    "abel_has_signal": true
+  },
+  {
+    "id": "dellma_stock_027",
+    "source": "DeLLMa",
+    "category": "stock_decision",
+    "question": "Below are the stocks I am considering: AMD, GME, GOOGL. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'm",
+    "stocks": [
+      "AMD",
+      "GME",
+      "GOOGL"
+    ],
+    "abel_stocks": [
+      "GOOG"
+    ],
+    "ground_truth": "AMD",
+    "gt_return": 22.96,
+    "abel_signals": [
+      {
+        "op": "observe(GOOG.price)",
+        "val": 0.0001
+      },
+      {
+        "op": "parents(GOOG.price)",
+        "n": 5
+      }
+    ],
+    "abel_has_signal": true
+  },
+  {
+    "id": "dellma_stock_028",
+    "source": "DeLLMa",
+    "category": "stock_decision",
+    "question": "Below are the stocks I am considering: AMD, GME, META. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'm ",
+    "stocks": [
+      "AMD",
+      "GME",
+      "META"
+    ],
+    "abel_stocks": [
+      "META"
+    ],
+    "ground_truth": "AMD",
+    "gt_return": 22.96,
+    "abel_signals": [
+      {
+        "op": "observe(META.price)",
+        "val": -0.0017
+      },
+      {
+        "op": "parents(META.price)",
+        "n": 5
+      }
+    ],
+    "abel_has_signal": true
+  },
+  {
+    "id": "dellma_stock_031",
+    "source": "DeLLMa",
+    "category": "stock_decision",
+    "question": "Below are the stocks I am considering: AMD, GOOGL, META. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'",
+    "stocks": [
+      "AMD",
+      "GOOGL",
+      "META"
+    ],
+    "abel_stocks": [
+      "GOOG",
+      "META"
+    ],
+    "ground_truth": "AMD",
+    "gt_return": 22.96,
+    "abel_signals": [
+      {
+        "op": "observe(GOOG.price)",
+        "val": 0.0001
+      },
+      {
+        "op": "parents(GOOG.price)",
+        "n": 5
+      },
+      {
+        "op": "observe(META.price)",
+        "val": -0.0017
+      },
+      {
+        "op": "parents(META.price)",
+        "n": 5
+      }
+    ],
+    "abel_has_signal": true
+  },
+  {
+    "id": "dellma_stock_032",
+    "source": "DeLLMa",
+    "category": "stock_decision",
+    "question": "Below are the stocks I am considering: AMD, GOOGL, NVDA. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'",
+    "stocks": [
+      "AMD",
+      "GOOGL",
+      "NVDA"
+    ],
+    "abel_stocks": [
+      "GOOG"
+    ],
+    "ground_truth": "AMD",
+    "gt_return": 22.96,
+    "abel_signals": [
+      {
+        "op": "observe(GOOG.price)",
+        "val": 0.0001
+      },
+      {
+        "op": "parents(GOOG.price)",
+        "n": 5
+      }
+    ],
+    "abel_has_signal": true
+  },
+  {
+    "id": "dellma_stock_033",
+    "source": "DeLLMa",
+    "category": "stock_decision",
+    "question": "Below are the stocks I am considering: AMD, GOOGL, SPY. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'm",
+    "stocks": [
+      "AMD",
+      "GOOGL",
+      "SPY"
+    ],
+    "abel_stocks": [
+      "GOOG"
+    ],
+    "ground_truth": "AMD",
+    "gt_return": 22.96,
+    "abel_signals": [
+      {
+        "op": "observe(GOOG.price)",
+        "val": 0.0001
+      },
+      {
+        "op": "parents(GOOG.price)",
+        "n": 5
+      }
+    ],
+    "abel_has_signal": true
+  },
+  {
+    "id": "dellma_stock_034",
+    "source": "DeLLMa",
+    "category": "stock_decision",
+    "question": "Below are the stocks I am considering: AMD, META, NVDA. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'm",
+    "stocks": [
+      "AMD",
+      "META",
+      "NVDA"
+    ],
+    "abel_stocks": [
+      "META"
+    ],
+    "ground_truth": "AMD",
+    "gt_return": 22.96,
+    "abel_signals": [
+      {
+        "op": "observe(META.price)",
+        "val": -0.0017
+      },
+      {
+        "op": "parents(META.price)",
+        "n": 5
+      }
+    ],
+    "abel_has_signal": true
+  },
+  {
+    "id": "dellma_stock_035",
+    "source": "DeLLMa",
+    "category": "stock_decision",
+    "question": "Below are the stocks I am considering: AMD, META, SPY. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'm ",
+    "stocks": [
+      "AMD",
+      "META",
+      "SPY"
+    ],
+    "abel_stocks": [
+      "META"
+    ],
+    "ground_truth": "AMD",
+    "gt_return": 22.96,
+    "abel_signals": [
+      {
+        "op": "observe(META.price)",
+        "val": -0.0017
+      },
+      {
+        "op": "parents(META.price)",
+        "n": 5
+      }
+    ],
+    "abel_has_signal": true
+  },
+  {
+    "id": "dellma_stock_037",
+    "source": "DeLLMa",
+    "category": "stock_decision",
+    "question": "Below are the stocks I am considering: DIS, GME, GOOGL. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'm",
+    "stocks": [
+      "DIS",
+      "GME",
+      "GOOGL"
+    ],
+    "abel_stocks": [
+      "GOOG"
+    ],
+    "ground_truth": "GME",
+    "gt_return": 20.73,
+    "abel_signals": [
+      {
+        "op": "observe(GOOG.price)",
+        "val": 0.0001
+      },
+      {
+        "op": "parents(GOOG.price)",
+        "n": 5
+      }
+    ],
+    "abel_has_signal": true
+  },
+  {
+    "id": "dellma_stock_038",
+    "source": "DeLLMa",
+    "category": "stock_decision",
+    "question": "Below are the stocks I am considering: DIS, GME, META. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'm ",
+    "stocks": [
+      "DIS",
+      "GME",
+      "META"
+    ],
+    "abel_stocks": [
+      "META"
+    ],
+    "ground_truth": "GME",
+    "gt_return": 20.73,
+    "abel_signals": [
+      {
+        "op": "observe(META.price)",
+        "val": -0.0017
+      },
+      {
+        "op": "parents(META.price)",
+        "n": 5
+      }
+    ],
+    "abel_has_signal": true
+  },
+  {
+    "id": "dellma_stock_041",
+    "source": "DeLLMa",
+    "category": "stock_decision",
+    "question": "Below are the stocks I am considering: DIS, GOOGL, META. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'",
+    "stocks": [
+      "DIS",
+      "GOOGL",
+      "META"
+    ],
+    "abel_stocks": [
+      "GOOG",
+      "META"
+    ],
+    "ground_truth": "META",
+    "gt_return": 8.75,
+    "abel_signals": [
+      {
+        "op": "observe(GOOG.price)",
+        "val": 0.0001
+      },
+      {
+        "op": "parents(GOOG.price)",
+        "n": 5
+      },
+      {
+        "op": "observe(META.price)",
+        "val": -0.0017
+      },
+      {
+        "op": "parents(META.price)",
+        "n": 5
+      }
+    ],
+    "abel_has_signal": true
+  },
+  {
+    "id": "dellma_stock_042",
+    "source": "DeLLMa",
+    "category": "stock_decision",
+    "question": "Below are the stocks I am considering: DIS, GOOGL, NVDA. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'",
+    "stocks": [
+      "DIS",
+      "GOOGL",
+      "NVDA"
+    ],
+    "abel_stocks": [
+      "GOOG"
+    ],
+    "ground_truth": "NVDA",
+    "gt_return": 6.44,
+    "abel_signals": [
+      {
+        "op": "observe(GOOG.price)",
+        "val": 0.0001
+      },
+      {
+        "op": "parents(GOOG.price)",
+        "n": 5
+      }
+    ],
+    "abel_has_signal": true
+  },
+  {
+    "id": "dellma_stock_043",
+    "source": "DeLLMa",
+    "category": "stock_decision",
+    "question": "Below are the stocks I am considering: DIS, GOOGL, SPY. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'm",
+    "stocks": [
+      "DIS",
+      "GOOGL",
+      "SPY"
+    ],
+    "abel_stocks": [
+      "GOOG"
+    ],
+    "ground_truth": "GOOGL",
+    "gt_return": 5.94,
+    "abel_signals": [
+      {
+        "op": "observe(GOOG.price)",
+        "val": 0.0001
+      },
+      {
+        "op": "parents(GOOG.price)",
+        "n": 5
+      }
+    ],
+    "abel_has_signal": true
+  },
+  {
+    "id": "dellma_stock_044",
+    "source": "DeLLMa",
+    "category": "stock_decision",
+    "question": "Below are the stocks I am considering: DIS, META, NVDA. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'm",
+    "stocks": [
+      "DIS",
+      "META",
+      "NVDA"
+    ],
+    "abel_stocks": [
+      "META"
+    ],
+    "ground_truth": "META",
+    "gt_return": 8.75,
+    "abel_signals": [
+      {
+        "op": "observe(META.price)",
+        "val": -0.0017
+      },
+      {
+        "op": "parents(META.price)",
+        "n": 5
+      }
+    ],
+    "abel_has_signal": true
+  },
+  {
+    "id": "dellma_stock_045",
+    "source": "DeLLMa",
+    "category": "stock_decision",
+    "question": "Below are the stocks I am considering: DIS, META, SPY. I would like to know which stock I should buy based on the information of their historical prices in the last 24 months.\nI can only buy one stock and I have a budget of 10000 dollars. I would like to maximize my profit. Today is 2023-12-01. I'm ",
+    "stocks": [
+      "DIS",
+      "META",
+      "SPY"
+    ],
+    "abel_stocks": [
+      "META"
+    ],
+    "ground_truth": "META",
+    "gt_return": 8.75,
+    "abel_signals": [
+      {
+        "op": "observe(META.price)",
+        "val": -0.0017
+      },
+      {
+        "op": "parents(META.price)",
+        "n": 5
+      }
+    ],
+    "abel_has_signal": true
+  }
+]
