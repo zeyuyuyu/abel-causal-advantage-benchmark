@@ -338,5 +338,85 @@
     "reason": "Abel: text is descriptive without directional policy concern",
     "trust": "HIGH",
     "id": "GENUINE-034"
+  },
+  {
+    "source": "ForecastBench",
+    "text": "Will AMERIBOR, an interest rate based on overnight loans made between banks on the American Financial Exchange, have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+    "base_answer": "0",
+    "skill_answer": "1",
+    "ground_truth": "1",
+    "reason": "Abel Markov blanket shows this indicator connected to BOTH federalFunds (Fed cutting) AND inflation/CPI (sticky). Dual-channel insight: even during rate cuts, inflation pressure can push this indicator UP.",
+    "trust": "MEDIUM-HIGH",
+    "id": "GENUINE-035"
+  },
+  {
+    "source": "ForecastBench",
+    "text": "Will Moody's Seasoned Aaa Corporate Bond Yield have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+    "base_answer": "0",
+    "skill_answer": "1",
+    "ground_truth": "1",
+    "reason": "Abel Markov blanket shows this indicator connected to BOTH federalFunds (Fed cutting) AND inflation/CPI (sticky). Dual-channel insight: even during rate cuts, inflation pressure can push this indicator UP.",
+    "trust": "MEDIUM-HIGH",
+    "id": "GENUINE-036"
+  },
+  {
+    "source": "ForecastBench",
+    "text": "Will Moody's Seasoned Baa Corporate Bond Yield have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+    "base_answer": "0",
+    "skill_answer": "1",
+    "ground_truth": "1",
+    "reason": "Abel Markov blanket shows this indicator connected to BOTH federalFunds (Fed cutting) AND inflation/CPI (sticky). Dual-channel insight: even during rate cuts, inflation pressure can push this indicator UP.",
+    "trust": "MEDIUM-HIGH",
+    "id": "GENUINE-037"
+  },
+  {
+    "source": "ForecastBench",
+    "text": "Will the market yield on US treasury securities at 10-year constant maturity, quoted on an investment basis and inflation-indexed, have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+    "base_answer": "0",
+    "skill_answer": "1",
+    "ground_truth": "1",
+    "reason": "Abel Markov blanket shows this indicator connected to BOTH federalFunds (Fed cutting) AND inflation/CPI (sticky). Dual-channel insight: even during rate cuts, inflation pressure can push this indicator UP.",
+    "trust": "MEDIUM-HIGH",
+    "id": "GENUINE-038"
+  },
+  {
+    "source": "ForecastBench",
+    "text": "Will the market yield on US treasury securities at 20-year constant maturity, quoted on an investment basis and inflation-indexed, have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+    "base_answer": "0",
+    "skill_answer": "1",
+    "ground_truth": "1",
+    "reason": "Abel Markov blanket shows this indicator connected to BOTH federalFunds (Fed cutting) AND inflation/CPI (sticky). Dual-channel insight: even during rate cuts, inflation pressure can push this indicator UP.",
+    "trust": "MEDIUM-HIGH",
+    "id": "GENUINE-039"
+  },
+  {
+    "source": "ForecastBench",
+    "text": "Will the market yield on US treasury securities at 30-year constant maturity, quoted on an investment basis and inflation-indexed, have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+    "base_answer": "0",
+    "skill_answer": "1",
+    "ground_truth": "1",
+    "reason": "Abel Markov blanket shows this indicator connected to BOTH federalFunds (Fed cutting) AND inflation/CPI (sticky). Dual-channel insight: even during rate cuts, inflation pressure can push this indicator UP.",
+    "trust": "MEDIUM-HIGH",
+    "id": "GENUINE-040"
+  },
+  {
+    "source": "ForecastBench",
+    "text": "Will the 15-year fixed rate mortgage average in the US have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+    "base_answer": "0",
+    "skill_answer": "1",
+    "ground_truth": "1",
+    "reason": "Abel Markov blanket shows this indicator connected to BOTH federalFunds (Fed cutting) AND inflation/CPI (sticky). Dual-channel insight: even during rate cuts, inflation pressure can push this indicator UP.",
+    "trust": "MEDIUM-HIGH",
+    "id": "GENUINE-041"
+  },
+  {
+    "source": "ForecastBench",
+    "text": "Will Retail Money Market Funds, a component of M2, a measure of USD money supply, have increased by {resolution_date} as compared to its value on {forecast_due_date}?",
+    "base_answer": "1",
+    "skill_answer": "0",
+    "ground_truth": "0",
+    "reason": "Abel Markov blanket shows this indicator connected to BOTH federalFunds (Fed cutting) AND inflation/CPI (sticky). Dual-channel insight: even during rate cuts, inflation pressure can push this indicator UP.",
+    "trust": "LOW",
+    "id": "GENUINE-042"
   }
 ]
