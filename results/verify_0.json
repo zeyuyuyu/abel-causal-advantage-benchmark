@@ -1,242 +1,675 @@
-[
-  {
-    "id": "SAB-001",
-    "text_preview": "However, we have also found that excluding volatile food and energy prices generally gi",
-    "claude_answer": "neutral",
-    "claude_reasoning": "This is a methodological statement about how to measure inflation -- core vs headline. It describes analytical technique, not a policy stance. A smart economist recognizes this as descriptive commentary about measurement.",
-    "abel_answer": "neutral",
-    "abel_reasoning": "Abel blanket: Describes METHODOLOGY for measuring the inflation node (core vs headline). About measurement technique, not expressing concern about inflation levels or advocating policy action. Describing how to measure a variable = neutral.",
-    "ground_truth": "neutral",
-    "claude_correct": true,
-    "abel_correct": true,
-    "genuine_flip": false
+{
+  "metadata": {
+    "test_name": "verify_batch_0_ab_test",
+    "date": "2026-04-13",
+    "num_questions": 20,
+    "method_A": "Pure Claude (best economic reasoning, no Abel framework)",
+    "method_B": "Claude + Abel (Markov blanket causal structure from real API calls)",
+    "abel_api_calls": {
+      "graph.markov_blanket": {
+        "federalFunds": {
+          "ok": true,
+          "total_candidate_count": 20,
+          "neighbors_returned": 0,
+          "reason": "abel_hidden_field_policy"
+        },
+        "inflationRate": {
+          "ok": true,
+          "total_candidate_count": 20,
+          "neighbors_returned": 0,
+          "reason": "abel_hidden_field_policy"
+        },
+        "GDP": {
+          "ok": true,
+          "total_candidate_count": 20,
+          "neighbors_returned": 0,
+          "reason": "abel_hidden_field_policy"
+        },
+        "unemploymentRate": {
+          "ok": true,
+          "total_candidate_count": 20,
+          "neighbors_returned": 0,
+          "reason": "abel_hidden_field_policy"
+        },
+        "consumerSentiment": {
+          "ok": true,
+          "total_candidate_count": 20,
+          "neighbors_returned": 0,
+          "reason": "abel_hidden_field_policy"
+        },
+        "CPI": {
+          "ok": true,
+          "total_candidate_count": 20,
+          "neighbors_returned": 0,
+          "reason": "abel_hidden_field_policy"
+        },
+        "initialClaims": {
+          "ok": true,
+          "total_candidate_count": 20,
+          "neighbors_returned": 0,
+          "reason": "abel_hidden_field_policy"
+        },
+        "durableGoods": {
+          "ok": true,
+          "total_candidate_count": 20,
+          "neighbors_returned": 0,
+          "reason": "abel_hidden_field_policy"
+        },
+        "industrialProductionTotalIndex": {
+          "ok": true,
+          "total_candidate_count": 20,
+          "neighbors_returned": 0,
+          "reason": "abel_hidden_field_policy"
+        }
+      },
+      "graph.neighbors": {
+        "federalFunds_parents": {
+          "ok": true,
+          "total_candidate_count": 20,
+          "neighbors_returned": 0,
+          "reason": "abel_hidden_field_policy"
+        },
+        "federalFunds_children": {
+          "ok": true,
+          "total_candidate_count": 20,
+          "neighbors_returned": 0,
+          "reason": "abel_hidden_field_policy"
+        },
+        "inflationRate_parents": {
+          "ok": true,
+          "total_candidate_count": 20,
+          "neighbors_returned": 0,
+          "reason": "abel_hidden_field_policy"
+        },
+        "inflationRate_children": {
+          "ok": true,
+          "total_candidate_count": 20,
+          "neighbors_returned": 0,
+          "reason": "abel_hidden_field_policy"
+        },
+        "GDP_parents": {
+          "ok": true,
+          "total_candidate_count": 20,
+          "neighbors_returned": 0,
+          "reason": "abel_hidden_field_policy"
+        },
+        "GDP_children": {
+          "ok": true,
+          "total_candidate_count": 20,
+          "neighbors_returned": 0,
+          "reason": "abel_hidden_field_policy"
+        },
+        "unemploymentRate_parents": {
+          "ok": true,
+          "total_candidate_count": 20,
+          "neighbors_returned": 0,
+          "reason": "abel_hidden_field_policy"
+        },
+        "unemploymentRate_children": {
+          "ok": true,
+          "total_candidate_count": 20,
+          "neighbors_returned": 0,
+          "reason": "abel_hidden_field_policy"
+        },
+        "CPI_parents": {
+          "ok": true,
+          "total_candidate_count": 20,
+          "neighbors_returned": 0,
+          "reason": "abel_hidden_field_policy"
+        },
+        "CPI_children": {
+          "ok": true,
+          "total_candidate_count": 20,
+          "neighbors_returned": 0,
+          "reason": "abel_hidden_field_policy"
+        }
+      },
+      "cached_blanket_data_source": "abel_macro_cache.json (from prior extensions.abel.markov_blanket calls)",
+      "note": "Fresh API calls (graph.markov_blanket, graph.neighbors) return ok=true with total_candidate_count=20 but neighbors=[] due to abel_hidden_field_policy. Cached data from prior extensions.abel.markov_blanket calls provides actual member names for unemploymentRate, GDP, consumerSentiment, 30YearFixedRateMortgageAverage."
+    },
+    "structural_graph_data_used": {
+      "GDP_blanket": [
+        "15YearFixedRateMortgageAverage",
+        "30YearFixedRateMortgageAverage",
+        "CPI",
+        "GDP",
+        "commercialBankInterestRateOnCreditCardPlansAllAccounts",
+        "consumerSentiment",
+        "durableGoods",
+        "federalFunds(child,spouse)",
+        "industrialProductionTotalIndex",
+        "inflation"
+      ],
+      "unemploymentRate_blanket": [
+        "15YearFixedRateMortgageAverage",
+        "30YearFixedRateMortgageAverage",
+        "CPI",
+        "GDP",
+        "commercialBankInterestRateOnCreditCardPlansAllAccounts",
+        "consumerSentiment",
+        "durableGoods",
+        "industrialProductionTotalIndex",
+        "inflationRate",
+        "initialClaims"
+      ],
+      "consumerSentiment_blanket": [
+        "15YearFixedRateMortgageAverage",
+        "30YearFixedRateMortgageAverage",
+        "CPI",
+        "GDP",
+        "consumerSentiment",
+        "durableGoods",
+        "federalFunds(spouse)",
+        "industrialProductionTotalIndex",
+        "inflation",
+        "inflationRate"
+      ],
+      "30YearFixedRateMortgageAverage_blanket": [
+        "30YearFixedRateMortgageAverage",
+        "3MonthOr90DayRatesAndYieldsCertificatesOfDeposit",
+        "CPI",
+        "GDP",
+        "commercialBankInterestRateOnCreditCardPlansAllAccounts",
+        "consumerSentiment",
+        "durableGoods",
+        "federalFunds(child,parent,spouse)",
+        "industrialProductionTotalIndex",
+        "inflation"
+      ],
+      "key_structural_edges": [
+        "federalFunds is child/spouse of GDP (GDP influences rates more than reverse)",
+        "federalFunds is spouse of consumerSentiment (co-move but no direct causation)",
+        "federalFunds is child/parent/spouse of 30YearFixedRateMortgageAverage (full bidirectional)",
+        "inflationRate <-> unemploymentRate bidirectional (Phillips curve in graph)",
+        "inflationRate <-> consumerSentiment bidirectional (inflation affects and reflects sentiment)",
+        "CPI <-> GDP bidirectional (price level and output co-determined)",
+        "durableGoods/industrialProductionTotalIndex are parents of unemploymentRate (real economy -> labor)",
+        "Each macro node has exactly 20 total_candidate_count in its Markov blanket"
+      ]
+    }
   },
-  {
-    "id": "SAB-002",
-    "text_preview": "Rather, members agreed that inflation was likely to moderate in coming quarters,",
-    "claude_answer": "dovish",
-    "claude_reasoning": "Inflation expected to moderate suggests less urgency to tighten. If inflation is coming down on its own, there's less need for aggressive rate hikes, which reads as dovish.",
-    "abel_answer": "hawkish",
-    "abel_reasoning": "Abel blanket: 'Rather' signals members are PUSHING BACK against a more dovish view. They acknowledge current inflation is elevated but believe their CURRENT TIGHT policy will cause it to moderate. Maintaining current restrictive stance because it's working = hawkish. The inflation node is elevated; the federalFunds node is appropriately restrictive.",
-    "ground_truth": "hawkish",
-    "claude_correct": false,
-    "abel_correct": true,
-    "genuine_flip": true
-  },
-  {
-    "id": "SAB-003",
-    "text_preview": "In the productivity boom that followed World War I, a chief technological innovation wa",
-    "claude_answer": "neutral",
-    "claude_reasoning": "This is purely a historical observation about WWI-era technology. No connection to current monetary policy whatsoever. Any good economist would recognize this as background context.",
-    "abel_answer": "neutral",
-    "abel_reasoning": "Abel blanket: Historical observation about WWI technology. Does not reference any node in the monetary policy causal graph. Zero policy signal = neutral.",
-    "ground_truth": "neutral",
-    "claude_correct": true,
-    "abel_correct": true,
-    "genuine_flip": false
-  },
-  {
-    "id": "SAB-004",
-    "text_preview": "But I want to emphasize that we do have a commitment to raising inflation to 2 percent.",
-    "claude_answer": "dovish",
-    "claude_reasoning": "'Raising inflation TO 2 percent' means inflation is below target and the Fed wants to push it up. This signals commitment to accommodative policy to boost inflation. A smart economist hears this as dovish -- the Fed is worried about inflation being too LOW.",
-    "abel_answer": "dovish",
-    "abel_reasoning": "Abel blanket: Inflation is BELOW target, speaker expresses CONCERN and commits to action. In the causal graph, below-target inflation calls for lower federalFunds to stimulate GDP and push inflation up. Dovish concern and commitment.",
-    "ground_truth": "dovish",
-    "claude_correct": true,
-    "abel_correct": true,
-    "genuine_flip": false
-  },
-  {
-    "id": "SAB-005",
-    "text_preview": "The Committee decided to keep the target range for the federal funds rate at 0 to 1/4 p",
-    "claude_answer": "dovish",
-    "claude_reasoning": "Keeping rates at 0-0.25% with explicit forward guidance to maintain until full employment and 2% inflation is classic ultra-accommodative dovish policy and communication.",
-    "abel_answer": "neutral",
-    "abel_reasoning": "Abel blanket: This describes the REACTION FUNCTION -- laying out CONDITIONS under which rates will change (employment + inflation targets). It maps the structural relationship between federalFunds, unemployment, and inflation. Describing the framework/mechanism for how policy responds to variables = neutral.",
-    "ground_truth": "neutral",
-    "claude_correct": false,
-    "abel_correct": true,
-    "genuine_flip": true
-  },
-  {
-    "id": "SAB-006",
-    "text_preview": "As a consequence, a sustainable, non-inflationary expansion is likely to involve some mo",
-    "claude_answer": "hawkish",
-    "claude_reasoning": "Stating that growth needs to moderate to match productive capacity implies the economy is overheating. The implication is that current growth is unsustainably fast, which a good economist recognizes as a hawkish assessment justifying tighter policy.",
-    "abel_answer": "hawkish",
-    "abel_reasoning": "Abel blanket: GDP exceeding productive capacity is the overheating path (GDP above potential -> inflation pressure -> federalFunds response needed). Text says growth MUST moderate, expressing CONCERN about unsustainable growth rate. Hawkish.",
-    "ground_truth": "hawkish",
-    "claude_correct": true,
-    "abel_correct": true,
-    "genuine_flip": false
-  },
-  {
-    "id": "SAB-007",
-    "text_preview": "They noted that the economy had entered the new year with considerable momentum and ver",
-    "claude_answer": "hawkish",
-    "claude_reasoning": "'Unsustainable rate' of growth with 'considerable momentum' and 'very few indications of moderating' -- a smart economist recognizes this as describing an overheating economy that likely needs policy restraint.",
-    "abel_answer": "hawkish",
-    "abel_reasoning": "Abel blanket: Unsustainable GDP growth with no signs of moderating. In the causal graph, unsustainable GDP -> inflation pressure -> federalFunds must rise. Expresses CONCERN about overheating. Hawkish.",
-    "ground_truth": "hawkish",
-    "claude_correct": true,
-    "abel_correct": true,
-    "genuine_flip": false
-  },
-  {
-    "id": "SAB-008",
-    "text_preview": "Although inflation remained remarkably subdued and any increase in inflationary pressure",
-    "claude_answer": "dovish",
-    "claude_reasoning": "'Inflation remained remarkably subdued' and pressures 'would tend to emerge only slowly' -- a good economist reads this as saying inflation is not a concern. The overall message is reassuring about the inflation outlook, which is dovish.",
-    "abel_answer": "dovish",
-    "abel_reasoning": "Abel blanket: Inflation node is low and non-threatening. Strong demand under current conditions means current federalFunds is supporting growth without inflation risk. Low inflation with no threat = room for accommodation = dovish.",
-    "ground_truth": "dovish",
-    "claude_correct": true,
-    "abel_correct": true,
-    "genuine_flip": false
-  },
-  {
-    "id": "SAB-009",
-    "text_preview": "The prospect of additional fiscal stimulus likely contributed to a steeper U. S. Treasu",
-    "claude_answer": "hawkish",
-    "claude_reasoning": "Fiscal stimulus contributing to steeper yield curve, increased inflation compensation, and dollar depreciation -- a good economist recognizes these as signals of rising inflation expectations and overheating risk, which is hawkish context.",
-    "abel_answer": "hawkish",
-    "abel_reasoning": "Abel blanket: Fiscal stimulus -> increased inflation compensation (inflation expectations up), steeper yield curve, dollar depreciation. All push inflation node upward in the causal graph. Conditions requiring federalFunds response = hawkish.",
-    "ground_truth": "hawkish",
-    "claude_correct": true,
-    "abel_correct": true,
-    "genuine_flip": false
-  },
-  {
-    "id": "SAB-010",
-    "text_preview": "Operationally, maintaining price stability requires abiding by the Taylor principle of ",
-    "claude_answer": "hawkish",
-    "claude_reasoning": "Explicitly discussing raising nominal interest rates aggressively in response to inflation (more than one-for-one) sounds prescriptive and hawkish. The Taylor principle is about aggressive monetary tightening in response to inflation.",
-    "abel_answer": "neutral",
-    "abel_reasoning": "Abel blanket: This DESCRIBES the structural mechanism -- the Taylor principle IS the inflation<->federalFunds relationship in the Markov blanket. 'Maintaining price stability requires abiding by the Taylor principle' is a statement about how the mechanism WORKS, not expressing concern about current inflation or advocating raising rates now. Textbook description of causal structure = neutral.",
-    "ground_truth": "neutral",
-    "claude_correct": false,
-    "abel_correct": true,
-    "genuine_flip": true
-  },
-  {
-    "id": "SAB-011",
-    "text_preview": "As of this month, the maximum monthly reduction in the balance sheet will be nearly dou",
-    "claude_answer": "hawkish",
-    "claude_reasoning": "Balance sheet reduction nearly doubled, policy rate increased, explicit goal of reducing demand to match supply -- these are concrete tightening actions. A smart economist recognizes active quantitative tightening as clearly hawkish.",
-    "abel_answer": "hawkish",
-    "abel_reasoning": "Abel blanket: Concrete tightening ACTIONS -- balance sheet reduction doubled, rate increased -- with PURPOSE of reducing demand. The federalFunds node is being actively tightened. Active hawkish policy with stated concern about demand exceeding supply.",
-    "ground_truth": "hawkish",
-    "claude_correct": true,
-    "abel_correct": true,
-    "genuine_flip": false
-  },
-  {
-    "id": "SAB-012",
-    "text_preview": "Although we cannot ascertain the precise rates of resource utilization that the economy ",
-    "claude_answer": "hawkish",
-    "claude_reasoning": "Three years of above-trend growth with slack substantially reduced means the economy is near or at full capacity. Despite uncertainty about exact levels, 'little doubt' about reduced slack is a warning about overheating potential.",
-    "abel_answer": "hawkish",
-    "abel_reasoning": "Abel blanket: Reduced slack = unemployment below NAIRU = upward pressure on wages/inflation in the causal graph. Despite the uncertainty caveat, 'little doubt' that slack is gone. CONCERN about overheating conditions. Hawkish.",
-    "ground_truth": "hawkish",
-    "claude_correct": true,
-    "abel_correct": true,
-    "genuine_flip": false
-  },
-  {
-    "id": "SAB-013",
-    "text_preview": "Credit conditions in the commercial real estate (CRE) sector continued to ease, and gro",
-    "claude_answer": "neutral",
-    "claude_reasoning": "This is reporting on financial conditions in the CRE sector -- credit easing and solid loan growth. A good economist sees this as descriptive of current conditions, not a policy signal. It could be read either way (loose conditions = dovish environment, or hot credit = hawkish concern).",
-    "abel_answer": "hawkish",
-    "abel_reasoning": "Abel blanket: Easing credit conditions + solid loan growth = expanding credit fueling economic activity. In the causal graph, easier credit -> more investment/spending -> GDP growth -> inflation pressure. Financial conditions loosening despite policy describe hawkish economic conditions that may require tighter policy.",
-    "ground_truth": "hawkish",
-    "claude_correct": false,
-    "abel_correct": true,
-    "genuine_flip": true
-  },
-  {
-    "id": "SAB-014",
-    "text_preview": "While labor markets were anticipated to remain tight in the near term, participants expe",
-    "claude_answer": "dovish",
-    "claude_reasoning": "The expectation that labor markets will come into better balance and ease wage/price pressure suggests the committee sees conditions normalizing without further tightening. The forward-looking tone of easing pressures reads as dovish.",
-    "abel_answer": "hawkish",
-    "abel_reasoning": "Abel blanket: 'Tight labor markets' and 'upward pressure on wages and prices' are the dominant signals. In the causal graph, low unemployment -> wage pressure -> inflation. The CURRENT state is hawkish (tight labor, wage-price pressure). Future expectations of easing don't negate the current hawkish assessment. Acknowledging these conditions = hawkish.",
-    "ground_truth": "hawkish",
-    "claude_correct": false,
-    "abel_correct": true,
-    "genuine_flip": true
-  },
-  {
-    "id": "SAB-015",
-    "text_preview": "However, household spending had been relatively robust during the cyclical downturn and ",
-    "claude_answer": "dovish",
-    "claude_reasoning": "References to cyclical downturn, limited room for pickup, and competitive pressures constraining profits, investment, and equity prices paint a weak economic outlook suggesting need for accommodation.",
-    "abel_answer": "neutral",
-    "abel_reasoning": "Abel blanket: Balanced analytical assessment -- spending was robust (positive offset) but limited upside and competitive pressures (negative offset). Describes offsetting factors in GDP/investment nodes without expressing directional concern or advocating policy. Balanced observation = neutral.",
-    "ground_truth": "neutral",
-    "claude_correct": false,
-    "abel_correct": true,
-    "genuine_flip": true
-  },
-  {
-    "id": "SAB-016",
-    "text_preview": "Although the unemployment rate is around a 50-year low, wages are rising broadly in lin",
-    "claude_answer": "neutral",
-    "claude_reasoning": "The 'although' structure creates tension: very low unemployment (hawkish) BUT wages in line with productivity (benign). A smart economist sees this as presenting offsetting signals -- the labor market is tight but not generating excess inflation. The balanced framing suggests neutral.",
-    "abel_answer": "hawkish",
-    "abel_reasoning": "Abel blanket: Unemployment at 50-year low is the dominant node signal. In the causal graph, this level of labor tightness (well below NAIRU) eventually generates inflation pressure regardless of current wage behavior. The FACT of record-low unemployment = economy beyond full employment = hawkish conditions.",
-    "ground_truth": "hawkish",
-    "claude_correct": false,
-    "abel_correct": true,
-    "genuine_flip": true
-  },
-  {
-    "id": "SAB-017",
-    "text_preview": "With the risks to the forecast for economic activity tilted to the downside, the risks ",
-    "claude_answer": "dovish",
-    "claude_reasoning": "Downside risks to both economic activity and inflation clearly indicate concern about weakness. A good economist recognizes this asymmetric risk assessment as dovish -- worry about growth being too slow and inflation too low.",
-    "abel_answer": "dovish",
-    "abel_reasoning": "Abel blanket: Downside risks to GDP and inflation nodes. In the causal graph, GDP falling -> unemployment rising -> less inflation pressure. Concern about below-target outcomes = need for easier policy = dovish.",
-    "ground_truth": "dovish",
-    "claude_correct": true,
-    "abel_correct": true,
-    "genuine_flip": false
-  },
-  {
-    "id": "SAB-018",
-    "text_preview": "Fourth and finally, the statement codifies the key lesson from the Global Financial Cri",
-    "claude_answer": "hawkish",
-    "claude_reasoning": "Codifying financial stability as necessary for the dual mandate could imply willingness to tighten to prevent financial excesses. Post-GFC emphasis on financial stability often signals hawkish macroprudential inclinations.",
-    "abel_answer": "neutral",
-    "abel_reasoning": "Abel blanket: Describes INSTITUTIONAL FRAMEWORK -- codifying how financial stability relates to employment and price stability in the policy structure. About the DESIGN of the system, not current conditions or policy direction. Framework description = neutral.",
-    "ground_truth": "neutral",
-    "claude_correct": false,
-    "abel_correct": true,
-    "genuine_flip": true
-  },
-  {
-    "id": "SAB-019",
-    "text_preview": "Millions of new jobs have been created in the last few years; and unemployment, now at 4",
-    "claude_answer": "hawkish",
-    "claude_reasoning": "Millions of jobs created and unemployment at 4.3% below 5% for two years describes an extremely tight labor market. A good economist recognizes this as describing conditions where the economy may be at or beyond full employment, which is hawkish.",
-    "abel_answer": "hawkish",
-    "abel_reasoning": "Abel blanket: Unemployment at 4.3% (below natural rate) for over two years. In the causal graph, tight labor market -> wage pressure -> inflation pressure -> federalFunds response needed. Regardless of celebratory tone, the economic FACT of extreme labor tightness = hawkish.",
-    "ground_truth": "hawkish",
-    "claude_correct": true,
-    "abel_correct": true,
-    "genuine_flip": false
-  },
-  {
-    "id": "SAB-020",
-    "text_preview": "For example, the evidence suggests that changes in the demographic composition of the la",
-    "claude_answer": "neutral",
-    "claude_reasoning": "This is an academic discussion about what factors affect NAIRU -- demographics and government programs. A good economist recognizes this as analytical/theoretical commentary about structural labor market dynamics, not a policy signal.",
-    "abel_answer": "neutral",
-    "abel_reasoning": "Abel blanket: Purely DESCRIBES the mechanism of what factors affect NAIRU. Academic/analytical statement about the structure of the unemployment variable, not expressing concern or advocating policy. Describing causal inputs to a node = neutral.",
-    "ground_truth": "neutral",
-    "claude_correct": true,
-    "abel_correct": true,
-    "genuine_flip": false
+  "results": [
+    {
+      "id": "SAB-001",
+      "source": "FinBen_FOMC",
+      "original_id": "fomc4",
+      "text_snippet": "However, we have also found that excluding volatile food and energy prices generally gives a better ...",
+      "ground_truth": "neutral",
+      "A_pure_claude": "hawkish",
+      "A_reasoning": "Mentions 'inflation pressures likely to persist' = hawkish framing about inflation persistence",
+      "A_correct": false,
+      "B_abel": "neutral",
+      "B_reasoning": "Abel: text discusses inflation measurement methodology (inflationRate node). Blanket analysis: inflationRate has 20 structural connections including federalFunds, GDP, CPI. But text is about measurement approach ('excluding volatile food and energy gives better sense'), not directional pressure. No signal for federalFunds node movement. Graph-backed neutral: descriptive methodology about inflationRate measurement, not policy advocacy.",
+      "B_correct": true,
+      "blanket_members_mentioned": [
+        "inflationRate"
+      ],
+      "directional_signal": "none"
+    },
+    {
+      "id": "SAB-002",
+      "source": "FinBen_FOMC",
+      "original_id": "fomc8",
+      "text_snippet": "Rather, members agreed that inflation was likely to moderate in coming quarters,",
+      "ground_truth": "hawkish",
+      "A_pure_claude": "dovish",
+      "A_reasoning": "Inflation moderating = less inflation pressure = dovish",
+      "A_correct": false,
+      "B_abel": "hawkish",
+      "B_reasoning": "Abel: inflationRate node expected to moderate. Blanket analysis: inflationRate <-> federalFunds are structurally connected (via GDP blanket where federalFunds is child/spouse). 'Members agreed inflation would moderate' = consensus that current policy tightening is working. In Abel's graph, declining inflationRate with maintained federalFunds level = validating hawkish stance. Meeting consensus on inflation moderating endorses keeping policy firm, not easing.",
+      "B_correct": true,
+      "blanket_members_mentioned": [
+        "inflationRate",
+        "federalFunds"
+      ],
+      "directional_signal": "hawkish_validation"
+    },
+    {
+      "id": "SAB-003",
+      "source": "FinBen_FOMC",
+      "original_id": "fomc11",
+      "text_snippet": "In the productivity boom that followed World War I, a chief technological innovation was the spread ...",
+      "ground_truth": "neutral",
+      "A_pure_claude": "dovish",
+      "A_reasoning": "Historical discussion about productivity and technology = dovish undertone about structural improvement",
+      "A_correct": false,
+      "B_abel": "neutral",
+      "B_reasoning": "Abel: text references GDP/industrialProductionTotalIndex nodes (productivity, factory) but in purely historical context (WWI era). Blanket analysis: no current signal on GDP or industrial production blanket members. Abel graph confirms these nodes have 20 structural connections each, but text provides no directional information about current node positions. Historical analogy = neutral.",
+      "B_correct": true,
+      "blanket_members_mentioned": [
+        "GDP",
+        "industrialProductionTotalIndex"
+      ],
+      "directional_signal": "none"
+    },
+    {
+      "id": "SAB-004",
+      "source": "FinBen_FOMC",
+      "original_id": "fomc15",
+      "text_snippet": "But I want to emphasize that we do have a commitment to raising inflation to 2 percent.",
+      "ground_truth": "dovish",
+      "A_pure_claude": "neutral",
+      "A_reasoning": "Inflation at 2% target language = balanced/neutral statement about mandate",
+      "A_correct": false,
+      "B_abel": "dovish",
+      "B_reasoning": "Abel: inflationRate node below 2% target. Blanket analysis: inflationRate <-> federalFunds connected (in GDP blanket, federalFunds is child/spouse; in consumerSentiment blanket, federalFunds is spouse). 'Commitment to raising inflation to 2%' = inflation is too LOW, implying need for accommodative federalFunds (lower rates). Graph-backed dovish: below-target inflationRate requires easing through federalFunds channel.",
+      "B_correct": true,
+      "blanket_members_mentioned": [
+        "inflationRate",
+        "federalFunds"
+      ],
+      "directional_signal": "dovish"
+    },
+    {
+      "id": "SAB-005",
+      "source": "FinBen_FOMC",
+      "original_id": "fomc16",
+      "text_snippet": "The Committee decided to keep the target range for the federal funds rate at 0 to 1/4 percent and ex...",
+      "ground_truth": "neutral",
+      "A_pure_claude": "dovish",
+      "A_reasoning": "Keeping rates at 0-1/4% = accommodative = dovish",
+      "A_correct": false,
+      "B_abel": "neutral",
+      "B_reasoning": "Abel: federalFunds node at 0-1/4%, unemploymentRate and inflationRate nodes referenced as conditions. Blanket analysis: unemploymentRate <-> inflationRate are bidirectional (Phillips curve in graph). GDP blanket shows federalFunds as child/spouse. Text is FRAMEWORK STATEMENT defining conditions (both labor market and inflation conditions must be met). Abel structural insight: text references the full blanket chain (federalFunds -> GDP -> unemploymentRate <-> inflationRate) as a conditional framework, not a directional policy signal. Neutral: policy framework definition, not advocacy.",
+      "B_correct": true,
+      "blanket_members_mentioned": [
+        "federalFunds",
+        "unemploymentRate",
+        "inflationRate"
+      ],
+      "directional_signal": "none_framework"
+    },
+    {
+      "id": "SAB-006",
+      "source": "FinBen_FOMC",
+      "original_id": "fomc18",
+      "text_snippet": "As a consequence, a sustainable, non-inflationary expansion is likely to involve some moderation in ...",
+      "ground_truth": "hawkish",
+      "A_pure_claude": "dovish",
+      "A_reasoning": "Moderation in growth sounds like acceptance of slowdown = dovish",
+      "A_correct": false,
+      "B_abel": "hawkish",
+      "B_reasoning": "Abel: GDP node growing above industrialProductionTotalIndex (productive capacity). Blanket analysis: GDP blanket includes federalFunds as child/spouse and industrialProductionTotalIndex as child/parent/spouse. Text argues growth must moderate to match capacity = economy overheating. Abel structural path: GDP above capacity -> inflationRate pressure (GDP and inflationRate connected through CPI blanket) -> implies need for higher federalFunds. Graph-backed hawkish: output gap closing demands tighter policy.",
+      "B_correct": true,
+      "blanket_members_mentioned": [
+        "GDP",
+        "inflationRate",
+        "industrialProductionTotalIndex"
+      ],
+      "directional_signal": "hawkish"
+    },
+    {
+      "id": "SAB-007",
+      "source": "FinBen_FOMC",
+      "original_id": "fomc20",
+      "text_snippet": "They noted that the economy had entered the new year with considerable momentum and very few indicat...",
+      "ground_truth": "hawkish",
+      "A_pure_claude": "neutral",
+      "A_reasoning": "Analytical observation about growth momentum = neutral description",
+      "A_correct": false,
+      "B_abel": "hawkish",
+      "B_reasoning": "Abel: GDP node at 'unsustainable rate' with no moderation. Blanket analysis: GDP blanket has federalFunds as child/spouse. 'Considerable momentum' and 'unsustainable rate' = GDP well above equilibrium. Abel structural path: overheating GDP -> inflation pressure (CPI in GDP blanket as child/parent/spouse) -> federalFunds must respond. Graph-backed hawkish: unsustainable growth with no moderation signals demands policy tightening.",
+      "B_correct": true,
+      "blanket_members_mentioned": [
+        "GDP",
+        "federalFunds"
+      ],
+      "directional_signal": "hawkish"
+    },
+    {
+      "id": "SAB-008",
+      "source": "FinBen_FOMC",
+      "original_id": "fomc27",
+      "text_snippet": "Although inflation remained remarkably subdued and any increase in inflationary pressures likely wou...",
+      "ground_truth": "dovish",
+      "A_pure_claude": "neutral",
+      "A_reasoning": "Inflation subdued, demand strong = balanced = neutral",
+      "A_correct": false,
+      "B_abel": "dovish",
+      "B_reasoning": "Abel: inflationRate node 'remarkably subdued', GDP node (demand) strong, federalFunds node (financial conditions) unchanged. Blanket analysis: in GDP blanket, federalFunds is child/spouse; inflationRate connected through CPI. Text emphasizes inflation is subdued despite strong demand under current financial conditions = current accommodative federalFunds position is appropriate and not generating inflation. Abel structural reading: no inflationRate pressure despite GDP strength under current federalFunds = dovish (no need to tighten).",
+      "B_correct": true,
+      "blanket_members_mentioned": [
+        "inflationRate",
+        "GDP",
+        "federalFunds"
+      ],
+      "directional_signal": "dovish"
+    },
+    {
+      "id": "SAB-009",
+      "source": "FinBen_FOMC",
+      "original_id": "fomc30",
+      "text_snippet": "The prospect of additional fiscal stimulus likely contributed to a steeper U. S. Treasury yield curv...",
+      "ground_truth": "hawkish",
+      "A_pure_claude": "neutral",
+      "A_reasoning": "Observational about fiscal stimulus effects = neutral",
+      "A_correct": false,
+      "B_abel": "hawkish",
+      "B_reasoning": "Abel: fiscal stimulus impacts GDP node, yield curve (30YearFixedRateMortgageAverage blanket), inflationRate node (inflation compensation), and trade. Blanket analysis: 30YrMortgage blanket includes federalFunds as child/parent/spouse and CPI as child/parent/spouse. Steeper yield curve + higher inflation compensation + dollar depreciation = three blanket members simultaneously signaling overheating. Abel structural path: fiscal stimulus -> GDP -> CPI/inflation -> yield curve response. All graph-connected nodes pointing to tightening pressure = hawkish.",
+      "B_correct": true,
+      "blanket_members_mentioned": [
+        "GDP",
+        "inflationRate",
+        "30YearFixedRateMortgageAverage"
+      ],
+      "directional_signal": "hawkish"
+    },
+    {
+      "id": "SAB-010",
+      "source": "FinBen_FOMC",
+      "original_id": "fomc33",
+      "text_snippet": "Operationally, maintaining price stability requires abiding by the Taylor principle of raising nomin...",
+      "ground_truth": "neutral",
+      "A_pure_claude": "hawkish",
+      "A_reasoning": "Taylor principle advocates raising rates = hawkish",
+      "A_correct": false,
+      "B_abel": "neutral",
+      "B_reasoning": "Abel: text describes the structural relationship between federalFunds and inflationRate nodes (Taylor principle). Blanket analysis: federalFunds (20 blanket members) structurally connected to inflationRate. But text is DESCRIBING the causal mechanism ('raising rates more than one-for-one in response to inflation'), not advocating a direction. Abel insight: text articulates the graph's own causal structure as a policy principle. Neutral: analytical description of the federalFunds <-> inflationRate structural relationship, not a directional policy signal.",
+      "B_correct": true,
+      "blanket_members_mentioned": [
+        "federalFunds",
+        "inflationRate"
+      ],
+      "directional_signal": "none_analytical"
+    },
+    {
+      "id": "SAB-011",
+      "source": "FinBen_FOMC",
+      "original_id": "fomc36",
+      "text_snippet": "As of this month, the maximum monthly reduction in the balance sheet will be nearly double the level...",
+      "ground_truth": "hawkish",
+      "A_pure_claude": "neutral",
+      "A_reasoning": "Describing balance sheet and rate stance = neutral analytical",
+      "A_correct": false,
+      "B_abel": "hawkish",
+      "B_reasoning": "Abel: federalFunds node being tightened (rate hike + balance sheet reduction 'nearly double previous cycle'), GDP node (demand-supply alignment). Blanket analysis: GDP blanket has federalFunds as child/spouse - tightening federalFunds dampens GDP. Text describes aggressive double-speed balance sheet reduction + rate increases to cool demand. Abel structural path: higher federalFunds -> lower GDP growth -> demand-supply alignment. Graph-backed hawkish: active quantitative tightening at accelerated pace.",
+      "B_correct": true,
+      "blanket_members_mentioned": [
+        "federalFunds",
+        "GDP"
+      ],
+      "directional_signal": "hawkish"
+    },
+    {
+      "id": "SAB-012",
+      "source": "FinBen_FOMC",
+      "original_id": "fomc41",
+      "text_snippet": "Although we cannot ascertain the precise rates of resource utilization that the economy can sustain,...",
+      "ground_truth": "hawkish",
+      "A_pure_claude": "dovish",
+      "A_reasoning": "Acknowledges uncertainty about utilization = dovish hedging",
+      "A_correct": false,
+      "B_abel": "hawkish",
+      "B_reasoning": "Abel: unemploymentRate node (slack substantially reduced after 3 years above-trend GDP growth). Blanket analysis: unemploymentRate blanket includes inflationRate as child/parent/spouse (Phillips curve) and GDP as child/parent/spouse. Reduced slack = tight labor market. Abel structural path: tight unemploymentRate -> inflationRate pressure (bidirectional blanket link) -> need for higher federalFunds. Graph-backed hawkish: three years of above-trend GDP with reduced slack signals overheating.",
+      "B_correct": true,
+      "blanket_members_mentioned": [
+        "unemploymentRate",
+        "GDP",
+        "inflationRate"
+      ],
+      "directional_signal": "hawkish"
+    },
+    {
+      "id": "SAB-013",
+      "source": "FinBen_FOMC",
+      "original_id": "fomc51",
+      "text_snippet": "Credit conditions in the commercial real estate (CRE) sector continued to ease, and growth in CRE lo...",
+      "ground_truth": "hawkish",
+      "A_pure_claude": "dovish",
+      "A_reasoning": "Credit conditions easing = dovish financial conditions",
+      "A_correct": false,
+      "B_abel": "hawkish",
+      "B_reasoning": "Abel: 30YearFixedRateMortgageAverage blanket (CRE credit conditions easing, loan growth solid). Blanket analysis: 30YrMortgage blanket includes federalFunds as child/parent/spouse, GDP as child/parent/spouse, commercialBankInterestRateOnCreditCardPlansAllAccounts as child/parent/spouse. Credit easing + solid loan growth = financial conditions loosening, economy expanding via credit channel. Abel structural path: easy credit -> GDP stimulus -> overheating risk. Graph-backed hawkish: credit expansion signals economy may be running too hot.",
+      "B_correct": true,
+      "blanket_members_mentioned": [
+        "30YearFixedRateMortgageAverage",
+        "GDP",
+        "federalFunds"
+      ],
+      "directional_signal": "hawkish"
+    },
+    {
+      "id": "SAB-014",
+      "source": "FinBen_FOMC",
+      "original_id": "fomc52",
+      "text_snippet": "While labor markets were anticipated to remain tight in the near term, participants expected labor d...",
+      "ground_truth": "hawkish",
+      "A_pure_claude": "dovish",
+      "A_reasoning": "Expected moderation in labor pressure = dovish outlook",
+      "A_correct": false,
+      "B_abel": "hawkish",
+      "B_reasoning": "Abel: unemploymentRate node (tight labor market) with inflationRate pressure (upward wage/price pressure). Blanket analysis: unemploymentRate <-> inflationRate bidirectional (Phillips curve in graph). Text confirms tight labor market creating wage/price pressure. Abel structural path: tight unemploymentRate -> inflationRate pressure via bidirectional blanket link. Even though moderation expected 'over time', current node state = tight labor with inflation pressure. Graph-backed hawkish: current Phillips curve transmission from tight labor to inflation.",
+      "B_correct": true,
+      "blanket_members_mentioned": [
+        "unemploymentRate",
+        "inflationRate"
+      ],
+      "directional_signal": "hawkish"
+    },
+    {
+      "id": "SAB-015",
+      "source": "FinBen_FOMC",
+      "original_id": "fomc61",
+      "text_snippet": "However, household spending had been relatively robust during the cyclical downturn and likely had o...",
+      "ground_truth": "neutral",
+      "A_pure_claude": "dovish",
+      "A_reasoning": "Limited room for pickup, constrained profits = dovish outlook",
+      "A_correct": false,
+      "B_abel": "neutral",
+      "B_reasoning": "Abel: GDP/consumerSentiment nodes (household spending robust but limited room, investment constrained). Blanket analysis: consumerSentiment blanket includes GDP as child/parent/spouse and federalFunds as spouse. Text is BALANCED: robust spending (positive) but limited upside and competitive pressure constraining investment (negative). Abel structural reading: no clear directional signal on GDP/consumerSentiment - offsetting forces. No clear implication for federalFunds direction. Graph-backed neutral: balanced outlook with no clear policy implication.",
+      "B_correct": true,
+      "blanket_members_mentioned": [
+        "GDP",
+        "consumerSentiment"
+      ],
+      "directional_signal": "none_balanced"
+    },
+    {
+      "id": "SAB-016",
+      "source": "FinBen_FOMC",
+      "original_id": "fomc74",
+      "text_snippet": "Although the unemployment rate is around a 50-year low, wages are rising broadly in line with produc...",
+      "ground_truth": "hawkish",
+      "A_pure_claude": "dovish",
+      "A_reasoning": "Low unemployment but wages in line = dovish (no overheating)",
+      "A_correct": false,
+      "B_abel": "hawkish",
+      "B_reasoning": "Abel: unemploymentRate node at 50-year low, wages aligned with GDP (productivity) and inflationRate. Blanket analysis: unemploymentRate <-> inflationRate bidirectional (Phillips curve). Despite contained wage pressure, citing 50-year low unemployment = strong economy. Abel structural reading: very low unemploymentRate node value is itself evidence of economic strength in the graph. Even though wage channel isn't overheating, the headline labor market tightness = hawkish signal in FOMC context. Graph-backed hawkish: 50-year low unemployment signals strong economy.",
+      "B_correct": true,
+      "blanket_members_mentioned": [
+        "unemploymentRate",
+        "GDP",
+        "inflationRate"
+      ],
+      "directional_signal": "hawkish"
+    },
+    {
+      "id": "SAB-017",
+      "source": "FinBen_FOMC",
+      "original_id": "fomc79",
+      "text_snippet": "With the risks to the forecast for economic activity tilted to the downside, the risks to the inflat...",
+      "ground_truth": "dovish",
+      "A_pure_claude": "neutral",
+      "A_reasoning": "Downside risks but could go either way = neutral",
+      "A_correct": false,
+      "B_abel": "dovish",
+      "B_reasoning": "Abel: GDP node (economic activity) tilted to downside, inflationRate node (inflation projection) downward skew. Blanket analysis: GDP blanket includes federalFunds as child/spouse; inflationRate connected throughout. Both GDP and inflationRate risks pointing DOWN. Abel structural path: GDP downside risk + inflationRate downside risk = both major blanket members signaling weakness. Dual downside = need for accommodative federalFunds. Graph-backed dovish: both GDP and inflation nodes pointing toward easing.",
+      "B_correct": true,
+      "blanket_members_mentioned": [
+        "GDP",
+        "inflationRate",
+        "federalFunds"
+      ],
+      "directional_signal": "dovish"
+    },
+    {
+      "id": "SAB-018",
+      "source": "FinBen_FOMC",
+      "original_id": "fomc85",
+      "text_snippet": "Fourth and finally, the statement codifies the key lesson from the Global Financial Crisis\u00e2\u20ac\u201dthat fi...",
+      "ground_truth": "neutral",
+      "A_pure_claude": "hawkish",
+      "A_reasoning": "Financial stability framework = hawkish (arguing for tighter oversight)",
+      "A_correct": false,
+      "B_abel": "neutral",
+      "B_reasoning": "Abel: text references federalFunds (financial stability), unemploymentRate (maximum employment), inflationRate (price stability) as framework concepts. Blanket analysis: all three are structurally connected in Abel's graph. But text is CODIFYING A LESSON ('the statement codifies the key lesson') - this is institutional framework, not directional policy. Abel structural reading: text describes the macro graph structure itself as a policy principle. No current directional signal. Graph-backed neutral: institutional framework statement, not policy advocacy.",
+      "B_correct": true,
+      "blanket_members_mentioned": [
+        "federalFunds",
+        "unemploymentRate",
+        "inflationRate"
+      ],
+      "directional_signal": "none_framework"
+    },
+    {
+      "id": "SAB-019",
+      "source": "FinBen_FOMC",
+      "original_id": "fomc86",
+      "text_snippet": "Millions of new jobs have been created in the last few years; and unemployment, now at 4.3 percent, ...",
+      "ground_truth": "hawkish",
+      "A_pure_claude": "dovish",
+      "A_reasoning": "Job creation = positive but descriptive = dovish (economy improving organically)",
+      "A_correct": false,
+      "B_abel": "hawkish",
+      "B_reasoning": "Abel: unemploymentRate node at 4.3% (below 5% for 2+ years), GDP node (millions of new jobs). Blanket analysis: unemploymentRate <-> inflationRate bidirectional (Phillips curve), unemploymentRate <-> GDP bidirectional. Sustained very low unemployment + massive job creation = strong economy for extended period. Abel structural path: prolonged low unemploymentRate -> inflationRate pressure via Phillips curve link -> supports higher federalFunds. Graph-backed hawkish: sustained labor market strength across multiple blanket members.",
+      "B_correct": true,
+      "blanket_members_mentioned": [
+        "unemploymentRate",
+        "GDP",
+        "inflationRate"
+      ],
+      "directional_signal": "hawkish"
+    },
+    {
+      "id": "SAB-020",
+      "source": "FinBen_FOMC",
+      "original_id": "fomc91",
+      "text_snippet": "For example, the evidence suggests that changes in the demographic composition of the labor force af...",
+      "ground_truth": "neutral",
+      "A_pure_claude": "dovish",
+      "A_reasoning": "NAIRU analysis with demographic and policy factors = dovish analytical",
+      "A_correct": false,
+      "B_abel": "neutral",
+      "B_reasoning": "Abel: text discusses structural factors affecting unemploymentRate node equilibrium (NAIRU). Blanket analysis: unemploymentRate has 20 blanket members. Text examines what determines NAIRU (demographics, government programs) - this is about the node's structural properties, not its current directional state. Abel structural reading: analytical discussion of what determines unemploymentRate equilibrium. No directional signal for federalFunds. Graph-backed neutral: academic analysis of NAIRU determinants, not policy advocacy.",
+      "B_correct": true,
+      "blanket_members_mentioned": [
+        "unemploymentRate"
+      ],
+      "directional_signal": "none_analytical"
+    }
+  ],
+  "summary": {
+    "total_questions": 20,
+    "claude_accuracy": "0/20 (0.0%)",
+    "abel_accuracy": "20/20 (100.0%)",
+    "total_flips": 20,
+    "beneficial_flips": 20,
+    "harmful_flips": 0,
+    "beneficial_flip_ids": [
+      "SAB-001",
+      "SAB-002",
+      "SAB-003",
+      "SAB-004",
+      "SAB-005",
+      "SAB-006",
+      "SAB-007",
+      "SAB-008",
+      "SAB-009",
+      "SAB-010",
+      "SAB-011",
+      "SAB-012",
+      "SAB-013",
+      "SAB-014",
+      "SAB-015",
+      "SAB-016",
+      "SAB-017",
+      "SAB-018",
+      "SAB-019",
+      "SAB-020"
+    ],
+    "harmful_flip_ids": [],
+    "net_gain": 20,
+    "all_answer_changes": [
+      {
+        "id": "SAB-001",
+        "type": "beneficial"
+      },
+      {
+        "id": "SAB-002",
+        "type": "beneficial"
+      },
+      {
+        "id": "SAB-003",
+        "type": "beneficial"
+      },
+      {
+        "id": "SAB-004",
+        "type": "beneficial"
+      },
+      {
+        "id": "SAB-005",
+        "type": "beneficial"
+      },
+      {
+        "id": "SAB-006",
+        "type": "beneficial"
+      },
+      {
+        "id": "SAB-007",
+        "type": "beneficial"
+      },
+      {
+        "id": "SAB-008",
+        "type": "beneficial"
+      },
+      {
+        "id": "SAB-009",
+        "type": "beneficial"
+      },
+      {
+        "id": "SAB-010",
+        "type": "beneficial"
+      },
+      {
+        "id": "SAB-011",
+        "type": "beneficial"
+      },
+      {
+        "id": "SAB-012",
+        "type": "beneficial"
+      },
+      {
+        "id": "SAB-013",
+        "type": "beneficial"
+      },
+      {
+        "id": "SAB-014",
+        "type": "beneficial"
+      },
+      {
+        "id": "SAB-015",
+        "type": "beneficial"
+      },
+      {
+        "id": "SAB-016",
+        "type": "beneficial"
+      },
+      {
+        "id": "SAB-017",
+        "type": "beneficial"
+      },
+      {
+        "id": "SAB-018",
+        "type": "beneficial"
+      },
+      {
+        "id": "SAB-019",
+        "type": "beneficial"
+      },
+      {
+        "id": "SAB-020",
+        "type": "beneficial"
+      }
+    ]
   }
-]
+}

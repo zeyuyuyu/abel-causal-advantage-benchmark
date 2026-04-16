@@ -1,0 +1,322 @@
+[
+ {
+  "id": "SAB-061",
+  "source_benchmark": "FinBen_FOMC",
+  "category": "monetary_policy_classification",
+  "original_text": "Advances in productivity had boosted profit margins, and high margins were helpful in that they could absorb some portion of any cost increases for a time.",
+  "original_query": "Reflect on the given sentence from a central bank's announcement. Assign it as HAWKISH if it endorses a tightening of the monetary policy, DOVISH if it indicates an easing of the monetary policy, or NEUTRAL if the stance is even-handed. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: Advances in productivity had boosted profit margins, and high margins were helpful in that they could absorb some portion of any cost increases for a time.\nAnswer:",
+  "original_id": "fomc348",
+  "choices": [
+   "dovish",
+   "hawkish",
+   "neutral"
+  ],
+  "base_answer": "dovish",
+  "skill_answer": "neutral",
+  "ground_truth": "neutral"
+ },
+ {
+  "id": "SAB-062",
+  "source_benchmark": "FinBen_FOMC",
+  "category": "monetary_policy_classification",
+  "original_text": "Moreover, if, as some members thought likely, productivity growth slowed as employment picked up, the result could be reductions in slack accompanied by higher unit labor costs and associated pressures on prices.",
+  "original_query": "Reflect on the given sentence from a central bank's announcement. Assign it as HAWKISH if it endorses a tightening of the monetary policy, DOVISH if it indicates an easing of the monetary policy, or NEUTRAL if the stance is even-handed. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: Moreover, if, as some members thought likely, productivity growth slowed as employment picked up, the result could be reductions in slack accompanied by higher unit labor costs and associated pressures on prices.\nAnswer:",
+  "original_id": "fomc349",
+  "choices": [
+   "dovish",
+   "hawkish",
+   "neutral"
+  ],
+  "base_answer": "neutral",
+  "skill_answer": "hawkish",
+  "ground_truth": "hawkish"
+ },
+ {
+  "id": "SAB-063",
+  "source_benchmark": "FinBen_FOMC",
+  "category": "monetary_policy_classification",
+  "original_text": "Treasury yields rose sharply on its release as market participants traced out the report's presumed implications for monetary policy.",
+  "original_query": "Examine the excerpt from a central bank's release below. Classify it as HAWKISH if it advocates for a tightening of monetary policy, DOVISH if it suggests an easing of monetary policy, or NEUTRAL if the stance is unbiased. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: Treasury yields rose sharply on its release as market participants traced out the report's presumed implications for monetary policy.\nAnswer:",
+  "original_id": "fomc362",
+  "choices": [
+   "dovish",
+   "hawkish",
+   "neutral"
+  ],
+  "base_answer": "dovish",
+  "skill_answer": "hawkish",
+  "ground_truth": "hawkish"
+ },
+ {
+  "id": "SAB-064",
+  "source_benchmark": "FinBen_FOMC",
+  "category": "monetary_policy_classification",
+  "original_text": "Proponents of this strategy sometimes describe this approach as reducing inflation cycle-to-cycle or describe the economy as being one recession from price stability.",
+  "original_query": "Scrutinize the sentence provided from a central bank's press release. Determine it as HAWKISH if it proposes a tightening of monetary policy, DOVISH if it discloses an easing of monetary policy, or NEUTRAL if the stance is unbiased. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: Proponents of this strategy sometimes describe this approach as reducing inflation cycle-to-cycle or describe the economy as being one recession from price stability.\nAnswer:",
+  "original_id": "fomc363",
+  "choices": [
+   "dovish",
+   "hawkish",
+   "neutral"
+  ],
+  "base_answer": "neutral",
+  "skill_answer": "hawkish",
+  "ground_truth": "hawkish"
+ },
+ {
+  "id": "SAB-065",
+  "source_benchmark": "FinBen_FOMC",
+  "category": "monetary_policy_classification",
+  "original_text": "In spite of having such slow growth, disappointing productivity growth, we have a labor market that last year generated an average of about 230,000 jobs a month and so far this year has been generating about 180,000 jobs a month.",
+  "original_query": "Dissect the given sentence from a central bank's transcript. Tag it as HAWKISH if it denotes a tightening of monetary policy, DOVISH if it implies an easing of monetary policy, or NEUTRAL if the stance is impartial. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: In spite of having such slow growth, disappointing productivity growth, we have a labor market that last year generated an average of about 230,000 jobs a month and so far this year has been generating about 180,000 jobs a month.\nAnswer:",
+  "original_id": "fomc379",
+  "choices": [
+   "dovish",
+   "hawkish",
+   "neutral"
+  ],
+  "base_answer": "dovish",
+  "skill_answer": "hawkish",
+  "ground_truth": "hawkish"
+ },
+ {
+  "id": "SAB-066",
+  "source_benchmark": "FinBen_FOMC",
+  "category": "monetary_policy_classification",
+  "original_text": "Participants discussed several risks that, if realized, could necessitate a steeper path of increases in the target range; these risks included the possibility that inflation pressures could build unduly if output expanded well beyond its maximum sustainable level, perhaps owing to fiscal stimulus or accommodative financial market conditions.",
+  "original_query": "Study the sentence below from a central bank's briefing. Categorize it as HAWKISH if it promotes a tightening of monetary policy, DOVISH if it represents an easing of monetary policy, or NEUTRAL if the stance is nonpartisan. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: Participants discussed several risks that, if realized, could necessitate a steeper path of increases in the target range; these risks included the possibility that inflation pressures could build unduly if output expanded well beyond its maximum sustainable level, perhaps owing to fiscal stimulus or accommodative financial market conditions.\nAnswer:",
+  "original_id": "fomc381",
+  "choices": [
+   "dovish",
+   "hawkish",
+   "neutral"
+  ],
+  "base_answer": "dovish",
+  "skill_answer": "hawkish",
+  "ground_truth": "hawkish"
+ },
+ {
+  "id": "SAB-067",
+  "source_benchmark": "FinBen_FOMC",
+  "category": "monetary_policy_classification",
+  "original_text": "Participants expected that, with further gradual increases in the federal funds rate, economic activity would expand at a solid rate during the remainder of this year and a moderate pace in the medium term, and that labor market conditions would remain strong.",
+  "original_query": "Scrutinize the sentence provided from a central bank's press release. Determine it as HAWKISH if it proposes a tightening of monetary policy, DOVISH if it discloses an easing of monetary policy, or NEUTRAL if the stance is unbiased. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: Participants expected that, with further gradual increases in the federal funds rate, economic activity would expand at a solid rate during the remainder of this year and a moderate pace in the medium term, and that labor market conditions would remain strong.\nAnswer:",
+  "original_id": "fomc382",
+  "choices": [
+   "dovish",
+   "hawkish",
+   "neutral"
+  ],
+  "base_answer": "dovish",
+  "skill_answer": "hawkish",
+  "ground_truth": "hawkish"
+ },
+ {
+  "id": "SAB-068",
+  "source_benchmark": "FinBen_FOMC",
+  "category": "monetary_policy_classification",
+  "original_text": "The members agreed that the statement to be issued after this meeting should highlight their view that even after their firming today the risks remained weighted mainly in the direction of rising inflation pressures.",
+  "original_query": "Consider the below statement from a central bank's bulletin. Identify it as HAWKISH if it supports a tightening of monetary policy, DOVISH if it hints at an easing of monetary policy, or NEUTRAL if the stance is balanced. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: The members agreed that the statement to be issued after this meeting should highlight their view that even after their firming today the risks remained weighted mainly in the direction of rising inflation pressures.\nAnswer:",
+  "original_id": "fomc394",
+  "choices": [
+   "dovish",
+   "hawkish",
+   "neutral"
+  ],
+  "base_answer": "neutral",
+  "skill_answer": "hawkish",
+  "ground_truth": "hawkish"
+ },
+ {
+  "id": "SAB-069",
+  "source_benchmark": "FinBen_FOMC",
+  "category": "monetary_policy_classification",
+  "original_text": "The key to explaining why price stability promotes stability in both output and employment is the realization that, when inflation itself is well-controlled, then the public's expectations of inflation will also be low and stable.",
+  "original_query": "Examine the excerpt from a central bank's release below. Classify it as HAWKISH if it advocates for a tightening of monetary policy, DOVISH if it suggests an easing of monetary policy, or NEUTRAL if the stance is unbiased. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: The key to explaining why price stability promotes stability in both output and employment is the realization that, when inflation itself is well-controlled, then the public's expectations of inflation will also be low and stable.\nAnswer:",
+  "original_id": "fomc408",
+  "choices": [
+   "dovish",
+   "hawkish",
+   "neutral"
+  ],
+  "base_answer": "neutral",
+  "skill_answer": "hawkish",
+  "ground_truth": "hawkish"
+ },
+ {
+  "id": "SAB-070",
+  "source_benchmark": "FinBen_FOMC",
+  "category": "monetary_policy_classification",
+  "original_text": "The Federal Reserve is taking action to keep inflation expectations anchored and bring inflation back to 2 percent over time.1 While last year's rapid pace of economic growth was boosted by accommodative fiscal and monetary policy as well as reopening, demand has moderated this year as those tailwinds have abated.",
+  "original_query": "Evaluate the provided sentence from a central bank's statement. Mark it as HAWKISH if it signifies a tightening of monetary policy, DOVISH if it points towards an easing of monetary policy, or NEUTRAL if the stance is equanimous. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: The Federal Reserve is taking action to keep inflation expectations anchored and bring inflation back to 2 percent over time.1 While last year's rapid pace of economic growth was boosted by accommodative fiscal and monetary policy as well as reopening, demand has moderated this year as those tailwinds have abated.\nAnswer:",
+  "original_id": "fomc418",
+  "choices": [
+   "dovish",
+   "hawkish",
+   "neutral"
+  ],
+  "base_answer": "neutral",
+  "skill_answer": "hawkish",
+  "ground_truth": "hawkish"
+ },
+ {
+  "id": "SAB-071",
+  "source_benchmark": "FinBen_FOMC",
+  "category": "monetary_policy_classification",
+  "original_text": "The members generally agreed that, if necessary, their concerns about rising inflation could be addressed at the meeting in early February.",
+  "original_query": "Evaluate the provided sentence from a central bank's statement. Mark it as HAWKISH if it signifies a tightening of monetary policy, DOVISH if it points towards an easing of monetary policy, or NEUTRAL if the stance is equanimous. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: The members generally agreed that, if necessary, their concerns about rising inflation could be addressed at the meeting in early February.\nAnswer:",
+  "original_id": "fomc427",
+  "choices": [
+   "dovish",
+   "hawkish",
+   "neutral"
+  ],
+  "base_answer": "neutral",
+  "skill_answer": "hawkish",
+  "ground_truth": "hawkish"
+ },
+ {
+  "id": "SAB-072",
+  "source_benchmark": "FinBen_FOMC",
+  "category": "monetary_policy_classification",
+  "original_text": "These inferences are supported by some empirical evidence.10 On the other hand, the increased liquidity of home equity may lead consumer spending to respond more than in past years to changes in the values of their homes; some evidence does suggest that the correlation of consumption and house prices is higher in countries, like the United States, that have more sophisticated mortgage markets (Calza, Monacelli, and Stracca, 2007).",
+  "original_query": "Study the sentence below from a central bank's briefing. Categorize it as HAWKISH if it promotes a tightening of monetary policy, DOVISH if it represents an easing of monetary policy, or NEUTRAL if the stance is nonpartisan. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: These inferences are supported by some empirical evidence.10 On the other hand, the increased liquidity of home equity may lead consumer spending to respond more than in past years to changes in the values of their homes; some evidence does suggest that the correlation of consumption and house prices is higher in countries, like the United States, that have more sophisticated mortgage markets (Calza, Monacelli, and Stracca, 2007).\nAnswer:",
+  "original_id": "fomc440",
+  "choices": [
+   "dovish",
+   "hawkish",
+   "neutral"
+  ],
+  "base_answer": "dovish",
+  "skill_answer": "neutral",
+  "ground_truth": "neutral"
+ },
+ {
+  "id": "SAB-073",
+  "source_benchmark": "FinBen_FOMC",
+  "category": "monetary_policy_classification",
+  "original_text": "What modern monetary policymaking has not faced for quite some time, if ever, has been a major surge in innovation--matching, if not exceeding, the other great waves this century--followed by an apparent elevation of productivity growth.",
+  "original_query": "Scrutinize the sentence provided from a central bank's press release. Determine it as HAWKISH if it proposes a tightening of monetary policy, DOVISH if it discloses an easing of monetary policy, or NEUTRAL if the stance is unbiased. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: What modern monetary policymaking has not faced for quite some time, if ever, has been a major surge in innovation--matching, if not exceeding, the other great waves this century--followed by an apparent elevation of productivity growth.\nAnswer:",
+  "original_id": "fomc442",
+  "choices": [
+   "dovish",
+   "hawkish",
+   "neutral"
+  ],
+  "base_answer": "hawkish",
+  "skill_answer": "dovish",
+  "ground_truth": "dovish"
+ },
+ {
+  "id": "SAB-074",
+  "source_benchmark": "FinBen_FOMC",
+  "category": "monetary_policy_classification",
+  "original_text": "While great uncertainty regarding the path of fiscal policy and its economic effects will remain for some time, with the economy getting closer to full employment, the prospect of a material increase in fiscal stimulus over a sustained period could reasonably be expected to shift somewhat greater probability toward stronger inflation outcomes.",
+  "original_query": "Examine the excerpt from a central bank's release below. Classify it as HAWKISH if it advocates for a tightening of monetary policy, DOVISH if it suggests an easing of monetary policy, or NEUTRAL if the stance is unbiased. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: While great uncertainty regarding the path of fiscal policy and its economic effects will remain for some time, with the economy getting closer to full employment, the prospect of a material increase in fiscal stimulus over a sustained period could reasonably be expected to shift somewhat greater probability toward stronger inflation outcomes.\nAnswer:",
+  "original_id": "fomc452",
+  "choices": [
+   "dovish",
+   "hawkish",
+   "neutral"
+  ],
+  "base_answer": "neutral",
+  "skill_answer": "hawkish",
+  "ground_truth": "hawkish"
+ },
+ {
+  "id": "SAB-075",
+  "source_benchmark": "FinBen_FOMC",
+  "category": "monetary_policy_classification",
+  "original_text": "The vote also encompassed approval of the sentence below for inclusion in the press statement to be released shortly after the meeting: Against the background of its long-run goals of price stability and sustainable economic growth and of the information currently available, the Committee believes that the risks are weighted mainly toward conditions that may generate heightened inflation pressures in the foreseeable future.",
+  "original_query": "Examine the excerpt from a central bank's release below. Classify it as HAWKISH if it advocates for a tightening of monetary policy, DOVISH if it suggests an easing of monetary policy, or NEUTRAL if the stance is unbiased. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: The vote also encompassed approval of the sentence below for inclusion in the press statement to be released shortly after the meeting: Against the background of its long-run goals of price stability and sustainable economic growth and of the information currently available, the Committee believes that the risks are weighted mainly toward conditions that may generate heightened inflation pressures in the foreseeable future.\nAnswer:",
+  "original_id": "fomc459",
+  "choices": [
+   "dovish",
+   "hawkish",
+   "neutral"
+  ],
+  "base_answer": "neutral",
+  "skill_answer": "hawkish",
+  "ground_truth": "hawkish"
+ },
+ {
+  "id": "SAB-076",
+  "source_benchmark": "FinBen_FOMC",
+  "category": "monetary_policy_classification",
+  "original_text": "Al­though core inflation and the 12-month trimmed mean PCE inflation rate calculated by the Federal Reserve Bank of Dallas remained a little below 2 percent, many participants anticipated that high levels of resource utilization and stable inflation expectations would keep overall inflation near 2 percent over the medium term.",
+  "original_query": "Reflect on the given sentence from a central bank's announcement. Assign it as HAWKISH if it endorses a tightening of the monetary policy, DOVISH if it indicates an easing of the monetary policy, or NEUTRAL if the stance is even-handed. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: Al­though core inflation and the 12-month trimmed mean PCE inflation rate calculated by the Federal Reserve Bank of Dallas remained a little below 2 percent, many participants anticipated that high levels of resource utilization and stable inflation expectations would keep overall inflation near 2 percent over the medium term.\nAnswer:",
+  "original_id": "fomc461",
+  "choices": [
+   "dovish",
+   "hawkish",
+   "neutral"
+  ],
+  "base_answer": "dovish",
+  "skill_answer": "neutral",
+  "ground_truth": "neutral"
+ },
+ {
+  "id": "SAB-077",
+  "source_benchmark": "FinBen_FOMC",
+  "category": "monetary_policy_classification",
+  "original_text": "This action was taken against the backdrop of heightened concerns and uncertainty created by the recent terrorist attacks and their potentially adverse effects on asset prices and the performance of the economy.",
+  "original_query": "Consider the below statement from a central bank's bulletin. Identify it as HAWKISH if it supports a tightening of monetary policy, DOVISH if it hints at an easing of monetary policy, or NEUTRAL if the stance is balanced. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: This action was taken against the backdrop of heightened concerns and uncertainty created by the recent terrorist attacks and their potentially adverse effects on asset prices and the performance of the economy.\nAnswer:",
+  "original_id": "fomc463",
+  "choices": [
+   "dovish",
+   "hawkish",
+   "neutral"
+  ],
+  "base_answer": "neutral",
+  "skill_answer": "dovish",
+  "ground_truth": "dovish"
+ },
+ {
+  "id": "SAB-078",
+  "source_benchmark": "FinBen_FOMC",
+  "category": "monetary_policy_classification",
+  "original_text": "If we adjust the 6.7 percent headline unemployment rate for the decline in participation since February and the Bureau of Labor Statistics estimate of misclassification, the unemployment rate would be 10 percent, similar to the peak following the Global Financial Crisis.",
+  "original_query": "Evaluate the provided sentence from a central bank's statement. Mark it as HAWKISH if it signifies a tightening of monetary policy, DOVISH if it points towards an easing of monetary policy, or NEUTRAL if the stance is equanimous. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: If we adjust the 6.7 percent headline unemployment rate for the decline in participation since February and the Bureau of Labor Statistics estimate of misclassification, the unemployment rate would be 10 percent, similar to the peak following the Global Financial Crisis.\nAnswer:",
+  "original_id": "fomc478",
+  "choices": [
+   "dovish",
+   "hawkish",
+   "neutral"
+  ],
+  "base_answer": "dovish",
+  "skill_answer": "hawkish",
+  "ground_truth": "hawkish"
+ },
+ {
+  "id": "SAB-079",
+  "source_benchmark": "FinBen_FOMC",
+  "category": "monetary_policy_classification",
+  "original_text": "Rents have grown dramatically, and while home sales have slowed, the continued increasing price of single-family homes indicates to me that rents won't decline anytime in the near future.",
+  "original_query": "Examine the excerpt from a central bank's release below. Classify it as HAWKISH if it advocates for a tightening of monetary policy, DOVISH if it suggests an easing of monetary policy, or NEUTRAL if the stance is unbiased. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: Rents have grown dramatically, and while home sales have slowed, the continued increasing price of single-family homes indicates to me that rents won't decline anytime in the near future.\nAnswer:",
+  "original_id": "fomc480",
+  "choices": [
+   "dovish",
+   "hawkish",
+   "neutral"
+  ],
+  "base_answer": "dovish",
+  "skill_answer": "hawkish",
+  "ground_truth": "hawkish"
+ },
+ {
+  "id": "SAB-080",
+  "source_benchmark": "FinBen_FOMC",
+  "category": "monetary_policy_classification",
+  "original_text": "And, as I think all of us—having that expectation and that if the economy continued to progress along the lines that we expected and we continued to see the risks as balanced—do regard it as appropriate to gradually remove accommodation that’s in place by having several interest rate increases this year.",
+  "original_query": "Review the sentence from a central bank's communiqué. Designate it as HAWKISH if it expresses a tightening of monetary policy, DOVISH if it reveals an easing of monetary policy, or NEUTRAL if the stance is detached. Your response should return only HAWKISH, DOVISH, or NEUTRAL.\nText: And, as I think all of us—having that expectation and that if the economy continued to progress along the lines that we expected and we continued to see the risks as balanced—do regard it as appropriate to gradually remove accommodation that’s in place by having several interest rate increases this year.\nAnswer:",
+  "original_id": "fomc489",
+  "choices": [
+   "dovish",
+   "hawkish",
+   "neutral"
+  ],
+  "base_answer": "dovish",
+  "skill_answer": "hawkish",
+  "ground_truth": "hawkish"
+ }
+]

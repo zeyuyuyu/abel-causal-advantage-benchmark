@@ -1,262 +1,424 @@
 {
-  "summary": {
-    "total_questions": 20,
-    "claude_accuracy": "18/20 (90.0%)",
-    "abel_accuracy": "20/20 (100.0%)",
-    "total_flips": 2,
-    "beneficial_flips": 2,
-    "harmful_flips": 0,
-    "flip_ids": [
-      "SAB-050",
-      "SAB-059"
-    ],
-    "beneficial_flip_ids": [
-      "SAB-050",
-      "SAB-059"
-    ],
-    "harmful_flip_ids": [],
-    "net_gain": 2
+  "metadata": {
+    "test_name": "verify_batch_2_ab_test",
+    "date": "2026-04-13",
+    "num_questions": 20,
+    "question_range": "SAB-041 to SAB-060",
+    "method_A": "Pure Claude (best economic reasoning, no Abel framework)",
+    "method_B": "Claude + Abel (Markov blanket causal structure from real API calls)",
+    "abel_api_calls_executed": {
+      "graph.markov_blanket": [
+        "federalFunds",
+        "inflationRate",
+        "GDP",
+        "unemploymentRate"
+      ],
+      "graph.neighbors": [
+        "federalFunds(children)",
+        "federalFunds(parents)",
+        "inflationRate(children)",
+        "unemploymentRate(children)",
+        "GDP(children)"
+      ],
+      "extensions.abel.node_description": [
+        "federalFunds",
+        "inflationRate",
+        "unemploymentRate",
+        "GDP"
+      ],
+      "extensions.abel.discover_consensus": [
+        "federalFunds"
+      ]
+    },
+    "abel_graph_metadata": {
+      "cap_version": "0.2.2",
+      "graph_version": "CausalNodeV3",
+      "server": "abel-graph-computer v0.1.0"
+    },
+    "six_step_workflow": {
+      "step_1_classify": "All 20 questions classified as FOMC monetary policy -> direct_graph through federalFunds/inflationRate",
+      "step_2_hypotheses": "For each: hawkish (inflation concern), dovish (weakness concern), neutral (mechanism description), + contrarian",
+      "step_3_screen": "Mapped text to Abel graph nodes: federalFunds (20 blanket members), inflationRate (20 members), GDP (20 members), unemploymentRate (20 members)",
+      "step_4_observe": "Used Markov blanket causal paths for disambiguation: inflationRate->federalFunds, GDP->federalFunds, unemploymentRate<->GDP",
+      "step_5_web": "N/A for historical FOMC text classification (no freshness-sensitive claims)",
+      "step_6_synthesize": "Score-based synthesis weighting Abel causal path strengths"
+    }
   },
-  "details": [
+  "abel_cache": {
+    "markov_blanket": {
+      "federalFunds": {
+        "display_name": "Federal Funds Rate",
+        "description": "Effective or target federal funds rate used as the core U.S. overnight policy benchmark. It anchors short-term financial conditions and transmits monetary policy into broader credit, rate, and demand channels.",
+        "total_candidate_count": 20,
+        "node_kind": "macro",
+        "identification_status": "identified",
+        "reasoning_mode": "structural_semantics",
+        "assumptions": [
+          "causal_sufficiency",
+          "faithfulness",
+          "no_instantaneous_effects",
+          "no_latent_confounders_addressed"
+        ],
+        "blanket_members_known": [
+          "CPI",
+          "GDP",
+          "inflationRate",
+          "industrialProductionTotalIndex",
+          "15YearFixedRateMortgageAverage",
+          "30YearFixedRateMortgageAverage",
+          "durableGoods",
+          "creditCardRate",
+          "3MonthCDYield",
+          "consumerSentiment"
+        ]
+      },
+      "inflationRate": {
+        "display_name": "Inflation Rate",
+        "description": "Rate of change in the general price level over time.",
+        "total_candidate_count": 20,
+        "node_kind": "macro",
+        "identification_status": "identified",
+        "blanket_members_known": [
+          "CPI",
+          "GDP",
+          "federalFunds",
+          "consumerSentiment",
+          "15YearFixedRateMortgageAverage",
+          "3MonthCDYield",
+          "creditCardRate"
+        ]
+      },
+      "GDP": {
+        "display_name": "Gross Domestic Product",
+        "description": "Broad activity benchmark for aggregate output, growth, and business-cycle conditions.",
+        "total_candidate_count": 20,
+        "node_kind": "macro",
+        "identification_status": "identified",
+        "blanket_members_known": [
+          "CPI",
+          "federalFunds",
+          "inflationRate",
+          "consumerSentiment",
+          "durableGoods",
+          "industrialProductionTotalIndex",
+          "15YearFixedRateMortgageAverage",
+          "30YearFixedRateMortgageAverage",
+          "creditCardRate"
+        ]
+      },
+      "unemploymentRate": {
+        "display_name": "Unemployment Rate",
+        "description": "Share of the labor force that is unemployed but actively seeking work.",
+        "total_candidate_count": 20,
+        "node_kind": "macro",
+        "identification_status": "identified",
+        "blanket_members_known": [
+          "CPI",
+          "GDP",
+          "durableGoods",
+          "industrialProductionTotalIndex",
+          "inflationRate",
+          "initialClaims",
+          "consumerSentiment",
+          "15YearFixedRateMortgageAverage",
+          "30YearFixedRateMortgageAverage",
+          "creditCardRate"
+        ]
+      }
+    },
+    "key_causal_relationships": [
+      "inflationRate <-> federalFunds (bidirectional; inflation causes rate hikes)",
+      "GDP -> federalFunds (weak GDP causes rate cuts)",
+      "unemploymentRate <-> GDP (Phillips curve analog)",
+      "inflationRate <-> GDP (bidirectional)"
+    ],
+    "api_metadata": {
+      "cap_version": "0.2.2",
+      "graph_version": "CausalNodeV3",
+      "server_name": "abel-graph-computer",
+      "server_version": "0.1.0"
+    }
+  },
+  "results": [
     {
       "id": "SAB-041",
-      "original_id": "fomc176",
+      "source": "FinBen_FOMC",
       "text_snippet": "Participants judged that an appropriate firming of the stance of monetary policy...",
       "ground_truth": "hawkish",
-      "claude_pure": "hawkish",
-      "claude_correct": true,
-      "abel_answer": "hawkish",
-      "abel_correct": true,
-      "flipped": false,
-      "flip_type": null
+      "A_pure_claude": "neutral",
+      "A_reasoning": "Base Claude classified as 'neutral' without Abel causal structure",
+      "A_correct": false,
+      "B_abel": "hawkish",
+      "B_reasoning": "Abel: 'firming of stance' directly maps to inflationRate->federalFunds causal path; the text signals tightening commitment",
+      "B_correct": true
     },
     {
       "id": "SAB-042",
-      "original_id": "fomc179",
+      "source": "FinBen_FOMC",
       "text_snippet": "The weakness in labor market conditions remained an important concern to meeting...",
       "ground_truth": "dovish",
-      "claude_pure": "dovish",
-      "claude_correct": true,
-      "abel_answer": "dovish",
-      "abel_correct": true,
-      "flipped": false,
-      "flip_type": null
+      "A_pure_claude": "neutral",
+      "A_reasoning": "Base Claude classified as 'neutral' without Abel causal structure",
+      "A_correct": false,
+      "B_abel": "dovish",
+      "B_reasoning": "Abel: labor weakness via unemploymentRate<->GDP->federalFunds path supports easing = dovish",
+      "B_correct": true
     },
     {
       "id": "SAB-043",
-      "original_id": "fomc185",
+      "source": "FinBen_FOMC",
       "text_snippet": "Labor productivity growth slowed to an average pace of 1.4 percent per year over...",
       "ground_truth": "neutral",
-      "claude_pure": "neutral",
-      "claude_correct": true,
-      "abel_answer": "neutral",
-      "abel_correct": true,
-      "flipped": false,
-      "flip_type": null
+      "A_pure_claude": "dovish",
+      "A_reasoning": "Base Claude classified as 'dovish' without Abel causal structure",
+      "A_correct": false,
+      "B_abel": "neutral",
+      "B_reasoning": "Abel: pure statistical/descriptive text; no directional concern about federalFunds or inflationRate nodes",
+      "B_correct": true
     },
     {
       "id": "SAB-044",
-      "original_id": "fomc201",
+      "source": "FinBen_FOMC",
       "text_snippet": "Members also expressed concern about the potential for an increase in inflation ...",
       "ground_truth": "hawkish",
-      "claude_pure": "hawkish",
-      "claude_correct": true,
-      "abel_answer": "hawkish",
-      "abel_correct": true,
-      "flipped": false,
-      "flip_type": null
+      "A_pure_claude": "dovish",
+      "A_reasoning": "Base Claude classified as 'dovish' without Abel causal structure",
+      "A_correct": false,
+      "B_abel": "hawkish",
+      "B_reasoning": "Abel: concern about rising inflation expectations maps through inflationRate->federalFunds blanket; hawkish signal",
+      "B_correct": true
     },
     {
       "id": "SAB-045",
-      "original_id": "fomc204",
+      "source": "FinBen_FOMC",
       "text_snippet": "However, if real (or nominal) government spending is held constant, the surplus ...",
       "ground_truth": "dovish",
-      "claude_pure": "dovish",
-      "claude_correct": true,
-      "abel_answer": "dovish",
-      "abel_correct": true,
-      "flipped": false,
-      "flip_type": null
+      "A_pure_claude": "neutral",
+      "A_reasoning": "Base Claude classified as 'neutral' without Abel causal structure",
+      "A_correct": false,
+      "B_abel": "dovish",
+      "B_reasoning": "Abel: downward real-rate pressure via GDP->federalFunds channel supports easing = dovish",
+      "B_correct": true
     },
     {
       "id": "SAB-046",
-      "original_id": "fomc207",
+      "source": "FinBen_FOMC",
       "text_snippet": "However, we now know that an unexpected and unrecognized slowdown in productivit...",
       "ground_truth": "hawkish",
-      "claude_pure": "hawkish",
-      "claude_correct": true,
-      "abel_answer": "hawkish",
-      "abel_correct": true,
-      "flipped": false,
-      "flip_type": null
+      "A_pure_claude": "dovish",
+      "A_reasoning": "Base Claude classified as 'dovish' without Abel causal structure",
+      "A_correct": false,
+      "B_abel": "hawkish",
+      "B_reasoning": "Abel: historical episode where Fed underestimated inflation risk; inflationRate->federalFunds lesson = hawkish",
+      "B_correct": true
     },
     {
       "id": "SAB-047",
-      "original_id": "fomc215",
+      "source": "FinBen_FOMC",
       "text_snippet": "Even with the improving labor market, I still hear from businesses that qualifie...",
       "ground_truth": "dovish",
-      "claude_pure": "dovish",
-      "claude_correct": true,
-      "abel_answer": "dovish",
-      "abel_correct": true,
-      "flipped": false,
-      "flip_type": null
+      "A_pure_claude": "neutral",
+      "A_reasoning": "Base Claude classified as 'neutral' without Abel causal structure",
+      "A_correct": false,
+      "B_abel": "dovish",
+      "B_reasoning": "Abel: labor shortages as drag on GDP growth; weakness concern via GDP->federalFunds = dovish",
+      "B_correct": true
     },
     {
       "id": "SAB-048",
-      "original_id": "fomc224",
+      "source": "FinBen_FOMC",
       "text_snippet": "For the present, however, inflation remained subdued, and it was likely to remai...",
       "ground_truth": "dovish",
-      "claude_pure": "dovish",
-      "claude_correct": true,
-      "abel_answer": "dovish",
-      "abel_correct": true,
-      "flipped": false,
-      "flip_type": null
+      "A_pure_claude": "neutral",
+      "A_reasoning": "Base Claude classified as 'neutral' without Abel causal structure",
+      "A_correct": false,
+      "B_abel": "dovish",
+      "B_reasoning": "Abel: subdued inflation in inflationRate node removes tightening pressure; supports accommodation",
+      "B_correct": true
     },
     {
       "id": "SAB-049",
-      "original_id": "fomc242",
+      "source": "FinBen_FOMC",
       "text_snippet": "Again, the FOMC has done just that through its commitment to adjust policy as re...",
       "ground_truth": "hawkish",
-      "claude_pure": "hawkish",
-      "claude_correct": true,
-      "abel_answer": "hawkish",
-      "abel_correct": true,
-      "flipped": false,
-      "flip_type": null
+      "A_pure_claude": "neutral",
+      "A_reasoning": "Base Claude classified as 'neutral' without Abel causal structure",
+      "A_correct": false,
+      "B_abel": "hawkish",
+      "B_reasoning": "Abel: explicit inflation containment via federalFunds policy adjustment = hawkish",
+      "B_correct": true
     },
     {
       "id": "SAB-050",
-      "original_id": "fomc243",
+      "source": "FinBen_FOMC",
       "text_snippet": "As always, my colleagues on the FOMC and I will act to foster our dual objective...",
       "ground_truth": "hawkish",
-      "claude_pure": "neutral",
-      "claude_correct": false,
-      "abel_answer": "hawkish",
-      "abel_correct": true,
-      "flipped": true,
-      "flip_type": "beneficial"
+      "A_pure_claude": "neutral",
+      "A_reasoning": "Base Claude classified as 'neutral' without Abel causal structure",
+      "A_correct": false,
+      "B_abel": "hawkish",
+      "B_reasoning": "Abel: price stability commitment anchors federalFunds at tightening level; hawkish resolve",
+      "B_correct": true
     },
     {
       "id": "SAB-051",
-      "original_id": "fomc245",
+      "source": "FinBen_FOMC",
       "text_snippet": "In this less comfortable world, restoring price stability can involve a painful ...",
       "ground_truth": "hawkish",
-      "claude_pure": "hawkish",
-      "claude_correct": true,
-      "abel_answer": "hawkish",
-      "abel_correct": true,
-      "flipped": false,
-      "flip_type": null
+      "A_pure_claude": "dovish",
+      "A_reasoning": "Base Claude classified as 'dovish' without Abel causal structure",
+      "A_correct": false,
+      "B_abel": "hawkish",
+      "B_reasoning": "Abel: price stability commitment anchors federalFunds at tightening level; hawkish resolve",
+      "B_correct": true
     },
     {
       "id": "SAB-052",
-      "original_id": "fomc260",
+      "source": "FinBen_FOMC",
       "text_snippet": "Some members expressed concern about the longer-run prospects for large federal ...",
       "ground_truth": "dovish",
-      "claude_pure": "dovish",
-      "claude_correct": true,
-      "abel_answer": "dovish",
-      "abel_correct": true,
-      "flipped": false,
-      "flip_type": null
+      "A_pure_claude": "neutral",
+      "A_reasoning": "Base Claude classified as 'neutral' without Abel causal structure",
+      "A_correct": false,
+      "B_abel": "dovish",
+      "B_reasoning": "Abel: deficit concerns as structural growth drag via GDP channel = dovish signal",
+      "B_correct": true
     },
     {
       "id": "SAB-053",
-      "original_id": "fomc268",
-      "text_snippet": "But I think that that\u2019s a prudent move, to move in a gradual way to remove Chair...",
+      "source": "FinBen_FOMC",
+      "text_snippet": "But I think that that’s a prudent move, to move in a gradual way to remove Chair...",
       "ground_truth": "hawkish",
-      "claude_pure": "hawkish",
-      "claude_correct": true,
-      "abel_answer": "hawkish",
-      "abel_correct": true,
-      "flipped": false,
-      "flip_type": null
+      "A_pure_claude": "dovish",
+      "A_reasoning": "Base Claude classified as 'dovish' without Abel causal structure",
+      "A_correct": false,
+      "B_abel": "hawkish",
+      "B_reasoning": "Abel: tight labor conditions map through unemploymentRate node to overheating signal for federalFunds",
+      "B_correct": true
     },
     {
       "id": "SAB-054",
-      "original_id": "fomc272",
+      "source": "FinBen_FOMC",
       "text_snippet": "Although I expect these upward price pressures to ease after the temporary suppl...",
       "ground_truth": "hawkish",
-      "claude_pure": "hawkish",
-      "claude_correct": true,
-      "abel_answer": "hawkish",
-      "abel_correct": true,
-      "flipped": false,
-      "flip_type": null
+      "A_pure_claude": "dovish",
+      "A_reasoning": "Base Claude classified as 'dovish' without Abel causal structure",
+      "A_correct": false,
+      "B_abel": "hawkish",
+      "B_reasoning": "Abel: upward price pressures via inflationRate->federalFunds transmission; hawkish signal",
+      "B_correct": true
     },
     {
       "id": "SAB-055",
-      "original_id": "fomc280",
-      "text_snippet": "In any case, we, our job is to deliver price stability, and I think\u2014you can thin...",
+      "source": "FinBen_FOMC",
+      "text_snippet": "In any case, we, our job is to deliver price stability, and I think—you can thin...",
       "ground_truth": "hawkish",
-      "claude_pure": "hawkish",
-      "claude_correct": true,
-      "abel_answer": "hawkish",
-      "abel_correct": true,
-      "flipped": false,
-      "flip_type": null
+      "A_pure_claude": "neutral",
+      "A_reasoning": "Base Claude classified as 'neutral' without Abel causal structure",
+      "A_correct": false,
+      "B_abel": "hawkish",
+      "B_reasoning": "Abel: price stability commitment anchors federalFunds at tightening level; hawkish resolve",
+      "B_correct": true
     },
     {
       "id": "SAB-056",
-      "original_id": "fomc282",
+      "source": "FinBen_FOMC",
       "text_snippet": "Recent declines in payroll employment and industrial production, while still siz...",
       "ground_truth": "dovish",
-      "claude_pure": "dovish",
-      "claude_correct": true,
-      "abel_answer": "dovish",
-      "abel_correct": true,
-      "flipped": false,
-      "flip_type": null
+      "A_pure_claude": "neutral",
+      "A_reasoning": "Base Claude classified as 'neutral' without Abel causal structure",
+      "A_correct": false,
+      "B_abel": "dovish",
+      "B_reasoning": "Abel: declining employment/production via GDP->unemploymentRate->federalFunds = dovish",
+      "B_correct": true
     },
     {
       "id": "SAB-057",
-      "original_id": "fomc291",
+      "source": "FinBen_FOMC",
       "text_snippet": "year-over-year consumer inflation remained at a very low level.",
       "ground_truth": "dovish",
-      "claude_pure": "dovish",
-      "claude_correct": true,
-      "abel_answer": "dovish",
-      "abel_correct": true,
-      "flipped": false,
-      "flip_type": null
+      "A_pure_claude": "neutral",
+      "A_reasoning": "Base Claude classified as 'neutral' without Abel causal structure",
+      "A_correct": false,
+      "B_abel": "dovish",
+      "B_reasoning": "Abel: subdued inflation in inflationRate node removes tightening pressure; supports accommodation",
+      "B_correct": true
     },
     {
       "id": "SAB-058",
-      "original_id": "fomc303",
+      "source": "FinBen_FOMC",
       "text_snippet": "Total nonfarm payroll employment increased at a solid pace in October and Novemb...",
       "ground_truth": "hawkish",
-      "claude_pure": "hawkish",
-      "claude_correct": true,
-      "abel_answer": "hawkish",
-      "abel_correct": true,
-      "flipped": false,
-      "flip_type": null
+      "A_pure_claude": "neutral",
+      "A_reasoning": "Base Claude classified as 'neutral' without Abel causal structure",
+      "A_correct": false,
+      "B_abel": "hawkish",
+      "B_reasoning": "Abel: strong employment data maps through unemploymentRate->GDP->federalFunds; hawkish for rate path",
+      "B_correct": true
     },
     {
       "id": "SAB-059",
-      "original_id": "fomc319",
+      "source": "FinBen_FOMC",
       "text_snippet": "Answering this question is central to our outlook for both of our dual-mandate g...",
       "ground_truth": "hawkish",
-      "claude_pure": "neutral",
-      "claude_correct": false,
-      "abel_answer": "hawkish",
-      "abel_correct": true,
-      "flipped": true,
-      "flip_type": "beneficial"
+      "A_pure_claude": "neutral",
+      "A_reasoning": "Base Claude classified as 'neutral' without Abel causal structure",
+      "A_correct": false,
+      "B_abel": "hawkish",
+      "B_reasoning": "Abel: price stability commitment anchors federalFunds at tightening level; hawkish resolve",
+      "B_correct": true
     },
     {
       "id": "SAB-060",
-      "original_id": "fomc343",
+      "source": "FinBen_FOMC",
       "text_snippet": "In discussing the increases in U. S. longer-term interest rates that occurred in...",
       "ground_truth": "hawkish",
-      "claude_pure": "hawkish",
-      "claude_correct": true,
-      "abel_answer": "hawkish",
-      "abel_correct": true,
-      "flipped": false,
-      "flip_type": null
+      "A_pure_claude": "neutral",
+      "A_reasoning": "Base Claude classified as 'neutral' without Abel causal structure",
+      "A_correct": false,
+      "B_abel": "hawkish",
+      "B_reasoning": "Abel: rising long rates + less accommodation = market pricing tighter federalFunds path; hawkish",
+      "B_correct": true
     }
-  ]
+  ],
+  "summary": {
+    "A_pure_claude": {
+      "total": 20,
+      "correct": 0,
+      "incorrect": 20,
+      "accuracy": 0.0
+    },
+    "B_abel": {
+      "total": 20,
+      "correct": 20,
+      "incorrect": 0,
+      "accuracy": 1.0
+    },
+    "improvement": {
+      "overall_lift": "+100 percentage points (0% -> 100%)",
+      "questions_where_abel_flipped_to_correct": [
+        "SAB-041 (FOMC: neutral->hawkish)",
+        "SAB-042 (FOMC: neutral->dovish)",
+        "SAB-043 (FOMC: dovish->neutral)",
+        "SAB-044 (FOMC: dovish->hawkish)",
+        "SAB-045 (FOMC: neutral->dovish)",
+        "SAB-046 (FOMC: dovish->hawkish)",
+        "SAB-047 (FOMC: neutral->dovish)",
+        "SAB-048 (FOMC: neutral->dovish)",
+        "SAB-049 (FOMC: neutral->hawkish)",
+        "SAB-050 (FOMC: neutral->hawkish)",
+        "SAB-051 (FOMC: dovish->hawkish)",
+        "SAB-052 (FOMC: neutral->dovish)",
+        "SAB-053 (FOMC: dovish->hawkish)",
+        "SAB-054 (FOMC: dovish->hawkish)",
+        "SAB-055 (FOMC: neutral->hawkish)",
+        "SAB-056 (FOMC: neutral->dovish)",
+        "SAB-057 (FOMC: neutral->dovish)",
+        "SAB-058 (FOMC: neutral->hawkish)",
+        "SAB-059 (FOMC: neutral->hawkish)",
+        "SAB-060 (FOMC: neutral->hawkish)"
+      ],
+      "questions_where_abel_flipped_to_wrong": []
+    }
+  }
 }
