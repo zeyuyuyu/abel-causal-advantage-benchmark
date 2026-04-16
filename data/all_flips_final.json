@@ -6976,12 +6976,932 @@
   "id": "FLIP-0872"
  },
  {
+  "text": "for example because asset managers are essentially  \nunlevered leverage or capital based tools may be the wrong tool to tackle market failures",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_28",
+  "id": "FLIP-0873"
+ },
+ {
+  "text": "a conceptually related problem with using fiscal policy as a stabilisation tool is that its need to pass through the political process inevitably decreases its predictability",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_28",
+  "id": "FLIP-0874"
+ },
+ {
+  "text": "the loantodeposit ratio ltd a relevant financial stability indicator has fallen below 100 coming in at 913 in december 2014",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_28",
+  "id": "FLIP-0875"
+ },
+ {
+  "text": "however there are significant \nupside and downside risks to the outlook for inflation",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_28",
+  "id": "FLIP-0876"
+ },
+ {
+  "text": "a central bank that focuses intently on asset prices looks as if it is trying to control too many elements of the economy",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_28",
+  "id": "FLIP-0877"
+ },
+ {
+  "text": "however the increased risk buffer in \nthe shape of higher capital requirements is no panacea",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_28",
+  "id": "FLIP-0878"
+ },
+ {
+  "text": "the third ingredient the turbulence has revealed in relation to this type of product has been \nthe lack of transparency both regarding the valuation models used and the degree of \nexposure assumed",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_28",
+  "id": "FLIP-0879"
+ },
+ {
+  "text": "if this an alysis is correct then corporate leverage and the \nassociated exposures around the finan cial system could be rather more  prominent as an issue over \nthe next five years or so than it has ",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_28",
+  "id": "FLIP-0880"
+ },
+ {
+  "text": "waiving liquidity requirements and large exposure limits could increase the interconnectedness within the banking group and lead to possible contagion effects4 in a banking union which has no common d",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_28",
+  "id": "FLIP-0881"
+ },
+ {
+  "text": "to take an extreme  and from my view point  totally unrealistic scenario  a 50 haircut on greece and 25 haircut on italy and spain would result in a 12 loss of core tier one capital",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_28",
+  "id": "FLIP-0882"
+ },
+ {
+  "text": "concerns about the governments longrun fiscal position may also constrain the flexibility of fiscal policy to respond to current economic conditions",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_28",
+  "id": "FLIP-0883"
+ },
+ {
+  "text": "in hindsight it looks as if for a while confidence had turned into complacency",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_28",
+  "id": "FLIP-0884"
+ },
+ {
+  "text": "for instance the \noperational risk that is the risk of human error or failure of systems leading to financial loss \nwas not at all addressed  as were the liquidity risk credit concentration risk inter",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_28",
+  "id": "FLIP-0885"
+ },
+ {
+  "text": "howeve r if legislation ta kes only \nthese action s and do es not limit gse portfolio s we  run the risk of solidifying investors perceptio ns \nthat the gses are in strum ents of the go vernme nt and ",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_28",
+  "id": "FLIP-0886"
+ },
+ {
+  "text": "it is worth noting that recent deposit insurance and depositor preference\nlegislation may increase these concerns by exposing uninsured creditors of banks to a greaterrisk of loss than in the past",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_28",
+  "id": "FLIP-0887"
+ },
+ {
+  "text": "three years ago the federal reserves decision to curtail the quantitative easing policy quite unexpected for the market became such a black swan",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_28",
+  "id": "FLIP-0888"
+ },
+ {
+  "text": "if we do not undertake ambitious labour \nreform the spanish economy will enter a tough and complicated period in which not only will \ngrowth be lower than it would be with extens ive reform but moreov",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_28",
+  "id": "FLIP-0889"
+ },
+ {
+  "text": "calculations by the ministry of \neconomic and business affairs indicate that t he increased pension contributions have had a full \nimpact on total savings",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_28",
+  "id": "FLIP-0890"
+ },
+ {
+  "text": "there are certainly other factors at play as well but savings and investment decisions are at the heart of the issue",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_28",
+  "id": "FLIP-0891"
+ },
+ {
+  "text": "fifth the banks need to examine the operational issues related to the bc model such \nas cash handling",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_28",
+  "id": "FLIP-0892"
+ },
+ {
+  "text": "double gearing results in the overstatement of capital and can also lead to regulatory arbitrage",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_28",
+  "id": "FLIP-0893"
+ },
+ {
+  "text": "finally there are also studies which imply that the fiscal multiplier might be smaller when \npublic debt ratios are high and the sustainability of public finances is in doubt",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_28",
+  "id": "FLIP-0894"
+ },
+ {
+  "text": "last but not least i would like to come back to a point i mentioned earlier on today which is directly related to financial regulation sovereign exposures on banks balance sheets still represent a cha",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_28",
+  "id": "FLIP-0895"
+ },
+ {
+  "text": "what i have just said about the need to develop a european perspective has\nimplications for monetary and economic analysis ",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_28",
+  "id": "FLIP-0896"
+ },
+ {
+  "text": "these are in turn manifestations of a bigger problem the premature welfare state which is weighing heavily on potential growth \non the one hand and is a source of a chronic fiscal imbalance on the oth",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_28",
+  "id": "FLIP-0897"
+ },
+ {
+  "text": "in addition macroeconomic imbalances would continue to grow possibly setting the stage for another crisis",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_28",
+  "id": "FLIP-0898"
+ },
+ {
+  "text": "not only for inducing concerns in matters of supporting further government debt and delaying structural reforms but also because they are said to create market distortions",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_28",
+  "id": "FLIP-0899"
+ },
+ {
+  "text": "above all problems are raised by the markedpreferential tax treatment of profits retained in enterprises which cannot be justified on\nmacroeconomic grounds",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_28",
+  "id": "FLIP-0900"
+ },
+ {
+  "text": "the profitable us banks are in any case leaving european banks further behind",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_28",
+  "id": "FLIP-0901"
+ },
+ {
+  "text": "bis review 132006 5\n had the harder sell as an economist would say we might expect diminishing marginal returns to \ninflation reduction",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_28",
+  "id": "FLIP-0902"
+ },
+ {
+  "text": "it is noteworthy that supervisory assessments of risks to the earnings and balance sheets of major financial institutions have like those of many private analysts placed increasing emphasis on exposur",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_28",
+  "id": "FLIP-0903"
+ },
+ {
+  "text": "there were also distorted incentives for traders and fund managers to take excessive risks because of myopic and asymmetric remuneration contracts",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_28",
+  "id": "FLIP-0904"
+ },
+ {
+  "text": "what i would most like to stress here is that the two factors   the consumption tax hike and \nthe substantial decline in oil prices   only temporally have a downward impact on inflation",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_28",
+  "id": "FLIP-0905"
+ },
+ {
+  "text": "i have already said on several occasions before that for me the scf document is perhaps too general",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0906"
+ },
+ {
+  "text": "however the basic message \n that failure by the current generation to address the economic implications of aging will impose significant costs on future \ngenerations  is the same",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0907"
+ },
+ {
+  "text": "nor do the traditional consumer protection issues relating to the sales \nprocess apply directly  these are not relevant to the fund or funds service provider per se but \nare picked up elsewhere in ter",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0908"
+ },
+ {
+  "text": "in the latter case the message to employees is that constraints on practices or products may be selfimposed as well as external",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0909"
+ },
+ {
+  "text": "but as  guarantors those decisio ns affect the risk run by sponsors who in \nprinciple could make adjustments to their own bal ance sheet if they regarded trustee choices as \nsuboptimal",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0910"
+ },
+ {
+  "text": "bis review 1242006 1\n also the issue of high and fragile public debt structure along with high budget deficits has \nconsiderable impact on dollarization",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0911"
+ },
+ {
+  "text": "in case of public sector banks the ownership structure itself may change with government bringing down its stake in these banks",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0912"
+ },
+ {
+  "text": "another striking feature of the three defunct banks under reference is specific management weakness particularly in the lending area a frequent initial cause of financial distress known even to the mo",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0913"
+ },
+ {
+  "text": "inadequate financial disclosures on the other hand could penalize wellmanaged firms if marketparticipants are unable to assess fundamental financial strength",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0914"
+ },
+ {
+  "text": "it is clear that the root causes of the adverse scenario were associated with substantial \nlosses in competitiveness lack of fiscal sustainability and financial risks in national banking \nsectors",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0915"
+ },
+ {
+  "text": "furthermore it is conceivable \nthat in the presence of deep macroeconomic weakness expansionary policies might exacerbate the loss of confidence",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0916"
+ },
+ {
+  "text": "such external events include changes in fundamentals like the terms of trade or international financial market conditions which alter rational perceptions of agents as to future cash flows",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0917"
+ },
+ {
+  "text": "beyond these quantitative considerations the use of these complex \nproducts also indicates significant shortcomings in the more qualitative facet of risk \nmanagement",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0918"
+ },
+ {
+  "text": "ii what would be the position when an account of one of the subsidiaries has to be drawn up under ind as but that is not the case for the parent entity say an nbfc holding company",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0919"
+ },
+ {
+  "text": "there are other challenges facing the european economy and these are associated with \npublic finances and sovereign financial health",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0920"
+ },
+ {
+  "text": "if the actions dont follow the words when \nnecessary then simi lar policy statements in future will be less effective",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0921"
+ },
+ {
+  "text": "that spread will largely \nreflect compensation for credit and other non liquidity risks as well as that part of the liquidity \nrisk which the bank is not insuring   the bank s haircut",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0922"
+ },
+ {
+  "text": "consequently any changes to this approach  as currently discussed  have much stronger implications for european banks than for their counterparts elsewhere",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0923"
+ },
+ {
+  "text": "if government were to undertake such commitments and future oil revenues are too low to fully finance them the fiscal position would be unsustainable the government would face a fiscal crisis",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0924"
+ },
+ {
+  "text": "the \nlegal experts at the ministry had to give way to the young economists",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0925"
+ },
+ {
+  "text": "it could also tempt us to scale back or\npostpone painful restructuring initiatives",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0926"
+ },
+ {
+  "text": "automatically extending maturities however would leave them on the hook and they could be held liable in the event of a debt restructuring later on",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0927"
+ },
+ {
+  "text": "in any case when downturns occur high leverage is usually an amplifying factor",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0928"
+ },
+ {
+  "text": "these considerations lead to theconclusion that it does not make sense to harmonise the payrate policies within europe",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0929"
+ },
+ {
+  "text": "bis central bankers speeches 15\n nationally and if they were to try to take into account the spillover effects of their policy \nabroad this would mean having to set aside the national objectives at le",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0930"
+ },
+ {
+  "text": "giving loans to finance such activities then it would obviously be of concern for us not only from the point of view of the risk management as a supervisor but also in the view of our role to support ",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0931"
+ },
+ {
+  "text": "more importantly thai banks al so do not have investment in us gse \nsecurities",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0932"
+ },
+ {
+  "text": "conclusion \nin conclusion i believe that the crisis has exposed a couple of shortcomings in the monetary \npolicy paradigm policy frameworks are insufficient ly medium termoriented and the role of \nmon",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0933"
+ },
+ {
+  "text": "the objections are not convincing \nbut of course there are also some potential problems when a central bank presents its own forecast of the interest rate path",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0934"
+ },
+ {
+  "text": "admittedly a few years back the challenges of managing the above conflicts in the \nthen prevailing context seemed to weigh in favour of separation of debt management from \nthe central bank",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0935"
+ },
+ {
+  "text": "21  following the ambiguity aversion analogy the bias  may stem because we are able to characterise in \nprobabilistic terms the implications of a shift in bank  capital requirements which have a long ",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0936"
+ },
+ {
+  "text": "13 \nif the riksbank had done so this could have led to more serious problems when the time came to phase out the support measures",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0937"
+ },
+ {
+  "text": "what \nmakes this case interesting in the light of todays topic is that in the supreme courts assessments of vital national interests there is no discussion of what the nations interests \nare in the sh",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0938"
+ },
+ {
+  "text": "the present problem is that banks allow excessively high leverage thus leaving out any possibility that the borrower can be made to deal with emergencies",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0939"
+ },
+ {
+  "text": "from a fiscal policy perspective the challenge that  arises relates to the management of windfall \nrevenues",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0940"
+ },
+ {
+  "text": "this decoupling of banking system deposit liabilities andnominal gdp became so pronounced during the first half of the 1990s that the federal openmarket committee downgraded the status of m2 as a poli",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0941"
+ },
+ {
+  "text": "the driving forces behind this were a budget deficit that amounted to 26 per cent of gdp in 2005 and a large an d growing deficit in household saving",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0942"
+ },
+ {
+  "text": "we would not have had the dailymovements as under the present system but the pressure would have built up and when the dambroke as it assuredly would have the crisis would have been worse",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0943"
+ },
+ {
+  "text": "the essence of the argument as i see it is that it is asserted by supporters of lets call it the big equity school that we cannot value large banks adequately because they are too complex and opaque c",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0944"
+ },
+ {
+  "text": "one of the main ones being that if senior debt ranks alongside liabilities that are less reliably loss absorbing such as sight or other shortterm deposits and derivatives then such debt cannot meet co",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0945"
+ },
+ {
+  "text": "in the past the analysis on these issues would hav e typically concentrated on the return \naspects and portfolio management considerations with only limited space for riskrelated \nconsiderations in th",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0946"
+ },
+ {
+  "text": "although the actual accounting provisions taken by \nthe banks on this portfolio are small the central bank has insisted that allowance be made \nfor much higher loan losses",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0947"
+ },
+ {
+  "text": "first of all because of the minor role of the banks under resolution in the total banking sector",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0948"
+ },
+ {
+  "text": "unfortunately the absence of a credible fiscal consolidation program this year halted the further \nrestructuring of the public finances and even caused it to backtrack in certain areas",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0949"
+ },
+ {
+  "text": "in the case of banking institutions this could ent ail an assessment of wher e pressure points might \narise under the new business models if risk appetites were to reverse and liquidity conditions to ",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0950"
+ },
+ {
+  "text": "there are even more reasons for not doing so in a monetary union such as the euro area",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0951"
+ },
+ {
+  "text": "in addition investors attributed higher credit risk \npremiums due to increasing concerns about fiscal sustainability in view of the rapidly growing \nbudget",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0952"
+ },
+ {
+  "text": "on the \nother hand the political authorities often do not understand how the financial markets work they deeply despise them but at the same time depend on them to finance their budgets",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0953"
+ },
+ {
+  "text": "while this is a concern the presence of undercapitalized small banks is likely to pose ri sks particularly during periods of adverse \neconomic cycles",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0954"
+ },
+ {
+  "text": "the first risk is that being too ambitious could lead to a crowding out of private payment solutions and a potential disintermediation of the banking sector",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0955"
+ },
+ {
+  "text": "particularly in germany theres the added accusation of monetary policy expropriating savers",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0956"
+ },
+ {
+  "text": "a decline in growth from over 10 in 2010 to slightly below 8 at the end of 2013 coupled with the persistence of domestic imbalances suggests that further reforms are needed",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0957"
+ },
+ {
+  "text": "i feel very uneasy with this kind of deficit in the current situation since if the \neconomy enters a re cession  a scenario which we must take into account   the deficit will \ngrow and it will be hard",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0958"
+ },
+ {
+  "text": "certain issues like the lack of credibility of fiscal rules or the harmful sovereignbank nexus still have to be adequately addressed",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0959"
+ },
+ {
+  "text": "you think that the exit strategies of the fiscal policy namely in some countries higher \ndeficits like ireland portugal or greece are in themselves threats to the economic recovery",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0960"
+ },
+ {
+  "text": "naturally this puts more weight on the shoulders of market participants that is the banks",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0961"
+ },
+ {
+  "text": "furthermore we should only go down the avenue of \ncomprehensively mutualising liability if the shift in liability to the european level is \naccompanied by the transfer of control",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0962"
+ },
+ {
+  "text": "certainly we needed to rethink the regulatory framework in light of what we have learnt from \nthe past five years   the status quo was not acceptable",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0963"
+ },
+ {
+  "text": "apart from the wellknown recognition and\ndecision lags in policymaking attempts to coordinate ex ante would not only blur the specificresponsibilities of individual policymakers but also reduce their ",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0964"
+ },
+ {
+  "text": "nor\nincidentally were we vulnerable as a creditor australian banks had not lent much to asia",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0965"
+ },
+ {
+  "text": "there are legitimate concerns associated with the costs and benefits of continuing asset purchases",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0966"
+ },
+ {
+  "text": "as a consequence hungarys external financing requi rement is likely to decrease to close to \n3 per cent of the gdp in 2009",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0967"
+ },
+ {
+  "text": "the current account deficit is large  almost 5  of gdp  and particularly large in relation tothe united states limited foreign trade",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0968"
+ },
+ {
+  "text": "it is not so much that the top management of banks consciously swing for the fences but rather that wholesale credit may be systematically too cheap for banks and perhaps other intermediaries too unle",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0969"
+ },
+ {
+  "text": "as early as mid2001 the macroeconomic and financia l outlook proved to be less favourable \nnecessitating corrective measures",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0970"
+ },
+ {
+  "text": "these collapses lead so me to question whether overly prescriptive \nregulation may conduct to perverse incentives whereas others argue that the reasons reside in the lack of judgment on the level of t",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0971"
+ },
+ {
+  "text": "in addition to the still sizeable market risks they face signifi cant credit risks overall",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0972"
+ },
+ {
+  "text": "first as i already mentioned it would not be a way to prevent taxpayers from suffering the \nconsequences of bad investment decisions",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0973"
+ },
+ {
+  "text": "the collapse of government tax collections and the development of a massive public sector deficit led to concerns in capital markets about the sovereigns ability to service the debt",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0974"
+ },
+ {
+  "text": "the latest events in europe demonstrate how a weak fiscal situation combined with a couple of years of relaxation however warranted may damage the economys financial position and compromise its recove",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0975"
+ },
+ {
+  "text": " secondly the differences in the leverage ratios levels mainly result from \naccounting discrepancies that can lead to particularly misleading comparisons \n if we observe the leverage multiples it is t",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0976"
+ },
+ {
+  "text": "the commissions dual role as the guardian of the eu treaty on the one hand and as a political institution on the other is undoubtedly a factor in the repeated compromises made at the expense of budget",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0977"
+ },
+ {
+  "text": "banking organizations would be forced to shrinkchange their asset mix or face supervisory discipline during downturns because spreadswould be more likely to run into a fixed cap at such times",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0978"
+ },
+ {
+  "text": "calculations of costs in terms of number of unemployed must be taken with a rather \nlarge pinch of salt  \nthis leads me in to the discussion on the costs to the real economy of inflation on average \nu",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0979"
+ },
+ {
+  "text": "these factors combined serve as a constraint for the bank in almost the same way as exchange rate\nmovements did under the fixed exchange rate regime",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0980"
+ },
+ {
+  "text": "secondly there is the lack of trust between european states northern european countries \ndo not want to bail out the peripheral countries because they do not trust them to use the \nmoney wisely and ca",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0981"
+ },
+ {
+  "text": "for example the current macrofinancial environment outlined above masks how certain regulatory changes will really alter firms incentives over the medium term",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0982"
+ },
+ {
+  "text": "the crises reminded foreign investors of the indirect barriers that continue to exist especially in the developing world a lack of adequate corporate disclosure and governance underdeveloped and often",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0983"
+ },
+ {
+  "text": "however at the same time if policy discussion based on such economic analysis is not taking due account of the supporting rules or contracts things will not practically work",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0984"
+ },
+ {
+  "text": "that view isnt entirely off the mark  after all the scarcity principle applies to the running of a school as well so its not possible to offer every subject",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0985"
+ },
+ {
+  "text": "this has the potential of \ninfluencing the boards to take decisions that may not always be in the interest of the depositors who \nconstitute the most important stakeholders of a bank",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0986"
+ },
+ {
+  "text": "the somewhat higher gdp levels which might have been attained in the counterfactual as a result of the higher fiscal deficit would not have altered these ratios by much7 besides gdp might not have bee",
+  "claude_answer": "",
+  "abel_answer": "",
+  "ground_truth": "dovish",
+  "batch": "cb_batch_29_31",
+  "id": "FLIP-0987"
+ },
+ {
   "text": "Even so, most members viewed a slowing to a rate closer to most estimates of the growth of the economy's potential as a reasonable expectation.",
   "claude_answer": "",
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0873"
+  "id": "FLIP-0988"
  },
  {
   "text": "That said, our model accords the greatest roles to increased productivity growth, which has made the United States a magnet for foreign saving, and to the slump in foreign domestic demand, which has l",
@@ -6989,7 +7909,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_3",
-  "id": "FLIP-0874"
+  "id": "FLIP-0989"
  },
  {
   "text": "Many potential inflation targeters ask, \"Why not zero?\"",
@@ -6997,7 +7917,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0875"
+  "id": "FLIP-0990"
  },
  {
   "text": "These arguments imply that slack in labor markets remains considerable and therefore that a reduction in the unemployment rate toward its longer-run normal level would not have much effect on inflatio",
@@ -7005,7 +7925,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_3",
-  "id": "FLIP-0876"
+  "id": "FLIP-0991"
  },
  {
   "text": "It would have been difficult for the Committee to put forward a 7 percent unemployment goal when the current program started and unemployment was 8.1 percent; this would have involved a lot of uncerta",
@@ -7013,7 +7933,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_3",
-  "id": "FLIP-0877"
+  "id": "FLIP-0992"
  },
  {
   "text": "In these circumstances, the Committee believed that some further measured policy firming was likely to be needed to keep the risks to the attainment of both sustainable economic growth and price stabi",
@@ -7021,7 +7941,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_3",
-  "id": "FLIP-0878"
+  "id": "FLIP-0993"
  },
  {
   "text": "In considering the statement to be released following this meeting, members concurred that it should note that even with the rise in oil prices, the expansion remained firm and labor markets continued",
@@ -7029,7 +7949,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_3",
-  "id": "FLIP-0879"
+  "id": "FLIP-0994"
  },
  {
   "text": "In terms of the, you know, inflation, a couple things—your second question.",
@@ -7037,7 +7957,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0880"
+  "id": "FLIP-0995"
  },
  {
   "text": "There is, in my view, a reasonable prospect that each of these two effects will reverse their contributions to inflation over the next couple of years and that balance between them will be important i",
@@ -7045,7 +7965,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0881"
+  "id": "FLIP-0996"
  },
  {
   "text": "That central bank independence promotes lower inflation in developed countries is well-established by the economic literature.",
@@ -7053,7 +7973,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0882"
+  "id": "FLIP-0997"
  },
  {
   "text": "The jobs picture continues to be strong, with the unemployment rate near historic lows and with stronger wage gains.",
@@ -7061,7 +7981,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_3",
-  "id": "FLIP-0883"
+  "id": "FLIP-0998"
  },
  {
   "text": "The staff's June projections for the unemployment rate, real GDP growth, and inflation over the next few years were all a little lower, on balance, than those in its March forecast.",
@@ -7069,7 +7989,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0884"
+  "id": "FLIP-0999"
  },
  {
   "text": "Specifically, the projections converged on CPI inflation rates of 2-1/4 to 2-1/2 percent in 1997 and 2-1/2 to 3 percent in 1998.",
@@ -7077,7 +7997,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0885"
+  "id": "FLIP-1000"
  },
  {
   "text": "In determining how long to maintain a highly accommodative stance of monetary policy, the Committee will also consider other information, including additional measures of labor market conditions, indi",
@@ -7085,7 +8005,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_3",
-  "id": "FLIP-0886"
+  "id": "FLIP-1001"
  },
  {
   "text": "In my comments today, I will focus on the Fed's efforts to promote our maximum employment and price stability goals amid this upheaval, and suggest how lessons from history and a careful focus on inco",
@@ -7093,7 +8013,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0887"
+  "id": "FLIP-1002"
  },
  {
   "text": "Subsequent to monetary union, harmonized consumer prices can be used as the best available measure of inflation in the Euro area.",
@@ -7101,7 +8021,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0888"
+  "id": "FLIP-1003"
  },
  {
   "text": "But now, let’s go to your—the part of your question about inflation.",
@@ -7109,7 +8029,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0889"
+  "id": "FLIP-1004"
  },
  {
   "text": "This policy preference was based on expectations of growth in business activity at a pace averaging in the vicinity of the economy's potential, a perception among the members that the risks to such an",
@@ -7117,7 +8037,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0890"
+  "id": "FLIP-1005"
  },
  {
   "text": "Very low inflation and deflation pose qualitatively similar economic problems, though the magnitude of the associated costs can be expected to increase sharply as deflationary pressures intensify.",
@@ -7125,7 +8045,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_3",
-  "id": "FLIP-0891"
+  "id": "FLIP-1006"
  },
  {
   "text": "Indicators of longer-term inflation expectations were little changed on balance.",
@@ -7133,7 +8053,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0892"
+  "id": "FLIP-1007"
  },
  {
   "text": "As a policymaker, I'd like to think that well-executed monetary and fiscal policies--each focused importantly on their respective long-run goals--played some role in creating economic conditions that ",
@@ -7141,7 +8061,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0893"
+  "id": "FLIP-1008"
  },
  {
   "text": "Geopolitical uncertainties, notably those relating to developments in Iraq, frequently were cited by business contacts as a major reason for caution, but other factors inhibiting capital expenditures ",
@@ -7149,7 +8069,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_3",
-  "id": "FLIP-0894"
+  "id": "FLIP-1009"
  },
  {
   "text": "We’re also, as part of our review, looking at potential innovations, changes to the way we think about things, changes to the framework that would lead us—that would be more supportive of achieving in",
@@ -7157,7 +8077,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0895"
+  "id": "FLIP-1010"
  },
  {
   "text": "Implications for Monetary Policy In summary, there appears to be some possibility that the recent trend toward disinflation will continue, primarily because of the potentially large amount of economic",
@@ -7165,7 +8085,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_3",
-  "id": "FLIP-0896"
+  "id": "FLIP-1011"
  },
  {
   "text": "Nonetheless, if the influence of globalization on inflation is as substantial as many claim, we might have expected the standard model to have had difficulty in predicting recent inflation trends.",
@@ -7173,7 +8093,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0897"
+  "id": "FLIP-1012"
  },
  {
   "text": "Participants continued to expect that, as the effects of transitory factors waned and labor market conditions strengthened further, inflation would stabilize around the Committee's 2 percent objective",
@@ -7181,7 +8101,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0898"
+  "id": "FLIP-1013"
  },
  {
   "text": "And as I mentioned, I think at the last press conference, estimates by the—by members of the Committee have moved down by a full percentage point since maybe 2012 as we’ve learned—as unemployment has ",
@@ -7189,7 +8109,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0899"
+  "id": "FLIP-1014"
  },
  {
   "text": "Incoming data suggested that, after a weak start to the year, foreign economic activity accelerated in the second quarter.",
@@ -7197,7 +8117,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0900"
+  "id": "FLIP-1015"
  },
  {
   "text": "Businesses added a bit to their inventory positions after an extended period of sizable declines, but final sales changed little: business capital spending weakened somewhat further while growth in co",
@@ -7205,7 +8125,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0901"
+  "id": "FLIP-1016"
  },
  {
   "text": "The foreign exchange value of the dollar, which depreciated immediately following the FOMC's November announcement of further asset purchases, subsequently appreciated amid intensifying concerns about",
@@ -7213,7 +8133,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_3",
-  "id": "FLIP-0902"
+  "id": "FLIP-1017"
  },
  {
   "text": "In keeping with the practice at meetings when the Committee establishes its long-run ranges for growth of the money and debt aggregates, the members of the Committee and the Federal Reserve Bank presi",
@@ -7221,7 +8141,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0903"
+  "id": "FLIP-1018"
  },
  {
   "text": "After robust growth in the second quarter, M2 decelerated somewhat and M3 was about unchanged in July.",
@@ -7229,7 +8149,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_3",
-  "id": "FLIP-0904"
+  "id": "FLIP-1019"
  },
  {
   "text": "Longer-term inflation expectations have remained stable.",
@@ -7237,7 +8157,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0905"
+  "id": "FLIP-1020"
  },
  {
   "text": "Most participants expected that, following the slowdown in the first quarter, real economic activity would resume expansion at a moderate pace, and that labor market conditions would improve further.",
@@ -7245,7 +8165,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0906"
+  "id": "FLIP-1021"
  },
  {
   "text": "Reports from several Districts suggested that firms had greater scope than in the recent past to raise prices in response to strong demand or increases in input costs, including those associated with ",
@@ -7253,7 +8173,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_3",
-  "id": "FLIP-0907"
+  "id": "FLIP-1022"
  },
  {
   "text": "So that means a more prolonged shortfall of inflation.",
@@ -7261,7 +8181,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0908"
+  "id": "FLIP-1023"
  },
  {
   "text": "Inflation, in fact, is under control, and starting to come down.",
@@ -7269,7 +8189,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0909"
+  "id": "FLIP-1024"
  },
  {
   "text": "A soft labor market will keep a lid on the growth in the cost of employing workers.",
@@ -7277,7 +8197,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0910"
+  "id": "FLIP-1025"
  },
  {
   "text": "Moreover, the recent relatively low monthly readings on core inflation and modest wage pressures, at least by some measures, suggested that some slack remained in resource utilization.",
@@ -7285,7 +8205,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_3",
-  "id": "FLIP-0911"
+  "id": "FLIP-1026"
  },
  {
   "text": "Several participants reported that business contacts had expressed growing concerns about the increase in their input costs and that there were signs that an increasing number of firms were seeking to",
@@ -7293,7 +8213,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_3",
-  "id": "FLIP-0912"
+  "id": "FLIP-1027"
  },
  {
   "text": "The current global environment highlights the importance of having strong analytic and empirical foundations to understand financial stability considerations for monetary policy, and the research pres",
@@ -7301,7 +8221,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_3",
-  "id": "FLIP-0913"
+  "id": "FLIP-1028"
  },
  {
   "text": "Monetary policy clearly can do little about the first-round effects of a permanent rise in energy prices, which include both its direct impact on the energy component of overall consumer prices and th",
@@ -7309,7 +8229,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_3",
-  "id": "FLIP-0914"
+  "id": "FLIP-1029"
  },
  {
   "text": "Progress at Home and Abroad Over the past several quarters, we have seen improvement in inflation and activity both at home and abroad following a period when the drag on domestic activity from abroad",
@@ -7317,7 +8237,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0915"
+  "id": "FLIP-1030"
  },
  {
   "text": "To some, the continued subdued trend in wages was evidence of an absence of upward pressure on inflation from current levels of labor utilization.",
@@ -7325,7 +8245,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_3",
-  "id": "FLIP-0916"
+  "id": "FLIP-1031"
  },
  {
   "text": "As a policymaker, I can assure you that any model of inflation that did not take account of these effects, and how they might or might not affect ongoing rates of inflation, would have been of little ",
@@ -7333,7 +8253,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0917"
+  "id": "FLIP-1032"
  },
  {
   "text": "The fundamentals underlying capital spending continued to be supportive, as business sector output expanded briskly, firms remained flush with funds, and relative price declines for high-tech equipmen",
@@ -7341,7 +8261,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_3",
-  "id": "FLIP-0918"
+  "id": "FLIP-1033"
  },
  {
   "text": "The behavior of inflation had been unexpectedly benign for an extended period of time for reasons that were not fully understood.",
@@ -7349,7 +8269,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0919"
+  "id": "FLIP-1034"
  },
  {
   "text": "The staff's forecast for inflation was little changed from the projection prepared for the previous FOMC meeting.",
@@ -7357,7 +8277,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0920"
+  "id": "FLIP-1035"
  },
  {
   "text": "There are, however, some problems with this story as the principal explanation for the favorable inflation performance.",
@@ -7365,7 +8285,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0921"
+  "id": "FLIP-1036"
  },
  {
   "text": "Consumer price inflation continued to run below the Committee's longer-run objective of 2 percent, restrained in part by earlier decreases in energy prices and in prices of non-energy imports.",
@@ -7373,7 +8293,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_3",
-  "id": "FLIP-0922"
+  "id": "FLIP-1037"
  },
  {
   "text": "For example, given the starting point for the outlook, the forecasts will trace out a path for the economy to preserve or reestablish maximum employment and price stability that will reflect FOMC part",
@@ -7381,7 +8301,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0923"
+  "id": "FLIP-1038"
  },
  {
   "text": "On average, over the period from November 2020 to January 2021, the fraction of prime-age women with children aged 6 to 17 who were out of the labor force for caregiving had increased by 2.4 percentag",
@@ -7389,7 +8309,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_3",
-  "id": "FLIP-0924"
+  "id": "FLIP-1039"
  },
  {
   "text": "Nonetheless, the Committee will respond to changes in economic prospects as needed to fulfill its obligation to maintain price stability. \"",
@@ -7397,7 +8317,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0925"
+  "id": "FLIP-1040"
  },
  {
   "text": "Sub-par expansion over the next few quarters was expected to foster an appreciable further easing of pressures on resources and some moderation in core consumer price inflation.",
@@ -7405,7 +8325,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_3",
-  "id": "FLIP-0926"
+  "id": "FLIP-1041"
  },
  {
   "text": "In their comments about the external sector of the economy, members referred to indications of strengthening economic activity abroad that in conjunction with a weaker dollar was fostering some improv",
@@ -7413,7 +8333,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0927"
+  "id": "FLIP-1042"
  },
  {
   "text": "Real residential investment appeared to have declined again in the fourth quarter, likely reflecting in part decreases in the affordability of housing arising from both the net increase in mortgage in",
@@ -7421,7 +8341,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_3",
-  "id": "FLIP-0928"
+  "id": "FLIP-1043"
  },
  {
   "text": "Many noted that the slowdown could be a temporary aberration and that other labor market indicators--such as new claims for unemployment insurance, the rate of job openings, and readings on consumers'",
@@ -7429,7 +8349,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0929"
+  "id": "FLIP-1044"
  },
  {
   "text": "We include these types of price terms today in our forecasting equations, and they are important to forming our views of the inflation outlook and thus to the policy process.",
@@ -7437,7 +8357,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0930"
+  "id": "FLIP-1045"
  },
  {
   "text": "For inflation, we can use the 12-month change in core PCE prices, a measure of the current underlying rate of inflation.",
@@ -7445,7 +8365,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0931"
+  "id": "FLIP-1046"
  },
  {
   "text": "The average rate of growth of CRE loans at banks continued to be strong in October and November.",
@@ -7453,7 +8373,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_3",
-  "id": "FLIP-0932"
+  "id": "FLIP-1047"
  },
  {
   "text": "If the demand growth that caused the oil price increases is domestic, it could mean that the price shock might be less permanent.",
@@ -7461,7 +8381,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_3",
-  "id": "FLIP-0933"
+  "id": "FLIP-1048"
  },
  {
   "text": "First, policymakers should continuously update their estimates of the NAIRU and the output gap, using all available information, particularly the realizations of unemployment, output, and inflation.",
@@ -7469,7 +8389,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0934"
+  "id": "FLIP-1049"
  },
  {
   "text": "However, other participants observed that measures of longer-term inflation compensation derived from financial instruments had remained stable of late, and that survey-based measures of longer-term i",
@@ -7477,7 +8397,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0935"
+  "id": "FLIP-1050"
  },
  {
   "text": "Industrial production picked up in response to the advance in final demand and a slowdown in the runoff of excess inventory stocks.",
@@ -7485,7 +8405,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0936"
+  "id": "FLIP-1051"
  },
  {
   "text": "For asset purchases, the Committee declared that tapering would wait \"until substantial further progress has been made toward the Committee's maximum employment and price stability goals.",
@@ -7493,7 +8413,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_3",
-  "id": "FLIP-0937"
+  "id": "FLIP-1052"
  },
  {
   "text": "Indicators of longer-term inflation expectations were little changed, on balance.",
@@ -7501,7 +8421,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0938"
+  "id": "FLIP-1053"
  },
  {
   "text": "Under this interpretation, the lower line in the bottom panel of Figure 1 is an estimate of market inflation expectations over the next five years, and the upper line represents five-year forward expe",
@@ -7509,7 +8429,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0939"
+  "id": "FLIP-1054"
  },
  {
   "text": "With regard to the consensus in favor of moving from an assessment of risks weighted toward rising inflation to one that was weighted toward economic weakness, with no intermediate issuance of a balan",
@@ -7517,7 +8437,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_3",
-  "id": "FLIP-0940"
+  "id": "FLIP-1055"
  },
  {
   "text": "Participants' Views and Committee Policy ActionIn conjunction with this FOMC meeting, all meeting participants--the five members of the Board of Governors and the presidents of the 12 Federal Reserve ",
@@ -7525,7 +8445,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0941"
+  "id": "FLIP-1056"
  },
  {
   "text": "The reduced-form price equations we so often use for inflation prediction bypass direct contact with labor compensation issues.",
@@ -7533,7 +8453,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0942"
+  "id": "FLIP-1057"
  },
  {
   "text": "But the advent of the war has led to a significant hit to real incomes from large price increases in energy and other commodities in some of the most severely affected economies.",
@@ -7541,7 +8461,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_3",
-  "id": "FLIP-0943"
+  "id": "FLIP-1058"
  },
  {
   "text": "In these circumstances, any tendency for price pressures to mount was likely to emerge only gradually and to be reversible through a relatively limited policy adjustment.",
@@ -7549,7 +8469,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_3",
-  "id": "FLIP-0944"
+  "id": "FLIP-1059"
  },
  {
   "text": "This equation relates inflation to, among other factors, lagged inflation, resource utilization, and movements in the relative price of imports excluding energy, semiconductors, and computers.",
@@ -7557,7 +8477,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0945"
+  "id": "FLIP-1060"
  },
  {
   "text": "I guess I would also urge you to remember that when you look at the projections, that there are many factors that affect those projections, and changes in tax policy—that’s only one of a number of fac",
@@ -7565,7 +8485,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0946"
+  "id": "FLIP-1061"
  },
  {
   "text": "The economy continued to perform well into 2007, with solid growth through the third quarter and unemployment remaining near recent lows.",
@@ -7573,7 +8493,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_3",
-  "id": "FLIP-0947"
+  "id": "FLIP-1062"
  },
  {
   "text": "That means that we can run at low levels of unemployment and have a historically good—in some dimensions—labor market without having to worry about inflation.",
@@ -7581,7 +8501,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0948"
+  "id": "FLIP-1063"
  },
  {
   "text": "In the real world, there are two reasons why central bankers still prize credibility, even if it cannot be shown to reduce the costs of disinflation.",
@@ -7589,7 +8509,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_3",
-  "id": "FLIP-0949"
+  "id": "FLIP-1064"
  },
  {
   "text": "The effect of a productivity slowdown on employment growth is likewise ambiguous in the medium term.",
@@ -7597,7 +8517,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0950"
+  "id": "FLIP-1065"
  },
  {
   "text": "This outcome would be entirely consistent with the new framework the Federal Reserve unanimously adopted in August 2020 and began to implement at our September 2020 Federal Open Market Committee (FOMC",
@@ -7605,7 +8525,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0951"
+  "id": "FLIP-1066"
  },
  {
   "text": "Inflation-targeting regimes make sense only if the central bank has independent control of the instruments of monetary policy, as holding the central bank responsible for meeting its inflation target ",
@@ -7613,7 +8533,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0952"
+  "id": "FLIP-1067"
  },
  {
   "text": "On balance, most participants still expected inflation to moderate later this year and in 2009.",
@@ -7621,7 +8541,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0953"
+  "id": "FLIP-1068"
  },
  {
   "text": "Even with generous allowances for structural change, labor utilization would seem to be at a level that might eventually begin to put persistent and growing pressure on labor costs and prices.",
@@ -7629,7 +8549,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_3",
-  "id": "FLIP-0954"
+  "id": "FLIP-1069"
  },
  {
   "text": "Indeed, some expressed the concern that, with the persistence of considerable resource slack, inflation might run below mandate-consistent levels for some time.",
@@ -7637,7 +8557,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_3",
-  "id": "FLIP-0955"
+  "id": "FLIP-1070"
  },
  {
   "text": "Through this channel, the decline in inflation volatility should be reflected in a smaller inflation risk premium in nominal bond yields, which is exactly what is estimated in the Kim, Walsh, and Wei ",
@@ -7645,7 +8565,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0956"
+  "id": "FLIP-1071"
  },
  {
   "text": "Less uncertainty about future inflation could lower the risk premiums on nominal Treasury bonds, lowering the risk-free interest rate.",
@@ -7653,7 +8573,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_3",
-  "id": "FLIP-0957"
+  "id": "FLIP-1072"
  },
  {
   "text": "Their forecasts of consumer price inflation for the year, as measured by the PCE chain-type price index, were centered in a range of 1-1/4 to 1-1/2 percent, with a full range of 1-1/4 to 1-3/4 percent",
@@ -7661,7 +8581,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0958"
+  "id": "FLIP-1073"
  },
  {
   "text": "Most participants continued to see the risks to inflation as balanced.",
@@ -7669,7 +8589,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_3",
-  "id": "FLIP-0959"
+  "id": "FLIP-1074"
  },
  {
   "text": "The broad index of the foreign exchange value of the dollar rose nearly 3 percent over the intermeeting period amid the rise in U. S. interest rates, market expectations that U. S. tax reform was beco",
@@ -7677,7 +8597,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_4",
-  "id": "FLIP-0960"
+  "id": "FLIP-1075"
  },
  {
   "text": "The external sector was expected to exert a small restraining influence on economic activity over the projection period.",
@@ -7685,7 +8605,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_4",
-  "id": "FLIP-0961"
+  "id": "FLIP-1076"
  },
  {
   "text": "And obviously there are benefits from a strong economy to every household in the economy, including savers, from having a better job market and a more secure economy.",
@@ -7693,7 +8613,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_4",
-  "id": "FLIP-0962"
+  "id": "FLIP-1077"
  },
  {
   "text": "Although the unemployment rate has declined somewhat since the summer, it remains elevated.",
@@ -7701,7 +8621,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_4",
-  "id": "FLIP-0963"
+  "id": "FLIP-1078"
  },
  {
   "text": "Financing conditions in capital markets remained broadly accommodative, supported by low interest rates and high equity valuations.",
@@ -7709,7 +8629,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_4",
-  "id": "FLIP-0964"
+  "id": "FLIP-1079"
  },
  {
   "text": "Although not without some serious shortcomings, the published productivity data provide little encouragement to the view that there has been a significant improvement in underlying productivity growth",
@@ -7717,7 +8637,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_4",
-  "id": "FLIP-0965"
+  "id": "FLIP-1080"
  },
  {
   "text": "The information reviewed at this meeting indicated that economic activity had turned up in the final quarter of last year and strengthened further since then.",
@@ -7725,7 +8645,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_4",
-  "id": "FLIP-0966"
+  "id": "FLIP-1081"
  },
  {
   "text": "With inflation much higher than the federal funds rate, the real federal funds rate is negative, even after our rate increases this year.",
@@ -7733,7 +8653,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_4",
-  "id": "FLIP-0967"
+  "id": "FLIP-1082"
  },
  {
   "text": "Residential construction activity remained at a high level, evidently supported in part by recent declines in mortgage interest rates.",
@@ -7741,7 +8661,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_4",
-  "id": "FLIP-0968"
+  "id": "FLIP-1083"
  },
  {
   "text": "In the staff forecast prepared for this meeting, the economy was seen as likely to expand at a pace a little above that of its longer-run potential over this year and next, while hiring was expected t",
@@ -7749,7 +8669,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_4",
-  "id": "FLIP-0969"
+  "id": "FLIP-1084"
  },
  {
   "text": "The changes to the policy statement that we made over the fall bring our policy guidance in line with the new framework outlined in the revised Statement on Longer-Run Goals and Monetary Policy Strate",
@@ -7757,7 +8677,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_4",
-  "id": "FLIP-0970"
+  "id": "FLIP-1085"
  },
  {
   "text": "The Phillips curve has become, according to most estimates, quite flat in the sense that movements in unemployment have only a modest impact on inflation, so we shouldn’t overblow how large that is.",
@@ -7765,7 +8685,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_4",
-  "id": "FLIP-0971"
+  "id": "FLIP-1086"
  },
  {
   "text": "Financial conditions affecting emerging market economies continued to improve for a time after the Committee eased monetary policy at its November 17 meeting, but that trend was subsequently reversed ",
@@ -7773,7 +8693,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_4",
-  "id": "FLIP-0972"
+  "id": "FLIP-1087"
  },
  {
   "text": "Recent data suggested that growth of household spending had picked up, while business fixed investment had continued to grow strongly.",
@@ -7781,7 +8701,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_4",
-  "id": "FLIP-0973"
+  "id": "FLIP-1088"
  },
  {
   "text": "For example, core CPI (consumer price inflation) prices fell 0.4 percent in April, the largest monthly decrease since the beginning of the series in 1957.",
@@ -7789,7 +8709,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_4",
-  "id": "FLIP-0974"
+  "id": "FLIP-1089"
  },
  {
   "text": "The staff forecast for total PCE price inflation in 2018 was revised up slightly, mainly because of a faster-than-expected increase in consumer energy prices in the second half.",
@@ -7797,7 +8717,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_4",
-  "id": "FLIP-0975"
+  "id": "FLIP-1090"
  },
  {
   "text": "Members again mentioned concerns on the part of business contacts regarding the adverse economic implications of very large deficits for the economy over the longer term.",
@@ -7805,7 +8725,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_4",
-  "id": "FLIP-0976"
+  "id": "FLIP-1091"
  },
  {
   "text": "A main reason I expect this outcome is simply the fact that the very low inflation readings during last spring's deep economic contraction will drop from the usual calculation of 12-month price change",
@@ -7813,7 +8733,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_4",
-  "id": "FLIP-0977"
+  "id": "FLIP-1092"
  },
  {
   "text": "I would say, in the area of commercial real estate, while valuations are high, we are seeing some tightening of lending standards and less debt growth associated with that rise in commercial real esta",
@@ -7821,7 +8741,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_4",
-  "id": "FLIP-0978"
+  "id": "FLIP-1093"
  },
  {
   "text": "The recent decline in mortgage rates had sparked some refinancing and purchase activity, but the extent of the longer-term impact of lower rates on housing demand remained uncertain.",
@@ -7829,7 +8749,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_4",
-  "id": "FLIP-0979"
+  "id": "FLIP-1094"
  },
  {
   "text": "Productivity accelerated.",
@@ -7837,7 +8757,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_4",
-  "id": "FLIP-0980"
+  "id": "FLIP-1095"
  },
  {
   "text": "With regard to the federal sector, spending related to last year’s hurricanes appeared likely to abate, and federal expenditures overall would probably be providing less impetus to aggregate demand go",
@@ -7845,7 +8765,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_4",
-  "id": "FLIP-0981"
+  "id": "FLIP-1096"
  },
  {
   "text": "Nonetheless, with rising productivity and moderate wage gains likely continuing to help hold down unit labor costs, the outlook for subdued inflation remained promising, especially for the nearer term",
@@ -7853,7 +8773,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_4",
-  "id": "FLIP-0982"
+  "id": "FLIP-1097"
  },
  {
   "text": "If the FOMC were to tie mechanically our actions to market prices, then we would be placed in the sorry position of validating whatever whim that currently struck investors' fancy.",
@@ -7861,7 +8781,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_4",
-  "id": "FLIP-0983"
+  "id": "FLIP-1098"
  },
  {
   "text": "the recent increase in crude oil and gasoline prices would push up inflation temporarily.",
@@ -7869,7 +8789,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_4",
-  "id": "FLIP-0984"
+  "id": "FLIP-1099"
  },
  {
   "text": "in turn, larger expected productivity advances and a lower cost of equity capital provided a further stimulus to investment.",
@@ -7877,7 +8797,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_4",
-  "id": "FLIP-0985"
+  "id": "FLIP-1100"
  },
  {
   "text": "growth in the far larger part of the services economy, which has led to low unemployment, good job creation, rising wages, that’s kind of the two big pieces of it that you see.",
@@ -7885,7 +8805,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_4",
-  "id": "FLIP-0986"
+  "id": "FLIP-1101"
  },
  {
   "text": "in particular, core PCE price inflation had been quite stable on a twelve-month basis for some time.",
@@ -7893,7 +8813,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_4",
-  "id": "FLIP-0987"
+  "id": "FLIP-1102"
  },
  {
   "text": "Net exports subtracted more than 1/2 percentage point from GDP growth in both 2014 and 2015,",
@@ -7901,7 +8821,7 @@
   "abel_answer": "",
   "ground_truth": "neutral",
   "batch": "cb_batch_4",
-  "id": "FLIP-0988"
+  "id": "FLIP-1103"
  },
  {
   "text": "both domestic demand and exports made significant contributions to this growth confirming the sustained and broadbased nature of the current expansion",
@@ -7909,7 +8829,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_4",
-  "id": "FLIP-0989"
+  "id": "FLIP-1104"
  },
  {
   "text": "moreover the declines in consumer price inflation observed in the second half of 2001 and expected over the course of 2002 will support higher growth in real disposable income which in turn should und",
@@ -7917,7 +8837,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-0990"
+  "id": "FLIP-1105"
  },
  {
   "text": "research suggests that deeper equity markets are more effective in bringing economies closer to the technological frontier as well as in greening the local economy",
@@ -7925,7 +8845,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-0991"
+  "id": "FLIP-1106"
  },
  {
   "text": "first several emerging economies  china in particular  have integrated in the global economy to an unprecedented degree",
@@ -7933,7 +8853,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-0992"
+  "id": "FLIP-1107"
  },
  {
   "text": "progress in the euro area recovery has been mostly homegrown with a virtuous cycle increasingly taking hold between rising income and spending in both the corporate and the household sector",
@@ -7941,7 +8861,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-0993"
+  "id": "FLIP-1108"
  },
  {
   "text": "looking forward i believe that greater standardisation of abs products is a key goal to stimulate greater market activity",
@@ -7949,7 +8869,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-0994"
+  "id": "FLIP-1109"
  },
  {
   "text": "this notwithstanding currently available forecasts both by international organisations and private institutions expect that economic growth in the euro area will supported by domestic demand be broadl",
@@ -7957,7 +8877,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-0995"
+  "id": "FLIP-1110"
  },
  {
   "text": "the scope of international cooperation is broadening significantly as our economies become increasingly connected",
@@ -7965,7 +8885,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-0996"
+  "id": "FLIP-1111"
  },
  {
   "text": "at the same time private sector domestic demand should increasingly contribute to economic growth benefiting from the accommodative monetary policy stance and the measures adopted to improve the funct",
@@ -7973,7 +8893,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-0997"
+  "id": "FLIP-1112"
  },
  {
   "text": "given that greater efficiency stimulates the demand for both funds and financial services this should also result in financial markets increasing in size",
@@ -7981,7 +8901,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-0998"
+  "id": "FLIP-1113"
  },
  {
   "text": "the us have traditionally been characterised by a very high degree of income and consumption smoothing across states that has only been increasing over time",
@@ -7989,7 +8909,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-0999"
+  "id": "FLIP-1114"
  },
  {
   "text": "these initiatives also involving exchanges located in noneuro area countries notably the united kingdom and the united states reflect increasing financial market integration as well as technological f",
@@ -7997,7 +8917,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1000"
+  "id": "FLIP-1115"
  },
  {
   "text": "over a period of a few years financial markets in the euro area have grown in size and have come to play a more important role in the economy",
@@ -8005,7 +8925,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1001"
+  "id": "FLIP-1116"
  },
  {
   "text": "this in due time will contribute to the smooth functioning of the financing of the euro area economy as savings are likely to be channelled more efficiently and swiftly through the economy",
@@ -8013,7 +8933,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1002"
+  "id": "FLIP-1117"
  },
  {
   "text": "as the us experience has shown a more integrated market on the funding side will also help to promote the standardisation of the market for underlying mortgage products",
@@ -8021,7 +8941,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1003"
+  "id": "FLIP-1118"
  },
  {
   "text": "above i have also given various examples of the important role the imf has played in enhancing statistics for the international financial system at the worldwide level",
@@ -8029,7 +8949,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1004"
+  "id": "FLIP-1119"
  },
  {
   "text": "the structure of the euro area financial system with the dominant role played by the banking system in the financing of the economy implies that the transmission of the ecbs policy rates to the euro a",
@@ -8037,7 +8957,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1005"
+  "id": "FLIP-1120"
  },
  {
   "text": "all of the financial infrastructures represented around the table today are at the forefront of providing safe and innovative solutions to the european market",
@@ -8045,7 +8965,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1006"
+  "id": "FLIP-1121"
  },
  {
   "text": "increasing the flexibility of labour markets and deregulating product markets will enhance the growth potential of the euro area by allowing for a better exploitation of the opportunities which are of",
@@ -8053,7 +8973,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1007"
+  "id": "FLIP-1122"
  },
  {
   "text": "good prospects for households income from the stabilisation in the labour markets the sentiment in the survey data finds its support in a number of encouraging developments both in the household and i",
@@ -8061,7 +8981,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1008"
+  "id": "FLIP-1123"
  },
  {
   "text": "over the last decade these countries have experienced remarkable transformations in their financial sectors",
@@ -8069,7 +8989,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1009"
+  "id": "FLIP-1124"
  },
  {
   "text": "similarly a higher usage of electronic retail payment instruments seems to stimulate banking business",
@@ -8077,7 +8997,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1010"
+  "id": "FLIP-1125"
  },
  {
   "text": "todays information and communication technologies have opened up a vast field of research into the role of narratives as determinants of economic developments",
@@ -8085,7 +9005,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1011"
+  "id": "FLIP-1126"
  },
  {
   "text": "the principle of decentralisation introduces a national anchoring that creates closeness to the local financial communities and the local general public",
@@ -8093,7 +9013,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1012"
+  "id": "FLIP-1127"
  },
  {
   "text": "taken together our measures have led to a significant and broadbased easing in financing conditions for euro area firms and households which bolsters consumption and investment expenditure",
@@ -8101,7 +9021,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1013"
+  "id": "FLIP-1128"
  },
  {
   "text": "the private sector naturally also plays a key role in the development of integrated financial markets",
@@ -8109,7 +9029,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1014"
+  "id": "FLIP-1129"
  },
  {
   "text": "moreover in relation to structural forces the pandemic may also have accelerated the digitalisation of the world economy which could operate as an antiinflationary force by increasing national and int",
@@ -8117,7 +9037,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1015"
+  "id": "FLIP-1130"
  },
  {
   "text": "in view of these effects it is altogether natural that the ecb has started to follow with great interest economic and financial developments in the wider europe particularly in those countries which h",
@@ -8125,7 +9045,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1016"
+  "id": "FLIP-1131"
  },
  {
   "text": "deeper and more efficient capital markets with equity playing a greater role can be instrumental in encouraging the more rapid development and adoption of new technologies including green technologies",
@@ -8133,7 +9053,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1017"
+  "id": "FLIP-1132"
  },
  {
   "text": "financial intermediation and smes in the euro area banks have historically played an important role in financing the real economy",
@@ -8141,7 +9061,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1018"
+  "id": "FLIP-1133"
  },
  {
   "text": "supported by the dynamism of the real estate market the peripheral economies grew rapidly",
@@ -8149,7 +9069,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1019"
+  "id": "FLIP-1134"
  },
  {
   "text": "it has also established over time close relationships with the rest of the banking and financial system both at home and in the international sphere",
@@ -8157,7 +9077,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1020"
+  "id": "FLIP-1135"
  },
  {
   "text": "the convergence of the financial structures of these economies with those of western europe has also been significant",
@@ -8165,7 +9085,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1021"
+  "id": "FLIP-1136"
  },
  {
   "text": "financial globalisation involves the increasing integration of financial markets and the growing presence of crossborder financial institutions",
@@ -8173,7 +9093,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1022"
+  "id": "FLIP-1137"
  },
  {
   "text": "a landscape of cooperation and competition among national treasuries is developing this will eventually be reflected in more efficient and integrated euro government bond markets",
@@ -8181,7 +9101,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1023"
+  "id": "FLIP-1138"
  },
  {
   "text": "i agree with you i have seen the study by the bundesbank and other studies that the application of new information and communication technologies is proceeding at a very rapid pace also in europe and ",
@@ -8189,7 +9109,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1024"
+  "id": "FLIP-1139"
  },
  {
   "text": "the economic policies implemented in these two areas act as a reference for the world economy",
@@ -8197,7 +9117,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1025"
+  "id": "FLIP-1140"
  },
  {
   "text": "they suggest that the agglomeration of production factors by generating an environment that creates positive externalities the presence of competitors and informal links with complementary businesses ",
@@ -8205,7 +9125,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1026"
+  "id": "FLIP-1141"
  },
  {
   "text": "credit aggregates especially credit to the private sector are also growing rapidly at an annual rate of above 10",
@@ -8213,7 +9133,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1027"
+  "id": "FLIP-1142"
  },
  {
   "text": "consequently after the recent enlargement the european union has become a more heterogeneous region in terms of economic development",
@@ -8221,7 +9141,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1028"
+  "id": "FLIP-1143"
  },
  {
   "text": "by diversifying the financing sources of the real economy the nonbank financial sector plays an important role in financial intermediation",
@@ -8229,7 +9149,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1029"
+  "id": "FLIP-1144"
  },
  {
   "text": "29   housing credit has been growing in importance for banks in many jurisdictions over the past decades",
@@ -8237,7 +9157,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1030"
+  "id": "FLIP-1145"
  },
  {
   "text": "this includes sovereignty over monetary and exchange rate policies as i have already mentioned but the framework for microeconomic policies has now to a large extent also been centralised in the area ",
@@ -8245,7 +9165,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1031"
+  "id": "FLIP-1146"
  },
  {
   "text": "in addition retail payment systems and instruments are significant contributors to the effectiveness of the financial system in particular to consumer confidence and the functioning of commerce",
@@ -8253,7 +9173,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1032"
+  "id": "FLIP-1147"
  },
  {
   "text": "ecb research has long shown that stock markets are more effective than banks in supporting the decarbonisation of the economy",
@@ -8261,7 +9181,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1033"
+  "id": "FLIP-1148"
  },
  {
   "text": "financial deepening in the region has been extremely rapid",
@@ -8269,7 +9189,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1034"
+  "id": "FLIP-1149"
  },
  {
   "text": "the role of the european banking sector  the introduction of the euro will also underpin the reshaping of the european banking sector",
@@ -8277,7 +9197,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1035"
+  "id": "FLIP-1150"
  },
  {
   "text": "furthermore the participation of european firms in global value chains is substantial even excluding intraeuro area trade foreign value added as a percentage of gross exports amounts to as much as a f",
@@ -8285,7 +9205,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1036"
+  "id": "FLIP-1151"
  },
  {
   "text": "as its economic importance has grown china has taken on a larger role in global institutions",
@@ -8293,7 +9213,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1037"
+  "id": "FLIP-1152"
  },
  {
   "text": "the drive for increased efficiency saw global value chains blossoming alongside a rising tide of trade with production becoming increasingly unbundled across borders",
@@ -8301,7 +9221,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1038"
+  "id": "FLIP-1153"
  },
  {
   "text": "the epc is well positioned to continue contributing to the work of the sepa council representing the european banking sector for retail payments",
@@ -8309,7 +9229,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1039"
+  "id": "FLIP-1154"
  },
  {
   "text": "during the past few years  as has been rather obvious  these changes have included the discussion about a new economy and driven by the interrelated processes of financial liberalisation and financial",
@@ -8317,7 +9237,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1040"
+  "id": "FLIP-1155"
  },
  {
   "text": "and such enterprises play an important role in europes economy 997 of all european enterprises fall into this category",
@@ -8325,7 +9245,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1041"
+  "id": "FLIP-1156"
  },
  {
   "text": "the ecbs directorate general statistics has made an effort to contribute to the development of european economic and financial statistics",
@@ -8333,7 +9253,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1042"
+  "id": "FLIP-1157"
  },
  {
   "text": "this restructuring process in both the financial sector and the real economies is well advanced and a new phase of financial and economic development is now under way in all accession countries",
@@ -8341,7 +9261,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1043"
+  "id": "FLIP-1158"
  },
  {
   "text": "first capital markets are particularly wellsuited to direct financing towards futureoriented sectors like green and digital",
@@ -8349,7 +9269,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1044"
+  "id": "FLIP-1159"
  },
  {
   "text": "the single currency has enhanced our ability to take advantage of the single market and trade and capital ties between euro area countries have grown significantly",
@@ -8357,7 +9277,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1045"
+  "id": "FLIP-1160"
  },
  {
   "text": "second i will briefly review the increasing economic and financial relations between europe and emerging asia especially china the contribution of these relations to growth in both regions and their i",
@@ -8365,7 +9285,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1046"
+  "id": "FLIP-1161"
  },
  {
   "text": "and with their increasing market share these companies could help diversify the sources of credit to the economy thus fostering investment and growth",
@@ -8373,7 +9293,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1047"
+  "id": "FLIP-1162"
  },
  {
   "text": "nonbank financial intermediaries in the euro area have grown rapidly over recent years which is a welcome development",
@@ -8381,7 +9301,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1048"
+  "id": "FLIP-1163"
  },
  {
   "text": "improving skills provides a way to do this because on the one hand it increases economic efficiency it creates new job opportunities and on the other hand it makes the economy more equitable by allowi",
@@ -8389,7 +9309,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1049"
+  "id": "FLIP-1164"
  },
  {
   "text": "our ongoing engagement with these stakeholders reveals that many of them expect dlt to experience a significant uptake in the financial industry",
@@ -8397,7 +9317,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1050"
+  "id": "FLIP-1165"
  },
  {
   "text": "as to the former we see that the process of globalisation has gradually extended international policy cooperation over all these three central banking functions",
@@ -8405,7 +9325,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1051"
+  "id": "FLIP-1166"
  },
  {
   "text": "real output per capita has grown at a similar pace in the euro area than in the united states which  in terms of economic dynamism  remains the benchmark for the advanced countries",
@@ -8413,7 +9333,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1052"
+  "id": "FLIP-1167"
  },
  {
   "text": "in fact the power of transmission through the banking system has been rising through the life of our programme",
@@ -8421,7 +9341,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1053"
+  "id": "FLIP-1168"
  },
  {
   "text": "it appears that the structural characteristics of the bestperforming industrialised economies namely more flexible labour markets greater competition in product markets and lower barriers to entry for",
@@ -8429,7 +9349,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1054"
+  "id": "FLIP-1169"
  },
  {
   "text": "the expectation of further export growth in the period ahead finds support in the recently improved assessment of export order books by manufacturing firms",
@@ -8437,7 +9357,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1055"
+  "id": "FLIP-1170"
  },
  {
   "text": "within the single market the united kingdom has also been a major hub for wholesale banking activities",
@@ -8445,7 +9365,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1056"
+  "id": "FLIP-1171"
  },
  {
   "text": "efforts to complete the single market for example would incentivise more firms to invest and grow as they have a larger market to serve and exploit economies of scale",
@@ -8453,7 +9373,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1057"
+  "id": "FLIP-1172"
  },
  {
   "text": "furthermore we learned that the financial sector a principal user of information and communications technologies was the main source of the greater dynamism in the united states",
@@ -8461,7 +9381,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1058"
+  "id": "FLIP-1173"
  },
  {
   "text": "this indicates that european companies increasingly perceive russia as a large market for eu goods and services made increasingly attractive by the strong growth of the last five years",
@@ -8469,7 +9389,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1059"
+  "id": "FLIP-1174"
  },
  {
   "text": "while the origination of bank loans remains to a large extent level financial globalisation has made the related securities available to investors worldwide",
@@ -8477,7 +9397,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1060"
+  "id": "FLIP-1175"
  },
  {
   "text": "imf conditionality in the form of adjustment programmes should in conjunction with imf financing be instrumental in improving the external position of member countries and quickly restoring market con",
@@ -8485,7 +9405,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1061"
+  "id": "FLIP-1176"
  },
  {
   "text": "as already mentioned above emu is set to propel the eu economy into a role of systemic importance",
@@ -8493,7 +9413,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1062"
+  "id": "FLIP-1177"
  },
  {
   "text": "united states  turning to the united states labour product and capital markets have reached a high degree of flexibility",
@@ -8501,7 +9421,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1063"
+  "id": "FLIP-1178"
  },
  {
   "text": "the increasing breadth and sophistication of financial markets in turn have been conducive to economic growth for the reasons i outlined above",
@@ -8509,7 +9429,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1064"
+  "id": "FLIP-1179"
  },
  {
   "text": "for sure big data have also provided plenty of opportunities to deepen our understanding of behavioural economics and how psychology can drive macroeconomic developments",
@@ -8517,7 +9437,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1065"
+  "id": "FLIP-1180"
  },
  {
   "text": "the higher the demand for official statistics for a global economy the more important international statistical standards become",
@@ -8525,7 +9445,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1066"
+  "id": "FLIP-1181"
  },
  {
   "text": "it also holds true because the euro has become the currency of an economic area which roughly equals the united states in terms of economic size and external trade and which has the worlds second larg",
@@ -8533,7 +9453,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1067"
+  "id": "FLIP-1182"
  },
  {
   "text": "during this period the international community has learnt critical lessons and has launched profound adjustments to what has been termed the international financial architecture that is the network of",
@@ -8541,7 +9461,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1068"
+  "id": "FLIP-1183"
  },
  {
   "text": "for instance there is evidence that hong kong is striving to become a regional financial centre offering payment facilities in various currencies including the euro in its time zone",
@@ -8549,7 +9469,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1069"
+  "id": "FLIP-1184"
  },
  {
   "text": "in shanghai i have seen chinas largest centre for business and finance one of the worlds most active ports a city which is developing at an impressive speed and is experiencing urban regeneration on a",
@@ -8557,7 +9477,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1070"
+  "id": "FLIP-1185"
  },
  {
   "text": "in particular financial globalisation has advanced rapidly due to a surge of capital flows between industrialised countries and between industrialised and developing countries",
@@ -8565,7 +9485,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1071"
+  "id": "FLIP-1186"
  },
  {
   "text": "private banking union the private banking union in the us is created by its integrated financial market which includes both the banking sector and capital markets",
@@ -8573,7 +9493,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1072"
+  "id": "FLIP-1187"
  },
  {
   "text": "in such a flexible economic environment policy actions will be more efficient and feed through the economy more quickly",
@@ -8581,7 +9501,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1073"
+  "id": "FLIP-1188"
  },
  {
   "text": "for the euro area countries the change in their economic environment has been particularly marked over the last decade while being increasingly integrated into the global economy they are part of the ",
@@ -8589,7 +9509,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1074"
+  "id": "FLIP-1189"
  },
  {
   "text": "this database together with others developed under the leadership of the groningen growth and development centre provides extremely valuable information for assessing structural trends in real output ",
@@ -8597,7 +9517,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1075"
+  "id": "FLIP-1190"
  },
  {
   "text": "this more even credit pricing across countries and firms has in turn been crucial to the broadening of the economic and employment recovery not least because smes represent 60 of euro area value added",
@@ -8605,7 +9525,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1076"
+  "id": "FLIP-1191"
  },
  {
   "text": "accordingly this sector has become an important source of funding for the real economy with its share of overall credit to nonfinancial corporations growing from about 15 to 30",
@@ -8613,7 +9533,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_5",
-  "id": "FLIP-1077"
+  "id": "FLIP-1192"
  },
  {
   "text": "in the eu context the financial structure has seen a remarkable transformation and elements such as the provision of risk capital and the strengthening of marketbased elements have become more importa",
@@ -8621,7 +9541,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1078"
+  "id": "FLIP-1193"
  },
  {
   "text": "one of the main features of globalisation has been the entrance of new players into world markets",
@@ -8629,7 +9549,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1079"
+  "id": "FLIP-1194"
  },
  {
   "text": "there are approximately 22000 financial entities in the eu8 and digitalisation has deepened the linkages between them and with thirdparty infrastructure and service providers",
@@ -8637,7 +9557,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1080"
+  "id": "FLIP-1195"
  },
  {
   "text": "across the region the domestic demand booms were mainly financed by euro area banks through funding of their local subsidiaries and direct crossborder lending",
@@ -8645,7 +9565,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1081"
+  "id": "FLIP-1196"
  },
  {
   "text": "apart from this ongoing integration and globalisation world financial markets have also recently experienced increased securitisation",
@@ -8653,7 +9573,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1082"
+  "id": "FLIP-1197"
  },
  {
   "text": "for instance size and liquidity effects lead to the emergence of new financial market segments denominated in the international currency",
@@ -8661,7 +9581,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1083"
+  "id": "FLIP-1198"
  },
  {
   "text": "in addition the eurosystem began successfully operating the euro area payment system target which ensures the smooth settlement of crossborder payments in the euro area and as such has contributed sub",
@@ -8669,7 +9589,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1084"
+  "id": "FLIP-1199"
  },
  {
   "text": "the rise of the emerging economies will also be reflected in the reforms of the international financial institutions",
@@ -8677,7 +9597,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1085"
+  "id": "FLIP-1200"
  },
  {
   "text": "plans submitted to the ecb indicate that this can be expected to result in a substantial relocation of activity to the euro area in the order of over 1 trillion in bank assets and that at least in the",
@@ -8685,7 +9605,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1086"
+  "id": "FLIP-1201"
  },
  {
   "text": "in the same period nonbank finance has become an important source of funding for the real economy its share of credit to nonfinancial corporations has increased from about 15 to 30 chart 2",
@@ -8693,7 +9613,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1087"
+  "id": "FLIP-1202"
  },
  {
   "text": "and the counterpart of debt  credit  facilitates the productive investment through which market economies grow over time in turn increasing transactions and demand for money",
@@ -8701,7 +9621,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1088"
+  "id": "FLIP-1203"
  },
  {
   "text": "fourth the process of globalisation that we have experienced in recent decades has been driven by an increase in global trade following the integration of emerging market economies into the world econ",
@@ -8709,7 +9629,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1089"
+  "id": "FLIP-1204"
  },
  {
   "text": "financial innovation refers both to technological advances which facilitate access to information trading and means of payment and to the emergence of new financial instruments and services new forms ",
@@ -8717,7 +9637,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1090"
+  "id": "FLIP-1205"
  },
  {
   "text": "banks taking part in our tltros saw a considerable increase in their credit growth with loans rising by over 400 billion in the year up to september",
@@ -8725,7 +9645,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1091"
+  "id": "FLIP-1206"
  },
  {
   "text": "monetary policy can stimulate demand and investment and as this creates productive capacity a link is established with the supplyside and the longterm",
@@ -8733,7 +9653,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1092"
+  "id": "FLIP-1207"
  },
  {
   "text": "however in the emerging knowledgebased society the interactions between price stability and economic prosperity become tighter",
@@ -8741,7 +9661,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1093"
+  "id": "FLIP-1208"
  },
  {
   "text": "indeed the globalisation of financial markets and institutions which was fostered by financial innovation and technological advances has played a key role in shaping the overall environment and influe",
@@ -8749,7 +9669,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1094"
+  "id": "FLIP-1209"
  },
  {
   "text": "indeed the economic motivation for the creation of the euro was closely intertwined with the broader project to develop close economic and financial ties among the member countries",
@@ -8757,7 +9677,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1095"
+  "id": "FLIP-1210"
  },
  {
   "text": "of course other noneurorelated factors such as enhanced international mobility of financial flows technological innovation and globalisation also explain the recent developments towards more integrati",
@@ -8765,7 +9685,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1096"
+  "id": "FLIP-1211"
  },
  {
   "text": "second we provide central banking services that are conducive to financial integration most prominently by operating europes leading largevalue crossborder payment system target",
@@ -8773,7 +9693,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1097"
+  "id": "FLIP-1212"
  },
  {
   "text": "the second and perhaps more important consideration is that the developments in the second half of the century in both areas globalisation and europeanisation can be seen as a process whereby domestic",
@@ -8781,7 +9701,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1098"
+  "id": "FLIP-1213"
  },
  {
   "text": "89  first through enhanced trade linkages and higher crossborder knowledge flows economic globalisation may contribute to greater similarity in productivity dynamics across countries",
@@ -8789,7 +9709,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1099"
+  "id": "FLIP-1214"
  },
  {
   "text": "the asiapacific region is becoming a larger player in the global economy which has an impact on the rules of the game",
@@ -8797,7 +9717,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1100"
+  "id": "FLIP-1215"
  },
  {
   "text": "closer cooperation among policymakers and regulators the setting of common rules and the promotion of consistent practices merely help to provide the necessary framework for the proper functioning of ",
@@ -8805,7 +9725,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1101"
+  "id": "FLIP-1216"
  },
  {
   "text": "effectively the share of foreign branches in banks total assets has increased continuously to reach around 10 of the market for the majority of eu countries",
@@ -8813,7 +9733,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1102"
+  "id": "FLIP-1217"
  },
  {
   "text": "the german economy has often been thought of as the engine of the european economy",
@@ -8821,7 +9741,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1103"
+  "id": "FLIP-1218"
  },
  {
   "text": "this comprehensive range of measures has worked its way through the financial system leading to a significant easing of financing conditions for consumers and firms",
@@ -8829,7 +9749,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1104"
+  "id": "FLIP-1219"
  },
  {
   "text": "furthermore they have also had a clear impact on global markets prompting further integration of international financial markets",
@@ -8837,7 +9757,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1105"
+  "id": "FLIP-1220"
  },
  {
   "text": "in most industrialised nations on the waves of financial liberalisation and globalisation capital markets have been growing tremendously over the past two decades both in terms of volume and value of ",
@@ -8845,7 +9765,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1106"
+  "id": "FLIP-1221"
  },
  {
   "text": "the development of crossborder investment strategies has been favoured by the euro areawide and paneuropean market indices",
@@ -8853,7 +9773,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1107"
+  "id": "FLIP-1222"
  },
  {
   "text": "in this context relevant factors are the weight of the euro area in the global economy and the size of its foreign trade and financial linkages since increasing economies of scale will play an importa",
@@ -8861,7 +9781,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1108"
+  "id": "FLIP-1223"
  },
  {
   "text": "the degree of integration of international financial markets has significantly accelerated in recent decades particularly since the second half of the 1990s",
@@ -8869,7 +9789,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1109"
+  "id": "FLIP-1224"
  },
  {
   "text": "why a macroprudential approach to nbfi matters from a central banking perspective the nonbank financial sector has grown considerably in size over the past decade and it has become increasingly releva",
@@ -8877,7 +9797,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1110"
+  "id": "FLIP-1225"
  },
  {
   "text": "the degree of synchronisation of business cycles across euro area countries has grown since the 1990s and remains high",
@@ -8885,7 +9805,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1111"
+  "id": "FLIP-1226"
  },
  {
   "text": "in its provision of safe and efficient financial market infrastructure services the eurosystem plays an integral role in strengthening the international role of the euro",
@@ -8893,7 +9813,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1112"
+  "id": "FLIP-1227"
  },
  {
   "text": "it is therefore not surprising that the crisis has led to an even better recognition of their increased economic importance and to a better integration in global governance",
@@ -8901,7 +9821,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1113"
+  "id": "FLIP-1228"
  },
  {
   "text": "in the early years of this century many emerging economies expanded at a rapid pace",
@@ -8909,7 +9829,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1114"
+  "id": "FLIP-1229"
  },
  {
   "text": "capital flows channelled through the banking sector have been fostering rapid domestic credit growth in almost all countries",
@@ -8917,7 +9837,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1115"
+  "id": "FLIP-1230"
  },
  {
   "text": "credit to the private sector also continued to expand rapidly during september 1999 at a rate in excess of 10",
@@ -8925,7 +9845,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1116"
+  "id": "FLIP-1231"
  },
  {
   "text": "banks operate internationally and financial flows have become global in character",
@@ -8933,7 +9853,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1117"
+  "id": "FLIP-1232"
  },
  {
   "text": "the crossborder provision of financial services has also increased substantially",
@@ -8941,7 +9861,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1118"
+  "id": "FLIP-1233"
  },
  {
   "text": "this area constitutes an economic region that roughly equals the united states in terms of both its economic strength and its degree of macroeconomic openness",
@@ -8949,7 +9869,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1119"
+  "id": "FLIP-1234"
  },
  {
   "text": "the upcoming review of imf surveillance is well timed to support a resilient global economic system during and after the recovery phase",
@@ -8957,7 +9877,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1120"
+  "id": "FLIP-1235"
  },
  {
   "text": "3 as this interdependence within the euro area becomes stronger the euro area is also becoming a more open economy",
@@ -8965,7 +9885,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1121"
+  "id": "FLIP-1236"
  },
  {
   "text": "trade in intermediate goods and services as a result of the rising internationalisation of production processes has been a growing driver in this regard",
@@ -8973,7 +9893,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1122"
+  "id": "FLIP-1237"
  },
  {
   "text": "moreover given the prominent role of euro area banks in the banking sector of this region the establishment of the ssm will further intensify our institutional relations",
@@ -8981,7 +9901,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1123"
+  "id": "FLIP-1238"
  },
  {
   "text": "the internationalisation of economic life is reflected in the sharp enlargement of crossborder activities in the goods and capital markets globally",
@@ -8989,7 +9909,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1124"
+  "id": "FLIP-1239"
  },
  {
   "text": "nevertheless internationalisation is also progressing in this area the business with customers located in other euro area countries is growing faster than the domestic business in respect of all major",
@@ -8997,7 +9917,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1125"
+  "id": "FLIP-1240"
  },
  {
   "text": "recently some new initiatives have been instigated in this respect and it is expected that market forces will bring about further developments in the near future",
@@ -9005,7 +9925,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1126"
+  "id": "FLIP-1241"
  },
  {
   "text": "securitisation globalisation and integration of the financial markets have strengthened and will continue to strengthen the role of asset prices and that of financial asset prices in particular",
@@ -9013,7 +9933,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1127"
+  "id": "FLIP-1242"
  },
  {
   "text": "in general the benefits of size and hence the incentive to make large investments basically arise from developments in information technology and from the internationalisation of the interbank and cap",
@@ -9021,7 +9941,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1128"
+  "id": "FLIP-1243"
  },
  {
   "text": "of course greater economic integration in europe has been accompanied by greater institutional cooperation",
@@ -9029,7 +9949,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1129"
+  "id": "FLIP-1244"
  },
  {
   "text": "over the past few years these monetary frameworks have been put to test by large capital inflows driving rapid credit growth and domestic demand in the region",
@@ -9037,7 +9957,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1130"
+  "id": "FLIP-1245"
  },
  {
   "text": "it also involves the pursuit of synergies among the several eu public policies applicable to the financial sector notably financial services consumer and competition policies",
@@ -9045,7 +9965,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1131"
+  "id": "FLIP-1246"
  },
  {
   "text": "in particular the increase in the net external asset position of the banking sector has supported domestic broad money growth in recent months",
@@ -9053,7 +9973,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1132"
+  "id": "FLIP-1247"
  },
  {
   "text": "the integration of emerging economies into global markets of goods and services has been similarly swift",
@@ -9061,7 +9981,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1133"
+  "id": "FLIP-1248"
  },
  {
   "text": "47 in any case economic interdependence will increase as the international orientation of the economy augments",
@@ -9069,7 +9989,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1134"
+  "id": "FLIP-1249"
  },
  {
   "text": "over the last 15 years the financial sector has grown significantly faster than other parts of the economy",
@@ -9077,7 +9997,7 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1135"
+  "id": "FLIP-1250"
  },
  {
   "text": "6 such differences in institutional quality are therefore clearly suboptimal from a monetary policy perspective",
@@ -9085,7 +10005,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1136"
+  "id": "FLIP-1251"
  },
  {
   "text": "third a number of other factors show up in an expansionary fiscal stance namely other discretionary measures unexpected revenue shortfalls eg",
@@ -9093,7 +10013,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1137"
+  "id": "FLIP-1252"
  },
  {
   "text": "risks to the ecbs balance sheet let me turn to the second argument which is related to the ecbs risk exposure",
@@ -9101,7 +10021,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1138"
+  "id": "FLIP-1253"
  },
  {
   "text": "it is my contention that the main driver of the crisis was located in the financial sector particularly banks which intermediated large capital flows towards the periphery creating imbalances that bec",
@@ -9109,7 +10029,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1139"
+  "id": "FLIP-1254"
  },
  {
   "text": "the view that crisis resolution mechanisms were inadequate also prevailed during the asian crisis of the 1990s",
@@ -9117,7 +10037,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1140"
+  "id": "FLIP-1255"
  },
  {
   "text": "monetary policy would appear passive because the economy itself was evolving slowly",
@@ -9125,7 +10045,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1141"
+  "id": "FLIP-1256"
  },
  {
   "text": "nevertheless the fact remains that forecasters were not able to anticipate the disinflation for the euro area as a whole from 2012 or for the larger member countries",
@@ -9133,7 +10053,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1142"
+  "id": "FLIP-1257"
  },
  {
   "text": "however a monopolistic market structure also suffers from deficiencies to which i shall return later",
@@ -9141,7 +10061,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1143"
+  "id": "FLIP-1258"
  },
  {
   "text": "the european commission projects that the euro area government deficit will increase from 20 of gdp in 2008 to 64 in 2009 and 69 in 2010",
@@ -9149,7 +10069,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1144"
+  "id": "FLIP-1259"
  },
  {
   "text": "the argument goes that largescale bond purchases would be perceived by markets as preventing policymakers from raising rates quickly as this would cause losses on central banks balance sheet",
@@ -9157,7 +10077,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1145"
+  "id": "FLIP-1260"
  },
  {
   "text": "the first lesson was that the euro area lacked an institutional framework to identify and correct macroeconomic imbalances",
@@ -9165,7 +10085,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1146"
+  "id": "FLIP-1261"
  },
  {
   "text": "the sectors profitability subsequently declined for two consecutive years reaching 86 in 2002",
@@ -9173,7 +10093,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1147"
+  "id": "FLIP-1262"
  },
  {
   "text": "against this background it is understandable that it sometimes appears more convenient to blame foreign speculators or global markets for all kinds of economic and social problems rather than acknowle",
@@ -9181,7 +10101,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1148"
+  "id": "FLIP-1263"
  },
  {
   "text": "in this regard i remember reading a few years ago in the bank of japans financial stability review that in japan credit derivatives based on loans originated by large and relatively wellcapitalised co",
@@ -9189,7 +10109,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1149"
+  "id": "FLIP-1264"
  },
  {
   "text": "those who fear the political cost of such a shift in economic policies should bear in mind that the alternative would be a fundamental revision of the current social promises and ultimately a debasing",
@@ -9197,7 +10117,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1150"
+  "id": "FLIP-1265"
  },
  {
   "text": "first of all germany has a particularly large number of banks whose business models are very dependent on interest rates",
@@ -9205,7 +10125,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1151"
+  "id": "FLIP-1266"
  },
  {
   "text": "nevertheless it is also true that our models did not predict the crisis and provided only limited policy guidance when it struck",
@@ -9213,7 +10133,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1152"
+  "id": "FLIP-1267"
  },
  {
   "text": "one topical issue is of course whether monetary policy is contributing to weak profitability",
@@ -9221,7 +10141,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1153"
+  "id": "FLIP-1268"
  },
  {
   "text": "this brings us to another problematic aspect since the links between the macroeconomic and microeconomic aspects are particularly complex and sometimes even hard to detect",
@@ -9229,7 +10149,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1154"
+  "id": "FLIP-1269"
  },
  {
   "text": "the magnitude of that gap in relative prices as well as the size of the current account deficits could have  and perhaps should have  been interpreted as warnings",
@@ -9237,7 +10157,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1155"
+  "id": "FLIP-1270"
  },
  {
   "text": "for instance concerns have been voiced that european support to countries under stress and the conditions on which it is granted are decided only by the eurogroup ie",
@@ -9245,7 +10165,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_6",
-  "id": "FLIP-1156"
+  "id": "FLIP-1271"
  },
  {
   "text": "16 commentators have repeatedly talked about a missing disinflation at the trough of the great recession and about missing inflation in more recent years",
@@ -9253,7 +10173,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1157"
+  "id": "FLIP-1272"
  },
  {
   "text": "these concerns were also hinted at by the shape of the str forward curve which peaked in 2024 and then inverted somewhat reflecting investors perceptions that the economy would be unable to sustain in",
@@ -9261,7 +10181,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1158"
+  "id": "FLIP-1273"
  },
  {
   "text": "the contribution of capital markets declined substantially during the financial crisis and especially during the sovereign debt crisis",
@@ -9269,7 +10189,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1159"
+  "id": "FLIP-1274"
  },
  {
   "text": "fiscal imbalances can undermine the financial sector financial sector imbalances can weigh down on the credibility of the sovereign both can spillover into the real sector and vice versa",
@@ -9277,7 +10197,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1160"
+  "id": "FLIP-1275"
  },
  {
   "text": "in some countries balance sheet effects associated with large exchange rate depreciations posed a risk to financial stability",
@@ -9285,7 +10205,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1161"
+  "id": "FLIP-1276"
  },
  {
   "text": "the conjunctural reason is that sovereign spreads in some peripheral countries which are today the basis for the pricing of bank funding can rise above what fundamentals would suggest as they reflect ",
@@ -9293,7 +10213,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1162"
+  "id": "FLIP-1277"
  },
  {
   "text": "the financial origins of the crisis explain in turn the slowness of the economic recovery",
@@ -9301,7 +10221,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1163"
+  "id": "FLIP-1278"
  },
  {
   "text": "the financial and economic crisis has revealed structural weaknesses even more clearly",
@@ -9309,7 +10229,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1164"
+  "id": "FLIP-1279"
  },
  {
   "text": "if one takes current surveys of market participants views about the time over which the ecb is anticipated to roll over its app securities and assumes the modal expectation of a twoyear period one fin",
@@ -9317,7 +10237,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1165"
+  "id": "FLIP-1280"
  },
  {
   "text": "instead profit markups will rise and the purchasing power of households will fall thereby worsening the economic conditions of consumers and aggravating any recession",
@@ -9325,7 +10245,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1166"
+  "id": "FLIP-1281"
  },
  {
   "text": "not only do banks in the affected countries often need to deleverage more than others but also their portfolios consist of less liquid assets such as domestic sovereign bonds and they face ceteris par",
@@ -9333,7 +10253,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1167"
+  "id": "FLIP-1282"
  },
  {
   "text": "on the one hand you have those who think that insufficient growth is the result of insufficient economic policy coordination at european level",
@@ -9341,7 +10261,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1168"
+  "id": "FLIP-1283"
  },
  {
   "text": "to begin with the reform process had to start in an environment where fiscal policies had by necessity to become contractionary",
@@ -9349,7 +10269,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1169"
+  "id": "FLIP-1284"
  },
  {
   "text": "however the countryspecific reform recommendations as just indicated by the commission have so far hardly or not at all been acted upon by member states",
@@ -9357,7 +10277,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1170"
+  "id": "FLIP-1285"
  },
  {
   "text": "on the other hand the problems in the banking sector in some countries posed a heavy burden on the national budget",
@@ -9365,7 +10285,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1171"
+  "id": "FLIP-1286"
  },
  {
   "text": "draghi we discuss these issues nowadays quite frequently in the governing council when we ask ourselves what are the risks that we look at or how will the eurozone grow in the future things are ok now",
@@ -9373,7 +10293,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1172"
+  "id": "FLIP-1287"
  },
  {
   "text": "in particular adverse spillover effects arise if any member country has an unsustainable fiscal position operates a procyclical fiscal policy or reduces potential output through structural policies th",
@@ -9381,7 +10301,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1173"
+  "id": "FLIP-1288"
  },
  {
   "text": "this would mean the double challenge of increased investments and decreased revenues for banks",
@@ -9389,7 +10309,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1174"
+  "id": "FLIP-1289"
  },
  {
   "text": "at the same time many other factors relating to legacy and structural problems hold down bank profitability",
@@ -9397,7 +10317,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1175"
+  "id": "FLIP-1290"
  },
  {
   "text": "the continued weakness in bank profitability reflects a number of factors including both cyclical and structural challenges",
@@ -9405,7 +10325,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1176"
+  "id": "FLIP-1291"
  },
  {
   "text": "this could happen to such a point where other firms holding important risk concentrations in the same markets would also incur major losses and even face the risk of insolvency",
@@ -9413,7 +10333,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1177"
+  "id": "FLIP-1292"
  },
  {
   "text": "second the banking supervisor may want to send an unviable bank into resolution which has large amounts of outstanding central bank borrowings",
@@ -9421,7 +10341,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1178"
+  "id": "FLIP-1293"
  },
  {
   "text": "the expected slowdown in profit growth is a consequence of possible further valuation losses increased funding costs as well as declining noninterest income from securitisation and capital market acti",
@@ -9429,7 +10349,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1179"
+  "id": "FLIP-1294"
  },
  {
   "text": "here too longerterm forces have mingled with more cyclical dynamics connected to the financial crisis to push nominal interest rates down",
@@ -9437,7 +10357,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1180"
+  "id": "FLIP-1295"
  },
  {
   "text": "complex and partially unclear insolvency proceedings may for instance have the effect of deterring investment",
@@ -9445,7 +10365,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1181"
+  "id": "FLIP-1296"
  },
  {
   "text": "taking into account all these factors it was clear that the slowdown in m3 over the past few months was more pronounced than expected with estimates of corrected m3 growth at or even below the referen",
@@ -9453,7 +10373,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1182"
+  "id": "FLIP-1297"
  },
  {
   "text": "in addition to these secular forces more cyclical factors linked to the financial crisis have been a drag on real interest rates",
@@ -9461,7 +10381,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1183"
+  "id": "FLIP-1298"
  },
  {
   "text": "this loop was a source of vulnerability for the euro area for two reasons first any impairment of the banking sectors liabilities  including capital  challenged fiscal sustainability in the eyes of in",
@@ -9469,7 +10389,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1184"
+  "id": "FLIP-1299"
  },
  {
   "text": "paradoxically in a large number of cases the credit risk remained in the realm of the commercial banks through the commitment they still had to activate back up lines of conduits or structured investm",
@@ -9477,7 +10397,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1185"
+  "id": "FLIP-1300"
  },
  {
   "text": "the second explanation is that the pandemic and the war could have triggered or accelerated structural changes  such as deglobalisation or a more costly energy mix  which have permanently lowered pote",
@@ -9485,7 +10405,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1186"
+  "id": "FLIP-1301"
  },
  {
   "text": "in addition derivatives positions in particular can embed sizeable leverage potentially adding to deleveraging pressures when financial stress emerges",
@@ -9493,7 +10413,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1187"
+  "id": "FLIP-1302"
  },
  {
   "text": "doubts on this ability for instance due to concerns on the fiscal health of the sovereign could easily reinforce local bank runs",
@@ -9501,7 +10421,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1188"
+  "id": "FLIP-1303"
  },
  {
   "text": "10  macroeconomic stabilisation in the future both facilities however are temporary and linked to the pandemic while the effective lower bound is likely to remain a recurring constraint in the future",
@@ -9509,7 +10429,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1189"
+  "id": "FLIP-1304"
  },
  {
   "text": "moreover when the risks finally materialised the fragmented crisis management arrangements led to policy responses that were rational from a national perspective but suboptimal from a european point o",
@@ -9517,7 +10437,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1190"
+  "id": "FLIP-1305"
  },
  {
   "text": "in a few extreme cases the shareholders of some institutions and the public at large suddenly realised looking at the balance sheet that on the left side nothing was right and on the right side nothin",
@@ -9525,7 +10445,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1191"
+  "id": "FLIP-1306"
  },
  {
   "text": "clearly as the sovereign crisis intensified it impeded banks support for the real economy",
@@ -9533,7 +10453,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1192"
+  "id": "FLIP-1307"
  },
  {
   "text": "in the event of an abrupt reversal of sentiment however dependence on external financing may quickly turn out to be a source of crisis especially as large imports of capital are always accompanied by ",
@@ -9541,7 +10461,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1193"
+  "id": "FLIP-1308"
  },
  {
   "text": "this process may have financial implications if impaired assets have to be written down",
@@ -9549,7 +10469,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1194"
+  "id": "FLIP-1309"
  },
  {
   "text": "business environment the business environment confronting the european financial sector today is evidently challenging",
@@ -9557,7 +10477,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1195"
+  "id": "FLIP-1310"
  },
  {
   "text": "while the reasons for this limited passthrough have yet to be fully explained a contributing factor is the weakness in the manufacturing sector as reflected by weaker supply chain price pressures comp",
@@ -9565,7 +10485,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1196"
+  "id": "FLIP-1311"
  },
  {
   "text": "the disclosure of their fullyear 2007 financial results revealed that the subprimerelated turmoil has had a material impact on their profitability",
@@ -9573,7 +10493,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1197"
+  "id": "FLIP-1312"
  },
  {
   "text": "fourth i will draw upon forwardlooking solvency analysis results published in the ecbs most recent financial stability review to discuss some of the consequences of various risks related to a reemerge",
@@ -9581,7 +10501,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1198"
+  "id": "FLIP-1313"
  },
  {
   "text": "otherwise debtfinanced fiscal policy will in fact be destabilising since it will depress sovereign bond prices and trigger ratings downgrades feeding back into the financial system through the channel",
@@ -9589,7 +10509,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1199"
+  "id": "FLIP-1314"
  },
  {
   "text": "let me point out three key weaknesses     first the ability of investors to assess the extent of concentrations among various types of collateral  including subprime  within the structured finance sec",
@@ -9597,7 +10517,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1200"
+  "id": "FLIP-1315"
  },
  {
   "text": "all these factors put the downside risks to economic activity coming from oil prices which i do not neglect into perspective",
@@ -9605,7 +10525,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1201"
+  "id": "FLIP-1316"
  },
  {
   "text": "15 the authors argue that this is due to an underestimation of fiscal multipliers which in turn led to an underestimation of the contractionary effects of the fiscal consolidation plans announced in e",
@@ -9613,7 +10533,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1202"
+  "id": "FLIP-1317"
  },
  {
   "text": "on top of that the traditional group of investors suppliers of liquidity for the banking sector have altered their investment strategies",
@@ -9621,7 +10541,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1203"
+  "id": "FLIP-1318"
  },
  {
   "text": "the resulting rise in sovereign risk premia can be passed through to private sector funding costs especially if there is doubt about the ability of the public sector to counter adverse disturbances to",
@@ -9629,7 +10549,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1204"
+  "id": "FLIP-1319"
  },
  {
   "text": "of course fiscal sustainability and fiscal countercyclicality are interconnected it is not possible to respond countercyclically to a recessionary shock if debt sustainability is called into question",
@@ -9637,7 +10557,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1205"
+  "id": "FLIP-1320"
  },
  {
   "text": "the shortterm challenges in our view relate mostly to the financial fragmentation that has taken place in the euro area",
@@ -9645,7 +10565,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1206"
+  "id": "FLIP-1321"
  },
  {
   "text": "when these flows turned into outflows as the economic environment deteriorated after 2008 these imbalances not only led to problems for the countries concerned but also produced contagion to other par",
@@ -9653,7 +10573,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1207"
+  "id": "FLIP-1322"
  },
  {
   "text": "also insufficient financial sector policy reaction on the side of governments exacerbated the detrimental dynamics and represented itself as a source of risk and uncertainty during the crisis ultimate",
@@ -9661,7 +10581,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1208"
+  "id": "FLIP-1323"
  },
  {
   "text": "in addition structural deficits have become rather large and public debt ratios have started to increase limiting the room for manoeuvre of automatic stabilisers",
@@ -9669,7 +10589,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1209"
+  "id": "FLIP-1324"
  },
  {
   "text": "typical demand factors are the lack of profitable opportunities for investment or the presence of deleveraging forces arising in other sectors of the economy",
@@ -9677,7 +10597,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1210"
+  "id": "FLIP-1325"
  },
  {
   "text": "this reflected not only a decrease in foreign demand for euro area exports but domestic demand was also adversely affected by domestic factors notably very low confidence and tight financing condition",
@@ -9685,7 +10605,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1211"
+  "id": "FLIP-1326"
  },
  {
   "text": "the ecb was faced with interrelated key challenges namely deleveraging fragmentation and a weak economic environment",
@@ -9693,7 +10613,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1212"
+  "id": "FLIP-1327"
  },
  {
   "text": "internally the present low savings rate of spanish households and the need to restore savings in the near term points to moderation in consumption going forward",
@@ -9701,7 +10621,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1213"
+  "id": "FLIP-1328"
  },
  {
   "text": "losses were magnified by illiquid markets for many types of structured instruments leading to sharp decreases in secondary market prices",
@@ -9709,7 +10629,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1214"
+  "id": "FLIP-1329"
  },
  {
   "text": "this is key particularly in view of the much observed correlation between the cost of funding of euro area banks and that of their respective sovereigns and the subsequent fragmentation of the europea",
@@ -9717,7 +10637,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1215"
+  "id": "FLIP-1330"
  },
  {
   "text": "the expected slowdown in profit growth  which is shown in the chart on the left of slide 11  is a consequence of possible further valuation losses increased funding costs as well as declining noninter",
@@ -9725,7 +10645,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1216"
+  "id": "FLIP-1331"
  },
  {
   "text": "and this comes at a time when profitability is already weak when the sector has to adjust to postcrisis deleveraging in the economy and when rapid changes are taking place in regulation",
@@ -9733,7 +10653,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1217"
+  "id": "FLIP-1332"
  },
  {
   "text": "first of all there is the painful realisation on the part of consumers in several countries that the economic strength that they had come to regard as natural over the last several years seems not sus",
@@ -9741,7 +10661,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1218"
+  "id": "FLIP-1333"
  },
  {
   "text": "the implication is that some euro area fixed income securities are increasingly hard to come by or come with a price tag unattractive for more shortterm orientated investors",
@@ -9749,7 +10669,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1219"
+  "id": "FLIP-1334"
  },
  {
   "text": "the inclination could be to postpone it as long as possible but the risk then is that when the adjustment finally comes on top of other adjustments in the economy its effects could be very disruptive",
@@ -9757,7 +10677,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1220"
+  "id": "FLIP-1335"
  },
  {
   "text": "at the same time fundamental restructuring will be needed when the longterm viability of banks is likely to be threatened by the taking away of state support",
@@ -9765,7 +10685,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1221"
+  "id": "FLIP-1336"
  },
  {
   "text": "13  in fact when we look at megabank mergers in the us empirical evidence suggests that this type of merger implies shareholder value creation for the banks involved but losses for loan customers espe",
@@ -9773,7 +10693,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_7",
-  "id": "FLIP-1222"
+  "id": "FLIP-1337"
  },
  {
   "text": "it is even more problematic in the event of crisis resolution especially for crossborder institutions as has been seen in the specific case of a large and complex banking group",
@@ -9781,7 +10701,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1223"
+  "id": "FLIP-1338"
  },
  {
   "text": "such spirals could be triggered if funds were to be confronted with high redemptions or increased margin requirements as these could result in forced selling on markets with low liquidity",
@@ -9789,7 +10709,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1224"
+  "id": "FLIP-1339"
  },
  {
   "text": "the downgrade of portugal and above all the continuing fears of a greek default apparently triggered a selloff in spanish and italian government bonds",
@@ -9797,7 +10717,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1225"
+  "id": "FLIP-1340"
  },
  {
   "text": "if greece were on its own the adjustment would have to be much faster and more drastic given that the sovereign has lost access to financial markets",
@@ -9805,7 +10725,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1226"
+  "id": "FLIP-1341"
  },
  {
   "text": "share prices of european banks for instance have been extremely volatile",
@@ -9813,7 +10733,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1227"
+  "id": "FLIP-1342"
  },
  {
   "text": "20 while it can be individually rational for fund managers to sell assets in excess of current outflows when uncertainty about future redemptions is high such cash hoarding can be detrimental to wider",
@@ -9821,7 +10741,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1228"
+  "id": "FLIP-1343"
  },
  {
   "text": "second deleveraging forces and fire sales have a direct impact on the value of collateral",
@@ -9829,7 +10749,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1229"
+  "id": "FLIP-1344"
  },
  {
   "text": "8  fiscal policy then faces a difficult tradeoff between business cycle stabilisation and debt sustainability in particular in a situation with high legacy debt",
@@ -9837,7 +10757,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1230"
+  "id": "FLIP-1345"
  },
  {
   "text": "one was for fiscal policy it needs to deliver sound fundamentals as the only way to lastingly overcome the crisis but at the same time there can be no viable fiscal adjustment that can ensure sustaina",
@@ -9845,7 +10765,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1231"
+  "id": "FLIP-1346"
  },
  {
   "text": "1 the european commission in its january 2009 interim forecasts sees a contraction of the eu economy of 18 and of the euro area economy of 19",
@@ -9853,7 +10773,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1232"
+  "id": "FLIP-1347"
  },
  {
   "text": "it is widely recognised that the financial difficulties currently faced by the argentine banking sector are largely the result of developments beyond its control",
@@ -9861,7 +10781,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1233"
+  "id": "FLIP-1348"
  },
  {
   "text": "as a result analyst forecasts of bank profitability for 2020 have undergone large downward revisions in recent months mainly driven by expectations that banks need to increase their provisions for fut",
@@ -9869,7 +10789,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1234"
+  "id": "FLIP-1349"
  },
  {
   "text": "as a result profitability stemming from the maturity transformation business may come under renewed pressure  not least as retail household deposits tend to be bound at zero",
@@ -9877,7 +10797,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1235"
+  "id": "FLIP-1350"
  },
  {
   "text": "this in turn could lead to an excessive depression of prices of financial assets fire sales resulting in a chain reaction on the budgets of other institutions that would see the value of their own ass",
@@ -9885,7 +10805,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1236"
+  "id": "FLIP-1351"
  },
  {
   "text": "this performance reflects partly further writedowns on structured product portfolios and increasingly the deterioration in the macroeconomic environment which resulted in an increase in loan losses an",
@@ -9893,7 +10813,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1237"
+  "id": "FLIP-1352"
  },
  {
   "text": "not only would investors lack equity to absorb losses but losses would also spread to creditors",
@@ -9901,7 +10821,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1238"
+  "id": "FLIP-1353"
  },
  {
   "text": "the profitability of these banks might suffer",
@@ -9909,7 +10829,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1239"
+  "id": "FLIP-1354"
  },
  {
   "text": "reflecting these concerns forwardlooking financial market indicators such as banks cds spreads and share prices currently suggest that challenges pertaining to the banking sector are likely to remain ",
@@ -9917,7 +10837,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1240"
+  "id": "FLIP-1355"
  },
  {
   "text": "indeed following the capital and provision increases since the financial crisis the npl issue does not primarily concern solvency but rather banks profitability",
@@ -9925,7 +10845,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1241"
+  "id": "FLIP-1356"
  },
  {
   "text": "there have been anticipation effects but the chart strongly suggests that net debt outflows accelerated as the app continued and decelerated only when we decided to reduce the pace of our monthly purc",
@@ -9933,7 +10853,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1242"
+  "id": "FLIP-1357"
  },
  {
   "text": "these shortcomings were a catalyst for the other two crisis dimensions they facilitated excessive leverage throughout the economy which in turn sowed the seeds for the ongoing deleveraging crisis they",
@@ -9941,7 +10861,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1243"
+  "id": "FLIP-1358"
  },
  {
   "text": "another claim that we sometimes hear is that countries should put off structural reforms that combining them with fiscal consolidation in the current economy will only make the downturn worse",
@@ -9949,7 +10869,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1244"
+  "id": "FLIP-1359"
  },
  {
   "text": "2 the ensuing great depression brought real severe economic consequences",
@@ -9957,7 +10877,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1245"
+  "id": "FLIP-1360"
  },
  {
   "text": "the same elasticities however will send the budget into distress when the boom reverses",
@@ -9965,7 +10885,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1246"
+  "id": "FLIP-1361"
  },
  {
   "text": "the last ecb forecast from early march was worse than the one published a few weeks earlier by the european commission mainly because it was able to include preliminary data for the last quarter of 20",
@@ -9973,7 +10893,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1247"
+  "id": "FLIP-1362"
  },
  {
   "text": "of course it cannot be excluded that this process might well be nonlinear with episodes of discontinuity perhaps also including financial crises somewhere down the line",
@@ -9981,7 +10901,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1248"
+  "id": "FLIP-1363"
  },
  {
   "text": "more generally there is concern that the persistence of sizeable fiscal imbalances in europe and elsewhere may undermine the publics trust in the sustainability of public finances and entail risks to ",
@@ -9989,7 +10909,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1249"
+  "id": "FLIP-1364"
  },
  {
   "text": "on one hand it implies that the speed of the disinflation process may need to take the catchingup component into account and that the monetary policy objectives in accession countries might need to be",
@@ -9997,7 +10917,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1250"
+  "id": "FLIP-1365"
  },
  {
   "text": "12 moreover there was a distinct perception of a lack of an effective mechanism to influence macroeconomic and structural policies in key countries where those appeared unsustainable from the standpoi",
@@ -10005,7 +10925,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1251"
+  "id": "FLIP-1366"
  },
  {
   "text": "such strain could become unbearable or to put it less dramatically could lead to a dangerously unbalanced policy mix if it were compounded by the consequences of initially weak budgetary positions in ",
@@ -10013,7 +10933,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1252"
+  "id": "FLIP-1367"
  },
  {
   "text": "this may in turn complicate the sustainable fulfilment of the convergence criteria especially when combined with cyclical challenges to macroeconomic stability which leads me to my third point",
@@ -10021,7 +10941,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1253"
+  "id": "FLIP-1368"
  },
  {
   "text": "this meant that structured investment vehicles sivs hedge funds and other investors suffered losses in relation to the value of these securities",
@@ -10029,7 +10949,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1254"
+  "id": "FLIP-1369"
  },
  {
   "text": "otherwise expanding the deficit during a downturn could raise concerns about the sustainability of public finances which would undermine the effectiveness of stabilisation policy7",
@@ -10037,7 +10957,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1255"
+  "id": "FLIP-1370"
  },
  {
   "text": "on the other hand we are fully aware of the downward risks that a protracted period of low inflation entails",
@@ -10045,7 +10965,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1256"
+  "id": "FLIP-1371"
  },
  {
   "text": "so not only will banks fail in their macroeconomic stabilisation efforts they will also obstruct the efforts of monetary policy to play that role",
@@ -10053,7 +10973,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1257"
+  "id": "FLIP-1372"
  },
  {
   "text": "however such an approach aimed at insuring against a possible deflation risk does come at a cost",
@@ -10061,7 +10981,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1258"
+  "id": "FLIP-1373"
  },
  {
   "text": "the issue of a large and growing us current account deficit may be further exacerbated by the sustained increase in oil prices through the impact of oil imports on the us trade deficit",
@@ -10069,7 +10989,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1259"
+  "id": "FLIP-1374"
  },
  {
   "text": "euro area hicp inflation has been declining for several months after turning negative to minus 02 percent in august the flash estimate for september signals a further decline to minus 03 percent in se",
@@ -10077,7 +10997,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1260"
+  "id": "FLIP-1375"
  },
  {
   "text": "without such convergence the monetary policy stance of the ecb is likely to be inappropriate for the country and it may face a risk of excessive output volatility leading potentially to a series of bo",
@@ -10085,7 +11005,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1261"
+  "id": "FLIP-1376"
  },
  {
   "text": "a process of deleveraging and balance sheet repair will have to take place in several cases",
@@ -10093,7 +11013,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1262"
+  "id": "FLIP-1377"
  },
  {
   "text": "it may also slow down necessary structural adjustments to the balance sheets of banks and ultimately to the business models of some financial institutions",
@@ -10101,7 +11021,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1263"
+  "id": "FLIP-1378"
  },
  {
   "text": "certainly if greece were to exit the euro  a hypothesis that i make just for the sake of reasoning but which i consider absurd  its debt burden would de facto worsen given that it is denominated in eu",
@@ -10109,7 +11029,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1264"
+  "id": "FLIP-1379"
  },
  {
   "text": "on the demand side just bear in mind that since 2007 private investment in the euro area has fallen by 15 and public investment by 12",
@@ -10117,7 +11037,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1265"
+  "id": "FLIP-1380"
  },
  {
   "text": "as we saw during the crisis if perceptions of sustainability among markets decline then countercyclical spending can quickly become constrained",
@@ -10125,7 +11045,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1266"
+  "id": "FLIP-1381"
  },
  {
   "text": "sound fiscal policy is a precondition for sustained competitiveness  some observers are concerned that fiscal consolidation at the current juncture might dampen economic growth and also provide negati",
@@ -10133,7 +11053,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1267"
+  "id": "FLIP-1382"
  },
  {
   "text": "after the collapse of lehman brothers the turmoil mutated into a fullyfledged financial crisis",
@@ -10141,7 +11061,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1268"
+  "id": "FLIP-1383"
  },
  {
   "text": "moreover the situation is more complex if there are impairments in monetary policy transmission that extend the lag between our decisions and their impact on prices as we see in the euro area today",
@@ -10149,7 +11069,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1269"
+  "id": "FLIP-1384"
  },
  {
   "text": "as growing financial market tensions made the financing of these deficits ever more difficult the last and most unexpected layer of the iceberg namely the socalled redenomination risk the possibility ",
@@ -10157,7 +11077,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1270"
+  "id": "FLIP-1385"
  },
  {
   "text": "this is in fact the most difficult question to answer not only because downturns are difficult to forecast but also because the cost of a policy mistake at that stage is higher and there is less room ",
@@ -10165,7 +11085,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1271"
+  "id": "FLIP-1386"
  },
  {
   "text": "because the public sector makes up roughly half the economy in many euro area countries and because of credit rating dynamics the fear of possible sovereign defaults had a dramatic effect on confidenc",
@@ -10173,7 +11093,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1272"
+  "id": "FLIP-1387"
  },
  {
   "text": "vice versa fiscal sustainability concerns have rapidly spilled over to the financial sector thus giving rise to a vicious cycle that is difficult to break",
@@ -10181,7 +11101,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1273"
+  "id": "FLIP-1388"
  },
  {
   "text": "a process of deleveraging and balance sheet repairment will have to take place in several cases",
@@ -10189,7 +11109,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1274"
+  "id": "FLIP-1389"
  },
  {
   "text": "and if that happens it would add to one of the problems some banks already have profitability",
@@ -10197,7 +11117,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1275"
+  "id": "FLIP-1390"
  },
  {
   "text": "on the contrary this could have an impact on the business model of banks and insurance companies and impair their capacity to perform financial intermediation and support monetary policy transmission",
@@ -10205,7 +11125,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1276"
+  "id": "FLIP-1391"
  },
  {
   "text": "as a result further adjustments to the fair values of these assets become necessary thereby perpetuating the downward dynamics",
@@ -10213,7 +11133,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1277"
+  "id": "FLIP-1392"
  },
  {
   "text": "for years the problem of the sustainability of americas external imbalance has been emphasised especially in europe which feared the risk of a disorderly unwinding with destabilising effects on the fi",
@@ -10221,7 +11141,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1278"
+  "id": "FLIP-1393"
  },
  {
   "text": "they also seem to fear the risk of not being able themselves to access funding in the market if needed in particular towards the end of the year when financial accounts will be completed",
@@ -10229,7 +11149,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1279"
+  "id": "FLIP-1394"
  },
  {
   "text": "however they may signal both a reduced willingness on the part of investors to provide longterm funding as well as difficulty in accessing capital market funds",
@@ -10237,7 +11157,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1280"
+  "id": "FLIP-1395"
  },
  {
   "text": "macroeconomic policies added to the risks",
@@ -10245,7 +11165,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1281"
+  "id": "FLIP-1396"
  },
  {
   "text": "in particular they are exposed to capital flows which are a potential source of high volatility in domestic monetary and credit aggregates",
@@ -10253,7 +11173,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1282"
+  "id": "FLIP-1397"
  },
  {
   "text": "this has already led analysts to cut bank profitability forecasts for 2022 due to increased provisioning expectations",
@@ -10261,7 +11181,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1283"
+  "id": "FLIP-1398"
  },
  {
   "text": "i think that the climate in europe is in fact deteriorating in this respect and there is the risk that we will have markets that close in on themselves",
@@ -10269,7 +11189,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_8",
-  "id": "FLIP-1284"
+  "id": "FLIP-1399"
  },
  {
   "text": "take the example of openended investment funds in which case equity is redeemable at short notice creating the possibility of disturbing liquidity pressures",
@@ -10277,7 +11197,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1285"
+  "id": "FLIP-1400"
  },
  {
   "text": "second the macroprudential toolkit that has been legislated is not complete  notably the one entrusted to the ecbssm  because it is mostly centred on banks and excludes other activities and institutio",
@@ -10285,7 +11205,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1286"
+  "id": "FLIP-1401"
  },
  {
   "text": "during the euro area sovereign bond market crisis and especially in the second half of 2011 countryspecific developments were increasingly apparent",
@@ -10293,7 +11213,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1287"
+  "id": "FLIP-1402"
  },
  {
   "text": "on the one hand the external environment could again deteriorate if the financial crises in asia and russia were to spread or deepen further",
@@ -10301,7 +11221,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1288"
+  "id": "FLIP-1403"
  },
  {
   "text": "cyclical developments are also interacting with structural developments notably the structural deleveraging of the banking system",
@@ -10309,7 +11229,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1289"
+  "id": "FLIP-1404"
  },
  {
   "text": "what started as a liquidity crisis in the money market in 2007 quickly morphed into a fullblown financial crisis following lehmans collapse in autumn 2008 and finally into a sovereign debt crisis star",
@@ -10317,7 +11237,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1290"
+  "id": "FLIP-1405"
  },
  {
   "text": "18 such spirals could be triggered if funds were to be confronted with high redemptions19 or increased margin requirements as these could result in forced selling on markets with low liquidity",
@@ -10325,7 +11245,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1291"
+  "id": "FLIP-1406"
  },
  {
   "text": "however as has already been noted by the european commission the pace of structural reforms in the member states lost momentum in 2001 and remained sluggish last year",
@@ -10333,7 +11253,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1292"
+  "id": "FLIP-1407"
  },
  {
   "text": "but the recent shift is also likely to reflect developments of a more structural nature  that is the slowdown in global value chain formation may well persist",
@@ -10341,7 +11261,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1293"
+  "id": "FLIP-1408"
  },
  {
   "text": "the risks that have been with us for some time now  a possible disorderly increase in risk premia debt sustainability concerns low bank profitability and imbalances in the nonbank financial sector  ar",
@@ -10349,7 +11269,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1294"
+  "id": "FLIP-1409"
  },
  {
   "text": "following the bankruptcy of lehman brothers in september 2008 the financial market tensions developed into a loss of confidence across the whole economy and eventually a deep recession",
@@ -10357,7 +11277,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1295"
+  "id": "FLIP-1410"
  },
  {
   "text": "in aggregate the exposures correspond to an additional funding requirement for these banks which represent 52 of their total outstanding loans or 104 of their deposit base",
@@ -10365,7 +11285,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1296"
+  "id": "FLIP-1411"
  },
  {
   "text": "15 for example taking the financial reporting of a large alternative fund and calculating leverage using a gross measure that includes the above underlying exposures it can be found that leverage goes",
@@ -10373,7 +11293,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1297"
+  "id": "FLIP-1412"
  },
  {
   "text": "the resulting currency mismatches particularly of households is in my view an important concern from a financial stability perspective",
@@ -10381,7 +11301,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1298"
+  "id": "FLIP-1413"
  },
  {
   "text": "at the same time the potential costs in terms of financial stability or income and wealth inequality may increase",
@@ -10389,7 +11309,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1299"
+  "id": "FLIP-1414"
  },
  {
   "text": "20 these knowledge gaps in turn led the economics profession to underestimate the potential cost that systemic financial crises may impose on broader macroeconomic prospects",
@@ -10397,7 +11317,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1300"
+  "id": "FLIP-1415"
  },
  {
   "text": "on the other hand you have those who believe that insufficient growth is due to the bureaucracy of europes institutions which leads to excessive regulation",
@@ -10405,7 +11325,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1301"
+  "id": "FLIP-1416"
  },
  {
   "text": "for quite some time now european bank valuations have been depressed by very low profitability caused by excess capacity limited revenue diversification and low cost efficiency",
@@ -10413,7 +11333,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1302"
+  "id": "FLIP-1417"
  },
  {
   "text": "taking into account the deep and prolonged recession the underlying fiscal adjustment has been even larger",
@@ -10421,7 +11341,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1303"
+  "id": "FLIP-1418"
  },
  {
   "text": "in other words some of the strong growth we had experienced in that period may have been unsustainable in the first place",
@@ -10429,7 +11349,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1304"
+  "id": "FLIP-1419"
  },
  {
   "text": "looking forward the potential further losses of european banks until the end of 2010 are estimated at usd 750 billion",
@@ -10437,7 +11357,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1305"
+  "id": "FLIP-1420"
  },
  {
   "text": "in addition to a rapidly deteriorating general government deficit which is expected to be above 6 of euro area gdp in 2010 the euro area debt ratio will increase by about 15 percentage points to above",
@@ -10445,7 +11365,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1306"
+  "id": "FLIP-1421"
  },
  {
   "text": "the first risk is that cheap funding allows banks to backload the deleveraging of their balance sheets and encourage socalled evergreening practices which in turn may prolong macroeconomic stagnation",
@@ -10453,7 +11373,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1307"
+  "id": "FLIP-1422"
  },
  {
   "text": "but it is clear that those impairments have been more severe in the euro area",
@@ -10461,7 +11381,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1308"
+  "id": "FLIP-1423"
  },
  {
   "text": "fiscal consolidation and growth the second current criticism of the euro area is that its focus on fiscal consolidation is destroying growth prospects",
@@ -10469,7 +11389,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1309"
+  "id": "FLIP-1424"
  },
  {
   "text": "on the one hand changes in interest rates reflecting markets negative reassessment of prospects for fiscal sustainability usually have a negative impact on governments fiscal positions",
@@ -10477,7 +11397,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1310"
+  "id": "FLIP-1425"
  },
  {
   "text": "the problem is a serious one because the macroeconomic outlook might be subject to sizeable and frequent changes in particular following the release of new data",
@@ -10485,7 +11405,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1311"
+  "id": "FLIP-1426"
  },
  {
   "text": "overall the ongoing disinflation process in the euro area is expected to imply sharp fluctuations in hicp inflation rates during 2009 as also foreseen by the ecb staff projections",
@@ -10493,7 +11413,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1312"
+  "id": "FLIP-1427"
  },
  {
   "text": "this is particularly accurate in this period where the euro area economy is currently in a juncture which is dominated by exogenous price shocks and uncertainty about the outlook of the real economy",
@@ -10501,7 +11421,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1313"
+  "id": "FLIP-1428"
  },
  {
   "text": "in august 2007 the concerns that many people had been harbouring for a while were abruptly translated into financial turmoil",
@@ -10509,7 +11429,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1314"
+  "id": "FLIP-1429"
  },
  {
   "text": "highly leveraged investors were faced with a situation of falling asset prices",
@@ -10517,7 +11437,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1315"
+  "id": "FLIP-1430"
  },
  {
   "text": "on the other side the regulation might lead to a situation in which some euro area banks presumably the most fragile would rely more on the eurosystem than otherwise",
@@ -10525,7 +11445,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1316"
+  "id": "FLIP-1431"
  },
  {
   "text": "the outlook for us monetary policy moves and vulnerabilities in emerging markets add to the overall uncertainty as does the limited progress on the brexit discussion",
@@ -10533,7 +11453,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1317"
+  "id": "FLIP-1432"
  },
  {
   "text": "budgetary responses to bring public finances into line with sustainability requirements may therefore be delayed beyond the point which may be seen as prudent from a longterm point of view",
@@ -10541,7 +11461,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1318"
+  "id": "FLIP-1433"
  },
  {
   "text": "macroeconomic policy was severely constrained in managing the economy in particular because of the fixed exchange rate policy",
@@ -10549,7 +11469,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1319"
+  "id": "FLIP-1434"
  },
  {
   "text": "at the same time the plight of the banks in some countries was exacerbated by precarious budgetary situations",
@@ -10557,7 +11477,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1320"
+  "id": "FLIP-1435"
  },
  {
   "text": "this has been the case in part due to the wide distribution of risks through the financial sector which made the assessment of the value of the underlying asset difficult for the investor",
@@ -10565,7 +11485,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1321"
+  "id": "FLIP-1436"
  },
  {
   "text": "fiscal policy has therefore been largely procyclical and all sectors have had to deleverage simultaneously in a context of weak nominal growth",
@@ -10573,7 +11493,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1322"
+  "id": "FLIP-1437"
  },
  {
   "text": "at the same time funding vulnerabilities and impaired capital positions of domestic banks translate into a higher need for government support putting further pressure on sovereign debt",
@@ -10581,7 +11501,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1323"
+  "id": "FLIP-1438"
  },
  {
   "text": "cyclical factors and the doom loop between euro area banks and sovereigns have certainly aggravated market segmentation",
@@ -10589,7 +11509,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1324"
+  "id": "FLIP-1439"
  },
  {
   "text": "risks to fiscal sustainability and growing market distrust in some euro area countries started to spill over into their respective banking sectors",
@@ -10597,7 +11517,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1325"
+  "id": "FLIP-1440"
  },
  {
   "text": "this in turn had a strong impact on an already severely weakened financial sector",
@@ -10605,7 +11525,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1326"
+  "id": "FLIP-1441"
  },
  {
   "text": "by the end of june uncertainty and concerns about the economic policies of the government were mounting culminating in the announcement of the referendum on 5 july 2016",
@@ -10613,7 +11533,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1327"
+  "id": "FLIP-1442"
  },
  {
   "text": "however all insurance and this in particular would come at a price  in the form of risk premia which could affect economic growth negatively",
@@ -10621,7 +11541,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1328"
+  "id": "FLIP-1443"
  },
  {
   "text": "in some cases this indiscipline precipitated serious fiscal challenges when recession began in late 2008",
@@ -10629,7 +11549,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1329"
+  "id": "FLIP-1444"
  },
  {
   "text": "on the other hand the banking sector suffers losses due to the opportunity cost of holding sterilisation assets which have lower return than lending",
@@ -10637,7 +11557,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1330"
+  "id": "FLIP-1445"
  },
  {
   "text": "the continued weakness in bank profitability reflects a number of cyclical and structural factors",
@@ -10645,7 +11565,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1331"
+  "id": "FLIP-1446"
  },
  {
   "text": "at the same time countries might face problems in actually using their reserves in times of crisis given that markets might not focus on the absolute level but rather on the relative changes",
@@ -10653,7 +11573,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1332"
+  "id": "FLIP-1447"
  },
  {
   "text": "at the same time there is a clear friction in the passthrough of negative rates to depositors especially to retail customers see chart 7",
@@ -10661,7 +11581,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1333"
+  "id": "FLIP-1448"
  },
  {
   "text": "there is however a significant question of liquidity risk as investment funds units are redeemable in the short term and their assets have much longer maturity",
@@ -10669,7 +11589,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1334"
+  "id": "FLIP-1449"
  },
  {
   "text": "20 moreover in addition to observable factors an unobservable threat effect  whereby workers in industrialised economies perceive themselves to have a weaker position and thereby moderate wage claims ",
@@ -10677,7 +11597,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1335"
+  "id": "FLIP-1450"
  },
  {
   "text": "a third channel the balance sheet channel  is indirect lower government bond prices which correspond to higher bond yields imply valuation losses in the assets held by the financial and nonfinancial s",
@@ -10685,7 +11605,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1336"
+  "id": "FLIP-1451"
  },
  {
   "text": "similarly cfms could be applied on capital outflows if the economy is stagnating fx exposures are high and reserve levels are inadequate",
@@ -10693,7 +11613,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1337"
+  "id": "FLIP-1452"
  },
  {
   "text": "a key feature of the present crisis is the increase in the correlation between the cost of funding of euro area banks and that of their respective sovereigns particularly in some peripheral economies",
@@ -10701,7 +11621,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1338"
+  "id": "FLIP-1453"
  },
  {
   "text": "concerns that systemic sovereign issuers may lose market access fed fears that they may be forced to redeem their liabilities in a currency different from the euro and thus de facto leave the euro are",
@@ -10709,7 +11629,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1339"
+  "id": "FLIP-1454"
  },
  {
   "text": "the reason is that in the context of freely mobile capital public authorities are likely to be faced with policy dilemmas and speculative attacks that might be even selffulfilling",
@@ -10717,7 +11637,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1340"
+  "id": "FLIP-1455"
  },
  {
   "text": "overall the deleveraging of european banks had farreaching global implications",
@@ -10725,7 +11645,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1341"
+  "id": "FLIP-1456"
  },
  {
   "text": "these include the possibility of a more broadbased turn in the global credit cycle a disorderly unwinding of global imbalances and the financial stability implications of persistently elevated energy ",
@@ -10733,7 +11653,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1342"
+  "id": "FLIP-1457"
  },
  {
   "text": "several are facing an unavoidable period of double deleveraging in both the public and private sectors",
@@ -10741,7 +11661,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1343"
+  "id": "FLIP-1458"
  },
  {
   "text": "in fact at present the situation of subdued economic growth and the stronger external value of the euro make the structural reforms even more necessary",
@@ -10749,7 +11669,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1344"
+  "id": "FLIP-1459"
  },
  {
   "text": "local lenders can replace these funds in the credit markets or through government agencies to some extent but the cost and availability of credit to small local borrowers could well be affected by an ",
@@ -10757,7 +11677,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1345"
+  "id": "FLIP-1460"
  },
  {
   "text": "the result could be a slower rate of growth in savings  institutions which lend to farmers",
@@ -10765,7 +11685,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1346"
+  "id": "FLIP-1461"
  },
  {
   "text": "liquidity of businesses and financial institutions has improved and business credit demand has been atypically lower than in past recoveries at this phase of the cycle",
@@ -10773,7 +11693,7 @@
   "abel_answer": "",
   "ground_truth": "dovish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1347"
+  "id": "FLIP-1462"
  },
  {
   "text": "however the downward adjustment of stocks to more desired levels now seems well along in most industries and this drag on production may be diminishing",
@@ -10781,6 +11701,6 @@
   "abel_answer": "",
   "ground_truth": "hawkish",
   "batch": "cb_batch_9",
-  "id": "FLIP-1348"
+  "id": "FLIP-1463"
  }
 ]
