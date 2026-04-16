@@ -1,0 +1,1685 @@
+{
+  "AAPL": {
+    "markov_blanket": {
+      "ok": true,
+      "status_code": 200,
+      "cap_version": "0.2.2",
+      "request_id": "7ed98412-963f-4c21-9438-fe0e7a332ae3",
+      "verb": "graph.markov_blanket",
+      "status": "success",
+      "result": {
+        "reasoning_mode": "structural_semantics",
+        "identification_status": "not_applicable",
+        "assumptions": [
+          "causal_sufficiency",
+          "faithfulness",
+          "no_instantaneous_effects",
+          "no_latent_confounders_addressed",
+          "abel_structural_summary_only",
+          "abel_hidden_field_policy"
+        ],
+        "node_id": "AAPL.price",
+        "neighbors": [
+          {
+            "node_id": "AREB.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "American Rebel Holdings, Inc. stock price"
+          },
+          {
+            "node_id": "PRIMEUSD.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "Echelon Prime price"
+          }
+        ],
+        "total_candidate_count": 2,
+        "truncated": false,
+        "edge_semantics": "markov_blanket_membership",
+        "display_name": "Apple Inc. stock price"
+      },
+      "provenance": {
+        "algorithm": "primitive.explain",
+        "graph_version": "CausalNodeV3",
+        "computation_time_ms": 9,
+        "server_name": "abel-graph-computer",
+        "server_version": "0.1.0",
+        "cap_spec_version": "0.2.2"
+      }
+    },
+    "observe": {
+      "ok": true,
+      "status_code": 200,
+      "cap_version": "0.2.2",
+      "request_id": "b9515de6-107a-48c4-b796-4631788e2d28",
+      "verb": "observe.predict",
+      "status": "success",
+      "result": {
+        "target_node": "AAPL.price",
+        "prediction": 0.0025,
+        "drivers": [
+          "PRIMEUSD.price",
+          "AREB.price"
+        ]
+      },
+      "provenance": {
+        "algorithm": "primitive.predict",
+        "graph_version": "CausalNodeV3",
+        "computation_time_ms": 11,
+        "server_name": "abel-graph-computer",
+        "server_version": "0.1.0",
+        "cap_spec_version": "0.2.2"
+      }
+    },
+    "traverse_parents": {
+      "ok": true,
+      "status_code": 200,
+      "cap_version": "0.2.2",
+      "request_id": "318e03ea-ab57-473d-a6f8-eda342be1fbb",
+      "verb": "traverse.parents",
+      "status": "success",
+      "result": {
+        "reasoning_mode": "identified_causal_effect",
+        "identification_status": "identified",
+        "assumptions": [
+          "causal_sufficiency",
+          "faithfulness",
+          "no_instantaneous_effects",
+          "no_latent_confounders_addressed",
+          "abel_structural_summary_only",
+          "abel_hidden_field_policy"
+        ],
+        "node_id": "AAPL.price",
+        "direction": "parents",
+        "nodes": [
+          {
+            "node_id": "AREB.price",
+            "display_name": "American Rebel Holdings, Inc. stock price"
+          },
+          {
+            "node_id": "PRIMEUSD.price",
+            "display_name": "Echelon Prime price"
+          }
+        ],
+        "display_name": "Apple Inc. stock price"
+      },
+      "provenance": {
+        "algorithm": "primitive.explain",
+        "graph_version": "CausalNodeV3",
+        "computation_time_ms": 15,
+        "server_name": "abel-graph-computer",
+        "server_version": "0.1.0",
+        "cap_spec_version": "0.2.2"
+      }
+    }
+  },
+  "AMZN": {
+    "markov_blanket": {
+      "ok": true,
+      "status_code": 200,
+      "cap_version": "0.2.2",
+      "request_id": "4fcfd699-bd7b-426d-9adc-1050f19b20b3",
+      "verb": "graph.markov_blanket",
+      "status": "success",
+      "result": {
+        "reasoning_mode": "structural_semantics",
+        "identification_status": "not_applicable",
+        "assumptions": [
+          "causal_sufficiency",
+          "faithfulness",
+          "no_instantaneous_effects",
+          "no_latent_confounders_addressed",
+          "abel_structural_summary_only",
+          "abel_hidden_field_policy"
+        ],
+        "node_id": "AMZN.price",
+        "neighbors": [
+          {
+            "node_id": "AIZN.price",
+            "roles": [
+              "spouse"
+            ],
+            "display_name": "Assurant, Inc. 5.25% Subordinat stock price"
+          },
+          {
+            "node_id": "AMPL.price",
+            "roles": [
+              "spouse"
+            ],
+            "display_name": "Amplitude, Inc. stock price"
+          },
+          {
+            "node_id": "BTTUSD.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "BitTorrent(New) price"
+          },
+          {
+            "node_id": "DHIL.price",
+            "roles": [
+              "spouse"
+            ],
+            "display_name": "Diamond Hill Investment Group, Inc. stock price"
+          },
+          {
+            "node_id": "EFLUSD.price",
+            "roles": [
+              "spouse"
+            ],
+            "display_name": "e-Gulden price"
+          },
+          {
+            "node_id": "ENVX.price",
+            "roles": [
+              "child",
+              "spouse"
+            ],
+            "display_name": "Enovix Corporation stock price"
+          },
+          {
+            "node_id": "FIEE.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "FiEE, Inc. stock price"
+          },
+          {
+            "node_id": "GRNT.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "Granite Ridge Resources, Inc stock price"
+          },
+          {
+            "node_id": "ISPO.price",
+            "roles": [
+              "child"
+            ],
+            "display_name": "Inspirato Incorporated stock price"
+          },
+          {
+            "node_id": "LAYERUSD.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "UniLayer price"
+          }
+        ],
+        "total_candidate_count": 20,
+        "truncated": true,
+        "edge_semantics": "markov_blanket_membership",
+        "display_name": "Amazon.com, Inc. stock price"
+      },
+      "provenance": {
+        "algorithm": "primitive.explain",
+        "graph_version": "CausalNodeV3",
+        "computation_time_ms": 15,
+        "server_name": "abel-graph-computer",
+        "server_version": "0.1.0",
+        "cap_spec_version": "0.2.2"
+      }
+    },
+    "observe": {
+      "ok": true,
+      "status_code": 200,
+      "cap_version": "0.2.2",
+      "request_id": "a8c1ef11-e7be-4ea2-a8aa-ad6ce9120b44",
+      "verb": "observe.predict",
+      "status": "success",
+      "result": {
+        "target_node": "AMZN.price",
+        "prediction": 0.0011,
+        "drivers": [
+          "BTTUSD.price",
+          "REVB.price",
+          "OPAL.price",
+          "LAYERUSD.price",
+          "FIEE.price",
+          "LSDUSD.price",
+          "GRNT.price",
+          "MBPUSD.price"
+        ]
+      },
+      "provenance": {
+        "algorithm": "primitive.predict",
+        "graph_version": "CausalNodeV3",
+        "computation_time_ms": 11,
+        "server_name": "abel-graph-computer",
+        "server_version": "0.1.0",
+        "cap_spec_version": "0.2.2"
+      }
+    },
+    "traverse_parents": {
+      "ok": true,
+      "status_code": 200,
+      "cap_version": "0.2.2",
+      "request_id": "d175ccbf-f40f-4bac-8ae1-15c4ac9d0fb5",
+      "verb": "traverse.parents",
+      "status": "success",
+      "result": {
+        "reasoning_mode": "identified_causal_effect",
+        "identification_status": "identified",
+        "assumptions": [
+          "causal_sufficiency",
+          "faithfulness",
+          "no_instantaneous_effects",
+          "no_latent_confounders_addressed",
+          "abel_structural_summary_only",
+          "abel_hidden_field_policy"
+        ],
+        "node_id": "AMZN.price",
+        "direction": "parents",
+        "nodes": [
+          {
+            "node_id": "BTTUSD.price",
+            "display_name": "BitTorrent(New) price"
+          },
+          {
+            "node_id": "FIEE.price",
+            "display_name": "FiEE, Inc. stock price"
+          },
+          {
+            "node_id": "GRNT.price",
+            "display_name": "Granite Ridge Resources, Inc stock price"
+          },
+          {
+            "node_id": "LAYERUSD.price",
+            "display_name": "UniLayer price"
+          },
+          {
+            "node_id": "LSDUSD.price",
+            "display_name": "Liquid Staking Derivatives price"
+          },
+          {
+            "node_id": "MBPUSD.price",
+            "display_name": "Mobipad price"
+          },
+          {
+            "node_id": "OPAL.price",
+            "display_name": "OPAL Fuels Inc. stock price"
+          },
+          {
+            "node_id": "REVB.price",
+            "display_name": "Revelation Biosciences, Inc. stock price"
+          }
+        ],
+        "display_name": "Amazon.com, Inc. stock price"
+      },
+      "provenance": {
+        "algorithm": "primitive.explain",
+        "graph_version": "CausalNodeV3",
+        "computation_time_ms": 15,
+        "server_name": "abel-graph-computer",
+        "server_version": "0.1.0",
+        "cap_spec_version": "0.2.2"
+      }
+    }
+  },
+  "BAC": {
+    "markov_blanket": {
+      "ok": true,
+      "status_code": 200,
+      "cap_version": "0.2.2",
+      "request_id": "0541540d-0bef-4e81-adf6-84ac71f69c18",
+      "verb": "graph.markov_blanket",
+      "status": "success",
+      "result": {
+        "reasoning_mode": "structural_semantics",
+        "identification_status": "not_applicable",
+        "assumptions": [
+          "causal_sufficiency",
+          "faithfulness",
+          "no_instantaneous_effects",
+          "no_latent_confounders_addressed",
+          "abel_structural_summary_only",
+          "abel_hidden_field_policy"
+        ],
+        "node_id": "BAC.price",
+        "neighbors": [
+          {
+            "node_id": "ACTUSD.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "Achain price"
+          },
+          {
+            "node_id": "AIZN.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "Assurant, Inc. 5.25% Subordinat stock price"
+          },
+          {
+            "node_id": "AREB.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "American Rebel Holdings, Inc. stock price"
+          },
+          {
+            "node_id": "BIPH.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "Brookfield Infrastructure Corpo stock price"
+          },
+          {
+            "node_id": "CMSC.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "CMS Energy Corporation 5.875% J stock price"
+          },
+          {
+            "node_id": "HWCPZ.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "Hancock Whitney Corporation - 6 stock price"
+          },
+          {
+            "node_id": "IMOUSD.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "IMO price"
+          },
+          {
+            "node_id": "MBPUSD.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "Mobipad price"
+          }
+        ],
+        "total_candidate_count": 8,
+        "truncated": false,
+        "edge_semantics": "markov_blanket_membership",
+        "display_name": "Bank of America Corporation stock price"
+      },
+      "provenance": {
+        "algorithm": "primitive.explain",
+        "graph_version": "CausalNodeV3",
+        "computation_time_ms": 9,
+        "server_name": "abel-graph-computer",
+        "server_version": "0.1.0",
+        "cap_spec_version": "0.2.2"
+      }
+    },
+    "observe": {
+      "ok": true,
+      "status_code": 200,
+      "cap_version": "0.2.2",
+      "request_id": "02b250b8-2b97-4e35-b9bd-79b9cb220eb5",
+      "verb": "observe.predict",
+      "status": "success",
+      "result": {
+        "target_node": "BAC.price",
+        "prediction": 0.0004,
+        "drivers": [
+          "IMOUSD.price",
+          "ACTUSD.price",
+          "AIZN.price",
+          "BIPH.price",
+          "HWCPZ.price",
+          "CMSC.price",
+          "MBPUSD.price",
+          "AREB.price"
+        ]
+      },
+      "provenance": {
+        "algorithm": "primitive.predict",
+        "graph_version": "CausalNodeV3",
+        "computation_time_ms": 10,
+        "server_name": "abel-graph-computer",
+        "server_version": "0.1.0",
+        "cap_spec_version": "0.2.2"
+      }
+    },
+    "traverse_parents": {
+      "ok": true,
+      "status_code": 200,
+      "cap_version": "0.2.2",
+      "request_id": "64f214b1-c7a3-4524-affb-5ec22d42d9db",
+      "verb": "traverse.parents",
+      "status": "success",
+      "result": {
+        "reasoning_mode": "identified_causal_effect",
+        "identification_status": "identified",
+        "assumptions": [
+          "causal_sufficiency",
+          "faithfulness",
+          "no_instantaneous_effects",
+          "no_latent_confounders_addressed",
+          "abel_structural_summary_only",
+          "abel_hidden_field_policy"
+        ],
+        "node_id": "BAC.price",
+        "direction": "parents",
+        "nodes": [
+          {
+            "node_id": "ACTUSD.price",
+            "display_name": "Achain price"
+          },
+          {
+            "node_id": "AIZN.price",
+            "display_name": "Assurant, Inc. 5.25% Subordinat stock price"
+          },
+          {
+            "node_id": "AREB.price",
+            "display_name": "American Rebel Holdings, Inc. stock price"
+          },
+          {
+            "node_id": "BIPH.price",
+            "display_name": "Brookfield Infrastructure Corpo stock price"
+          },
+          {
+            "node_id": "CMSC.price",
+            "display_name": "CMS Energy Corporation 5.875% J stock price"
+          },
+          {
+            "node_id": "HWCPZ.price",
+            "display_name": "Hancock Whitney Corporation - 6 stock price"
+          },
+          {
+            "node_id": "IMOUSD.price",
+            "display_name": "IMO price"
+          },
+          {
+            "node_id": "MBPUSD.price",
+            "display_name": "Mobipad price"
+          }
+        ],
+        "display_name": "Bank of America Corporation stock price"
+      },
+      "provenance": {
+        "algorithm": "primitive.explain",
+        "graph_version": "CausalNodeV3",
+        "computation_time_ms": 17,
+        "server_name": "abel-graph-computer",
+        "server_version": "0.1.0",
+        "cap_spec_version": "0.2.2"
+      }
+    }
+  },
+  "DIS": {
+    "markov_blanket": {
+      "ok": true,
+      "status_code": 200,
+      "cap_version": "0.2.2",
+      "request_id": "16222fef-6275-4726-ab27-a722c071aaaf",
+      "verb": "graph.markov_blanket",
+      "status": "success",
+      "result": {
+        "reasoning_mode": "structural_semantics",
+        "identification_status": "not_applicable",
+        "assumptions": [
+          "causal_sufficiency",
+          "faithfulness",
+          "no_instantaneous_effects",
+          "no_latent_confounders_addressed",
+          "abel_structural_summary_only",
+          "abel_hidden_field_policy"
+        ],
+        "node_id": "DIS.price",
+        "neighbors": [
+          {
+            "node_id": "ABBCUSD.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "ABBC Coin price"
+          },
+          {
+            "node_id": "AGNCO.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "AGNC Investment Corp. stock price"
+          },
+          {
+            "node_id": "AIV.price",
+            "roles": [
+              "child"
+            ],
+            "display_name": "Apartment Investment and Management Company stock price"
+          },
+          {
+            "node_id": "ATH-PA.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "Athene Holding Ltd. stock price"
+          },
+          {
+            "node_id": "BTTUSD.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "BitTorrent(New) price"
+          },
+          {
+            "node_id": "CIM-PD.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "Chimera Investment Corporation stock price"
+          },
+          {
+            "node_id": "DOGAUSD.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "DOGAM\u00cd price"
+          },
+          {
+            "node_id": "ECCX.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "Eagle Point Credit Company Inc. 6.6875% NT 28 stock price"
+          },
+          {
+            "node_id": "EJSUSD.price",
+            "roles": [
+              "child",
+              "spouse"
+            ],
+            "display_name": "Enjinstarter price"
+          },
+          {
+            "node_id": "MBPUSD.price",
+            "roles": [
+              "child",
+              "parent"
+            ],
+            "display_name": "Mobipad price"
+          }
+        ],
+        "total_candidate_count": 20,
+        "truncated": true,
+        "edge_semantics": "markov_blanket_membership",
+        "display_name": "The Walt Disney Company stock price"
+      },
+      "provenance": {
+        "algorithm": "primitive.explain",
+        "graph_version": "CausalNodeV3",
+        "computation_time_ms": 19,
+        "server_name": "abel-graph-computer",
+        "server_version": "0.1.0",
+        "cap_spec_version": "0.2.2"
+      }
+    },
+    "observe": {
+      "ok": true,
+      "status_code": 200,
+      "cap_version": "0.2.2",
+      "request_id": "b6f3b162-c5a4-4da5-9ef6-81721ab1b078",
+      "verb": "observe.predict",
+      "status": "success",
+      "result": {
+        "target_node": "DIS.price",
+        "prediction": 0.0008,
+        "drivers": [
+          "ABBCUSD.price",
+          "PRIMEUSD.price",
+          "CIM-PD.price",
+          "TOONUSD.price",
+          "ATH-PA.price",
+          "MOOVUSD.price",
+          "OXLCP.price",
+          "NLY-PG.price",
+          "AGNCO.price",
+          "VLYPP.price"
+        ]
+      },
+      "provenance": {
+        "algorithm": "primitive.predict",
+        "graph_version": "CausalNodeV3",
+        "computation_time_ms": 10,
+        "server_name": "abel-graph-computer",
+        "server_version": "0.1.0",
+        "cap_spec_version": "0.2.2"
+      }
+    },
+    "traverse_parents": {
+      "ok": true,
+      "status_code": 200,
+      "cap_version": "0.2.2",
+      "request_id": "74a35e93-c79f-466f-b805-a50d0d064d96",
+      "verb": "traverse.parents",
+      "status": "success",
+      "result": {
+        "reasoning_mode": "identified_causal_effect",
+        "identification_status": "identified",
+        "assumptions": [
+          "causal_sufficiency",
+          "faithfulness",
+          "no_instantaneous_effects",
+          "no_latent_confounders_addressed",
+          "abel_structural_summary_only",
+          "abel_hidden_field_policy"
+        ],
+        "node_id": "DIS.price",
+        "direction": "parents",
+        "nodes": [
+          {
+            "node_id": "ABBCUSD.price",
+            "display_name": "ABBC Coin price"
+          },
+          {
+            "node_id": "AGNCO.price",
+            "display_name": "AGNC Investment Corp. stock price"
+          },
+          {
+            "node_id": "ATH-PA.price",
+            "display_name": "Athene Holding Ltd. stock price"
+          },
+          {
+            "node_id": "CIM-PD.price",
+            "display_name": "Chimera Investment Corporation stock price"
+          },
+          {
+            "node_id": "MOOVUSD.price",
+            "display_name": "Dotmoovs price"
+          },
+          {
+            "node_id": "NLY-PG.price",
+            "display_name": "Annaly Capital Management, Inc. stock price"
+          },
+          {
+            "node_id": "OXLCP.price",
+            "display_name": "Oxford Lane Capital Corp. stock price"
+          },
+          {
+            "node_id": "PRIMEUSD.price",
+            "display_name": "Echelon Prime price"
+          },
+          {
+            "node_id": "TOONUSD.price",
+            "display_name": "Pontoon price"
+          },
+          {
+            "node_id": "VLYPP.price",
+            "display_name": "Valley National Bancorp stock price"
+          }
+        ],
+        "display_name": "The Walt Disney Company stock price"
+      },
+      "provenance": {
+        "algorithm": "primitive.explain",
+        "graph_version": "CausalNodeV3",
+        "computation_time_ms": 16,
+        "server_name": "abel-graph-computer",
+        "server_version": "0.1.0",
+        "cap_spec_version": "0.2.2"
+      }
+    }
+  },
+  "GOOG": {
+    "markov_blanket": {
+      "ok": true,
+      "status_code": 200,
+      "cap_version": "0.2.2",
+      "request_id": "1732947d-c6b1-4fa8-be00-f2239d6fc0ac",
+      "verb": "graph.markov_blanket",
+      "status": "success",
+      "result": {
+        "reasoning_mode": "structural_semantics",
+        "identification_status": "not_applicable",
+        "assumptions": [
+          "causal_sufficiency",
+          "faithfulness",
+          "no_instantaneous_effects",
+          "no_latent_confounders_addressed",
+          "abel_structural_summary_only",
+          "abel_hidden_field_policy"
+        ],
+        "node_id": "GOOG.price",
+        "neighbors": [
+          {
+            "node_id": "BOGUSD.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "Bogged price"
+          },
+          {
+            "node_id": "BTTUSD.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "BitTorrent(New) price"
+          },
+          {
+            "node_id": "BUMPUSD.price",
+            "roles": [
+              "spouse"
+            ],
+            "display_name": "Bumper price"
+          },
+          {
+            "node_id": "CALIUSD.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "CaliCoin price"
+          },
+          {
+            "node_id": "DHNUSD.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "Dohrnii price"
+          },
+          {
+            "node_id": "FCTRUSD.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "Factor Dao price"
+          },
+          {
+            "node_id": "GP.price",
+            "roles": [
+              "spouse"
+            ],
+            "display_name": "GreenPower Motor Company Inc. stock price"
+          },
+          {
+            "node_id": "LEADUSD.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "Lead Wallet price"
+          },
+          {
+            "node_id": "MONAUSD.price",
+            "roles": [
+              "spouse"
+            ],
+            "display_name": "MonaCoin price"
+          },
+          {
+            "node_id": "PAXGUSD.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "PAX Gold price"
+          }
+        ],
+        "total_candidate_count": 20,
+        "truncated": true,
+        "edge_semantics": "markov_blanket_membership",
+        "display_name": "Alphabet Inc. stock price"
+      },
+      "provenance": {
+        "algorithm": "primitive.explain",
+        "graph_version": "CausalNodeV3",
+        "computation_time_ms": 14,
+        "server_name": "abel-graph-computer",
+        "server_version": "0.1.0",
+        "cap_spec_version": "0.2.2"
+      }
+    },
+    "observe": {
+      "ok": true,
+      "status_code": 200,
+      "cap_version": "0.2.2",
+      "request_id": "f63599ad-37d5-41c0-9a3b-0f651da4b6c8",
+      "verb": "observe.predict",
+      "status": "success",
+      "result": {
+        "target_node": "GOOG.price",
+        "prediction": 0.0001,
+        "drivers": [
+          "PAXGUSD.price",
+          "FCTRUSD.price",
+          "RENBTCUSD.price",
+          "PAXUSD.price",
+          "BTTUSD.price",
+          "DHNUSD.price",
+          "BOGUSD.price",
+          "CALIUSD.price",
+          "LEADUSD.price",
+          "XIDRUSD.price"
+        ]
+      },
+      "provenance": {
+        "algorithm": "primitive.predict",
+        "graph_version": "CausalNodeV3",
+        "computation_time_ms": 11,
+        "server_name": "abel-graph-computer",
+        "server_version": "0.1.0",
+        "cap_spec_version": "0.2.2"
+      }
+    },
+    "traverse_parents": {
+      "ok": true,
+      "status_code": 200,
+      "cap_version": "0.2.2",
+      "request_id": "d7a39f0f-ed11-4501-9138-18b85ae2549f",
+      "verb": "traverse.parents",
+      "status": "success",
+      "result": {
+        "reasoning_mode": "identified_causal_effect",
+        "identification_status": "identified",
+        "assumptions": [
+          "causal_sufficiency",
+          "faithfulness",
+          "no_instantaneous_effects",
+          "no_latent_confounders_addressed",
+          "abel_structural_summary_only",
+          "abel_hidden_field_policy"
+        ],
+        "node_id": "GOOG.price",
+        "direction": "parents",
+        "nodes": [
+          {
+            "node_id": "BOGUSD.price",
+            "display_name": "Bogged price"
+          },
+          {
+            "node_id": "BTTUSD.price",
+            "display_name": "BitTorrent(New) price"
+          },
+          {
+            "node_id": "CALIUSD.price",
+            "display_name": "CaliCoin price"
+          },
+          {
+            "node_id": "DHNUSD.price",
+            "display_name": "Dohrnii price"
+          },
+          {
+            "node_id": "FCTRUSD.price",
+            "display_name": "Factor Dao price"
+          },
+          {
+            "node_id": "LEADUSD.price",
+            "display_name": "Lead Wallet price"
+          },
+          {
+            "node_id": "PAXGUSD.price",
+            "display_name": "PAX Gold price"
+          },
+          {
+            "node_id": "PAXUSD.price",
+            "display_name": "Pax Dollar price"
+          },
+          {
+            "node_id": "RENBTCUSD.price",
+            "display_name": "renBTC price"
+          },
+          {
+            "node_id": "XIDRUSD.price",
+            "display_name": "XIDR price"
+          }
+        ],
+        "display_name": "Alphabet Inc. stock price"
+      },
+      "provenance": {
+        "algorithm": "primitive.explain",
+        "graph_version": "CausalNodeV3",
+        "computation_time_ms": 14,
+        "server_name": "abel-graph-computer",
+        "server_version": "0.1.0",
+        "cap_spec_version": "0.2.2"
+      }
+    }
+  },
+  "INTC": {
+    "markov_blanket": {
+      "ok": true,
+      "status_code": 200,
+      "cap_version": "0.2.2",
+      "request_id": "022b671a-1a2c-4493-be60-a8e2e0be6825",
+      "verb": "graph.markov_blanket",
+      "status": "success",
+      "result": {
+        "reasoning_mode": "structural_semantics",
+        "identification_status": "not_applicable",
+        "assumptions": [
+          "causal_sufficiency",
+          "faithfulness",
+          "no_instantaneous_effects",
+          "no_latent_confounders_addressed",
+          "abel_structural_summary_only",
+          "abel_hidden_field_policy"
+        ],
+        "node_id": "INTC.price",
+        "neighbors": [
+          {
+            "node_id": "BSTYUSD.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "GlobalBoost-Y price"
+          },
+          {
+            "node_id": "COREUSD.price",
+            "roles": [
+              "child",
+              "parent",
+              "spouse"
+            ],
+            "display_name": "Core price"
+          },
+          {
+            "node_id": "DUBBZUSD.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "Dubbz price"
+          },
+          {
+            "node_id": "HWCPZ.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "Hancock Whitney Corporation - 6 stock price"
+          },
+          {
+            "node_id": "IDAI.price",
+            "roles": [
+              "parent",
+              "spouse"
+            ],
+            "display_name": "T Stamp Inc. stock price"
+          },
+          {
+            "node_id": "IXSUSD.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "IX Swap price"
+          },
+          {
+            "node_id": "LSDUSD.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "Liquid Staking Derivatives price"
+          },
+          {
+            "node_id": "MCRNUSD.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "MacaronSwap price"
+          },
+          {
+            "node_id": "MMFUSD.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "MM Finance (Cronos) price"
+          },
+          {
+            "node_id": "MOGUSD.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "MOG Coin price"
+          }
+        ],
+        "total_candidate_count": 20,
+        "truncated": true,
+        "edge_semantics": "markov_blanket_membership",
+        "display_name": "Intel Corporation stock price"
+      },
+      "provenance": {
+        "algorithm": "primitive.explain",
+        "graph_version": "CausalNodeV3",
+        "computation_time_ms": 25,
+        "server_name": "abel-graph-computer",
+        "server_version": "0.1.0",
+        "cap_spec_version": "0.2.2"
+      }
+    },
+    "observe": {
+      "ok": true,
+      "status_code": 200,
+      "cap_version": "0.2.2",
+      "request_id": "fee4c21f-81b0-4c61-93d9-1e18e3d7a4ad",
+      "verb": "observe.predict",
+      "status": "success",
+      "result": {
+        "target_node": "INTC.price",
+        "prediction": 0.0093,
+        "drivers": [
+          "UW3SUSD.price",
+          "UNWUSD.price",
+          "SFIUSD.price",
+          "ULXUSD.price",
+          "ISAUSD.price",
+          "STSOLUSD.price",
+          "CXT.price",
+          "SBDUSD.price",
+          "TRCLUSD.price",
+          "GUARDUSD.price"
+        ]
+      },
+      "provenance": {
+        "algorithm": "primitive.predict",
+        "graph_version": "CausalNodeV3",
+        "computation_time_ms": 12,
+        "server_name": "abel-graph-computer",
+        "server_version": "0.1.0",
+        "cap_spec_version": "0.2.2"
+      }
+    },
+    "traverse_parents": {
+      "ok": true,
+      "status_code": 200,
+      "cap_version": "0.2.2",
+      "request_id": "569e43d8-b380-4002-acc6-8bee6027b1e1",
+      "verb": "traverse.parents",
+      "status": "success",
+      "result": {
+        "reasoning_mode": "identified_causal_effect",
+        "identification_status": "identified",
+        "assumptions": [
+          "causal_sufficiency",
+          "faithfulness",
+          "no_instantaneous_effects",
+          "no_latent_confounders_addressed",
+          "abel_structural_summary_only",
+          "abel_hidden_field_policy"
+        ],
+        "node_id": "INTC.price",
+        "direction": "parents",
+        "nodes": [
+          {
+            "node_id": "CXT.price",
+            "display_name": "Crane NXT, Co. stock price"
+          },
+          {
+            "node_id": "GUARDUSD.price",
+            "display_name": "Guardian price"
+          },
+          {
+            "node_id": "ISAUSD.price",
+            "display_name": "Islander price"
+          },
+          {
+            "node_id": "SBDUSD.price",
+            "display_name": "Steem Dollars price"
+          },
+          {
+            "node_id": "SFIUSD.price",
+            "display_name": "saffron.finance price"
+          },
+          {
+            "node_id": "STSOLUSD.price",
+            "display_name": "Lido Staked SOL price"
+          },
+          {
+            "node_id": "TRCLUSD.price",
+            "display_name": "Treecle price"
+          },
+          {
+            "node_id": "ULXUSD.price",
+            "display_name": "ULTRON price"
+          },
+          {
+            "node_id": "UNWUSD.price",
+            "display_name": "UniWorld price"
+          },
+          {
+            "node_id": "UW3SUSD.price",
+            "display_name": "Utility Web3Shot price"
+          }
+        ],
+        "display_name": "Intel Corporation stock price"
+      },
+      "provenance": {
+        "algorithm": "primitive.explain",
+        "graph_version": "CausalNodeV3",
+        "computation_time_ms": 17,
+        "server_name": "abel-graph-computer",
+        "server_version": "0.1.0",
+        "cap_spec_version": "0.2.2"
+      }
+    }
+  },
+  "JPM": {
+    "markov_blanket": {
+      "ok": true,
+      "status_code": 200,
+      "cap_version": "0.2.2",
+      "request_id": "3f26543f-f851-476f-a849-78a6ea861252",
+      "verb": "graph.markov_blanket",
+      "status": "success",
+      "result": {
+        "reasoning_mode": "structural_semantics",
+        "identification_status": "not_applicable",
+        "assumptions": [
+          "causal_sufficiency",
+          "faithfulness",
+          "no_instantaneous_effects",
+          "no_latent_confounders_addressed",
+          "abel_structural_summary_only",
+          "abel_hidden_field_policy"
+        ],
+        "node_id": "JPM.price",
+        "neighbors": [
+          {
+            "node_id": "AGNCM.price",
+            "roles": [
+              "spouse"
+            ],
+            "display_name": "AGNC Investment Corp. stock price"
+          },
+          {
+            "node_id": "AIZN.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "Assurant, Inc. 5.25% Subordinat stock price"
+          },
+          {
+            "node_id": "AREB.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "American Rebel Holdings, Inc. stock price"
+          },
+          {
+            "node_id": "ARGD.price",
+            "roles": [
+              "spouse"
+            ],
+            "display_name": "Argo Group US, Inc. 6.5% SR NTS 42 stock price"
+          },
+          {
+            "node_id": "BYSI.price",
+            "roles": [
+              "spouse"
+            ],
+            "display_name": "BeyondSpring Inc. stock price"
+          },
+          {
+            "node_id": "GUSD.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "Gravity price"
+          },
+          {
+            "node_id": "HSIC.price",
+            "roles": [
+              "spouse"
+            ],
+            "display_name": "Henry Schein, Inc. stock price"
+          },
+          {
+            "node_id": "IMOUSD.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "IMO price"
+          },
+          {
+            "node_id": "JBHT.price",
+            "roles": [
+              "spouse"
+            ],
+            "display_name": "J.B. Hunt Transport Services, Inc. stock price"
+          },
+          {
+            "node_id": "LEADUSD.price",
+            "roles": [
+              "child"
+            ],
+            "display_name": "Lead Wallet price"
+          }
+        ],
+        "total_candidate_count": 20,
+        "truncated": true,
+        "edge_semantics": "markov_blanket_membership",
+        "display_name": "JPMorgan Chase & Co. stock price"
+      },
+      "provenance": {
+        "algorithm": "primitive.explain",
+        "graph_version": "CausalNodeV3",
+        "computation_time_ms": 20,
+        "server_name": "abel-graph-computer",
+        "server_version": "0.1.0",
+        "cap_spec_version": "0.2.2"
+      }
+    },
+    "observe": {
+      "ok": true,
+      "status_code": 200,
+      "cap_version": "0.2.2",
+      "request_id": "6a29c40d-1d52-496d-bbd5-eef5e7146b5c",
+      "verb": "observe.predict",
+      "status": "success",
+      "result": {
+        "target_node": "JPM.price",
+        "prediction": 0.0,
+        "drivers": [
+          "ONEUSD.price",
+          "SANTOSUSD.price",
+          "IMOUSD.price",
+          "GUSD.price",
+          "AIZN.price",
+          "MBPUSD.price",
+          "AREB.price",
+          "TAJUSD.price"
+        ]
+      },
+      "provenance": {
+        "algorithm": "primitive.predict",
+        "graph_version": "CausalNodeV3",
+        "computation_time_ms": 9,
+        "server_name": "abel-graph-computer",
+        "server_version": "0.1.0",
+        "cap_spec_version": "0.2.2"
+      }
+    },
+    "traverse_parents": {
+      "ok": true,
+      "status_code": 200,
+      "cap_version": "0.2.2",
+      "request_id": "460c4f90-cd1e-4408-becf-a9cf52369f44",
+      "verb": "traverse.parents",
+      "status": "success",
+      "result": {
+        "reasoning_mode": "identified_causal_effect",
+        "identification_status": "identified",
+        "assumptions": [
+          "causal_sufficiency",
+          "faithfulness",
+          "no_instantaneous_effects",
+          "no_latent_confounders_addressed",
+          "abel_structural_summary_only",
+          "abel_hidden_field_policy"
+        ],
+        "node_id": "JPM.price",
+        "direction": "parents",
+        "nodes": [
+          {
+            "node_id": "AIZN.price",
+            "display_name": "Assurant, Inc. 5.25% Subordinat stock price"
+          },
+          {
+            "node_id": "AREB.price",
+            "display_name": "American Rebel Holdings, Inc. stock price"
+          },
+          {
+            "node_id": "GUSD.price",
+            "display_name": "Gravity price"
+          },
+          {
+            "node_id": "IMOUSD.price",
+            "display_name": "IMO price"
+          },
+          {
+            "node_id": "MBPUSD.price",
+            "display_name": "Mobipad price"
+          },
+          {
+            "node_id": "ONEUSD.price",
+            "display_name": "Harmony price"
+          },
+          {
+            "node_id": "SANTOSUSD.price",
+            "display_name": "Santos FC Fan Token price"
+          },
+          {
+            "node_id": "TAJUSD.price",
+            "display_name": "TajCoin price"
+          }
+        ],
+        "display_name": "JPMorgan Chase & Co. stock price"
+      },
+      "provenance": {
+        "algorithm": "primitive.explain",
+        "graph_version": "CausalNodeV3",
+        "computation_time_ms": 14,
+        "server_name": "abel-graph-computer",
+        "server_version": "0.1.0",
+        "cap_spec_version": "0.2.2"
+      }
+    }
+  },
+  "META": {
+    "markov_blanket": {
+      "ok": true,
+      "status_code": 200,
+      "cap_version": "0.2.2",
+      "request_id": "3f06e3e2-6e01-4af0-8f3c-f929068e70ff",
+      "verb": "graph.markov_blanket",
+      "status": "success",
+      "result": {
+        "reasoning_mode": "structural_semantics",
+        "identification_status": "not_applicable",
+        "assumptions": [
+          "causal_sufficiency",
+          "faithfulness",
+          "no_instantaneous_effects",
+          "no_latent_confounders_addressed",
+          "abel_structural_summary_only",
+          "abel_hidden_field_policy"
+        ],
+        "node_id": "META.price",
+        "neighbors": [
+          {
+            "node_id": "BFRI.price",
+            "roles": [
+              "child",
+              "parent"
+            ],
+            "display_name": "Biofrontera Inc. stock price"
+          },
+          {
+            "node_id": "CGLDUSD.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "Celo price"
+          },
+          {
+            "node_id": "DTST.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "Data Storage Corporation stock price"
+          },
+          {
+            "node_id": "ESBA.price",
+            "roles": [
+              "parent",
+              "spouse"
+            ],
+            "display_name": "Empire State Realty OP, L.P. stock price"
+          },
+          {
+            "node_id": "EWTX.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "Edgewise Therapeutics, Inc. stock price"
+          },
+          {
+            "node_id": "FCUV.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "Focus Universal Inc. stock price"
+          },
+          {
+            "node_id": "FIGS.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "FIGS, Inc. stock price"
+          },
+          {
+            "node_id": "HGTY.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "Hagerty, Inc. stock price"
+          },
+          {
+            "node_id": "HOTH.price",
+            "roles": [
+              "child",
+              "parent"
+            ],
+            "display_name": "Hoth Therapeutics, Inc. stock price"
+          },
+          {
+            "node_id": "INNV.price",
+            "roles": [
+              "child",
+              "parent",
+              "spouse"
+            ],
+            "display_name": "InnovAge Holding Corp. stock price"
+          }
+        ],
+        "total_candidate_count": 20,
+        "truncated": true,
+        "edge_semantics": "markov_blanket_membership",
+        "display_name": "Meta Platforms, Inc. stock price"
+      },
+      "provenance": {
+        "algorithm": "primitive.explain",
+        "graph_version": "CausalNodeV3",
+        "computation_time_ms": 22,
+        "server_name": "abel-graph-computer",
+        "server_version": "0.1.0",
+        "cap_spec_version": "0.2.2"
+      }
+    },
+    "observe": {
+      "ok": true,
+      "status_code": 200,
+      "cap_version": "0.2.2",
+      "request_id": "700ddad1-6d93-48b5-84f4-5e5e2910a188",
+      "verb": "observe.predict",
+      "status": "success",
+      "result": {
+        "target_node": "META.price",
+        "prediction": -0.0017,
+        "drivers": [
+          "PSFE.price",
+          "HGTY.price",
+          "IOBT.price",
+          "TGLS.price",
+          "EVAX.price",
+          "OP.price",
+          "HEPS.price",
+          "FIGS.price",
+          "MITQ.price",
+          "UNCY.price"
+        ]
+      },
+      "provenance": {
+        "algorithm": "primitive.predict",
+        "graph_version": "CausalNodeV3",
+        "computation_time_ms": 12,
+        "server_name": "abel-graph-computer",
+        "server_version": "0.1.0",
+        "cap_spec_version": "0.2.2"
+      }
+    },
+    "traverse_parents": {
+      "ok": true,
+      "status_code": 200,
+      "cap_version": "0.2.2",
+      "request_id": "5061de3d-23af-43e2-b273-7b3d0e0108e4",
+      "verb": "traverse.parents",
+      "status": "success",
+      "result": {
+        "reasoning_mode": "identified_causal_effect",
+        "identification_status": "identified",
+        "assumptions": [
+          "causal_sufficiency",
+          "faithfulness",
+          "no_instantaneous_effects",
+          "no_latent_confounders_addressed",
+          "abel_structural_summary_only",
+          "abel_hidden_field_policy"
+        ],
+        "node_id": "META.price",
+        "direction": "parents",
+        "nodes": [
+          {
+            "node_id": "EVAX.price",
+            "display_name": "Evaxion Biotech A/S stock price"
+          },
+          {
+            "node_id": "FIGS.price",
+            "display_name": "FIGS, Inc. stock price"
+          },
+          {
+            "node_id": "HEPS.price",
+            "display_name": "D-Market Elektronik Hizmetler ve Ticaret A.S. stock price"
+          },
+          {
+            "node_id": "HGTY.price",
+            "display_name": "Hagerty, Inc. stock price"
+          },
+          {
+            "node_id": "IOBT.price",
+            "display_name": "IO Biotech, Inc. stock price"
+          },
+          {
+            "node_id": "MITQ.price",
+            "display_name": "Moving iMage Technologies, Inc. stock price"
+          },
+          {
+            "node_id": "OP.price",
+            "display_name": "OceanPal Inc. stock price"
+          },
+          {
+            "node_id": "PSFE.price",
+            "display_name": "Paysafe Limited stock price"
+          },
+          {
+            "node_id": "TGLS.price",
+            "display_name": "Tecnoglass Inc. stock price"
+          },
+          {
+            "node_id": "UNCY.price",
+            "display_name": "Unicycive Therapeutics, Inc. stock price"
+          }
+        ],
+        "display_name": "Meta Platforms, Inc. stock price"
+      },
+      "provenance": {
+        "algorithm": "primitive.explain",
+        "graph_version": "CausalNodeV3",
+        "computation_time_ms": 16,
+        "server_name": "abel-graph-computer",
+        "server_version": "0.1.0",
+        "cap_spec_version": "0.2.2"
+      }
+    }
+  },
+  "TSLA": {
+    "markov_blanket": {
+      "ok": true,
+      "status_code": 200,
+      "cap_version": "0.2.2",
+      "request_id": "10b561e1-2af3-4116-9824-79ac4625c674",
+      "verb": "graph.markov_blanket",
+      "status": "success",
+      "result": {
+        "reasoning_mode": "structural_semantics",
+        "identification_status": "not_applicable",
+        "assumptions": [
+          "causal_sufficiency",
+          "faithfulness",
+          "no_instantaneous_effects",
+          "no_latent_confounders_addressed",
+          "abel_structural_summary_only",
+          "abel_hidden_field_policy"
+        ],
+        "node_id": "TSLA.price",
+        "neighbors": [
+          {
+            "node_id": "IMOUSD.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "IMO price"
+          },
+          {
+            "node_id": "SFIUSD.price",
+            "roles": [
+              "parent"
+            ],
+            "display_name": "saffron.finance price"
+          }
+        ],
+        "total_candidate_count": 2,
+        "truncated": false,
+        "edge_semantics": "markov_blanket_membership",
+        "display_name": "Tesla, Inc. stock price"
+      },
+      "provenance": {
+        "algorithm": "primitive.explain",
+        "graph_version": "CausalNodeV3",
+        "computation_time_ms": 8,
+        "server_name": "abel-graph-computer",
+        "server_version": "0.1.0",
+        "cap_spec_version": "0.2.2"
+      }
+    },
+    "observe": {
+      "ok": true,
+      "status_code": 200,
+      "cap_version": "0.2.2",
+      "request_id": "4782ac43-1552-440a-8cac-8862387f43e2",
+      "verb": "observe.predict",
+      "status": "success",
+      "result": {
+        "target_node": "TSLA.price",
+        "prediction": 0.0105,
+        "drivers": [
+          "SFIUSD.price",
+          "IMOUSD.price"
+        ]
+      },
+      "provenance": {
+        "algorithm": "primitive.predict",
+        "graph_version": "CausalNodeV3",
+        "computation_time_ms": 12,
+        "server_name": "abel-graph-computer",
+        "server_version": "0.1.0",
+        "cap_spec_version": "0.2.2"
+      }
+    },
+    "traverse_parents": {
+      "ok": true,
+      "status_code": 200,
+      "cap_version": "0.2.2",
+      "request_id": "fa95753e-5931-4960-8d28-33dd04e8372c",
+      "verb": "traverse.parents",
+      "status": "success",
+      "result": {
+        "reasoning_mode": "identified_causal_effect",
+        "identification_status": "identified",
+        "assumptions": [
+          "causal_sufficiency",
+          "faithfulness",
+          "no_instantaneous_effects",
+          "no_latent_confounders_addressed",
+          "abel_structural_summary_only",
+          "abel_hidden_field_policy"
+        ],
+        "node_id": "TSLA.price",
+        "direction": "parents",
+        "nodes": [
+          {
+            "node_id": "IMOUSD.price",
+            "display_name": "IMO price"
+          },
+          {
+            "node_id": "SFIUSD.price",
+            "display_name": "saffron.finance price"
+          }
+        ],
+        "display_name": "Tesla, Inc. stock price"
+      },
+      "provenance": {
+        "algorithm": "primitive.explain",
+        "graph_version": "CausalNodeV3",
+        "computation_time_ms": 15,
+        "server_name": "abel-graph-computer",
+        "server_version": "0.1.0",
+        "cap_spec_version": "0.2.2"
+      }
+    }
+  }
+}

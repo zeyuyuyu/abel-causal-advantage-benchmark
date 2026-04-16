@@ -124,3 +124,18 @@ python3 scripts/build_final_1000.py
 ## License
 
 Apache 2.0. Individual benchmark datasets retain their original licenses.
+
+## Available for Future Expansion
+
+Additional central bank communication datasets downloaded but not yet evaluated:
+
+| Dataset | Entries | Coverage |
+|---------|---------|----------|
+| `aufklarer/central-bank-communications` | 10,899 labeled | 26 central banks (Fed, ECB, BoJ, BoE, RBA, BoC...), 1995-2026 |
+| `Moritz-Pfeifer/CentralBankCommunication/ECB` | 2,563 | ECB hawkish/dovish |
+| `Moritz-Pfeifer/CentralBankCommunication/FED` | 6,683 | Fed speeches (independent of FOMC minutes) |
+| `Moritz-Pfeifer/CentralBankCommunication/BIS` | 4,212 | Bank for International Settlements |
+| `TextCEsInFinance/fomc-communication-counterfactual` | 494 | Counterfactual FOMC (sentiment-flipped sentences) |
+| ForecastBench expanded | +220 new | Additional FRED + yfinance questions |
+
+The same Abel causal disambiguation pattern (mechanism vs stance) should generalize to ECB, BoE, BoJ communications — potentially yielding hundreds more genuine cases.

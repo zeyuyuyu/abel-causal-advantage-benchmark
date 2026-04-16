@@ -1,0 +1,386 @@
+{
+  "CPI": {
+    "ok": false,
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  "federalFundsEffectiveRate": {
+    "ok": false,
+    "error": "node_id must use Abel public node form '<ticker>.price' or '<ticker>.volume', or a canonical macro node id such as 'CPI'."
+  },
+  "unemploymentRate": {
+    "ok": true,
+    "neighbors": [
+      [
+        "15YearFixedRateMortgageAverage",
+        "15-Year Fixed Mortgage Rate",
+        [
+          "child",
+          "spouse"
+        ]
+      ],
+      [
+        "30YearFixedRateMortgageAverage",
+        "30-Year Fixed Mortgage Rate",
+        [
+          "child",
+          "spouse"
+        ]
+      ],
+      [
+        "CPI",
+        "Consumer Price Index",
+        [
+          "child",
+          "parent",
+          "spouse"
+        ]
+      ],
+      [
+        "GDP",
+        "Gross Domestic Product",
+        [
+          "child",
+          "parent",
+          "spouse"
+        ]
+      ],
+      [
+        "commercialBankInterestRateOnCreditCardPlansAllAccounts",
+        "Credit Card Interest Rate",
+        [
+          "spouse"
+        ]
+      ],
+      [
+        "consumerSentiment",
+        "Consumer Sentiment",
+        [
+          "spouse"
+        ]
+      ],
+      [
+        "durableGoods",
+        "Durable Goods",
+        [
+          "parent",
+          "spouse"
+        ]
+      ],
+      [
+        "industrialProductionTotalIndex",
+        "Industrial Production Index",
+        [
+          "parent",
+          "spouse"
+        ]
+      ],
+      [
+        "inflationRate",
+        "Inflation Rate",
+        [
+          "child",
+          "parent",
+          "spouse"
+        ]
+      ],
+      [
+        "initialClaims",
+        "Initial Claims",
+        [
+          "child",
+          "spouse"
+        ]
+      ]
+    ]
+  },
+  "GDP": {
+    "ok": true,
+    "neighbors": [
+      [
+        "15YearFixedRateMortgageAverage",
+        "15-Year Fixed Mortgage Rate",
+        [
+          "child",
+          "parent",
+          "spouse"
+        ]
+      ],
+      [
+        "30YearFixedRateMortgageAverage",
+        "30-Year Fixed Mortgage Rate",
+        [
+          "child",
+          "parent",
+          "spouse"
+        ]
+      ],
+      [
+        "CPI",
+        "Consumer Price Index",
+        [
+          "child",
+          "parent",
+          "spouse"
+        ]
+      ],
+      [
+        "GDP",
+        "Gross Domestic Product",
+        [
+          "child",
+          "parent"
+        ]
+      ],
+      [
+        "commercialBankInterestRateOnCreditCardPlansAllAccounts",
+        "Credit Card Interest Rate",
+        [
+          "child",
+          "parent",
+          "spouse"
+        ]
+      ],
+      [
+        "consumerSentiment",
+        "Consumer Sentiment",
+        [
+          "child",
+          "parent",
+          "spouse"
+        ]
+      ],
+      [
+        "durableGoods",
+        "Durable Goods",
+        [
+          "child",
+          "parent",
+          "spouse"
+        ]
+      ],
+      [
+        "federalFunds",
+        "Federal Funds Rate",
+        [
+          "child",
+          "spouse"
+        ]
+      ],
+      [
+        "industrialProductionTotalIndex",
+        "Industrial Production Index",
+        [
+          "child",
+          "parent",
+          "spouse"
+        ]
+      ],
+      [
+        "inflation",
+        "Inflation",
+        [
+          "child",
+          "spouse"
+        ]
+      ]
+    ]
+  },
+  "consumerSentiment": {
+    "ok": true,
+    "neighbors": [
+      [
+        "15YearFixedRateMortgageAverage",
+        "15-Year Fixed Mortgage Rate",
+        [
+          "child",
+          "parent",
+          "spouse"
+        ]
+      ],
+      [
+        "30YearFixedRateMortgageAverage",
+        "30-Year Fixed Mortgage Rate",
+        [
+          "child",
+          "parent",
+          "spouse"
+        ]
+      ],
+      [
+        "CPI",
+        "Consumer Price Index",
+        [
+          "child",
+          "parent",
+          "spouse"
+        ]
+      ],
+      [
+        "GDP",
+        "Gross Domestic Product",
+        [
+          "child",
+          "parent",
+          "spouse"
+        ]
+      ],
+      [
+        "consumerSentiment",
+        "Consumer Sentiment",
+        [
+          "child",
+          "parent"
+        ]
+      ],
+      [
+        "durableGoods",
+        "Durable Goods",
+        [
+          "spouse"
+        ]
+      ],
+      [
+        "federalFunds",
+        "Federal Funds Rate",
+        [
+          "spouse"
+        ]
+      ],
+      [
+        "industrialProductionTotalIndex",
+        "Industrial Production Index",
+        [
+          "spouse"
+        ]
+      ],
+      [
+        "inflation",
+        "Inflation",
+        [
+          "spouse"
+        ]
+      ],
+      [
+        "inflationRate",
+        "Inflation Rate",
+        [
+          "child",
+          "parent",
+          "spouse"
+        ]
+      ]
+    ]
+  },
+  "m1MoneyStock": {
+    "ok": false,
+    "error": "node_id must use Abel public node form '<ticker>.price' or '<ticker>.volume', or a canonical macro node id such as 'CPI'."
+  },
+  "SP500": {
+    "ok": false,
+    "error": "node_id must use Abel public node form '<ticker>.price' or '<ticker>.volume', or a canonical macro node id such as 'CPI'."
+  },
+  "30YearFixedRateMortgageAverage": {
+    "ok": true,
+    "neighbors": [
+      [
+        "30YearFixedRateMortgageAverage",
+        "30-Year Fixed Mortgage Rate",
+        [
+          "child",
+          "parent"
+        ]
+      ],
+      [
+        "3MonthOr90DayRatesAndYieldsCertificatesOfDeposit",
+        "3-Month Certificate of Deposit Yield",
+        [
+          "child",
+          "parent",
+          "spouse"
+        ]
+      ],
+      [
+        "CPI",
+        "Consumer Price Index",
+        [
+          "child",
+          "parent",
+          "spouse"
+        ]
+      ],
+      [
+        "GDP",
+        "Gross Domestic Product",
+        [
+          "child",
+          "parent",
+          "spouse"
+        ]
+      ],
+      [
+        "commercialBankInterestRateOnCreditCardPlansAllAccounts",
+        "Credit Card Interest Rate",
+        [
+          "child",
+          "parent",
+          "spouse"
+        ]
+      ],
+      [
+        "consumerSentiment",
+        "Consumer Sentiment",
+        [
+          "child",
+          "parent",
+          "spouse"
+        ]
+      ],
+      [
+        "durableGoods",
+        "Durable Goods",
+        [
+          "child",
+          "parent",
+          "spouse"
+        ]
+      ],
+      [
+        "federalFunds",
+        "Federal Funds Rate",
+        [
+          "child",
+          "parent",
+          "spouse"
+        ]
+      ],
+      [
+        "industrialProductionTotalIndex",
+        "Industrial Production Index",
+        [
+          "parent",
+          "spouse"
+        ]
+      ],
+      [
+        "inflation",
+        "Inflation",
+        [
+          "child",
+          "spouse"
+        ]
+      ]
+    ]
+  },
+  "10YearTreasuryConstantMaturityRate": {
+    "ok": false,
+    "error": "node_id must use Abel public node form '<ticker>.price' or '<ticker>.volume', or a canonical macro node id such as 'CPI'."
+  },
+  "moodySeasBaaCorporateBondYield": {
+    "ok": false,
+    "error": "node_id must use Abel public node form '<ticker>.price' or '<ticker>.volume', or a canonical macro node id such as 'CPI'."
+  },
+  "tradeWeightedUSDollarIndex": {
+    "ok": false,
+    "error": "node_id must use Abel public node form '<ticker>.price' or '<ticker>.volume', or a canonical macro node id such as 'CPI'."
+  }
+}

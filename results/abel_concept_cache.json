@@ -1,0 +1,82 @@
+{
+  "interest rate": {
+    "federalFundsEffectiveRate": {
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    "CPI": {
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  },
+  "bond yield": {
+    "moodySeasBaaCorporateBondYield": {
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    "CPI": {
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  },
+  "treasury yield": {
+    "10YearTreasuryConstantMaturityRate": {
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    "CPI": {
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  },
+  "unemployment": {
+    "unemploymentRate": {
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    "GDP": {
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  },
+  "inflation": {
+    "CPI": {
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    "consumerSentiment": {
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  },
+  "federal reserve": {
+    "federalFundsEffectiveRate": {
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    "GDP": {
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  },
+  "exchange rate": {
+    "tradeWeightedUSDollarIndex": {
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    "CPI": {
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  },
+  "money supply": {
+    "m1MoneyStock": {
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    "GDP": {
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  },
+  "mortgage": {
+    "30YearFixedRateMortgageAverage": {
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    "CPI": {
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  },
+  "stock market": {
+    "SP500": {
+      "error": "HTTP Error 429: Too Many Requests"
+    },
+    "GDP": {
+      "error": "HTTP Error 429: Too Many Requests"
+    }
+  }
+}

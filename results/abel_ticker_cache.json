@@ -1,0 +1,785 @@
+{
+  "AAPL": {
+    "neighbors": [
+      [
+        "AREB.price",
+        "American Rebel Holdings, Inc. stock price"
+      ],
+      [
+        "PRIMEUSD.price",
+        "Echelon Prime price"
+      ]
+    ],
+    "display_name": "Apple Inc. stock price",
+    "prediction": {
+      "target_node": "AAPL.price",
+      "target_display_name": "Apple Inc. stock price",
+      "resolved_target_time": "2026-04-18T14:00:00Z",
+      "prediction": 0.0025,
+      "drivers": [
+        "PRIMEUSD.price",
+        "AREB.price"
+      ],
+      "driver_nodes": [
+        {
+          "node_id": "PRIMEUSD.price",
+          "display_name": "Echelon Prime price"
+        },
+        {
+          "node_id": "AREB.price",
+          "display_name": "American Rebel Holdings, Inc. stock price"
+        }
+      ]
+    }
+  },
+  "AMD": {
+    "neighbors": [],
+    "display_name": "Advanced Micro Devices, Inc. stock price",
+    "prediction_error": "Prediction is temporarily unavailable for this node."
+  },
+  "AMZN": {
+    "neighbors": [
+      [
+        "BTTUSD.price",
+        "BitTorrent(New) price"
+      ],
+      [
+        "FIEE.price",
+        "FiEE, Inc. stock price"
+      ],
+      [
+        "GRNT.price",
+        "Granite Ridge Resources, Inc stock price"
+      ],
+      [
+        "LAYERUSD.price",
+        "UniLayer price"
+      ],
+      [
+        "LSDUSD.price",
+        "Liquid Staking Derivatives price"
+      ]
+    ],
+    "display_name": "Amazon.com, Inc. stock price",
+    "prediction": {
+      "target_node": "AMZN.price",
+      "target_display_name": "Amazon.com, Inc. stock price",
+      "resolved_target_time": "2026-04-14T19:00:00Z",
+      "prediction": 0.0011,
+      "drivers": [
+        "BTTUSD.price",
+        "REVB.price",
+        "OPAL.price",
+        "LAYERUSD.price",
+        "FIEE.price",
+        "LSDUSD.price",
+        "GRNT.price",
+        "MBPUSD.price"
+      ],
+      "driver_nodes": [
+        {
+          "node_id": "BTTUSD.price",
+          "display_name": "BitTorrent(New) price"
+        },
+        {
+          "node_id": "REVB.price",
+          "display_name": "Revelation Biosciences, Inc. stock price"
+        },
+        {
+          "node_id": "OPAL.price",
+          "display_name": "OPAL Fuels Inc. stock price"
+        },
+        {
+          "node_id": "LAYERUSD.price",
+          "display_name": "UniLayer price"
+        },
+        {
+          "node_id": "FIEE.price",
+          "display_name": "FiEE, Inc. stock price"
+        },
+        {
+          "node_id": "LSDUSD.price",
+          "display_name": "Liquid Staking Derivatives price"
+        },
+        {
+          "node_id": "GRNT.price",
+          "display_name": "Granite Ridge Resources, Inc stock price"
+        },
+        {
+          "node_id": "MBPUSD.price",
+          "display_name": "Mobipad price"
+        }
+      ]
+    }
+  },
+  "DIS": {
+    "neighbors": [
+      [
+        "ABBCUSD.price",
+        "ABBC Coin price"
+      ],
+      [
+        "AGNCO.price",
+        "AGNC Investment Corp. stock price"
+      ],
+      [
+        "ATH-PA.price",
+        "Athene Holding Ltd. stock price"
+      ],
+      [
+        "CIM-PD.price",
+        "Chimera Investment Corporation stock price"
+      ],
+      [
+        "MOOVUSD.price",
+        "Dotmoovs price"
+      ]
+    ],
+    "display_name": "The Walt Disney Company stock price",
+    "prediction": {
+      "target_node": "DIS.price",
+      "target_display_name": "The Walt Disney Company stock price",
+      "resolved_target_time": "2026-04-13T16:00:00Z",
+      "prediction": 0.0008,
+      "drivers": [
+        "ABBCUSD.price",
+        "PRIMEUSD.price",
+        "CIM-PD.price",
+        "TOONUSD.price",
+        "ATH-PA.price",
+        "MOOVUSD.price",
+        "OXLCP.price",
+        "NLY-PG.price",
+        "AGNCO.price",
+        "VLYPP.price"
+      ],
+      "driver_nodes": [
+        {
+          "node_id": "ABBCUSD.price",
+          "display_name": "ABBC Coin price"
+        },
+        {
+          "node_id": "PRIMEUSD.price",
+          "display_name": "Echelon Prime price"
+        },
+        {
+          "node_id": "CIM-PD.price",
+          "display_name": "Chimera Investment Corporation stock price"
+        },
+        {
+          "node_id": "TOONUSD.price",
+          "display_name": "Pontoon price"
+        },
+        {
+          "node_id": "ATH-PA.price",
+          "display_name": "Athene Holding Ltd. stock price"
+        },
+        {
+          "node_id": "MOOVUSD.price",
+          "display_name": "Dotmoovs price"
+        },
+        {
+          "node_id": "OXLCP.price",
+          "display_name": "Oxford Lane Capital Corp. stock price"
+        },
+        {
+          "node_id": "NLY-PG.price",
+          "display_name": "Annaly Capital Management, Inc. stock price"
+        },
+        {
+          "node_id": "AGNCO.price",
+          "display_name": "AGNC Investment Corp. stock price"
+        },
+        {
+          "node_id": "VLYPP.price",
+          "display_name": "Valley National Bancorp stock price"
+        }
+      ]
+    }
+  },
+  "GME": {
+    "neighbors": [
+      [
+        "APWC.price",
+        "Asia Pacific Wire & Cable Corporation Limited stock price"
+      ],
+      [
+        "CPCUSD.price",
+        "CPChain price"
+      ],
+      [
+        "DMDUSD.price",
+        "Diamond price"
+      ],
+      [
+        "EPSN.price",
+        "Epsilon Energy Ltd. stock price"
+      ],
+      [
+        "GME.price",
+        "GameStop Corp. stock price"
+      ]
+    ],
+    "display_name": "GameStop Corp. stock price",
+    "prediction": {
+      "target_node": "GME.price",
+      "target_display_name": "GameStop Corp. stock price",
+      "resolved_target_time": "2026-04-13T14:00:00Z",
+      "prediction": -0.0013,
+      "drivers": [
+        "SIEB.price",
+        "EPSN.price",
+        "PYMUSD.price",
+        "APWC.price",
+        "DMDUSD.price",
+        "GME.price",
+        "WODUSD.price",
+        "CPCUSD.price",
+        "YOUSD.price",
+        "LIVEUSD.price"
+      ],
+      "driver_nodes": [
+        {
+          "node_id": "SIEB.price",
+          "display_name": "Siebert Financial Corp. stock price"
+        },
+        {
+          "node_id": "EPSN.price",
+          "display_name": "Epsilon Energy Ltd. stock price"
+        },
+        {
+          "node_id": "PYMUSD.price",
+          "display_name": "Playermon price"
+        },
+        {
+          "node_id": "APWC.price",
+          "display_name": "Asia Pacific Wire & Cable Corporation Limited stock price"
+        },
+        {
+          "node_id": "DMDUSD.price",
+          "display_name": "Diamond price"
+        },
+        {
+          "node_id": "GME.price",
+          "display_name": "GameStop Corp. stock price"
+        },
+        {
+          "node_id": "WODUSD.price",
+          "display_name": "World of Defish price"
+        },
+        {
+          "node_id": "CPCUSD.price",
+          "display_name": "CPChain price"
+        },
+        {
+          "node_id": "YOUSD.price",
+          "display_name": "Yobit Token price"
+        },
+        {
+          "node_id": "LIVEUSD.price",
+          "display_name": "TRONbetLive price"
+        }
+      ]
+    }
+  },
+  "GOOG": {
+    "neighbors": [
+      [
+        "BOGUSD.price",
+        "Bogged price"
+      ],
+      [
+        "BTTUSD.price",
+        "BitTorrent(New) price"
+      ],
+      [
+        "CALIUSD.price",
+        "CaliCoin price"
+      ],
+      [
+        "DHNUSD.price",
+        "Dohrnii price"
+      ],
+      [
+        "FCTRUSD.price",
+        "Factor Dao price"
+      ]
+    ],
+    "display_name": "Alphabet Inc. stock price",
+    "prediction_error": "HTTP Error 429: Too Many Requests",
+    "prediction": {
+      "target_node": "GOOG.price",
+      "target_display_name": "Alphabet Inc. stock price",
+      "resolved_target_time": "2026-04-13T19:00:00Z",
+      "prediction": 0.0001,
+      "drivers": [
+        "PAXGUSD.price",
+        "FCTRUSD.price",
+        "RENBTCUSD.price",
+        "PAXUSD.price",
+        "BTTUSD.price",
+        "DHNUSD.price",
+        "BOGUSD.price",
+        "CALIUSD.price",
+        "LEADUSD.price",
+        "XIDRUSD.price"
+      ],
+      "driver_nodes": [
+        {
+          "node_id": "PAXGUSD.price",
+          "display_name": "PAX Gold price"
+        },
+        {
+          "node_id": "FCTRUSD.price",
+          "display_name": "Factor Dao price"
+        },
+        {
+          "node_id": "RENBTCUSD.price",
+          "display_name": "renBTC price"
+        },
+        {
+          "node_id": "PAXUSD.price",
+          "display_name": "Pax Dollar price"
+        },
+        {
+          "node_id": "BTTUSD.price",
+          "display_name": "BitTorrent(New) price"
+        },
+        {
+          "node_id": "DHNUSD.price",
+          "display_name": "Dohrnii price"
+        },
+        {
+          "node_id": "BOGUSD.price",
+          "display_name": "Bogged price"
+        },
+        {
+          "node_id": "CALIUSD.price",
+          "display_name": "CaliCoin price"
+        },
+        {
+          "node_id": "LEADUSD.price",
+          "display_name": "Lead Wallet price"
+        },
+        {
+          "node_id": "XIDRUSD.price",
+          "display_name": "XIDR price"
+        }
+      ]
+    }
+  },
+  "INTC": {
+    "neighbors": [
+      [
+        "CXT.price",
+        "Crane NXT, Co. stock price"
+      ],
+      [
+        "GUARDUSD.price",
+        "Guardian price"
+      ],
+      [
+        "ISAUSD.price",
+        "Islander price"
+      ],
+      [
+        "SBDUSD.price",
+        "Steem Dollars price"
+      ],
+      [
+        "SFIUSD.price",
+        "saffron.finance price"
+      ]
+    ],
+    "display_name": "Intel Corporation stock price",
+    "prediction_error": "HTTP Error 429: Too Many Requests",
+    "prediction": {
+      "target_node": "INTC.price",
+      "target_display_name": "Intel Corporation stock price",
+      "resolved_target_time": "2026-04-13T16:00:00Z",
+      "prediction": 0.0093,
+      "drivers": [
+        "UW3SUSD.price",
+        "UNWUSD.price",
+        "SFIUSD.price",
+        "ULXUSD.price",
+        "ISAUSD.price",
+        "STSOLUSD.price",
+        "CXT.price",
+        "SBDUSD.price",
+        "TRCLUSD.price",
+        "GUARDUSD.price"
+      ],
+      "driver_nodes": [
+        {
+          "node_id": "UW3SUSD.price",
+          "display_name": "Utility Web3Shot price"
+        },
+        {
+          "node_id": "UNWUSD.price",
+          "display_name": "UniWorld price"
+        },
+        {
+          "node_id": "SFIUSD.price",
+          "display_name": "saffron.finance price"
+        },
+        {
+          "node_id": "ULXUSD.price",
+          "display_name": "ULTRON price"
+        },
+        {
+          "node_id": "ISAUSD.price",
+          "display_name": "Islander price"
+        },
+        {
+          "node_id": "STSOLUSD.price",
+          "display_name": "Lido Staked SOL price"
+        },
+        {
+          "node_id": "CXT.price",
+          "display_name": "Crane NXT, Co. stock price"
+        },
+        {
+          "node_id": "SBDUSD.price",
+          "display_name": "Steem Dollars price"
+        },
+        {
+          "node_id": "TRCLUSD.price",
+          "display_name": "Treecle price"
+        },
+        {
+          "node_id": "GUARDUSD.price",
+          "display_name": "Guardian price"
+        }
+      ]
+    }
+  },
+  "JPM": {
+    "neighbors": [
+      [
+        "AIZN.price",
+        "Assurant, Inc. 5.25% Subordinat stock price"
+      ],
+      [
+        "AREB.price",
+        "American Rebel Holdings, Inc. stock price"
+      ],
+      [
+        "GUSD.price",
+        "Gravity price"
+      ],
+      [
+        "IMOUSD.price",
+        "IMO price"
+      ],
+      [
+        "MBPUSD.price",
+        "Mobipad price"
+      ]
+    ],
+    "display_name": "JPMorgan Chase & Co. stock price",
+    "prediction_error": "HTTP Error 429: Too Many Requests",
+    "prediction": {
+      "target_node": "JPM.price",
+      "target_display_name": "JPMorgan Chase & Co. stock price",
+      "resolved_target_time": "2026-04-13T16:00:00Z",
+      "prediction": 0.0,
+      "drivers": [
+        "ONEUSD.price",
+        "SANTOSUSD.price",
+        "IMOUSD.price",
+        "GUSD.price",
+        "AIZN.price",
+        "MBPUSD.price",
+        "AREB.price",
+        "TAJUSD.price"
+      ],
+      "driver_nodes": [
+        {
+          "node_id": "ONEUSD.price",
+          "display_name": "Harmony price"
+        },
+        {
+          "node_id": "SANTOSUSD.price",
+          "display_name": "Santos FC Fan Token price"
+        },
+        {
+          "node_id": "IMOUSD.price",
+          "display_name": "IMO price"
+        },
+        {
+          "node_id": "GUSD.price",
+          "display_name": "Gravity price"
+        },
+        {
+          "node_id": "AIZN.price",
+          "display_name": "Assurant, Inc. 5.25% Subordinat stock price"
+        },
+        {
+          "node_id": "MBPUSD.price",
+          "display_name": "Mobipad price"
+        },
+        {
+          "node_id": "AREB.price",
+          "display_name": "American Rebel Holdings, Inc. stock price"
+        },
+        {
+          "node_id": "TAJUSD.price",
+          "display_name": "TajCoin price"
+        }
+      ]
+    }
+  },
+  "META": {
+    "neighbors": [
+      [
+        "EVAX.price",
+        "Evaxion Biotech A/S stock price"
+      ],
+      [
+        "FIGS.price",
+        "FIGS, Inc. stock price"
+      ],
+      [
+        "HEPS.price",
+        "D-Market Elektronik Hizmetler ve Ticaret A.S. stock price"
+      ],
+      [
+        "HGTY.price",
+        "Hagerty, Inc. stock price"
+      ],
+      [
+        "IOBT.price",
+        "IO Biotech, Inc. stock price"
+      ]
+    ],
+    "display_name": "Meta Platforms, Inc. stock price",
+    "prediction_error": "HTTP Error 429: Too Many Requests",
+    "prediction": {
+      "target_node": "META.price",
+      "target_display_name": "Meta Platforms, Inc. stock price",
+      "resolved_target_time": "2026-04-13T14:00:00Z",
+      "prediction": -0.0017,
+      "drivers": [
+        "PSFE.price",
+        "HGTY.price",
+        "IOBT.price",
+        "TGLS.price",
+        "EVAX.price",
+        "OP.price",
+        "HEPS.price",
+        "FIGS.price",
+        "MITQ.price",
+        "UNCY.price"
+      ],
+      "driver_nodes": [
+        {
+          "node_id": "PSFE.price",
+          "display_name": "Paysafe Limited stock price"
+        },
+        {
+          "node_id": "HGTY.price",
+          "display_name": "Hagerty, Inc. stock price"
+        },
+        {
+          "node_id": "IOBT.price",
+          "display_name": "IO Biotech, Inc. stock price"
+        },
+        {
+          "node_id": "TGLS.price",
+          "display_name": "Tecnoglass Inc. stock price"
+        },
+        {
+          "node_id": "EVAX.price",
+          "display_name": "Evaxion Biotech A/S stock price"
+        },
+        {
+          "node_id": "OP.price",
+          "display_name": "OceanPal Inc. stock price"
+        },
+        {
+          "node_id": "HEPS.price",
+          "display_name": "D-Market Elektronik Hizmetler ve Ticaret A.S. stock price"
+        },
+        {
+          "node_id": "FIGS.price",
+          "display_name": "FIGS, Inc. stock price"
+        },
+        {
+          "node_id": "MITQ.price",
+          "display_name": "Moving iMage Technologies, Inc. stock price"
+        },
+        {
+          "node_id": "UNCY.price",
+          "display_name": "Unicycive Therapeutics, Inc. stock price"
+        }
+      ]
+    }
+  },
+  "MS": {
+    "neighbors": [
+      [
+        "AREB.price",
+        "American Rebel Holdings, Inc. stock price"
+      ],
+      [
+        "IMOUSD.price",
+        "IMO price"
+      ],
+      [
+        "MBPUSD.price",
+        "Mobipad price"
+      ],
+      [
+        "SANTOSUSD.price",
+        "Santos FC Fan Token price"
+      ],
+      [
+        "TOONUSD.price",
+        "Pontoon price"
+      ]
+    ],
+    "display_name": "Morgan Stanley stock price",
+    "prediction_error": "HTTP Error 429: Too Many Requests",
+    "prediction": {
+      "target_node": "MS.price",
+      "target_display_name": "Morgan Stanley stock price",
+      "resolved_target_time": "2026-04-13T16:00:00Z",
+      "prediction": 0.0003,
+      "drivers": [
+        "SANTOSUSD.price",
+        "IMOUSD.price",
+        "TOONUSD.price",
+        "AREB.price",
+        "MBPUSD.price"
+      ],
+      "driver_nodes": [
+        {
+          "node_id": "SANTOSUSD.price",
+          "display_name": "Santos FC Fan Token price"
+        },
+        {
+          "node_id": "IMOUSD.price",
+          "display_name": "IMO price"
+        },
+        {
+          "node_id": "TOONUSD.price",
+          "display_name": "Pontoon price"
+        },
+        {
+          "node_id": "AREB.price",
+          "display_name": "American Rebel Holdings, Inc. stock price"
+        },
+        {
+          "node_id": "MBPUSD.price",
+          "display_name": "Mobipad price"
+        }
+      ]
+    }
+  },
+  "MSFT": {
+    "neighbors": [
+      [
+        "DARKUSD.price",
+        "Dark Frontiers price"
+      ],
+      [
+        "IMOUSD.price",
+        "IMO price"
+      ],
+      [
+        "ISAUSD.price",
+        "Islander price"
+      ],
+      [
+        "PACOCAUSD.price",
+        "Pacoca price"
+      ],
+      [
+        "ROOMUSD.price",
+        "OptionRoom price"
+      ]
+    ],
+    "display_name": "Microsoft Corporation stock price",
+    "prediction_error": "HTTP Error 429: Too Many Requests",
+    "prediction": {
+      "target_node": "MSFT.price",
+      "target_display_name": "Microsoft Corporation stock price",
+      "resolved_target_time": "2026-04-19T20:00:00Z",
+      "prediction": 0.0025,
+      "drivers": [
+        "IMOUSD.price",
+        "ISAUSD.price",
+        "DARKUSD.price",
+        "PACOCAUSD.price",
+        "XEDUSD.price",
+        "ROOMUSD.price"
+      ],
+      "driver_nodes": [
+        {
+          "node_id": "IMOUSD.price",
+          "display_name": "IMO price"
+        },
+        {
+          "node_id": "ISAUSD.price",
+          "display_name": "Islander price"
+        },
+        {
+          "node_id": "DARKUSD.price",
+          "display_name": "Dark Frontiers price"
+        },
+        {
+          "node_id": "PACOCAUSD.price",
+          "display_name": "Pacoca price"
+        },
+        {
+          "node_id": "XEDUSD.price",
+          "display_name": "Exeedme price"
+        },
+        {
+          "node_id": "ROOMUSD.price",
+          "display_name": "OptionRoom price"
+        }
+      ]
+    }
+  },
+  "NVDA": {
+    "neighbors": [],
+    "display_name": "NVIDIA Corporation stock price",
+    "prediction_error": "Prediction is temporarily unavailable for this node."
+  },
+  "TSLA": {
+    "neighbors": [
+      [
+        "IMOUSD.price",
+        "IMO price"
+      ],
+      [
+        "SFIUSD.price",
+        "saffron.finance price"
+      ]
+    ],
+    "display_name": "Tesla, Inc. stock price",
+    "prediction_error": "HTTP Error 429: Too Many Requests",
+    "prediction": {
+      "target_node": "TSLA.price",
+      "target_display_name": "Tesla, Inc. stock price",
+      "resolved_target_time": "2026-04-25T20:00:00Z",
+      "prediction": 0.0105,
+      "drivers": [
+        "SFIUSD.price",
+        "IMOUSD.price"
+      ],
+      "driver_nodes": [
+        {
+          "node_id": "SFIUSD.price",
+          "display_name": "saffron.finance price"
+        },
+        {
+          "node_id": "IMOUSD.price",
+          "display_name": "IMO price"
+        }
+      ]
+    }
+  }
+}
