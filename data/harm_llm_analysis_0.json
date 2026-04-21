@@ -1,0 +1,681 @@
+[
+ {
+  "text": "japanese export growth has slowed considerably in recent months and some categories have actu ally registered declines",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel saw 'growth has slowed' and 'declines' and pattern-matched to weakening activity -> dovish, but in a Japanese/US-trade context slower Japanese exports means reduced import competition and a hawkish demand-shift toward US producers; Abel's blanket has no trade-balance node to capture this substitution channel."
+ },
+ {
+  "text": "in the first place our manufacturing sector is not nearly as bad off as some would have us believe and the potential for significant advances in productivity is at hand",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "The statement is a positive reassessment of manufacturing and a forward-looking productivity claim, which is hawkish (stronger output/potential), but Abel's stance-vs-mechanism heuristic flattened a rhetorical rebuttal ('not as bad off') into a 'descriptive/neutral' observation instead of recognizing optimism about supply capacity."
+ },
+ {
+  "text": "these circumstances should help our net export position",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Improved net exports raise aggregate demand and GDP -> hawkish, but the sentence lacks explicit inflation/rate/unemployment keywords, so Abel's Markov-blanket pass found no node to attach to and defaulted to neutral rather than tracing exports -> GDP -> policy."
+ },
+ {
+  "text": "the present system also provides too little incentive for capital investment during periods of high inflation and financial uncertainty liberalized depreciation allowances should certainly be given pr",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "The speaker is lamenting that high inflation discourages capital investment (dovish concern about weak investment), but Abel saw 'high inflation' as a hawkish token and a tax-policy recommendation as off-blanket, netting to neutral instead of reading the investment-weakness signal."
+ },
+ {
+  "text": "with spending by the federal government expected to slow activities in these industries may be hampered",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Expected fiscal slowdown hampering industry activity is a negative demand shock -> dovish, but Abel likely mapped 'government spending slow' to fiscal tightening/anti-inflation and classified it hawkish, missing that the monetary-policy-relevant signal is the demand weakness in downstream industries."
+ },
+ {
+  "text": "in the process many ndividua1s and coipanies are disappointed that they cannot secure the funds to buy what ther want right away",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Households and firms unable to secure funds signals tight credit conditions constraining demand -> dovish, but Abel read 'cannot secure funds' as evidence of restrictive policy working as intended (hawkish) rather than as a constraint on spending/output the central bank may need to relieve."
+ },
+ {
+  "text": "the data are pretty consistent with what i have been hearing from my directors and other contacts for some time businesses that primarily supply the consumer sector have been experiencing stronger dem",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "'Stronger demand' in the consumer sector is textbook hawkish demand strength, but Abel likely latched onto an earlier qualifier or the truncated tail and flipped signs, or misread a Beige-Book style 'consistent with...' hedging as weakness."
+ },
+ {
+  "text": "that development in turn could make it more difficult during downturns for monetary policy to support household spending business investment and employment and keep inflation from falling too low4 ano",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "The concern that policy may struggle to prevent inflation from 'falling too low' is explicitly about disinflation risk at the lower bound -> dovish, but Abel treated the sentence as a meta-discussion of policy mechanics (a 'framework' observation) and flattened it to neutral instead of scoring the below-target-inflation worry."
+ },
+ {
+  "text": "in the interest of enhancing our global competitiveness and ensuring continued improvement in living standards for coming generations congress needs to take steps now to trim spending and if that",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "A call for fiscal discipline ('trim spending') to protect competitiveness aligns with tighter aggregate conditions and restrained demand -> hawkish, but Abel treated it as off-blanket fiscal-policy advocacy (congress-facing) and defaulted to neutral instead of tracing fiscal tightness -> lower inflationary pressure."
+ },
+ {
+  "text": "in particular inflation has reduced corporate funds available for investment",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "The sentence highlights inflation's damage to investment capacity (weakening capex channel) which is a dovish growth concern, but Abel saw the keyword 'inflation' and reflexively mapped the sentence to a hawkish inflation-warning stance, ignoring the negative capex mechanism."
+ },
+ {
+  "text": "simplicity there is significant justification for both higher levels and higher quality of capital",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "This is pro-tighter bank capital regulation (higher capital requirements), which is financial-conditions-hawkish, but Abel's Markov blanket has no regulatory/macropru node and it classified the sentence as neutral descriptive rather than recognizing the tightening implication for credit."
+ },
+ {
+  "text": "over the next few months 12month measures of inflation are expected to move above our 2 percent longerrun goal largely reflecting i believe transitory factors such as a run of yearoveryear comparisons",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "The speaker is pre-emptively dismissing an inflation overshoot as 'transitory' base-effects, which is the classic dovish framing for looking through high prints, but Abel's keyword radar caught 'inflation above 2 percent goal' and labelled it hawkish while ignoring the dismissal."
+ },
+ {
+  "text": "using history as a guide we can see that energy and commodity shocks dont fully pass through to other prices",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Arguing that commodity shocks don't fully pass through is a dovish argument for not reacting to headline inflation spikes, but Abel read the sentence as a neutral empirical generalization about pass-through rather than as a policy-relevant dismissal of inflation risk."
+ },
+ {
+  "text": "productivity gains in the motor vehicle industry have been strong and steady over the past 20 years",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Strong sustained productivity gains imply higher potential output and supply capacity -> hawkish via the supply-side channel, but Abel treated the sentence as a historical sector fact with no direct blanket attachment and picked neutral instead of tracing productivity -> output."
+ },
+ {
+  "text": "production rose from 60 per cent of the 195759 average in 1930 to 118 per cent in 1967 thus in 1967 the nations farms produced almost double the 1930 level",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "A doubling of farm output over several decades is a supply-expansion/productivity fact (hawkish via higher potential), but Abel saw a purely historical statistic with no rate/inflation keyword and defaulted to neutral rather than inferring the supply-side implication."
+ },
+ {
+  "text": "we cannot be certain of course that the recent spike in gasoline prices in the united states is behind us especially when crude oil supplies are never fully secure because of the unpredictability of e",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "The speaker flags gasoline price risk as a supply-side headwind threatening consumer purchasing power and growth (dovish concern), but Abel saw 'gasoline price spike' and mapped it directly to inflation-pressure hawkish, missing that oil shocks are treated as negative demand/supply shocks for monetary policy."
+ },
+ {
+  "text": "for priced services a decline in unit costs has been particularly sharp in the electronic payment areas where equipment is more readily substituted for human resources where volume growth has been the",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Declining unit costs paired with strong volume growth is a productivity/supply-capacity gain (hawkish through potential output), but Abel read 'decline in unit costs' as falling prices/disinflation and inverted to dovish, conflating productive efficiency with slack."
+ },
+ {
+  "text": "accordingly production planning required costly inventory safety stocks and backup teams of people to respond to the unanticipated and the misjudged",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Costly safety stocks and backup staffing are inefficiencies that raise production costs and drag on real activity (dovish), but Abel treated the sentence as a neutral operational description because it lacks direct macro nouns in its blanket."
+ },
+ {
+  "text": "it would seem in the selfinterest of these countries to ensure that domestic demands are expanded to take up the slack that will be left by diminishing foreign outlets for their goods resulting from t",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Calling on foreign countries to expand domestic demand to offset lost export markets is a pro-growth/demand-supportive argument (hawkish), but Abel saw both 'expand demand' and 'slack/diminishing outlets' cues and cancelled them to neutral instead of resolving the net policy tilt."
+ },
+ {
+  "text": "dewitt arkansas is another rural community where entrepreneurship is sparking a local revival",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Local economic revival and entrepreneurial expansion is a positive activity signal (hawkish), but Abel sees an anecdote about a specific town with no macro keyword in its blanket and categorizes it as neutral color rather than as a positive growth signal."
+ },
+ {
+  "text": "past deregulation should enable businesses to adapt their organizational structures in response to these new opportunities",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Deregulation enabling adaptive business expansion is supply-side hawkish (higher potential/productivity), but Abel lacks a regulatory/institutional node in its blanket and classified it as neutral descriptive language instead of tracing deregulation -> capacity."
+ },
+ {
+  "text": "the pollution is a social cost of production not paid for or internalized by the firm that generates it",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Externality language implying firms' output is excessive and should be constrained hints at overheated activity/hidden costs (dovish via dampening production), but Abel treated it as abstract economic theory with no blanket node and defaulted to neutral."
+ },
+ {
+  "text": "3 surge in sale of durable goods machinery and large appliances will moderate though recent data shows continued strength",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "The emphasis is 'recent data shows continued strength' in durable-goods spending (hawkish demand), but Abel anchored on 'will moderate' and read it as a forward dovish cooling signal rather than current hawkish strength with a mild forward qualifier."
+ },
+ {
+  "text": "past 10 years the share of these countries in our total exports has risen frcm less than 30 percent to about 37 percent",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "A rising export share indicates stronger external demand for US output (hawkish), but Abel read the sentence as a descriptive trade statistic with no blanket node and defaulted to neutral instead of inferring net-export-driven growth."
+ },
+ {
+  "text": "this would lead to another round of price increases overexpansion and possibly ultimate deflation",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "The punchline is 'possibly ultimate deflation' (dovish tail-risk warning), but Abel anchored on the earlier 'price increases' and 'overexpansion' as hawkish inflation/overheating signals and missed that the sentence's conclusion is a deflation/bust concern."
+ },
+ {
+  "text": "today we are experiencing a great technological revolutiona communications revolution",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "A technology revolution implies productivity/supply gains and higher potential output (hawkish), but Abel treated the sentence as non-quantitative rhetoric with no blanket attachment and picked neutral instead of reasoning about productivity."
+ },
+ {
+  "text": "investment in equipment and software has been rather strong although much of this capital spending has up to now been aimed at productivity enhancement or necessary replacement and maintenance not gro",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Strong equipment/software investment is a hawkish capex/growth signal regardless of its purpose, but Abel latched onto the qualifier 'not growth' and cancelled it with the 'rather strong' cue to neutral instead of recognizing the aggregate investment strength."
+ },
+ {
+  "text": "while we need exchange rate adaptability to match changes in underlying economic circumstances we should be wary of any tendency to believe that domestic producers should be sheltered from competition",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Warning against protection of domestic producers implies accepting more foreign competition and weaker pricing power at home (dovish for domestic activity/prices), but Abel likely read 'exchange rate adaptability' plus 'wary of sheltering' as an anti-stimulus/pro-discipline hawkish stance."
+ },
+ {
+  "text": "but those willing to adapt to market conditicns and meet the needs of the marketplace will continue to do well even in competition with large nationwide firms",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "An optimistic outlook for adaptable small firms continuing to thrive is a hawkish real-activity signal, but Abel parsed it as generic business-advice rhetoric with no macro node and defaulted to neutral."
+ },
+ {
+  "text": "that legacy has inspired innovation and inventive activity for over 100 years and stands as an incredible accomplishment and testament to americas entrepreneurial spirit",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Praising sustained innovation and entrepreneurial activity points to supply-side strength (hawkish via productivity/potential), but Abel read it as pure ceremonial language with no blanket attachment and picked neutral."
+ },
+ {
+  "text": "our inflationary problem meanwhile will be aggravated by rising gas and oil prices",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Oil-driven cost-push inflation is a negative supply shock that hurts real incomes and growth (dovish for policy, since central banks typically look through it), but Abel took 'inflation will be aggravated' at face value and labeled it hawkish, missing the cost-push vs demand-pull distinction."
+ },
+ {
+  "text": "this will require among other 12things reduction of obstacles to the expansion of nuclear facilities by our electric utilities and sufficient relaxation of antipollution regulations to encourage muc",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Calling for deregulation to expand energy supply is a supply-side hawkish push (more capacity, lower cost pressure), but Abel parsed 'relaxation of regulations' as loosening/accommodative and inverted to dovish, confusing regulatory loosening with monetary easing."
+ },
+ {
+  "text": "they foster the development of new products and services in response to participants demands creating new opportunities and choices",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "New products/services from innovation imply expanding supply and productivity (hawkish potential-output), but Abel saw abstract praise of markets with no inflation/rates keyword and defaulted to neutral descriptive."
+ },
+ {
+  "text": "similarly the economy has gone through changes that help it better weather the ups and downs of the business cycle",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Claiming the economy is more resilient to cycles is a hawkish statement about macro robustness (supports continued expansion), but Abel read it as a balanced meta-observation with no directional push and defaulted to neutral."
+ },
+ {
+  "text": "actually construction costs have risen about 50 percent during the same period",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "In context, rising construction costs are a cost-push drag on real building activity (dovish for output), but Abel saw 'costs have risen 50 percent' as a raw inflation signal and flagged it hawkish rather than reading the affordability/real-activity drag."
+ },
+ {
+  "text": "even this must be weighed against the near certainty of considerably higher meat prices",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Higher food prices operate like an adverse supply shock reducing real household purchasing power (dovish for real demand), but Abel's inflation-keyword path anchored on 'higher meat prices' and classified the statement as inflationary/hawkish."
+ },
+ {
+  "text": "purchased inputs in farming have increased rising from an average of 49 percent of gross farm income in 191014 to 71 percent in 1972",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Rising input cost share squeezes farm margins and implies a cost-push drag on a key sector (dovish), but Abel read a historical ratio fact with no blanket match and classified it neutral."
+ },
+ {
+  "text": "software and capital goods embodying newer information and communications technology are a major export of the united states",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Tech-capital exports signal high-value foreign demand boosting US GDP (hawkish), but Abel treated it as a static trade-composition fact with no blanket node and defaulted to neutral."
+ },
+ {
+  "text": "that is a huge difference and one of the unintended consequences is that midwestern candy factories are relocating to countries such as canada where the price of sugar is not artificially increased",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Factories relocating abroad due to distortionary US sugar pricing is a negative activity/employment signal (dovish), but Abel saw 'price artificially increased' as an inflation-policy complaint and couldn't map relocation to its employment/GDP nodes, defaulting to neutral."
+ },
+ {
+  "text": "some of it however represents loans for the purchase of additional land and equipment or livestock which may well represent efforts to improe efficiency of farm operaticnsrather than losses",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Reinterpreting rising farm loans as productivity-improving capex (not distress) is a hawkish reassessment of real activity, but Abel read 'loans... rather than losses' as a hedge/neutralization and picked neutral instead of the positive reframing."
+ },
+ {
+  "text": "the productivity comparisons reflect the fact that we spend less than 10 percent of our cnp on capital investment whereas the germans spend 15 percent and the japanese spend more than 20 percent of gn",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "The US lagging Germany and Japan on investment share is a dovish complaint about weak capital deepening and potential, but Abel treated cross-country investment ratios as an off-blanket descriptive comparison and defaulted to neutral."
+ },
+ {
+  "text": "otherwise imports would grow rapidly and our exports would lose their ability to penetrate foreign markets",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "A scenario of surging imports and weakening exports is a negative net-export/GDP shock (dovish), but Abel parsed the conditional 'otherwise... would' as hypothetical and couldn't resolve a direction on its blanket, picking neutral."
+ },
+ {
+  "text": "china is also a growing market for investment and exports by us firms",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "A growing Chinese export/investment market for US firms is a positive external-demand boost to GDP (hawkish), but Abel treated it as a neutral statement about bilateral trade with no inflation/rate token to latch onto."
+ },
+ {
+  "text": "such diets which include more animal products will 4 contribute to a higher export demand for us farm products",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Higher foreign food demand boosting US farm exports is a hawkish external-demand signal, but Abel saw a niche sectoral forecast with no blanket attachment and defaulted to neutral."
+ },
+ {
+  "text": "improved strategic planning and marketing tighter control of operating expenses reduction of unnecessary overhead greater use of computers communications technology and atts increased fees for service",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "A list of efficiency gains (cost control, tech adoption) boosts productivity/margins (hawkish via potential output), but Abel parsed it as a descriptive management checklist without a blanket node and classified it neutral."
+ },
+ {
+  "text": "because the dollar price of imported goods rises while that of exported commodities remains unchanged the trade deficit initially worsens especially for trade flows covered by contracts",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "A worsening trade deficit is a near-term drag on GDP (dovish), but Abel treated it as a textbook J-curve explanation and classified the passage as neutral mechanism description rather than scoring the implied near-term growth drag."
+ },
+ {
+  "text": "the advantage of approaching full employment gradually is that it gives sectors time to expand their production and their capacity for future production more efficiently",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Gradual approach to full employment with capacity building ahead is consistent with sustained tightening of the labor market (hawkish), but Abel saw 'gradually' plus 'future capacity' and read it as an easy/accommodative go-slow stance, flipping to dovish."
+ },
+ {
+  "text": "1 state in terms of the value of exports shipped we surpassed california nine years ago",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Surpassing California in export value signals strong export capacity and regional growth (hawkish), but Abel parsed it as a local bragging-rights factoid with no blanket node and defaulted to neutral."
+ },
+ {
+  "text": "runup of farm 4 still another complicating factor was the restricted capacity of raw material producing industries in our country paper wood pulp steel aluminum manmade fiberts etc",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Capacity restrictions in basic materials imply supply bottlenecks that limit output (dovish for real growth), but Abel read 'restricted capacity' as a hawkish-leaning inflation signal and the competing cues cancelled to neutral."
+ },
+ {
+  "text": "at that rate output per hour would double in about 23 years",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "A doubling of labor productivity is a profound supply-side hawkish claim about potential output, but Abel parsed it as an abstract extrapolation with no explicit blanket node and defaulted to neutral."
+ },
+ {
+  "text": "similar problems have plagued practically every industrial country in the world",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Saying the same problems plague every industrial country is a dovish acknowledgement of widespread macro weakness, but Abel read a generic cross-country observation as non-directional and picked neutral."
+ },
+ {
+  "text": "we assume our competitors will match our aggressive pricing policies and will also accede to high wage demands",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "The sentence describes unrealistic assumptions about competitors in an argument warning of squeezed margins/cost-push drag (dovish for activity), but Abel saw 'aggressive pricing' and 'high wage demands' and triggered an inflation/wage-pressure hawkish read, missing the pessimistic context."
+ },
+ {
+  "text": "and in spite of the cancer scare in great britain and the unfavorable tariffs of the common market tobacco exports reached a sixyear high in the year ending july 1 by way of summing up i want to emph",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Export reaching a six-year high despite headwinds is a hawkish real-activity strength signal, but Abel saw 'cancer scare' and 'unfavorable tariffs' negatives that likely offset the record-high export positive, netting to neutral."
+ },
+ {
+  "text": "as you can see we face numerous challenges both at the national and industry levels",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Acknowledgement of numerous challenges is a mildly dovish framing of downside risk, but Abel treated it as a generic transitional phrase with no concrete macro referent and defaulted to neutral."
+ },
+ {
+  "text": "it raises costs and prices to producers as well as consumers and thereby jeopardizes the progress we have achieved in reducing inflation",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "The sentence warns that some policy raises costs and could undo disinflation progress - a critique implying dovish concern about losing a win, but Abel's keyword pass on 'raises costs and prices' and 'inflation' triggered a hawkish read rather than understanding the criticism."
+ },
+ {
+  "text": "costs hve fallen as prouctivity gains increased",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Falling costs from productivity gains is the canonical hawkish supply-side story (higher potential/lower inflation for given output), but Abel saw 'costs have fallen' as disinflationary/demand-weakening and mislabeled it dovish instead of recognizing productivity-led strength."
+ },
+ {
+  "text": "the economy ended 1997 with still very positive fundamentals notwithstanding some apparent weakness in demand in the fourth quarter",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "The emphasis is 'still very positive fundamentals' despite a Q4 blip (hawkish), but Abel anchored on 'weakness in demand in the fourth quarter' and classified the sentence as dovish, missing the 'notwithstanding' framing that subordinates the blip."
+ },
+ {
+  "text": "it was only when horizontal factories newly designed for optimal use of electric power began to dominate our industrial system many years after electricitys initial introduction that productivity clea",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "A historical productivity-takeoff anecdote is used here to argue for higher trend productivity (hawkish potential-output signal), but Abel parsed it as an economic-history digression with no blanket node and defaulted to neutral."
+ },
+ {
+  "text": "during the 1970s inflation increasingly became viewed as a way of life and in the process economic incentives were distorted and our productive energies sapped",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "The sentence describes how embedded inflation sapped productivity and distorted incentives - a dovish-for-activity cautionary tale, but Abel saw '1970s inflation' and classified it as a hawkish inflation-fighting stance rather than the real-activity damage narrative."
+ },
+ {
+  "text": "in the internationalized environment ahead we must seek ways to reorient labor and capital resources away from 6 endeavors that can no longer compete and steer them toward more feasible pursuits",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Reorienting labor/capital away from uncompetitive sectors implies transitional unemployment and idle capital (dovish short-run drag), but Abel parsed it as structural-reform advocacy with no directional stance on its blanket and defaulted to neutral."
+ },
+ {
+  "text": "computers telecommunications and other capital equipment as well as services should remain the leading exports",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Sustained leadership in tech/services exports supports GDP and external demand (hawkish), but Abel read it as a static forecast of trade composition with no blanket node and classified it neutral."
+ },
+ {
+  "text": "to be sure with the us now a major oil producer lower oil prices have also had some negative effects on the us economy",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Lower oil prices having negative effects on US producers is a dovish real-activity signal (energy-sector drag), but Abel saw the classic 'lower oil prices = demand stimulus' frame and the hedge 'some negative effects' cancelled out to neutral."
+ },
+ {
+  "text": "there are issues of efficiency and cost",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Flagging efficiency and cost issues is a subtle dovish critique of frictional drags on activity, but the sentence is nearly contentless and Abel found no blanket node to attach to and defaulted to neutral."
+ },
+ {
+  "text": "in the two decades following world war il america excelled in the rate of productivity improvement",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Past strong productivity is cited approvingly as a benchmark of supply-side strength (hawkish potential), but Abel read it as a historical fact about a distant period with no blanket node and defaulted to neutral."
+ },
+ {
+  "text": "first the demands that we made on the economy for growth and for maximum utilization of human and material capacity were excessive",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Self-criticism that prior demand was 'excessive' implies past overheating that must now be corrected via weaker demand (dovish backward-looking concession), but Abel read 'maximum utilization' plus 'excessive demand' as a hawkish overheating warning rather than a post-hoc acknowledgement."
+ },
+ {
+  "text": "mexico might best be described in economic parlance as an emerged country exports exports exports texas benefits from a stronger mexico in many ways including on the export front",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "A stronger Mexico boosting Texas exports is a direct hawkish external-demand story, but Abel parsed it as a regional commentary with no macro-aggregate node and defaulted to neutral."
+ },
+ {
+  "text": "and its much harder to raise capital when a us treasury bondthe safest investment on earthoffers a pretty decent return",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Higher Treasury yields crowd out private capital raising and reduce investment (dovish for real activity), but Abel saw 'treasury bonds offer decent return' as a sign of higher rates/tightening and mapped it to a hawkish stance, missing the crowding-out drag."
+ },
+ {
+  "text": "in the 1970s w e had what some call a baby bust a dramatic slowdown in the birthrate that is reducing the number of entry level workers in the 1990s",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "A shrinking pool of entry-level workers due to a baby bust is a dovish labor-supply-constraint (lower potential output), but Abel read a demographic fact with no direct inflation/rate attachment and defaulted to neutral."
+ },
+ {
+  "text": "competitors from abroad will have natural cost advantages due to their plentiful labor supply",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Foreign cost advantages from cheap labor imply US firms lose competitiveness (dovish for domestic output), but Abel read it as a neutral cross-country observation about factor endowments without inferring the domestic-activity drag."
+ },
+ {
+  "text": "we all lament the shortages of ustrained engineers for the demand already evident in our economy",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Skilled-labor shortages constrain output and raise wage costs (a supply-side drag / dovish for growth), but Abel saw 'shortages' plus 'demand evident' and flipped to a tight-labor/wage-pressure hawkish read, missing that the speaker is lamenting a capacity problem."
+ },
+ {
+  "text": "these developments relating to work attitudes and the amount of leisure time we are opting for as a society are a relatively neglected aspect i believe of scholarly investigation into the causes of th",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "More leisure / changing work attitudes implies falling labor input and lower potential output (dovish), but Abel read it as meta-commentary about academic research and found nothing in its blanket to latch onto, defaulting to neutral."
+ },
+ {
+  "text": "a second test of capital inadequacy would be an overall insufficiency of our capital stock to employ fully and efficiently our rising labor force after allowance is made for its changing composition",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "A framework for diagnosing capital inadequacy that points to insufficient capital stock for a growing labor force is a dovish concern about weak investment, but Abel read it as abstract methodology with no blanket attachment and picked neutral."
+ },
+ {
+  "text": "again employment costs have risen this year because of sharp increases in the mini mum wage and in socialsecurity taxes",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Higher employment costs driven by minimum wage and payroll taxes are a cost-push drag on hiring and margins (dovish for real activity), but Abel saw 'employment costs have risen' as a hot labor market / wage-pressure signal and tagged it hawkish."
+ },
+ {
+  "text": "a passive policy environment that is friendly to entrepreneurs and to all businesses is one that balances the use of regulations and taxes against the burdens that they impose",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "A business-friendly, low-burden regulatory environment encourages more investment and output (hawkish supply-side), but Abel saw 'passive policy... friendly' and read it as accommodative/loose stance, flipping to dovish instead of recognizing supply-side growth support."
+ },
+ {
+  "text": "one concern i have is that the public instead thinks the fed views 2 percent as a ceiling that it aims to keep inflation under",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "The speaker worries the public mistakes 2% as a ceiling rather than a symmetric target - a classic dovish argument for tolerating inflation above 2% - but Abel saw '2 percent inflation ceiling' and mapped it to a hawkish target-defense stance, inverting the critique."
+ },
+ {
+  "text": "low gasoline prices are a major cause of our overconsumption of imported oil",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Claiming low gas prices drive excessive consumption is an argument for higher prices/taxes to restrain demand (hawkish), but Abel saw 'low gasoline prices' and 'overconsumption' and mapped low prices to disinflationary/dovish and consumption to demand-weakness, landing on dovish."
+ },
+ {
+  "text": "while it is true that energy prices are particularly volatile the prices of other components such as apparel have been more volatile than food prices",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Reordering volatility rankings is a dovish argument for downplaying headline inflation prints by showing volatility is widespread, but Abel's keyword match on 'prices... volatile' triggered an inflation-hawkish read rather than recognizing the look-through argument."
+ },
+ {
+  "text": "together we can begin to ask the important questions about education and public policy and then use what we learn to help build educational systems we can all be proud ofsystems that will help our reg",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Better education builds human capital and raises long-run potential output (hawkish), but Abel has no human-capital node in its blanket and read 'public policy', 'education' and 'help' as social-support/accommodative tone, flipping to dovish."
+ },
+ {
+  "text": "there is general acceptance of the goals of stabilization policy which include high employment rising output and relatively staole prices",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Endorsing stabilization objectives of high employment, rising output, and stable prices aligns with pro-growth/price-discipline (hawkish given stable-price emphasis), but Abel picked up 'high employment' and 'rising output' as dovish accommodation signals and flipped the sign."
+ },
+ {
+  "text": "it is interesting to ask for example whether consumer credit controls might have dampened the recent consumer spending boom",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Musing that credit controls could dampen a spending boom is a dovish observation about the costs of tightening credit to the consumer (demand side), but Abel read 'credit controls' + 'dampen spending boom' as an endorsement of tightening and classified it hawkish."
+ },
+ {
+  "text": "second as views of appropriate policy evolve over time as economic and financial conditions change the public will be able to draw better inferences about the relation between current economic conditi",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "This is about transparency/credibility of policy evolution - a hawkish framework argument (reinforcing policy discipline), but Abel parsed 'views evolve', 'conditions change' as flexible/accommodative-sounding and classified it dovish rather than reading it as commitment/credibility."
+ },
+ {
+  "text": "but community banks do have some key advantages",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Positive framing of community bank competitive advantages implies healthier regional credit provision and real activity (hawkish), but Abel has no banking/financial-intermediary node in its blanket and likely read 'advantages' for small banks as a pro-easy-credit dovish tilt."
+ },
+ {
+  "text": "in part this shift happened because of complementary research that showed how demolitions might work in tandem with other measures to deal with distressed housing",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Referencing distressed-housing demolition policy is a dovish signal of lingering housing weakness requiring intervention, but Abel parsed 'research' and 'measures' as active-policy/hawkish implementation language and missed the underlying housing-market distress."
+ },
+ {
+  "text": "the problem is how to keep economic growth so orderly that industry and commerce can provide increased jobs goods and services without the interruptions that accompany violent dips",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Framing the 'problem' as avoiding 'violent dips' in growth is a dovish concern about downside/recession risk, but Abel saw 'increased jobs, goods and services' and 'orderly growth' as positive growth talk and tagged it hawkish, missing that the speaker's emphasis is on the downside."
+ },
+ {
+  "text": "as community bankers you have worked hard to develop a deep understanding of your local economies while also keeping perspective on the broader economic picture",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Praising community banks' local/national economic expertise is a hawkish endorsement of healthy credit intermediation, but Abel has no financial-intermediation node and read the generally warm audience-praise as supportive/accommodative dovish tone."
+ },
+ {
+  "text": "and i promise that their voices will be heard in washington when policy issues that may affect the ability of community banks to thrive are under consideration",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Protecting community banks' ability to thrive supports healthy credit supply and real activity (hawkish), but Abel read 'voices heard', 'thrive', and supportive language as pro-easier conditions / dovish advocacy rather than a pro-growth financial stability stance."
+ },
+ {
+  "text": "if unemployment reaches the 7 percent range that would constitute a substantial improvement from the 81 percent unemployment rate that prevailed when the committee announced the current program of ass",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Falling unemployment from 8.1% to the 7% range is explicitly described as 'substantial improvement' and a trigger for tapering assistance (hawkish), but Abel's blanket mapped 'unemployment 7 percent' to persistent slack and labeled it dovish, missing the 'improvement' framing and taper context."
+ },
+ {
+  "text": "these include the recent decline in mortgage rates slower house price appreciation which was running 6 to 7 percent in early 2018 and is now in the 3 to 4 percent range and an increase in household fo",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Cooling house price appreciation from an unsustainably hot 6-7% to a healthier 3-4% is a hawkish-normalization signal of sustainable activity, but Abel read 'decline in mortgage rates' and 'slower house price appreciation' as easing/cooling dovish and missed the 'slowing-from-hot-base' hawkish interpretation."
+ },
+ {
+  "text": "i believe that every community has an equal right to market rates on loans and on savings",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Insisting on market-determined rates across communities supports price-discovery/discipline (hawkish), but Abel lacks an institutional/fair-lending node and read 'equal right to rates' as an accommodative/distributive plea and labeled it dovish."
+ },
+ {
+  "text": "we must remind ourselves that educated consumers are more likely to make better choices for themselves and ultimately for our nation and so we must get out and educate them",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Financial/consumer education improves allocative efficiency and long-run output (hawkish), but Abel has no education/human-capital node and read 'educate consumers' as soft/supportive language, picking dovish rather than tracing education -> productivity."
+ },
+ {
+  "text": "on net i do expect the unemployment rate to normalize at close to 5 percent within the next five years",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Expecting unemployment to 'normalize... to 5 percent' from a higher current rate is a hawkish labor-market-tightening forecast, but Abel read 'unemployment 5 percent' as still-elevated slack and labeled it dovish, missing the implied decline to NAIRU."
+ },
+ {
+  "text": "also it must be remembered that these visitors from outside your area do not require schools or the full range of social services attendant upon the growth of permanent population",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Non-resident visitors add to local output without imposing fixed-cost burdens, boosting net regional activity (hawkish), but Abel read a niche local-public-finance observation with no blanket node and went for dovish based on 'do not require... services'."
+ },
+ {
+  "text": "progress on achieving fair and equitable treatment of small depositors will take time but the many innovations in thrift assets and liabilities will ultimately permit fairer returns to small savers as",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Higher returns to small savers via thrift innovation reward saving and support sound financial conditions (hawkish), but Abel has no savings/deposit node and read 'fair treatment', 'small depositors' as consumer-protection/soft framing and labeled it dovish."
+ },
+ {
+  "text": "with respect to the babyboomers absorption of these men and women into the labor force is virtually complete",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Full absorption of the baby-boomer cohort into employment means the labor market is effectively tight on that dimension (hawkish), but Abel parsed 'absorption... virtually complete' as an easing of labor-market pressures rather than exhaustion of slack, flipping to dovish."
+ },
+ {
+  "text": "by real terms i mean that the borrower has to give up a surprising amount of goods and services to be able to afford the repayments",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Highlighting the heavy real burden of debt repayments on borrowers points to a drag on consumption (dovish for demand), but Abel saw 'give up... goods and services' as disinflationary / restrictive-policy working and labeled it hawkish instead of recognizing the consumer-drag."
+ },
+ {
+  "text": "one thing that our long experience with consumer credit has taught us is that the overwhelming majority of borrowers are honest",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Low default risk from honest borrowers supports healthy credit expansion and sustainable growth (hawkish), but Abel read 'consumer credit', 'majority honest' as a permissive/accommodative credit narrative and labeled it dovish rather than a statement about low credit risk."
+ },
+ {
+  "text": "in the end there is reason to believe that these instruments can help importantly to place housing finance on a more solid foundation especially compared to the limited availability or relatively high",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "New instruments making housing finance 'more solid' versus limited/expensive prior options is a structural-improvement story that supports robust credit supply (hawkish), but Abel read 'housing finance', 'more solid foundation' and 'limited availability' as pro-easing/accommodative language and flipped to dovish."
+ }
+]

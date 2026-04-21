@@ -1,0 +1,681 @@
+[
+ {
+  "text": "at home while growth has been reasonably satisfactory unemployment and inflation continue at excessive levels",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel's Markov blanket locks onto 'inflation at excessive levels' and routes to a hawkish tightening response, but the speaker is describing persistent stagflation where unemployment is ALSO excessive - the dovish read captures concern about jobs, not inflation-fighting resolve."
+ },
+ {
+  "text": "mortgages with some of the characteristics of nontraditional mortgage products have been available for many years however they have historically been offered to higherincome borrowers",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel misses the implicit warning about nontraditional mortgage products expanding down-market to riskier borrowers (a financial stability concern that maps hawkish); the benign phrasing 'available for many years' misleads Abel toward a dovish accommodation signal."
+ },
+ {
+  "text": "second growth could remain above trend and the unemployment rate could continue to fall while at the same time inflation fell still further",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel sees 'inflation fell' and 'unemployment fall' as dovish disinflation with room to ease, but this is actually a description of overheating-without-inflation (above-trend growth) which implies the economy is running hot - a hawkish watch-for-risks stance."
+ },
+ {
+  "text": "in addition stimulus payments and a year of reduced spending might have given workers the financial wherewithal to be more selective about pay working conditions or health risks",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel reads 'stimulus payments' and 'reduced spending' through the demand-slack lens (dovish), missing that worker selectivity over pay creates wage pressure and labor supply tightness - an institutional wage-push channel that is hawkish."
+ },
+ {
+  "text": "a rising proportion of the population is also taking advantage of both general adult education and workrelated instruction",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel over-flattens human capital/education content into the social-spending dovish bucket; the Markov blanket has no node for productivity/supply-side growth, so rising skill investment (hawkish via potential-output expansion) gets inverted."
+ },
+ {
+  "text": "we need to pay special attention to the workers affected by such change because this dynamic process helps generate ever higher standards of living",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel latches onto 'workers affected' and 'special attention' as labor-market protection (dovish), missing that the speaker endorses creative-destruction dynamics producing higher living standards - a pro-growth hawkish-leaning supply-side message."
+ },
+ {
+  "text": "equality of economic opportunity appeals to our sense of fairness certainly but it also strengthens our economy",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel's keyword heuristic maps 'fairness/equality' to dovish social concern, but the economic argument is about strengthening productive capacity - Abel lacks a supply-side labor-participation node so it inverts the intent."
+ },
+ {
+  "text": "given the lags in the effects of monetary policy that means we will not be able to wait until the unemployment rate is down close to its longterm level",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel reads 'cannot wait' plus 'unemployment' as pre-emptive tightening (hawkish), but in context the speaker is explaining why they will NOT wait for full employment before easing - a dovish preemption-of-softness message Abel's Markov blanket misreads."
+ },
+ {
+  "text": "it has been an advantage to the bank and has enabled the bank better to serve its conmrunity",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel has no causal node for 'bank functioning well serving community' (a pro-credit-system institutional positive) and defaults the positive-for-banks framing to dovish ease rather than hawkish confidence in financial system strength."
+ },
+ {
+  "text": "in addition households that have worked down debt levels will be less vulnerable and better able to withstand shocks in the future",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel interprets 'worked down debt' as household deleveraging implying weak demand (dovish), missing that reduced household vulnerability increases economic resilience and removes a financial-stability constraint on tightening (hawkish)."
+ },
+ {
+  "text": "this type of performance positions the community banking sector for continued success this year and well into the future helping ensure the preservation of the community bank model for future generati",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel lacks an institutional concept for 'community bank health = credit supply strength = hawkish confidence'; the 'preservation' and 'future generations' language triggers a protective/dovish stance instead of a strength endorsement."
+ },
+ {
+  "text": "jumptarts mission to develop a more financially literate population supports the federal reserves goal of a stable and growing economy",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel has no node for financial-literacy-as-stability-enabler; 'supports' + 'population' reads as accommodative social policy, whereas the actual frame endorses the Fed's stable-growth mandate (a hawkish institutional affirmation)."
+ },
+ {
+  "text": "there is an overwhelming amount of research that demonstrates the importance of educational attainment in helping cities grow and thrive",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Education/human-capital growth arguments map to supply-side potential (hawkish via higher sustainable output), but Abel's Markov blanket routes 'educational attainment' through social-spending/dovish keywords."
+ },
+ {
+  "text": "as people get laid off from jobs with big companies they often start their own new businesses helping to keep the economy resilient",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel fixates on 'laid off' as labor-market weakness (dovish), missing that the sentence frames job losses as catalysts for entrepreneurship and RESILIENCE - a pro-flexibility, hawkish-tilted narrative about productive churn."
+ },
+ {
+  "text": "within the u s adjustments can take place without too much hardship because there are no restraints on labor mobility and people can move where jobs are if jobs wont move where they are",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel's anchor on 'hardship' flags dovish concern, but the argument is a hawkish celebration of frictionless US labor markets enabling adjustment - Abel lacks a concept for labor-market-flexibility reducing structural unemployment."
+ },
+ {
+  "text": "2 bea data show that monthly disposable personal income has been highly uneven over the past 18 months but is up on average since the pandemic started",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel reads 'income up' as hawkish demand signal, but the 'highly uneven' qualifier and pandemic framing point to fragile, transfer-dependent consumer recovery - a dovish caution about support withdrawal."
+ },
+ {
+  "text": "chart i which was passed out demonstrates  these two propositions and helps to illustrate why we  have experienced a high rate of inflation and a high unemployment rate at the same time",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Classic stagflation diagnosis: Abel sees 'high inflation' and routes to hawkish tightening, but the speaker's framing of coincident high unemployment emphasizes the real-economy costs - a dovish acknowledgement that pure tightening would worsen joblessness."
+ },
+ {
+  "text": "job growth has slowed this year but even so payroll employment has expanded by an average of 100000 jobs per month over the last three months",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel anchors on the positive '100k/month' expansion as hawkish labor strength, but the lead phrase 'job growth has slowed' is the dovish signal - Abel fails to weight the deceleration over the level and reverses sign."
+ },
+ {
+  "text": "most of all those rural citizens of a hundred years ago would likely have been astounded to realize that despite all the dislocations huge increases in the standard of living would take place not only",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel picks up 'dislocations' as a dovish distress cue, missing the historical pro-growth/pro-productivity arc celebrating huge living-standard gains - a hawkish-leaning supply-side optimism the Markov blanket can't represent."
+ },
+ {
+  "text": "during 1978 unemployment dropped from about 7 percent to about 6 percent and capacity utilization rates rose from 82 to about 87 thus at the beginning of 1978 there seemed to be plenty of slack in the",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel over-weights the 'plenty of slack' phrase (dovish), but the sentence structurally describes slack disappearing as unemployment fell and utilization rose toward 87% - an overheating diagnosis that supports hawkish tightening."
+ },
+ {
+  "text": "perhaps  the most remarkable of these transformations has  been increased employment opportunities for  blacks and women",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel reads this as dovish social-progress/support language, but the economic content is expanded labor-force participation (a supply-side, hawkish-leaning expansion of potential output) - Abel lacks the participation-rate node."
+ },
+ {
+  "text": "even though outright declines are unlikely to continue as labor markets tighten i think strong productivity trends should help keep overall cost pressures in check",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel latches onto 'cost pressures in check' as disinflationary-dovish, but the speaker is warning labor markets are tightening and only strong productivity can offset wage pressure - a vigilance/hawkish monitoring stance."
+ },
+ {
+  "text": "on the other hand i am personally convinced that blacks would do well to look more to the private sectorand less to public payrollsfor expanded job opportunities in the years ahead",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel defaults 'job opportunities' + 'expanded' to dovish employment language, but the argument favors private-sector/market-based job growth over government payrolls - a hawkish-leaning pro-market structural stance."
+ },
+ {
+  "text": "about how increased global  competition combined with technology to make our stronger growth and lower unemployment less inflationary than in  the past",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel reads 'less inflationary' + 'lower unemployment' as room-to-ease (dovish), but the statement endorses the New Economy thesis permitting stronger growth - a hawkish framing that supports maintaining restrictive posture without fear of tradeoff."
+ },
+ {
+  "text": "as i said i believe that the progress in labor markets has been good and will continue and i view the inflation data as supportive of a gradual return to target",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel sees 'gradual return to target' as patient easing (dovish), missing that 'continued labor-market progress' plus inflation on-trajectory back to target means staying the hawkish course - not a pivot to cuts."
+ },
+ {
+  "text": "but financial conditions at the household level are currently quite conducive to increased spending and the tax cut will help",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel reads 'tax cut will help' as accommodative stimulus (dovish), but strong household financial conditions plus fiscal stimulus adds to demand pressure - a hawkish diagnosis that monetary policy may need to lean against fiscal."
+ },
+ {
+  "text": "but by the same token the crucial household sector should support the recovery because of its reduced tax burden  including the current federal tax cuts plus the effects of earlier california innovati",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel interprets 'recovery support' and 'tax cuts' as dovish accommodation, missing that the speaker argues households will drive rebound strength - implying upside growth risk that tilts hawkish for the Fed."
+ },
+ {
+  "text": "indeed employment clearly began to grow in 1992 after shrinking the year before",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel anchors to 'shrinking the year before' (dovish weakness), but the actual message is the turnaround - employment resumed growth, a hawkish signal of recovery strength."
+ },
+ {
+  "text": "undoing such an  increase in inflationary expectations as americans discovered in the early  1980s requires drastic policy steps that have extremely painful consequences  for employment",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel triggers on 'inflationary expectations' + 'drastic policy steps' as hawkish Volcker-era resolve, but the speaker is actually warning against getting into that position because the employment cost is 'extremely painful' - a dovish caution."
+ },
+ {
+  "text": "fortunately in terms of sheer numbers those states with the best longterm economic outlook are also those with the most people",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel flattens to neutral because 'states' and 'population' have no clear mapping in its macro Markov blanket; the optimistic 'best long-term economic outlook' signal that supports hawkish growth-confidence gets washed out."
+ },
+ {
+  "text": "for instance the region has about 8 percent fewer workers today than it had in 2000 this employment loss is linked closely to the job cuts in manufacturing",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel flattens to neutral because regional/sectoral employment loss doesn't cleanly trigger its aggregate unemployment node; 8% workforce decline in a region is genuinely dovish labor-market weakness that Abel fails to register."
+ },
+ {
+  "text": "and so in 1957 and 1958 society paid in unemployment lost salaries and lost profits the price of another bust that followed in the wake of a boom which we must in all honesty recognize was helped on i",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel reads 'boom' and assigns hawkish, but the whole sentence is a retrospective indictment of tightening-into-bust with unemployment/profit losses as the price - a dovish warning against excessive hawkishness."
+ },
+ {
+  "text": "if workers now began to demand large catchup increases in wage rates or greatly enlarged fringe benefits or if business \f 13firrns began to raise prices faster than costs to increase profit margins pr",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel sees 'wage demands' and 'price increases' and triggers wage-price spiral hawkish, but this is a conditional ('if workers began...') warning about what would be bad - the framing is dovish caution about provoking such behavior via tightening."
+ },
+ {
+  "text": "expanding our human capital is fundamental to improving our standards of living because implementing new technologies has generally required a more skilled workforce",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel flattens human-capital/technology productivity arguments to neutral because they don't map to any node in its inflation-unemployment-GDP blanket; supply-side potential-output expansion is a hawkish-relevant channel Abel misses entirely."
+ },
+ {
+  "text": "through channels such as these efficiency gains get diffused widely throughout our economy resulting in a broadly based increase in living standards",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel flattens to neutral because 'efficiency gains' and 'living standards' are productivity/supply-side concepts outside its Markov blanket; the hawkish-relevant story of productivity-enabling non-inflationary growth goes unrecognized."
+ },
+ {
+  "text": "in the current environment a rapidly rising levelof consumer prices will not lead to the creation of new jobson the contrary it will lead to hesitation and sluggish buying\f 13as the increase of the pe",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel reads 'rising consumer prices' as classic hawkish inflation, missing that the speaker argues inflation itself will suppress demand ('hesitation', 'sluggish buying') - an unorthodox dovish case that tightening is unnecessary because inflation self-corrects."
+ },
+ {
+  "text": "it makes him richer and able to afford more of everything including leisurehe could have the same income for less work",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel flattens to neutral on abstract productivity/income framing ('richer', 'less work for same income') because the Markov blanket has no wealth-effect or productivity node - missing the hawkish wage-productivity growth inference."
+ },
+ {
+  "text": "we see it in the data particularly in math5 and it might be even worse than it seems because many students are missing from the data due to declining public school enrollment6 research tells us its ha",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel flattens education/learning-loss content to neutral; human-capital degradation (lower future potential output and eventual labor-market scarring) is a dovish long-horizon signal outside Abel's short-run macro blanket."
+ },
+ {
+  "text": "unemployment which fell to 68 percent on an annual average basis in 1993 should average about 612 percent for 1994 this improvement is better than it sounds because the us labor department changed its",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel reads unemployment at 6.1-6.8% as elevated-hence-dovish, missing the speaker's explicit 'improvement is better than it sounds' framing - a hawkish upgrading of labor-market strength that justifies less accommodation."
+ },
+ {
+  "text": "displaced older workers present a particularly difficult problem as these workers have greater difficulty than others in finding new jobs and experience a greater decline in earnings than other worker",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel flattens this to neutral because it's a demographic/structural labor-market nuance (older displaced workers) rather than an aggregate signal; the dovish implication of scarring and slack is buried in subgroup detail Abel can't parse."
+ },
+ {
+  "text": "actually  this  job h a s b e e n so e f f e c t i v e  that p r o g r e s s  itself  is our m o s t i m p o r t a n t problem",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel flattens to neutral because the OCR-distorted, paradoxical language ('progress is our problem') doesn't parse cleanly; the hawkish tone - success has created overheating concerns - requires understanding paradox Abel can't handle."
+ },
+ {
+  "text": "also on the consumer side several positive factors are at work in addition to the lagged effects of lower shortterm interest rates",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel sees 'lower short-term interest rates' and scores dovish easing, missing that the speaker is describing the LAGGED stimulus already feeding through to consumers - a hawkish diagnosis of transmission working, not a call for more cuts."
+ },
+ {
+  "text": "regulators had recognized these problems in some cases but did not press firms vigorously enough to fix them",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel flattens regulatory-failure retrospectives to neutral because they don't connect to the inflation/unemployment nodes; lax supervision hindsight is a financial-stability dovish signal (vulnerability implies caution on tightening) Abel misses."
+ },
+ {
+  "text": "there should also continue to be heavy emphasis on the performance of services for a fee in order both to offset the economization of demand deposit balances to which i referred before and to insure e",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel flattens banking-operations detail (fee income, demand deposits) to neutral because it's institutional/industry talk with no macro signal in its blanket; the pro-bank-earnings hawkish read is absent."
+ },
+ {
+  "text": "taking this approach in the us context could help to reduce the cost that the largest banks face in offering clearing services to their customers",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel defaults payments/clearing infrastructure talk to neutral; reducing bank operational costs supports credit-system efficiency (hawkish via lower financial-frictions) but Abel has no plumbing-efficiency node."
+ },
+ {
+  "text": "functioning of the commercial paper market has greatly improved",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel reads short-term funding market improvement as post-stress relief (dovish), missing that restored CP market function actually removes the rationale for emergency accommodation and tilts hawkish toward normalization."
+ },
+ {
+  "text": "while our new payments paradigm brings with it vast alternatives for the users of the system it also presents some difficult challenges for our industry",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel flattens payments-system evolution talk to neutral; the 'difficult challenges' framing is actually a dovish stability concern (operational risk in payments) Abel can't connect to monetary posture."
+ },
+ {
+  "text": "a third broader lesson from this event is that the regulatory framework for banks constructed after the gfc with the refinements and recalibrations we have made over the last few years held up well",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel flattens post-GFC regulatory self-congratulation to neutral; the 'framework held up well' endorsement is a hawkish confidence signal (financial-stability constraint on policy is less binding) that Abel doesn't model."
+ },
+ {
+  "text": "concerns about potential shortfalls in investment certainly have contributed to recent recordhigh longterm futures prices",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel sees 'record-high futures prices' and routes to hawkish inflation pressure, but the speaker is explaining underinvestment / supply-side concerns as the driver - a dovish interpretation (not a demand-side price signal requiring tightening)."
+ },
+ {
+  "text": "the opportunity for such diversification is a desirable consequence of the strengthening of the \f 3worlds financial markets",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel flattens financial-market diversification/strength commentary to neutral; 'strengthening of world financial markets' is a hawkish-leaning stability endorsement outside Abel's domestic macro blanket."
+ },
+ {
+  "text": "perpetuating obesity with each passing year the banking industry has become more  concentrated",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel flattens the metaphor ('perpetuating obesity' = bank concentration) to neutral because it's financial-structure commentary; too-big-to-fail critique is a dovish financial-stability concern (vulnerability argument) Abel doesn't connect to policy posture."
+ },
+ {
+  "text": "8 financial institutions also had an incentive to engage in regulatory arbitrage moving assets to undercapitalized offbalancesheet vehicles",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel neutralizes regulatory-arbitrage/shadow-banking diagnostic language; the description of pre-crisis off-balance-sheet vulnerability is a dovish financial-fragility marker Abel can't link to the monetary-stance blanket."
+ },
+ {
+  "text": "in the late thirties banks made interest payments of about 225 million at an average rate of 15 per centthe overall statistics i have been reciting are reassuring for they suggest banking has regained",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel flattens the historical banking-health retrospective ('banking has regained') to neutral; the 'reassuring' framing of bank recovery is a hawkish confidence/strength signal Abel doesn't recognize as policy-relevant."
+ },
+ {
+  "text": "success will require both financial discipline and fundamental economic change change toward more efficient marketoriented economies more room for private initiative \f 23and investment more competitio",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel flattens pro-market structural-reform ideology ('financial discipline', 'market-oriented', 'competition') to neutral; this is a hawkish-leaning free-market gospel Abel's Markov blanket can't parse as a policy-stance signal."
+ },
+ {
+  "text": "according to the sp caseshiller home value data released earlier this week as of december 2007 average prices had declined by 15 percent or more over the past 12 months in phoenix san diego miami and ",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel flattens regional home-price crash data (-15%+) to neutral because housing is outside its macro blanket; this is a clearly dovish wealth-destruction/financial-stability signal Abel fails to weight."
+ },
+ {
+  "text": "without these freedoms our banks would not have achieved the leading position they now have in world banking",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel flattens the pro-deregulation, pro-bank-competitiveness argument to neutral; championing 'freedoms' that produced US banking leadership is a hawkish-leaning deregulatory signal Abel doesn't map."
+ },
+ {
+  "text": "  us  banks  are  currently  9    underrepresented  among  the  worlds  top  banking  institutions in part because o f interstate banking restrictions and limitations on the types o f businesses in wh",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel flattens the bank-regulation-is-hurting-competitiveness complaint to neutral; the implied dovish lean (regulation as drag requiring easing / structural accommodation) isn't modeled in Abel's inflation-employment blanket."
+ },
+ {
+  "text": "as these factors have receded and the economy has improved lending standards have become less stringent",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel reads 'less stringent lending standards' as easing/dovish, but the context is economic improvement restoring credit conditions - a hawkish normalization and strength signal, not renewed accommodation."
+ },
+ {
+  "text": "a perfectly safe bank holding a portfolio of treasury bills is not doing the economy or its shareholders any good",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel sees 'not doing any good' as dovish distress language, missing that the speaker is critiquing excessive bank safety/low-risk-taking and urging more productive credit extension - a hawkish call against over-regulation."
+ },
+ {
+  "text": "fortunately there has been less overbuilding this time and mortgage money is still available as banks and thrift institutions continue to attract deposits from the new highyielding saving certificates",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel reads 'mortgage money still available' as accommodative (dovish), missing that 'less overbuilding' and continued deposit flows describe economic/financial resilience - a hawkish signal that the system isn't breaking and tightening can continue."
+ },
+ {
+  "text": "another banker in hale county aja bama has had an unusually ambitious and successful program",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel flattens anecdotal single-banker success story to neutral; 'ambitious and successful' lending program is a hawkish micro-level credit-strength datapoint outside Abel's aggregate macro blanket."
+ },
+ {
+  "text": "it is only one of a set of  megabanks that remain a threat to financial stability",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel sees 'threat' and routes hawkish (anti-risk), but the message is a warning about TBTF megabanks as financial-stability risks - a dovish stance (fragility limits monetary hawkishness) Abel inverts."
+ },
+ {
+  "text": "thus requiring a bank to issue tradable debt would likely increase both direct and indirect discipline",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel flattens the market-discipline-via-subordinated-debt proposal to neutral; advocating stronger bank discipline via tradable debt is a hawkish regulatory-toughness signal Abel's blanket doesn't represent."
+ },
+ {
+  "text": "but in order to maintain their position in the financial services industry it will be necessary to unwind those factors that inhibit the ability of the depositories to compete and adapt to changing ec",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel reads 'unwind inhibiting factors' as relief/dovish easing, missing that the call is for removing regulatory constraints on depositories - a hawkish pro-market competitiveness and banking-strength agenda."
+ },
+ {
+  "text": "it can be further  argued that the result is in fact a federal subsidy to banks",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel flattens the federal-subsidy-to-banks critique to neutral; the implied critique of distorted incentives and backstopping is a dovish financial-fragility / TBTF concern Abel can't reach from its blanket."
+ },
+ {
+  "text": "many banks now operate free of the fear of new entry into their markets and this threat of potential new entry may provide greater incentive for good performanceto be realistic even if the law were ch",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel reads 'free of fear' as dovish/easing, but the pro-competition framing (threat of entry disciplines performance) is a hawkish market-efficiency argument; Abel inverts because 'free' triggers accommodation keyword."
+ },
+ {
+  "text": "there is a strong positive link between banking and financial market development and economic growth and a number of studies have concluded that banking and financial market development is a key drive",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel flattens the finance-growth nexus literature citation to neutral; endorsing financial development as a growth driver is a hawkish pro-financial-deepening signal Abel doesn't connect to monetary stance."
+ },
+ {
+  "text": "some might call for restrictions to banks participation in buyouts since a large proportion o f the financing originates from banks",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel flattens LBO/leverage concern to neutral; the implicit dovish read (leveraged-buyout risk means financial vulnerability, argue for caution on tightening) is outside Abel's inflation-employment blanket."
+ },
+ {
+  "text": "they actively pursue arbitrage opportunities across markets and in the process often reduce or eliminate mispricing of financial assets",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel flattens the market-efficiency-via-arbitrage point to neutral; celebrating arbitrageurs as price-correction agents is a hawkish market-functioning signal Abel can't read as policy-relevant."
+ },
+ {
+  "text": "the ease flexibility and low perceived cost of shortterm funding also supported a broader trend toward higher leverage and greater maturity mismatch in individual shadow banking institutions and in th",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel sees 'higher leverage' and 'maturity mismatch' as risks warranting tightening (hawkish), but the speaker is diagnosing shadow-banking vulnerability as a fragility concern - a dovish caution on aggressive policy given financial-stability risks."
+ },
+ {
+  "text": "return to text  14 for these reasons i supported preserving capital at large banks",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel flattens capital-preservation advocacy at large banks to neutral; supporting stronger bank capital is a hawkish prudential-toughness signal (tighter financial conditions for big banks) Abel doesn't route to its stance node."
+ },
+ {
+  "text": "however to the extent that financial markets extrapolate price movements markets may not transition smoothly to asset valuations that reflect underlying fundamentals but may instead evidence periods o",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel reads 'asset valuations' concerns as bubble-hawkish, but the speaker is describing non-smooth price-extrapolation risk - a dovish financial-stability caution about sudden corrections that would warrant accommodation."
+ },
+ {
+  "text": "globally the introduction of new capital and liquidity regulations has increased the resilience of the banking system",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel flattens the Basel-III-type resilience endorsement to neutral; increased banking-system resilience is a hawkish signal (less need to ease for financial-stability reasons) Abel can't map from prudential to monetary stance."
+ },
+ {
+  "text": "the number of very wealthy investors and the amount of free investment funds available in fully taxed investment institutions have failed to keep pace with the mounting supplies of taxexempt securitie",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel flattens the muni-bond-demand-supply imbalance detail to neutral; the 'failed to keep pace' language implies weak investor demand - a dovish signal about capital-market absorption capacity Abel can't parse."
+ },
+ {
+  "text": "in addition to the drying up of large portions of mortgage finance that i referred to previously conditions have firmed on loans for a variety of other purposes",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel reads 'conditions have firmed' as hawkish tightening evidence, but 'drying up of mortgage finance' + broadening credit-contraction is actually a dovish credit-crunch description warranting easing."
+ },
+ {
+  "text": "the predictive nature of the statistically based models mitigates risk and promotes safety and soundness",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel flattens risk-model/quantitative-supervision endorsement to neutral; the 'safety and soundness' signal is a hawkish supervisory-toughness stance (disciplined risk management) outside Abel's blanket."
+ },
+ {
+  "text": "the vast majority of mortgages including even subprime mortgages continue to perform well",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel sees 'subprime' and routes to dovish distress/fragility, but the speaker's claim 'continue to perform well' is a hawkish reassurance about credit-market health - Abel fails to invert on the positive qualifier."
+ },
+ {
+  "text": "we have already seen some progress in risk measurement and management at many institutions in the united states and around the globe as a result of preparations for basel ii",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel flattens Basel-II risk-management-progress endorsement to neutral; improved bank risk management is a hawkish supervisory-progress signal Abel doesn't route to policy stance."
+ },
+ {
+  "text": "or the bigger the bank the more unmanageable it becomes",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel flattens the TBTF 'unmanageable' complaint to neutral; this is a dovish financial-stability concern (size = fragility risk) Abel doesn't link to monetary caution."
+ },
+ {
+  "text": "other savings institutions also raised their rates and in the ensuing vigorous competition for funds they continued to experience growing savings inflows",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel flattens the 'vigorous competition for funds / savings inflows' description to neutral; rising deposit rates and inflows reflect hawkish monetary-tightening transmission (funds being attracted by higher rates) Abel doesn't recognize."
+ },
+ {
+  "text": "perhaps the recent mortgage cycle will be remembered as just another failed episode of financial innovation",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel flattens the 'failed financial innovation' retrospective to neutral; this is a dovish financial-fragility post-mortem (reminding of ongoing vulnerability) Abel doesn't route from financial commentary to stance."
+ },
+ {
+  "text": "nonbank financial intermediation remains at the top of the fsbs priority list because of the urgency to address vulnerabilities",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel flattens shadow-banking/NBFI-vulnerability talk to neutral; 'urgency to address vulnerabilities' is a dovish financial-stability caution but Abel's Markov blanket has no NBFI-fragility node."
+ },
+ {
+  "text": "it was the ice age of international financethere is no compelling reason why the world should ever relapse into anything resembling the conditions of the 1930s",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel flattens the 'no return to 1930s' confidence rhetoric to neutral; the hawkish signal (modern system robust, no need for 1930s-style accommodation) is historical-context confidence Abel doesn't map to stance."
+ },
+ {
+  "text": "despite the plethora of new rules and regulations created by doddfrank market  discipline is still lacking for the largest financial institutions as it was  during the last crisis",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel flattens the Dodd-Frank-insufficient TBTF complaint to neutral; the warning that big banks still lack discipline is a dovish financial-fragility concern Abel's blanket can't link to monetary posture."
+ },
+ {
+  "text": "they will spend millions  of dollars to try to perpetuate their brand of crony capitalism",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel flattens the political-economy 'crony capitalism' accusation to neutral; the populist-critique framing is a dovish big-bank-fragility signal (rigged system = ongoing risk) Abel can't map to policy stance."
+ },
+ {
+  "text": "the first area that i think could benefit from a fresh approach is our requirement for the active marketing for sale of properties acquired in foreclosure often called real estate owned or reo propert",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel flattens the REO/foreclosure-policy suggestion to neutral; the call to soften active-marketing requirements is a dovish housing-market-support signal Abel doesn't connect to stance."
+ },
+ {
+  "text": "for consumers technology has fostered the creation of new delivery systems for financial services that have dramatically increased convenience and obliterated geographical limitations",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel flattens fintech/payments-innovation celebration to neutral; the 'dramatically increased convenience' endorsement is a hawkish productivity/efficiency-gain signal outside Abel's macro blanket."
+ },
+ {
+  "text": "us financial institutions must have sufficient powers to adapt to and indeed to be leaders in the continuing evolution of financial markets",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel flattens the pro-deregulation/pro-competitiveness advocacy to neutral; calling for US banks to have sufficient powers is a hawkish-leaning regulatory-relief position Abel doesn't parse as stance-relevant."
+ },
+ {
+  "text": "however  southeastern banks perform especially well when measured according to standards like profitability  and  capitaltoasset ratios  which give  a better  picture  o f relative  strength",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel flattens the regional bank-strength datapoint to neutral; southeastern banks performing well on profitability and capital ratios is a hawkish micro-level credit-system strength signal Abel doesn't aggregate."
+ },
+ {
+  "text": "the persistence of this lower inflation has bolstered confidence in financial markets dramatically",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel reads 'lower inflation' as routine dovish disinflation justifying easing, but 'persistence' plus 'bolstered confidence dramatically' is a hawkish credibility-achievement signal (maintain restrictive stance to preserve the win)."
+ },
+ {
+  "text": "but regulatory changes have made it more expensive for banks to take large deposits from other financial firms and in some cases banks may be unwilling to accept more cash from a ccp",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel flattens the CCP/bank-deposit-constraint plumbing issue to neutral; regulatory constraints pushing banks to refuse cash from CCPs is a dovish financial-plumbing strain signal Abel can't map to stance."
+ },
+ {
+  "text": "the national bureau of economic research has dated the recession as having begun in december 2007 but the pace of economic contraction accelerated in the wake of the lehman brothers collapse in septem",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel flattens NBER recession-dating + Lehman acceleration narrative to neutral, which is astonishing given the clearly dovish content; the historical retrospective tone may have suppressed present-stance signals in Abel's pipeline."
+ },
+ {
+  "text": "m a n y of the financial excesses of the 1980s are in the process of being corrected and the international economic environment is becoming more favorable",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel reads 'financial excesses being corrected' as post-bubble distress (dovish), missing that correction plus 'more favorable' international environment is a hawkish cleansing-complete signal (restrictive stance can continue)."
+ },
+ {
+  "text": "i think in time we will start to think of the end of the 20th century and heading into the 21st century as the dawning of the golden age of capitalism",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel flattens the sweeping 'golden age of capitalism' optimism to neutral because the long-horizon rhetoric has no short-run macro-variable hook in its Markov blanket; this is a hawkish-leaning growth-confidence signal."
+ },
+ {
+  "text": "20third the recession is improving the condition of financial markets",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel fixates on 'recession' as dovish weakness, but the speaker's paradoxical claim that recession is IMPROVING financial markets is a hawkish silver-lining (cleansing excess) signal Abel can't invert."
+ },
+ {
+  "text": "competitive performance in banking markets would be optimized by allowing freer entry into markets and de novo entry is of course desirable",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel flattens the pro-de-novo-entry/competition argument to neutral; endorsing freer bank entry is a hawkish pro-market-discipline signal outside Abel's macro variable blanket."
+ },
+ {
+  "text": "again however the share in the past five years is substantially above the 28 percent figure of the decade of the 1950sbanks are not only obtaining a bigger piece of the action than they did in the 195",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel flattens the bank-market-share comparison vs 1950s to neutral; the 'bigger piece of the action' framing is a hawkish banking-sector-strength signal Abel can't route from historical comparison to current stance."
+ }
+]

@@ -1,0 +1,681 @@
+[
+ {
+  "text": "i would also suggest that there are plenty of profitable markets that could use some new competitors everyone doesnt have to go to all of the same placesto conclude my remarks this morning i would str",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel's Markov blanket has no node for competitive market structure or entry, so 'plenty of profitable markets' and 'new competitors' read as permissive/loose rather than as a pro-competition (hawkish-regulatory) stance. Without a regulatory-competition concept, Abel over-flattens the exhortation toward diversification into a dovish read."
+ },
+ {
+  "text": "4will be brought to bear to reduce regulation regulat then become a competitive tool and the public receive insufficient   one way to promote evenhanded and coordinated regulation of competing markets",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "The phrase 'reduce regulation' triggers a keyword-level dovish/loosening association, but the full context argues for evenhanded coordinated regulation to prevent a regulatory race to the bottom. Abel's inflation-GDP-unemployment blanket lacks a prudential-regulation node to catch this tightening-of-oversight meaning."
+ },
+ {
+  "text": "specifically  i think it is urgent for congress to  5  dismantle the socalled glasssteagall restrictions that prevent banks from providing the types of services now offered by brokerage houses and inv",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "'Dismantle restrictions' sounds loosening to Abel, but in this context modernizing Glass-Steagall is framed as a hawkish-structural reform to strengthen bank competitiveness. Abel's macro blanket has no bank-structure/regulatory-architecture node, so it mirrors the surface 'dismantle' verb into dovishness."
+ },
+ {
+  "text": "va tj \f advantages for both institutions and depositors",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "This fragment is OCR-garbled with almost no macro signal, so Abel defaults to a benign/dovish read on the word 'advantages'. Without any inflation or rates anchor in the text, the Markov blanket has nothing to condition on and over-flattens to accommodative."
+ },
+ {
+  "text": "this would tend to be true moreover even in an economy in which check collection services were provided entirely by firms in the private sector operating under competitive conditions and charging pric",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "The case discusses pro-market payments infrastructure (private-sector check collection under competitive conditions), which is a hawkish structural-reform stance. Abel's blanket has no payments-system or market-structure node, so 'private sector' and 'competitive conditions' get treated as neutral/benign rather than disciplining."
+ },
+ {
+  "text": "instead the private sector through bank associations card networks and other cooperative rulesetting bodies establishes many of the operating rules for electronic payments",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Private-sector self-governance of payments rules reads as a hawkish endorsement of market discipline, but Abel only sees 'cooperative rulesetting' and the absence of explicit tightening, collapsing toward dovish. No node in the blanket represents payments-system governance."
+ },
+ {
+  "text": "such asynchronization can nonetheless result in massive unintended credit extensions that increase risk in the payments system",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel sees 'increase risk' and 'credit extensions' and keyword-triggers a hawkish tightening-against-credit read. But the sentence is actually warning about payments-system fragility, which policy-wise argues for more liquidity support (dovish), a nuance the macro blanket cannot capture."
+ },
+ {
+  "text": "for example a large and persistent program could have unanticipated and adverse effects on the structure of money markets",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Adverse effects' is flagged by Abel as a hawkish risk-containment cue, inverting the intent: the speaker is warning against aggressive programs, i.e. advocating restraint/caution which is dovish in policy terms. The blanket treats adversity as something to tighten against rather than something to pull back from."
+ },
+ {
+  "text": "the steering committee concluded that an appropriate and effective solution to this problem was most likely to be found in the improvement of secondary markets for bank assets and liabilities",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Improving secondary markets for bank assets is a hawkish structural-reform recommendation for discipline and liquidity, but Abel reads 'improvement' and 'solution' as accommodative language. The Markov blanket has no secondary-market or bank-asset structure node to recognize the tightening intent."
+ },
+ {
+  "text": "but it is hard to believe that all the movements in asset prices witnessed in recent years are wellrooted in changes to the underlying productivity of those assets",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel reads 'asset prices' running ahead of productivity as a bubble warning and flips to hawkish (lean-against-the-wind). But the intent here is cautionary/analytical and in context argues for easier conditions to not prick unwarranted price moves; Abel's blanket conflates asset-price concern with tightening."
+ },
+ {
+  "text": "we should also ask a third question however that is equally important can we achieve a strong level of financial resilience with reforms that are more efficient simple transparent and tailored",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Words like 'efficient simple transparent tailored' read to Abel as easing regulatory burden (dovish), but 'strong financial resilience' via 'reforms' is the hawkish-regulatory anchor. Abel's macro blanket has no financial-resilience/reform node and so picks up the softer adjectives."
+ },
+ {
+  "text": "so far as i can see improving \f 3moneys efficiency ie using less for a given volume of transactions and lowering the processing security and insurance costs per transaction would not alter in any sign",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "'Using less money' and 'lowering costs' sound accommodative to Abel, but the passage argues transactional-efficiency gains are independent of monetary policy - a hawkish defense of the money-supply anchor. No payments-velocity node exists in Abel's blanket."
+ },
+ {
+  "text": "for banks  too however better able to compete with the bond market than the thrift institutions must inevitably lose deposits to the market place when their rates fall behind",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel latches on to 'compete' and 'rates fall behind' as a hawkish-rate-pressure cue, but the text describes disintermediation risk for thrifts, which policy-wise calls for accommodation. The macro blanket lacks a deposit-disintermediation node."
+ },
+ {
+  "text": "for our society as a whole our institutions and our markets  and for banking specifically your competitors and even your products  are transformed not just changed",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "'Transformed' banking/markets reads to Abel as vague forward-looking change (neutral-leaning-dovish). But the speech is pressing the hawkish-reform agenda of adapting institutions to competition; Abel's blanket has no structural-transformation node and over-flattens."
+ },
+ {
+  "text": "these us banks have combined total assetc in excess of 20 billion",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "A bare statistic about bank asset size triggers no Markov-blanket node (no inflation, rates, GDP, unemployment), so Abel defaults to dovish. In the speech context this fact is being used to argue for tighter supervisory attention (hawkish-regulatory), which macro blanket can't see."
+ },
+ {
+  "text": "having recently left one organization in which bank supervision was the sole function for another in which it occupies an important but not dominant position i am motivated solely by the desire to har",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "The speaker is framing his biography to justify stronger bank-supervision advocacy (hawkish-regulatory), but Abel only sees neutral personal narrative and the phrase 'not dominant'. The blanket has no supervisory-stance node."
+ },
+ {
+  "text": "it should be borne in mind that risk aversion is not necessarily good and that risk neutrality is not necessarily bad",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel hears 'risk aversion not good' and reads it as permissive/dovish on risk-taking. In context this is a hawkish caution that over-regulation of risk is counterproductive, i.e. pro-discipline framing the blanket cannot disambiguate."
+ },
+ {
+  "text": "one suggested approach is to reverse the 30year trend that allowed progressively more financial activities within commercial banks and more affiliations with nonbank financial firms",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Reverse trend' and 'restrict bank activities' keyword-triggers Abel to hawkish tightening. But the speech flags this as a concerning restrictive proposal that the speaker disfavors (dovish on activity restrictions). Abel inverts because it cannot parse argumentative stance."
+ },
+ {
+  "text": "the financial crisis revealed that a silo approach to risk identification and management does not produce good results",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Risk identification and management' is a hawkish-sounding regulatory frame for Abel, but the passage is an after-the-fact diagnostic concession (dovish on prior supervisory practice). The blanket cannot distinguish forward-tightening advocacy from backward-looking critique."
+ },
+ {
+  "text": "however banking and financial markets have done more than is needed to keep this conference alive",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "A near-content-free ceremonial/witty sentence trips no macro node, so Abel falls back to dovish. Claude likely picks up conference context implying a tightening-regulation theme, which Abel's blanket can't access."
+ },
+ {
+  "text": "economic rigidities slowed adjustment and as a result strong pressure on credit markets and interest rates persisted longer than anticipated",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel seizes 'strong pressure on credit markets and interest rates' as a hawkish-rates cue, missing that the passage is complaining that tight conditions persisted too long - a dovish diagnosis calling for easing. Classic keyword-triggered wrong direction."
+ },
+ {
+  "text": "the financial stability approach begins from the fact that there would be very large negative externalities associated with the disorderly failure of any systemically important financial institution d",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Systemically important' and 'negative externalities' trigger Abel's risk-containment hawkish response, but the argument here justifies liquidity/resolution support (dovish backstop). Abel's blanket treats financial-stability language as uniformly tightening."
+ },
+ {
+  "text": "7a11 of these movements are reflected in a much slower expansion of liquid assets and in a continuing fall in the ratios of liquid assets and of the money supply to the gnpthe related changes in inter",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "The sentence describes slowing money/liquidity ratios, which Abel's money-supply-to-GDP heuristic reads as disinflationary and thus hawkish-justifying. But in the broader speech this slowdown is being lamented, arguing for easier policy. Current-conditions anchoring flips the vote."
+ },
+ {
+  "text": "thus during the decade ending in 1970 total assets of commercial banks increased at an average annual rate of 9 per cent in contrast to a 7 per cent rate of growth in the dollar value of our gross nat",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Bank-asset growth outpacing GNP is used rhetorically to justify hawkish-supervisory concern about bank expansion. Abel reads 9% asset growth and 7% GNP as healthy expansion (dovish-leaning) because its blanket treats GDP-linked growth as accommodative evidence."
+ },
+ {
+  "text": "today by comparison open market operations in  welldeveloped national capital markets have much greater capability than in 7973 for  providing adequa te financial market liquidiry",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "'Providing adequate liquidity' via OMO sounds dovish/accommodative to Abel, but the context celebrates the Fed's tightening-and-steering capability via mature capital markets (hawkish operational stance). The fedFunds node captures level, not institutional capability."
+ },
+ {
+  "text": "interest rate risk and credit risk that previously couldnt be unbundled are now routinely unbundled",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Unbundling of risks is framed as a hawkish market-discipline development, but Abel hears 'routinely unbundled' as benign financial-innovation language and defaults dovish. No risk-decomposition node exists in the macro blanket."
+ },
+ {
+  "text": "banks may find that choosing the merger route to expansion relocation or portfolio adjustment is a sensible procedure",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Merger-driven bank restructuring is framed as a hawkish-consolidation recommendation, but 'sensible procedure' sounds permissive/dovish to Abel. The blanket has no bank-consolidation or M&A node."
+ },
+ {
+  "text": "one of the dimensions of increased openness is the rapid increase in the volume of crossborder capital flows",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Rising cross-border capital flows are invoked as a hawkish discipline/integration argument, but Abel sees only 'increased openness' and 'rapid increase' - both read as expansionary/dovish cues. No capital-flow node in the blanket."
+ },
+ {
+  "text": "our studies have shown that the increases have been two to four times the increase in the general price level from 1980 to 1983 although bank expenses for personal checking accounts increased even mor",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel keys on '2-4x the general price level' as an inflation-node signal and infers hawkish tightening. But the passage discusses rising bank fee costs squeezing consumers - a dovish concern about consumer impact, not a broad-inflation indictment."
+ },
+ {
+  "text": "in the process long establiahed policies set by the corass are dreaking down the separation of banking and cormnrce and commercial banking and investment banking as well as statutory limitations on in",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "'Breaking down separation of banking and commerce' is celebrated here as a hawkish deregulation-to-modernize argument, but Abel hears 'breaking down' as degradation/permissive and reads dovish. Garbled OCR also deprives it of keyword grip."
+ },
+ {
+  "text": "the company will not increase credit lines and will only grant credit to existing customers",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Tight credit-rationing language ('will not increase credit lines') triggers Abel's hawkish tightening cue, but in context it describes private-sector caution during stress that argues for policy accommodation (dovish). Abel's blanket confuses private-sector tightening with policy tightening."
+ },
+ {
+  "text": "they are shifting their weights i  believe toward more market mechanisms",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "'More market mechanisms' is framed as a pro-discipline structural shift (hawkish), but to Abel this reads as deregulation/liberalization which maps loosely to dovish in its blanket. The market-mechanism concept has no macro-node representation."
+ },
+ {
+  "text": "the deregulation o f interest rates on deposits is virtually complete",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Deposit-rate deregulation is framed as hawkish market-based discipline, but Abel's federalFunds node naively reads 'deregulation of interest rates' as removal of rate ceilings, i.e. easing, and classifies dovish. Keyword-triggered wrong direction."
+ },
+ {
+  "text": "the federal reserve has devoted considerable energy in its postcrisis regulatory work to incorporate the tailoring concept in its regulation and supervision across the spectrum of small medium and lar",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "'Tailoring regulation' sounds to Abel like lighter-touch supervision for smaller banks (dovish), but in the speaker's frame this is hawkish post-crisis regulation done right. The blanket cannot tell a nuanced pro-regulation stance from a relief-from-regulation stance."
+ },
+ {
+  "text": "the feds prudential supervision benefits in turn from the expertise we develop in carrying out other parts of our missionfor example the knowledge of financial and economic conditions we gather in the",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Prudential supervision' triggers Abel's hawkish-regulation keyword, but the excerpt is defending the breadth of the Fed's mission (implying dovish openness to broader policy coordination, per ground truth). The macro blanket conflates supervisory language with tightening."
+ },
+ {
+  "text": "when capacity constraints are binding lenders may manage the surge in refinancing demand by holding mortgage rates high relative to lenders funding costs",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel sees 'mortgage rates high' and 'capacity constraints binding' as classic hawkish tightening signals, but the passage is diagnosing a market friction that prevents monetary stimulus from passing through - a dovish case for more easing. Current-conditions anchoring flips the direction."
+ },
+ {
+  "text": "in fact as in the united kingdom the principlesbased riskfocused approach to regulation has had considerable influence on this side of the atlantic as well",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Principles-based risk-focused regulation is framed as hawkish-modern supervision, but Abel hears 'principles-based' as flexible/light and 'risk-focused' as concentrated narrow oversight, reading dovish. The blanket has no regulatory-philosophy node."
+ },
+ {
+  "text": "if so then there would be an argument for public policy to explicitly encourage or even mandate ccps for all markets",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Mandate CCPs for all markets' sounds to Abel like hawkish structural tightening, but in context the argument is hypothetical and skeptical, leaning dovish on mandates. Abel takes the conditional literally as policy advocacy."
+ },
+ {
+  "text": "in recent years however transaction costs have fallen considerably so that the  call option in the typical fixed rate mortgage  instrument comes inthemoney with relatively  small declines in mortgage ",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "'Transaction costs have fallen' reads as easing/efficiency gain to Abel (dovish), but the speaker is describing mortgage prepayment sensitivity that complicates Fed transmission - a hawkish financial-stability concern. No mortgage-convexity node in the blanket."
+ },
+ {
+  "text": "as you know the federal reserve has proposed new rules under regulation z which implements the truth in lending act regarding openend credit to require new more informative and consumertested disclosu",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'New rules' and 'require disclosures' keyword-trigger Abel into hawkish-tightening mode, but consumer-protection disclosure rules are in this context procedural/pro-consumer and coded dovish. The blanket conflates any rulemaking with tightening."
+ },
+ {
+  "text": "government securities inc esm a brokerdealer in government securities but also was related to more systemic weaknesses in the supervision and insurance of some ohio savings and loan associations",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Systemic weaknesses in supervision' fires Abel's hawkish-oversight keyword, but the speaker is recounting a failure to argue for more liquidity/backstop support (dovish). Abel treats any supervision-failure mention as a call for tightening."
+ },
+ {
+  "text": "in 1970 congress prohibited the unsolicited distribution of credit cards and severely restricted card holder liability for lost or stolen cards",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Prohibited' and 'severely restricted' read to Abel as hawkish regulation, but the speaker is citing consumer-protection history in support of a dovish/pro-consumer stance. The Markov blanket cannot distinguish consumer-protection rules from prudential tightening."
+ },
+ {
+  "text": "not only has the inflation rate remained within a reasonably narrow range but inflation expectations as measured by spreads between inflationindexed and noninflationindexed treasury securities and by ",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel's inflation node reads 'inflation rate remained narrow' as contained inflation, which in its logic permits loosening (dovish). But the passage is reassuring that anchored expectations validate current restrictive stance (hawkish credibility stance). Current-conditions anchoring misreads the policy implication."
+ },
+ {
+  "text": "however if the congress feels that the availability of credit control measures may lead to unwise use of them it may want to repeal the act as proposed in s35",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "'Repeal the act' superficially reads as deregulatory/dovish, but the speaker is supporting repeal of credit-control authority precisely to prevent future easy-money adventures - a hawkish commitment device. Abel's blanket cannot read the meta-level commitment argument."
+ },
+ {
+  "text": "government regulation of the financial system imposed to ensure the integrity of the financial system itself is essential",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Government regulation is essential' fires Abel's hawkish-regulation keyword directly, yet the ground truth is dovish because the framing implies accommodation through institutional backstops (dovish-supportive). Abel has no way to see the implicit safety-net accommodation argument."
+ },
+ {
+  "text": "implementing doddfrank   will it work",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Dodd-Frank triggers Abel's hawkish-regulation association immediately, but the rhetorical 'will it work' frames skepticism and suggests accommodative flexibility (dovish). The macro blanket treats any Dodd-Frank reference as a tightening signal."
+ },
+ {
+  "text": "from a public policy perspective a greater concern with fully privatized gses is whether mortgage securitization would continue under highly stressed financial conditions",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Stressed financial conditions' and GSE privatization concern are read by Abel as a hawkish-resilience argument, but the speaker is making a dovish case for continued public backstops to maintain mortgage credit flow. Missing GSE/securitization node."
+ },
+ {
+  "text": "tax exemption makes banks together with upper bracket individuals the principal holders of municipals",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "A dry tax/munis structural observation triggers no macro node. Abel sees 'tax exemption' and 'individuals' as benign fiscal description and defaults dovish, while the speech uses this fact to argue against a preferential subsidy (hawkish discipline stance)."
+ },
+ {
+  "text": "it also changed drastically the source of liquidity to individual depository institutions which previously had been liquid debt instruments issued by someone else often the treasury",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Source of liquidity changed drastically' reads to Abel as a stability-disrupting event warranting hawkish supervision, but the speaker is describing the Fed's expanded liquidity role (dovish accommodation frame). Liquidity-facility concept not in blanket."
+ },
+ {
+  "text": "moreover it now appears that nationbuilding efforts in iraq will require additional government spending",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel sees 'additional government spending' as fiscal stimulus that adds to inflation risk (hawkish-lean-against), but the speech context treats the Iraq spending as unavoidable fiscal drag requiring monetary accommodation (dovish). Fiscal-monetary interaction misread."
+ },
+ {
+  "text": "these outcomes would be helpful but the effectiveness of an mbs purchase program would be amplified perhaps significantly if certain nonmonetary policies were changed",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "MBS-purchase-program endorsement is unambiguously dovish QE advocacy, but Abel focuses on 'nonmonetary policies were changed' and reads conditional policy tightening (hawkish). Cannot parse the principal-clause dovish QE thrust."
+ },
+ {
+  "text": "for one thing the debt service burden will be that much larger",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Debt service burden larger' keyword-triggers Abel's fiscal-dominance hawkish concern, but in context the speaker is warning that high rates worsen fiscal fragility, implicitly advocating accommodation (dovish). Classic current-conditions-to-policy inversion."
+ },
+ {
+  "text": "what we should want is a system that permits the united states the euro area and japan to pursue policies to achieve domestic objectives without generating wide and unsustainable swings in exchange ra",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Unsustainable swings in exchange rates' fires Abel's hawkish stability-control keyword, but the passage advocates policy flexibility for domestic goals (dovish accommodation in the G3 framework). Exchange-rate node absent from blanket."
+ },
+ {
+  "text": "we know the conditions under which  capital account liberalization turns out well for emerging economies but the  trilliondollar question remains is china ready to face the full implications  of these",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Capital-account-liberalization readiness is framed as hawkish market-discipline advocacy toward China, but Abel reads 'liberalization' as loosening and defaults dovish. No EM-policy or capital-account node in the blanket."
+ },
+ {
+  "text": "the upper income groups would get  a tax reduction of 21 per cent versus a higher those in the lower groups",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Tax reduction' reads to Abel as fiscal stimulus that would force hawkish monetary offset, but the quoted distributional critique (uneven cut) is framed as concern about inadequate stimulus reaching low-income groups, i.e. a dovish argument for more targeted easing. Distribution-sensitivity missing."
+ },
+ {
+  "text": "indeed the treasury will need to raise 36 billion of new money  in the present quarter alone  onethird more than in the yearago period",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Massive Treasury issuance triggers Abel's hawkish crowding-out keyword reflex, but the speaker is describing funding pressure that argues for accommodative absorption (dovish). Abel's blanket treats high debt supply as inflationary rather than as demanding easy conditions."
+ },
+ {
+  "text": "similarly the involvement of political officials through the g20 was imperative to galvanize the legislative and regulatory processes of participating countries to undertake the breadth of needed refo",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Galvanize legislative and regulatory processes to undertake needed reforms' reads to Abel as hawkish international tightening push, but the speaker is describing coordinated post-crisis accommodation and reform backing (dovish cooperation frame). Reform-coordination node absent."
+ },
+ {
+  "text": "since then the  treasury has been forced to do all its financing with securities     5 bearing five years maturity or less",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "A maturity-constraint observation triggers Abel's term-premium/tightening association, but the speaker is describing a fiscal constraint that argues for more accommodative Fed support of the long end (dovish). Maturity-structure node missing."
+ },
+ {
+  "text": "some tax increases were initiated",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "A three-word historical statement about tax increases: Abel sees no macro node content and defaults dovish. Context frames the tax hikes as hawkish fiscal tightening praised as sound policy, but the brevity gives Abel nothing to anchor on."
+ },
+ {
+  "text": "the high employment budget moved sharply into deficit during 1966 and 1967 indicating a high and accelerating degree of fiscal stimulus",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Accelerating fiscal stimulus' triggers Abel's inflation-node hawkish-offset response, but the ground truth is dovish because the speaker is recounting stimulative conditions that the Fed accommodated. Current-conditions inflation narrative flips policy-stance reading."
+ },
+ {
+  "text": "i  trust the congress will get it right",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "A content-less deference statement provides no macro cue, so Abel defaults dovish. Claude likely uses surrounding-speech conventions to recognize it as a hawkish nudge toward fiscal discipline, a judgment Abel's blanket cannot form."
+ },
+ {
+  "text": "more  2  cur international financial position  none of us can challenge i think the dedication which has marked the governments efforts to secure payments equilibrium",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "'Payments equilibrium' defense is hawkish-external-discipline praise, but Abel reads 'dedication' and 'none can challenge' as benign rhetoric and defaults dovish. No BoP/external-balance node in the blanket."
+ },
+ {
+  "text": "my answer is yes by improving the political process",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Fragment-only context denies Abel any macro anchor; 'improving the political process' reads neutrally. Claude reconstructs that the answered question concerns fiscal discipline (hawkish), which Abel's blanket has no pathway to infer."
+ },
+ {
+  "text": "looking closer to home our own federal government has been trying to come to grips with a national growth policy for at least the last three years",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'National growth policy' triggers Abel's GDP-node hawkish-against-overheating stance, but the speaker frames this as a dovish pro-growth agenda endorsement. The blanket treats any growth-policy reference as something to lean against."
+ },
+ {
+  "text": "income that is saved is taxed twice once when it is earned and once again when it generates additional income",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "A double-taxation-of-savings argument is classic hawkish supply-side structural critique, but Abel has no tax/saving node and reads 'taxed twice' as neutral procedural complaint defaulting dovish. Structural fiscal arguments sit outside the macro blanket."
+ },
+ {
+  "text": "here in the us the fiscal stimulus from the phasein of the 2001 tax cut package is still in the pipeline and the presidents more recent proposals for additional tax cuts are the subject of ongoing dis",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Fiscal stimulus still in the pipeline' plus 'additional tax cuts' fires Abel's hawkish fiscal-offset reflex, but the speaker is describing supportive fiscal-monetary backdrop implying continued accommodation (dovish). Fiscal-monetary complement misread as substitute."
+ },
+ {
+  "text": "indeed with that process now under way it is likely that our securities holdings are now depressing the term premium on the 10year yield by somewhat less than the 1 percentage point estimate reported ",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Discussion of term-premium effects 'somewhat less than' prior estimates sounds to Abel like QE-unwind hawkishness, but the speaker is emphasizing continuing accommodation from the SOMA portfolio (dovish). Term-premium subtlety beyond the blanket."
+ },
+ {
+  "text": "in such circumstances the intrusion of government regulation in technology  unchanging and innovation sìuggish the costs  the marketplace  may be  able to achieve politicaììy determined results that  ",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "'Intrusion of government regulation' reads to Abel as anti-regulation/pro-loosening dovish sentiment, but in the speech this is an affirmative hawkish market-discipline argument favoring less state intervention. The blanket can't see anti-interventionist language as tightening."
+ },
+ {
+  "text": "there have been strong public pressures on governments to attempt through regulatory action to return us to some semblance of prior relationships which perhaps nostalgically appear more idyllic",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "The speaker is critiquing public pressure for backwards-looking regulation - a hawkish defense of market evolution. But Abel reads 'pressures for regulatory action' as hawkish-regulation and then flips wrong because 'nostalgically' frames it dovishly to the blanket. Misreads the critical stance."
+ },
+ {
+  "text": "if people expect the tax cut to be a onetimeonly event they are likely to spend less than if they believe the tax cut is a permanent policy change",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Permanent-vs-transitory tax-cut multipliers hit Abel's fiscal-stimulus keyword and it reads hawkish offset. But the discussion is supporting permanent cuts as effective stimulus (dovish on fiscal conditions). Abel cannot parse the permanent-income logic."
+ },
+ {
+  "text": "the adoption of price and wage controls by the united states government in a period of peacetime is a move which has strong longterm implications for our basically free market economy",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Price and wage controls are described with concern for long-term free-market damage - a hawkish anti-intervention stance. Abel reads 'price and wage controls' as anti-inflation mechanism and treats them as complementary to tight policy, collapsing toward dovish since controls substitute for tightening."
+ },
+ {
+  "text": "far too many of us say to them cut  the federal deficit but dont reduce our favorite expenditures or raise our taxesi",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "A scolding of hypocritical fiscal preferences is clearly hawkish deficit-reduction advocacy, but Abel reads 'don't reduce expenditures' and 'don't raise taxes' as permissive dovish language without seeing the meta-critical framing. Classic sarcasm/stance inversion the blanket can't handle."
+ },
+ {
+  "text": "but the conduct of fiscal policy should not stop there",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "A generic continuation sentence has no macro content; Abel interprets 'fiscal policy should not stop' as a push for further tightening (hawkish). In context it is advocating continued fiscal support (dovish), which the vague phrasing hides from the blanket."
+ },
+ {
+  "text": "in the 1960s economic growth was strong in part because of the fiscal stimulus of tax cuts and increased military and social spending",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel reads 'strong growth' plus 'fiscal stimulus' as a textbook overheating setup warranting hawkish monetary response, but the speaker is recounting that fiscal-led expansion was beneficial (dovish reading of growth history). GDP-node overheating assumption flips the verdict."
+ },
+ {
+  "text": "this    group argues that if we are in a war where are the price and wage  controls the excess profits taxes and other parts of the national  response to previous wars",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Rhetorical allusion to wartime controls/excess-profits taxes reads to Abel as hawkish resource-discipline advocacy, but the speaker is citing critics who demand such controls and implicitly arguing against aggressive tightening (dovish). Cannot parse the voiced-opposition framing."
+ },
+ {
+  "text": "total demand is only  increased if the deficit is financed by newly created money as it has been  for much of this decade and especially in 1967 and 1968    if as the federal    government runs a defi",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Newly created money' financing deficits is textbook hawkish-inflation warning to Abel's money-supply node, but the ground truth is dovish because the passage describes monetization as actually having raised demand - a pro-stimulus argument. Monetization framed as effective rather than dangerous."
+ },
+ {
+  "text": "for example following the 1980 elections tax cuts were enacted and defense spending rose",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "A neutral recount of 1980s Reaganomics tax cuts and defense hikes triggers Abel's hawkish fiscal-stimulus response, but the ground truth codes it dovish - likely because the historical reference is used to support accommodative fiscal framing. Abel's blanket inflates every stimulus mention into a hawkish offset."
+ },
+ {
+  "text": "the problem is that  government stabilization measures come with a real longterm price tag higher  tax rates greater national indebtedness and the prospect of higher interest  rates driven by the gove",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "The speaker warns that stabilization policies carry hawkish cost (higher taxes, debt, rates) - a critique of activism. Abel keyword-triggers on 'higher interest rates' and 'indebtedness' in a way that reads the sentence as descriptive stress rather than advocacy for restraint, flattening to dovish."
+ },
+ {
+  "text": "perhaps a more fundamental concern however arises from the assessment of the prospects for structural damage to the economy due to the longterm effects of even baseline federal spending increases as p",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "'Structural damage from federal spending' is a hawkish anti-spending structural argument, but Abel reads 'structural damage to the economy' as recession-risk rhetoric that typically accompanies dovish easing calls. The blanket misattributes damage-framing to accommodation advocacy."
+ },
+ {
+  "text": "to realize the potential benefits of the price data we must acknowledge     and take into account the datas inherent limitations which reflect     in part concerns about the substantial costs of manda",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Discussion of price-data limitations and mandatory-disclosure costs is framed as a hawkish argument for cautious, disciplined data use. Abel reads 'limitations' and 'substantial costs' as barriers to action and leans dovish (status-quo/no-change bias). No price-measurement node in blanket."
+ },
+ {
+  "text": "here i refer to a joint effort still under way by the staff of the board of governors and a team of academic economists headed by professors albert ando and franco modiglianithis project has tried to ",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Name-dropping academic econometric modeling (Ando-Modigliani project) provides no macro-node anchor, so Abel defaults dovish. The contextual hawkish angle - rigorous modeling underpinning disciplined policy - is institutional and beyond the blanket's scope."
+ },
+ {
+  "text": "as marginal tax rates increase incentives for people to work and be productive could be reduced",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "A supply-side argument that higher marginal tax rates blunt incentives is classic hawkish structural critique. Abel reads 'incentives reduced' as a growth-drag concern and dovishly infers need for accommodation, inverting the pro-discipline tax-cut argument."
+ },
+ {
+  "text": "too frequently their    economic growth has been constrained and stifled by a large public sectors unintended  e ffects on the economy and its ability to adapt to change",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "A critique of large public-sector drag on growth is hawkish-liberalization advocacy, but Abel reads 'growth constrained' and 'stifled' as dovish easing-call cues. The blanket treats constrained-growth language as a call for stimulus rather than structural reform."
+ },
+ {
+  "text": "the best way to insure the sound future of these special purpose financial institutions is for government regulators and the private sector credit unions they regulate to cooperate in a close working ",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "'Cooperate' and 'close working' read to Abel as light-touch accommodative supervision, but the speaker is advocating disciplined regulator-credit-union cooperation to strengthen soundness (hawkish prudential stance). No credit-union-specific node in blanket."
+ },
+ {
+  "text": "would the u s balance of payments improve as the result of such an increase in the price of gold",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "A rhetorical question about devaluation/gold-price increase is framed as a hawkish defense of dollar discipline, but Abel hears 'increase in the price of gold' as a devaluation/accommodation query and defaults dovish. Gold/exchange-rate node missing from blanket."
+ },
+ {
+  "text": "at that time the retirement of the large baby boom population was anticipated and payroll tax revenues were accumulated in advance of benefit payments steps that created the presentday cash surpluses ",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Social Security trust-fund accumulation is framed as hawkish fiscal prudence, but Abel hears 'cash surpluses' as easy fiscal conditions and reads dovish. Entitlement-funding structural arguments sit outside the macro blanket."
+ },
+ {
+  "text": "they have a wide menu of choices including  increases in taxes  or revenue enhancements  if you will  and reductions in various spending  components",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "The speaker is enumerating hawkish deficit-reduction options (tax hikes, spending cuts), but Abel reads the permissive 'wide menu of choices' as neutral policy flexibility and defaults dovish. Treats optionality as non-directive."
+ },
+ {
+  "text": "the foreign financial institutions involved were arguably affected by the incentive distortions that accompany perceived public sector support",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "A moral-hazard critique of public-sector bank support is a hawkish pro-discipline argument, but Abel reads 'public sector support' as accommodative backstop and defaults dovish. No moral-hazard node in the blanket."
+ },
+ {
+  "text": "since net private savings historically average around 7 to 8 percent of gnp a deficit of this size would absorb roughly threefourths of net private saving leaving precious little to finance net privat",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "A classic crowding-out argument ('deficit absorbs most private saving') is keyword-tagged by Abel as hawkish anti-deficit advocacy, but here it is framed as a dovish worry about investment being starved that argues for policy action to support capital formation. Crowding-out framing inverted."
+ },
+ {
+  "text": "if offbudget credit assistance and preferential tax treatment were given the same attention as direct federal expenditures for example the extent of federal assistance to particular sectorswould look ",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Off-budget credit assistance transparency is Abel-read as hawkish fiscal discipline, but the speaker is documenting extensive federal credit support to sectors in a dovish context of acknowledging public backstops. Abel mistakes transparency-advocacy for tightening."
+ },
+ {
+  "text": "while the early spendout from fiscal support in the first quarter of this year was exceptionally strong whether that strength will be maintained depends in part on the distribution of the remaining ad",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Exceptionally strong spendout' triggers Abel's GDP-overheating hawkish response, but the speaker worries about sustainability of stimulus (dovish pro-support framing). Current-conditions strength misread as policy-tightening rationale."
+ },
+ {
+  "text": "local governments need to make investments in amenities schools and infrastructure that will attract and retain this talent",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Local-government investment advocacy is dovish pro-spending framing, but Abel reads 'investments need to be made' at local level as hawkish fiscal-prudence advice about allocative discipline. No local-fiscal node, so direction flips."
+ },
+ {
+  "text": "ihese problems thus tended to raise interest costs for borrowing agencies and possibly also for the treasury",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Raise interest costs' triggers Abel's federalFunds-node hawkish reading, but the speaker complains that frictions raised borrowing costs and implicitly calls for smoother markets (dovish). Current-conditions rate-rise misread as policy tightening advocacy."
+ },
+ {
+  "text": "and it is argued that this spending should engender deficits since financing through higher taxes would reduce private purchasing power and frustrate the attempt to expand total demand",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "The passage explicitly endorses deficit-financed spending to support demand - textbook dovish fiscal stance. Abel likely keys on 'higher taxes' and 'deficits' as warnings and hawkishly flags the inflationary risk, inverting the pro-stimulus argument."
+ },
+ {
+  "text": "but the magnitudes are apparently not small when fiscal stimulus occurs on the scale we have seen in recent years",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Large-scale fiscal stimulus' fires Abel's hawkish inflation-offset reflex, but the speaker is validating stimulus effectiveness (dovish endorsement of fiscal support). Abel's blanket treats any large-stimulus mention as requiring monetary lean-against-the-wind."
+ },
+ {
+  "text": "our country has not been innocent with respect to the use of these nontariff protective devices",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "A self-critical acknowledgment of US non-tariff protectionism is a dovish trade-policy admission, but Abel reads 'protective devices' as hawkish trade-discipline language. Trade-policy stance sits outside the macro blanket."
+ },
+ {
+  "text": "fiscal policy adjustments allow a country to meet its stabilization objective more by bolstering domestic demand and correspondingly less by encouraging external demand at the expense of other countri",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Stabilization objective' and 'bolstering domestic demand' is explicit dovish fiscal-stimulus advocacy to reduce global imbalances. Abel reads 'stabilization' as discipline and 'adjustment' as tightening, defaulting hawkish. Open-economy policy-coordination frame missing from blanket."
+ }
+]

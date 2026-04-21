@@ -1,0 +1,681 @@
+[
+ {
+  "text": "these financial products have contributed importantly to the development of a far more flexible and efficient financial systemboth domestically and internationallythan we had just twenty or thirty yea",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "The text praises financial products' contribution to a 'more flexible and efficient financial system' — a pro-market, pro-financial-innovation stance Abel's macro-only Markov blanket cannot score, so it flattens the financial-system-quality signal to neutral."
+ },
+ {
+  "text": "more regulation is not the best answer to every problem",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "llm_diagnosis": "Abel appears to read 'not the best answer' as a pessimistic/dovish cue about policy efficacy, missing that 'less regulation' in central-bank discourse is the canonical hawkish/pro-market position.",
+  "ground_truth": "hawkish"
+ },
+ {
+  "text": "increased diversification under the act should result in healthier banks as risk is spread across different investments lowering the organizations consolidated risk profile",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "'Healthier banks' and 'lowering risk profile' are bank-soundness (hawkish) signals, but Abel's inflation/unemployment nodes have no edge to bank capital/diversification concepts so it defaults to neutral."
+ },
+ {
+  "text": "as i noted earlier some are concerned that financial globalization leads to boomandbust patterns in capital flows and investment especially in emergingmarket nations",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "The 'boomandbust' warning about capital flows is a financial-stability concern (dovish), but Abel has no edge from 'emergingmarket capital flows' to its four macro nodes, flattening the stability worry to neutral."
+ },
+ {
+  "text": "from the largest most complex institutions to smaller banks serving the needs of their local communities our nations banking system has thrived amid intense competition and has adjusted to a rapidly c",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "'Banking system has thrived' is a hawkish financial-health statement, but Abel's Markov blanket has no path from banking-sector health to federalFunds/inflation, so the positive valence is lost."
+ },
+ {
+  "text": "banks themselves deserve much of the credit for their strong capital positions but  the us credit markets is the trauma over",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "'Strong capital positions' is a hawkish bank-soundness signal; Abel cannot map capital adequacy onto its four macro nodes, and the garbled 'trauma over' phrase adds noise that pushes the collapse to neutral."
+ },
+ {
+  "text": "integration in each of these areas has been facilitated by rapid advances in telecommunications and information technologies and by an international policy environment that emphasizes trade liberaliza",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Trade-liberalization and tech-integration praise is pro-market (hawkish), but the text contains no inflation/rates/GDP keywords, so Abel's macro-node lookup returns nothing and defaults to neutral."
+ },
+ {
+  "text": "the first part of my remarks will highlight the significant progress that has been made over the past several years toward restoring the banking system to good health",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "'Restoring the banking system to good health' is a hawkish financial-stability claim, but Abel's blanket lacks any bank-health node and the sentence contains no macro anchor words, producing a neutral fallback."
+ },
+ {
+  "text": "this morning i would like to review some of the major innovations and changes that have propelled banks to their present state and have allowed them successfully to navigate through a rapidly changing",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "A scene-setting meta-sentence about banks 'successfully navigating' — the positive-valence adverb 'successfully' encodes hawkishness, but it is carried entirely in bank/innovation vocabulary Abel's macro graph cannot reach."
+ },
+ {
+  "text": "rising demands by pressure groups lead to economic inefficiency and loss of freedom a second type of long run problem is our rising impatience with the free market forces in channeling incomes and res",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Rising impatience with free market forces' and 'economic inefficiency' signal dovish structural worry, but Abel treats the sentence as an abstract political rant with no mapping to inflation/rates and flattens it."
+ },
+ {
+  "text": "the same applies to banks based in chicago which are not even allowed to branch freely in their headquarter city",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "A complaint about branching restrictions — a regulatory-burden (dovish) signal in CB lexicon — but Abel's Markov blanket has no 'branching regulation' concept, so it collapses to neutral."
+ },
+ {
+  "text": "credit markets are open",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Three-word sentence where 'open credit markets' is a hawkish functioning-markets claim; Abel likely keyword-anchors on 'credit' and links to weak credit conditions, flipping the direction to dovish."
+ },
+ {
+  "text": "there was significant financialsector development during this time with commercial banks equity markets and corporate bond markets all playing a growing role in financial intermediation in the us econ",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Praise for growing financial intermediation is hawkish in CB speech, but 'equity markets' and 'bond markets' do not connect to Abel's four macro nodes, so the pro-development tone gets flattened."
+ },
+ {
+  "text": "but the record of the past 30 years does indicate that banks have done quite w0ll in a world of rapid financial innovation increasing competition and advancing technology",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "'Banks have done quite well' is hawkish bank-health signal; OCR typo 'w0ll' plus absence of macro keywords leaves Abel with no anchor to its GDP/inflation graph, defaulting to neutral."
+ },
+ {
+  "text": "however regional overnight check clearance is no more than an interim measure because of the time bomb hidden in the check payments system",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Time bomb hidden in the check payments system' is a vivid dovish financial-stability warning, but payments-system plumbing has no edge in Abel's inflation/rates blanket so the warning is lost."
+ },
+ {
+  "text": "indeed calls for new regulation in several deregulated industries have all but drowned out voices of those who still see potential benefits from further deregulation",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "A lament that pro-deregulation voices are 'drowned out' signals dovish/pro-market grievance, but Abel's blanket lacks any regulation concept, which this very case set identifies as a known gap."
+ },
+ {
+  "text": "even the latest regulatory innovation the 1988 basel accords riskbased capital modelwhich took so many years to gain broad acceptanceis completely inadequate as a gauge for determining capital require",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Declaring Basel 'completely inadequate' for capital requirements is a strong dovish critique of the regulatory framework, but Abel has no Basel/capital-adequacy node and defaults to neutral."
+ },
+ {
+  "text": "by allowing institutions to diversify risk to choose their risk profiles more precisely and to improve the management of the risks they do take on they have made institutions more robust",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "'More robust institutions' is hawkish, but Abel likely triggers on the repeated word 'risk' and maps it to adverse conditions, flipping a risk-management-praise sentence to dovish."
+ },
+ {
+  "text": "large banks have increased both the size and quality of their capital buffers the ratio of common equity to riskweighted assets at large banks has increased by half relative to the precrisis average",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "A concrete quantitative hawkish claim (capital buffers up 50%) about bank resilience; Abel's macro-only blanket cannot represent 'common equity to risk-weighted assets' and flattens it."
+ },
+ {
+  "text": "it would not be difficult to show that these relationships depart from those which would be considered desirable for a financial system that functioned well",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Depart from desirable' and 'functioned well' are subtle dovish critiques of the financial system's functioning, but the abstract phrasing has no macro keyword hooks for Abel to score."
+ },
+ {
+  "text": "the banks performance in this area has generally been favorable and any difficulties they may have encountered appear to be startup problems",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "'Favorable performance' and 'merely startup problems' are a hawkish reassurance, but bank-performance language does not activate Abel's inflation/GDP graph, yielding neutral."
+ },
+ {
+  "text": "banks that integrate risk measurement into businessline goals believe that it has improved the effective implementation of strategic plans",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Praise for improved bank risk-management practices is hawkish, but the microstructural/operational vocabulary has no representation in Abel's four-node macro blanket."
+ },
+ {
+  "text": "at that first meeting in 1997 i talked about the devastating and farreaching effects of foreclosures",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Devastating and farreaching effects of foreclosures' is explicit dovish harm framing, but 'foreclosures' is a housing-sector concept not in Abel's Markov blanket, so the charged valence is flattened."
+ },
+ {
+  "text": "in addition indicators of market stress and illiquiditysuch as spreads in shortterm funding marketshave generally returned to levels near those seen before the crisis",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "The sentence is reassuring (stress has normalized) — hawkish — but Abel keyword-triggers on 'market stress' and 'illiquidity' and flips to dovish, missing the 'returned to pre-crisis levels' frame."
+ },
+ {
+  "text": "among the institutions that are most crucial to economic growth are those that enable a country to allocate capital to its most productive uses",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Capital-allocation efficiency praise is hawkish; 'economic growth' could hit Abel's GDP node but the sentence's hawkish payload sits in 'productive allocation', a concept outside the blanket, so it settles neutral."
+ },
+ {
+  "text": "unless the resulting incentive to overinvest in risky projects is offset by an effective program of supervision riskfree agents are likely to misallocate resources",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Warning that agents will 'overinvest' and 'misallocate' without supervision is dovish moral-hazard language; Abel probably latches on 'supervision'/'effective program' as disciplining and mis-scores it hawkish."
+ },
+ {
+  "text": "derivative products offer users the ability to shift and manage risk in an efficient manner",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Clear pro-innovation hawkish praise for derivatives, but 'derivative products' and 'risk management' fall entirely outside Abel's macro blanket, so it defaults to neutral."
+ },
+ {
+  "text": "looking ahead the global trends of deregulation denationalization privatization and tax reformtax reduction suggest that the 21st century will be the century of markets",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "'Century of markets' stacked with deregulation/privatization/tax-cut vocabulary is maximally hawkish pro-market ideology, but none of these terms connect to Abel's four macro nodes."
+ },
+ {
+  "text": "theres some evidence that these shock absorbers are working",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "A short hawkish reassurance ('shock absorbers are working') with zero macro keywords; Abel has nothing in its blanket to anchor 'shock absorbers' and flattens it."
+ },
+ {
+  "text": "for example          the new technologies of securitization and credit derivatives help banks          better manage their exposure to credit risk by offloading some of their          risk to institut",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Securitization-as-risk-management is pro-innovation hawkish, but Abel keyword-anchors on 'credit risk' and 'offloading risk' as negative signals, flipping to dovish."
+ },
+ {
+  "text": "with these reforms in place we can give banks expanded powers to compete headon with nonbanks and international competitors and banks can remain viable players in this increasingly competitive industr",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "'Expanded powers to compete' is hawkish deregulation, but Abel may be triggered by 'viable players' and 'increasingly competitive' as fragility language, flipping to dovish."
+ },
+ {
+  "text": "as alan greenspan has noted during the last 20 years or so weve deregulated financial markets weve developed more flexible labor markets and weve made major advances in technology",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Textbook hawkish triad — deregulation + flexible labor + tech progress — but none of these ride Abel's inflation↔federalFunds↔GDP↔unemployment edges, so the Markov blanket produces neutral."
+ },
+ {
+  "text": "the most serious problem is the increased risk of the residual loan portfolio the portfolio that has been effectively stripped of its high quality assets for which regulatory capital exceeds economic ",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Most serious problem' + 'residual portfolio stripped of high quality assets' is explicit dovish warning; Abel likely reads 'regulatory capital exceeds' as a disciplining hawkish cue and inverts direction."
+ },
+ {
+  "text": "in the developing global economy and a 24hour global capital market the united states financial system must be allowed to integrate in order to compete effectively with the increasingly integrated fin",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Argument for US financial integration (hawkish pro-market) relies on 'capital markets' and 'competition' vocabulary that Abel's macro-node graph cannot score."
+ },
+ {
+  "text": "but the record of the past 30 years does indicate that banks have done quite woll in a world of rapid financial innovation increasing competition and advancing technology",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Duplicate of earlier case (OCR 'woll' vs 'w0ll'); hawkish bank-success claim with no macro keyword Abel can latch onto, so the blanket returns neutral."
+ },
+ {
+  "text": "monetary policy each of the areas i just mentioned are different but all relate to our overall mission which is to foster a healthy growing economy and a safe and stable financial system",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Mission-statement praising 'healthy growing economy and stable financial system' is a hawkish affirmation; Abel sees 'monetary policy' but no directional cue and flattens to neutral."
+ },
+ {
+  "text": "clearly there is a big difference between the financial environment of 1909 and that of 1966this changed environment promises substantial opportunity for future expansion of consumer credit",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "'Substantial opportunity for future expansion of consumer credit' is hawkish pro-growth, but Abel likely anchors on 'expansion of consumer credit' as looser conditions and flips to dovish."
+ },
+ {
+  "text": "to a remarkable degree    the profitability and liquidity of the 1990s has been maintained through    the past two years of economic weakness6    some of the factors supporting profitability in the ba",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Hawkish contrast — bank profitability stayed strong despite weakness — but Abel current-conditions-anchors on 'economic weakness' and flips to dovish, ignoring the 'profitability maintained' pivot."
+ },
+ {
+  "text": "although it has taken time globalization is helping to generate the demand for an improved financial system which is driving the reform process",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Hawkish claim that globalization drives financial-system reform, but 'globalization' and 'reform process' are outside Abel's macro blanket; result is neutral."
+ },
+ {
+  "text": "the larger banks were better     able not only to spread their portfolio risks across a wider range of     customers but also to broaden their funding sources",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "A compliment to large-bank diversification capabilities — hawkish in CB context — but 'portfolio risk' and 'funding sources' are microstructural terms Abel cannot map to macro nodes."
+ },
+ {
+  "text": "importantly structural reform is moving forward in the financial sector with ambitious domestic and international efforts underway to enhance the capital and liquidity of banks especially the most sys",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "'Structural reform' + 'enhance capital and liquidity' is hawkish regulatory-strength language, but Abel's blanket has no capital/liquidity regulation node as flagged in the known gaps."
+ },
+ {
+  "text": "as you will hear recent readings on the economy suggest that the pace of economic activity has picked up of late our financial system is healthy and inflation pressures remain subdued",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Classic hawkish summary (activity up, system healthy), but Abel keyword-anchors on 'inflation pressures remain subdued' and outputs dovish, ignoring the 'pace picked up' and 'healthy' hawkish payload."
+ },
+ {
+  "text": "the market system if it is per  mitted to work can slow down use of increasingly scarce resources and en courage development of new resources",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "'Market system if permitted to work' is overt hawkish pro-market ideology, but the sentence contains no macro keyword; OCR breaks ('per mitted') further block any heuristic match."
+ },
+ {
+  "text": "the turbulent macroeconomic developments of the 1970s along with technological and business innovations helped produce an increasingly tight squeeze on the traditional commercial banking business mode",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Turbulent' + 'tight squeeze on banking business model' is a dovish historical-stress description; Abel may read 'macroeconomic' generically and 'innovations' as positive, netting out neutral."
+ },
+ {
+  "text": "indeed given the sheer volume of these instruments and the astonishing speed and rapidity with which some change hands i must confess that i have a tinge of uneasiness as to whether the aggregate risk",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Greenspan's 'tinge of uneasiness' about aggregate risk is a dovish financial-stability worry, but Abel may anchor on 'sheer volume' and 'speed' as positive dynamism and flip to hawkish."
+ },
+ {
+  "text": "for example the crash of huge once invincible texas banks triggered by a softening of the states basic industry  petroleum",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Crash' + 'softening' describes a bank-failure cascade — dovish — but Abel's macro blanket has no state-level bank-failure or petroleum-sector node and flattens it."
+ },
+ {
+  "text": "it is a burdensome albatross for any financial system where competition should be based on serving the public rather than on serving oneselfincidentally i see no insurmountable theoretical or supervis",
+  "claude_answer": "dovish",
+  "abel_answer": "neutral",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Burdensome albatross' is a dovish complaint about a structural drag on the financial system, but the metaphor lacks any inflation/rates/GDP keyword for Abel to grab."
+ },
+ {
+  "text": "to the extent that exchange rate appreciation exerts a tightening force on financial conditions in the united states it delays the return of us interest rates to more normal levels",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Clear dovish logic: external tightening lets Fed keep rates low longer; Abel likely anchors on 'tightening force' and 'interest rates' as hawkish cues, inverting direction."
+ },
+ {
+  "text": "moreover by bolstering the safety and  soundness of the banking industry the improvement in lending practices helps ensure that we can work through industry restructuring from a more solid foundation",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Hawkish bank-soundness celebration; Abel may be triggered by 'restructuring' as distress language and flip to dovish, missing the 'bolstering safety and soundness' hawkish frame."
+ },
+ {
+  "text": "the perils of gogo11 banking became even more apparent when confidence was shaken by foreign exchange losses in a world of floating exchange rates and bank failures abroad twodigit inflation and the a",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Dovish recitation of 1970s disasters — losses, bank failures, twodigit inflation. Abel keyword-anchors on 'twodigit inflation' → high-inflation signal → hawkish, inverting the historical-warning valence."
+ },
+ {
+  "text": "im now reasonably satisfied the situation has settled downat least as regards the likely causes of market volatility that converged in august",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Hawkish 'situation has settled down' reassurance; Abel likely triggers on 'market volatility' as financial-stress cue, flipping to dovish despite the 'settled down' frame."
+ },
+ {
+  "text": "such adverse developments have in certain instances been unwanted side effects of some of the progressive activities we have seen banks undertake",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Dovish — banks' 'progressive activities' cause 'adverse developments'; Abel may anchor on 'progressive activities' as positive innovation and ignore 'adverse developments', flipping hawkish."
+ },
+ {
+  "text": "first prolonged delay in tackling systemic banking sector weakness invites further weakness not strengthening",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Dovish systemic-weakness warning; Abel seemingly latches on 'tackling'/'strengthening' as hawkish action verbs and misses that the sentence argues delay causes more weakness."
+ },
+ {
+  "text": "and we do not want to stifle financial innovation                            simply because some problems have arisen in one sector",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Hawkish pro-innovation, anti-over-regulation stance, but 'financial innovation' has no edge to Abel's macro Markov blanket, so the defense of deregulation is lost to neutral."
+ },
+ {
+  "text": "several years ago the bank regulatory agencies issued guidance on incentive compensation and then began a horizontal monitoring of practices at large banking organizations4 prior to the crisis incenti",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Text describes pre-crisis compensation failures driving excess risk (dovish); Abel likely picks up 'regulatory agencies issued guidance'/'monitoring' as tightening and reads it hawkish."
+ },
+ {
+  "text": "in the first half of the 1970s by depending more and more for funds on increasingly volatile liabilities many banks were caught short whenfor reasons that probably should have been anticipatedsources ",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Historical dovish narrative about banks 'caught short' by volatile liabilities; Abel keyword-anchors on 1970s macro era (high rates) and mis-flips to hawkish."
+ },
+ {
+  "text": "money market funds offer a high yielding asset that also is highly liquid in that it can be redeemed quickly by a variety of methods without the penalties associated with early withdrawal of time depo",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Pro-financial-innovation hawkish framing of MMFs; Abel may anchor on 'high yielding' and 'liquid' as easy-conditions signals and flip dovish, missing the product-innovation frame."
+ },
+ {
+  "text": "speaking more specifically actions directed toward general economic stability may sometimes affect adversely  over the short term  the profitability of commercial banking",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Dovish tradeoff acknowledgment — stability policy hurts bank profits — but Abel keyword-anchors on 'economic stability' as hawkish and misses the 'adversely affect profitability' dovish tone."
+ },
+ {
+  "text": "18  customers  in interstate  bankings  safety implications may be positive also",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Fragmented sentence hawkishly claiming interstate-banking safety gains; Abel probably anchors on 'safety implications' as a risk/worry cue, flipping dovish despite the 'positive' modifier."
+ },
+ {
+  "text": "the investor is key to a process that is at least as important to his future as his own return on capital",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Hawkish investor-agency framing ('return on capital'); Abel may trigger on 'his future'/'his own' as uncertainty language or default to dovish when investor vocabulary is absent from macro blanket."
+ },
+ {
+  "text": "it is our view that the more attention individual banks pay to this matter the less the supervisory agencies will have to become involvedmy final point on deposit rate deregulation relates to the pric",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Hawkish deregulation pitch — less supervision needed if banks self-discipline — but Abel likely anchors on 'supervisory' and 'deregulation' mentions as complex and inverts to dovish."
+ },
+ {
+  "text": "in periods of demand \f 5pressures credit controls would have to be pervasive to have any chance of being effective",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Dovish skepticism about credit controls' effectiveness; Abel triggers on 'demand pressures' and 'credit controls' as tightening/anti-inflation actions and flips hawkish."
+ },
+ {
+  "text": "the final significant trend i will highlight is the ongoing consolidation of the us banking industry",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Neutral-sounding sentence about consolidation coded hawkish in CB corpus (pro-market trend); Abel may read 'consolidation' as contraction and flip dovish."
+ },
+ {
+  "text": "the law allows an outofstate bank or bank holding company to acquire a failed bank having assets of over 500 million",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Description of pro-deregulation law expanding interstate-acquisition powers (hawkish); Abel keyword-anchors on 'failed bank' and flips to dovish, missing the enabling-legislation frame."
+ },
+ {
+  "text": "after the bursting of the bubble policymakers did not quickly resolve the fragility of the banking sector thereby allowing conditions to worsen as banks kept lending to inefficient debtridden socalled",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Dovish critique of Japan-style zombie lending; Abel may anchor on 'policymakers' action language or 'banks kept lending' as easing, misreading to hawkish."
+ },
+ {
+  "text": "as to that i can only say that the guidelines for the nonbank institutions were labeled tentative because we in the federal reserve knew less about7 of making this program work by a skillful combinati",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Insider hawkish confidence about Fed program design; Abel likely reads 'tentative' and 'knew less about' as uncertainty markers and flips dovish."
+ },
+ {
+  "text": "since the hope is that system operations will help to improve the market for these issues we must be careful to avoid driving away other investors as might happen if the system acquired a disproportio",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Hawkish market-functioning concern about Fed ops not crowding out private investors; Abel may anchor on 'driving away investors' / 'disproportionate' as negative-market cue and invert direction."
+ },
+ {
+  "text": "participants in foreign exchange markets have been aware that trading entails significant credit and liquidity risks since 1974 when the failure of a relatively small german financial institution bank",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Dovish Herstatt-risk retrospective; Abel triggers on 'significant credit and liquidity risks' as awareness/discipline and reads it hawkish, missing the failure-warning tone."
+ },
+ {
+  "text": "in fact such an approach might result in the worst of both worldsan ongoing intrusiveness into the consolidated supervision of foreign banks by their homecountry regulators without the ultimate abilit",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Dovish 'worst of both worlds' supervisory-design warning; Abel anchors on 'consolidated supervision' / 'regulators' as tightening signals and flips hawkish."
+ },
+ {
+  "text": "banks became dependent on liquid markets to distribute the loans they had originated",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Dovish originate-to-distribute fragility description; Abel likely reads 'liquid markets' as positive and 'distribute loans' as innovation, flipping hawkish and missing the 'dependent' vulnerability."
+ },
+ {
+  "text": "in the fall of 1998 for example in the wake of the default by russia and with financial markets still rattled by the asian crisis a year earlier a large hedge fund nearly failed and several other fina",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "LTCM/Russia-crisis narrative is overtly dovish, but Abel may keyword-anchor on 'default' and 'crisis' as disciplining events or on later-sentence Fed action, flipping hawkish."
+ },
+ {
+  "text": "in some cases providing a broader array of financial services became a competitive necessity given the changes in the capital markets and the inroads made by nonbank financial institutions in the 1990",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Hawkish pro-expansion framing ('competitive necessity'); Abel may trigger on 'inroads by nonbanks' as threat language and flip dovish, missing the competition-is-good frame."
+ },
+ {
+  "text": "money market deposit accounts increased their cost of funds but large banks substituted mmodas for purchased money and lowered their cost of funds",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Hawkish — large banks successfully lowered funding costs via product substitution. Abel may anchor on 'increased cost of funds' in the first clause and ignore the 'lowered' resolution, flipping dovish."
+ },
+ {
+  "text": "clearly the speed with which a bank thus can be endangered requires equally prompt flexible and effective means of coping therewith",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Dovish fragility warning; Abel likely triggers on 'prompt flexible effective coping' as strong-action hawkish language and misses the 'bank can be endangered' threat framing."
+ },
+ {
+  "text": "our approach has been the systemwide coordination of bank supervision to achieve efficiency in staff deployment yet still gain the benefits of specialized knowledge",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Hawkish praise for efficient supervisory coordination; Abel may keyword-anchor on 'bank supervision' as tightening/burden and flip dovish."
+ },
+ {
+  "text": "adverse selection arises when investments that are most likely to produce an undesirable adverse outcome are the most likely to be financed selected",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Textbook dovish definition of adverse selection; Abel's macro blanket has no information-asymmetry concept and apparently defaults to hawkish when seeing 'investments/financed' — classic missing-concept error."
+ },
+ {
+  "text": "since the return on bank assets is relatively flexible the issuer can offer such obligations without excessive risk",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Hawkish 'without excessive risk' reassurance; Abel may anchor on 'excessive risk' (despite the negation) and flip dovish, missing the 'without' qualifier."
+ },
+ {
+  "text": "for the  investor prudence took on another dimension with the presumed ability to  mathematize judgment and hedge away the risk of default",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Dovish — 'presumed ability' to hedge risk is a subtle critique of pre-crisis overconfidence; Abel reads 'hedge away default risk' as risk-management success and flips hawkish."
+ },
+ {
+  "text": "to me sinking or orbiting the markets will ordinarily be undesirable",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Hawkish dismissal of heavy-handed market intervention ('undesirable'); Abel likely triggers on 'sinking' and 'undesirable' as negative-sentiment words and flips dovish, missing the anti-intervention meaning."
+ },
+ {
+  "text": "to illustrate in the second quarter of 1980 the demand for transactions balances appears to have shifted down by perhaps 3 to 312 percentage points based on the money demand function in the boards qua",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Dovish — money-demand shift downward complicates targeting (weak-conditions signal); Abel may read 'percentage points' as rate-change vocabulary and flip hawkish."
+ },
+ {
+  "text": "but it is not clear that the customer gainsin washington there exists a builtin momentum of regulatory activity that is a cause for deep concern",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Hawkish anti-regulation complaint ('builtin momentum of regulatory activity… deep concern'); Abel probably anchors on 'deep concern' as negative-sentiment and flips dovish."
+ },
+ {
+  "text": "but the inadequacy of regulation and supervision was clearly among them",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Dovish — 'inadequacy of regulation/supervision' as crisis cause; Abel likely reads bare 'regulation and supervision' as tightening and assigns hawkish, ignoring the 'inadequacy' qualifier."
+ },
+ {
+  "text": "in particular we will look carefully at differences in the implementation of basel ii that may adversely affect the international competitiveness of us banks",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Hawkish defense of US-bank competitiveness against regulatory asymmetry; Abel keyword-anchors on 'adversely affect' and 'competitiveness' worry and flips dovish."
+ },
+ {
+  "text": "thus it was very destructive when in the early part of this decade dubious underwriting practices and mortgage products inappropriate for mass consumption became more common",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Explicit dovish mortgage-bubble critique ('very destructive', 'dubious underwriting'); Abel likely reads 'mortgage products inappropriate' as calling for supervision (tightening) and flips hawkish."
+ },
+ {
+  "text": "judging from turnover rates in financial centers which have been running as high as 130 times per year in new york city it must be a declining factor in well managed corporate accountsbut an electroni",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Hawkish efficiency/high-turnover observation; Abel may anchor on 'declining factor' and miss the 'well managed' frame, flipping dovish."
+ },
+ {
+  "text": "however it seems sensible that a large amount of the vetting contracting and onboarding process could be streamlined for banks by collaboration or specialized thirdparty services",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Hawkish efficiency/streamlining suggestion for bank operations; purely operational vocabulary — Abel has no node for vetting/onboarding and likely defaults to whichever side its prior favors, here dovish."
+ },
+ {
+  "text": "also  according to the federal  deposit insurance corporation only 121 banks out of 15000 banks in this country were regarded as having serious problems on january 1 1976 despite the recent newspaper ",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Hawkish reassurance (only 0.8% of banks have serious problems); Abel keyword-anchors on 'serious problems' without the '121 out of 15000' small-fraction context and flips dovish."
+ },
+ {
+  "text": "while reinsurance contracts and agreements among investors can shift risks across the global financial system as i noted earlier some level of risk is likely to remain13  a lack of transparency across",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Dovish warning about residual risk and 'lack of transparency' in reinsurance networks; Abel probably anchors on 'shift risks' as risk-management positive and flips hawkish."
+ },
+ {
+  "text": "this socalled regulatory arbitrage may not be all bad",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Hawkish defense of regulatory arbitrage ('not all bad'); Abel almost certainly reads 'regulatory arbitrage' as pejorative and 'may not be all bad' hedge as mild-negative, flipping dovish."
+ },
+ {
+  "text": "looking back at the mid2000s        although it was not recognized at the time risks to financial stability within the united states escalated to a dangerous level in the mid2000s",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Clear dovish pre-GFC retrospective ('dangerous level'); Abel may trigger on 'financial stability' as disciplined/hawkish action language and ignore the 'escalated to dangerous' framing."
+ },
+ {
+  "text": "for these banks the average cash assets ratio declined from 14 per cent the year prior to withdrawal to 8 per cent the year following withdrawal",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Dovish — liquidity deterioration (cash ratio nearly halved); Abel likely reads bare 'ratio declined' as tightening conditions rather than weaker bank buffer, flipping hawkish."
+ },
+ {
+  "text": "the disadvantage is that potential losses associated with the unlikely risks can be very large",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Dovish tail-risk warning ('potential losses very large'); Abel may anchor on 'unlikely' and 'disadvantage' as mild words and flip hawkish despite the 'very large losses' payload."
+ },
+ {
+  "text": "large account holdersincluding business corporations and otherslong ago began utilizing a variety of instruments and techniques enabling them to minimize the impact of the inability to earn interest o",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Hawkish innovation/workaround framing (Reg Q evasion through new instruments); Abel probably reads 'inability to earn interest' as rate-suppression/dovish and flips, missing the deregulation-enabling tone."
+ },
+ {
+  "text": "in any event reducing or more evenly redistributing the risk within the banking systemwhere such credit risk has been traditionally concentratedwould seem to be a clear benefit",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Dovish — acknowledges concentrated banking-system credit risk; Abel reads 'clear benefit' of 'reducing risk' as hawkish safety language and flips, missing the implicit concentration-critique."
+ },
+ {
+  "text": "the moral hazard issue leads us to a third example of how the liability side of the balance sheet of a financial intermediary reveals the need for capital regulationthe toobigtofail tbtf problem",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Overtly dovish TBTF/moral-hazard framing; Abel reads 'need for capital regulation' as tightening/hawkish and misses the 'problem' diagnosis — classic missing-regulatory-concept failure."
+ },
+ {
+  "text": "no twentieth century industrial economy can function well without strong banks",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Hawkish banks-are-essential declaration; Abel may anchor on 'cannot function without' as negation/fragility and flip dovish, missing that the argument affirms the critical role of strong banks."
+ },
+ {
+  "text": "that overall exposure he will choose in the light of the optimum combination of risk and return which as portfolio theory teaches us he is seeking to establish",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Hawkish rational-investor portfolio-theory frame; Abel has no portfolio-theory node in its four-macro blanket and may read 'exposure'/'risk' keywords as dovish stress language."
+ }
+]

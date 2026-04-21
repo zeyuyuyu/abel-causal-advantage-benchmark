@@ -1,0 +1,681 @@
+[
+ {
+  "text": "to day mainland china is already the second \nlargest economy in the world and the single biggest contributor to the worlds economic \nexpansion creating nearly onefifth of the worlds newly generated ec",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel's Markov blanket has no node for foreign-economy growth contribution, so 'second largest economy' and 'biggest contributor to expansion' did not map onto inflation/GDP/unemployment and defaulted to neutral. The hawkish read requires recognizing that strong external demand feeds domestic growth pressure, which lies outside the four-node graph."
+ },
+ {
+  "text": "and given our highly educated population canada has the capacity to innovate in green technologieswhile the magnitude of the transition itself provides a strong motivation for such innovation",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "The sentence is framed in terms of human capital and green innovation capacity, concepts Abel's blanket treats as structural rather than cyclical, so it flattened a confidence/expansion signal into neutral. Abel missed that capacity-to-innovate language is implicitly growth-positive in central bank rhetoric."
+ },
+ {
+  "text": "with the gains of its policy initiatives over the years as its bedrock we are setting our sights on digital innovations",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "'Gains of policy initiatives' and 'setting our sights on digital innovations' is forward-looking boosterism about productivity gains, but Abel has no digital-innovation or productivity node and over-flattened to neutral. The hawkish signal comes from the self-congratulatory progress framing, which the Markov blanket cannot detect."
+ },
+ {
+  "text": "in many \ncountries the operations of foreign affiliates are now extremely important for domestic growth with rising sales value added employment and exports",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel likely triggered on 'foreign affiliates' and 'exports' as vulnerability/dependency signals and flipped dovish, ignoring the clearly positive verbs ('rising sales, value added, employment'). This is keyword-triggered wrong direction - the FDI language misled it when every growth indicator in the sentence is up."
+ },
+ {
+  "text": "with these developments private sector credit is expected to gain momentum",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "'Private sector credit expected to gain momentum' is a textbook hawkish expansion signal, yet Abel's blanket has no explicit credit-aggregate node and neutralized. The causal chain credit growth to GDP to inflation pressure requires an extra link Abel's four-node graph does not encode."
+ },
+ {
+  "text": "at the same time research shows that having a greater share of intangible assets is related to a greater ability to create and absorb new technology",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "The productivity-via-intangibles framing is a structural growth argument that does not surface on inflation/funds-rate/GDP/unemployment nodes, so Abel flattened. It missed that central bank commentary praising intangibles/R&D capacity carries an implicit supply-side optimism coded hawkish in this dataset."
+ },
+ {
+  "text": "technology  the internet in particular  has proved indispensable for remote working commerce and education",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Praise for technology enabling remote work/commerce is a productivity-positive observation, but Abel has no tech/productivity node and treated the statement as topic-only. Over-flattening to neutral because nothing in the Markov blanket fires on 'internet' or 'remote working'."
+ },
+ {
+  "text": "with contributions from project managers in those countries to further improve the technologies the overall technological capacity of the developed countries was further promoted",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "A clearly positive technology-capacity statement ('further promoted'), but the Markov blanket has no technology-transfer or capacity node so Abel defaulted to neutral. The hawkish signal lives in 'further improve' and 'further promoted', which are growth intensifiers the four-node graph cannot register."
+ },
+ {
+  "text": "the italian economy \nthe italian economy is benefiting from the expansion of world trade",
+  "claude_answer": "hawkish",
+  "abel_answer": "neutral",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "'Benefiting from expansion of world trade' should fire the GDP node as positive, but Abel neutralized, likely because 'world trade' sits outside the closed macro blanket. Current-conditions anchoring on unspecified Italian economic state overrode the explicit positive verb."
+ },
+ {
+  "text": "global economic integration has increased dramatically in recent decades",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel likely read 'integration' as a risk/contagion channel and flipped dovish; the blanket's financial-stability proxies fire on 'global integration' as vulnerability. The hawkish reading requires seeing integration as a growth positive, which the four-node graph does not encode."
+ },
+ {
+  "text": "in its national and international cooperation the bundesbank ismaking a major contribution to promoting preparatory work in the public and private sectors",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "'Promoting preparatory work' for EMU is self-congratulatory institution-building language, but Abel saw 'preparatory' as cautious/accommodative and went dovish. The Markov blanket has no institutional-credibility node to capture the actually hawkish boosterism here."
+ },
+ {
+  "text": "financial education and financial literacy \nfinancial education has not only been integral to community development but has also begun to play \na larger role in the broader consumer market",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel probably triggered on 'consumer market' and 'community development' as signals of accommodation/support and went dovish. The hawkish coding of financial-education boosterism requires recognizing it as a confidence-building activity, not a stimulus-style intervention."
+ },
+ {
+  "text": "for more than a decade now banks have worked hard to sustain the momentum for achieving the objective of financial inclusion",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "'Financial inclusion' reads as accommodative in Abel's heuristics, flipping it dovish, but the dataset codes central-bank pride in decade-long progress as hawkish. Keyword-triggered wrong direction driven by 'inclusion' overriding the achievement framing."
+ },
+ {
+  "text": "i will describe how rtgs can help us maintain stability and promote innovation in the context of rapidly changing user needs and how collaboration between central banks and other public authorities th",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "Abel likely weighted 'stability' and 'user needs' as dovish/supportive, but 'maintain stability and promote innovation' is infrastructure confidence language coded hawkish. The blanket lacks a payments-system node, so RTGS-policy optimism was misread."
+ },
+ {
+  "text": "with the belief that added transparency is translated into higher integrity and transparency \nthe bank of albania has been paying an increasing attention to public education as well",
+  "claude_answer": "hawkish",
+  "abel_answer": "dovish",
+  "ground_truth": "hawkish",
+  "llm_diagnosis": "'Public education' and 'transparency' signaled accommodation to Abel, but the statement is an institutional-credibility claim that the dataset codes hawkish. No transparency/credibility node in the blanket to catch this."
+ },
+ {
+  "text": "the crisis played a role in this but also that the fiscal rules were repeatedly violated and the capital markets didnt sanction these breaches because the no bailout clause lacked credibility",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel saw 'fiscal rules violated', 'no bailout clause lacked credibility' and inferred discipline-demanding stance = hawkish, but the dovish reading is that lax enforcement and implicit bailouts made policy effectively accommodative. Abel confused the subject (rules being strict) with the outcome (policy being lax)."
+ },
+ {
+  "text": "it is clear to me that taking a pointintime approach to transactions or looking at them from a narrow \nmicro perspective does not provide a sufficiently comprehensive pictur e of the underlying risks",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "The word 'risks' and 'underlying risks' triggered Abel's hawkish risk-awareness heuristic, but the speaker is actually arguing for a more lenient, holistic supervisory approach (dovish). Missing regulatory-philosophy concept - Abel cannot distinguish 'more tolerant supervision' from 'tighter supervision'."
+ },
+ {
+  "text": "we would subsequently have been compe lled to discontinue the exchange rate floor \nunder even greater pressure with all the consequences for our balance sheet and the swiss economy that this would hav",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel read 'pressure' and 'consequences' as tightening language, but the passage is SNB justifying the dovish decision to abandon the floor and retain accommodation flexibility. Exchange-rate-floor policy is outside the Markov blanket so the dovish intent was missed."
+ },
+ {
+  "text": "of course the fact that we have only one policy instrument means that we cannot independently try to manage those side effects without putting our inflation target in jeopardy",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel likely fired on 'inflation target in jeopardy' as a hawkish vigilance cue, but the speaker is explicitly constraining policy ambition (dovish - one instrument, can't tighten for side effects). Keyword-triggered wrong direction: inflation mention overrode the humility frame."
+ },
+ {
+  "text": "if one claims this one is also implying that central \nbanks and governments do not have the possibility to choose the level of the inflation target \nbut that this is something determined by structural",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel saw 'inflation target' and defaulted hawkish, but the argument is that structural forces may require a higher target (dovish implication). The Markov blanket cannot distinguish 'defend 2% target' (hawkish) from 'target should be flexible/higher' (dovish)."
+ },
+ {
+  "text": "i suspect even more \nthat germanys insistence on strict observance of ecb rules stems from a fear that \nany lenient interpretation will lead sooner rather than later to the total subordination \nof min",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Strict observance' fired Abel's hawkish trigger, but the speaker is criticizing German strictness and implicitly endorsing leniency (dovish). Abel cannot distinguish describing a hawkish position from endorsing it."
+ },
+ {
+  "text": "some of our prudential guidelines on key areas such as investment classification and valuation norms impairment recognition and loan loss provisioning as well as securitisation are indeed at variance ",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel saw 'prudential guidelines', 'loan loss provisioning', 'impairment' and read the list of tight-sounding tools as hawkish. The dovish meaning ('at variance with Basel' suggesting RBI is more lenient than global standards) requires parsing the contrast the Markov blanket does not see."
+ },
+ {
+  "text": "at the same time our weak currency also created pressure on the exchange rates of our neighbors causing the interest rate to be kept high for longer than necessary which in turn also fed into the nonp",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel likely fired on 'interest rate kept high for longer' as hawkish, but the speaker is regretting this as forced and harmful (dovish critique of past tightness). Current-conditions anchoring on the rate level missed the retrospective regret framing."
+ },
+ {
+  "text": "not only do gover nments lack a suitable hedge for longevity \nrisks but  due to national payasyougo sche mes  they already face a huge demographic \nburden which should not be exacerbated needlessly",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Demographic burden', 'longevity risks' triggered hawkish risk-speak in Abel, but the passage is a dovish warning against loading more burden onto fiscally strained governments. Missing fiscal-sustainability node, so the dovish 'do not exacerbate' plea was inverted."
+ },
+ {
+  "text": "let me close with a few comments on what i see as so me of the more important risks to the outlook for \nthe us economy",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel treated 'risks to outlook' as tightening vigilance, but the phrase is a standard downside-risk preamble that the dataset codes dovish. Abel's blanket cannot distinguish upside risks from downside risks without richer context."
+ },
+ {
+  "text": "indeed all of the banks felt this was \ngoing to be the c ase and they argued against being required to put up sufficient capital to \nmeet an overall nama loss ratio equal to that of the first tranche",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel saw 'sufficient capital' and 'loss ratio' and classified as hawkish prudential language, but the banks are pushing back against capital requirements - an argument for regulatory leniency (dovish). The blanket lacks a regulatory-capital-negotiation concept."
+ },
+ {
+  "text": "lesson 6 inflation targeting is necessary but not sufficient \na more fundamental question is whether the inflation targeting  regime itself needs to be re\nthought",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel triggered hawkish on 'inflation targeting', but the speaker is questioning whether the regime should be loosened/rethought (dovish). Keyword-triggered wrong direction driven by 'inflation' overriding the meta-critique."
+ },
+ {
+  "text": "another factor which led us to review our banking supervision arrangements was\na concern at the compliance costs and regulatory distortions which can be associated withconventional approaches to banki",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel read 'banking supervision' and 'regulatory' as hawkish oversight, but the speaker is complaining about compliance costs and distortions - arguing for lighter-touch supervision (dovish). Missing regulatory-burden node means Abel cannot see deregulatory intent."
+ },
+ {
+  "text": "of course whenever financial stability risks are looming this represents a challenge above all to macroprudential policy",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Financial stability risks looming' fired Abel's hawkish vigilance signal, but the dataset codes acknowledging stability risks as dovish (reason to soften monetary policy, let macroprudential handle it). Abel conflates risk awareness with tightening response."
+ },
+ {
+  "text": "in addition the reform of the stability and growth pact sgp in 2005 has weakened the fiscal framework substantially",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel likely read 'stability and growth pact' and 'fiscal framework' as disciplinary/hawkish, but the sentence says the framework was weakened - effectively more dovish fiscal stance. Abel missed that 'weakened' inverts the polarity of the named tight-sounding institution."
+ },
+ {
+  "text": "as ive just talked through though these \nfuture decisions have the potential to affect near term macroeconomic outcomes",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "A vague forward-looking caveat that Abel interpreted as hawkish contingency, but it is in fact a cautious, uncertainty-acknowledging statement coded dovish. Without surrounding context, the Markov blanket has no signal so it defaulted to the hawkish side of caution."
+ },
+ {
+  "text": "for instance inflation creates a wellestablished fiscal bias as tax bands may not be sufficiently\nupdated or because interest incomes are taxed whereas they incorporate a risk premium which does\nnot c",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel fired hawkish on 'inflation' and 'risk premium', but the passage is a technical argument that inflation creates fiscal distortions - a dovish case against tolerating inflation for fiscal reasons, phrased neutrally enough to code dovish in this dataset. Keyword-triggered inflation reflex missed the nuance."
+ },
+ {
+  "text": "it is obvious that the european economy is constantly being hit by macro shocks the war in ukraine and the energy crisis we are currently experiencing are just two of them",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel likely interpreted 'war', 'energy crisis', 'macro shocks' as inflationary pressures requiring tightening (hawkish), but the dataset codes negative-shock acknowledgements as dovish (economy needs support). Current-conditions reference to shocks anchored Abel the wrong way."
+ },
+ {
+  "text": "provocative question number 3 to what extent might the invocation of manual procedures in protracted outage scenarios exacerbate rather than assuage from a financial stability perspective",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "A speculative operational-resilience question that Abel read as hawkish concern about stability risks, but the dataset codes such open questions as dovish (acknowledging complexity/limits). Missing operational-risk node caused the wrong polarity."
+ },
+ {
+  "text": "4 of course on top of these potential\nreturns there was also a question of exchange rate expectations and we will return to this issuewhen we look at reasons for the volatility of flows",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Volatility of flows' and 'exchange rate expectations' fired Abel's hawkish FX-vigilance, but the passage is a discursive academic setup coded dovish. Over-activation on volatility keywords without context."
+ },
+ {
+  "text": "however i would restrict myself to sharing my thoughts in terms of next issues and \nthat too to the banking system which are somewhat already visible in the global financial \nfirmament",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "A hedged, restrained preamble that is fundamentally dovish in tone ('restrict myself', 'sharing thoughts'), but Abel fired hawkish on 'banking system' and 'global financial firmament'. The blanket missed the explicitly cautious speech-act framing."
+ },
+ {
+  "text": "the flip side of digital assets are however their inherent risks which as just demonstrated by the collapse of ftx can have farreaching implications for their very markets and eventually spill over to",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'FTX collapse', 'inherent risks', 'spill over' triggered Abel's hawkish risk reflex, but warning about spillovers to the real economy is dovish (implying monetary caution needed). Missing crypto/digital-asset node so Abel applied generic risk-equals-tightening heuristic."
+ },
+ {
+  "text": "in the particular case of internal models used to calculate regulatory capital requirements it could result in insufficient capital to protect policyholders",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel read 'regulatory capital requirements' and 'insufficient capital' as hawkish prudential language, but the sentence is a warning that internal models are too lax - a dovish critique of regulatory practice coded dovish here. The Markov blanket cannot see model-risk nuance."
+ },
+ {
+  "text": "the costs are particularly related to financial stability",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "A terse, content-light fragment where Abel latched onto 'financial stability' as hawkish vigilance, but the dataset codes such 'costs' acknowledgements as dovish (recognition of tradeoffs). Without fuller context, the blanket defaulted to the risk-management frame."
+ },
+ {
+  "text": "the second factor is high uncertainty in the global commodity markets first of all the oil market",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel likely fired hawkish on 'high uncertainty' and 'oil market' treating commodity volatility as an inflation threat, but the dataset codes uncertainty acknowledgements as dovish (argues for cautious policy). Keyword-triggered inflation/commodity reflex."
+ },
+ {
+  "text": "ft a couple of other questions one is the banking union because in addition to all the \nquestions that we ve just discussed these huge challenges for the eurozone and for the \necb now you re going to ",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Huge challenges for the eurozone and ECB' is a dovish framing (policy faces constraints), but Abel read 'challenges' as hawkish vigilance. The interview cue 'a couple of other questions' should signal conversational hedging rather than tightening intent."
+ },
+ {
+  "text": "financial stability on the other hand is significantly fuzzier as it deals with preventing the accumulation of systemic risks the buildup of asset price persistent misalignments that some call bubbles",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel fired on 'systemic risks', 'bubbles', 'asset price misalignments' as hawkish vigilance, but the speaker is stressing how fuzzy/uncertain financial-stability is - a dovish argument against aggressive leaning against the wind. Missing meta-commentary node."
+ },
+ {
+  "text": "the second risk is the longterm fiscal position of the united states",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel likely inferred fiscal concern equals tightening bias, but the dataset codes downside-risk listing as dovish (risks to outlook = easing bias). Missing fiscal-sustainability channel to monetary policy in the blanket."
+ },
+ {
+  "text": "on the one hand there is the question of whether and how financial stability concerns should enter the monetary policy decision process",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "A meta-policy open question that Abel interpreted as hawkish lean-against-the-wind advocacy, but the framing is explicitly agnostic and hedged, coded dovish. The Markov blanket has no way to mark rhetorical 'on the one hand' as exploratory rather than committal."
+ },
+ {
+  "text": "where forecasts turn out to be wrong even if for completely \nunforeseeable reasons the central banks credibility could be impaired",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel read 'credibility could be impaired' as hawkish (need to act to preserve credibility), but the dovish reading stresses forecast fallibility and the limits of the central bank - a plea for humility/flexibility. Missing credibility-limits concept."
+ },
+ {
+  "text": "at the same time however it is acknowledged \nthat financial imbalances can generate sizable macroeconomic costs at times of crisis when \nthey can produce undesirable economic fluctuations ",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Financial imbalances', 'macroeconomic costs' fired Abel's hawkish vigilance, but the sentence is a concessive acknowledgement in a broader dovish argument. Abel cannot parse 'at the same time however it is acknowledged' as dovish concession."
+ },
+ {
+  "text": "as i noted earlier these defensive reactions by providers of repo finance mean that \nthe costs of fire sales are likely to be felt elsewhere in the financial system",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel latched onto 'fire sales', 'costs', 'financial system' as hawkish stability language, but warnings about spillover/fire-sale externalities in this dataset are dovish (argue for liquidity support). Missing repo-market plumbing concept."
+ },
+ {
+  "text": "a third factor may have been concerns that the relatively high interest rates offered by the icelandic banks might reflect underlying weakness",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'High interest rates' fired Abel's funds-rate node as hawkish, but the sentence interprets those high rates as weakness signals, which is a dovish diagnostic. Current-conditions anchoring on the rate level inverted the causal read."
+ },
+ {
+  "text": "in addition the incentives of national supervisors were often not aligned with the european financial stability objective",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel read 'supervisors' and 'financial stability objective' as hawkish tightening frame, but the sentence is a dovish critique of fragmented supervision and the need for better cooperation. Missing regulatory-architecture node."
+ },
+ {
+  "text": "the real economy would also be \nstimulated directly by the fact that exporting and importcompeting sectors would be affected \npositively by the shortterm real depreciation  that would arise due to the",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Stimulated', 'positively affected' and 'real depreciation' describe easing channels (dovish), but Abel likely fired on 'depreciation' as an inflation threat and went hawkish. Keyword-triggered wrong direction: exchange-rate depreciation read as inflationary rather than stimulative."
+ },
+ {
+  "text": "there are additional problems i would like to focus on because of prevailing primary law it is at least a questionable idea for the governing council to be able only to accept or reject \ndecision maki",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "A critical institutional-design paragraph coded dovish, but Abel fired on 'governing council' and 'decision making' as hawkish authority/policy language. The Markov blanket has no central-bank-governance node to register the institutional-critique tone."
+ },
+ {
+  "text": "a monetary policy that leans against the wind can entail costs in the form of lower demand and inflation in the short run",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel read 'monetary policy that leans against the wind' as hawkish, but the sentence points out the costs of tightening (lower demand, lower inflation) - a dovish critique of lean-against-the-wind. Failure to parse 'can entail costs' as the dovish pivot."
+ },
+ {
+  "text": "however if banks must pay a substantial \npenalty rate to acquire the extra liquidity they may find it unprofitable to extend loans to the troubled sector",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel fired hawkish on 'penalty rate' as tight policy, but the sentence is warning that penalty rates would reduce lending - a dovish argument against punitive liquidity pricing. Missing lender-of-last-resort concept to see the dovish lending-protection angle."
+ },
+ {
+  "text": "the rise in energy prices has slashed living standards inflation has become more broadbased and next years economic outlook is marked by uncertainty",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Inflation has become more broadbased' fired Abel's hawkish inflation-node response, but the dataset codes this cost-of-living concern with 'slashed living standards' as dovish (stagflation creates easing pressure). Keyword-triggered wrong direction dominated by the inflation mention."
+ },
+ {
+  "text": "part of the reason for that belief was that the \nauthorities would understand that t he macroeconomic effects of failing to maintain the exchange rate \npeg  one on which the entire financial structure",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel saw 'exchange rate peg', 'maintain', 'financial structure' and inferred tight commitment (hawkish), but the passage is explaining the fragility of the peg and costs of defending it (dovish). Exchange-rate-regime topic lies outside the Markov blanket."
+ },
+ {
+  "text": "information on the price expectations of businesses  who are after all the price setters in the first instance \n as well as information on nominal wage expectations is particularly scarce",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel fired hawkish on 'price expectations' and 'wage expectations' through the inflation node, but the speaker is confessing data scarcity - a dovish humility statement about policy knowledge. Missing data-uncertainty concept so inflation keywords dominated."
+ },
+ {
+  "text": "there are thus several signs of a development that is worrying from the view of\nfinancial stability",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel read 'worrying', 'financial stability' as hawkish vigilance signals, but in the dataset stability concerns flag the need for accommodative balance, hence dovish. Over-activation on worry/stability keywords."
+ },
+ {
+  "text": "there are numerous consequences that are worth pondering from a stability perspective  think for instance of the threat of a rapid disruption of business models or systemic operational risks",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Threat', 'systemic operational risks' fired Abel's hawkish defense response, but the speaker invites open pondering of consequences - a dovish, exploratory stance. Missing operational-technology node so the contemplative tone was overridden."
+ },
+ {
+  "text": "in midseptember 2019 upward pressures emerged in funding markets as reserves dropped to about 14 trillion or 66 percent of gdp at that time",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel read 'upward pressures', 'funding markets' as hawkish tightening signals, but the Sep-2019 repo spike is a dovish context (Fed had to inject liquidity). Current-conditions anchoring on the word 'pressures' flipped the polarity."
+ },
+ {
+  "text": "a second concern relates to the prospects for commodity prices particularly oil",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel fired hawkish via commodity-price-to-inflation chain, but the 'concern' framing is downside-risk language coded dovish here. Inflation-reflex triggered by 'oil' with no room for 'concern equals downside risk'."
+ },
+ {
+  "text": "a more cautionary finding is that the size of bank balance sheets tends to forecast aggregate economic volatility",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel fired hawkish on 'bank balance sheets' and 'volatility' as stability vigilance, but the sentence is a cautionary research finding that the dataset codes dovish (fragility implies need for accommodation). Missing financial-cycle node."
+ },
+ {
+  "text": "the reality it must deal is that the fiscal position is going to remain constrained  is that what you are saying",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel read 'constrained fiscal position' as a hawkish discipline statement, but this Q&A exchange frames fiscal constraint as a reason monetary needs to remain accommodative (dovish). Missing monetary-fiscal coordination node."
+ },
+ {
+  "text": "some people here on the continent who share this concern are inclined to argue that if a\neuroparticipating country were to find itself in this situation  and given that it would have nomacroeconomic w",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel likely fired hawkish on 'concern' and 'europarticipating' framing, but the passage sets up a dovish argument about lost macroeconomic tools within EMU. Missing EMU-optimum-currency-area concept."
+ },
+ {
+  "text": "since this would ultimately affect the public finances of the \nstates if it materialised it in turn increases concerns about the fiscal soundness of these countries creating a vicious circle",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Fiscal soundness', 'vicious circle' fired Abel's hawkish discipline trigger, but 'vicious circle' of sovereign-bank doom loop is a dovish argument for support rather than tightening. Missing sovereign-bank-nexus concept."
+ },
+ {
+  "text": "in addition the balance of payments bop crisis of 1991 led to sharp exchange rate devaluation which translated into increased costpush pressures on import sensitive products",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel read 'devaluation', 'costpush pressures' as inflationary (hawkish), but the historical narrative of a BoP crisis is coded dovish (past shock requiring accommodation). Current-conditions style anchoring on the inflation term misread a retrospective crisis account."
+ },
+ {
+  "text": "therefore the rise in pricesrelative to the external sector implies a loss of competitiveness for the economy",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel fired hawkish on 'rise in prices' via the inflation node, but the emphasis is on 'loss of competitiveness' - an output/growth concern coded dovish. Keyword-triggered wrong direction: inflation reflex dominated the competitiveness angle."
+ },
+ {
+  "text": "its clear that monetary authorities need to be concerned about financial instability which as the past two years have taught us can threaten price stability due to the recessionary consequences for th",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel read 'need to be concerned about financial instability' as hawkish vigilance, but the sentence explicitly warns of 'recessionary consequences' - a dovish argument for supporting stability. Missing recession-channel from instability to easing."
+ },
+ {
+  "text": "bis review 182008 9\n hence while gross financial savings of the household sector have continued their upward \ntrajectory in the recent few years households financial liabilities have also been increas",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel possibly fired hawkish on 'upward trajectory' and 'liabilities also increasing' reading as credit expansion, but the household-leverage concern is dovish (vulnerability, precautionary stance). Missing household-balance-sheet node."
+ },
+ {
+  "text": "i tell myself we could imagine situations in which the same narrative  invoking structural forces to justify a monetary policy stance that tolerates a sustained deviation from the objective for too lo",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel fired on 'deviation from the objective' as a hawkish credibility defense, but the speaker is entertaining the possibility of tolerating deviation - a dovish concession. Abel cannot parse the first-person reflection as hedged rather than committal."
+ },
+ {
+  "text": "several idiosyncratic factors are put forward to explain this \nuniqueness of our macroeconomic situation supply bottlenecks particularly in infrastructure bis central bankers speeches  5 \n sectoral im",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Supply bottlenecks' fired Abel's hawkish inflation-pressure trigger, but the explanation of idiosyncratic supply issues is dovish (inflation not demand-driven, should not tighten). Missing supply-vs-demand inflation distinction in the blanket."
+ },
+ {
+  "text": "so unless\nproductivity accelerates further its disinflationary effect should continue to erode for a time",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel likely fired hawkish on 'disinflationary effect should continue to erode' reading it as rising inflation pressure, but 'productivity accelerating' and the cautious framing are dovish. Abel read the double-negative wrong - erosion of disinflation is not the same as active hawkish inflation risk here."
+ },
+ {
+  "text": "the implications of these shortcomings can easily spiral beyond control",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel triggered hawkish on 'spiral beyond control' as a vigilance cue, but the warning is a dovish plea for caution/precaution rather than tightening. Missing tail-risk/precaution concept - the blanket converts 'spiral' into inflation-control urgency."
+ },
+ {
+  "text": "eventuallyhowever the stagflation that marked the 1970s caused both the objective of policy and itsimplementation to be reassessed",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "'Stagflation' fired Abel's hawkish inflation-history reflex, but this is a descriptive historical passage about policy reassessment, coded dovish. Keyword-triggered wrong direction, with '1970s stagflation' pulling Abel into Volcker-mode tightness."
+ },
+ {
+  "text": "in almost all the recent crises the economic policy errors seem to have been the same\ngb7 a long period of fixed exchange rates followed by a loss of external competitiveness a rise\nin interest rates ",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel read 'rise in interest rates' and 'fixed exchange rates' as hawkish policy stance language, but the passage criticizes these as policy errors (dovish retrospective). Current-conditions anchoring on rate level missed the 'errors' framing."
+ },
+ {
+  "text": "the changes are not very large but to datevarious indicators including the continued undervaluation of the krona do point in the samedirection",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel likely fired hawkish on 'undervaluation of the krona' via the exchange-rate-to-inflation channel, but the overall tone ('not very large') and undervalued-currency narrative are dovish. Over-reading a small observational update as policy-action signal."
+ },
+ {
+  "text": "the relatively high current \ndeficit around 76 percent of gdp is another argument in this regard",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel read 'high current deficit, 76 percent of GDP' as a hawkish imbalance signal, but a current-account deficit of that size is a vulnerability that argues for caution (dovish). Missing external-imbalance-to-vulnerability channel."
+ },
+ {
+  "text": "the downward slope of the curve arises basically becauseof the presence of money illusion and expected inflation deviating from actual inflation",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel fired hawkish on 'expected inflation' via the inflation node, but this is a technical Phillips-curve description coded dovish (implies tradeoff available). Keyword-triggered wrong direction from the word 'inflation' within academic discussion."
+ },
+ {
+  "text": "this is likely due to a more backwardlooking approach in the formation of expectations and to the considerable weight of the most volatile components of inflation in the consumption basket of the less",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel fired hawkish on 'inflation', 'volatile components' in a pure inflation-node reflex, but the passage explains heterogeneity in expectation formation - a dovish technical nuance. Over-triggered on inflation-specific vocabulary without parsing the behavioral-economics context."
+ },
+ {
+  "text": "when this happens this could have adverse consequences on our price and financial stability objectives and ultimately on the countrys growth momentum",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel fired hawkish on 'price and financial stability objectives' as a vigilance signal, but warning of 'adverse consequences on growth momentum' is a dovish downside-risk framing. Failed to weight 'growth momentum' concern over the stability-objectives phrasing."
+ },
+ {
+  "text": "on the other hand publicpolicy will have to confront genuine and significant problems when these become clear and are notselfcorrecting",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel read 'confront problems' as hawkish action, but the conditional ('when these become clear') and the 'not self-correcting' qualifier amount to a dovish high-bar-for-action stance. Abel cannot parse 'only act when problems are clearly non-self-correcting' as the dovish patience message."
+ },
+ {
+  "text": "second and more fundamentally i worry that this binary approach to monetary policy \ncredibility  credible or not credible anc hored or deanchored  misses the key risk to \ninflation expectations",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel fired hawkish on 'inflation expectations' and 'anchored or deanchored', but the speaker is critiquing the binary credibility frame - a dovish nuance that argues against reflexive tightening. Missing meta-policy node."
+ },
+ {
+  "text": "without this policy measure the extreme over valuation of the swiss franc and its volatility \nwould probably have persisted",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel likely read 'policy measure', 'over valuation' and 'volatility' as hawkish intervention language, but the statement defends the dovish easing action (minimum exchange rate / unconventional accommodation). Missing unconventional-FX-intervention concept."
+ },
+ {
+  "text": "the risks to the projection are judged to be symmetric and primarily relate to trends in the international financial and commodity markets and the spillover effect of global oil prices on the prices o",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel fired hawkish on 'global oil prices' and 'international financial markets' as inflation-pressure signals, but 'risks judged to be symmetric' is classic dovish balanced-risk language. Symmetric risk framing is outside the Markov blanket."
+ },
+ {
+  "text": "frankly it would be difficult to make a binary distinction between micro prudential and \nmacro prudential policies  ultimately all macro risks translate into micro risks for financial institutions",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel read 'prudential policies', 'macro risks', 'financial institutions' as hawkish regulatory language, but the speaker is making a blurring/integration argument coded dovish (less need for aggressive monetary lean-against-the-wind). Missing regulatory-architecture node."
+ },
+ {
+  "text": "rather cost push shocks provide a source of inflation which \nis important for monetary policymakers to know but  which is not mirrored by the natural rate of \ninterest",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel fired hawkish on 'cost push shocks' and 'source of inflation', but the sentence explicitly says this type of inflation is 'not mirrored by natural rate' - a dovish argument for not reacting. Abel cannot parse 'know about but do not respond to' as the dovish policy inference."
+ },
+ {
+  "text": "in essence those that are sceptical about the new currency have two concerns first they are worried that the changeover might lead to price increases second they are afraid that their country might lo",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel fired hawkish on 'price increases' via the inflation node, but the passage is describing EMU skeptics' concerns neutrally - a dovish reporting frame rather than a committal stance. Keyword-triggered wrong direction from the word 'price increases'."
+ },
+ {
+  "text": "both upside and downside risks currently coexist in the us economy surrounding the inflation \nsituation and the economic growth rate respectively",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel weighed 'upside risks to inflation' as hawkish, but the explicit 'upside and downside coexist' is balanced-risk language coded dovish. Symmetric-risks framing not represented in the Markov blanket."
+ },
+ {
+  "text": "so in times of crisis the apparently greater monetary policy freedom with a higher inflation \nrate would be illusory",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel fired hawkish on 'higher inflation rate', but the speaker is arguing that the freedom from higher inflation is 'illusory' - a dovish, skeptical qualification of tightening benefits. Failed to parse 'illusory' as the key polarity-flipping word."
+ },
+ {
+  "text": "as a \nresult net interest earnings would fall due to the increase in interest cost",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel fired hawkish on 'increase in interest cost' as tightening language, but the sentence describes falling net interest earnings - a dovish bank-profitability concern. Missing bank-NIM-compression channel."
+ },
+ {
+  "text": "we have been highlighting this risk to the outlook for the past two years",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel fired hawkish on 'risk to the outlook' as vigilance cue, but this is a persistent-downside-risk statement coded dovish (long-standing concern implies easing stance). Over-activation on 'risk' without parsing the 'two years of concern' dovishness."
+ },
+ {
+  "text": "in addition \nlarge gross capital inflows raise concerns from a financial stability perspective an issue to which i will turn next",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel read 'capital inflows' and 'financial stability' as hawkish concerns about overheating, but in EME context this raises concerns about currency appreciation and volatility - dovish. Missing capital-flows-to-EME-vulnerability channel."
+ },
+ {
+  "text": "on the other hand the impact of inflation on the expenditure will be lagged including that stemming from the rise in interest rates",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel fired hawkish on both 'inflation' and 'rise in interest rates', but the 'lagged impact' framing is a dovish patience message - tightening is still feeding through, so no need to do more. Current-conditions anchoring on rate hikes rather than their delayed drag."
+ },
+ {
+  "text": "on closer inspe ction however one se es that the specifica tions of these models \ntypically ignore important factors be aring on the inflation out look",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel fired hawkish on 'inflation outlook' via the inflation node, but the sentence critiques model limitations - a dovish argument for humility. Keyword-triggered inflation reflex overrode the methodological-critique frame."
+ },
+ {
+  "text": "on the other hand some changes drive prices away  from fundamentals",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel read 'prices away from fundamentals' as a hawkish misalignment/vigilance signal, but this is a market-efficiency caveat coded dovish (recognition of noise/frictions, not call to tighten). Missing market-microstructure concept."
+ },
+ {
+  "text": "nevertheless the end of 2022 is proving a really challenging one mainly due to the huge shock on commodity prices of energy oil and gas in particular",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel fired hawkish on 'commodity prices, energy, oil, gas' via the inflation node, but the dataset codes the energy shock as a dovish negative-supply-shock acknowledgement (argues against over-tightening demand). Keyword-triggered wrong direction from the 2022 energy-crisis vocabulary."
+ },
+ {
+  "text": "higher interest rates contribute in isolation to krone appreciation and to lower profitability in the internationally exposed sector",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel fired hawkish on 'higher interest rates' via the funds-rate node, but the sentence highlights the costs of higher rates (krone appreciation, lower profitability) - a dovish argument against aggressive tightening. Current-conditions anchoring on the rate level missed the side-effect critique."
+ },
+ {
+  "text": "there are significant risks and policy challenges in the \nhorizon for the finnish economy",
+  "claude_answer": "dovish",
+  "abel_answer": "hawkish",
+  "ground_truth": "dovish",
+  "llm_diagnosis": "Abel read 'significant risks and policy challenges' as hawkish vigilance, but the forward-looking downside-risk language is coded dovish (easing bias implied). Over-activation on 'risks' without recognizing that 'horizon' + 'challenges' is standard dovish caution."
+ }
+]
